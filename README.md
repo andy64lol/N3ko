@@ -16,7 +16,7 @@ N3ko does not require installation. Simply include the script in your project:
 ```html
 <!-- Example using the Nyah model of N3ko,our most advanced model at the moment. -->
 
-<script type="module" src="N3ko_Nyah_model_.js"></script>
+<script type="module" src="https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/N3ko_Nyah_model_.js"></script>
 ```
 
 ## Usage
