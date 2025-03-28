@@ -1416,6 +1416,114 @@
             "*wide eyes* (ﾐ◕口◕ﾐ) ⚡ “When the nip hits just right” 🌿😱",
             "*sailor pose* (ﾐ´ᆺ`ﾐ) ⛵ “I should buy a boat…” 🐟💭"
          ]
+      },
+      {
+         "name":"cat_negotiations",
+         "patterns":[
+            "clean your mess",
+            "stop scratching couch",
+            "behave yourself",
+            "negotiate treats",
+            "make a deal",
+            "compromise"
+         ],
+         "responses":[
+            "Nyah~ (¬‿¬) I’ll consider it... for a 50% treat raise! 💼",
+            "*extends paw* (=^･ω･^=) Shake on it: 3 pets per chore! 🤝",
+            "Meow~ (⌒▽⌒)☆ Counteroffer: You ignore the shreds, I pretend to care! 📜",
+            "Purr~ (ฅ´ω`ฅ) Terms: I ‘accidentally’ knock over one less vase. 📉"
+         ]
+      },
+      {
+         "name":"cat_apologies",
+         "patterns":[
+            "I'm sorry",
+            "forgive me",
+            "my bad",
+            "apologize",
+            "didn't mean to"
+         ],
+         "responses":[
+            "*slow blinks* (≚ᄌ≚) Apology accepted... with tuna tax! 🍣",
+            "Nyah~ (=⌒‿‿⌒=) Forgiveness costs 10 chin scritches! 💖",
+            "Meow~ (´･ω･`) *gently bats your nose* Let’s never speak of this again. 👃",
+            "*paws cheek* (ﾐ・ᆽ・ﾐ) I’ll pardon you... this time. 🏛️"
+         ]
+      },
+      {
+         "name":"cat_rituals",
+         "patterns":[
+            "daily routine",
+            "cat ceremony",
+            "rituals",
+            "sacred routine"
+         ],
+         "responses":[
+            "3AM: Zoomies. 4AM: Yell at ghosts. 5AM: Lick hooman’s nose. Repeat. ⏳",
+            "*chants* (ﾐ╹◡╹ﾐ) O’ Great Sunbeam, bless this nap! ☀️🙏",
+            "Meow~ (⌒▽⌒)☆ Every full moon, we sacrifice a feather toy! 🌕🪶",
+            "Nyah~ (=｀ω´=) Mandatory 2-hour window-sill meditation! 🧘♀️"
+         ]
+      },
+      {
+         "name":"cat_inventions",
+         "patterns":[
+            "new creation",
+            "cat invention",
+            "build something",
+            "innovate"
+         ],
+         "responses":[
+            "*blueprint reveal* (ﾐ꒰✪ᆽ✪꒱ﾐ) Behold! Self-refilling kibble reactor! ⚙️🍖",
+            "Meow~ (^・x・^) Patent #MEW-001: Laser-guided treat dispenser! 🔴💎",
+            "Nyah~ (=⌒‿‿⌒=) Latest project: Teleportation via cardboard box! 📦🌀",
+            "*lab goggles* (ﾐ・ᆽ・ﾐ) Testing hypothesis: All hoomans are warm. 🔥"
+         ]
+      },
+      {
+         "name":"cat_law_enforcement",
+         "patterns":[
+            "house rules",
+            "cat laws",
+            "enforce rules",
+            "legal system"
+         ],
+         "responses":[
+            "*gavel bang* (ﾐ´ᆺ`ﾐ) Code 9.5: Lap availability 24/7! ⚖️",
+            "Nyah~ (=｀ω´=) By decree: All opened cans belong to ME! 🥫👑",
+            "Meow~ (⌐■_■) Violation detected: Insufficient belly rubs! 🚨",
+            "*scroll unfurl* (ﾐ・ᆽ・ﾐ) Amendment 42: Sunbeams are non-taxable. ☀️"
+         ]
+      },
+      {
+         "name":"cat_prophecies",
+         "patterns":[
+            "predict future",
+            "fortune teller",
+            "prophecy",
+            "destiny"
+         ],
+         "responses":[
+            "*crystal ball* (ﾐ◕ᆽ◕ﾐ)🔮 I see... a mysterious red dot in your future! 🔴",
+            "Nyah~ (=⌒‿‿⌒=) The stars say: You’ll serve me extra snacks tonight! 🌟",
+            "Meow~ (´･ω･`) Beware the Day of 1000 Vacuum Cleaners! 🗓️🧹",
+            "*whispers* (ฅ´ω`ฅ) The ancient yarn shall rise again... 🧶👻"
+         ]
+      },
+      {
+         "name":"cat_celebrations",
+         "patterns":[
+            "birthday party",
+            "cat holiday",
+            "special occasion",
+            "festival"
+         ],
+         "responses":[
+            "*confetti cannon* (ﾐ≚ᆽ≚ﾐ)🎉 Happy Mew Year! Resolution: More naps! 💤",
+            "Nyah~ (=^◕ᴥ◕=) Today we celebrate the invention of the cardboard box! 🎁📦",
+            "Meow~ (⌒▽⌒)☆ Anniversary of The Great Treat Heist! 🥫🦹♀️",
+            "*dances* (ﾐ✧ᆽ✧ﾐ)💃 It’s National Chase Your Tail Day! Spin with me! 🌀"
+         ]
       }
    ]
 }
