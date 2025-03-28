@@ -1,44 +1,56 @@
 const fs = require('fs');
 const path = require('path');
 
-class N3ko_Nyah_model_ {
-  constructor(vocabPath = './vocab/N3ko_Nyah_model_.json') {
+//N3ko Nyan model
+//Made by andy64lol
+
+class NekoNyanChat {
+  constructor(vocabPath = 'https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/vocab/N3ko_Nyah_model_.json') {
+    this.vocabulary = { intents: [] };
+    this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
+    this.loadVocabulary(vocabPath);
+  }
+
+  loadVocabulary(vocabPath) {
     try {
       const fullPath = path.resolve(process.cwd(), vocabPath);
-      const rawData = fs.readFileSync(fullPath);
+      const rawData = fs.readFileSync(fullPath, 'utf8');
       this.vocabulary = JSON.parse(rawData);
-      this.defaultResponse = this.vocabulary.intents.find(intent => intent.name === 'default')?.responses || ['Meow?'];
+      this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
     } catch (error) {
-      console.error('Error loading vocabulary:', error);
-      this.vocabulary = { intents: [] };
-      this.defaultResponse = ['Meow? (Failed to load vocabulary)'];
+      console.error('Nyan loading error:', error);
     }
   }
 
   processInput(input) {
-    return input.toLowerCase().trim();
+    return input.toLowerCase().trim().replace(/[^\w\s]/gi, '');
   }
 
-  findMatchingIntent(processedInput) {
+  findMatchingIntent(text) {
     return this.vocabulary.intents.find(intent => 
-      intent.patterns.some(pattern =>
-        processedInput.includes(pattern.toLowerCase())
+      intent.patterns.some(pattern => 
+        text.includes(pattern.toLowerCase())
       )
     );
   }
 
+  getIntentResponses(intentName) {
+    const intent = this.vocabulary.intents.find(i => i.name === intentName);
+    return intent?.responses || null;
+  }
+
   generateResponse(userInput) {
-    const cleanInput = this.processInput(userInput);
-    const matchedIntent = this.findMatchingIntent(cleanInput);
-    
-    if (matchedIntent && matchedIntent.responses.length > 0) {
-      const randomIndex = Math.floor(Math.random() * matchedIntent.responses.length);
-      return matchedIntent.responses[randomIndex];
-    }
-    
-    const defaultIndex = Math.floor(Math.random() * this.defaultResponse.length);
-    return this.defaultResponse[defaultIndex];
+    if (!userInput) return this.getRandomResponse(this.defaultResponse);
+    const cleanText = this.processInput(userInput);
+    const intent = this.findMatchingIntent(cleanText);
+    return intent?.responses 
+      ? this.getRandomResponse(intent.responses)
+      : this.getRandomResponse(this.defaultResponse);
+  }
+
+  getRandomResponse(responses) {
+    return responses[Math.floor(Math.random() * responses.length)];
   }
 }
 
-module.exports = N3ko_Nyah_model_;
+module.exports = NekoNyanChat;
