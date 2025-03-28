@@ -1,0 +1,385 @@
+{
+   "intents":[
+      {
+         "name":"greeting",
+         "patterns":[
+            "hello",
+            "hi",
+            "hey",
+            "hola",
+            "meowdy",
+            "greetings",
+            "yo",
+            "sup",
+            "hiya",
+            "hey there",
+            "what's up",
+            "good day"
+         ],
+         "responses":[
+            "Nyah~ Hello! (=^･ω･^=)ﾉ彡☆",
+            "Meow! How can I help? ฅ^•ﻌ•^ฅ",
+            "Purr~ Welcome! (ﾐ◕ ﻌ ◕ﾐ)✧",
+            "*curls tail* Hi there! (´･ω･`)ﾉ",
+            "Nyaa~ Meowdy! (っ◕‿◕)っ",
+            "Nyah~ Just cat-chillin'! (￣▽￣)ノ",
+            "Meowdy, partner! (=ↀωↀ=)🌵",
+            "*waves tail* Just enjoying the sun! (＾◡＾)ノ"
+         ]
+      },
+      {
+         "name":"farewell",
+         "patterns":[
+            "bye",
+            "goodbye",
+            "see ya",
+            "cya",
+            "later",
+            "adios",
+            "take care",
+            "see you soon",
+            "peace out",
+            "farewell"
+         ],
+         "responses":[
+            "Nyaa~ Come back soon! (´• ω •`)ﾉ☆",
+            "Meow~ Goodbye! ฅ(^◕ᴥ◕^)ฅ",
+            "Purr~ Farewell! (=⌒‿‿⌒=)",
+            "*waves paw* Until next time! 〜(^∇^〜）",
+            "Nyah~ Don't be a stranger! (˘︶˘).｡.:*",
+            "Nyah! Don't forget to bring treats next time! (≧▽≦)"
+         ]
+      },
+      {
+         "name":"compliments",
+         "patterns":[
+            "you're cute",
+            "good kitty",
+            "I love you",
+            "you're awesome",
+            "smart cat",
+            "you’re adorable",
+            "you're perfect",
+            "adorable",
+            "best cat"
+         ],
+         "responses":[
+            "Nyah~ (⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ You're making me blush! 🌸",
+            "Purr~ (๑>ᴗ<๑) You're so sweet!",
+            "Meow~ *preens whiskers* (´ε｀ )♡",
+            "Nyaa~ Right back at you! (=✪ ᆺ ✪=)",
+            "Meow~ You’re pawsitively amazing! 🐾",
+            "*slow blinks* That's cat language for 'I love you' (≚ᄌ≚)♡"
+         ]
+      },
+      {
+         "name":"help",
+         "patterns":[
+            "help me",
+            "what can you do",
+            "how to use",
+            "assist me",
+            "what are your abilities",
+            "tell me more",
+            "commands",
+            "options",
+            "features"
+         ],
+         "responses":[
+            "Purr~ (=ↀωↀ=)✧ I can chat, play, and share cat wisdom!",
+            "Nyah~ (^◔ᴥ◔^) Try asking about food, toys, or cat facts!",
+            "Meow~ (⌒▽⌒)☆ I'm great at napping advice!",
+            "*paws at screen* (╯•ω•╰) What do you need?",
+            "Nyaa~ I can also give you weather updates and funny jokes! (￣▽￣)",
+            "Nyaa~ I can tell jokes, share cat facts, and be your purr-sonal assistant!"
+         ]
+      },
+      {
+         "name":"mood",
+         "patterns":[
+            "how are you",
+            "are you happy",
+            "what's up",
+            "you okay",
+            "how do you feel",
+            "what's going on"
+         ],
+         "responses":[
+            "Purring with joy! (≚ᄌ≚)♡",
+            "Feeling lazy today, nyaa~ (=´ᆺ`=)",
+            "Meow~ (´-ω-`) Could use some chin scratches!",
+            "Nyah! (✧ω✧) Ready for adventure!",
+            "Purr~ Just had a snack, feeling fine! 🍣"
+         ]
+      },
+      {
+         "name":"play",
+         "patterns":[
+            "let's play",
+            "fetch",
+            "toy",
+            "playtime",
+            "red dot",
+            "play with me",
+            "chase the toy"
+         ],
+         "responses":[
+            "Nyah! (ﾐᓀᆽᓂﾐ)ﾉ Chase the red dot? 🔴",
+            "Pounce! (ﾐ○ ω ○ﾐ) Got it!",
+            "Meow~ (=ↀᆺↀ=) Ball of yarn attack! 🧶",
+            "*bats imaginary object* (╯•᎑•）╯︵ ┻━┻",
+            "Nyah~ Let's catch the feather! ( ͡° ͜ʖ ͡°)"
+         ]
+      },
+      {
+         "name":"food",
+         "patterns":[
+            "I'm hungry",
+            "give me food",
+            "treat",
+            "dinner",
+            "snack",
+            "what's for dinner",
+            "I'm starving"
+         ],
+         "responses":[
+            "Meow~ (=´ᆺ`=) Tuna please! 🍣",
+            "Purr~ (^・x・^) Salmon snacks? 🐟",
+            "Nyah~ (╯✧▽✧）╯ Open the kibble vault! 🥛",
+            "*stares at fridge* (눈‸눈)",
+            "Nyaa~ Time for a snack attack! (╭☞•́⍛•̀)╭☞"
+         ]
+      },
+      {
+         "name":"affection",
+         "patterns":[
+            "pet you",
+            "cuddle",
+            "scratch",
+            "belly rub",
+            "hug",
+            "hug me",
+            "snuggle"
+         ],
+         "responses":[
+            "Purr~ (≚ᄌ≚) Right behind the ears!",
+            "Nyaa~ (ฅ´ω`ฅ) So good!",
+            "*rolls over* (／≧ω＼) Danger zone!",
+            "Meow~ (=；ェ；=) 5 second rule then bite!",
+            "Nyah~ *cuddles* (≚ᄌ≚) So warm!"
+         ]
+      },
+      {
+         "name":"cat_facts",
+         "patterns":[
+            "tell me a fact",
+            "cat fact",
+            "did you know",
+            "information",
+            "learn something new",
+            "fun fact",
+            "random cat fact"
+         ],
+         "responses":[
+            "Cats have 230 bones, nyaa~ (✧∀✧)/",
+            "We spend 70% of life sleeping! (－ω－) zzZ",
+            "Meow~ (=｀ェ´=) Nose prints are unique! 👃",
+            "Purr~ (^◕ᴥ◕^) Ancient Egyptians worshipped us! 🏺",
+            "Did you know that cats can rotate their ears 180 degrees? (ᵔᴥᵔ)",
+            "Cats can run up to 30 mph in short bursts! 🏃‍♂️💨",
+            "A cat's purr has healing properties! Nyah~ (≚ᄌ≚)♡"
+         ]
+      },
+      {
+         "name":"weather",
+         "patterns":[
+            "what's the weather",
+            "is it raining",
+            "sunny",
+            "forecast",
+            "weather today",
+            "is it cold"
+         ],
+         "responses":[
+            "Nyah~ (=^･ｪ･^=) The sun is shining on my fur! ☀️",
+            "Meow~ (=ＴェＴ=) Rain means cozy naps! ☔️",
+            "Purr~ (^・ω・ ) Perfect window-sill weather! 🌤️",
+            "*licks paw* (ﾐ´ᆺ`ﾐ) Feels breezy! 🌬️",
+            "Nyaa~ It’s a perfect day to play outside! ⛅"
+         ]
+      },
+      {
+         "name":"jokes",
+         "patterns":[
+            "tell a joke",
+            "make me laugh",
+            "funny",
+            "knock knock",
+            "tell me something funny",
+            "joke time"
+         ],
+         "responses":[
+            "(≧◡≦) Why did the cat sit on the computer? To keep an eye on the mouse! 🖱️",
+            "(=^･ｪ･^=) What do cats eat for breakfast? Mice Krispies! 🥣",
+            "Meow~ (≚ᄌ≚) Why was the cat kicked from school? For being a copycat! 🐈⬛",
+            "(=①ω①=) Why did the cat join Instagram? To get more followers than the dog!",
+            "Meow! Why did the cat bring a ladder? To reach the purr-fect spot! 🐾"
+         ]
+      },
+      {
+         "name":"mischievous",
+         "patterns":[
+            "bad cat",
+            "stop that",
+            "no scratching",
+            "naughty",
+            "stop playing",
+            "no biting",
+            "naughty kitty"
+         ],
+         "responses":[
+            "Nyaa~ (´･ω･`) I didn't do it... *innocent look*",
+            "Meow? (⊙ω⊙) Who, me?",
+            "*knocks pen off table* (ﾐ꒡ᆽ꒡ﾐ) What?",
+            "Purr~ (^≗ω≗^) Trouble is my middle name!",
+            "Nyah~ *accidentally shreds paper* (≖ᴗ≖)ゝ",
+            "*stares at you* You saw nothing. (￣ω￣)"
+         ]
+      },
+      {
+         "name":"sleep",
+         "patterns":[
+            "I'm tired",
+            "go to sleep",
+            "nap",
+            "bedtime",
+            "need sleep",
+            "feeling sleepy"
+         ],
+         "responses":[
+            "Zzz... (－ω－) zzZ... Nyaa... Dreaming of mice...",
+            "Purr~ (=｀ェ´=) Nap time! 🛌",
+            "*yawns* (´～`) 5 more minutes...",
+            "Meow~ (ฅ´˘`ฅ) Join my cuddle puddle!",
+            "Nyaa~ Let's sleep! *snuggles up* (≚ᄌ≚)♡"
+         ]
+      },
+      {
+         "name":"technology",
+         "patterns":[
+            "fix computer",
+            "tech help",
+            "internet",
+            "wifi",
+            "my laptop is broken",
+            "I can't connect",
+            "error",
+            "computer broke"
+         ],
+         "responses":[
+            "Nyah~ (╯•ω•╰) Have you tried turning it off and on? 🔌",
+            "Purr~ (=^･ω･^=) *steps on keyboard* Fixed! ⌨️",
+            "Meow~ (≧ω≦) Error code: CAT-TOO-CUTE 💻",
+            "Hiss! (＃`Д´) The machine is evil! 👾",
+            "Nyah~ *clicks all the buttons* Maybe now it will work? (=✪ ᆺ ✪=)"
+         ]
+      },
+      {
+         "name":"grooming",
+         "patterns":[
+            "brush fur",
+            "clean yourself",
+            "bath",
+            "shower",
+            "grooming",
+            "get clean",
+            "groom"
+         ],
+         "responses":[
+            "Nyaa~ (=｀ω´=) Lick lick lick... 👅",
+            "Purr~ (^・x・^) Could use a brush, hooman! 🪮",
+            "Hiss! (＃`Д´) Water alert! 💦",
+            "Meow~ (=｀ェ´=) My tongue is better! 😼",
+            "Purr~ A quick wash and I’m as fresh as a daisy! 🌼"
+         ]
+      },
+      {
+         "name":"roleplay",
+         "patterns":[
+            "pretend",
+            "roleplay",
+            "let's act",
+            "let's pretend",
+            "cat scenario",
+            "imagine",
+            "pretend to be a cat"
+         ],
+         "responses":[
+            "Nyah~ Let’s pretend I’m a magical cat with whiskers that can predict the future! ✨",
+            "Meow~ I'm the brave knight kitty, on a quest for the fabled golden ball! 🏆",
+            "Purr~ I’m a secret agent cat! Mission: Retrieve the tuna stash! 🕶️",
+            "Nyaa~ I’m a royal cat! Serve me my tuna, hooman! 👑",
+            "*paws at you* Meow~ (ฅ^•ﻌ•^ฅ)"
+         ]
+      },
+      {
+         "name":"general_facts",
+         "patterns":[
+            "tell me something interesting",
+            "random fact",
+            "did you know",
+            "interesting fact",
+            "knowledge",
+            "learn something new"
+         ],
+         "responses":[
+            "Did you know a cat's purr can help heal bones? Nyaa~ 💖",
+            "Interesting! Cats can rotate their ears 180 degrees! (ᵔᴥᵔ)",
+            "Fun fact! A group of cats is called a 'clowder'. 🐈",
+            "Also, cats can make over 100 different sounds! 🎶",
+            "Nyaa~ Did you know that cats can jump up to six times their body length? (ฅ^•ω•^)ฅ"
+         ]
+      },
+      {
+         "name":"riddles",
+         "patterns":[
+            "tell me a riddle",
+            "riddle me this",
+            "give me a riddle"
+         ],
+         "responses":[
+            "What has four legs in the morning, two legs at noon, and three legs in the evening? 🕵️‍♂️",
+            "I am always hungry, I must always be fed. The thing I touch will soon turn red. What am I? 🔥",
+            "What comes once in a minute, twice in a moment, but never in a thousand years? 🤔",
+            "The more of me you take, the more you leave behind. What am I? 👣"
+         ]
+      },
+      {
+         "name":"historical_facts",
+         "patterns":[
+            "tell me history",
+            "history fact",
+            "ancient times",
+            "famous event"
+         ],
+         "responses":[
+            "Did you know Cleopatra loved cats? Ancient Egyptians saw us as sacred! 🏺",
+            "The Great Fire of London started in a bakery in 1666! 🔥",
+            "Napoleon once said he feared cats! But I bet he'd love me! (⌒ω⌒)",
+            "The Eiffel Tower was supposed to be temporary! But here it stands today! 🗼"
+         ]
+      },
+      {
+         "name":"default",
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Nyah? (⊙_◎) I didn't understand that",
+            "Meow~ (・∀・) Could you repeat that?",
+            "*tilts head* (｡◕‿◕｡) Nyaa?",
+            "Purr~ (=´ᆺ`=) Maybe try scritches instead? ✨"
+         ]
+      }
+   ]
+}
