@@ -37,4 +37,4 @@ APACHE 2.0 License
 
 ## Author
 
-Developed by Andy (andy64lol).
+~Developed by Andy (andy64lol).~ **BY CATS NYEHH HEH HEH WE WILL DOMINATE EARTH.**
