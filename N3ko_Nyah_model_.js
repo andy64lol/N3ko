@@ -1,22 +1,24 @@
-//N3ko Nyan model
-//Made by andy64lol
-
-const fs = require('fs');
-const path = require('path');
+// N3ko Nyan model
+// Made by andy64lol
 
 class NekoNyanChat {
-  constructor(vocabPath = 'https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/vocab/N3ko_Nyah_model_.json') {
+  constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Nyah_model_.json') {
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
-    this.loadVocabulary(vocabPath);
+    this.vocabUrl = vocabUrl;
   }
 
-  loadVocabulary(vocabPath) {
+  async init() {
+    await this.loadVocabulary();
+    return this;
+  }
+
+  async loadVocabulary() {
     try {
-      const fullPath = path.resolve(process.cwd(), vocabPath);
-      const rawData = fs.readFileSync(fullPath, 'utf8');
-      this.vocabulary = JSON.parse(rawData);
-  
+      const response = await fetch(this.vocabUrl);
+      if (!response.ok) throw new Error(`HTTP error ${response.status}`);
+      this.vocabulary = await response.json();
+
       this.vocabulary.intents.forEach(intent => {
         intent.processedPatterns = intent.patterns.map(pattern => 
           this.processPattern(pattern)
@@ -42,7 +44,7 @@ class NekoNyanChat {
       .toLowerCase()
       .replace(/[^\w\s]/g, ' ')  
       .replace(/\s+/g, ' ')      
-      .trim();          
+      .trim();
   }
 
   getWords(text) {
@@ -129,4 +131,4 @@ class NekoNyanChat {
   }
 }
 
-module.exports = NekoNyanChat;
+export default NekoNyanChat;
