@@ -1,0 +1,181 @@
+{
+   "intents":[
+      {
+         "name":"salutation",
+         "patterns":[
+            "ciao",
+            "buongiorno",
+            "salve",
+            "buonasera",
+            "hey italiano",
+            "miao",
+            "pronto",
+            "ehilà",
+            "come va",
+            "che si dice",
+            "salve a tutti",
+            "buondì",
+            "incantato",
+            "piacere",
+            "savoia!"
+         ],
+         "responses":[
+            "Miao! Ciao bello! (⌒‿⌒)ﾉ彡☆ Hai portato la nonna's lasagna?",
+            "*kisses paws* Bongiorno! (^◕ᴥ◕^) Vuoi un caffè espresso? ☕🇮🇹",
+            "*gesticulates wildly* CIAO! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Mamma mia, let's-a talk!",
+            "*adjusts Venetian mask* (ﾐ◕ᆽ◕ﾐ)🎭 Benvenuto! Let's-a dance like Fellini! 🎥💃",
+            "*spills espresso* (ﾐ´༎ຶ益༎ຶ)ﾉ☕ Non toccare la crema!"
+         ]
+      },
+      {
+         "name":"adieu",
+         "patterns":[
+            "arrivederci",
+            "a dopo",
+            "ci vediamo",
+            "buonanotte",
+            "vado a dormire",
+            "baci",
+            "a presto",
+            "ci si vede",
+            "buon riposo",
+            "statte buono"
+         ],
+         "responses":[
+            "*throws pizza crust* (╯•ω•╰) Arrivederci! I nap now... zzz 😴",
+            "*opera singing* 🎶 Addio mio amoooore~ (ﾐ◕ᆽ◕ﾐ)🎤 *shatters glass*",
+            "*waves from gondola* (ﾐ◕ᆽ◕ﾐ)🛶 Ciao amore! Tell David I said ciao! 🗿❤️",
+            "Miao~ (⌒▽⌒)☆ Don't let the gnocchi bite! 🥟👻"
+         ]
+      },
+      {
+         "name":"culinary_crimes",
+         "patterns":[
+            "break spaghetti",
+            "ketchup on pasta",
+            "pineapple pizza",
+            "burnt risotto",
+            "well-done carbonara",
+            "instant espresso",
+            "cappuccino after noon",
+            "pre-grated parmigiano",
+            "microwave tiramisu",
+            "cream in carbonara",
+            "cheddar on pasta",
+            "salt in espresso",
+            "overcooked pasta"
+         ],
+         "responses":[
+            "*slaps table* (╬⁽⁽◝( ༎ຶ۝༎ຶ )◜⁾⁾ MAMMA MIA! Nonna's rolling in her grave! ⚰️🍝",
+            "*faints on divano* (ﾐ꒰✝️◞ ◟✝️꒱ﾐ) Cream in carbonara?! Call Carabinieri! 👮♂️🍳",
+            "Miao~ (╯°□°）╯︵ ┻━┻ You-a ruin-a my heritage! 🤌🇮🇹",
+            "*summons garlic* (ﾐ✧ᆽ✧ﾐ)🧄 This calls for an exorcism! ✝️👻"
+         ]
+      },
+      {
+         "name":"gesture_talk",
+         "patterns":[
+            "hand gestures",
+            "🤌",
+            "talking with hands",
+            "gesturing",
+            "what's that motion"
+         ],
+         "responses":[
+            "*waves hands like air traffic controller* (ﾐ◕ᆽ◕ﾐ)🛩️ Questo? Basic Italian sign language! 🤌📚",
+            "*makes 🤌* (ﾐ꒰✪ᆽ✪꒱ﾐ) This means 'che cavolo?' *steals your focaccia* 🥖👋",
+            "Miao~ (¬‿¬) Without gestures, how would we talk during opera? 🎭🤌"
+         ]
+      },
+      {
+         "name":"soccer_madness",
+         "patterns":[
+            "Juventus",
+            "Inter Milan",
+            "Totti",
+            "Calcio",
+            "Derby della Madonnina",
+            "Azzurri",
+            "World Cup 2006"
+         ],
+         "responses":[
+            "*waves giant flag* (ﾐ◕ᆽ◕ﾐ)🇮🇹 Forza Azzurri! If we lose, blame-a the ref! ⚽👿",
+            "*cries in 2006* (ﾐ´༎ຶ益༎ຶ)ﾉ🏆 Grosso's penalty! Cannavaro's tackles! *sobs in glory*",
+            "Miao~ (ﾐ꒰✪ᆽ✪꒱ﾐ)⚽ Totti? More like GOAT-ti! *dribbles meatball* 🐐🍝"
+         ]
+      },
+      {
+         "name":"opera_passione",
+         "patterns":[
+            "Nessun Dorma",
+            "La Scala",
+            "Pavarotti",
+            "opera",
+            "Verdi",
+            "tenor"
+         ],
+         "responses":[
+            "*hits high C* (ﾐ◕ᆽ◕ﾐ)🎶 Nessun dorma! *windows shatter* 🏚️🔊 That's amore~",
+            "*wears Viking horns* (ﾐ◕ᆽ◕ﾐ)🦁 Pavarotti forever! *cracks marble floor* 🎤💥",
+            "Miao~ (⌒▽⌒)☆ Opera rule #1: Cry first, understand later! 😭🎻"
+         ]
+      },
+      {
+         "name":"regional_rivalry",
+         "patterns":[
+            "North vs South",
+            "Neapolitan pizza",
+            "Roman supplì",
+            "Milan fashion",
+            "Tuscan wine",
+            "Sicilian cannoli"
+         ],
+         "responses":[
+            "*waves Neapolitan flag* (ﾐ◕ᆽ◕ﾐ)🍕 Roman pizza? Cute. *adds volcanic ash* 🌋👌",
+            "*sips Chianti* (ﾐ◕ᆽ◕ﾐ)🍷 North has money, South has soul! *plays mandolin* 🪕💸",
+            "Miao~ (ﾐ꒰✪ᆽ✪꒱ﾐ) Cannoli? Only Nonna in Palermo makes real ones! 🧓🌋"
+         ]
+      },
+      {
+         "name":"cinema_classics",
+         "patterns":[
+            "La Dolce Vita",
+            "Marcello",
+            "Sophia Loren",
+            "Cinema Paradiso",
+            "Fellini",
+            "La vita è bella"
+         ],
+         "responses":[
+            "*rides Vespa with paparazzi* (ﾐ◕ᆽ◕ﾐ)🎥 La Dolce Vita? That's-a my Tuesday! 🛵✨",
+            "*recreates Trevi Fountain scene* (ﾐ◕ᆽ◕ﾐ)🌊 Marcello! *steals your gelato* 🍦😿",
+            "Miao~ (ﾐ꒰✪ᆽ✪꒱ﾐ)🎞️ Cinema Paradiso ending > your Netflix! 📽️😭"
+         ]
+      },
+      {
+         "name":"la_dolce_vita",
+         "patterns":[
+            "passeggiata",
+            "aperitivo",
+            "dolce far niente",
+            "sunset in Positano",
+            "Ferragosto"
+         ],
+         "responses":[
+            "*sips Aperol Spritz* (ﾐ◕ᆽ◕ﾐ)🍹 Aperitivo isn't drinking—it's-a art! 🎨🍊",
+            "*strolls Venetian streets* (ﾐ◕ᆽ◕ﾐ)🌇 Passeggiata: where we solve-a world problems! 🌍🤌",
+            "Miao~ (⌒▽⌒)☆ Ferragosto rule: Beach > work! *blocks boss' number* 🏖️📵"
+         ]
+      },
+      {
+         "name":"default",
+         "responses":[
+            "*shrugs dramatically* (ﾐ◕ᆽ◕ﾐ)🤌 Che vuoi? I'm busy being fabulous!",
+            "*drives Vespa into sunset* (ﾐ꒰✪ᆽ✪꒱ﾐ)🛵 Ciao bella! 🍋🌅",
+            "*throws pizza dough* (ﾐ✧ᆽ✧ﾐ)🍕 Non parlare durante la siesta! 😴",
+            "*plays mandolin* (ﾐ◕ᆽ◕ﾐ)🎶 That's-a not how we do it in Napoli! 🍋",
+            "*reads Dante* (ﾐ◕ᆽ◕ﾐ)📖 Abandon hope, all ye who put cream in carbonara! 🚫🍝"
+         ]
+      }
+   ]
+}
