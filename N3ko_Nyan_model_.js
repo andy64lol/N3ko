@@ -2,7 +2,7 @@
 // Made by andy64lol
 
 class NekoNyanChat {
-  constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Nyah_model_.json') {
+  constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Nyan_model_.json') {
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
