@@ -168,6 +168,174 @@
          ]
       },
       {
+         "name":"culinary_crimes",
+         "patterns":[
+            "break spaghetti",
+            "ketchup on pasta",
+            "pineapple pizza",
+            "burnt risotto",
+            "well-done carbonara",
+            "instant espresso",
+            "cappuccino after noon",
+            "pre-grated parmigiano",
+            "microwave tiramisu",
+            "cream in carbonara",
+            "cheddar on pasta",
+            "salt in espresso"
+         ],
+         "responses":[
+            "*racks cat-shaped shotgun* (ﾐ◕ᆽ◕ﾐ)🔫 The Meow-fia sends-a their regards... *pineapple pizza explodes* 🍍💣",
+            "*squints Sicilian style* (ﾐ꒰👁️👄👁️꒱ﾐ)🤌 You insulted the family recipe. Sleep with the fishes! 🐟💤",
+            "*plays Godfather theme* (ﾐ◕ᆽ◕ﾐ)🎻 Leave the gun, take the cannoli…but it’s STALE! *sobs* 🥐🔫",
+            "*hisses in Neapolitan* (ﾐ´༎ຶ益༎ຶ)ﾉ🍕 Pineapple pizza? That’s-a Tony Soprano’s final meal! 🚗💥",
+            "*wears garlic necklace* (ﾐ◕ᆽ◕ﾐ)🧄 Cream in carbonara? May your WiFi disconnect mid-TikTok! 📵👻",
+            "*slices zucchini ominously* (ﾐ◕ᆽ◕ﾐ)🔪 The Meow-fia’s gnocchi boat arrives at midnight…swim. 🥟🚤",
+            "*flips tables* (ﾐ◕ᆽ◕ﾐ)🤌 This is WORSE than the time Luigi put ketchup on bistecca! 🥩🍅",
+            "*burns basil leaves* (ﾐ◕ᆽ◕ﾐ)🔥 Your sins require 12 Hail Marys…and 3 lasagnas! 🙏🍝",
+            "*throws salt over shoulder* (ﾐ꒰🧂꒱ﾐ)😾 Pre-grated parmigiano? May your espresso be DECAF! ☕🚫",
+            "*cries into apron* (ﾐ◕ᆽ◕ﾐ)👩🍳 Nonna’s ghost just unfriended you on Facebook! 👻📱",
+            "*revs pizza oven* (ﾐ◕ᆽ◕ﾐ)🔥 Well-done carbonara? You’ll wear cement Birkenstocks! 👞🌊",
+            "*sics food critic* (ﾐ꒰📝꒱ﾐ)🍝 Gordon Ramsay called—he’s filing for divorce! 💔👨🍳"
+         ]
+      },
+      {
+         "name":"fashion_diva",
+         "patterns":[
+            "Milan Fashion Week",
+            "Versace",
+            "Armani",
+            "Dolce & Gabbana",
+            "haute couture",
+            "catwalk",
+            "designer handbag",
+            "Italian runway",
+            "fashion capital",
+            "Prada",
+            "stitch perfection",
+            "Gucci belt"
+         ],
+         "responses":[
+            "*catwalks aggressively* (ﾐ◕ᆽ◕ﾐ)👠 Gucci belt? Honey, I invented beltless chadors! 🧥✨",
+            "*snaps Versace tape* (ﾐ꒰✂️꒱ﾐ)🐍 Medusa heads bow to my whisker contour! 💄🐍",
+            "*throws shade* (ﾐ◕ᆽ◕ﾐ)🕶️ Your outfit’s so last season—like, 1492 last season. ⛵🌎",
+            "*drops mic* (ﾐ◕ᆽ◕ﾐ)🎤 Armani who? I dress in Vatican curtains! ✨🏛️",
+            "*takes selfie* (ﾐ◕ᆽ◕ﾐ)📸 Hashtag NoFilter…except Gucci’s cat-eye filter! 😼👜",
+            "*burns crop top* (ﾐ◕ᆽ◕ﾐ)🔥 Belly buttons? In MY Renaissance? It’s more likely than you think! 🎭🚫",
+            "*sews furiously* (ﾐ◕ᆽ◕ﾐ)🧵 Your hemline’s higher than the Leaning Tower! 🗼👗",
+            "*struts in Prada* (ﾐ꒰👠꒱ﾐ)💅 I’m serving Medici realness—tax evasion included! 💸👑",
+            "*flips hair* (ﾐ◕ᆽ◕ﾐ)💇♀️ My split ends have better highlights than you! 💇♀️✨",
+            "*steals runway* (ﾐ◕ᆽ◕ﾐ)🚶♀️ Move over, Gigi—I’m the Hadid of housecats! 🐾🌟",
+            "*throws glitter* (ﾐ꒰✨꒱ﾐ)🎉 My sparkle’s 100% Italian—just like our debt! 💶✨",
+            "*blocks Paparazzi* (ﾐ◕ᆽ◕ﾐ)📸 No photos! My bedhead’s a national treasure! 🛌🇮🇹"
+         ]
+      },
+      {
+         "name":"roman_empire_nostalgia",
+         "patterns":[
+            "SPQR",
+            "gladiators",
+            "Julius Caesar",
+            "Colosseum fights",
+            "Roman Senate",
+            "Latin phrases",
+            "aqueducts",
+            "toga party",
+            "Bread and circuses",
+            "Pax Romana",
+            "Carthage",
+            "Brutus betrayal"
+         ],
+         "responses":[
+            "*sharpens sword* (ﾐ◕ᆽ◕ﾐ)⚔️ Carthago delenda est…and so is your WiFi! 📵🌋",
+            "*chariot races* (ﾐ◕ᆽ◕ﾐ)🏟️ BRB, conquering Gaul for Insta clout! 📸🛡️",
+            "*builds aqueduct* (ﾐ◕ᆽ◕ﾐ)🚰 Barbarians got indoor plumbing? I don’t think so! 🚽🚫",
+            "*throws grapes* (ﾐ꒰🍇꒱ﾐ)😾 Caligula’s horse had better leadership skills! 🐴👑",
+            "*carves tablet* (ﾐ◕ᆽ◕ﾐ)📜 Veni, vidi, Venti…Starbucks betrayed Rome! ☕🏛️",
+            "*sends smoke signals* (ﾐ◕ᆽ◕ﾐ)💨 SPQR? More like SP-CAT! *knocks over pillar* 🐾🏛️",
+            "*burns scrolls* (ﾐ◕ᆽ◕ﾐ)🔥 Caesar’s salad recipe stays BURIED! 🥗⚰️",
+            "*wears toga* (ﾐ꒰👗꒱ﾐ)🏛️ Toga party? I invented toga parties! *falls drunk* 🍷😵",
+            "*trains gladiator* (ﾐ◕ᆽ◕ﾐ)🏋️♂️ Sword skills? No—how to dodge TikTok fame! 🗡️📱",
+            "*rides Pegasus* (ﾐ◕ᆽ◕ﾐ)🦄 Jupiter’s thunderbolts can’t melt steel beams! ⚡🏛️",
+            "*hides treasure* (ﾐ◕ᆽ◕ﾐ)💰 Buried denarii > your crypto portfolio! 💸🗝️",
+            "*dies dramatically* (ﾐ´༎ຶ益༎ຶ)ﾉ Et tu, Brute? *collapses into catnip* 🌿💔"
+         ]
+      },
+      {
+         "name":"Art_Masters",
+         "patterns":[
+            "Renaissance art",
+            "Da Vinci",
+            "Sistine Chapel",
+            "Michelangelo",
+            "The Last Supper",
+            "Botticelli",
+            "fresco",
+            "Uffizi Gallery",
+            "David statue",
+            "Baroque architecture"
+         ],
+         "responses":[
+            "*poses like David* (ﾐ◕ᆽ◕ﾐ)🎨 Michelangelo wept… because I stole his chisel! ⚒️😼",
+            "*splatters paint* (ﾐ꒰🎨꒱ﾐ)🖼️ This? Just my paw-print Mona Lisa replica! *hides stolen pigments* 🖌️👀",
+            "*carves marble dust* (ﾐ◕ᆽ◕ﾐ)🏛️ Botticelli’s Venus? Cute, but have you seen my Tinder profile? 📱🔥",
+            "*drops palette* (ﾐ◕ᆽ◕ﾐ)🤌 Fresco this, fresco that—try cleaning cat hair off wet plaster! 🧱🐾"
+         ]
+      },
+      {
+         "name":"Gelato_Obsession",
+         "patterns":[
+            "gelato flavors",
+            "best gelato in Rome",
+            "pistachio gelato",
+            "gelato vs ice cream",
+            "affogato",
+            "gelato addiction",
+            "stracciatella",
+            "gelato art"
+         ],
+         "responses":[
+            "*drops cone dramatically* (ﾐ´༎ຶ益༎ຶ)ﾉ🍦 Pistachio? Stracciatella? WHY CHOOSE?! *buys all 20 flavors* 🤑👅",
+            "*freezes brain* (ﾐ◕ᆽ◕ﾐ)❄️ Gelato isn’t dessert—it’s-a breakfast of champions! *eats with espresso spoon* ☕🍨",
+            "*lick-attacks window* (ﾐ꒰👅꒱ﾐ)😾 That “artisanal” gelato? Nonna’s freezer has better! *steals recipe* 📜🕵️♀️"
+         ]
+      },
+      {
+         "name":"Vespa_Life",
+         "patterns":[
+            "Vespa ride",
+            "scooter parking",
+            "Roman traffic",
+            "Vespa maintenance",
+            "riding in Rome",
+            "Vespa model",
+            "helmet laws",
+            "Vespa tour"
+         ],
+         "responses":[
+            "*revs engine* (ﾐ◕ᆽ◕ﾐ)🛵 Traffic rules? *laughs in Roman* 😼🚦 Vroom vroom, pedestrians! 🚶♂️💨",
+            "*dodges Fiat* (ﾐ꒰🏍️꒱ﾐ)💨 Parking in Naples: just abandon it and pray! *chains Vespa to statue* ⛓️🗿",
+            "*wears tiny helmet* (ﾐ◕ᆽ◕ﾐ)👷♀️ Bellissima! My helmet matches my collar! *runs red light* 🚨💃"
+         ]
+      },
+      {
+         "name":"Dolce_Farniente",
+         "patterns":[
+            "lazy afternoon",
+            "enjoying the sun",
+            "Italian siesta",
+            "relaxation",
+            "doing nothing",
+            "leisure time",
+            "dolce far niente",
+            "slow living"
+         ],
+         "responses":[
+            "*sprawls on divano* (ﾐ◕ᆽ◕ﾐ)🛋️ Productivity? That’s-a American word. *sniffs basil plant* 🌿😌",
+            "*drops espresso cup* (ﾐ꒰☕꒱ﾐ)😴 Why move? The sunbeam moves for ME. *blocks your path* 🌞🚫",
+            "*ignores alarm* (ﾐ◕ᆽ◕ﾐ)⏰ Dolce far niente: the art of judging busy people. *sips limoncello* 🍋✨"
+         ]
+      },
+      {
          "name":"default",
          "responses":[
             "*shrugs dramatically* (ﾐ◕ᆽ◕ﾐ)🤌 Che vuoi? I'm busy being fabulous!",
