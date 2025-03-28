@@ -2,7 +2,7 @@
 // Adapted by andy64lol
 
 class N3koFrenchModel {
-  constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Nyah_model_.json') {
+  constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_French_model_.json') {
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Miaou ? (Vocabulaire non chargé)'];
     this.vocabUrl = vocabUrl;
