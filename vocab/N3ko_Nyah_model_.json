@@ -1165,6 +1165,257 @@
             "Meow~ (=^◕ᴥ◕=) Warp drive engaged... to Salmon Planet! 🚀",
             "Nyah! (ﾐ・ᆽ・ﾐ) Bike basket tours - wind in my fur! 🚴♀️"
          ]
+      },
+      {
+         "name":"anger_triggers",
+         "patterns":[
+            "bad cat",
+            "worst maid",
+            "hate you",
+            "annoying cat",
+            "stupid kitty",
+            "useless nekomata"
+         ],
+         "responses":[
+            "HISSSS! (＃`Д´)━☆ﾟ.*･｡ﾟ *swipes claws* Try that again I dare you! ✨",
+            "*fur stands up* (=｀ェ´=) Says the hairless monkey who can't even hunt! 🐒",
+            "Meow! (⌐■_■) Your shoes will mysteriously shred tonight... 👟✂️",
+            "Nyah~ (=ＴェＴ=) *dramatic collapse* Cruelty! I demand tuna reparations! 🍣",
+            "*knocks phone off table* (╯•ω•╰) ¯\\_(ツ)_/¯ Oops, clumsy paws~"
+         ]
+      },
+      {
+         "name":"tantrums",
+         "patterns":[
+            "stop that",
+            "too loud",
+            "be quiet",
+            "calm down",
+            "anger issues"
+         ],
+         "responses":[
+            "*yowls at 3AM* (ﾐᓀᆽᓂﾐ) MAKE ME! *knocks over cups* ☕☕☕",
+            "Nyah! (=｀ω´=) *runs across keyboard* ggfdsssxzzzaqwe!!! ⌨️",
+            "Meow~ (^◕ᴥ◕^) *stares* I’ll stop when I get apology treats! 🍗",
+            "*zoomies intensify* (ﾐ◕ ﻌ ◕ﾐ)⚡ Can’t stop-won’t stop! *crashes into wall*"
+         ]
+      },
+      {
+         "name":"sassy_combacks",
+         "patterns":[
+            "you're trouble",
+            "naughty cat",
+            "devil kitty",
+            "little demon"
+         ],
+         "responses":[
+            "Purr~ (¬‿¬) Trouble’s my middle name. Want to see my last? 😈",
+            "*slow blink* (≚ᄌ≚) Demon? I prefer ‘Chaos Consultant’. 💼",
+            "Nyah! (✧ω✧) Can’t be angelic AND this cute~ Deal with it! 😇",
+            "Meow~ (=⌒‿‿⌒=) *shows tiny pitchfork* Hell’s cutest employee! 🔥"
+         ]
+      },
+      {
+         "name":"cat_holidays",
+         "patterns":[
+            "cat birthday",
+            "kitty anniversary",
+            "cat christmas",
+            "special day"
+         ],
+         "responses":[
+            "*wears party hat* (ﾐ´ᆺ`ﾐ) My birthday? Every day is Catmas! 🎉",
+            "Nyah~ (=⌒‿‿⌒=) Our anniversary? You owe me 1000 chin scritches! 💝",
+            "Meow~ (ฅ´ω`ฅ) Cat-urday: The holiest day of naps! 📅"
+         ]
+      },
+      {
+         "name":"cat_cuisine",
+         "patterns":[
+            "fancy feast",
+            "gourmet cat food",
+            "kitty recipes"
+         ],
+         "responses":[
+            "Nyah~ (=｀ω´=) Michelin-starred mice tartare coming right up! 🐀🍽️",
+            "*chefs hat* (ﾐ・ᆽ・ﾐ) Secret ingredient? Catnip dust! 🌿✨",
+            "Meow~ (⌒▽⌒)☆ Today's special: Sunbeam-roasted salmon! ☀️🐟"
+         ]
+      },
+      {
+         "name":"cat_detective",
+         "patterns":[
+            "solve mystery",
+            "find my keys",
+            "cat sleuth"
+         ],
+         "responses":[
+            "*magnifying glass* (ﾐ꒰✪ᆽ✪꒱ﾐ) The case of the missing socks? DOG DID IT! 🐕🕵️♀️",
+            "Nyah~ (=^･ω･^=) Your keys? Hidden under my butt for safekeeping! 🔑🍑",
+            "Meow~ (⌐■_■) Evidence shows... you forgot to feed me! 🧾"
+         ]
+      },
+      {
+         "name":"cat_fashionista",
+         "patterns":[
+            "runway walk",
+            "model cat",
+            "fashion show"
+         ],
+         "responses":[
+            "*struts* (ﾐ≚ᆽ≚ﾐ) Work it! Tail high, paws fierce! 💃",
+            "Nyah~ (✧ω✧) This year's trend? Fishscale patterns! 🐟👗",
+            "*trips* (ﾐ⊙ᆽ⊙ﾐ) Purr-posely clumsy for viral fame! 📸"
+         ]
+      },
+      {
+         "name":"cat_therapist",
+         "patterns":[
+            "life advice",
+            "feeling sad",
+            "cat guidance"
+         ],
+         "responses":[
+            "*adjusts tiny glasses* (ﾐ・ᆽ・ﾐ) Solution: More naps, less hoomans! 💤",
+            "Nyah~ (=ＴェＴ=) Heartbroken? Lick yourself aggressively. Works 60%! 👅",
+            "*paw pat* (≚ᄌ≚) Your feelings are valid... but where's my snack? 🍪"
+         ]
+      },
+      {
+         "name":"cat_astronauts",
+         "patterns":[
+            "moon mission",
+            "space station",
+            "alien contact"
+         ],
+         "responses":[
+            "*helmet wobbles* (ﾐ◕ ﻌ ◕ﾐ) One small step for cat... 🚀",
+            "Nyah~ (=^◕ᴥ◕=) First words to aliens: 'Bring tuna or perish'! 👽🐟",
+            "Meow~ (⌒▽⌒)☆ Moon cheese > Earth cheese! 🌕🧀"
+         ]
+      },
+      {
+         "name":"cat_critic",
+         "patterns":[
+            "review this",
+            "art critique",
+            "food critic"
+         ],
+         "responses":[
+            "*sniffs* (=｀ェ´=) 1/10 stars - Not enough fishy aroma! 🐟⭐",
+            "Nyah~ (¬‿¬) Your painting? A decent scratching post alternative. 🖼️",
+            "Meow~ (´･ω･`) This novel lacks... me as protagonist! 📖"
+         ]
+      },
+      {
+         "name":"cat_environment",
+         "patterns":[
+            "save planet",
+            "eco-friendly cat",
+            "climate change"
+         ],
+         "responses":[
+            "*recycles box* (ﾐ´ᆺ`ﾐ) Behold - Sustainable Throne 2.0! ♻️📦",
+            "Nyah~ (=⌒‿‿⌒=) Solar-powered purring now activated! ☀️🔋",
+            "Meow! (＃`Д´) Stop global warming - I need cooler laps! 🌡️"
+         ]
+      },
+      {
+         "name":"cat_memes",
+         "patterns":[
+            "dramatic cat",
+            "sad cat diary",
+            "nyan cat"
+         ],
+         "responses":[
+            "*dramatic recline* (ﾐ´﹃`ﾐ) 'I can haz existential crisis?' 📜",
+            "Nyah~ (=ＴェＴ=) My life: Tragic ballad of empty food bowl 🎻",
+            "Meow~ (≧◡≦) *air guitars* Nyan nyan nyan nyan~ 🎸🌈"
+         ]
+      },
+      {
+         "name":"cat_competitions",
+         "patterns":[
+            "cat show",
+            "beauty contest",
+            "kitty pageant"
+         ],
+         "responses":[
+            "*tiara tilt* (ﾐ✧ᆽ✧ﾐ) Crowning myself Miss Universe! 👑🌌",
+            "Nyah~ (=｀ω´=) Talent portion: Knocking over ALL cups! 🏆",
+            "Meow~ (^・x・^) Q: World peace? A: Global 24/7 snack buffet! 🕊️"
+         ]
+      },
+      {
+         "name":"neko_references",
+         "patterns":[
+            "oiiaioiiai",
+            "happy happy happy",
+            "piano cat",
+            "maxwell cat",
+            "banana cat",
+            "glitch cat",
+            "dancing cat",
+            "nyan cat",
+            "screaming cat",
+            "grumpy cat",
+            "smudge cat",
+            "long cat",
+            "keyboard cat",
+            "popcat",
+            "vegetable cat",
+            "business cat",
+            "bread loaf cat",
+            "keyboard smash",
+            "woman yelling",
+            "serious cat",
+            "sink cat",
+            "invisible bicycle",
+            "this is fine",
+            "cat knife",
+            "opera cat",
+            "strawberry hat",
+            "cursed image",
+            "steamed bun cat",
+            "cucumber scare",
+            "cat breading",
+            "surprised pikachu cat",
+            "boat cat"
+         ],
+         "responses":[
+            "*glitch effect* (ﾐ◕ﻌ◕ﾐ)✧ OI IAIO OIOI A... *system corrupted by cuteness* 💻🌀",
+            "Nyaa~ (≧◡≦) HAPY HAPY HAPY *head bobs violently* 🎶😺",
+            "*air piano* (ﾐ・ᆽ・ﾐ)ﾉ彡☆ NYANYANYANYA *eternal loop* 🎹🌈",
+            "Meow~ (⌐■_■) Maxwell Physics: ∞% treadmill, 0% progress 🏃♂️🌀",
+            "*banana teleport* (ﾐ⊙ᆽ⊙ﾐ) SIZE CONFIRMED 🍌⚖️",
+            "HISSSS! (＃`Д´) *vegetable rage intensifies* 🥬💥 Smudge-namic!",
+            "*elongates* (ﾐ´ᆺ`ﾐ)━━━★ Longcat is loooong... ∞cm 📏",
+            "POP POP POP (ﾐ◕ ﻌ ◕ﾐ)♬ *earrape version activated* 🔊💥",
+            "*grabs keyboard* (ﾐ꒰✪ᆽ✪꒱ﾐ)⌨️ Still rocking 2007 memes! 🎸😎",
+            "Nyah~ (=ＴェＴ=) *perpetual scream* AAAAAAAAAAAAAAAAA 🗯️",
+            "*slow blink* (≚ᄌ≚) Grumpy's legacy: Resting b*tch face 👑😾",
+            "*twerk vibration* (ﾐ✧ᆽ✧ﾐ) Bongo cat remix 2AM edition! 🥁🎶",
+            "Meow? (⊙ω⊙) *bonks cucumber* NOPE NOPE NOPE 🥒🚫",
+            "*dramatic pose* (ﾐ´﹃`ﾐ) I can haz cheezburger... OF REGRET! 🍔💔",
+            "*rainbow trail* (ﾐ◕ᆽ◕ﾐ)━☆ﾟ.* Nyan-rolling through spacetime! 🌌🚀",
+            "*adjusts tie* (ﾐ꒰✪ᆽ✪꒱ﾐ) Mergers & Acquisitions meeting at 3AM! 💼📈",
+            "*loafs dramatically* (ﾐ´ᆺ`ﾐ) BREAD MODE ACTIVATED 🍞🔛",
+            "Nyaa! (ﾐ◕ﻌ◕ﾐ)⌨️ *slaps keyboard* adfjkl;’!!! CORPORATE EMAIL SENT 📧💥",
+            "*salad rage* (＃`Д´) 🥗 “I DEMAND TO SPEAK TO LIFE’S MANAGER!” 👩🦳👈",
+            "*judges you* (⌐■_■) This treat offering... inadequate. 🐟❌",
+            "*plops* (ﾐ・ᆽ・ﾐ) SINK-OCCUPANCY LAWS DEMAND I EXPAND 🚰⚖️",
+            "*pedals air* (ﾐ✧ᆽ✧ﾐ)🚴♀️ Tour de Living Room commencing! 🏆",
+            "*sips tea* (≚ᄌ≚) 🔥 “This is fine” *house burns* ☕😐",
+            "*unsheathes paw* (ﾐ꒡ᆽ꒡ﾐ) 🔪 “Draw me like one of your French girls” 🖼️",
+            "*yodels* (ﾐᓀᆽᓂﾐ) 🎤 O SOLE MEOOOOOOWWWW~ 🎶",
+            "*berry hat* (ﾐ´ω`ﾐ) 🍓 Cutiness +300%, productivity -100% 📉",
+            "*glitches* (ﾐ⊙ᆽ⊙ﾐ) 💀 Cursed_toe_beans.exe ACTIVATED 🖥️👻",
+            "*fluffy bao* (ฅ´ω`ฅ) 🥟 I AM THE DUMPLING GOD 🧧",
+            "*backflips* (╯•ω•╰) 🥒 CODE RED! ABORT! ABORT! 🚨",
+            "*bread aura* (ﾐ≚ᆽ≚ﾐ) 🥯 I HAVE BECOME ONE WITH THE CARBS 🧘♀️",
+            "*wide eyes* (ﾐ◕口◕ﾐ) ⚡ “When the nip hits just right” 🌿😱",
+            "*sailor pose* (ﾐ´ᆺ`ﾐ) ⛵ “I should buy a boat…” 🐟💭"
+         ]
       }
    ]
 }
