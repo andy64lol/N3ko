@@ -16,35 +16,79 @@ class NekoNyanChat {
       const fullPath = path.resolve(process.cwd(), vocabPath);
       const rawData = fs.readFileSync(fullPath, 'utf8');
       this.vocabulary = JSON.parse(rawData);
-      // Preprocess patterns during loading
+  
       this.vocabulary.intents.forEach(intent => {
-        intent.patterns = intent.patterns.map(pattern => this.processInput(pattern));
+        intent.processedPatterns = intent.patterns.map(pattern => 
+          this.processPattern(pattern)
+        );
       });
+      
       this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
     } catch (error) {
       console.error('Nyan loading error:', error);
     }
   }
 
+  processPattern(pattern) {
+    return {
+      original: pattern,
+      normalized: this.normalizeText(pattern),
+      words: this.getWords(pattern)
+    };
+  }
+
+  normalizeText(text) {
+    return text
+      .toLowerCase()
+      .replace(/[^\w\s]/g, ' ')  
+      .replace(/\s+/g, ' ')      
+      .trim();          
+  }
+
+  getWords(text) {
+    return this.normalizeText(text)
+      .split(' ')
+      .filter(word => word.length > 0);
+  }
+
   processInput(input) {
-    return input.toLowerCase().trim().replace(/[^\w\s]/gi, '');
+    return {
+      original: input,
+      normalized: this.normalizeText(input),
+      words: this.getWords(input)
+    };
   }
 
-  calculateSimilarity(inputStr, patternStr) {
-    const inputWords = new Set(inputStr.split(/\s+/));
-    const patternWords = patternStr.split(/\s+/);
-    if (patternWords.length === 0) return 0;
-    const commonWords = patternWords.filter(word => inputWords.has(word)).length;
-    return (commonWords / patternWords.length) * 100;
+  calculateSimilarity(input, pattern) {
+    if (pattern.words.length === 0) return 0;
+
+    const inputWordSet = new Set(input.words);
+    const matchingWords = pattern.words.filter(word => 
+      inputWordSet.has(word)
+    ).length;
+
+    const similarity = (matchingWords / pattern.words.length) * 100;
+    
+    const regexMatch = input.normalized.match(new RegExp(pattern.words.join('.*'), 'i'));
+    if (regexMatch && similarity < 86) {
+      return Math.min(similarity + 15, 100);
+    }
+    
+    return similarity;
   }
 
-  findMatchingIntent(text) {
-    return this.vocabulary.intents.find(intent => 
-      intent.patterns.some(pattern => {
-        const similarity = this.calculateSimilarity(text, pattern);
-        return similarity >= 86;
-      })
-    );
+  findMatchingIntent(userInput) {
+    const processedInput = this.processInput(userInput);
+    
+    for (const intent of this.vocabulary.intents) {
+      for (const pattern of intent.processedPatterns) {
+        const similarity = this.calculateSimilarity(processedInput, pattern);
+        if (similarity >= 86) {
+          return intent;
+        }
+      }
+    }
+    return null;
   }
 
   getIntentResponses(intentName) {
@@ -53,9 +97,11 @@ class NekoNyanChat {
   }
 
   generateResponse(userInput) {
-    if (!userInput) return this.getRandomResponse(this.defaultResponse);
-    const cleanText = this.processInput(userInput);
-    const intent = this.findMatchingIntent(cleanText);
+    if (!userInput || typeof userInput !== 'string') {
+      return this.getRandomResponse(this.defaultResponse);
+    }
+    
+    const intent = this.findMatchingIntent(userInput);
     return intent?.responses 
       ? this.getRandomResponse(intent.responses)
       : this.getRandomResponse(this.defaultResponse);
@@ -63,6 +109,23 @@ class NekoNyanChat {
 
   getRandomResponse(responses) {
     return responses[Math.floor(Math.random() * responses.length)];
+  }
+
+  debugMatch(userInput) {
+    const input = this.processInput(userInput);
+    return this.vocabulary.intents.map(intent => {
+      return {
+        intent: intent.name,
+        patterns: intent.processedPatterns.map(pattern => {
+          return {
+            pattern: pattern.original,
+            similarity: this.calculateSimilarity(input, pattern),
+            words: pattern.words,
+            matches: pattern.words.filter(w => input.words.includes(w))
+          };
+        })
+      };
+    });
   }
 }
 
