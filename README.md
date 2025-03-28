@@ -14,9 +14,9 @@ N3ko is a lightweight chatbot system that uses a predefined vocabulary to genera
 N3ko does not require installation. Simply include the script in your project:
 
 ```html
-<!-- Example using the Nyah model of N3ko,our most advanced model at the moment. -->
+<!-- Example using the Nyan model of N3ko,our most advanced model at the moment. -->
 
-<script type="module" src="https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/N3ko_Nyah_model_.js"></script>
+<script type="module" src="https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/N3ko_Nyan_model_.js"></script>
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ N3ko does not require installation. Simply include the script in your project:
 ### Basic Example
 
 ```javascript
-import NekoNyanChat from "./N3ko_Nyah_model.js";
+import NekoNyanChat from "./N3ko_Nyan_model.js";
 
 (async () => {
     const bot = await new NekoNyanChat().init();
