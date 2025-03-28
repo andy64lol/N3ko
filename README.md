@@ -24,7 +24,7 @@ N3ko does not require installation. Simply include the script in your project:
 ### Basic Example
 
 ```javascript
-import NekoNyanChat from "./N3ko.js";
+import NekoNyanChat from "./N3ko_Nyah_model.js";
 
 (async () => {
     const bot = await new NekoNyanChat().init();
