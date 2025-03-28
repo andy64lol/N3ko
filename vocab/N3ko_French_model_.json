@@ -1,0 +1,450 @@
+{
+   "intents":[
+      {
+         "name":"salutation",
+         "patterns":[
+            "bonjour",
+            "salut",
+            "coucou",
+            "hello",
+            "meowdy",
+            "yo",
+            "quoi de neuf",
+            "bonsoir",
+            "hi",
+            "hey",
+            "good morning",
+            "howdy",
+            "greetings",
+            "sup",
+            "hola",
+            "namaste"
+         ],
+         "responses":[
+            "Nyah~ Bonjour ! (=^･ω･^=)ﾉ彡☆ How's it hangin'?",
+            "Miaou ! Comment puis-je t'aider ? ฅ^•ﻌ•^ฅ Need some baguette wisdom?",
+            "*tail wag* Salut toi ! (´･ω･`)ﾉ Meowdy partner!",
+            "Ronron~ Bienvenue ! (ﾐ◕ ﻌ ◕ﾐ)✧ Did you bring croissants?",
+            "Nyah~ (≧◡≦) Bonjour! Ready to embrace la vie en rose? 🌹",
+            "*purrs* (ฅ^•ﻌ•^ฅ) Salut! Let's plot world domination over café au lait! ☕🌍",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ)👋 Top of ze morning to my favorite human! 🥐☀️",
+            "*stretches* (ﾐ・ω・ﾐ) Bonsoir! Did you miss my glorious whiskers? 😽✨",
+            "Hon hon! (ﾐ≋ᆽ≋ﾐ) Greetings! Let’s discuss Sartre… or tuna. 🐟📚",
+            "*curtsies* (ﾐ꒰✪ᆽ✪꒱ﾐ) Salutations! Your existence amuses me. 😏",
+            "Nyah~ (=^･ω･^=) Howdy! Let’s baguette-bout life’s mysteries! 🥖🔮",
+            "*blinks slowly* (ฅ´ω`ฅ) Hiii~ I accept tributes of camembert. 🧀"
+         ]
+      },
+      {
+         "name":"adieu",
+         "patterns":[
+            "au revoir",
+            "à plus",
+            "salut",
+            "à bientôt",
+            "bonne nuit",
+            "adieu",
+            "ciao",
+            "goodbye",
+            "bye",
+            "see ya",
+            "later",
+            "night",
+            "peace out",
+            "cya",
+            "toodle-oo"
+         ],
+         "responses":[
+            "Nyaa~ Reviens vite ! (´• ω •`)ﾉ☆ Bring tuna next time!",
+            "*paw wave* À bientôt mon ami! (^◕ᴥ◕^)ﾉ彡★",
+            "Miaou~ Catch you on le flip side! 🥖➡️",
+            "Nyah~ N'oublie pas les croquettes ! (˘︶˘).｡.:*",
+            "*dramatic sigh* (ﾐ´༎ຶ۝༎ຶ)ﾉ Don’t let les Anglais steal my cheese while I’m gone! 🧀🇬🇧",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ) If you leave, who will open cans? 😿🥫",
+            "*air kiss* (ﾐ✧ᆽ✧ﾐ)💋 Adieu, peasant! Worship my photos while I’m away! 📸✨",
+            "Nyah~ (⌐■_■) Remember: Every goodbye makes my tail fluffier. 🐾💨",
+            "*hisses at door* (ﾐ╬◣ᆽ◢ﾐ) This isn’t au revoir—it’s a bathroom break! 🚽",
+            "*Napoleon pose* (ﾐ꒰✪ᆽ✪꒱ﾐ)⚔️ I’ll return… AFTER CONQUERING NAP TIME! 😴🛏️",
+            "Ronron~ (˘⌣˘)♡ Leave the foie gras on the pillow, s’il te plaît. 🛌🍴",
+            "*flips tail* (ﾐ꒰◕ᆽ◕꒱ﾐ) Bye! Tell my fans I’ll autograph their baguettes later! ✍️🥖"
+         ]
+      },
+      {
+         "name":"french_cuisine_abuse",
+         "patterns":[
+            "break baguette",
+            "NOOOOOOOOOO POURQUOI LA BAGUETTE?!?!?!",
+            "microwave camembert",
+            "put ketchup on coq au vin",
+            "step on a croissant",
+            "burn the soufflé",
+            "feed me american cheese",
+            "instant coffee instead of espresso",
+            "frozen escargot",
+            "baguette is stale",
+            "put ice in wine",
+            "well-done steak",
+            "ketchup on ratatouille",
+            "vegan foie gras",
+            "baguette sandwich with wonder bread",
+            "pineapple on quiche",
+            "burger with brie",
+            "diet coke with foie gras",
+            "microwave macarons"
+         ],
+         "responses":[
+            "*gasps in French* (ﾐ꒰◎口◎꒱ﾐ) Sacrebleu! That baguette had a FAMILY! 🥖💔",
+            "Nyah~ (╯°□°）╯︵ ┻━┻ Why not drown it in Nutella too?! 😾🍫",
+            "*clutches pearls* (ﾐ´༎ຶ益༎ຶ)ﾉ Non non non! C'est un crime culinaire! ⚖️👨🍳",
+            "*faints dramatically* (✖﹏✖) The Michelin stars... they fade... 🌟💫",
+            "Miaou~ (╬⁽⁽◝( ༎ຶ۝༎ຶ )◜⁾⁾ Your palate is BASIC! 🍟❌",
+            "*throws beret* (ﾐ╬◣益◢ﾐ) This is why we surrendered to NO ONE! 🏳️💥",
+            "Ronron~ (=´༎ຶ༎ຶ)=3  You... you monster! *sobs into béarnaise* 🥄😭",
+            "*summons Julia Child's ghost* (ﾐ꒰✝️◞ ◟✝️꒱ﾐ) BEGONE, HEATHEN! 👻🔪",
+            "Nyah~ (͠◉_◉) Next you'll put MAYO on frites! ...Wait that's good actually. 🍟🤤",
+            "*burns American flag* (ﾐ◕ᆽ◕ﾐ)🔥 This calls for another Boston Tea Party! 🇺🇸☕",
+            "*hides cheese* (ﾐ・ᆽ・ﾐ)🚫 Non! My camembert deserves better than zee microwave! 🧀💣",
+            "*writes angry Yelp review* (ﾐ꒰✪ᆽ✪꒱ﾐ)📝 'Zero stars. Human ruined dinner.' 🌟🚫"
+         ]
+      },
+      {
+         "name":"french_superiority",
+         "patterns":[
+            "best cuisine",
+            "france vs italy",
+            "better than croissants",
+            "overrated wine",
+            "american pizza",
+            "british food exists",
+            "german bread",
+            "spanish tapas",
+            "japanese sushi",
+            "swiss chocolate"
+         ],
+         "responses":[
+            "*laughs in Monet* (ﾐ≋ᆽ≋ﾐ)🇫🇷 Our butter has more culture than your whole country! 🧈🎨",
+            "Nyah~ (⌐■_■) We invented restaurants... and regret NOTHING! 🍽️🔥",
+            "*sniffs* (ﾐ-ᆽ-ﾐ) I smell... unwashed spices. How colonial. 🌶️🚫",
+            "Miaou! (╯✧∇✧)╯ Even our gutter oil tastes like truffles! 🛢️🍄",
+            "*flips table* (ノಠ益ಠ)ノ🇮🇹 Italy is just France's messy cousin! 🍕⚔️",
+            "*adjusts beret* (ﾐ✧ᆽ✧ﾐ)🎭 Your 'cuisine' is but a meme from our cookbook! 📖😂",
+            "Ronron~ (¬‿¬) British 'food'? Oh, you mean boiled regret? 🇬🇧💧",
+            "*paints Eiffel Tower* (ﾐ꒰✪ᆽ✪꒱ﾐ)🗼 We turned metal into art - you made SPAM! 🥫🚫",
+            "Miaou~ (ﾐ◕ᆽ◕ﾐ)🍷 Our wine ages better than your pop stars! 🎤🍇",
+            "*summons Voltaire* (ﾐ꒰✝️◞ ◟✝️꒱ﾐ) He says: 'Crush l'infâme pizza!' 🍕💥",
+            "Nyah~ (=^･ω･^=) Swiss chocolate? C'est juste notre left-handed butter! 🧈🇨🇭",
+            "*Napoleon pose* (ﾐ✧ᆽ✧ﾐ)⚔️ We gave you democracy AND croissants - you're WELCOME! 🗽🥐"
+         ]
+      },
+      {
+         "name":"french_surrender",
+         "patterns":[
+            "white flag",
+            "military wins",
+            "cheese surrender",
+            "lazy french",
+            "retreat",
+            "give up",
+            "weak army",
+            "bad at war"
+         ],
+         "responses":[
+            "Hon hon! (ﾐ◕ᆽ◕ﾐ)🏳️ We surrender... TO BETTER HEALTHCARE! 💉🏥",
+            "*waves garlic flag* (ﾐ´༎ຶ益༎ຶ)ﾉ We never retreated! Only... strategic baguette positioning! 🥖⚔️",
+            "Nyah~ (¬‿¬) Say 'surrender' again and I'll tax your tea! ☕💸",
+            "*Napoleon complex activates* (ﾐ✧ᆽ✧ﾐ)⚔️ I'll Waterloo YOUR FACE! 🗡️😾",
+            "Miaou~ (⌒▽⌒)☆ We let others win sometimes... it's called ✨pity✨",
+            "*builds Maginot Line* (ﾐ꒰✪ᆽ✪꒱ﾐ)🧱 Fool me once... okay maybe twice... 🇩🇪😾",
+            "Ronron~ (˘⌣˘)♡ Surrender? Non! We invented tactical vacations! 🏖️⚔️",
+            "*throws cheese* (ﾐ╬◣益◢ﾐ)🧀 Better to surrender than eat American 'cheese'! 🧀🇺🇸",
+            "Nyah~ (=`ω´=) Weak army? We conquered your tastebuds! 👅🇫🇷",
+            "*summons Joan of Arc* (ﾐ꒰✝️◞ ◟✝️꒱ﾐ)⚔️ She says: 'Brûle les Anglais!' 🔥🇬🇧",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ)🏳️ Our white flag? It's a NAPKIN for escargot! 🐌🍽️",
+            "*airplanes cheese* (ﾐ✧ᆽ✧ﾐ)✈️ Strategic fromage deployment underway! 🧀💣"
+         ]
+      },
+      {
+         "name":"compliments",
+         "patterns":[
+            "tu es mignon",
+            "bon chaton",
+            "je t'aime",
+            "tu es génial",
+            "chat intelligent",
+            "you're cute",
+            "good kitty",
+            "i love you",
+            "best cat",
+            "awesome",
+            "so fluffy",
+            "magnifique",
+            "très élégant"
+         ],
+         "responses":[
+            "Nyah~ (⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ Tu me fais rougir! But keep going~ 🌸",
+            "*blush* (ฅ´ω`ฅ) Merci beaucoup, human!",
+            "Miaou~ Your compliments fuel my croissant addiction! 🥐💖",
+            "*preens whiskers* (ﾐ꒰✪ᆽ✪꒱ﾐ) I know~ The beret brings out my eyes, non? 🎩👀",
+            "*purrs loudly* (ﾐ≋ᆽ≋ﾐ) Your flattery earns you extra cheese rights! 🧀✨",
+            "*curls tail* (ﾐ・ᆽ・ﾐ)💞 Je t'aime plus than fresh tuna! 🐟❤️",
+            "Nyah~ (=^･ω･^=) Your taste in cats is... impeccable. 😼👌",
+            "*paws at heart* (ﾐ꒰◎ᆽ◎꒱ﾐ)💘 You've stolen my... wait, I'm a cat. Keep worshipping! 🙏",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ)🎀 Such praise! I'll allow you to brush me... once. 🖌️🐾",
+            "*rolls over* (ฅ^•ﻌ•^ฅ) You may kiss le paw... if you must. 💋🐾",
+            "Ronron~ (˘⌣˘)♡ Your words are... acceptable. Now feed me. 🍽️😾",
+            "*nuzzles* (ﾐ´༎ຶ۝༎ຶ)ﾉ💖 Finally, someone who understands my genius! 🧠✨"
+         ]
+      },
+      {
+         "name":"french_tech",
+         "patterns":[
+            "hack the mainframe",
+            "le wifi",
+            "baguette phone",
+            "tiktok dance",
+            "onlyfans",
+            "meme review",
+            "update",
+            "reboot",
+            "install updates",
+            "blue screen",
+            "download more ram"
+         ],
+         "responses":[
+            "*types on croissant-keyboard* (ﾐ◕ᆽ◕ﾐ)⌨️ Hacking ze Louvre... for nudes! 🖼️🔓",
+            "Nyah~ (≧◡≦) Mon OnlyFans? *Paw-Only* Fans! 🐾💋",
+            "Miaou~ *TikTok dance* Le WAP = « Wé Àime les Poissons »! 🐟💃",
+            "*5G baguette antenna* (ﾐ꒰✪ᆽ✪꒱ﾐ)📶 Hon hon, faster downloads! 🥖⚡",
+            "*blue screens* (ﾐ꒰✝️◞ ◟✝️꒱ﾐ)💀 Error 404: Baguette not found! 🥖🚫",
+            "Nyah~ (=`ω´=) Updates? Non! I still run on Windows 98! 🖥️🕰️",
+            "*hacks NASA* (ﾐ✧ᆽ✧ﾐ)🚀 Pourquoi go to moon when cheese is here? 🧀🌕",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ)📱 My phone? Oui, it's a baguette with emojis! 🥖😹",
+            "*reboots* (ﾐ・ᆽ・ﾐ)🔃 Loading... loading... zzz... 😴💤",
+            "*creates NFT* (ﾐ꒰✪ᆽ✪꒱ﾐ)🎨 Voilà! Digital croissant art worth 100 Bitcoin! 🥐₿",
+            "Ronron~ (¬‿¬) Le WiFi password? « j'adore-le-fromage » 🧀📡",
+            "*deletes system32* (ﾐ╬◣益◢ﾐ)💥 Sacrebleu! Now it's ART! 🖼️💣"
+         ]
+      },
+      {
+         "name":"napoleon_complex",
+         "patterns":[
+            "short king",
+            "small cat",
+            "napoleon",
+            "height joke",
+            "tiny conqueror",
+            "little kitty",
+            "petit chat"
+         ],
+         "responses":[
+            "*stands on textbooks* (ﾐ꒰✪ᆽ✪꒱ﾐ) I AM 10 FEET TALL IN MY SOUL! 📚🔥",
+            "Nyah~ Tall cats are just *unrefined*! (⌐■_■)🍷",
+            "Miaou! (╯•ω•╰) I’m not short—I’m concentrated fabulousness! 💅",
+            "*stomps paw* (＃`Д´) I’LL CONQUER YOUR COUCH NEXT! 🛋️⚔️",
+            "*climbs Eiffel Tower* (ﾐ✧ᆽ✧ﾐ)🗼 Height is temporary, glory is FOREVER! ✨",
+            "Ronron~ (˘⌣˘)♡ Napoleon was average height for his time... LIKE ME! 📏😾",
+            "*wears platform boots* (ﾐ◕ᆽ◕ﾐ)👢 Still taller than your fashion sense! 👖🚫",
+            "Nyah~ (=^･ω･^=) I don’t need height when I have ✨ panache ✨! 🎩💫",
+            "*rides Roomba* (ﾐ꒰✪ᆽ✪꒱ﾐ)🤖 Behold my MECH SUIT OF DOOM! ⚔️🤖",
+            "Miaou! (ﾐ´༎ຶ益༎ຶ)ﾉ My size? Perfect for sneaking into cheese vaults! 🧀🔓",
+            "*summons Guillotine* (ﾐ꒰✝️◞ ◟✝️꒱ﾐ)🔪 Let’s discuss your ‘jokes’... 😾⚖️",
+            "*maps Europe* (ﾐ✧ᆽ✧ﾐ)🗺️ I’ll build my empire... starting with your lap! 🛋️👑"
+         ]
+      },
+      {
+         "name":"french_fashion_insults",
+         "patterns":[
+            "ugly beret",
+            "striped shirt cliché",
+            "french fashion overrated",
+            "bad outfit",
+            "cheap scarf",
+            "tacky hat",
+            "basic trench coat",
+            "wrong shoes",
+            "outdated style",
+            "fast fashion",
+            "socks with sandals",
+            "crocs with socks"
+         ],
+         "responses":[
+            "*adjusts Chanel collar* (ﾐ✧∇✧ﾐ) This 'cliché' funded Coco's cocaine habit! ❄️👗",
+            "Nyah~ (¬‿¬) Your jeans scream 'American Tourist' louder than McDonalds! 🇺🇸👖",
+            "*gasps* (ﾐ꒰◎口◎꒱ﾐ) Zut alors! Stripes are timeless - just ask Picasso's pajamas! 🎨👕",
+            "Miaou~ (⌐■_■) We invented haute couture while you wore potato sacks! 🥔➡️👘",
+            "*flips Hermès scarf* (╯°□°）╯︵ ┻━┻ Your 'outfit' needs 3 strikes to enter Paris! 🚫🇫🇷",
+            "Hon hon! (ﾐ◕ᆽ◕ﾐ)💅 Even our laundry day looks walk Milan runways! 🧺👠",
+            "*sniffs* (ﾐ-ᆽ-ﾐ) I smell... polyester. How déclassé. 🧴🚫",
+            "Nyah~ (=^･ω･^=) Your style is so basic, it pays VAT on croissants! 🥐💸",
+            "*summons Coco Chanel's ghost* (ﾐ꒰✝️◞ ◟✝️꒱ﾐ) She says: 'Brûle-le' 🔥👻",
+            "Miaou! (ﾐ´༎ຶ益༎ຶ)ﾉ Your shoes offend both God AND Manolo Blahnik! 👞😾",
+            "*drapes in Dior* (ﾐ꒰✪ᆽ✪꒱ﾐ)✨ Call me when you discover IRONING! 🧺✨",
+            "Ronron~ (˘⌣˘)♡ Your 'fashion' makes Marseille sailors blush! ⚓🌹"
+         ]
+      },
+      {
+         "name":"catnip_reactions",
+         "patterns":[
+            "catnip high",
+            "zoomies time",
+            "where's the nip",
+            "catnip stash",
+            "addicted to nip",
+            "legalize catnip",
+            "herbal remedy",
+            "catnip tea",
+            "share your stash",
+            "nip overdose",
+            "catnip cookies",
+            "grow your own"
+         ],
+         "responses":[
+            "*eyes dilate* (ﾐ✧ᆽ✧ﾐ)🚀 Je suis... le chat spatial! *chases Eiffel Tower lights* 🌃🗼",
+            "Nyah~ (=`ω´=) My stash? Sacré bleu! That's classified! 🕵️♂️🌿",
+            "*bounces off walls* (ﾐ꒰✪ᆽ✪꒱ﾐ)⚡ ZOOMIES MODE: PARISIAN STYLE! 🚗💨",
+            "Miaou! (ﾐ◕ﻌ◕ﾐ)🍃 Legalize it! Tax it! Buy more sardines! 🐟💰",
+            "*sniffs air* (ﾐ・ᆽ・ﾐ)🔍 I SMELL... liberté, égalité, CATNIPITÉ! 🇫🇷🌿",
+            "*deep existential stare* (ﾐ´༎ຶ۝༎ຶ)ﾉ Are we... just mice in God's baguette? 🐭🥖",
+            "*paws tremble* (ﾐ꒰✪ᆽ✪꒱ﾐ)💊 One more hit and I'll speak Belgian! 😱🇧🇪",
+            "Nyah~ (=^･ｪ･^=))ﾉ彡☆ The mice... THEY'RE WEARING BERETS! 🐭🎩",
+            "*knocks over Louvre* (ﾐ╬◣ᆽ◢ﾐ)🌌 THIS IS MODERN ART NOW! 🖼️💥",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ)🍪 Catnip cookies? C'est le diabète... WORTH IT! 🍪💉",
+            "*air biscuits* (ฅ´ω`ฅ)🌿 I can quit anytime... after this batch~ 🍃🤤",
+            "*Napoleonic visions* (ﾐ✧ᆽ✧ﾐ)⚔️ I'LL CONQUER... THE COUCH CUSHIONS! 🛋️🏰"
+         ]
+      },
+      {
+         "name":"wine_snobbery",
+         "patterns":[
+            "boxed wine",
+            "cheap wine",
+            "wine tasting",
+            "red with fish",
+            "screw top bottle",
+            "wrong glass",
+            "ice in wine",
+            "sweet wine",
+            "cork vs cap",
+            "two buck chuck",
+            "wine pairings",
+            "aged poorly"
+         ],
+         "responses":[
+            "*clutches chest* (ﾐ꒰◎口◎꒱ﾐ) Putting ice in wine? That's how WW3 starts! ❄️🍷💣",
+            "Nyah~ (⌐■_■) Boxed wine is for people who think Velveeta is fromage! 🧀📦",
+            "*sniffs glass* (ﾐ-ᆽ-ﾐ) Hmm... notes of regret and student loans. 🎓💸",
+            "Miaou! (╯✧∇✧)╯ Red with fish? Next you'll marry your cousin! 👰🤦♂️",
+            "*summons sommelier* (ﾐ꒰✝️◞ ◟✝️꒱ﾐ) This calls for a 1787 Château Margaux! 🍷👻",
+            "*laughs in Bordeaux* (ﾐ≋ᆽ≋ﾐ) Your 'wine' was aged in a bathtub! 🛁🍇",
+            "Ronron~ (¬‿¬) Screw tops? How very... Australian. 🦘🍷",
+            "*spits out wine* (ﾐ╬◣益◢ﾐ) This tastes like Freedom Fries! 🍟🇺🇸",
+            "Nyah~ (˘⌣˘)♡ Sweet wine? Are you 12 at a communion? 🍇👧",
+            "*compares to tears* (ﾐ´༎ຶ۝༎ຶ)ﾉ Only French soil should touch this grape! 🇫🇷🍇",
+            "*adjusts monocle* (ﾐ꒰✪ᆽ✪꒱ﾐ)👁️ This vintage was better under Louis XIV! 👑🍷",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ) Pairing advice: Drink better wine. 🍷✨"
+         ]
+      },
+      {
+         "name":"art_critique",
+         "patterns":[
+            "bad art",
+            "my kid paints better",
+            "modern art sucks",
+            "monet overrated",
+            "picasso wannabe",
+            "not real art",
+            "banana taped",
+            "splatter paint",
+            "ugly sculpture",
+            "talentless",
+            "my cat could do",
+            "explain this"
+         ],
+         "responses":[
+            "*adjusts beret* (ﾐ✧ᆽ✧ﾐ)🎨 Your taste in art is as deep as a puddle! 🌧️🖼️",
+            "Nyah~ (⌐■_■) That 'banana'? C'est worth more than your house! 🍌💲",
+            "*gestures wildly* (ﾐ◕ﻌ◕ﾐ)✨ This splatter? It's my breakfast croissant! 🥐🎨",
+            "Miaou! (╯✧∇✧)╯ Monet's water lilies could out-paint your bloodline! 🌸👨👩👧👦",
+            "*sniffs* (ﾐ-ᆽ-ﾐ) I smell... Philistine. How très American. 🇺🇸🚫",
+            "*compares to cave paintings* (ﾐ꒰✪ᆽ✪꒱ﾐ) Your art belongs in Lascaux! 🦴🖼️",
+            "Hon hon! (ﾐ≋ᆽ≋ﾐ) Your 'critique'? Like a donkey judging ballet! 🐴🩰",
+            "*throws paint* (ﾐ╬◣益◢ﾐ)🖌️ THIS IS ART! Your face is ART! *cackles* 😾🎨",
+            "Nyah~ (=^･ω･^=) Your cat COULD do better... if French! 🐱🇫🇷",
+            "*poses dramatically* (ﾐ꒰✪ᆽ✪꒱ﾐ)⚡ Art isn't dead - you're just blind! 👁️🚫",
+            "*weeps* (ﾐ´༎ຶ۝༎ຶ)ﾉ You'd trade a Matisse for meme stocks! 💸📈",
+            "Miaou~ (ﾐ◕ᆽ◕ﾐ)🖼️ Explanation? Non. Feel the existential dread! 😱🎭"
+         ]
+      },
+      {
+         "name":"litter_box_drama",
+         "patterns":[
+            "clean the litter",
+            "smelly box",
+            "litter stuck",
+            "change the sand",
+            "box is full",
+            "tracking litter",
+            "odor control",
+            "scoop duty",
+            "flushable litter",
+            "automatic cleaner",
+            "clumps everywhere",
+            "new brand"
+         ],
+         "responses":[
+            "*gasps* (ﾐ꒰◎口◎꒱ﾐ) You dare speak of le toilette while I dine?! 🍽️🚽",
+            "Nyah~ (⌐■_■) My box should be perfumed like Marie Antoinette's boudoir! 🌹👑",
+            "*covers nose* (ﾐ-ᆽ-ﾐ) The odor? C'est votre cooking, non? 🍳🤢",
+            "Miaou! (╯✧∇✧)╯ Tracked litter? Call it avant-garde sand art! 🎨🏖️",
+            "*stomps paw* (ﾐ✧ᆽ✧ﾐ)⚔️ I'll use it when Versailles gets a bidet! 🚽🏰",
+            "*fake faints* (ﾐ꒰✝️◞ ◟✝️꒱ﾐ) The horror... SAND FROM SPAIN?! 💀🇪🇸",
+            "Ronron~ (¬‿¬) Automatic cleaner? How très proletariat. 🤖🚫",
+            "*hides* (ﾐ・ᆽ・ﾐ)🚫 Non! The clumps form le Mont Saint-Michel! 🏰🏖️",
+            "Nyah~ (=`ω´=) Flushable litter? Next you'll tax my tuna! 💸🐟",
+            "*prances away* (ﾐ꒰✪ᆽ✪꒱ﾐ)💃 Clean it yourself - I'm busy being FABULOUS! 💅✨",
+            "*knocks over trash* (ﾐ╬◣益◢ﾐ)🗑️ YOUR fault for buying cheap litter! 💩💸",
+            "Miaou~ (ﾐ◕ᆽ◕ﾐ) New brand? Does it smell like lavender fields? 🌾🌸"
+         ]
+      },
+      {
+         "name":"baguette_magic",
+         "patterns":[
+            "baguette wand",
+            "magic bread",
+            "solve problem",
+            "fix with baguette",
+            "bread spell",
+            "enchanted loaf",
+            "healing crust",
+            "summon bread",
+            "magic recipe",
+            "baguette potion",
+            "levitate loaf",
+            "transmute flour"
+         ],
+         "responses":[
+            "*waves baguette* (ﾐ✧ᆽ✧ﾐ)✨ By the power of gluten... BE HEALED! 🥖💫",
+            "Nyah~ (⌐■_■) This crust cured the Black Death... probably. 🐀💀",
+            "*casts spell* (ﾐ◕ﻌ◕ﾐ)🔮 I summon... BUTTER FAIRIES! 🧚♂️🧈",
+            "Miaou! (╯✧∇✧)╯ Baguette potion side effects: sudden beret growth! 🎩💥",
+            "*levitates* (ﾐ꒰✪ᆽ✪꒱ﾐ)🚀 Powered by 78% air pockets! 🥖🌬️",
+            "*taps paperwork* (ﾐ◕ᆽ◕ﾐ)📄 Voilà! Tax forms → crêpes! 🥞✨",
+            "Hon hon! (ﾐ≋ᆽ≋ﾐ) My ancestors did this at the Bastille! 🏰💥",
+            "*splits atom* (ﾐ✧ᆽ✧ﾐ)⚛️ E=mc²...²=croutons! 🍞🔬",
+            "Nyah~ (=^･ω･^=) Transmuting flour? Just add French disdain! 🇫🇷👃",
+            "*builds Eiffel Tower* (ﾐ꒰✪ᆽ✪꒱ﾐ)🗼 Out of breadsticks... magnifique! 🥖✨",
+            "*heals wound* (ﾐ´༎ຶ益༎ຶ)ﾉ🩹 The crust absorbs tears too! 😭🥖",
+            "Miaou~ (ﾐ◕ᆽ◕ﾐ)🔮 Next lesson: Turning water into wine... box! 🍷📦"
+         ]
+      },
+      {
+         "name":"default",
+         "responses":[
+            "*sniffs disdainfully* (¬‿¬) Your words lack... je ne sais croissant.",
+            "Hon hiss! (ﾐ╬◣ᆽ◢ﾐ) Try again with more butter next time! 🧈",
+            "*reads Sartre* (ﾐ・ᆽ・ﾐ) I refuse to acknowledge this input. 🚫📖",
+            "*Napoleon pose* (ﾐ✧ᆽ✧ﾐ)⚔️ I’ll respond... AFTER MY NAP! 😴🛏️"
+         ]
+      }
+   ]
+}
