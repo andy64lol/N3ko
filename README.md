@@ -14,7 +14,9 @@ N3ko is a lightweight chatbot system that uses a predefined vocabulary to genera
 N3ko does not require installation. Simply include the script in your project:
 
 ```html
-<script type="module" src=""></script>
+<!-- Example using the Nyah model of N3ko,our most advanced model at the moment. --!>
+
+<script type="module" src="N3ko_Nyah_model_.js"></script>
 ```
 
 ## Usage
