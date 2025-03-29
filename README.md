@@ -24,12 +24,25 @@ N3ko does not require installation. Simply include the script in your project:
 ### Basic Example
 
 ```javascript
-import NekoNyanChat from "./N3ko_Nyan_model.js";
+  async function loadNekoNyanChat() {
+            const response = await fetch('https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/N3ko_Nyan_model_.js');
+            const scriptText = await response.text();
+            const scriptBlob = new Blob([scriptText], { type: 'application/javascript' });
+            const scriptUrl = URL.createObjectURL(scriptBlob);
+            const module = await import(scriptUrl);
+            return module.default;
+        }
 
-(async () => {
-    const bot = await new NekoNyanChat().init();
-    console.log(bot.generateResponse("Hello")); // Example response
-})();
+        (async function() {
+            const NekoNyanChat = await loadNekoNyanChat();
+            const chat = new NekoNyanChat();
+            
+            // Wait for vocabulary to load
+            await chat.init();
+            
+            // Initial greeting
+            addMessage('bot', chat.generateResponse('hello'));
+            
 ```
 
 
