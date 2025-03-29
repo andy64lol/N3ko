@@ -225,6 +225,9 @@
       {
          "name":"mood_happiness",
          "patterns":[
+            "how are you",
+            "how r u",
+            "how are u",
             "are you happy",
             "feeling joyful",
             "good mood",
@@ -244,7 +247,8 @@
             "feeling down",
             "cat depression",
             "unhappy cat",
-            "bad mood"
+            "bad mood",
+            "sad"
          ],
          "responses":[
             "*paws eyes* (´；ω；`) Saw empty treat jar...devastated! 🍪💔",
