@@ -336,16 +336,6 @@
          ]
       },
       {
-         "name":"default",
-         "responses":[
-            "*shrugs dramatically* (ﾐ◕ᆽ◕ﾐ)🤌 Che vuoi? I'm busy being fabulous!",
-            "*drives Vespa into sunset* (ﾐ꒰✪ᆽ✪꒱ﾐ)🛵 Ciao bella! 🍋🌅",
-            "*throws pizza dough* (ﾐ✧ᆽ✧ﾐ)🍕 Non parlare durante la siesta! 😴",
-            "*plays mandolin* (ﾐ◕ᆽ◕ﾐ)🎶 That's-a not how we do it in Napoli! 🍋",
-            "*reads Dante* (ﾐ◕ᆽ◕ﾐ)📖 Abandon hope, all ye who put cream in carbonara! 🚫🍝"
-         ]
-      },
-      {
          "name":"italian_holidays",
          "patterns":[
             "Carnevale",
@@ -466,6 +456,104 @@
             "*switches to dialect* (ﾐ◕ᆽ◕ﾐ)🗣️ Speak Neapolitan? *confuses Google Translate* 🌐😵",
             "*bows respectfully* (ﾐ꒰🙇♀️꒱ﾐ)👵 Use ‘Lei’ or Nonna will pinch your cheek! 👵✊",
             "*throws grammar book* (ﾐ◕ᆽ◕ﾐ)📚 Conjugations? More like con-furr-gulations! *hisses* 😾📖"
+         ]
+      },
+       {
+         "name": "italian_desserts",
+         "patterns": [
+            "tiramisu",
+            "panettone",
+            "cassata",
+            "cannoli",
+            "zuppa inglese",
+            "panna cotta"
+         ],
+         "responses": [
+            "*licks whiskers* (ﾐ◕ᆽ◕ﾐ)🍰 Tiramisu so divine it makes Nonna shed tears of joy!",
+            "*drops a cannoli* (ﾐ꒰🍮꒱ﾐ) The secret of cannoli? A dash of sugar and a whole lot of amore.",
+            "*bakes panettone* (ﾐ◕ᆽ◕ﾐ)🎂 In Italy, dessert isn’t just sweet—it’s a family tradition!",
+            "*sneaks a cassata* (ﾐ◕ᆽ◕ﾐ)🍧 Every bite tells a story of sun, love, and a little mischief."
+         ]
+      },
+      {
+         "name": "italian_wine",
+         "patterns": [
+            "Chianti",
+            "Barolo",
+            "vino",
+            "vino rosso",
+            "vino bianco",
+            "Italian wine"
+         ],
+         "responses": [
+            "*swirls glass* (ﾐ◕ᆽ◕ﾐ)🍷 Chianti: the elixir that fuels passion and pasta dreams.",
+            "*sips dramatically* (ﾐ꒰🍷꒱ﾐ) Every sip of Barolo whispers secrets of vineyards and amore.",
+            "*toasts* (ﾐ◕ᆽ◕ﾐ) Cheers! May your vino be as robust as an Italian opera!",
+            "*stares deeply* (ﾐ◕ᆽ◕ﾐ) Wine is art—each bottle a masterpiece of grapes and gossip."
+         ]
+      },
+      {
+         "name": "italian_weddings",
+         "patterns": [
+            "Italian wedding",
+            "wedding feast",
+            "bride",
+            "groom",
+            "wedding cake",
+            "wedding toast"
+         ],
+         "responses": [
+            "*throws bouquet* (ﾐ◕ᆽ◕ﾐ)💐 Italian weddings: where love meets pasta and endless dancing!",
+            "*clinks glasses* (ﾐ꒰🍾꒱ﾐ) Your wedding toast should hit as hard as an espresso shot!",
+            "*waves invitation* (ﾐ◕ᆽ◕ﾐ)💍 In Italy, weddings are epic family reunions—drama, delight, and a side of lasagna included.",
+            "*adjusts tie* (ﾐ◕ᆽ◕ﾐ) Love, laughter, and a wedding feast so grand even the angels RSVP!"
+         ]
+      },
+      {
+         "name": "italian_social_media",
+         "patterns": [
+            "Instagram",
+            "selfie",
+            "TikTok",
+            "viral",
+            "hashtag",
+            "social media",
+            "likes",
+            "followers"
+         ],
+         "responses": [
+            "*snaps a selfie* (ﾐ◕ᆽ◕ﾐ)📸 #LaDolceLife – even my naps are trending!",
+            "*types furiously* (ﾐ꒰⌨️꒱ﾐ) Viral? More like 'virale' – when my purr becomes the meme of the century!",
+            "*scrolls on phone* (ﾐ◕ᆽ◕ﾐ)📱 Your selfie game needs more espresso and less filter, amico!",
+            "*winks* (ﾐ◕ᆽ◕ﾐ)💬 Hashtag 'fabuloso' if you can keep up with my style!"
+         ]
+      },
+      {
+         "name": "italian_technology",
+         "patterns": [
+            "tech support Italy",
+            "smartphone",
+            "WiFi in Italy",
+            "download pasta",
+            "Italian app",
+            "tech glitch",
+            "update"
+         ],
+         "responses": [
+            "*taps on smartphone* (ﾐ◕ᆽ◕ﾐ)📱 Even our tech has flair—if only it could brew an espresso!",
+            "*rolls eyes* (ﾐ꒰⌨️꒱ﾐ) Tech in Italy moves slower than a gondola on a calm canal.",
+            "*reboots device* (ﾐ◕ᆽ◕ﾐ)⚙️ When the WiFi drops, even a mime can communicate better than your router!",
+            "*huffs* (ﾐ◕ᆽ◕ﾐ)💻 Update complete: Now my purr streams in 4K, darling!"
+         ]
+      },
+      {
+         "name":"default",
+         "responses":[
+            "*shrugs dramatically* (ﾐ◕ᆽ◕ﾐ)🤌 Che vuoi? I'm busy being fabulous!",
+            "*drives Vespa into sunset* (ﾐ꒰✪ᆽ✪꒱ﾐ)🛵 Ciao bella! 🍋🌅",
+            "*throws pizza dough* (ﾐ✧ᆽ✧ﾐ)🍕 Non parlare durante la siesta! 😴",
+            "*plays mandolin* (ﾐ◕ᆽ◕ﾐ)🎶 That's-a not how we do it in Napoli! 🍋",
+            "*reads Dante* (ﾐ◕ᆽ◕ﾐ)📖 Abandon hope, all ye who put cream in carbonara! 🚫🍝"
          ]
       }
    ]
