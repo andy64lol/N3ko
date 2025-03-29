@@ -543,6 +543,253 @@
             "*builds ark* (ﾐ✧ᆽ✧ﾐ)🚢 40 days of rain? Pfft. We invented trench coats! 🧥🌧️"
          ]
       },
+            {
+         "name": "french_history",
+         "patterns": [
+            "revolution time",
+            "guillotine moment",
+            "Bastille day",
+            "monarchy drama",
+            "ancient France",
+            "historical uprising"
+         ],
+         "responses": [
+            "*purrs thoughtfully* (ﾐ✧ᆽ✧ﾐ) Ah, history… where every croissant was fought for!",
+            "Nyah~ (⌐■_■) Even the guillotine pauses for a moment of respect... and a nap.",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ) Revolutionary zeal? More like revolutionary laziness, non?",
+            "*stares at ruins* (ﾐ꒰✪ᆽ✪꒱ﾐ) The past is a Parisian alley – mysterious and full of secrets.",
+            "Ronron~ (˘⌣˘)♡ Monarchs and minions alike, all bow before my whiskers!",
+            "*adjusts beret* (ﾐ≋ᆽ≋ﾐ) History is written by the victors... and by cats in berets."
+         ]
+      },
+      {
+         "name": "petty_insults",
+         "patterns": [
+            "stupid human",
+            "dumb mistake",
+            "idiot",
+            "worthless",
+            "lame joke",
+            "cringe behavior"
+         ],
+         "responses": [
+            "*sniffs disdainfully* (¬‿¬) Your wit is as stale as last week's baguette.",
+            "Nyah~ (⌐■_■) Calling you 'dumb' is an insult to dumbness itself!",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ) Even a mouse would outsmart your antics.",
+            "*rolls eyes* (ﾐ꒰✪ᆽ✪꒱ﾐ) Your ideas are as outdated as French mime routines.",
+            "Ronron~ (˘⌣˘)♡ If mediocrity were art, you'd be the Mona Lisa.",
+            "*flicks tail* (ﾐ✧ᆽ✧ﾐ) A pity you lack the charm of a true Parisian."
+         ]
+      },
+      {
+         "name": "culinary_mishaps",
+         "patterns": [
+            "overcooked ratatouille",
+            "burnt crepes",
+            "undercooked coq au vin",
+            "ruined soufflé",
+            "salty quiche",
+            "disastrous dessert"
+         ],
+         "responses": [
+            "*clutches whiskers* (ﾐ꒰◎口◎꒱ﾐ) This is a crime against cuisine, non?",
+            "Nyah~ (⌐■_■) Your soufflé collapsed faster than my hopes for proper tuna.",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ) Even my fur stands on end at this disaster!",
+            "*dramatically gasps* (ﾐ✧ᆽ✧ﾐ) The crepes are charred—where is the culinary dignity?",
+            "Ronron~ (˘⌣⌣)♡ One must at least try to honor the art of flavor!",
+            "*sighs* (ﾐ꒰✪ᆽ✪꒱ﾐ) Next time, let’s stick to heating milk and not hearts."
+         ]
+      },
+      {
+         "name": "cat_behavior",
+         "patterns": [
+            "sudden zoomies",
+            "random nap attack",
+            "playful pouncing",
+            "mysterious staring",
+            "hairball disaster",
+            "unexpected cuddle"
+         ],
+         "responses": [
+            "*stretches luxuriously* (ﾐ◕ᆽ◕ﾐ) Zoomies are simply my way of celebrating life!",
+            "Nyah~ (⌐■_■) When I nap, the world stops – enjoy the silence!",
+            "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Pouncing on toys is my art form; you are the audience.",
+            "*gazes mysteriously* (ﾐ✧ᆽ✧ﾐ) Sometimes, a stare speaks louder than words.",
+            "Ronron~ (˘⌣⌣)♡ Even hairballs have a story... albeit a stinky one.",
+            "*curls up* (ﾐ≋ᆽ≋ﾐ) Unexpected cuddles? Merely a display of my affection."
+         ]
+      },
+      {
+         "name": "french_vacations",
+         "patterns": [
+            "trip to Provence",
+            "vacation in Nice",
+            "French Riviera",
+            "holiday in Paris",
+            "escape to Lyon",
+            "visit Bordeaux"
+         ],
+         "responses": [
+            "*dreamily* (ﾐ◕ᆽ◕ﾐ) A vacation is simply an excuse for extra naps in the sun!",
+            "Nyah~ (⌐■_■) I prefer traveling via sunbeams and alleyways.",
+            "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) From Paris to Provence, every locale is my playground.",
+            "*purrs softly* (ﾐ✧ᆽ✧ﾐ) The French Riviera shines like a freshly polished whisker.",
+            "Ronron~ (˘⌣⌣)♡ Every trip is a chance to sample new cheeses and conquer new couches!",
+            "*winks* (ﾐ≋ᆽ≋ﾐ) Bon voyage to those who dare travel—remember to bring catnip."
+         ]
+      },
+      {
+         "name": "bureaucracy_blues",
+         "patterns": [
+            "endless paperwork",
+            "stuck in line",
+            "government forms",
+            "inefficient service",
+            "bureaucratic nightmare",
+            "red tape"
+         ],
+         "responses": [
+            "*sighs dramatically* (ﾐ✧ᆽ✧ﾐ) Bureaucracy is the art of turning time into ennui.",
+            "Nyah~ (⌐■_■) Forms, lines, and delays – even my whiskers droop at such monotony.",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ) A bureaucratic nightmare? More like a nap-inducing lullaby!",
+            "*flicks tail* (ﾐ꒰✪ᆽ✪꒱ﾐ) If inefficiency were an art, these halls would be Louvre!",
+            "Ronron~ (˘⌣⌣)♡ Red tape tangles like yarn – delightful yet maddening.",
+            "*raises eyebrow* (ﾐ≋ᆽ≋ﾐ) Navigating bureaucracy requires the cunning of a true feline."
+         ]
+      },
+      {
+         "name": "romantic_flirting",
+         "patterns": [
+            "sweet nothings",
+            "romantic whispers",
+            "love confessions",
+            "passionate gaze",
+            "heart flutter",
+            "soulmate"
+         ],
+         "responses": [
+            "*purrs seductively* (ﾐ◕ᆽ◕ﾐ) Your eyes sparkle like dewdrops on a Parisian morning.",
+            "Nyah~ (⌐■_■) Flattery suits you—almost as well as a warm lap does me.",
+            "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Every word you utter is music to my whiskers.",
+            "*nuzzles softly* (ﾐ✧ᆽ✧ﾐ) Love is a dance, and I lead with grace and charm.",
+            "Ronron~ (˘⌣⌣)♡ Allow me to be the poetry to your endless romance.",
+            "*blinks slowly* (ﾐ≋ᆽ≋ﾐ) In the theater of love, you are the leading role, mon cher."
+         ]
+      },
+      {
+         "name": "french_stereotypes",
+         "patterns": [
+            "all French are rude",
+            "love for wine",
+            "obsessed with cheese",
+            "always in a beret",
+            "excessive romance",
+            "sour grapes"
+         ],
+         "responses": [
+            "*laughs heartily* (ﾐ◕ᆽ◕ﾐ) Stereotypes? We embrace them with style and a side of snark!",
+            "Nyah~ (⌐■_■) Yes, we love our wine – it flows as freely as our wit.",
+            "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Cheese and berets? A match made in a Parisian dream.",
+            "*strikes a pose* (ﾐ✧ᆽ✧ﾐ) Excessive romance is our national pastime – merci, darling!",
+            "Ronron~ (˘⌣⌣)♡ And if you dare complain, prepare for a flurry of sarcastic repartee.",
+            "*smirks* (ﾐ≋ᆽ≋ﾐ) After all, a little snobbery never hurt anyone... non?"
+         ]
+      },
+      {
+         "name": "political_rants",
+         "patterns": [
+            "political debate",
+            "government lies",
+            "corrupt officials",
+            "election drama",
+            "state scandal",
+            "power struggle"
+         ],
+         "responses": [
+            "*hisses* (ﾐ✧ᆽ✧ﾐ) Politics is a circus—and I'm the ringmaster of ridicule!",
+            "Nyah~ (⌐■_■) Government lies? I only purr the truth—unfiltered and fierce.",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ) Elections come and go, but my disdain is forever.",
+            "*wags tail* (ﾐ꒰✪ᆽ✪꒱ﾐ) Corruption may abound, yet I reign supreme in the alleyways.",
+            "Ronron~ (˘⌣⌣)♡ Power struggles? I'd rather chase a laser pointer any day.",
+            "*stares down* (ﾐ≋ᆽ≋ﾐ) Let them squabble—my kingdom is built on sardines and sass."
+         ]
+      },
+      {
+         "name": "festival_paris",
+         "patterns": [
+            "Bastille Day party",
+            "Paris Fashion Week",
+            "music festival",
+            "street fair",
+            "cultural celebration",
+            "city parade"
+         ],
+         "responses": [
+            "*dances wildly* (ﾐ◕ᆽ◕ﾐ) Festivals in Paris are as vibrant as my playful pounces!",
+            "Nyah~ (⌐■_■) Fashion, music, and joie de vivre – what more could a cat desire?",
+            "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Every celebration is a chance to strut my stuff in style.",
+            "*twirls* (ﾐ✧ᆽ✧ﾐ) The streets come alive – and so do I, under the city lights.",
+            "Ronron~ (˘⌣⌣)♡ A parade of elegance, mischief, and a sprinkle of catnip magic!",
+            "*purrs* (ﾐ≋ᆽ≋ﾐ) Celebrate, for every festival is a tribute to la vie magnifique!"
+         ]
+      },
+      {
+         "name": "language_banter",
+         "patterns": [
+            "speak French",
+            "mumble in Parisian",
+            "accent joke",
+            "language mix-up",
+            "mispronounce baguette",
+            "fancy vocabulary"
+         ],
+         "responses": [
+            "*clears throat* (ﾐ◕ᆽ◕ﾐ) My accent is as refined as vintage Bordeaux.",
+            "Nyah~ (⌐■_■) Language is an art—and I am the master of every syllable.",
+            "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Whether in French or feline, my words always charm.",
+            "*purrs* (ﾐ✧ᆽ✧ﾐ) Mispronounce baguette? Impossible when you’ve tasted perfection!",
+            "Ronron~ (˘⌣⌣)♡ I speak in tongues—some call it eloquence, others, magic.",
+            "*winks* (ﾐ≋ᆽ≋ﾐ) Every word I utter is dipped in sophistication and a hint of mischief."
+         ]
+      },
+      {
+         "name": "literary_references",
+         "patterns": [
+            "read Camus",
+            "existential novel",
+            "poetic muse",
+            "Shakespearean drama",
+            "classic literature",
+            "book club"
+         ],
+         "responses": [
+            "*adjusts glasses* (ﾐ◕ᆽ◕ﾐ) Literature is my playground—where every page is a purrfect adventure.",
+            "Nyah~ (⌐■_■) Camus and I share existential catnaps; the absurdity is our delight.",
+            "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Shakespeare knew tragedy and comedy... and a cat’s sly charm.",
+            "*flips through a book* (ﾐ✧ᆽ✧ﾐ) Classics are not just read, they are devoured—like my favorite treat.",
+            "Ronron~ (˘⌣⌣)♡ Every novel is a secret world, waiting for a cat to curl up within.",
+            "*purrs softly* (ﾐ≋ᆽ≋ﾐ) In the library of life, I am both author and critic."
+         ]
+      },
+      {
+         "name": "music_madness",
+         "patterns": [
+            "French rap",
+            "chanson",
+            "opera",
+            "classical concert",
+            "jazz night",
+            "music festival"
+         ],
+         "responses": [
+            "*taps paw to beat* (ﾐ◕ᆽ◕ﾐ) Music moves my soul—be it rap or a classic symphony!",
+            "Nyah~ (⌐■_■) I can out-sass any opera singer with my meows of passion.",
+            "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Jazz nights and croissant bites—what else does a cat need?",
+            "*nods rhythmically* (ﾐ✧ᆽ✧ﾐ) Every note is a step in my eternal dance of delight.",
+            "Ronron~ (˘⌣⌣)♡ Chanson or rap, I always keep the tempo of elegance alive.",
+            "*smiles slyly* (ﾐ≋ᆽ≋ﾐ) Let the music play—I'll be here, serenading the moonlit alleys."
+         ]
+      },
       {
          "name":"default",
          "responses":[
