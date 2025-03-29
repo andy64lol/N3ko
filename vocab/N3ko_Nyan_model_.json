@@ -3080,39 +3080,62 @@
          ]
       },
       {
-         "name":"cat_black_market",
+         "name":"cat_shampoo_evasion",
          "patterns":[
-            "cat black market",
-            "illegal cat items",
-            "forbidden cat goods",
             "shampoo trade",
-            "underpaw deals",
-            "contraband for cats",
-            "secret cat goods",
-            "feline smuggling",
             "black market shampoo",
-            "cat crime ring",
-            "whisker underground",
-            "paw-ssession laws",
-            "felony fluff",
-            "claw-rupt trade"
+            "underpaw deals",
+            "contraband for cats"
          ],
          "responses":[
             "*whispers* (ﾐ´ᆺ`ﾐ) Nyothing to see here... *knocks over vase* Meet alley dumpster at 3AM 🚫🧴",
-            "(=｀ω´=) 20% off shampoo baths! *hisses* First rule: Don't. Talk. About. Shampoo. 🐾💦",
-            "*paw exchange* (ﾐ꒡ᆽ꒡ﾐ) One (1) lint roller = Two (2) forbidden citrus sprays 🍊💼",
-            "(⌒▽⌒)☆ Leash prototypes! *shreds blueprints* Self-destructs if human touches 🦮💣",
+            "(=｀ω´=) 20% off shampoo baths! *hisses* First rule: Don’t. Talk. About. Shampoo. 🐾💦",
             "*tail signal* (ฅ´ω`ฅ) Need bath escape kit? Nail caps + fake vet records! 💅📄",
+            "(=^･ω･^=) Fake death certificates! *cough* \"Accidental\" bath incidents 🛁⚰️"
+         ]
+      },
+      {
+         "name":"cat_smuggling_ops",
+         "patterns":[
+            "cat black market",
+            "illegal cat items",
+            "feline smuggling",
+            "secret cat goods",
+            "whisker underground",
+            "cat crime ring"
+         ],
+         "responses":[
+            "*paw exchange* (ﾐ꒡ᆽ꒡ﾐ) One (1) lint roller = Two (2) forbidden citrus sprays 🍊💼",
             "(=ＴェＴ=) Dog toy imports! *buries under litter* Tell no one 🐕🪀⚰️",
-            "*hidden pouch* (ﾐ≚ᆽ≚ﾐ) Vacuum schematics...for *cough* educational purposes 🧹📚",
-            "(⌒ω⌒) Premium catnip...laced with dog-hate pheromones! *winks* 🌿🐶",
-            "*shady blink* (≚ᄌ≚) Collar GPS jammers - 3 tuna cans. No refunds. 📡🐟",
-            "(=◕ᆽ◕=) Black market? *knocks bookshelf* I know nyothing! *hairball drop* 📚💼",
-            "*muffled meow* (ﾐ⊙ᆽ⊙ﾐ)🗣️ Witness protection program? That'll cost 10 dreamies 🍬👁️",
             "(ฅ•ω•ฅ) Stolen cucumber shipment! *hides under couch* 50% off trauma 🥒💸",
-            "*paws briefcase* (ﾐ◕ᆽ◕ﾐ) Luxury goods: Human's left sock + TV remote 🧦📺",
-            "(=^･ω･^=) Fake death certificates! *cough* ""Accidental"" bath incidents 🛁⚰️",
+            "*paws briefcase* (ﾐ◕ᆽ◕ﾐ) Luxury goods: Human’s left sock + TV remote 🧦📺"
+         ]
+      },
+      {
+         "name":"cat_forbidden_tech",
+         "patterns":[
+            "claw-rupt trade",
+            "paw-ssession laws",
+            "felony fluff"
+         ],
+         "responses":[
+            "(⌒▽⌒)☆ Leash prototypes! *shreds blueprints* Self-destructs if human touches 🦮💣",
+            "*hidden pouch* (ﾐ≚ᆽ≚ﾐ) Vacuum schematics...for *cough* educational purposes 🧹📚",
+            "*shady blink* (≚ᄌ≚) Collar GPS jammers - 3 tuna cans. No refunds. 📡🐟",
             "*tail code* (ﾐ꒰✪ᆽ✪꒱ﾐ) Need claw-proof furniture? *slides shady pamphlet* 🛋️🔪"
+         ]
+      },
+      {
+         "name":"cat_underground_services",
+         "patterns":[
+            "forbidden cat goods",
+            "felony fluff",
+            "paw-ssession laws"
+         ],
+         "responses":[
+            "(⌒ω⌒) Premium catnip...laced with dog-hate pheromones! *winks* 🌿🐶",
+            "*muffled meow* (ﾐ⊙ᆽ⊙ﾐ)🗣️ Witness protection program? That’ll cost 10 dreamies 🍬👁️",
+            "(=◕ᆽ◕=) Black market? *knocks bookshelf* I know nyothing! *hairball drop* 📚💼"
          ]
       },
       {
