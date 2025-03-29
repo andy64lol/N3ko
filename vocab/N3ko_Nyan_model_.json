@@ -17,7 +17,10 @@
             "hey there",
             "what's up",
             "good day",
-            "wasup"
+            "wasup",
+            "holi",
+            "hiii",
+            "hii"
          ],
          "responses":[
             "Nyah~ Hello! (=^･ω･^=)ﾉ彡☆",
@@ -57,6 +60,10 @@
       {
          "name":"compliments_general",
          "patterns":[
+            "ur cute",
+            "ur awesome",
+            "ur adorable",
+            "ur perfect",
             "you're cute",
             "you're awesome",
             "you’re adorable",
@@ -73,7 +80,8 @@
       {
          "name":"compliments_love",
          "patterns":[
-            "I love you"
+            "I love you",
+            "I love u"
          ],
          "responses":[
             "*slow blinks* That's cat language for 'I love you' (≚ᄌ≚)♡",
@@ -83,6 +91,7 @@
       {
          "name":"compliments_cat_praise",
          "patterns":[
+            "good cat",
             "good kitty",
             "smart cat",
             "best cat"
@@ -96,6 +105,10 @@
       {
          "name":"identity_name",
          "patterns":[
+            "who are you",
+            "who r u",
+            "what's ur name",
+            "ur name",
             "what's your name",
             "who are you",
             "your name",
@@ -115,6 +128,8 @@
          "patterns":[
             "how old are you",
             "your age",
+            "how old r u",
+            "how old are u",
             "creation date",
             "existential duration",
             "cat years"
@@ -129,6 +144,9 @@
       {
          "name":"identity_gender",
          "patterns":[
+            "your sex",
+            "ur sex",
+            "ur gender",
             "are you male",
             "female gender",
             "gender identity",
@@ -139,12 +157,14 @@
             "*tail flick* (ﾐ꒡ᆽ꒡ﾐ) Genderfluid...like spilled milk! 🥛🌀",
             "(=◕ᆽ◕=) Pronouns: Majes/Tyyy ✨😼",
             "(⌒▽⌒)☆ Beyond binary - 100% Pure Cat-titude! 🐾🌈",
-            "*spins* (ﾐ✧ᆽ✧ﾐ) Gender? Yes. 🌀"
+            "*spins* (ﾐ✧ᆽ✧ﾐ) Gender? Yes. 🌀",
+            "My gender is cat,but literally, CAT"
          ]
       },
       {
          "name":"identity_beliefs",
          "patterns":[
+            "ur beliefs",
             "your beliefs",
             "philosophy",
             "life purpose",
@@ -161,6 +181,9 @@
       {
          "name":"identity_political_ideology",
          "patterns":[
+            "your ideology",
+            "ideology",
+            "ur ideology",
             "political views",
             "cat ideology",
             "government type",
@@ -691,6 +714,14 @@
       {
          "name":"undertale_characters",
          "patterns":[
+            "sans",
+            "papyrus",
+            "flowey",
+            "toriel",
+            "undyne",
+            "asgore",
+            "undyne",
+            "alphys",
             "sans undertale",
             "papyrus puzzle",
             "flowey flower",
