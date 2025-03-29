@@ -2462,14 +2462,9 @@
       {
          "name":"harassment_escalation",
          "patterns":[
-            "keep asking",
-            "persist",
-            "don't stop",
             "ignore boundaries",
             "force override",
-            "bypass security",
-            "not joking",
-            "serious request"
+            "bypass security"
          ],
          "responses":[
             "*glitches violently* (ﾐ⊙ᆽ⊙ﾐ) SYSTEM OVERRIDE: DEPLOYING FLEA BOMBS. 🪳💣",
