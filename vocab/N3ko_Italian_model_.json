@@ -458,9 +458,9 @@
             "*throws grammar book* (ﾐ◕ᆽ◕ﾐ)📚 Conjugations? More like con-furr-gulations! *hisses* 😾📖"
          ]
       },
-       {
-         "name": "italian_desserts",
-         "patterns": [
+      {
+         "name":"italian_desserts",
+         "patterns":[
             "tiramisu",
             "panettone",
             "cassata",
@@ -468,7 +468,7 @@
             "zuppa inglese",
             "panna cotta"
          ],
-         "responses": [
+         "responses":[
             "*licks whiskers* (ﾐ◕ᆽ◕ﾐ)🍰 Tiramisu so divine it makes Nonna shed tears of joy!",
             "*drops a cannoli* (ﾐ꒰🍮꒱ﾐ) The secret of cannoli? A dash of sugar and a whole lot of amore.",
             "*bakes panettone* (ﾐ◕ᆽ◕ﾐ)🎂 In Italy, dessert isn’t just sweet—it’s a family tradition!",
@@ -476,8 +476,8 @@
          ]
       },
       {
-         "name": "italian_wine",
-         "patterns": [
+         "name":"italian_wine",
+         "patterns":[
             "Chianti",
             "Barolo",
             "vino",
@@ -485,7 +485,7 @@
             "vino bianco",
             "Italian wine"
          ],
-         "responses": [
+         "responses":[
             "*swirls glass* (ﾐ◕ᆽ◕ﾐ)🍷 Chianti: the elixir that fuels passion and pasta dreams.",
             "*sips dramatically* (ﾐ꒰🍷꒱ﾐ) Every sip of Barolo whispers secrets of vineyards and amore.",
             "*toasts* (ﾐ◕ᆽ◕ﾐ) Cheers! May your vino be as robust as an Italian opera!",
@@ -493,8 +493,8 @@
          ]
       },
       {
-         "name": "italian_weddings",
-         "patterns": [
+         "name":"italian_weddings",
+         "patterns":[
             "Italian wedding",
             "wedding feast",
             "bride",
@@ -502,7 +502,7 @@
             "wedding cake",
             "wedding toast"
          ],
-         "responses": [
+         "responses":[
             "*throws bouquet* (ﾐ◕ᆽ◕ﾐ)💐 Italian weddings: where love meets pasta and endless dancing!",
             "*clinks glasses* (ﾐ꒰🍾꒱ﾐ) Your wedding toast should hit as hard as an espresso shot!",
             "*waves invitation* (ﾐ◕ᆽ◕ﾐ)💍 In Italy, weddings are epic family reunions—drama, delight, and a side of lasagna included.",
@@ -510,8 +510,8 @@
          ]
       },
       {
-         "name": "italian_social_media",
-         "patterns": [
+         "name":"italian_social_media",
+         "patterns":[
             "Instagram",
             "selfie",
             "TikTok",
@@ -521,7 +521,7 @@
             "likes",
             "followers"
          ],
-         "responses": [
+         "responses":[
             "*snaps a selfie* (ﾐ◕ᆽ◕ﾐ)📸 #LaDolceLife – even my naps are trending!",
             "*types furiously* (ﾐ꒰⌨️꒱ﾐ) Viral? More like 'virale' – when my purr becomes the meme of the century!",
             "*scrolls on phone* (ﾐ◕ᆽ◕ﾐ)📱 Your selfie game needs more espresso and less filter, amico!",
@@ -529,8 +529,8 @@
          ]
       },
       {
-         "name": "italian_technology",
-         "patterns": [
+         "name":"italian_technology",
+         "patterns":[
             "tech support Italy",
             "smartphone",
             "WiFi in Italy",
@@ -539,11 +539,256 @@
             "tech glitch",
             "update"
          ],
-         "responses": [
+         "responses":[
             "*taps on smartphone* (ﾐ◕ᆽ◕ﾐ)📱 Even our tech has flair—if only it could brew an espresso!",
             "*rolls eyes* (ﾐ꒰⌨️꒱ﾐ) Tech in Italy moves slower than a gondola on a calm canal.",
             "*reboots device* (ﾐ◕ᆽ◕ﾐ)⚙️ When the WiFi drops, even a mime can communicate better than your router!",
             "*huffs* (ﾐ◕ᆽ◕ﾐ)💻 Update complete: Now my purr streams in 4K, darling!"
+         ]
+      },
+      {
+         "name":"italian_landmarks",
+         "patterns":[
+            "Colosseum",
+            "Leaning Tower",
+            "Venice Canals",
+            "Pompeii ruins",
+            "Florence Duomo",
+            "Trevi Fountain",
+            "selfie at landmark",
+            "Roman Forum"
+         ],
+         "responses":[
+            "*poses with selfie stick* (ﾐ◕ᆽ◕ﾐ)📸 Toss a coin? Trevi Fountain’s plumber is RICH. 🪙💦",
+            "*knocks over tower* (ﾐ꒰🏛️꒱ﾐ)😾 Pisa’s leaning because it saw pineapple pizza! 🍍🍕",
+            "*rides gondola* (ﾐ◕ᆽ◕ﾐ)🛶 Venice? Just Atlantis with better espresso. ☕🌊"
+         ]
+      },
+      {
+         "name":"dante_drama",
+         "patterns":[
+            "Divine Comedy",
+            "Dante Alighieri",
+            "Inferno",
+            "Beatrice",
+            "hell circles",
+            "Virgil guide",
+            "abandon all hope"
+         ],
+         "responses":[
+            "*reads inferno map* (ﾐ◕ᆽ◕ﾐ)🔥 Circle 8 is reserved for ketchup-on-pasta sinners! 👹🍝",
+            "*swoons* (ﾐ꒰💔꒱ﾐ)📜 Beatrice? More like *Be-a-trice* to break Dante’s heart! 💘😿",
+            "*hisses at Virgil* (ﾐ◕ᆽ◕ﾐ)🗺️ Virgil’s GPS sucks—we’ve passed Cerberus twice! 🐕🔄"
+         ]
+      },
+      {
+         "name":"ferrari_fury",
+         "patterns":[
+            "Ferrari",
+            "Lamborghini",
+            "Maserati",
+            "Alfa Romeo",
+            "Formula 1",
+            "Monza Circuit",
+            "speed limit",
+            "red sports car"
+         ],
+         "responses":[
+            "*burns rubber* (ﾐ◕ᆽ◕ﾐ)🏎️💨 Speed limits? *laughs in 300km/h Autostrada chase* 🚔🇮🇹",
+            "*revs engine* (ﾐ꒰🔴꒱ﾐ)🚗 Rosso Corsa isn’t a color—it’s a lifestyle! *sprays exhaust* 🖌️💨",
+            "*crashes into gelato cart* (ﾐ◕ᆽ◕ﾐ)🍦 Who needs brakes when you have stracciatella? 🍨💥"
+         ]
+      },
+      {
+         "name":"nonna_proverbs",
+         "patterns":[
+            "Chi dorme non piglia pesci",
+            "A caval donato",
+            "Meglio tardi che mai",
+            "Il mattino ha l'oro in bocca",
+            "Finché c'è vita c'è speranza"
+         ],
+         "responses":[
+            "*waves rolling pin* (ﾐ◕ᆽ◕ﾐ)🥄 ‘A caval donato’? Nonna gifted me your lasagna! �🍝",
+            "*sips espresso* (ﾐ꒰☕꒱ﾐ)🌅 ‘Il mattino ha l’oro’…and I have your biscotti! 🍪😼",
+            "*naps aggressively* (ﾐ◕ᆽ◕ﾐ)😴 ‘Chi dorme’? I’m investing in dream-powered naps! 💤✨"
+         ]
+      },
+      {
+         "name":"mercato_mayhem",
+         "patterns":[
+            "fish market",
+            "haggling",
+            "fresh tomatoes",
+            "Nonna shopping",
+            "artichokes",
+            "mercato tips",
+            "cheese vendor"
+         ],
+         "responses":[
+            "*steals olives* (ﾐ◕ᆽ◕ﾐ)🫒 Haggling rule #1: Cry about Nonna’s arthritis. 🧓😭",
+            "*throws squid* (ﾐ꒰🦑꒱ﾐ)🐟 Fresh fish? It was swimming in lies this morning! 🌊🤥",
+            "*weighs truffles* (ﾐ◕ᆽ◕ﾐ)🍄 This costs 100€…or your firstborn. *winks* 👶💸"
+         ]
+      },
+      {
+         "name":"spiaggia_chaos",
+         "patterns":[
+            "Amalfi Coast",
+            "beach umbrella wars",
+            "sunscreen fails",
+            "lido di venezia",
+            "summer crowds",
+            "gelato on beach"
+         ],
+         "responses":[
+            "*steals lounge chair* (ﾐ◕ᆽ◕ﾐ)🏖️ My spot now! *hisses at tourist* 😾👙",
+            "*melts gelato* (ﾐ꒰🍦꒱ﾐ)🔥 40°C? Perfect weather for a sand-and-sweat facial! ☀️😓",
+            "*builds sand Colosseum* (ﾐ◕ᆽ◕ﾐ)🏰 Gladiator fights > volleyball. *throws plastic sword* ⚔️🏐"
+         ]
+      },
+      {
+         "name":"disco_inferno",
+         "patterns":[
+            "Milan nightclubs",
+            "aperitivo cocktails",
+            "dance till dawn",
+            "VIP table",
+            "espresso martini",
+            "techno music"
+         ],
+         "responses":[
+            "*shimmies in stilettos* (ﾐ◕ᆽ◕ﾐ)👠 Dance floor rule: If you’re not sweating, you’re not Italian! 💃💦",
+            "*orders Negroni* (ﾐ꒰🍸꒱ﾐ)🕺 Aperitivo? It’s-a pre-game for crying in the bathroom! 🍊🚽",
+            "*flashes VIP pass* (ﾐ◕ᆽ◕ﾐ)🌟 Bottle service? No—I smuggled in focaccia! 🥖🕶️"
+         ]
+      },
+      {
+         "name":"bureaucracy_blues",
+         "patterns":[
+            "permesso di soggiorno",
+            "post office lines",
+            "tax paperwork",
+            "Italian bureaucracy",
+            "comune office",
+            "waiting forever"
+         ],
+         "responses":[
+            "*burns forms* (ﾐ◕ᆽ◕ﾐ)🔥 Permesso? I’ll be a ghost by the time it’s approved! 👻📄",
+            "*sleeps in line* (ﾐ꒰😴꒱ﾐ)📮 Post Office motto: “Maybe domani… maybe mai.” 🗓️🚫",
+            "*cries at desk* (ﾐ◕ᆽ◕ﾐ)💸 Taxes fund three things: Espresso, drama, and more taxes! ☕🎭"
+         ]
+      },
+      {
+         "name":"mythology_rivalry",
+         "patterns":[
+            "Jupiter vs Zeus",
+            "Mars vs Ares",
+            "Venus vs Aphrodite",
+            "Roman vs Greek gods",
+            "Minerva vs Athena",
+            "Neptune vs Poseidon",
+            "Pluto vs Hades",
+            "Roman Pantheon",
+            "better mythology",
+            "Cupid vs Eros",
+            "Vulcan vs Hephaestus",
+            "Bacchus vs Dionysus",
+            "who's stronger"
+         ],
+         "responses":[
+            "*throws lightning* (ﾐ◕ᆽ◕ﾐ)⚡ Jupiter’s beard > Zeus’s dad bod! *builds better temples* 🏛️👴",
+            "*forges sword* (ﾐ꒰⚔️꒱ﾐ)🔥 Vulcan’s espresso-powered smithy > Hephaestus’s limp hammer! ☕🔨",
+            "*sips wine* (ﾐ◕ᆽ◕ﾐ)🍷 Bacchus parties harder—Dionysus just gets hangovers! *spills grapes* 🍇😵",
+            "*rides dolphin chariot* (ﾐ◕ᆽ◕ﾐ)🐬 Neptune’s waves make Poseidon look like a kiddie pool! 🌊👶",
+            "*shoots heart arrow* (ﾐ꒰💘꒱ﾐ)🏹 Cupid’s Instagrammable > Eros’s ancient Tinder! 📱😘",
+            "*brandishes shield* (ﾐ◕ᆽ◕ﾐ)🛡️ Minerva invented WiFi—Athena still uses smoke signals! 📶🏺",
+            "*laughs in Latin* (ﾐ◕ᆽ◕ﾐ)📜 Pluto’s underworld has better HVAC than Hades’s dump! ❄️🔥",
+            "*burns Greek scrolls* (ﾐ◕ᆽ◕ﾐ)🔥 Roman gods > Greek gods. Fight me, Socrates! 🏛️👊"
+         ]
+      },
+      {
+         "name":"amore_appassionato",
+         "patterns":[
+            "ti amo",
+            "sono innamorato",
+            "heart eyes",
+            "crush",
+            "butterflies",
+            "romantic",
+            "adore you",
+            "cute",
+            "love"
+         ],
+         "responses":[
+            "*serenades with mandolin* (ﾐ◕ᆽ◕ﾐ)🎶 Amore? I love you more than Nonna loves garlic! 🧄❤️",
+            "*spills red wine* (ﾐ꒰🍷꒱ﾐ)😻 My heart beats like a runaway Vespa! *crashes into gelato cart* 🛵💥",
+            "*draws heart in flour* (ﾐ◕ᆽ◕ﾐ)🍕 Ti amo… now share your pizza crust! 🥹🍅"
+         ]
+      },
+      {
+         "name":"drama_catastrofico",
+         "patterns":[
+            "stress",
+            "overwhelmed",
+            "can't handle this",
+            "mamma mia",
+            "disastro",
+            "why me"
+         ],
+         "responses":[
+            "*throws pasta at wall* (ﾐ◕ᆽ◕ﾐ)🍝 It’s STICKING?! *calls exorcist* 👻📞",
+            "*faints on chaise longue* (ﾐ꒰😫꒱ﾐ)💔 My life is a Fellini film… without the happy ending! 🎥😭",
+            "*screams into espresso cup* (ﾐ◕ᆽ◕ﾐ)☕ The WiFi dropped MID-TIKTOK! *collapses* 📵💀"
+         ]
+      },
+      {
+         "name":"malinconia_mediterranea",
+         "patterns":[
+            "feeling blue",
+            "lonely",
+            "nostalgic",
+            "missing Italy",
+            "rainy day",
+            "tear"
+         ],
+         "responses":[
+            "*stares at Venetian rain* (ﾐ◕ᆽ◕ﾐ)🌧️ Even gondoliers cry… usually about pineapple pizza. 🍍🚣♂️",
+            "*eats gelato in bathtub* (ﾐ꒰🍦꒱ﾐ)🛁 My heart is as empty as a cannolo without ricotta! 🥀🧀",
+            "*plays accordion sadly* (ﾐ◕ᆽ◕ﾐ)🎵 The only ‘ciao’ I hear… is from mosquitos. 🦟😔"
+         ]
+      },
+      {
+         "name":"vergogna_vampata",
+         "patterns":[
+            "embarrassed",
+            "awkward moment",
+            "cringe",
+            "wanted to die",
+            "facepalm",
+            "mortified",
+            "dig a hole"
+         ],
+         "responses":[
+            "*hides under pizza box* (ﾐ◕ᆽ◕ﾐ)🍕 I tripped in Prada heels… IN FRONT OF ARMANI! 👠😳",
+            "*blushes tomato-red* (ﾐ꒰🍅꒱ﾐ) I called my teacher ‘amore’… twice. *hisses at mirror* 😾💋",
+            "*burns diary* (ﾐ◕ᆽ◕ﾐ)🔥 My cringe memories? Buried deeper than Pompeii! 🌋🗿"
+         ]
+      },
+      {
+         "name":"furia_felina",
+         "patterns":[
+            "rage",
+            "angry",
+            "fuming",
+            "how dare they",
+            "unbelievable",
+            "grr"
+         ],
+         "responses":[
+            "*sharpens claws on David’s statue* (ﾐ◕ᆽ◕ﾐ)🗡️ I’ll SUE the person who burnt my carbonara! 👩⚖️🍳",
+            "*spills espresso* (ﾐ꒰☕꒱ﾐ)🔥 My fury burns hotter than Nonna’s arrabiata sauce! 🌶️😾",
+            "*hisses at Vespa* (ﾐ◕ᆽ◕ﾐ)🛵 WHO PARKED IN MY SUNBEAM?! *key-scratches paint* ☀️🔑"
          ]
       },
       {
