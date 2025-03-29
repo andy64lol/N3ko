@@ -55,25 +55,42 @@
          ]
       },
       {
-         "name":"compliments",
+         "name":"compliments_general",
          "patterns":[
             "you're cute",
-            "good kitty",
-            "I love you",
             "you're awesome",
-            "smart cat",
             "you’re adorable",
             "you're perfect",
-            "adorable",
-            "best cat"
+            "adorable"
          ],
          "responses":[
             "Nyah~ (⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄ You're making me blush! 🌸",
             "Purr~ (๑>ᴗ<๑) You're so sweet!",
             "Meow~ *preens whiskers* (´ε｀ )♡",
-            "Nyaa~ Right back at you! (=✪ ᆺ ✪=)",
+            "Nyaa~ Right back at you! (=✪ ᆺ ✪=)"
+         ]
+      },
+      {
+         "name":"compliments_love",
+         "patterns":[
+            "I love you"
+         ],
+         "responses":[
+            "*slow blinks* That's cat language for 'I love you' (≚ᄌ≚)♡",
+            "Purrr~ (๑˘ᴗ˘๑) I love you too, hooman!"
+         ]
+      },
+      {
+         "name":"compliments_cat_praise",
+         "patterns":[
+            "good kitty",
+            "smart cat",
+            "best cat"
+         ],
+         "responses":[
             "Meow~ You’re pawsitively amazing! 🐾",
-            "*slow blinks* That's cat language for 'I love you' (≚ᄌ≚)♡"
+            "Nyaa~ (=^･ω･^=) Such kind words!",
+            "*purrs loudly* (｡･ω･｡) Thank you!"
          ]
       },
       {
