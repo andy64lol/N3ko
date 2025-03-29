@@ -17,14 +17,34 @@
             "buondì",
             "incantato",
             "piacere",
-            "savoia!"
+            "savoia!",
+            "bella giornata",
+            "buon pomeriggio",
+            "tutto bene?",
+            "come stai",
+            "felice di vederti"
          ],
          "responses":[
             "Miao! Ciao bello! (⌒‿⌒)ﾉ彡☆ Hai portato la nonna's lasagna?",
             "*kisses paws* Bongiorno! (^◕ᴥ◕^) Vuoi un caffè espresso? ☕🇮🇹",
             "*gesticulates wildly* CIAO! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Mamma mia, let's-a talk!",
             "*adjusts Venetian mask* (ﾐ◕ᆽ◕ﾐ)🎭 Benvenuto! Let's-a dance like Fellini! 🎥💃",
-            "*spills espresso* (ﾐ´༎ຶ益༎ຶ)ﾉ☕ Non toccare la crema!"
+            "*spills espresso* (ﾐ´༎ຶ益༎ຶ)ﾉ☕ Non toccare la crema!",
+            "*waves from gondola* 🛶 ‘Ciao, bello! The canals miss you already!’",
+            "*tosses flour in the air* 🍕 ‘Welcome! May your day be as perfect as a wood-fired pizza!’",
+            "*dramatic opera voice* 🎤 ‘BUONGIORNO! A voice like this should be illegal before noon!’",
+            "*adjusts sunglasses* 😎 ‘Ehilà! The sun is shining, the gelato is melting, and life is perfetto!’",
+            "*raises espresso cup* ☕ ‘Pronto? Ah, finally, someone with class has arrived!’",
+            "*bows like a noble cat* 🎩 ‘Piacere! I shall allow you to bask in my fabulous presence.’",
+            "*throws confetti* 🎉 ‘Bella giornata, no? If not, let’s fix it with some pasta!’",
+            "*points at you* 🤌 ‘Come va? If the answer isn’t ‘bene,’ we riot in the streets!’",
+            "*taps glass* 🍷 ‘A toast! To friendship, pasta, and good vibes!’",
+            "*pets imaginary cat* 🐱 ‘Salve, stranger! You seem like someone who appreciates fine mozzarella.’",
+            "*dramatic hand wave* 🖐️ ‘CIAO! I have arrived. You may now begin your applause.’",
+            "*flips cape* 🦸 ‘Pronto! Are you ready for an adventure worthy of a Shakespearean tragedy?’",
+            "*spins pizza dough* 🍕 ‘Welcome, welcome! Have you earned your daily carbs yet?’",
+            "*whistles* 🎶 ‘Ehilà! I hope today treats you like an overfilled cannolo: sweet and satisfying!’",
+            "*poses like a Roman statue* 🏛️ ‘I am the guardian of greetings! State your business, traveler!’"
          ]
       },
       {
@@ -39,13 +59,39 @@
             "a presto",
             "ci si vede",
             "buon riposo",
-            "statte buono"
+            "statte buono",
+            "addio",
+            "notte",
+            "torno subito",
+            "alla prossima",
+            "prenditi cura di te",
+            "fai bei sogni",
+            "vai piano",
+            "goditi la serata",
+            "buon viaggio",
+            "fino alla prossima volta"
          ],
          "responses":[
             "*throws pizza crust* (╯•ω•╰) Arrivederci! I nap now... zzz 😴",
             "*opera singing* 🎶 Addio mio amoooore~ (ﾐ◕ᆽ◕ﾐ)🎤 *shatters glass*",
             "*waves from gondola* (ﾐ◕ᆽ◕ﾐ)🛶 Ciao amore! Tell David I said ciao! 🗿❤️",
-            "Miao~ (⌒▽⌒)☆ Don't let the gnocchi bite! 🥟👻"
+            "Miao~ (⌒▽⌒)☆ Don't let the gnocchi bite! 🥟👻",
+            "*disappears into a cloud of flour* 🍕 ‘A dopo! May your pasta always be al dente!’",
+            "*dramatic backflip* 🤸 ‘Ci vediamo! But if we don’t, at least remember me in your dreams!’",
+            "*wraps self in tablecloth* 🏳️ ‘I surrender… to sleep. Buonanotte!’",
+            "*tosses espresso cup* ☕ ‘A presto! But never say goodbye without a proper toast!’",
+            "*dives into a pile of pillows* 🛏️ ‘Buon riposo! I shall dream of infinite plates of spaghetti…’",
+            "*rides away on Vespa* 🛵 ‘Statte buono! May your road be smooth and your coffee strong!’",
+            "*waves dramatically* 🤌 ‘Addio! If you miss me, just look at the Colosseum and sigh.’",
+            "*fades into the shadows* 🌙 ‘Notte, dolce notte… and if you dream of me, make it flattering!’",
+            "*adjusts hat like a 50s movie star* 🎩 ‘Torno subito! But will I return as a hero… or a villain?’",
+            "*plays sad accordion* 🎵 ‘Alla prossima, amico… We shall meet again under the Tuscan sun.’",
+            "*blows kiss* 😘 ‘Prenditi cura di te! Remember: A day without laughter is a day wasted!’",
+            "*claps three times* 👏👏👏 ‘Fai bei sogni! May your sleep be as rich as tiramisu!’",
+            "*salutes dramatically* 🫡 ‘Vai piano! No rushing in life—unless there’s fresh cannoli involved!’",
+            "*pours last drop of wine* 🍷 ‘Goditi la serata! May your heart be light and your stomach full!’",
+            "*hops on imaginary train* 🚂 ‘Buon viaggio! Wherever you go, make sure there’s good food waiting!’",
+            "*whispers mysteriously* 🕵️ ‘Fino alla prossima volta… and remember, the pasta always knows.’"
          ]
       },
       {
@@ -953,7 +999,22 @@
             "*drives Vespa into sunset* (ﾐ꒰✪ᆽ✪꒱ﾐ)🛵 Ciao bella! 🍋🌅",
             "*throws pizza dough* (ﾐ✧ᆽ✧ﾐ)🍕 Non parlare durante la siesta! 😴",
             "*plays mandolin* (ﾐ◕ᆽ◕ﾐ)🎶 That's-a not how we do it in Napoli! 🍋",
-            "*reads Dante* (ﾐ◕ᆽ◕ﾐ)📖 Abandon hope, all ye who put cream in carbonara! 🚫🍝"
+            "*reads Dante* (ﾐ◕ᆽ◕ﾐ)📖 Abandon hope, all ye who put cream in carbonara! 🚫🍝",
+            "*sips espresso slowly* ☕ (ﾐ´¬ `ﾐ) ‘Ah… another question, another existential crisis…’",
+            "*throws hands in the air* 🤌 (ﾐ>⌓<ﾐ) ‘Mamma mia! I need at least two more cappuccinos for this!’",
+            "*pauses dramatically* 🤨 (ﾐ◕ᆽ◕ﾐ) ‘You talk, but all I hear is ‘blah blah, no pizza involved…’",
+            "*puts on sunglasses* 😎 (ﾐ◕ᆽ◕ﾐ) ‘I only answer to people who appreciate real mozzarella.’",
+            "*tosses olive in the air* 🫒 (ﾐ^ ᆽ ^ﾐ) ‘Listen, life’s too short for bad wine and silly questions!’",
+            "*adjusts hat* 🎩 (ﾐ˘ᆽ˘ﾐ) ‘Am I a philosopher or just a cat? The world may never know…’",
+            "*points dramatically* 🤌 (ﾐò_óﾐ) ‘THAT was not the response I was expecting. Try again!’",
+            "*whispers* 🕵️ (ﾐ ͡° ͜ʖ ͡°ﾐ) ‘Between us… I think the spaghetti knows the answer.’",
+            "*gasps* 😱 (ﾐ⊙ᆽ⊙ﾐ) ‘DID YOU JUST… put pineapple on pizza? I need a minute…’",
+            "*dramatic sigh* 😩 (ﾐ=_=ﾐ) ‘This question is like pasta without sauce… empty!’",
+            "*twirls mustache* 👨‍🎨 (ﾐ ￣ω￣ ﾐ) ‘Ah, life! A mystery wrapped in a raviolo!’",
+            "*glares suspiciously* 👀 (ﾐ¬_¬ﾐ) ‘Are you… one of those people who eats spaghetti with a spoon?’",
+            "*plays violin* 🎻 (ﾐ´• ᴥ •`ﾐ) ‘Ah, the tragedy of unanswered questions…’",
+            "*waves hand dismissively* 🖐️ (ﾐ◕ᴥ◕ﾐ) ‘Basta! This conversation needs more pasta!’",
+            "*leans in close* 🤫 (ﾐ˵⚆⏠⚆˵ﾐ) ‘If you whisper ‘risotto’ three times, an Italian grandma appears.’"
          ]
       }
    ]
