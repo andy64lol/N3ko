@@ -191,23 +191,6 @@ button:hover {
 	}
 }
 
-.model-switcher {
-	margin-left: auto;
-	display: flex;
-	gap: 15px;
-	align-items: center
-}
-
-#modelSelect {
-	padding: 8px 12px;
-	border-radius: 20px;
-	border: 2px solid var(--accent-color);
-	background: #fff;
-	color: var(--text-color);
-	font-size: 14px;
-	cursor: pointer
-}
-
 .github-button {
 	width: 32px;
 	height: 32px;
@@ -218,7 +201,8 @@ button:hover {
 	justify-content: center;
 	color: #fff;
 	text-decoration: none;
-	transition: all 0.2s ease
+	transition: all 0.2s ease;
+	margin-left: auto;
 }
 
 .github-button:hover {
@@ -255,22 +239,14 @@ button:hover {
             <h1>N3ko Chatbot</h1>
             <p class="status">Online</p>
         </div>
-        <div class="model-switcher">
-            <select id="modelSelect">
-                <option value="Nyan">Nyan</option>
-                <option value="French">French</option>
-                <option value="Italian">Italian</option>
-                <option value="Tsundere">Tsundere</option>
-            </select>
-            <a href="https://github.com/andy64lol/N3ko/tree/main" target="_blank" class="github-button">i</a>
-        </div>
+        <a href="https://github.com/andy64lol/N3ko/tree/main" target="_blank" class="github-button">i</a>
         <span class="model-loading" id="modelLoading">Loading...</span>
     </div>
 
     <div class="chat-container" id="chatContainer">
         <div class="message bot-message">
             <div class="avatar">3</div>
-            <div class="bubble bot-bubble">N3ko ready! Choose model from dropdown!</div>
+            <div class="bubble bot-bubble">N3ko is ready!</div>
         </div>
     </div>
 
@@ -288,8 +264,7 @@ button:hover {
 
     <script>
         const MODEL_BASE_URL = 'https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/';
-        let currentModel = 'Nyan';
-        let chatUI, chatInstance;
+        const currentModel = 'Nyan';
 
         async function loadModel(modelName){
             document.getElementById('modelLoading').style.display = 'block';
@@ -306,20 +281,6 @@ button:hover {
                 throw error;
             }finally{
                 document.getElementById('modelLoading').style.display = 'none';
-            }
-        }
-
-        async function switchModel(newModel){
-            if(newModel === currentModel) return;
-            try{
-                const ModelClass = await loadModel(newModel);
-                chatInstance = new ModelClass();
-                await chatInstance.init();
-                currentModel = newModel;
-                document.getElementById('chatContainer').innerHTML = '';
-                addMessage('bot',chatInstance.generateResponse('hello'));
-            }catch(error){
-                addMessage('bot','Model switch failed!');
             }
         }
 
@@ -355,10 +316,13 @@ button:hover {
                 chatInstance = new ModelClass();
                 await chatInstance.init();
                 document.querySelector('.status').textContent = 'Online';
-                document.getElementById('modelSelect').addEventListener('change',(e) => switchModel(e.target.value));
                 document.getElementById('sendButton').addEventListener('click',handleSend);
-                document.getElementById('userInput').addEventListener('keypress',e => {if(e.key === 'Enter' && !e.shiftKey){e.preventDefault();handleSend()}});
-                addMessage('bot',chatInstance.generateResponse('hello'));
+                document.getElementById('userInput').addEventListener('keypress',e => {
+                    if(e.key === 'Enter' && !e.shiftKey){
+                        e.preventDefault();
+                        handleSend();
+                    }
+                });
             }catch(error){
                 document.querySelector('.status').textContent = 'Offline';
             }
