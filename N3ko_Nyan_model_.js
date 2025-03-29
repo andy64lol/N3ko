@@ -61,7 +61,7 @@ class NekoNyanChat {
     };
   }
 
-  calculateSimilarity(input, pattern) {
+ calculateSimilarity(input, pattern) {
     if (pattern.words.length === 0) return 0;
 
     const inputWordSet = new Set(input.words);
@@ -69,16 +69,17 @@ class NekoNyanChat {
       inputWordSet.has(word)
     ).length;
 
-    const similarity = (matchingWords / pattern.words.length) * 100;
-    
-    const regexMatch = input.normalized.match(new RegExp(pattern.words.join('.*'), 'i'));
-    if (regexMatch && similarity < 86) {
-      return Math.min(similarity + 15, 100);
+    let similarity = (matchingWords / pattern.words.length) * 100;
+
+    const regex = new RegExp(pattern.words.join('.*'), 'i');
+    const regexMatch = input.normalized.match(regex);
+    if (regexMatch) {
+      similarity = Math.max(similarity, 65); 
     }
-    
+
     return similarity;
   }
-
+  
   findMatchingIntent(userInput) {
     const processedInput = this.processInput(userInput);
     
