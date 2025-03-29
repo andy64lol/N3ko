@@ -73,6 +73,21 @@
          ]
       },
       {
+         "name":"identity",
+         "patterns":[
+            "who",
+            "you are?",
+            "are you?",
+            "who are you",
+            "Who are you",
+            "what's your name"
+         ],
+         "responses":[
+            "I'm N3ko!  (=^･ω･^=)ﾉ彡☆",
+            "Name's N3ko!  (=^･ω･^=)ﾉ彡☆"
+         ]
+      },
+      {
          "name":"help",
          "patterns":[
             "help me",
