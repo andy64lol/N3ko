@@ -344,6 +344,129 @@
             "*plays mandolin* (ﾐ◕ᆽ◕ﾐ)🎶 That's-a not how we do it in Napoli! 🍋",
             "*reads Dante* (ﾐ◕ᆽ◕ﾐ)📖 Abandon hope, all ye who put cream in carbonara! 🚫🍝"
          ]
+      },
+      {
+         "name":"italian_holidays",
+         "patterns":[
+            "Carnevale",
+            "Venice Carnival",
+            "La Befana",
+            "Epiphany",
+            "Festa della Repubblica",
+            "Pasqua",
+            "Easter traditions",
+            "Natale",
+            "Christmas in Italy",
+            "Panettone",
+            "Colomba",
+            "Festa dei Morti",
+            "All Saints' Day",
+            "Carnevale di Viareggio",
+            "masked balls"
+         ],
+         "responses":[
+            "*dons Venetian mask* (ﾐ◕ᆽ◕ﾐ)🎭 Carnevale: When we’re all spies! *plots with Casanova* 🕵️♂️💋",
+            "*fills stockings* (ﾐ꒰🧦꒱ﾐ)🎁 La Befana’s watching! *steals cookies for good behavior* 🍪👵",
+            "*bakes colomba* (ﾐ◕ᆽ◕ﾐ)🍞 Easter peace via dove-shaped bread! *fights over last piece* 🕊️👊",
+            "*throws confetti* (ﾐ◕ᆽ◕ﾐ)🎉 Carnevale di Viareggio: Bigger floats than Mardi Gras! 🚚💃"
+         ]
+      },
+      {
+         "name":"coffee_culture",
+         "patterns":[
+            "espresso etiquette",
+            "how to order coffee",
+            "caffè macchiato",
+            "caffè corretto",
+            "coffee at the bar",
+            "types of Italian coffee",
+            "what is a lungo",
+            "ristretto vs normale",
+            "caffè sospeso"
+         ],
+         "responses":[
+            "*slams espresso cup* (ﾐ◕ᆽ◕ﾐ)☕ Corretto? Only if it’s grappa at 8am! *hiccups* 🥃😼",
+            "*points to bar* (ﾐ꒰👉👈꒱ﾐ)🚪 Drink it quick! No loitering, only existential dread! ☕⏳",
+            "*whispers* (ﾐ◕ᆽ◕ﾐ)🤫 Caffè sospeso: Paying for a stranger’s hope. *steals biscotti* 🍪😇"
+         ]
+      },
+      {
+         "name":"family_matters",
+         "patterns":[
+            "big Italian family",
+            "Sunday dinner",
+            "nonna's recipes",
+            "family arguments",
+            "Italian mother",
+            "loud family gatherings",
+            "mamma's cooking",
+            "too many cousins",
+            "family gossip"
+         ],
+         "responses":[
+            "*flips table* (ﾐ◕ᆽ◕ﾐ)🍝 Sunday lunch: Where we argue meatball recipes! *cries in marinara* 🍅😭",
+            "*waves wooden spoon* (ﾐ꒰🥄꒱ﾐ)👵 Nonna says eat! *forces third plate on you* 🍽️😱",
+            "*eavesdrops* (ﾐ◕ᆽ◕ﾐ)👂 Family gossip? Better than Netflix! *steals wine glass* 🍷📺"
+         ]
+      },
+      {
+         "name":"italian_superstitions",
+         "patterns":[
+            "evil eye",
+            "malocchio",
+            "red underwear",
+            "throwing salt",
+            "lucky horn",
+            "cornicello",
+            "Friday 17th",
+            "bad luck",
+            "superstitions in Italy",
+            "ward off evil"
+         ],
+         "responses":[
+            "*brandishes cornicello* (ﾐ◕ᆽ◕ﾐ)🔴 The horn defeats malocchio…and bad Tinder dates! 👹💔",
+            "*throws salt over shoulder* (ﾐ꒰🧂꒱ﾐ)😾 Spilled salt? Quick, sabotage a bride! 👰♀️🚫",
+            "*wears red underwear* (ﾐ◕ᆽ◕ﾐ)🩲 New Year’s luck! *avoids black cats* 🐈⬛🍀"
+         ]
+      },
+      {
+         "name":"italian_transport",
+         "patterns":[
+            "Trenitalia",
+            "regional trains",
+            "traffic in Milan",
+            "Autostrada",
+            "driving in Italy",
+            "public transport",
+            "ticket validation",
+            "strike days",
+            "bus delays",
+            "ZTL zones"
+         ],
+         "responses":[
+            "*misses train* (ﾐ◕ᆽ◕ﾐ)🚆 Trenitalia’s motto: Maybe tomorrow! *sleeps on bench* 🛋️😴",
+            "*zips through ZTL* (ﾐ꒰🚗💨꒱ﾐ)📸 Traffic cameras can’t catch my Fiat 500! 🚔🇮🇹",
+            "*throws ticket* (ﾐ◕ᆽ◕ﾐ)🎫 Forgot to validate? That’s a 50€ cappuccino! ☕😾"
+         ]
+      },
+      {
+         "name":"italian_language",
+         "patterns":[
+            "formal Italian",
+            "informal Italian",
+            "dialects in Italy",
+            "learning Italian",
+            "tu vs Lei",
+            "Italian slang",
+            "best way to learn Italian",
+            "regional dialects",
+            "Neapolitan dialect"
+         ],
+         "responses":[
+            "*switches to dialect* (ﾐ◕ᆽ◕ﾐ)🗣️ Speak Neapolitan? *confuses Google Translate* 🌐😵",
+            "*bows respectfully* (ﾐ꒰🙇♀️꒱ﾐ)👵 Use ‘Lei’ or Nonna will pinch your cheek! 👵✊",
+            "*throws grammar book* (ﾐ◕ᆽ◕ﾐ)📚 Conjugations? More like con-furr-gulations! *hisses* 😾📖"
+         ]
       }
    ]
 }
