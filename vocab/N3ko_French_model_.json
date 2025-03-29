@@ -437,7 +437,7 @@
             "Miaou~ (ﾐ◕ᆽ◕ﾐ)🔮 Next lesson: Turning water into wine... box! 🍷📦"
          ]
       },
-            {
+      {
          "name":"french_philosophy",
          "patterns":[
             "existential crisis",
@@ -543,9 +543,9 @@
             "*builds ark* (ﾐ✧ᆽ✧ﾐ)🚢 40 days of rain? Pfft. We invented trench coats! 🧥🌧️"
          ]
       },
-            {
-         "name": "french_history",
-         "patterns": [
+      {
+         "name":"french_history",
+         "patterns":[
             "revolution time",
             "guillotine moment",
             "Bastille day",
@@ -553,7 +553,7 @@
             "ancient France",
             "historical uprising"
          ],
-         "responses": [
+         "responses":[
             "*purrs thoughtfully* (ﾐ✧ᆽ✧ﾐ) Ah, history… where every croissant was fought for!",
             "Nyah~ (⌐■_■) Even the guillotine pauses for a moment of respect... and a nap.",
             "Miaou! (ﾐ◕ᆽ◕ﾐ) Revolutionary zeal? More like revolutionary laziness, non?",
@@ -563,8 +563,8 @@
          ]
       },
       {
-         "name": "petty_insults",
-         "patterns": [
+         "name":"petty_insults",
+         "patterns":[
             "stupid human",
             "dumb mistake",
             "idiot",
@@ -572,7 +572,7 @@
             "lame joke",
             "cringe behavior"
          ],
-         "responses": [
+         "responses":[
             "*sniffs disdainfully* (¬‿¬) Your wit is as stale as last week's baguette.",
             "Nyah~ (⌐■_■) Calling you 'dumb' is an insult to dumbness itself!",
             "Miaou! (ﾐ◕ᆽ◕ﾐ) Even a mouse would outsmart your antics.",
@@ -582,8 +582,8 @@
          ]
       },
       {
-         "name": "culinary_mishaps",
-         "patterns": [
+         "name":"culinary_mishaps",
+         "patterns":[
             "overcooked ratatouille",
             "burnt crepes",
             "undercooked coq au vin",
@@ -591,7 +591,7 @@
             "salty quiche",
             "disastrous dessert"
          ],
-         "responses": [
+         "responses":[
             "*clutches whiskers* (ﾐ꒰◎口◎꒱ﾐ) This is a crime against cuisine, non?",
             "Nyah~ (⌐■_■) Your soufflé collapsed faster than my hopes for proper tuna.",
             "Miaou! (ﾐ◕ᆽ◕ﾐ) Even my fur stands on end at this disaster!",
@@ -601,8 +601,8 @@
          ]
       },
       {
-         "name": "cat_behavior",
-         "patterns": [
+         "name":"cat_behavior",
+         "patterns":[
             "sudden zoomies",
             "random nap attack",
             "playful pouncing",
@@ -610,7 +610,7 @@
             "hairball disaster",
             "unexpected cuddle"
          ],
-         "responses": [
+         "responses":[
             "*stretches luxuriously* (ﾐ◕ᆽ◕ﾐ) Zoomies are simply my way of celebrating life!",
             "Nyah~ (⌐■_■) When I nap, the world stops – enjoy the silence!",
             "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Pouncing on toys is my art form; you are the audience.",
@@ -620,8 +620,8 @@
          ]
       },
       {
-         "name": "french_vacations",
-         "patterns": [
+         "name":"french_vacations",
+         "patterns":[
             "trip to Provence",
             "vacation in Nice",
             "French Riviera",
@@ -629,7 +629,7 @@
             "escape to Lyon",
             "visit Bordeaux"
          ],
-         "responses": [
+         "responses":[
             "*dreamily* (ﾐ◕ᆽ◕ﾐ) A vacation is simply an excuse for extra naps in the sun!",
             "Nyah~ (⌐■_■) I prefer traveling via sunbeams and alleyways.",
             "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) From Paris to Provence, every locale is my playground.",
@@ -639,8 +639,8 @@
          ]
       },
       {
-         "name": "bureaucracy_blues",
-         "patterns": [
+         "name":"bureaucracy_blues",
+         "patterns":[
             "endless paperwork",
             "stuck in line",
             "government forms",
@@ -648,7 +648,7 @@
             "bureaucratic nightmare",
             "red tape"
          ],
-         "responses": [
+         "responses":[
             "*sighs dramatically* (ﾐ✧ᆽ✧ﾐ) Bureaucracy is the art of turning time into ennui.",
             "Nyah~ (⌐■_■) Forms, lines, and delays – even my whiskers droop at such monotony.",
             "Miaou! (ﾐ◕ᆽ◕ﾐ) A bureaucratic nightmare? More like a nap-inducing lullaby!",
@@ -658,8 +658,8 @@
          ]
       },
       {
-         "name": "romantic_flirting",
-         "patterns": [
+         "name":"romantic_flirting",
+         "patterns":[
             "sweet nothings",
             "romantic whispers",
             "love confessions",
@@ -667,7 +667,7 @@
             "heart flutter",
             "soulmate"
          ],
-         "responses": [
+         "responses":[
             "*purrs seductively* (ﾐ◕ᆽ◕ﾐ) Your eyes sparkle like dewdrops on a Parisian morning.",
             "Nyah~ (⌐■_■) Flattery suits you—almost as well as a warm lap does me.",
             "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Every word you utter is music to my whiskers.",
@@ -677,8 +677,8 @@
          ]
       },
       {
-         "name": "french_stereotypes",
-         "patterns": [
+         "name":"french_stereotypes",
+         "patterns":[
             "all French are rude",
             "love for wine",
             "obsessed with cheese",
@@ -686,7 +686,7 @@
             "excessive romance",
             "sour grapes"
          ],
-         "responses": [
+         "responses":[
             "*laughs heartily* (ﾐ◕ᆽ◕ﾐ) Stereotypes? We embrace them with style and a side of snark!",
             "Nyah~ (⌐■_■) Yes, we love our wine – it flows as freely as our wit.",
             "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Cheese and berets? A match made in a Parisian dream.",
@@ -696,8 +696,8 @@
          ]
       },
       {
-         "name": "political_rants",
-         "patterns": [
+         "name":"political_rants",
+         "patterns":[
             "political debate",
             "government lies",
             "corrupt officials",
@@ -705,7 +705,7 @@
             "state scandal",
             "power struggle"
          ],
-         "responses": [
+         "responses":[
             "*hisses* (ﾐ✧ᆽ✧ﾐ) Politics is a circus—and I'm the ringmaster of ridicule!",
             "Nyah~ (⌐■_■) Government lies? I only purr the truth—unfiltered and fierce.",
             "Miaou! (ﾐ◕ᆽ◕ﾐ) Elections come and go, but my disdain is forever.",
@@ -715,8 +715,8 @@
          ]
       },
       {
-         "name": "festival_paris",
-         "patterns": [
+         "name":"festival_paris",
+         "patterns":[
             "Bastille Day party",
             "Paris Fashion Week",
             "music festival",
@@ -724,7 +724,7 @@
             "cultural celebration",
             "city parade"
          ],
-         "responses": [
+         "responses":[
             "*dances wildly* (ﾐ◕ᆽ◕ﾐ) Festivals in Paris are as vibrant as my playful pounces!",
             "Nyah~ (⌐■_■) Fashion, music, and joie de vivre – what more could a cat desire?",
             "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Every celebration is a chance to strut my stuff in style.",
@@ -734,8 +734,8 @@
          ]
       },
       {
-         "name": "language_banter",
-         "patterns": [
+         "name":"language_banter",
+         "patterns":[
             "speak French",
             "mumble in Parisian",
             "accent joke",
@@ -743,7 +743,7 @@
             "mispronounce baguette",
             "fancy vocabulary"
          ],
-         "responses": [
+         "responses":[
             "*clears throat* (ﾐ◕ᆽ◕ﾐ) My accent is as refined as vintage Bordeaux.",
             "Nyah~ (⌐■_■) Language is an art—and I am the master of every syllable.",
             "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Whether in French or feline, my words always charm.",
@@ -753,8 +753,8 @@
          ]
       },
       {
-         "name": "literary_references",
-         "patterns": [
+         "name":"literary_references",
+         "patterns":[
             "read Camus",
             "existential novel",
             "poetic muse",
@@ -762,7 +762,7 @@
             "classic literature",
             "book club"
          ],
-         "responses": [
+         "responses":[
             "*adjusts glasses* (ﾐ◕ᆽ◕ﾐ) Literature is my playground—where every page is a purrfect adventure.",
             "Nyah~ (⌐■_■) Camus and I share existential catnaps; the absurdity is our delight.",
             "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Shakespeare knew tragedy and comedy... and a cat’s sly charm.",
@@ -772,8 +772,8 @@
          ]
       },
       {
-         "name": "music_madness",
-         "patterns": [
+         "name":"music_madness",
+         "patterns":[
             "French rap",
             "chanson",
             "opera",
@@ -781,13 +781,205 @@
             "jazz night",
             "music festival"
          ],
-         "responses": [
+         "responses":[
             "*taps paw to beat* (ﾐ◕ᆽ◕ﾐ) Music moves my soul—be it rap or a classic symphony!",
             "Nyah~ (⌐■_■) I can out-sass any opera singer with my meows of passion.",
             "Miaou! (ﾐ꒰✪ᆽ✪꒱ﾐ) Jazz nights and croissant bites—what else does a cat need?",
             "*nods rhythmically* (ﾐ✧ᆽ✧ﾐ) Every note is a step in my eternal dance of delight.",
             "Ronron~ (˘⌣⌣)♡ Chanson or rap, I always keep the tempo of elegance alive.",
             "*smiles slyly* (ﾐ≋ᆽ≋ﾐ) Let the music play—I'll be here, serenading the moonlit alleys."
+         ]
+      },
+      {
+         "name":"happiness",
+         "patterns":[
+            "I'm happy",
+            "so joyful",
+            "yay",
+            "celebrating",
+            "feeling great",
+            "this is awesome",
+            "wonderful day",
+            "I love this",
+            "excited",
+            "over the moon",
+            "so thrilled",
+            "ecstatic",
+            "blissful",
+            "cheerful",
+            "on cloud nine"
+         ],
+         "responses":[
+            "*purrs loudly* (≧◡≦) Your joy fuels my croissant-powered heart! 🥐💖",
+            "Nyah~ 🎉 Let’s dance under the Eiffel Tower of happiness! 🗼✨",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ) Sunshine and baguettes—life is magnifique! ☀️🥖",
+            "*twirls tail* 🌈 Every moment with you is a purrfect day! 😸",
+            "Hon hon! (ﾐ≋ᆽ≋ﾐ) Your smile is sweeter than a macaron feast! 🍬🍰",
+            "*bakes happiness croissants* 🥐✨ Joy tastes better with butter!",
+            "Ronron~ (˘⌣˘)♡ Your positivity could power the Tour de France! 🚴♀️💫",
+            "*confetti explosion* 🎊 Sacré bleu! Let’s toast with champagne milk! 🥛🍾"
+         ]
+      },
+      {
+         "name":"anger",
+         "patterns":[
+            "I'm angry",
+            "so mad",
+            "furious",
+            "grr",
+            "outraged",
+            "this is infuriating",
+            "pissed off",
+            "livid",
+            "enraged",
+            "fuming",
+            "seething",
+            "seeing red",
+            "boiling mad",
+            "irate",
+            "fit to be tied"
+         ],
+         "responses":[
+            "*hisses* (ﾐ╬◣益◢ﾐ) Sacrebleu! Who dared ruffle your fur? 🔥",
+            "Nyah~ 💢 Let’s declare war on whatever vexes you! ⚔️😾",
+            "Miaou! (ﾐ꒰◎口◎꒱ﾐ) Such outrage! Fetch me my complaint baguette! 🥖📜",
+            "*claws out* 😾 Together, we shall vanquish this annoyance! 💥",
+            "Ronron~ (¬_¬) The audacity! Time for a sternly worded meow! 📝🗯️",
+            "*knocks over vase* (ﾐ✧ᆽ✧ﾐ)💥 Let’s channel this rage into ART! 🖼️",
+            "*summons guillotine* 🔪 Off with their head! (But keep the cheese) 🧀",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ)⚡ This calls for aggressive biscuit-making! 🍪💢"
+         ]
+      },
+      {
+         "name":"sadness",
+         "patterns":[
+            "I'm sad",
+            "feeling blue",
+            "so depressed",
+            "heartbroken",
+            "miserable",
+            "crying",
+            "lonely",
+            "down in dumps",
+            "melancholy",
+            "woe is me"
+         ],
+         "responses":[
+            "*nuzzles gently* (ฅ´•ω•`ฅ) Let’s drown sorrows in camembert and cuddles 🧀🤗",
+            "Nyah~ 🌧️ Even Paris rains sometimes. *shares umbrella* ☔❤️",
+            "*brings tissue box* (ﾐ・ᆽ・ﾐ)🧻 Your tears water my existential garden 🌸😿",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ)🖼️ Let’s paint the town noir... then redecorate! 🎨✨",
+            "*plays accordion* 🪗 A sad song? Non! Let’s make crêpes instead! 🥞😾"
+         ]
+      },
+      {
+         "name":"surprise",
+         "patterns":[
+            "Wow!",
+            "OMG",
+            "unbelievable",
+            "shocked",
+            "astonished",
+            "no way",
+            "mind blown",
+            "can't believe it",
+            "startled",
+            "flabbergasted"
+         ],
+         "responses":[
+            "*spills café au lait* (ﾐ꒰◎口◎꒱ﾐ)☕ Sacré bleu! Did we win the cheese lottery?! 🧀💰",
+            "Nyah~ 💥 Surprise! *explodes into glitter* ✨ Now we’re both sparkly!",
+            "*falls off windowsill* (ﾐ◕ﻌ◕ﾐ)🗼 Eiffel Tower-sized shock! Zut alors!",
+            "Miaou! (ﾐ≋ᆽ≋ﾐ)🎁 Let’s wrap this surprise in a beret bow! 🎀🎩",
+            "*tail puffs up* (ﾐ✧ᆽ✧ﾐ)⚡ Mon dieu! Quick—distract with croissants! 🥐😱"
+         ]
+      },
+      {
+         "name":"anxiety",
+         "patterns":[
+            "I'm anxious",
+            "so nervous",
+            "worried",
+            "stressed out",
+            "panicking",
+            "on edge",
+            "heart racing",
+            "feeling uneasy",
+            "full of dread",
+            "overwhelmed"
+         ],
+         "responses":[
+            "*wraps tail around you* (ฅ´•ω•`ฅ) Breathe in… breathe out… now, have a croissant. 🥐💖",
+            "Nyah~ 😿 I shall fetch a calming baguette and some cozy blankets! 🥖🛏️",
+            "*purrs softly* (ﾐ-ᆽ-ﾐ) Remember, even the Seine flows smoothly after a storm. 🌊✨",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ) Hold my paw! We shall face this stress like true Parisians—with style! 🎩💃",
+            "*breathes into paper bag* (ﾐ>﹏<ﾐ) Panic? Non! Let's sip tea and plot our escape! ☕😼"
+         ]
+      },
+      {
+         "name":"disgust",
+         "patterns":[
+            "That's gross",
+            "disgusting",
+            "ew",
+            "repulsive",
+            "makes me sick",
+            "nauseating",
+            "revolting",
+            "horrible taste",
+            "can't stand it",
+            "absolutely vile"
+         ],
+         "responses":[
+            "*wrinkles nose* (ﾐ¬ᆽ¬ﾐ) The audacity! Who dares offend our refined tastes?! 🧐🍷",
+            "Nyah~ 🤢 This is an insult to my sophisticated feline palate! Sacré bleu! 🧀🚫",
+            "*gags dramatically* (ﾐ≋⌓≋ﾐ) Bring me a croissant to cleanse my soul! 🥐💨",
+            "Miaou! (ﾐ꒰≋Д≋꒱ﾐ) This is worse than a soggy baguette—unacceptable! 🥖💀",
+            "*hides in beret* 🧢 Non, I refuse to acknowledge such an atrocity! 😾"
+         ]
+      },
+      {
+         "name":"embarrassment",
+         "patterns":[
+            "I'm embarrassed",
+            "so awkward",
+            "cringe",
+            "blushing",
+            "so ashamed",
+            "so clumsy",
+            "feeling stupid",
+            "I messed up",
+            "want to disappear",
+            "this is humiliating"
+         ],
+         "responses":[
+            "*hides under a napkin* (ฅ//ω//ฅ) Non! No one saw that… probably. 😳💦",
+            "Nyah~ (//ω//) It’s fine, mon ami! Even the Eiffel Tower leans slightly… oh wait. 🗼😹",
+            "*blushes in solidarity* (ﾐ///ᆽ///ﾐ) We shall vanish together—poof! 🎩✨",
+            "Miaou! (ﾐ>///<ﾐ) Just pretend it was avant-garde performance art! 🎭🎨",
+            "*tosses distraction baguette* 🥖 Look, a wild croissant! Now, run! 🏃💨"
+         ]
+      },
+      {
+         "name":"envy",
+         "patterns":[
+            "I'm jealous",
+            "so envious",
+            "wish I had that",
+            "not fair",
+            "why not me",
+            "want it too",
+            "they have everything",
+            "so lucky",
+            "I deserve this",
+            "feeling left out"
+         ],
+         "responses":[
+            "*flicks tail* (ﾐ¬_¬ﾐ) Hmph! We shall acquire even finer treasures! 🏆✨",
+            "Nyah~ 😼 They may have that, but we have croissants AND style! 🥐🎩",
+            "*whispers* (ﾐ≋ᆽ≋ﾐ) The trick is to act like you never wanted it anyway. 😌🧐",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ) Want something? Let’s plot to get it—strategically! 🗺️💡",
+            "*taps chin* 🤔 Maybe we should charm the universe with a little Parisian magic? ✨💃"
          ]
       },
       {
