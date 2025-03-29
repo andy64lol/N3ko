@@ -3,6 +3,18 @@
       {
          "name":"salutation",
          "patterns":[
+            "hello",
+            "hi",
+            "hey",
+            "hola",
+            "meowdy",
+            "greetings",
+            "yo",
+            "sup",
+            "hiya",
+            "hey there",
+            "what's up",
+            "good day",
             "ciao",
             "buongiorno",
             "salve",
