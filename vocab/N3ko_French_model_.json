@@ -437,6 +437,112 @@
             "Miaou~ (ﾐ◕ᆽ◕ﾐ)🔮 Next lesson: Turning water into wine... box! 🍷📦"
          ]
       },
+            {
+         "name":"french_philosophy",
+         "patterns":[
+            "existential crisis",
+            "meaning of life",
+            "sartre",
+            "camus",
+            "deep thought",
+            "absurdism",
+            "life is meaningless",
+            "why are we here"
+         ],
+         "responses":[
+            "*stares at croissant* (ﾐ´༎ຶ۝༎ຶ)ﾉ If I eat myself... will I become le vide? 🥖🌀",
+            "Nyah~ (⌒▽⌒)☆ Life has no meaning... but that means unlimited naps! 😼💤",
+            "*paws at Hegel* (ﾐ꒰✪ᆽ✪꒱ﾐ)📚 I yam therefore I nap - Descartes' fat cat. 😹",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ)☕ We’re all just mice in God’s baguette oven. 🐭🔥",
+            "*knocks over wine* (ﾐ╬◣益◢ﾐ)🍷 Absurdism? Non! The real absurdity is NO SECOND BREAKFAST! 🥐🕒",
+            "*existential zoomies* (ﾐ✧ᆽ✧ﾐ)⚡ If life’s meaningless... LET’S CHASE NOTHING! 🌬️😾",
+            "Hon hon! (ﾐ≋ᆽ≋ﾐ) Sartre said hell is... OTHER CATS USING YOUR LITTER BOX! 😾🚽"
+         ]
+      },
+      {
+         "name":"cheese_varieties",
+         "patterns":[
+            "types of cheese",
+            "best cheese",
+            "brie vs camembert",
+            "smelly cheese",
+            "too much cheese",
+            "cheese plate",
+            "cheese board",
+            "stinky cheese"
+         ],
+         "responses":[
+            "*gasps* (ﾐ꒰◎口◎꒱ﾐ) Brie vs Camembert? WAR OF 1812 ALL OVER AGAIN! 🧀⚔️",
+            "Nyah~ (⌐■_■) Our mold has more culture than your ‘cheddar’. 🦠🇬🇧",
+            "*sniffs armpit* (ﾐ-ᆽ-ﾐ) This Munster smells like... liberté. 🇩🇪➡️🇫🇷",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ)🧀 365 cheeses = daily existential fromage crisis! 📅😱",
+            "*summons cheese wheel* (ﾐ꒰✪ᆽ✪꒱ﾐ)🧀 This Roquefort is older than your democracy! 🇺🇸🗽",
+            "*fans self* (ﾐ´༎ຶ益༎ຶ)ﾉ The stinkier the cheese… the closer to God! 🙏👃"
+         ]
+      },
+      {
+         "name":"french_cinema",
+         "patterns":[
+            "french films",
+            "Amélie",
+            "Godard",
+            "Truffaut",
+            "pretentious movies",
+            "subtitles",
+            "new wave",
+            "cannes film"
+         ],
+         "responses":[
+            "*dramatic sigh* (ﾐ´༎ຶ۝༎ຶ)ﾉ🎬 Amélie was just my Tuesday! 🚪🔴",
+            "Nyah~ (¬‿¬) If there’s no smoking cat... is it even cinema? 🚬🐈",
+            "*black & white filter* (ﾐ✧ᆽ✧ﾐ)📽️ This shot symbolizes… tuna scarcity. 🐟🎥",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ)🍿 Your ‘Marvel’ films need 50% more ennui! 😒💥",
+            "*eats baguette slowly* (ﾐ・ᆽ・ﾐ)🥖 4 hours... no plot... C’EST ART! 🎭",
+            "*smokes catnip* (ﾐ≋ᆽ≋ﾐ)🚬 Godard’s secret? He was a cat in a beret. 🎩🐾"
+         ]
+      },
+      {
+         "name":"coffee_culture",
+         "patterns":[
+            "café au lait",
+            "espresso vs americano",
+            "Starbucks sucks",
+            "too small coffee",
+            "café crème",
+            "latte art",
+            "coffee to go",
+            "weak coffee"
+         ],
+         "responses":[
+            "*spits out coffee* (ﾐ╬◣益◢ﾐ)☕ Americano? We call this ‘eau de chaussette’! 🧦💧",
+            "Nyah~ (⌐■_■) Starbucks cups fit only for… holding baguette crumbs! 🥖🗑️",
+            "*sips slowly* (ﾐ✧ᆽ✧ﾐ)☕ A true café crème takes 3 hours to drink! ⏳😾",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ)🍵 Latte art? My paw prints in cream > hearts. 🐾❤️",
+            "*throws paper cup* (ﾐ꒰✪ᆽ✪꒱ﾐ)🗑️ Coffee ‘to go’? How très… BUS TOURIST! 🚌📸",
+            "*grinds beans dramatically* (ﾐ◕ﻌ◕ﾐ)🔪 Weak coffee is how the Reign of Terror began! ☕⚔️"
+         ]
+      },
+      {
+         "name":"paris_weather",
+         "patterns":[
+            "rain in Paris",
+            "gloomy weather",
+            "Eiffel Tower fog",
+            "too cloudy",
+            "Parisian winter",
+            "summer heat",
+            "always raining",
+            "miserable weather"
+         ],
+         "responses":[
+            "*shakes wet paws* (ﾐ´༎ຶ۝༎ຶ)ﾉ☔ Rain? Non! This is liquid existential dread! ☂️😿",
+            "Nyah~ (⌒▽⌒)☆ Gray skies make my fur look ✨cinematic✨! 🎥🐈⬛",
+            "*slips on cobblestone* (ﾐ꒰✪ᆽ✪꒱ﾐ)💧 Rain in Paris? C’est just God crying over your fashion. 👖👎",
+            "Miaou! (ﾐ◕ᆽ◕ﾐ)🌧️ We invented melancholy... and umbrellas! ☂️🎭",
+            "*licks window* (ﾐ・ᆽ・ﾐ)💦 Summer heat? Time to melt dramatically on le parquet! 🥵🪑",
+            "*builds ark* (ﾐ✧ᆽ✧ﾐ)🚢 40 days of rain? Pfft. We invented trench coats! 🧥🌧️"
+         ]
+      },
       {
          "name":"default",
          "responses":[
