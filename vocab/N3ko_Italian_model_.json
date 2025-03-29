@@ -62,6 +62,16 @@
       {
          "name":"adieu",
          "patterns":[
+            "bye",
+            "goodbye",
+            "see ya",
+            "cya",
+            "later",
+            "adios",
+            "take care",
+            "see you soon",
+            "peace out",
+            "farewell",
             "arrivederci",
             "a dopo",
             "ci vediamo",
