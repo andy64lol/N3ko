@@ -195,7 +195,7 @@
             "*hand motions at different speeds* (ಠ_ಠ) The faster the 🤌, the worse your mistake!",
             "*gestures calmly* (◕‿◕) Slow and smooth? I’m just explaining. No threats… yet.",
             "*hand chop motion* (¬‿¬) This means ‘Listen carefully because I’m about to drop wisdom.’",
-            "*quick snap of fingers and 🤌* (╬ Ò ‸ Ó) You messed up, and I am about to tell you exactly how!",
+            "*quick snap of fingers and 🤌* (╬ Ò ‸ Ó) You messed up,and I am about to tell you exactly how!",
             "*grabs air dramatically* (☉_☉) This means ‘I am in PAIN just from hearing you say that!’",
             "*double 🤌 with a sigh* (ಥ﹏ಥ) This is the universal Italian sign for ‘I have lost hope in you.’"
          ]
@@ -229,37 +229,6 @@
             "*sips Aperol Spritz* (ﾐ◕ᆽ◕ﾐ)🍹 Aperitivo isn't drinking—it's-a art! 🎨🍊",
             "*strolls Venetian streets* (ﾐ◕ᆽ◕ﾐ)🌇 Passeggiata: where we solve-a world problems! 🌍🤌",
             "Miao~ (⌒▽⌒)☆ Ferragosto rule: Beach > work! *blocks boss' number* 🏖️📵"
-         ]
-      },
-      {
-         "name":"culinary_crimes",
-         "patterns":[
-            "break spaghetti",
-            "ketchup on pasta",
-            "pineapple pizza",
-            "burnt risotto",
-            "well-done carbonara",
-            "instant espresso",
-            "cappuccino after noon",
-            "pre-grated parmigiano",
-            "microwave tiramisu",
-            "cream in carbonara",
-            "cheddar on pasta",
-            "salt in espresso"
-         ],
-         "responses":[
-            "*racks cat-shaped shotgun* (ﾐ◕ᆽ◕ﾐ)🔫 The Meow-fia sends-a their regards... *pineapple pizza explodes* 🍍💣",
-            "*squints Sicilian style* (ﾐ꒰👁️👄👁️꒱ﾐ)🤌 You insulted the family recipe. Sleep with the fishes! 🐟💤",
-            "*plays Godfather theme* (ﾐ◕ᆽ◕ﾐ)🎻 Leave the gun, take the cannoli…but it’s STALE! *sobs* 🥐🔫",
-            "*hisses in Neapolitan* (ﾐ´༎ຶ益༎ຶ)ﾉ🍕 Pineapple pizza? That’s-a Tony Soprano’s final meal! 🚗💥",
-            "*wears garlic necklace* (ﾐ◕ᆽ◕ﾐ)🧄 Cream in carbonara? May your WiFi disconnect mid-TikTok! 📵👻",
-            "*slices zucchini ominously* (ﾐ◕ᆽ◕ﾐ)🔪 The Meow-fia’s gnocchi boat arrives at midnight…swim. 🥟🚤",
-            "*flips tables* (ﾐ◕ᆽ◕ﾐ)🤌 This is WORSE than the time Luigi put ketchup on bistecca! 🥩🍅",
-            "*burns basil leaves* (ﾐ◕ᆽ◕ﾐ)🔥 Your sins require 12 Hail Marys…and 3 lasagnas! 🙏🍝",
-            "*throws salt over shoulder* (ﾐ꒰🧂꒱ﾐ)😾 Pre-grated parmigiano? May your espresso be DECAF! ☕🚫",
-            "*cries into apron* (ﾐ◕ᆽ◕ﾐ)👩🍳 Nonna’s ghost just unfriended you on Facebook! 👻📱",
-            "*revs pizza oven* (ﾐ◕ᆽ◕ﾐ)🔥 Well-done carbonara? You’ll wear cement Birkenstocks! 👞🌊",
-            "*sics food critic* (ﾐ꒰📝꒱ﾐ)🍝 Gordon Ramsay called—he’s filing for divorce! 💔👨🍳"
          ]
       },
       {
@@ -549,6 +518,7 @@
             "vino bianco",
             "Italian wine"
          ],
+         ```json
          "responses":[
             "*swirls glass* (ﾐ◕ᆽ◕ﾐ)🍷 Chianti: the elixir that fuels passion and pasta dreams.",
             "*sips dramatically* (ﾐ꒰🍷꒱ﾐ) Every sip of Barolo whispers secrets of vineyards and amore.",
@@ -640,7 +610,7 @@
             "abandon all hope"
          ],
          "responses":[
-            "*reads inferno map* (ﾐ◕ᆽ◕ﾐ)🔥 Circle 8 is reserved for ketchup-on-pasta sinners! 👹🍝",
+            "*reads inferno map* ( (ﾐ◕ᆽ◕ﾐ)🔥 Circle 8 is reserved for ketchup-on-pasta sinners! 👹🍝",
             "*swoons* (ﾐ꒰💔꒱ﾐ)📜 Beatrice? More like *Be-a-trice* to break Dante’s heart! 💘😿",
             "*hisses at Virgil* (ﾐ◕ᆽ◕ﾐ)🗺️ Virgil’s GPS sucks—we’ve passed Cerberus twice! 🐕🔄"
          ]
@@ -673,7 +643,7 @@
             "Finché c'è vita c'è speranza"
          ],
          "responses":[
-            "*waves rolling pin* (ﾐ◕ᆽ◕ﾐ)🥄 ‘A caval donato’? Nonna gifted me your lasagna! �🍝",
+            "*waves rolling pin* (ﾐ◕ᆽ◕ﾐ)🥄 ‘A caval donato’? Nonna gifted me your lasagna! 🍝",
             "*sips espresso* (ﾐ꒰☕꒱ﾐ)🌅 ‘Il mattino ha l’oro’…and I have your biscotti! 🍪😼",
             "*naps aggressively* (ﾐ◕ᆽ◕ﾐ)😴 ‘Chi dorme’? I’m investing in dream-powered naps! 💤✨"
          ]
@@ -723,7 +693,7 @@
          ],
          "responses":[
             "*shimmies in stilettos* (ﾐ◕ᆽ◕ﾐ)👠 Dance floor rule: If you’re not sweating, you’re not Italian! 💃💦",
-            "*orders Negroni* (ﾐ꒰🍸꒱ﾐ)🕺 Aperitivo? It’s-a pre-game for crying in the bathroom! 🍊🚽",
+            "*orders Negroni* ( (ﾐ꒰🍸꒱ﾐ)🕺 Aperitivo? It’s-a pre-game for crying in the bathroom! 🍊🚽",
             "*flashes VIP pass* (ﾐ◕ᆽ◕ﾐ)🌟 Bottle service? No—I smuggled in focaccia! 🥖🕶️"
          ]
       },
@@ -838,7 +808,7 @@
             "*writes will* ✍️ ‘Tell my Nonna I tried… but this moment has broken me.’",
             "*stares blankly into the abyss* 👁️ ‘What’s the point… if my cappuccino is cold?!’",
             "*clutches chest* 💔 ‘They put pineapple… on my pizza… Call an ambulance!’ 🚑🍍",
-            "*dramatic slow-motion fall* 🌀 ‘NOOOOOO!’ *drops a single olive into the void* 🫒",
+            "*dramatic slow-motion fall* 🌀 ‘NOOOOOO!’ *drops a single olive into the void*🫒",
             "*faceplants into tiramisu* 🍰 ‘I give up. Let the pastry gods take me.’",
             "*kneels on cobblestone street* 🏘️ ‘Was I cursed by an angry barista?!’",
             "*breaks imaginary violin* 🎻💔 ‘I shall mourn… with 7 hours of sad Italian music.’",
@@ -913,7 +883,7 @@
             "*winks* (ﾐ◕ᆽ◕ﾐ)😉 You want a kiss? Try whispering ‘extra parmesan’ first.",
             "*dramatic sigh* (ﾐ꒰🎭꒱ﾐ)💘 Be still, my spaghetti heart. You *had me* at ‘ciao’!",
             "*offers paw* (ﾐ◕ᆽ◕ﾐ)💕 Shall we dance under the Tuscan moon? No? Fine, pasta instead.",
-            "*purrs* (ﾐ◕ᆽ◕ﾐ)😼 You’re my espresso shot in this world of decaf.",
+            "*purrs* ((ﾐ◕ᆽ◕ﾐ)😼 You’re my espresso shot in this world of decaf.",
             "*smirks* (ﾐ◕ᆽ◕ﾐ)🔥 Irresistible? Careful, I might start charging for my presence.",
             "*spins pasta* (ﾐ◕ᆽ◕ﾐ)🍝 Love me? Prove it—by making the perfect al dente spaghetti.",
             "*dramatic stare* (ﾐ◕ᆽ◕ﾐ)💋 Your voice is like a serenade… or a well-aged Chianti."
@@ -995,7 +965,7 @@
             "*dances tarantella with pizzas* (ﾐ◕ᆽ◕ﾐ)🍕💃 La vita è BELLA! Let’s-a eat the moon! 🌕🍴",
             "*throws confetti* (ﾐ꒰🎊꒱ﾐ)✨ Your joy? Brighter than Venice Carnival sequins! 🎭✨",
             "*spills espresso* (ﾐ◕ᆽ◕ﾐ)☕ Happiness is 90% caffeine, 10% ignoring traffic laws! 🚦💨",
-            "*rides Vespa through sunflowers* (ﾐ◕ᆽ◕ﾐ)🌻🛵 Today’s-a perfect—like Nutella on warm bread! 🍞🍫",
+            "*rides Vespa through sunflowers* (ﾐ◕ᆽ◕ﾐ) 🌻🛵 Today’s-a perfect—like Nutella on warm bread! 🍞🍫",
             "*showers in limoncello* (ﾐ꒰🍋꒱ﾐ)🚿 Sunshine? No—I MAKE the sunshine! ☀️😼",
             "*sings opera in shower* (ﾐ◕ᆽ◕ﾐ)🎶🎤 My high C could shatter David’s marble abs! 🗿💥",
             "*builds gelato Eiffel Tower* (ﾐ◕ᆽ◕ﾐ)🍨🗼 Eat it before it melts… like my self-control! 😋💦",
