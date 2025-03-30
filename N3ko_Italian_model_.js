@@ -17,17 +17,24 @@ class NekoItalianChat {
     try {
       const response = await fetch(this.vocabUrl);
       if (!response.ok) throw new Error(`HTTP error ${response.status}`);
-      this.vocabulary = await response.json();
-
-      this.vocabulary.intents.forEach(intent => {
-        intent.processedPatterns = intent.patterns.map(pattern => 
-          this.processPattern(pattern)
-        );
-      });
       
-      this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
+      const vocabData = await response.json();
+
+      if (vocabData.intents && Array.isArray(vocabData.intents)) {
+        this.vocabulary = vocabData;
+        this.vocabulary.intents.forEach(intent => {
+          intent.processedPatterns = intent.patterns.map(pattern => 
+            this.processPattern(pattern)
+          );
+        });
+        
+        this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
+      } else {
+        throw new Error('Invalid vocabulary structure: "intents" not found or not an array.');
+      }
     } catch (error) {
       console.error('Nyan loading error:', error);
+      this.defaultResponse = ['Failed to load vocabulary'];
     }
   }
 
@@ -61,7 +68,7 @@ class NekoItalianChat {
     };
   }
 
- calculateSimilarity(input, pattern) {
+  calculateSimilarity(input, pattern) {
     if (pattern.words.length === 0) return 0;
 
     const inputWordSet = new Set(input.words);
@@ -79,7 +86,7 @@ class NekoItalianChat {
 
     return similarity;
   }
-  
+
   findMatchingIntent(userInput) {
     const processedInput = this.processInput(userInput);
     
