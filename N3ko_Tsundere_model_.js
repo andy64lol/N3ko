@@ -1,10 +1,10 @@
-// N3ko Tsundere Model
+// N3ko Tsundere model
 // Made by andy64lol
 
-class N3koTsundereModel {
+class NekoTsundereChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Tsundere_model_.json') {
     this.vocabulary = { intents: [] };
-    this.defaultResponse = ["Hmph! It's not like I wanted to reply to you!"];
+    this.defaultResponse = ['Baka... (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
   }
 
@@ -25,9 +25,9 @@ class N3koTsundereModel {
         );
       });
       
-      this.defaultResponse = this.getIntentResponses('default') || ["B-baka! I don't talk to idiots like you!"];
+      this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
     } catch (error) {
-      console.error('Loading error:', error);
+      console.error('Nyan loading error:', error);
     }
   }
 
@@ -42,7 +42,6 @@ class N3koTsundereModel {
   normalizeText(text) {
     return text
       .toLowerCase()
-      .normalize('NFD').replace(/[̀-ͯ]/g, '') 
       .replace(/[^\w\s]/g, ' ')  
       .replace(/\s+/g, ' ')      
       .trim();
@@ -62,7 +61,7 @@ class N3koTsundereModel {
     };
   }
 
-  calculateSimilarity(input, pattern) {
+ calculateSimilarity(input, pattern) {
     if (pattern.words.length === 0) return 0;
 
     const inputWordSet = new Set(input.words);
@@ -70,16 +69,17 @@ class N3koTsundereModel {
       inputWordSet.has(word)
     ).length;
 
-    const similarity = (matchingWords / pattern.words.length) * 100;
-    
-    const regexMatch = input.normalized.match(new RegExp(pattern.words.join('.*'), 'i'));
-    if (regexMatch && similarity < 86) {
-      return Math.min(similarity + 15, 100);
+    let similarity = (matchingWords / pattern.words.length) * 100;
+
+    const regex = new RegExp(pattern.words.join('.*'), 'i');
+    const regexMatch = input.normalized.match(regex);
+    if (regexMatch) {
+      similarity = Math.max(similarity, 65); 
     }
-    
+
     return similarity;
   }
-
+  
   findMatchingIntent(userInput) {
     const processedInput = this.processInput(userInput);
     
@@ -132,4 +132,4 @@ class N3koTsundereModel {
   }
 }
 
-export default N3koTsundereModel;
+export default NekoTsundereChat;
