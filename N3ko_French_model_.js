@@ -1,7 +1,7 @@
 // N3ko French model
 // Made by andy64lol
 
-class NekoTsundereChat {
+class NekoFrenchChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_French_model_.json') {
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Miaou? (Vocabulary not loaded)'];
