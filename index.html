@@ -234,7 +234,7 @@ button:hover {
 </head>
 <body>
     <div class="header">
-        <div class="avatar">3</div>
+        <div class="avatar">:3</div>
         <div>
             <h1>N3ko Chatbot</h1>
             <p class="status">Online</p>
@@ -287,7 +287,7 @@ button:hover {
         function addMessage(sender,text){
             const messageDiv = document.createElement('div');
             messageDiv.className = `message ${sender}-message`;
-            messageDiv.innerHTML = `<div class="avatar">3</div><div class="bubble ${sender}-bubble">${text}</div>`;
+            messageDiv.innerHTML = `<div class="avatar">:3</div><div class="bubble ${sender}-bubble">${text}</div>`;
             document.getElementById('chatContainer').appendChild(messageDiv);
             document.getElementById('chatContainer').scrollTop = document.getElementById('chatContainer').scrollHeight;
         }
