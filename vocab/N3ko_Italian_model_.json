@@ -985,9 +985,7 @@
       },
       {
          "name":"default",
-         "patterns":[
-            
-         ],
+         "patterns":[],
          "responses":[
             "*shrugs dramatically* (ﾐ◕ᆽ◕ﾐ)🤌 Che vuoi? I'm busy being fabulous!",
             "*drives Vespa into sunset* (ﾐ꒰✪ᆽ✪꒱ﾐ)🛵 Ciao bella! 🍋🌅",
