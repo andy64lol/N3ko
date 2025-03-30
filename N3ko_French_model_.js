@@ -1,10 +1,10 @@
-// N3ko French Model
+// N3ko French model
 // Made by andy64lol
 
-class N3koFrenchModel {
+class NekoTsundereChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_French_model_.json') {
     this.vocabulary = { intents: [] };
-    this.defaultResponse = ['Miaou ? (Vocabulaire non chargé)'];
+    this.defaultResponse = ['Miaou? (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
   }
 
@@ -25,9 +25,9 @@ class N3koFrenchModel {
         );
       });
       
-      this.defaultResponse = this.getIntentResponses('default') || ['Miaou ?'];
+      this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
     } catch (error) {
-      console.error('Erreur de chargement:', error);
+      console.error('Nyan loading error:', error);
     }
   }
 
@@ -42,7 +42,6 @@ class N3koFrenchModel {
   normalizeText(text) {
     return text
       .toLowerCase()
-      .normalize('NFD').replace(/[\u0300-\u036f]/g, '') 
       .replace(/[^\w\s]/g, ' ')  
       .replace(/\s+/g, ' ')      
       .trim();
@@ -62,7 +61,7 @@ class N3koFrenchModel {
     };
   }
 
-  calculateSimilarity(input, pattern) {
+ calculateSimilarity(input, pattern) {
     if (pattern.words.length === 0) return 0;
 
     const inputWordSet = new Set(input.words);
@@ -70,16 +69,17 @@ class N3koFrenchModel {
       inputWordSet.has(word)
     ).length;
 
-    const similarity = (matchingWords / pattern.words.length) * 100;
-    
-    const regexMatch = input.normalized.match(new RegExp(pattern.words.join('.*'), 'i'));
-    if (regexMatch && similarity < 86) {
-      return Math.min(similarity + 15, 100);
+    let similarity = (matchingWords / pattern.words.length) * 100;
+
+    const regex = new RegExp(pattern.words.join('.*'), 'i');
+    const regexMatch = input.normalized.match(regex);
+    if (regexMatch) {
+      similarity = Math.max(similarity, 65); 
     }
-    
+
     return similarity;
   }
-
+  
   findMatchingIntent(userInput) {
     const processedInput = this.processInput(userInput);
     
@@ -132,4 +132,4 @@ class N3koFrenchModel {
   }
 }
 
-export default N3koFrenchModel;
+export default NekoFrenchChat;
