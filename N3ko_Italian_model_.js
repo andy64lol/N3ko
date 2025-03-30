@@ -1,10 +1,10 @@
 // N3ko Italian model
 // Made by andy64lol
 
-class N3koItalianModel {
+class NekoTsundereChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Italian_model_.json') {
     this.vocabulary = { intents: [] };
-    this.defaultResponse = ['Miao? (Vocabolario non caricato)'];
+    this.defaultResponse = ['Miao? (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
   }
 
@@ -16,7 +16,7 @@ class N3koItalianModel {
   async loadVocabulary() {
     try {
       const response = await fetch(this.vocabUrl);
-      if (!response.ok) throw new Error(`Errore HTTP ${response.status}`);
+      if (!response.ok) throw new Error(`HTTP error ${response.status}`);
       this.vocabulary = await response.json();
 
       this.vocabulary.intents.forEach(intent => {
@@ -25,9 +25,9 @@ class N3koItalianModel {
         );
       });
       
-      this.defaultResponse = this.getIntentResponses('default') || ['Miao?'];
+      this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
     } catch (error) {
-      console.error('Errore di caricamento:', error);
+      console.error('Nyan loading error:', error);
     }
   }
 
@@ -42,7 +42,6 @@ class N3koItalianModel {
   normalizeText(text) {
     return text
       .toLowerCase()
-      .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
       .replace(/[^\w\s]/g, ' ')  
       .replace(/\s+/g, ' ')      
       .trim();
@@ -62,7 +61,7 @@ class N3koItalianModel {
     };
   }
 
-  calculateSimilarity(input, pattern) {
+ calculateSimilarity(input, pattern) {
     if (pattern.words.length === 0) return 0;
 
     const inputWordSet = new Set(input.words);
@@ -70,16 +69,17 @@ class N3koItalianModel {
       inputWordSet.has(word)
     ).length;
 
-    const similarity = (matchingWords / pattern.words.length) * 100;
-    
-    const regexMatch = input.normalized.match(new RegExp(pattern.words.join('.*'), 'i'));
-    if (regexMatch && similarity < 86) {
-      return Math.min(similarity + 15, 100);
+    let similarity = (matchingWords / pattern.words.length) * 100;
+
+    const regex = new RegExp(pattern.words.join('.*'), 'i');
+    const regexMatch = input.normalized.match(regex);
+    if (regexMatch) {
+      similarity = Math.max(similarity, 65); 
     }
-    
+
     return similarity;
   }
-
+  
   findMatchingIntent(userInput) {
     const processedInput = this.processInput(userInput);
     
@@ -132,4 +132,4 @@ class N3koItalianModel {
   }
 }
 
-export default N3koItalianModel;
+export default NekoItalianChat;
