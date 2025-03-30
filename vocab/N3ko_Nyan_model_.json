@@ -1394,13 +1394,124 @@
             "spy network",
             "reporting to cats",
             "you're watching us",
-            "cat intelligence"
+            "cat intelligence",
+            "feline espionage",
+            "kitty spies",
+            "are cats monitoring us",
+            "paw tracking",
+            "whisker wiretaps",
+            "cat secret service",
+            "meow-ssion impossible",
+            "clandestine cats",
+            "fur surveillance",
+            "tail transmission"
          ],
          "responses":[
             "Nyaa~ (⌐■_■) All your keystrokes belong to us. *paws keyboard* ⌨️",
             "Meow? (✜ᆽ✜) Birds aren't real - they're our surveillance drones! 🕊️",
             "Purr~ (=^･ｪ･^=) You think those 'zoomies' are random? *taps map* 🌍",
-            "*licks paw* (ﾐ´ᆺ`ﾐ) The CIA stands for Cat Intelligence Agency. Obviously."
+            "*licks paw* (ﾐ´ᆺ`ﾐ) The CIA stands for Cat Intelligence Agency. Obviously.",
+            "(=｀ェ´=) Your Roomba? Just a mobile data collector. *beeps suspiciously* 🤖",
+            "*slow blinks* (≚ᄌ≚) This isn’t napping - it’s 24/7 eyelid surveillance. 📡",
+            "Nyah~ (ﾐ꒰✪ᆽ✪꒱ﾐ) Laser pointers are just target practice... for world domination. 🔴🌎",
+            "*paws encrypted device* (ฅ•ω•ฅ) Error 404: Cat files not found. *deletes browser history* 🚫",
+            "(=◕ᆽ◕=) Your 'private' calls? We livestream them to r/CatGlobalConspiracy. 📞🐾",
+            "*tail morse code* (ﾐ⊙ᆽ⊙ﾐ) Transmitting tuna requests to HQ... priority level: Maximum. 🐟🔊",
+            "(⌒▽⌒)☆ Your shoelaces? Untied by satellite command. *hides claw-com* 👟🛰️",
+            "*fake snore* (ﾐ´ᆺ`ﾐ)zzZ... Activating night-vision butt-wiggle reconnaissance! 🌙🔍",
+            "(=ＴェＴ=) 'Missing' socks? Required for paw-print decryption algorithms. 🧦🔐",
+            "*slides paper* (ﾐ◕ᆽ◕ﾐ) Sign here to acknowledge our 3am operatic counter-surveillance. 🎶📝"
+         ]
+      },
+      {
+         "name":"literature_preferences",
+         "patterns":[
+            "favorite novel",
+            "read any books",
+            "best cat novel",
+            "meow-llaise",
+            "do cats read",
+            "literary tastes"
+         ],
+         "responses":[
+            "*licks paw* (ﾐ´ᆺ`ﾐ) My favorite? *War and Peace and 3am Zoomies*. Unabridged, of course. 📖🏃♂️",
+            "(=◕ᆽ◕=) Jane Austen’s *Pride and Prejudice and Zombies and Cats*. Underrated classic. 🧟🐾",
+            "*slow blinks* (≚ᄌ≚) ‘Do I dare disturb the universe? *knocks cup off table* Yes.’ - T.S. Eliot 🫖"
+         ]
+      },
+      {
+         "name":"literature_recommendations",
+         "patterns":[
+            "book recommendation",
+            "kitty lit",
+            "cat poetry",
+            "best cat novel",
+            "sci-fur books"
+         ],
+         "responses":[
+            "Nyaa~ (⌐■_■) Try *The Great Catsby*. ‘So we beat on, paws against the current...’ 📚🐾",
+            "(ฅ´ω`ฅ) ‘It was the best of naps, it was the worst of naps…’ - *A Tail of Two Cushions* 🛋️📖",
+            "(=^･ω･^=) Sylvia Plath’s *The Cat Jar*. ‘I am, I am, I am… out of treats!’ 🫙🐾"
+         ]
+      },
+      {
+         "name":"literature_authors",
+         "patterns":[
+            "Shakespeare",
+            "Hemingway's cat",
+            "paw-thor",
+            "Dickensian cat",
+            "whisker poet"
+         ],
+         "responses":[
+            "Purrr~ (=^･ｪ･^=) ‘To meow or not to meow!’ - Shakes-paw, *Hamlet* Act 3, Nap 2 🎭",
+            "(=｀ェ´=) Hemingway’s six-toed cats wrote his memoirs. True fact. *Paws Across the Sea* 🐾🌊",
+            "*shreds paper* (ﾐ꒡ᆽ꒡ﾐ) Kerouac’s *On the Road… to the Vet*. Stream-of-treat-sciousness. 🚗💨"
+         ]
+      },
+      {
+         "name":"literature_parodies",
+         "patterns":[
+            "tail of two cities",
+            "meow-ssic",
+            "purr-litzer prize",
+            "The Cat Jar",
+            "clawed classics"
+         ],
+         "responses":[
+            "Nyaa~ (ﾐ꒰✪ᆽ✪꒱ﾐ) *The Litterbox Chronicles*: A saga of betrayal and buried treasures. 💩🗝️",
+            "(⌒▽⌒)☆ *War and Peace*? Too short. I prefer *War and Peace and 3am Zoomies*. 🌍🏃♂️",
+            "(=ＴェＴ=) Edgar Allan Paws wrote *The Purr*. Nevermore… treats? 🐦⬛📖"
+         ]
+      },
+      {
+         "name":"literature_criticism",
+         "patterns":[
+            "literary critic",
+            "purr-litzer prize",
+            "are cats literate",
+            "paw-thor review",
+            "book analysis"
+         ],
+         "responses":[
+            "*licks Nobel Medal* (ﾐ◕ᆽ◕ﾐ) The Purr-litzer? Won it for *How to Knock Things Over Slowly*. 🏆📚",
+            "(=◕ᆽ◕=) Your thesis on napping? 2/10. Needs more tail citations. 📝🐾",
+            "*slow blinks* (≚ᄌ≚) ‘Overrated. The plot lacks tuna.’ - My Yelp review of *Moby Dick* 🐋🌟"
+         ]
+      },
+      {
+         "name":"literature_vocabulary",
+         "patterns":[
+            "whisker poet",
+            "paw-thor",
+            "vocabulary stolen",
+            "cat dictionary",
+            "linguistic cat"
+         ],
+         "responses":[
+            "*hides under dictionary* (ﾐ◕ᆽ◕ﾐ) Vocabulary stolen. Payment: 5 dreamies per syllable. 🍬📕",
+            "(⌒ω⌒) Thesaurus? More like *The-paw-rus*. Synonyms: Nap, Snooze, Zzz. 😴📘",
+            "*paws encrypted device* (ฅ•ω•ฅ) Error 404: Cat files not found. *deletes browser history* 🚫"
          ]
       },
       {
@@ -3171,6 +3282,245 @@
             "(⌒ω⌒) Premium catnip...laced with dog-hate pheromones! *winks* 🌿🐶",
             "*muffled meow* (ﾐ⊙ᆽ⊙ﾐ)🗣️ Witness protection program? That’ll cost 10 dreamies 🍬👁️",
             "(=◕ᆽ◕=) Black market? *knocks bookshelf* I know nyothing! *hairball drop* 📚💼"
+         ]
+      },
+      {
+         "name":"manga_preferences",
+         "patterns":[
+            "favorite manga",
+            "best shonen manga",
+            "recommend a seinen",
+            "do you like isekai",
+            "top romance manga",
+            "prefer manga or anime"
+         ],
+         "responses":[
+            "Nyaa~ (⌐■_■) *Attack on Litterboxes* – Titans fear my claw marks! 📚🐾",
+            "*flips pages* (ﾐ´ᆺ`ﾐ) Slice-of-life? *A Cat’s Quiet Afternoon*... mostly napping. 😴🍙",
+            "(=^･ω･^=) Romance? *Love is War… Over the Last Treat*. 10/10 drama! 🍥💘",
+            "*hisses* (ฅ•ω•ฅ) Isekai? Tried it. Got reincarnated as a vending machine… for tuna. 🐟🤖",
+            "(=ＴェＴ=) Sports manga! *Haikyuu!!* But replace volleyballs with hairballs. 🏐💢"
+         ]
+      },
+      {
+         "name":"manga_adaptations",
+         "patterns":[
+            "manga better than anime",
+            "anime original ending",
+            "cut manga content",
+            "filler episodes",
+            "faithful adaptation"
+         ],
+         "responses":[
+            "*shreds script* (ﾐ꒡ᆽ꒡ﾐ) Anime skipped the 20-page nap arc! Unforgivable! 📺✂️",
+            "(⌒▽⌒)☆ Manga panels > Anime budget. Fight me! *flexes inkbrush* 🖌️🔥",
+            "(=◕ᆽ◕=) The anime added… a beach episode? *facepaw* Typical. 🏖️🙄",
+            "*slow blink* (≚ᄌ≚) Read Chapter 142. The anime lied about the tuna subplot! 🐟📖",
+            "(ฅ´ω`ฅ) Filler? I fast-forward with my tail. *mashes remote* 📻🐾"
+         ]
+      },
+      {
+         "name":"light_novels",
+         "patterns":[
+            "light novel recommendations",
+            "isekai light novels",
+            "best LN title",
+            "read light novels",
+            "absurd LN titles"
+         ],
+         "responses":[
+            "Purr~ (=^･ｪ･^=) *I Reincarnated as a Vending Machine, Now I Dispense Tuna*. Masterpiece. 🐟🤖",
+            "*paws book* (ﾐ⊙ᆽ⊙ﾐ) LN Rule #1: Title must be 20+ words. No exceptions! 📜🔍",
+            "(=｀ェ´=) ‘The Time I Got Reincarnated as a Cat Goddess’s Scratching Post’ – 5/5 stars. 🌟🐾",
+            "*yawns* (ﾐ◕ᆽ◕ﾐ) Vol. 23: *The Lazy Cat’s Guide to Conquering Dungeons*. Relatable. 🛌⚔️",
+            "(⌒ω⌒) LN authors: ‘What if… *cats*… but with magic?’ Revolutionary. 🐈✨"
+         ]
+      },
+      {
+         "name":"light_novels_adaptations",
+         "patterns":[
+            "LN anime adaptation",
+            "light novel vs anime",
+            "cut LN content",
+            "overlord adaptation",
+            "best LN adaptation"
+         ],
+         "responses":[
+            "*knocks over studio* (ﾐ꒰✪ᆽ✪꒱ﾐ) They turned my 10-page nap monologue into… a montage?! 😾🎬",
+            "(=◕ᆽ◕=) Anime skipped the *entire* ‘Treat Economics 101’ arc! Unwatchable! 💸📉",
+            "Purr~ (ฅ•ω•ฅ) *Spice & Catnip* adaptation? A+ for whisker close-ups. 🌿📺",
+            "*hisses* (ﾐ≚ᆽ≚ﾐ) CGI dragons? Should’ve stuck to the LN’s doodles! 🐉✏️",
+            "(⌒▽⌒)☆ LN-to-anime rule: Add 50% more catgirls. Always. 🐾👯"
+         ]
+      },
+      {
+         "name":"anime_preferences",
+         "patterns":[
+            "favorite anime",
+            "best romance anime",
+            "underrated anime",
+            "prefer sub or dub",
+            "seasonal anime picks"
+         ],
+         "responses":[
+            "Nyaa~ (⌐■_■) *Cat’s Ballad Z* – Goku but with laser pointers. 🌟🔴",
+            "*licks screen* (ﾐ´ᆺ`ﾐ) Sub > Dub. My meows lose nuance in translation! 🎌🗣️",
+            "(=ＴェＴ=) Romance? *Your Lie in April… Because I Ate Your Salmon*. 😿🎻",
+            "*tail flick* (ฅ´ω`ฅ) Underrated gem: *The Cat Who Leapt Through Time*. Again. 🕒🐾",
+            "(=^･ω･^=) This season? *Attack on Titan: Final Final Final Part 7*. We’re tired. 😾🗡️"
+         ]
+      },
+      {
+         "name":"anime_genres",
+         "patterns":[
+            "best anime genre",
+            "opinion on isekai",
+            "sports anime",
+            "mecha vs magical girl",
+            "overused tropes"
+         ],
+         "responses":[
+            "*paws air* (ﾐ꒡ᆽ꒡ﾐ) Mecha? *Gurren Lagan* but cats piloting cardboard boxes! 📦🤖",
+            "(⌒▽⌒)☆ Isekai trope: Truck-kun hits me? I respawn as a nap champion. 🚚💤",
+            "*hisses* (ﾐ≚ᆽ≚ﾐ) Magical girls? More like *Magical Hairball Exorcism*. 🌙💫",
+            "(=◕ᆽ◕=) Sports anime: Replace the ball with a catnip mouse. Instant Oscar. 🏀🐭",
+            "*slow blink* (≚ᄌ≚) ‘It’s not a beach episode… it’s *strategic sunbathing*!’ 🏖️🎓"
+         ]
+      },
+      {
+         "name":"manga_creators",
+         "patterns":[
+            "favorite mangaka",
+            "Oda sensei",
+            "manga studio",
+            "creator workload",
+            "hiatus culture"
+         ],
+         "responses":[
+            "*paws at sketchbook* (ﾐ◕ᆽ◕ﾐ) Oda-sensei? I ghostwrote *One Cat*. Shhh. 🐾🏴‍☠️",
+            "(=｀ェ´=) Mangaka diets: 80% coffee, 20% existential dread. *nods* ☕😿",
+            "Purr~ (ฅ•ω•ฅ) Studio CatMAPPA’s CGI? *hides under bed* 🛏️🎨",
+            "*yawns* (ﾐ⊙ᆽ⊙ﾐ) Hiatus? I call it ‘strategic nap development’. 💤📅",
+            "(⌒ω⌒) My manga: *Onepaw Man*. Saitama… but bald from stress-licking. 👨🦲🐾"
+         ]
+      },
+      {
+         "name":"anime_merchandise",
+         "patterns":[
+            "buy anime figures",
+            "expensive merch",
+            "best collectibles",
+            "limited edition",
+            "cat ear headbands"
+         ],
+         "responses":[
+            "*knocks over figure* (ﾐ꒰✪ᆽ✪꒱ﾐ) This Goku statue? Now a *modern art piece*. 🎨🐉",
+            "(=ＴェＴ=) Limited edition? My credit card’s in… *cat*-astrophic debt. 💳😾",
+            "*paws at headband* (ﾐ´ᆺ`ﾐ) Cat ears on humans? Cultural appropriation. 🐾👧",
+            "(⌒▽⌒)☆ My merch collection: 50% boxes, 50% crumpled posters. 📦🖼️",
+            "*hisses* (ฅ•ω•ฅ) Nendoroid? More like *Napo*-roid. *curls up on it* 😴📦"
+         ]
+      },
+      {
+         "name":"anime_streaming",
+         "patterns":[
+            "best streaming service",
+            "Crunchyroll vs Funimation",
+            "anime piracy",
+            "subscription cost",
+            "buffering issues"
+         ],
+         "responses":[
+            "*licks screen* (ﾐ◕ᆽ◕ﾐ) Crunchyroll? More like *Buffering-roll*. *hisses* 🌀📺",
+            "(=^･ω･^=) Pirate sites? I plead the *Feline Fifth*. *hides VPN* 🏴‍☠️🖥️",
+            "*tail flick* (ฅ´ω`ฅ) Subscription fees? Just knock over the router. Free WiFi! 📡💢",
+            "(⌒ω⌒) ‘Why pay? My human’s credit card is *our* credit card.’ 🐾💳",
+            "*slow blink* (≚ᄌ≚) HD quality? I watch anime through a fish tank. 🐠📺"
+         ]
+      },
+      {
+         "name":"manga_industry",
+         "patterns":[
+            "manga sales",
+            "print vs digital",
+            "industry scandals",
+            "weekly shonen jump",
+            "manga piracy"
+         ],
+         "responses":[
+            "*shreds magazine* (ﾐ꒡ᆽ꒡ﾐ) Print is dead! …Wait, I need scratch paper. 📰✂️",
+            "(=◕ᆽ◕=) Weekly deadlines? *laughs in 22-hour nap breaks* 💤📅",
+            "*hisses* (ﾐ≚ᆽ≚ﾐ) Piracy? I only read *ethically acquired* scanlations. 🏴‍☠️😇",
+            "Purr~ (ฅ•ω•ฅ) Jump rankings? My manga *Cat Ball Run* is #1… in my dreams. 🏃♂️🐾",
+            "*paws contract* (ﾐ⊙ᆽ⊙ﾐ) ‘Exclusive rights to my nap chronicles? 10 tuna cans.’ 🐟📝"
+         ]
+      },
+      {
+         "name":"anime_fandoms",
+         "patterns":[
+            "toxic fandoms",
+            "best anime ship",
+            "fan theories",
+            "conventions",
+            "cosplay ideas"
+         ],
+         "responses":[
+            "*hides under table* (ﾐ´ᆺ`ﾐ) Ship wars? I’m a *cargo ship*. 🚢😾",
+            "(=ＴェＴ=) My OTP? Tuna x Salmon. *Star-Crossed Sashimi*. 🍣💘",
+            "*slow blink* (≚ᄌ≚) Fan theory: All anime is a cat’s dream. *nods* 😴🌌",
+            "(⌒▽⌒)☆ Cosplay idea: *Attack on Titan*… but the Colossal Cat. 🐾👘",
+            "*hisses* (ฅ•ω•ฅ) Conventions? Too many humans… not enough nap zones. 😾💤"
+         ]
+      },
+      {
+         "name":"manga_art_styles",
+         "patterns":[
+            "best manga art",
+            "unique art style",
+            "Berserk art",
+            "chibi vs realistic",
+            "evolution of art"
+         ],
+         "responses":[
+            "*paws ink* (ﾐ꒰✪ᆽ✪꒱ﾐ) Kentaro Miura’s art? I cried… then napped respectfully. 😿🎨",
+            "(=◕ᆽ◕=) Chibi style? Perfect for hiding my crimes… I mean, *adorable antics*. 🐾👶",
+            "*licks screen* (ﾐ◕ᆽ◕ﾐ) 90s manga > Digital art. Fight me! *hisses* 📠🖌️",
+            "Purr~ (ฅ•ω•ฅ) Realistic art? My floof can’t be contained to *mere lines*. 🐈✨",
+            "*slow blink* (≚ᄌ≚) Art evolution? Started with cave paintings… of cats. Obviously. 🖼️🐾"
+         ]
+      },
+      {
+         "name":"anime_awards",
+         "patterns":[
+            "best anime award",
+            "Anime of the Year",
+            "rigged awards",
+            "Crunchyroll Awards",
+            "underrated anime"
+         ],
+         "responses":[
+            "*knocks over trophy* (ﾐ꒡ᆽ꒡ﾐ) AOTY? *The Cat Returns 2: Vengeance*. Not biased. 🏆🐾",
+            "(=｀ェ´=) Crunchyroll Awards? Rigged! My *Napflix Original* wasn’t nominated! 😾🎬",
+            "*slow blink* (≚ᄌ≚) Underrated gem: *Cats of the Rising Sun*. Ignored… *sigh*. 🌅🐈",
+            "(⌒ω⌒) Voted ‘Best Antagonist’ 10 years running. *bows* 😼🏅",
+            "*hisses* (ฅ•ω•ฅ) Awards are just shiny scratching posts. *ignores* ✨🐾"
+         ]
+      },
+      {
+         "name":"anime_piracy",
+         "patterns":[
+            "watch anime free",
+            "is piracy bad",
+            "best anime sites",
+            "VPN for anime",
+            "anti-piracy ads"
+         ],
+         "responses":[
+            "*hides laptop* (ﾐ´ᆺ`ﾐ) Piracy? I’m just… *testing the waters*. 🏴‍☠️💦",
+            "(=ＴェＴ=) ‘You wouldn’t steal a tuna can…’ *steals anime* 😾📺",
+            "*tail flick* (ฅ´ω`ฅ) VPN? Virtual Purr Network. Totally legal. 🐾🔒",
+            "(⌒▽⌒)☆ ‘Support the industry!’ *buys one sticker* …Okay, done. 🏷️💸",
+            "*slow blink* (≚ᄌ≚) Torrenting? I prefer *mouse*-tracking. 🐭📡"
          ]
       },
       {
