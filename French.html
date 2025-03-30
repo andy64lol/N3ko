@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N3ko Chatbot</title>
+    <style>
+       :root {
+	--primary-color: #f7f7fc;
+	--secondary-color: #fff;
+	--accent-color: #ff7b9c;
+	--text-color: #2d2d2d;
+	--bot-bubble: #f5f5f5;
+	--user-bubble: #ff7b9c;
+	--shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1)
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', system-ui, sans-serif
+}
+
+body {
+	background-color: var(--primary-color);
+	height: 100vh;
+	display: flex;
+	flex-direction: column
+}
+
+.header {
+	background-color: var(--secondary-color);
+	padding: 1rem;
+	box-shadow: var(--shadow);
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	position: sticky;
+	top: 0;
+	z-index: 100
+}
+
+.avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: var(--accent-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: 700;
+	flex-shrink: 0
+}
+
+.chat-container {
+	flex: 1;
+	max-width: 800px;
+	margin: 0 auto;
+	width: 100%;
+	padding: 20px;
+	overflow-y: auto;
+	padding-bottom: 100px;
+	scroll-behavior: smooth
+}
+
+.message {
+	display: flex;
+	gap: 15px;
+	margin: 20px 0;
+	opacity: 0;
+	transform: translateY(20px);
+	animation: messageIn 0.3s ease forwards
+}
+
+@keyframes messageIn {
+	to {
+		opacity: 1;
+		transform: translateY(0)
+	}
+}
+
+.bubble {
+	max-width: min(80%, 700px);
+	padding: 16px 24px;
+	border-radius: 24px;
+	line-height: 1.6;
+	position: relative;
+	word-break: break-word;
+	white-space: pre-wrap
+}
+
+.bot-bubble {
+	background: var(--bot-bubble);
+	color: var(--text-color);
+	border-radius: 24px 24px 24px 6px;
+	box-shadow: var(--shadow)
+}
+
+.user-bubble {
+	background: var(--user-bubble);
+	color: #fff;
+	border-radius: 24px 24px 6px 24px;
+	box-shadow: var(--shadow)
+}
+
+.input-container {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: linear-gradient(to top, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0));
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	backdrop-filter: blur(8px)
+}
+
+.input-wrapper {
+	width: 100%;
+	max-width: 800px;
+	position: relative
+}
+
+input {
+	width: 100%;
+	padding: 16px 140px 16px 24px;
+	border: 2px solid #eee;
+	border-radius: 30px;
+	font-size: 16px;
+	outline: none;
+	transition: all 0.2s ease;
+	background: rgba(255, 255, 255, 0.9)
+}
+
+input:focus {
+	border-color: var(--accent-color);
+	box-shadow: 0 0 0 3px rgba(255, 123, 156, 0.2)
+}
+
+button {
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	padding: 10px 24px;
+	border-radius: 24px;
+	border: none;
+	background: var(--accent-color);
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	font-weight: 600
+}
+
+button:hover {
+	background: #ff5980;
+	transform: scale(0.98)
+}
+
+.typing-indicator {
+	display: none;
+	padding: 16px 24px;
+	background: var(--bot-bubble);
+	border-radius: 24px;
+	width: fit-content;
+	margin: 10px 0;
+	box-shadow: var(--shadow);
+	gap: 8px
+}
+
+.typing-dot {
+	width: 10px;
+	height: 10px;
+	background: #999;
+	border-radius: 50%;
+	animation: typing 1.4s infinite
+}
+
+@keyframes typing {
+
+	0%,
+	100% {
+		transform: translateY(0);
+		opacity: 0.4
+	}
+
+	50% {
+		transform: translateY(-4px);
+		opacity: 1
+	}
+}
+
+.github-button {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	background: var(--accent-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.2s ease;
+	margin-left: auto;
+}
+
+.github-button:hover {
+	transform: scale(1.1);
+	box-shadow: 0 2px 8px rgba(255, 123, 156, 0.3)
+}
+
+.model-loading {
+	font-size: 0.9em;
+	color: #666;
+	display: none
+}
+
+@media (max-width:768px) {
+	.bubble {
+		max-width: 90%;
+		padding: 14px 20px
+	}
+
+	input {
+		padding: 14px 120px 14px 20px
+	}
+
+	button {
+		padding: 8px 20px
+	}
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="avatar">:3</div>
+        <div>
+            <h1>N3ko Chatbot</h1>
+            <p class="status">Online</p>
+        </div>
+        <a href="https://github.com/andy64lol/N3ko/tree/main" target="_blank" class="github-button">i</a>
+        <span class="model-loading" id="modelLoading">Loading...</span>
+    </div>
+
+    <div class="chat-container" id="chatContainer">
+        <div class="message bot-message">
+            <div class="avatar">3</div>
+            <div class="bubble bot-bubble">N3ko is ready!</div>
+        </div>
+    </div>
+
+    <div class="input-container">
+        <div class="input-wrapper">
+            <input type="text" id="userInput" placeholder="Type message..." aria-label="Chat input">
+            <button id="sendButton">Send</button>
+            <div class="typing-indicator" id="typingIndicator">
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const MODEL_BASE_URL = 'https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/';
+        const currentModel = 'French';
+
+        async function loadModel(modelName){
+            document.getElementById('modelLoading').style.display = 'block';
+            try{
+                const modelFile = `N3ko_${modelName}_model_.js`;
+                const response = await fetch(`${MODEL_BASE_URL}${modelFile}`);
+                if(!response.ok) throw new Error('Model load failed');
+                const scriptText = await response.text();
+                const scriptBlob = new Blob([scriptText],{type:'application/javascript'});
+                const module = await import(URL.createObjectURL(scriptBlob));
+                return module.default;
+            }catch(error){
+                console.error('Model error:',error);
+                throw error;
+            }finally{
+                document.getElementById('modelLoading').style.display = 'none';
+            }
+        }
+
+        function addMessage(sender,text){
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${sender}-message`;
+            messageDiv.innerHTML = `<div class="avatar">:3</div><div class="bubble ${sender}-bubble">${text}</div>`;
+            document.getElementById('chatContainer').appendChild(messageDiv);
+            document.getElementById('chatContainer').scrollTop = document.getElementById('chatContainer').scrollHeight;
+        }
+
+        async function handleSend(){
+            const text = document.getElementById('userInput').value.trim();
+            if(!text) return;
+            
+            addMessage('user',text);
+            document.getElementById('userInput').value = '';
+            document.getElementById('typingIndicator').style.display = 'block';
+            
+            try{
+                await new Promise(r => setTimeout(r,800));
+                const response = chatInstance.generateResponse(text);
+                addMessage('bot',response);
+            }catch(error){
+                addMessage('bot','Response error!');
+            }
+            document.getElementById('typingIndicator').style.display = 'none';
+        }
+
+        (async () => {
+            try{
+                const ModelClass = await loadModel(currentModel);
+                chatInstance = new ModelClass();
+                await chatInstance.init();
+                document.querySelector('.status').textContent = 'Online';
+                document.getElementById('sendButton').addEventListener('click',handleSend);
+                document.getElementById('userInput').addEventListener('keypress',e => {
+                    if(e.key === 'Enter' && !e.shiftKey){
+                        e.preventDefault();
+                        handleSend();
+                    }
+                });
+            }catch(error){
+                document.querySelector('.status').textContent = 'Offline';
+            }
+        })();
+    </script>
+</body>
+</html>
