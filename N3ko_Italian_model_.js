@@ -1,7 +1,7 @@
 // N3ko Italian model
 // Made by andy64lol
 
-class NekoTsundereChat {
+class NekoItalianChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Italian_model_.json') {
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Miao? (Vocabulary not loaded)'];
