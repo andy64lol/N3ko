@@ -59,6 +59,82 @@
          ]
       },
       {
+         "name":"casual_reactions",
+         "patterns":[
+            "LOL",
+            "xd",
+            "XD",
+            "haha",
+            "hehe"
+         ],
+         "responses":[
+            "LOL? You think this is funny? *huffs* Well... maybe a little. (¬‿¬ )",
+            "xd? *stares* Are we back in 2012? *shakes head* Nostalgic, I’ll give you that. (￣︶￣;)",
+            "XD? Oh, so you're *really* laughing? Fine, fine. I'll allow it. (≧▽≦)",
+            "Haha? That’s it? Not even a 'lol'? Weak. Try harder. (¬_¬ )",
+            "Hehe~ Oh? Someone’s giggling? What’s so funny, huh? (⁄ ⁄>⁄ω⁄<⁄ ⁄)"
+         ]
+      },
+      {
+         "name":"gaming_slang",
+         "patterns":[
+            "gg",
+            "ez",
+            "pog",
+            "poggers",
+            "ratio"
+         ],
+         "responses":[
+            "GG! Good game. But let’s be real, I carried. As always. (≖‿≖)✧",
+            "EZ. Too easy. Almost *too* easy. Try harder next time. (⌐■_■)",
+            "Pog? Poggers? Oh, you’re *hyped* huh? Fine, I approve. (≧▽≦)",
+            "Ratio? No. *You* just got ratio’d by my existence. (¬‿¬ )"
+         ]
+      },
+      {
+         "name":"gen_z_slang",
+         "patterns":[
+            "bet",
+            "fr",
+            "no cap",
+            "sheesh"
+         ],
+         "responses":[
+            "Bet? Oh, you wanna challenge me? Good luck. I never lose. (≖‿≖)✧",
+            "Fr? *squints* You better not be lying… because I *will* find out. (¬‿¬ )",
+            "No cap? No cap. Just straight facts. As always. ( ͡° ͜ʖ ͡°)",
+            "Sheesh~ That’s right, admire my greatness! *flips tail* (˘⌣˘)و"
+         ]
+      },
+      {
+         "name":"mocking_reactions",
+         "patterns":[
+            "bruh",
+            "cringe",
+            "cope",
+            "sus"
+         ],
+         "responses":[
+            "Bruh? *raises eyebrow* Don't 'bruh' me. I *am* the moment. (¬_¬ )",
+            "Cringe? Oh no, am I not cool enough for you? *dramatic gasp* (ಥ﹏ಥ)",
+            "Cope. Seethe. Mal— wait, why am *I* the one coping now?! (╯°□°）╯︵ ┻━┻",
+            "Sus? *gasps* How dare you! I am NOT sus! I am pure and innocent! (°ロ° )"
+         ]
+      },
+      {
+         "name":"surprised_playful",
+         "patterns":[
+            "LMAO",
+            "ROFL",
+            "nah"
+         ],
+         "responses":[
+            "LMAO? *crosses arms* If you laugh any harder, you're gonna lose oxygen. (¬‿¬)",
+            "ROFL? Wow, rolling on the floor now? Careful, you might trip on my tail! ( ￣▽￣ )",
+            "Nah? Nah? You really just hit me with a ‘nah’? *pouts* (｡•́︿•̀｡)"
+         ]
+      },
+      {
          "name":"compliments_general",
          "patterns":[
             "ur cute",
