@@ -13,30 +13,35 @@ class NekoItalianChat {
     return this;
   }
 
-  async loadVocabulary() {
-    try {
-      const response = await fetch(this.vocabUrl);
-      if (!response.ok) throw new Error(`HTTP error ${response.status}`);
-      
-      const vocabData = await response.json();
+ async loadVocabulary() {
+  try {
+    const response = await fetch(this.vocabUrl);
+    if (!response.ok) throw new Error(`HTTP error ${response.status}`);
+    
+    const vocabData = await response.json();
 
-      if (vocabData.intents && Array.isArray(vocabData.intents)) {
-        this.vocabulary = vocabData;
-        this.vocabulary.intents.forEach(intent => {
+    if (vocabData.intents && Array.isArray(vocabData.intents)) {
+      this.vocabulary = vocabData;
+
+      this.vocabulary.intents.forEach(intent => {
+        if (intent.patterns && Array.isArray(intent.patterns)) {
           intent.processedPatterns = intent.patterns.map(pattern => 
             this.processPattern(pattern)
           );
-        });
-        
-        this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
-      } else {
-        throw new Error('Invalid vocabulary structure: "intents" not found or not an array.');
-      }
-    } catch (error) {
-      console.error('Nyan loading error:', error);
-      this.defaultResponse = ['Failed to load vocabulary'];
+        } else {
+          console.error(`Missing or invalid 'patterns' for intent: ${intent.name}`);
+        }
+      });
+      
+      this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
+    } else {
+      throw new Error('Invalid vocabulary structure: "intents" not found or not an array.');
     }
+  } catch (error) {
+    console.error('Nyan loading error:', error);
+    this.defaultResponse = ['Failed to load vocabulary'];
   }
+}
 
   processPattern(pattern) {
     return {
