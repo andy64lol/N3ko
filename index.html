@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N3ko Menu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            background-color: #121212;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #222;
+            color: #ff66b2;
+            height: 100vh;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .menu-item {
+            padding: 10px;
+            background-color: #333;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s, color 0.3s;
+            text-align: center;
+            text-decoration: none;
+            color: #ff66b2;
+        }
+        .menu-item:hover {
+            background-color: #ff66b2;
+            color: white;
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            background-color: #1e1e1e;
+            color: #ff66b2;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="Nyan.html" class="menu-item">Nyan</a>
+        <a href="Tsundere.html" class="menu-item">Tsundere</a>
+    </div>
+    <div class="content">
+        <h1>Welcome to N3ko</h1>
+        <p>Choose an option from the menu!</p>
+    </div>
+</body>
+</html>
