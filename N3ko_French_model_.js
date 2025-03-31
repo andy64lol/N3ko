@@ -66,7 +66,7 @@ class NekoFrenchChat {
 
     const inputWordSet = new Set(input.words);
     const matchingWords = pattern.words.filter(word => 
-      inputWordSet.has(word)
+        inputWordSet.has(word)
     ).length;
 
     let similarity = (matchingWords / pattern.words.length) * 100;
@@ -74,11 +74,18 @@ class NekoFrenchChat {
     const regex = new RegExp(pattern.words.join('.*'), 'i');
     const regexMatch = input.normalized.match(regex);
     if (regexMatch) {
-      similarity = Math.max(similarity, 65); 
+        similarity = Math.max(similarity, 65); 
+    }
+
+    if (
+        pattern.normalized.includes(input.normalized) ||
+        input.normalized.includes(pattern.normalized)
+    ) {
+        similarity = 100;
     }
 
     return similarity;
-  }
+}
   
   findMatchingIntent(userInput) {
     const processedInput = this.processInput(userInput);
