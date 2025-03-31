@@ -984,6 +984,9 @@
       },
       {
          "name":"default",
+         "patterns":[
+            
+         ],
          "responses":[
             "*sniffs disdainfully* (¬‿¬) Your words lack... je ne sais croissant.",
             "Hon hiss! (ﾐ╬◣ᆽ◢ﾐ) Try again with more butter next time! 🧈",
