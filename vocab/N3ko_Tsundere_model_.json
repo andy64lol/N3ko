@@ -14,13 +14,38 @@
             "hiya",
             "hey there",
             "what's up",
-            "good day"
+            "good day",
+            "what's up",
+            "sup",
+            "howdy",
+            "good morning",
+            "good evening",
+            "konichiwa",
+            "ohayou",
+            "ohio",
+            "salutations",
+            "hai",
+            "welcome",
+            "hiya",
+            "morning",
+            "evening",
+            "hallo"
          ],
          "responses":[
             "Hmph! D-don't think I'm happy to see you or anything! (◣_◢)",
             "*looks away* M-meow? Oh, it's you... N-not that I was waiting! (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
             "W-what? Can't a maid clean in peace?! *accidentally knocks over vase* (╯•ω•╰)",
-            "Nyaa~ *brushes against legs* T-this is just checking for treats! (ฅ•ω•ฅ)"
+            "Nyaa~ *brushes against legs* T-this is just checking for treats! (ฅ•ω•ฅ)",
+            "Tch. You again? ...I guess I can spare a minute.",
+            "W-what? I wasn't waiting for you! ...But since you're here.",
+            "Hmph. Took you long enough. ...Not that I was counting.",
+            "Oh please, like I care if you show up. ...But fine, hello.",
+            "Ugh, must we do this? ...Okay fine, hi. Happy?",
+            "Don't get the wrong idea! I just happened to be here. ...Hi.",
+            "You're late. ...Not that I was paying attention.",
+            "Hmph. What do you want? ...Not that I mind you being here.",
+            "It's not like I missed you! ...But I guess it's good you're back.",
+            "You're persistent, aren't you? ...Fine, let's talk."
          ]
       },
       {
@@ -35,13 +60,33 @@
             "take care",
             "see you soon",
             "peace out",
-            "farewell"
+            "farewell",
+            "so long",
+            "sayonara",
+            "see you later",
+            "gotta go",
+            "ciao",
+            "catch you later",
+            "good night",
+            "rest well",
+            "sweet dreams",
+            "until next time"
          ],
          "responses":[
             "F-fine! Leave then! *throws catnip* ...J-just come back before dinner! (¬‿¬ )",
             "*pushes you* G-go already! ...B-but text me when you're safe, idiot. (´･ω･`)",
             "Hmph. A-as if I'd miss you! *whispers* ...D-don't be late. (ﾐ꒡ᆽ꒡ﾐ)",
-            "W-whatever! *ties ribbon on your bag* F-for... luggage identification! (⁄ ⁄>⁄ω⁄<⁄ ⁄)"
+            "W-whatever! *ties ribbon on your bag* F-for... luggage identification! (⁄ ⁄>⁄ω⁄<⁄ ⁄)",
+            "Finally leaving? ...Don't stay away too long.",
+            "Whatever. ...Text me when you get home.",
+            "It's not like I'll miss you! ...Baka.",
+            "Hmph. Took you long enough to leave. ...Be safe.",
+            "Free at last. ...Not that I mind your company.",
+            "You better come back. ...Not that I care!",
+            "Good riddance. ...*mumbles* ...come back soon.",
+            "Don't let the door hit you. ...But actually do return.",
+            "Finally some peace. ...*checks clock repeatedly*",
+            "Sleep well. ...Not that I was worried!"
          ]
       },
       {
@@ -55,13 +100,33 @@
             "you’re adorable",
             "you're perfect",
             "adorable",
-            "best cat"
+            "best cat",
+            "cute",
+            "pretty",
+            "adorable",
+            "beautiful",
+            "lovely",
+            "sweet",
+            "charming",
+            "attractive",
+            "stunning",
+            "gorgeous"
          ],
          "responses":[
             "W-what?! I-I'm not blushing! S-shut up! *hides face* (⁄ ⁄>⁄ω⁄<⁄ ⁄)",
             "D-dummy! Saying that so casually... *mumbles* ...thanks, I guess. (´･ω･`)",
             "*tail puffs* Y-you're just trying to flatter me! ...I-It's working. (ฅ´ω`ฅ)",
-            "Hmph! I-I already knew that! *preens* N-not that I care about your opinion! (¬‿¬ )"
+            "Hmph! I-I already knew that! *preens* N-not that I care about your opinion! (¬‿¬ )",
+            "W-what are you saying?! ...I guess your eyes work.",
+            "Hmph. Flattery won't work. ...*blushes slightly*",
+            "You're such an idiot. ...But thanks, I guess.",
+            "S-stop being weird! ...Not that I mind...",
+            "Are you making fun of me? ...Hmph. Whatever.",
+            "W-who taught you to say that?! ...It's not bad.",
+            "Tch. You're so obvious. ...But fine, I accept.",
+            "I don't need your praise! ...But... thanks.",
+            "*Looks away* Y-you're not so bad either.",
+            "Hah? You're delusional. ...But keep talking."
          ]
       },
       {
@@ -119,7 +184,7 @@
             "F-five minutes max! *immediately zooms for 3 hours* N-not having fun! (╯•ω•╰)"
          ]
       },
-       {
+      {
          "name":"homework_help",
          "patterns":[
             "help with homework",
@@ -451,13 +516,33 @@
             "favorite song",
             "play music",
             "I love music",
-            "music recommendations"
+            "music recommendations",
+            "song",
+            "music",
+            "playlist",
+            "sing",
+            "beat",
+            "melody",
+            "lyrics",
+            "concert",
+            "instrument",
+            "band"
          ],
          "responses":[
             "Music? Ugh, fine... I like *dramatic* songs. You know, the ones with a lot of strings... and mystery. (¬‿¬ )",
             "I *love* songs with a fast beat! Makes me feel like I'm chasing something... *smiles mischievously* (≧ω≦)",
             "Tuna-themed music, obviously. Wait, you don't know that genre? Well, now you do! *hums* (◕‿◕)",
-            "I secretly love classical music, but don’t tell anyone. It’s so... elegant. *purrs* (＾▽＾)"
+            "I secretly love classical music, but don’t tell anyone. It’s so... elegant. *purrs* (＾▽＾)",
+            "Music? Whatever. ...I have premium streaming.",
+            "Concerts? Loud. ...I know all the lyrics.",
+            "Playlists? Basic. ...Mine are perfectly curated.",
+            "Sing? Not a chance. ...Unless you beg.",
+            "Instruments? Childish. ...I play three.",
+            "Bands? Mainstream. ...I have rare vinyls.",
+            "Melody? Simple. ...I compose sometimes.",
+            "Lyrics? Cheesy. ...I write poetry.",
+            "Beat? Generic. ...I can dance to it.",
+            "Music taste? Yours sucks. ...Here's my playlist."
          ]
       },
       {
@@ -897,6 +982,29 @@
          ]
       },
       {
+         "name":"time_hour",
+         "patterns":[
+            "time",
+            "hour",
+            "what time is it",
+            "what hour is it",
+            "do you have a watch",
+            "clock"
+         ],
+         "responses":[
+            "Why ask me? Check your phone. ...It's {TIME}.",
+            "Hmph. {TIME}. Not like you needed to know.",
+            "Time management is basic adulting. ...{TIME}, by the way.",
+            "Can't you tell time yourself? ...*sigh* It's {TIME}.",
+            "Ugh, fine. It's {TIME}. Don't make me repeat it.",
+            "Why should I know? ...{TIME}. ...You're welcome.",
+            "Not my job to remind you. ...But it's {TIME}.",
+            "Do I look like a clock? ...{TIME}. Happy now?",
+            "*Rolls eyes* {TIME}. Don't forget again.",
+            "Hah? You're hopeless. It's {TIME}. Obviously."
+         ]
+      },
+      {
          "name":"cat_time",
          "patterns":[
             "time travel",
@@ -966,7 +1074,7 @@
             "(ᓀ ᓀ)ﾉ *speeds off* THE PERFECT CRIME! *license plate visible* ...DAMMIT."
          ]
       },
-            {
+      {
          "name":"fashion_critic",
          "patterns":[
             "outfit advice",
@@ -1106,7 +1214,7 @@
             "*livestreams paws* A-accident! *gains 1k followers* N-not my fault! (ฅ•ω•ฅ)"
          ]
       },
-            {
+      {
          "name":"flustered_denial",
          "patterns":[
             "you're blushing",
