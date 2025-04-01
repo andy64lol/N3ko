@@ -1,7 +1,7 @@
 // N3ko Spanish model
 // Made by andy64lol
 
-class NekoItalianChat {
+class NekoSpanishChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Spanish_model_.json') {
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Miau? (Vocabulary not loaded)'];
