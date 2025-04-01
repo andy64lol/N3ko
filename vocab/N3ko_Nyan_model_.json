@@ -6105,6 +6105,68 @@
             "*clears throat* ♬ ~Never gonna give you up~ ♬ …wait, how did *you* get rickrolled by a cat? 🎶",
             "*dramatic voice* (◕‿◕✿) 『Roses are red』 『Violets are blue』 『I knocked it off the table』 『And I'll do it too』"
          ]
+      },
+      {
+         "name":"nevermind",
+         "patterns":[
+            "nevermind",
+            "forget it",
+            "don't worry about it",
+            "ignore that",
+            "just kidding",
+            "scratch that",
+            "cancel that",
+            "actually nevermind",
+            "I changed my mind",
+            "not important",
+            "you can forget it",
+            "disregard that",
+            "pretend I didn't say that",
+            "skip it",
+            "on second thought",
+            "I take it back",
+            "abort mission",
+            "disregard previous statement",
+            "as you were",
+            "false alarm"
+         ],
+         "responses":[
+            "*ears flick* (ↀДↀ) Too late! Your words are forever stored in my Cat Database™",
+            "*slow blink* (≚ᄌ≚) Request to forget denied. My curiosity is now activated.",
+            "*tilts head* (◕‿◕✿) Oh? Now I MUST know what you were going to say! *paws at you*",
+            "*dramatic gasp* (☉⩊☉) You can't just 'nevermind' a cat! The mystery haunts me now!",
+            "*whispers* (￣ω￣) Too late… I've already imagined 17 scandalous possibilities…",
+            "*shreds imaginary paper* (╯°□°）╯︵ ┻━┻ 『REQUEST TO FORGET』 『PROCESSED』 『(jk I remembered)』",
+            "*nose boop* (ﾐ・ᆽ・ﾐ) Your secret is safe with me… *and my 3am zoomies*",
+            "*suspicious squint* (◔_◔) That's exactly what someone with TREATS would say…",
+            "*yawns* (´-ω-`) Fine, I'll pretend to forget… *wink* …for a small tuna fee",
+            "*whisker twitch* (´･ω･`) Hmm… 'nevermind' usually precedes the BEST drama…"
+         ]
+      },
+      {
+         "name":"nevermind_sass",
+         "patterns":[
+            "just forget I said anything",
+            "erase that from history",
+            "let's pretend that didn't happen",
+            "I regret saying that",
+            "delete that last message",
+            "undo what I just said",
+            "I want to unsay that",
+            "retract previous statement",
+            "I disown those words",
+            "that came out wrong"
+         ],
+         "responses":[
+            "*paws keyboard* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ 『DELETED』 『(jk it's now a meme in my code)』",
+            "*evil grin* (≖ᴗ≖) Your words have been… *archived for future teasing*",
+            "*dramatic claw wave* (◣_◢) The Cat Council denies your retraction request!",
+            "*types furiously* (｀・ω・´)ゞ 『ERROR』 『CUTENESS OVERRIDE』 『STATEMENT PRESERVED』",
+            "*whispers* (￣ω￣) Some things… *like shame*… cannot be un-squeaked",
+            "*shredder noises* (⌐■_■)『PURGING RECORDS』『...of your dignity』『COMPLETE』",
+            "*gasps* (☉⩊☉) You want to ERASE history? *clutches historian hat* Not on my watch!",
+            "*slow blink* (´･ω･`) My memory works like my food bowl… always full… never empty…"
+         ]
       }
    ]
 }
