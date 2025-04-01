@@ -1,47 +1,37 @@
 // N3ko Italian model
 // Made by andy64lol
 
-class NekoItalianChat {
+class NekoitalianChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Italian_model_.json') {
     this.vocabulary = { intents: [] };
-    this.defaultResponse = ['Miao? (Vocabulary not loaded)'];
+    this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
-  }
 
   async init() {
-    await this.loadVocabulary();
+    await this.loadBaseVocabulary();
+    await this.loadDateSpecificVocabulary();
     return this;
   }
 
- async loadVocabulary() {
-  try {
-    const response = await fetch(this.vocabUrl);
-    if (!response.ok) throw new Error(`HTTP error ${response.status}`);
-    
-    const vocabData = await response.json();
-
-    if (vocabData.intents && Array.isArray(vocabData.intents)) {
-      this.vocabulary = vocabData;
-
-      this.vocabulary.intents.forEach(intent => {
-        if (intent.patterns && Array.isArray(intent.patterns)) {
-          intent.processedPatterns = intent.patterns.map(pattern => 
-            this.processPattern(pattern)
-          );
-        } else {
-          console.error(`Missing or invalid 'patterns' for intent: ${intent.name}`);
-        }
-      });
-      
+  async loadBaseVocabulary() {
+    try {
+      const response = await fetch(this.vocabUrl);
+      if (!response.ok) throw new Error(`HTTP error ${response.status}`);
+      this.vocabulary = await response.json();
+      this.processAllPatterns();
       this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
-    } else {
-      throw new Error('Invalid vocabulary structure: "intents" not found or not an array.');
+    } catch (error) {
+      console.error('Nyan loading error:', error);
     }
-  } catch (error) {
-    console.error('Nyan loading error:', error);
-    this.defaultResponse = ['Failed to load vocabulary'];
   }
-}
+
+  processAllPatterns() {
+    this.vocabulary.intents.forEach(intent => {
+      intent.processedPatterns = intent.patterns.map(pattern => 
+        this.processPattern(pattern)
+      );
+    });
+  }
 
   processPattern(pattern) {
     return {
@@ -97,8 +87,8 @@ class NekoItalianChat {
     }
 
     return similarity;
-}
-
+  }
+  
   findMatchingIntent(userInput) {
     const processedInput = this.processInput(userInput);
     
@@ -138,6 +128,7 @@ class NekoItalianChat {
     return this.vocabulary.intents.map(intent => {
       return {
         intent: intent.name,
+        priority: intent.priority || 0,
         patterns: intent.processedPatterns.map(pattern => {
           return {
             pattern: pattern.original,
