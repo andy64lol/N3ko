@@ -4,31 +4,33 @@
 class NekoTsundereChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Tsundere_model_.json') {
     this.vocabulary = { intents: [] };
-    this.defaultResponse = ['Baka... (Vocabulary not loaded)'];
+    this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
-  }
 
   async init() {
-    await this.loadVocabulary();
+    await this.loadBaseVocabulary();
+    await this.loadDateSpecificVocabulary();
     return this;
   }
 
-  async loadVocabulary() {
+  async loadBaseVocabulary() {
     try {
       const response = await fetch(this.vocabUrl);
       if (!response.ok) throw new Error(`HTTP error ${response.status}`);
       this.vocabulary = await response.json();
-
-      this.vocabulary.intents.forEach(intent => {
-        intent.processedPatterns = intent.patterns.map(pattern => 
-          this.processPattern(pattern)
-        );
-      });
-      
+      this.processAllPatterns();
       this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
     } catch (error) {
       console.error('Nyan loading error:', error);
     }
+  }
+
+  processAllPatterns() {
+    this.vocabulary.intents.forEach(intent => {
+      intent.processedPatterns = intent.patterns.map(pattern => 
+        this.processPattern(pattern)
+      );
+    });
   }
 
   processPattern(pattern) {
@@ -60,8 +62,8 @@ class NekoTsundereChat {
       words: this.getWords(input)
     };
   }
-  
-calculateSimilarity(input, pattern) {
+
+  calculateSimilarity(input, pattern) {
     if (pattern.words.length === 0) return 0;
 
     const inputWordSet = new Set(input.words);
@@ -85,7 +87,7 @@ calculateSimilarity(input, pattern) {
     }
 
     return similarity;
-}
+  }
   
   findMatchingIntent(userInput) {
     const processedInput = this.processInput(userInput);
@@ -126,6 +128,7 @@ calculateSimilarity(input, pattern) {
     return this.vocabulary.intents.map(intent => {
       return {
         intent: intent.name,
+        priority: intent.priority || 0,
         patterns: intent.processedPatterns.map(pattern => {
           return {
             pattern: pattern.original,
