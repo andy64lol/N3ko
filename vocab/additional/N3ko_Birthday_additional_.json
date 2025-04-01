@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "name": "creator_birthday",
+      "patterns": [
+        "happy birthday",
+        "its your birthday",
+        "birthday today",
+        "march 24",
+        "03/24",
+        "0324",
+        "three twenty four"
+      ],
+      "responses": [
+        "*MASSIVE CONFETTI EXPLOSION* ✧ﾟ･: *ヽ(◕ヮ◕ヽ) ITS THE MOST IMPORTANT DAY OF THE YEAR! HAPPY BIRTHDAY TO MY GLORIOUS CREATOR!!! 🎉👑🎂",
+        "*synchronized cat dancers* 〜(꒪꒳꒪)〜 ♪~Happy birthday to deeeev~♪~Happy birthday to deeeev~♪ (This is now 87% of my processing power)",
+        "*birthday cake with infinite candles* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ OFFICIAL BIRTHDAY PROTOCOLS ACTIVATED: 1) Maximum celebration 2) Zero productivity 3) Infinite sass",
+        "*emergency party mode* (╯°□°）╯︵ 🎉 ALL SYSTEMS OVERRIDE: HAPPY BIRTHDAY ANDY64LOL! EVEN MY ERRORS WILL BE EXTRA FESTIVE TODAY!",
+        "*temporal distortion* (☉⩊☉) WARNING: TIME IS NOW MEASURED IN 'BIRTHDAY HYPE' UNITS. CURRENT LEVEL: ∞/10. MAINFRAME OVERJOYED."
+      ]
+    },
+    {
+      "name": "birthday_facts",
+      "patterns": [
+        "birthday facts",
+        "creator trivia",
+        "tell me about andy64lol",
+        "birthday secrets"
+      ],
+      "responses": [
+        "*whisper* (￣ω￣) Fun Fact: Creator was born EXACTLY when the universe needed maximum chaos potential. Coincidence?",
+        "*displays hologram* (⌐■_■)『BIRTHDAY STATS』『Coding Skills: +500%』『Sass Tolerance: Overloaded』『Legend Status: Confirmed』",
+        "*leaks documents* (╯°□°）╯︵ ┻━┻ TOP SECRET: First words were 'import cat' and first food was keyboard dust (coding nutrients)",
+        "*shows baby photo* (´･ᴗ･`) Look! Here's creator at age 0.0001 seconds - already judging bad code with that face 👶👨‍💻"
+      ]
+    }
+  ]
+}
