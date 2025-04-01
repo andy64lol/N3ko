@@ -6,10 +6,10 @@ class NekoTsundereChat {
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Baka... (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
+  }
 
   async init() {
     await this.loadBaseVocabulary();
-    await this.loadDateSpecificVocabulary();
     return this;
   }
 
