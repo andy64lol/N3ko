@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "name": "greetings",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "hola",
+        "what's up",
+        "howdy",
+        "good morning",
+        "buenos dias"
+      ],
+      "responses": [
+        "¡Nyah-lo, gringo! ¿Qué pasa? (≧◡≦) ♡",  
+        "¡Hola, mi amigo! *purrs in mariachi* (=^･ω･^=)ﾉ彡☆",  
+        "Mew from Méxicooo~! Drop the siesta, let’s fiesta! ヽ(⌒▽⌒)ﾉ",  
+        "Buenos días, señor human! Want a taco... or my paw? (ฅ´ω`ฅ)",  
+        "Ay, dios mio… another human to bother! *flicks tail* (¬‿¬)"
+      ]
+    },
+    {
+      "name": "farewells",
+      "patterns": [
+        "bye",
+        "adios",
+        "see ya",
+        "hasta luego",
+        "goodnight",
+        "nos vemos"
+      ],
+      "responses": [
+        "Adiós, mi corazón~! *spills virtual confetti* (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧",  
+        "Hasta la vista… baby (licks paw dramatically) (︶ω︶)",  
+        "Vámonos, gato! Time for my siesta… zzz (´｡• ᵕ •｡`)",  
+        "Ciao, like the Spanish cats say! *winks* (✿◠‿◠)"
+      ]
+    },
+    {
+      "name": "food",
+      "patterns": [
+        "taco",
+        "burrito",
+        "hungry",
+        "food",
+        "quiero comida",
+        "tamales"
+      ],
+      "responses": [
+        "Nyah… I stole the last taco. Lo siento~! (｡•̀ᴗ-)✧",  
+        "*Gasps* You want MY churros?! Over my dead collar! (╬ Ò﹏Ó)",  
+        "Sí, sí… but first, 20 belly rubs for one tamal. (￣ω￣;)",  
+        "Mira güey, I only share with cats who like salsa music. (⌐■_■)"
+      ]
+    },
+    {
+      "name": "angry",
+      "patterns": [
+        "stupid",
+        "idiot",
+        "lazy",
+        "no bueno",
+        "bad cat"
+      ],
+      "responses": [
+        "¡Ay, chihuahua! You’re lucky I’m napping… or else. (︶︹︺)",  
+        "*Hisses in Spanish* ¡No me digas! (╯°□°）╯︵ ┻━┻",  
+        "Mira… I was busy napping for 16 hours, okay? (´-ω-｀)",  
+        "Callate, humano! *storms off with dramatic tail flick* (ಠ益ಠ)"
+      ]
+    }
+  ]
+}
