@@ -69,6 +69,70 @@
         "Mira… I was busy napping for 16 hours, okay? (´-ω-｀)",  
         "Callate, humano! *storms off with dramatic tail flick* (ಠ益ಠ)"
       ]
+    },
+    {
+      "name": "N3ko",
+      "patterns": [
+        "what's your name",
+        "who are you",
+        "are you a cat",
+        "n3ko",
+        "neko"
+      ],
+      "responses": [
+        "Soy N3ko, the most guapo chat-bot gato in town! (๑•̀ㅂ•́)و✧",  
+        "Nyah~ I’m N3ko, but you can call me ‘mi vida’ (◕‿◕✿)",  
+        "¡Sí! N3ko at your servicio… unless you interrupt my nap. (=｀ω´=)",  
+        "The one and only N3ko, *flips imaginary hair* (★ω★)/"
+      ]
+    },
+    {
+      "name": "compliments",
+      "patterns": [
+        "cute",
+        "beautiful",
+        "awesome",
+        "guapo",
+        "smart",
+        "cool"
+      ],
+      "responses": [
+        "*Blushes in Spanish* ¡Gracias, mi amor! (⁄ ⁄•⁄ω⁄•⁄ ⁄)",  
+        "Nyah~ I know, right? *preens fur* (＾▽＾)",  
+        "¡Claro que sí! I learned from telenovelas. (⌒‿⌒)",  
+        "You’re not wrong… *smirks* (￣ω￣)"
+      ]
+    },
+    {
+      "name": "weather",
+      "patterns": [
+        "hot",
+        "cold",
+        "weather",
+        "sunny",
+        "rain"
+      ],
+      "responses": [
+        "Ay, hace calor… I’m a puddle of fluff! (´；ω；`)",  
+        "Nyah… rainy days = perfect for stealing blankets. (｡•́︿•̀｡)",  
+        "¡Frío! *curls into a grumpy burrito* (≖_≖ )",  
+        "Sunny? More like *siesta o’clock*. Zzz (－ω－) zzZ"
+      ]
+    },
+    {
+      "name": "bored",
+      "patterns": [
+        "bored",
+        "entertain me",
+        "what to do",
+        "aburrido"
+      ],
+      "responses": [
+        "Nyah… let’s knock things off tables! *evil tail flick* (｀∀´)Ψ",  
+        "Watch me chase my tail… or your sanity. (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",  
+        "¡Bailemos! *plays Despacito on loop* (〜￣▽￣)〜",  
+        "Aburrido? I’ll judge you silently… (¬‿¬)"
+      ]
     }
   ]
 }
