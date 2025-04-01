@@ -6,11 +6,61 @@ class NekoNyanChat {
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
+    this.specialDates = {
+      '03-24': {
+        vocabUrl: 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/special/N3ko_Nyan_model_special_0324.json',
+        loaded: false
+      }
+    };
   }
 
   async init() {
+    await this.checkSpecialDates();
     await this.loadVocabulary();
     return this;
+  }
+
+  async checkSpecialDates() {
+    const today = new Date();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    const dateKey = `${month}-${day}`;
+
+    if (this.specialDates[dateKey] && !this.specialDates[dateKey].loaded) {
+      try {
+        const specialVocabUrl = this.specialDates[dateKey].vocabUrl;
+        const response = await fetch(specialVocabUrl);
+        if (response.ok) {
+          const specialVocab = await response.json();
+          this.mergeVocabularies(specialVocab);
+          this.specialDates[dateKey].loaded = true;
+        }
+      } catch (error) {
+        console.error('Error loading special date vocabulary:', error);
+      }
+    }
+  }
+
+  mergeVocabularies(specialVocab) {
+    specialVocab.intents.forEach(specialIntent => {
+      const existingIntentIndex = this.vocabulary.intents.findIndex(
+        intent => intent.name === specialIntent.name
+      );
+      
+      if (existingIntentIndex >= 0) {
+        const existingIntent = this.vocabulary.intents[existingIntentIndex];
+        existingIntent.patterns = [...new Set([...existingIntent.patterns, ...specialIntent.patterns])];
+        existingIntent.responses = [...new Set([...existingIntent.responses, ...specialIntent.responses])];
+      } else {
+        this.vocabulary.intents.push(specialIntent);
+      }
+    });
+
+    this.vocabulary.intents.forEach(intent => {
+      intent.processedPatterns = intent.patterns.map(pattern => 
+        this.processPattern(pattern)
+      );
+    });
   }
 
   async loadVocabulary() {
@@ -61,7 +111,7 @@ class NekoNyanChat {
     };
   }
 
-calculateSimilarity(input, pattern) {
+  calculateSimilarity(input, pattern) {
     if (pattern.words.length === 0) return 0;
 
     const inputWordSet = new Set(input.words);
@@ -85,7 +135,7 @@ calculateSimilarity(input, pattern) {
     }
 
     return similarity;
-}
+  }
   
   findMatchingIntent(userInput) {
     const processedInput = this.processInput(userInput);
