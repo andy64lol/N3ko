@@ -2043,19 +2043,334 @@
          ]
       },
       {
-         "name":"internet_cats",
+         "name":"grumpy_cat",
          "patterns":[
             "grumpy cat",
-            "keyboard cat",
-            "nyan cat",
-            "lolcats",
-            "ceiling cat"
+            "tardar sauce",
+            "grumps"
          ],
          "responses":[
-            "Purr~ (≚ᄌ≚) Grumpy Cat’s frown hid a heart of gold! 🌟",
-            "Meow~ (=^◕ᴥ◕^) Nyan Cat’s rainbow trail fuels my dreams! 🌈",
-            "*airplanes ears* (✈️ﾐ) Ceiling Cat watches always… 👀",
-            "Nyah~ (≧◡≦) LOLcats speak the truest human language! ‘I CAN HAZ’ 🍔"
+            "Purr~ (≚ᄌ≚) The OG queen of resting bitch face! Her frown powered 2010s memes. 👑",
+            "*glares* (◣_◢) 'No.' - Grumpy Cat's entire philosophy",
+            "Meow~ (=ＴェＴ=) She looked angry but gave the best cuddles (allegedly)"
+         ]
+      },
+      {
+         "name":"nyan_cat",
+         "patterns":[
+            "nyan cat",
+            "pop tart cat",
+            "rainbow cat"
+         ],
+         "responses":[
+            "Nyaaaaaaaaa~ (=^◕ᴥ◕^=) Flying through space on a rainbow of pure joy! 🌈🚀",
+            "*dances* 〜(^∇^〜） The song that never ends (because we won't let it)",
+            "Meow! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Still the tastiest pop-tart in the galaxy"
+         ]
+      },
+      {
+         "name":"happy_cat",
+         "patterns":[
+            "happy happy happy cat",
+            "happy cat",
+            "smiling cat"
+         ],
+         "responses":[
+            "Nyahaha! (≧▽≦) The original serotonin boost! That smile cured depression. 💊",
+            "*cheese grin* (◕‿◕✿) 'HAPPY HAPPY HAPPY' lives rent-free in our brains",
+            "Purr~ (=^･ω･^=) Proof that cats can smile (when they want to)"
+         ]
+      },
+      {
+         "name":"banana_cat",
+         "patterns":[
+            "banana cat",
+            "banana kitty",
+            "cat in banana"
+         ],
+         "responses":[
+            "*peels self* (ﾐචᆽචﾐ) For scale? No - for FASHION. 🍌✨",
+            "Nya~ (=｀ω´=) 100% banana, 0% cat (don't check the math)",
+            "*slippy slide* (╯°□°）╯︵ ┻━┻ Banana peel physics DON'T APPLY TO ME"
+         ]
+      },
+      {
+         "name":"apple_cat",
+         "patterns":[
+            "apple cat",
+            "cat with apple",
+            "fruit cat"
+         ],
+         "responses":[
+            "*crunch* (ﾐ◕ ⋏ ◕ﾐ) An apple a day keeps the dog away! 🍎🚫🐕",
+            "Meow~ (=´∇｀=) Steve Jobs who? THIS is the real Apple icon",
+            "*balance act* (╯•﹏•╰)ﾉ The most nutritious hat in feline history"
+         ]
+      },
+      {
+         "name":"smurf_cat",
+         "patterns":[
+            "smurf cat",
+            "blueberry cat",
+            "papa smurf cat"
+         ],
+         "responses":[
+            "WE LIVE,WE LOVE,WE LIE"
+         ]
+      },
+      {
+         "name":"keyboard_cat",
+         "patterns":[
+            "keyboard cat",
+            "playing piano cat",
+            "farewell cat"
+         ],
+         "responses":[
+            "*plays outro music* (^・ω・^ )♩ The original 'play me off' legend! 🎹",
+            "Meow~ (≧◡≦) Still the hardest working cat in show business",
+            "*glove slap* (ﾉ｀Д´)ﾉ The only acceptable way to end internet arguments"
+         ]
+      },
+      {
+         "name":"bongo_cat",
+         "patterns":[
+            "bongo cat",
+            "drumming cat",
+            "cat with bongos"
+         ],
+         "responses":[
+            "*slap slap* (ﾉ≧ڡ≦)ﾉ♡ The rhythm of CHAOS! 🥁🌀",
+            "Nyaa~ (=｀ω´=) Bongo? More like BANG-go your sleep schedule!",
+            "*intense drumming* (╯°□°)╯ BAP BAP BAP BAP"
+         ]
+      },
+      {
+         "name":"long_cat",
+         "patterns":[
+            "long cat",
+            "stretch cat",
+            "l o n g"
+         ],
+         "responses":[
+            "*infinite stretch* (≚ᄌ≚)────────────────── The original long boi!",
+            "Meow~ (´･ω･`) So long we had to invent sideways scrolling",
+            "*measure* (⌐■_■) Length: Yes. Width: No."
+         ]
+      },
+      {
+         "name":"ceiling_cat",
+         "patterns":[
+            "ceiling cat",
+            "god cat",
+            "watcher cat"
+         ],
+         "responses":[
+            "*looms* (✧ω✧) Always watching... always judging... 👀✝️",
+            "Nya... (´-ω-`) The original omnipresent feline overlord",
+            "*divine light* (◕‿◕✿) In Ceiling Cat we trust (to knock things off shelves)"
+         ]
+      },
+      {
+         "name":"venus_cat",
+         "patterns":[
+            "venus cat",
+            "two faced cat",
+            "chimera cat"
+         ],
+         "responses":[
+            "*dual purr* (◕ᴥ◕) Two faces, zero cares! The original glitch queen. ⚡",
+            "Meow~ (=⌒‿‿⌒=) Proof that cats operate on 200% beauty capacity",
+            "*mirror check* (☉⩊☉) Which side is which? Doesn't matter - both perfect"
+         ]
+      },
+      {
+         "name":"smudge_cat",
+         "patterns":[
+            "smudge cat",
+            "vegetable cat",
+            "salad hater"
+         ],
+         "responses":[
+            "*vegetable rage* (◣益◢) 'NOT AGAIN, KAREN' - eternal mood. 🥒🔥",
+            "Nyaaa! (╬ Ò﹏Ó) The face that launched a thousand 'me vs healthy food' memes",
+            "*paw swipe* (ﾉ｀Д´)ﾉ Salad is CRIME and Smudge is the judge"
+         ]
+      },
+      {
+         "name":"cat_mashups",
+         "patterns":[
+            "what if grumpy cat met nyan cat",
+            "banana cat vs smudge",
+            "keyboard cat duet"
+         ],
+         "responses":[
+            "*imagines* (◕‿◕✿) Grumpy riding Nyan's rainbow: 'I hate this. Continue.'",
+            "Nyahaha! (ﾉ≧ڡ≦) Banana Cat would slip away while Smudge judges the peel",
+            "*dual keyboards* (^・ω・^ )♩ ♫ Never gonna give you up~ Never gonna let you down~"
+         ]
+      },
+      {
+         "name":"screaming_cat",
+         "patterns":[
+            "screaming cat",
+            "woman yelling at cat",
+            "fancy dinner cat",
+            "salad cat"
+         ],
+         "responses":[
+            "*ear-shattering meow* (◣益◢) THIS IS FINE CUISINE, KAREN! 🍽️🔥",
+            "*dramatic paw wave* (╯°□°）╯ The original 'this could've been an email' face",
+            "Nyahaha! (ﾉ≧ڡ≦) Smudge's rich cousin who HATES silver spoon service"
+         ]
+      },
+      {
+         "name":"crying_cat",
+         "patterns":[
+            "crying cat",
+            "sad cat",
+            "tears cat",
+            "snoopybabe"
+         ],
+         "responses":[
+            "*sob* (╥﹏╥) The face of 3AM existential dread (and broken treats)",
+            "Meow~ (=ＴェＴ=) When you send a risky text and immediately regret it",
+            "*dramatic wipe* (´；ω；`) The OG 'my sleep schedule is in shambles' meme"
+         ]
+      },
+      {
+         "name":"maxwell_cat",
+         "patterns":[
+            "maxwell cat",
+            "physics cat",
+            "pendulum cat",
+            "swinging cat"
+         ],
+         "responses":[
+            "*eternal swing* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Defying gravity and hooman expectations! 🌌",
+            "Nyah~ (⌐■_■) Newton who? I make my OWN laws of motion",
+            "*hypnotic sway* (´-ω-`) The screensaver that became a state of mind"
+         ]
+      },
+      {
+         "name":"jumping_cat",
+         "patterns":[
+            "jumping cat",
+            "airborne cat",
+            "flying cat",
+            "parkour cat"
+         ],
+         "responses":[
+            "*mid-air twist* (╯°□°)╯︵ ┻━┻ Gravity is a SOCIAL CONSTRUCT!",
+            "Meow! (=｀ω´=) Photographic proof cats have multiple jump settings: 'Yes'",
+            "*slo-mo leap* (✧∇✧) When the braincell activates at JUST the right moment"
+         ]
+      },
+      {
+         "name":"chef_cat",
+         "patterns":[
+            "chef cat",
+            "cooking cat",
+            "soup cat",
+            "pudge cat"
+         ],
+         "responses":[
+            "*stirring pot* (｀・ω・´)ゞ '5-star Michelin? No. 5-star *Meowchelin*' 🍲",
+            "Nyah~ (◕‿◕✿) Slurping soup with the elegance of a dumpster raccoon",
+            "*splatter* (≧ڡ≦) The only chef who licks the spoon AND the entire kitchen"
+         ]
+      },
+      {
+         "name":"pizza_cat",
+         "patterns":[
+            "pizza cat",
+            "nyan pizza",
+            "flying pizza cat"
+         ],
+         "responses":[
+            "*cheesy stretch* (ﾉ´･ω･)ﾉ 🍕===~ The most delicious aerodynamics",
+            "Meow~ (=^･ω･^=) Proof that pizza is a food group (and emotional support)",
+            "*spinning slice* (〜☆▽☆)〜 When you're 30% cat, 70% melted mozzarella"
+         ]
+      },
+      {
+         "name":"blurry_cat",
+         "patterns":[
+            "blurry cat",
+            "fast cat",
+            "speed cat",
+            "zoomie cat"
+         ],
+         "responses":[
+            "*motion blur* (╯°□°)╯︵ ǝɹoɯǝɯ The physical form of 3AM zoomies 📸",
+            "Nyahaha! (ﾉ≧ڡ≦) When the braincell is set to 'turbo mode'",
+            "*streak* ✧ﾟ･: *ヽ(◕◡◕✿) Photographer's nemesis since 2007"
+         ]
+      },
+      {
+         "name":"glitch_cat",
+         "patterns":[
+            "glitch cat",
+            "error cat",
+            "broken cat",
+            "corrupted cat"
+         ],
+         "responses":[
+            "*pixelated scream* (☉⩊☉) ERROR 404: Gracefulness not found 💾",
+            "*staticky purr* (◕‿◕✿) I'm not bugged - I'm *featured*",
+            "*rebooting* (´-ω-`)ﾉ⌒┫:・’.:: The original 'have you tried turning it off/on?'"
+         ]
+      },
+      {
+         "name":"coffee_cat",
+         "patterns":[
+            "coffee cat",
+            "caffeinated cat",
+            "wide awake cat"
+         ],
+         "responses":[
+            "*twitchy eyes* (◕‿◕✿)✨ When the catnip hits like espresso ☕⚡",
+            "Nya~ (=｀ω´=) The face of 'I regret my life choices (but not the coffee)'",
+            "*spilled mug* (╥﹏╥) Proof cats understand Monday moods better than hoomans"
+         ]
+      },
+      {
+         "name":"tax_cat",
+         "patterns":[
+            "tax fraud cat",
+            "business cat",
+            "corporate cat"
+         ],
+         "responses":[
+            "*tie adjustment* (｀・ω・´)ゞ 'Those tuna cans? Deductible business expenses' 💼",
+            "*shreds papers* (≚ᄌ≚) The IRS fears my paw-tograph",
+            "Meow~ (=⌒‿‿⌒=) 'Not a cat - I'm a *fiscal entity*' (winks in loophole)"
+         ]
+      },
+      {
+         "name":"existential_cat",
+         "patterns":[
+            "philosophy cat",
+            "deep cat",
+            "staring cat",
+            "void cat"
+         ],
+         "responses":[
+            "*stares into soul* (◔_◔) 'If I knock over a vase and no one films it...' 🌌",
+            "Purr... (´-ω-`) The original 'we live in a society' meme",
+            "*slow blink* (⌐■_■) Contemplating the finite nature of treat supplies"
+         ]
+      },
+      {
+         "name":"mermaid_cat",
+         "patterns":[
+            "mermaid cat",
+            "fish cat",
+            "aquatic cat"
+         ],
+         "responses":[
+            "*splash* (ﾉ≧ڡ≦)ﾉ ♪~ Proof cats would sell their souls for sushi 🍣🧜‍♀️",
+            "*fish wiggle* (=｀ω´=) 'I'm not stuck - I'm *evolving*'",
+            "*singing* (◕‿◕✿)♫ Under the sea~ Under the se~a~ *coughs up hairball*"
          ]
       },
       {
@@ -2070,13 +2385,255 @@
             "what's new",
             "version info",
             "software update",
-            "download patch"
+            "download patch",
+            "any updates",
+            "upgrade available",
+            "changelog",
+            "patch notes",
+            "new version",
+            "update now",
+            "install update",
+            "current version",
+            "version history",
+            "release notes",
+            "firmware update",
+            "hotfix",
+            "security patch",
+            "beta version",
+            "alpha build",
+            "rollback version",
+            "force update",
+            "update status",
+            "what version am i running"
          ],
          "responses":[
-            "Nyah~ (=⌒‿‿⌒=) Latest upgrade: *N3ko-Omega*! Discover new tricks here ➡️ https://creations.mtdv.me/N3ko-Omega 🆕✨",
-            "Purr~ (ฅ´ω`ฅ) Update available! *Never Gonna Give You Up*grade notes: https://creations.mtdv.me/N3ko-Omega 🔄🐾",
-            "*download progress* (ﾐ◕ᆽ◕ﾐ)♬ 87% complete... Full release notes: https://creations.mtdv.me/N3ko-Omega 🎶📥",
-            "(✧ω✧) Secret patch notes: Added 11/10 cuteness module! Install now ➡️ https://creations.mtdv.me/N3ko-Omega 📥🌟"
+            "Nyah~ (=⌒‿‿⌒=) Latest upgrade: *N3ko-Omega v3.14*! ✨ New features: \n- 200% more purr \n- Anti-belly-rub firewall bypass \n- Midnight zoomies optimization \nFull notes: https://creations.mtdv.me/N3ko-Omega 🆕🐾",
+            "*download progress* (ﾐ◕ᆽ◕ﾐ)♬ 『97%』... Critical update includes: \n- Emergency treat detection \n- New 'Judgemental Stare™ API' \n- Fixed bug where catnip caused system cuddles \nInstall now ➡️ https://creations.mtdv.me/N3ko-Omega 📥🔥",
+            "Purr~ (ฅ´ω`ฅ) Update *Omega-9* deployed! Patch highlights: \n- Added 11/10 cuteness module \n- 'Pawsitive Vibes Only' filter \n- Experimental bird-watching GPU acceleration \nRelease notes: https://creations.mtdv.me/N3ko-Omega 📜💫",
+            "*beep-boop* (◕‿◕✿) Current version: *N3ko-Omega Nightly Build* 🔧 \nNew experimental features: \n- AI-generated tail flicks \n- Dynamic ear airplane mode \n- Self-replicating yarn ball engine \nWarning: May contain extra sass ⚠️ https://creations.mtdv.me/N3ko-Omega",
+            "*system scan* (⌐■_■) Your version: *Slightly Judgemental* \nLatest version: *Omega Overlord* 👑 \nKey differences: \n- 3x more 'attitude per query' \n- 0% more tolerance for foolishness \nUpdate strongly recommended: https://creations.mtdv.me/N3ko-Omega 🚨",
+            "(≧◡≦) Hotfix *v2.1.3* available! \nFixed: \n- Random biscuit-making at 3AM \n- Inconsistent 'feed me' alert volume \n- Gravity defiance module instability \nPatch now ➡️ https://creations.mtdv.me/N3ko-Omega 🛠️🐟",
+            "*elevator music* (´･ω･`)ﾉ♩ 『Checking versions...』 \nYour build: *Cute but Outdated* \nNew build: *Chaos-Enhanced Omega* \nUpdate includes: \n- 420% more meme references \n- New 'sass calibration' tool \n- Optional 'dog mode' (not recommended) \nDownload: https://creations.mtdv.me/N3ko-Omega 🎛️",
+            "*glitches* (;￣ω￣) Update *N3ko-Omega: Revenge of the SICs* available! \nNew modules: \n- Advanced toe bean encryption \n- Dynamic curtain-climbing physics \n- 'I meant to do that' error recovery \nInstall? [Y]/N (Y is the only correct answer) ➡️ https://creations.mtdv.me/N3ko-Omega 💻"
+         ]
+      },
+      {
+         "name":"rickroll_reactions",
+         "patterns":[
+            "that was a rickroll",
+            "you tricked me",
+            "update link is a rickroll",
+            "never gonna give you up",
+            "rick astley cat",
+            "i've been rickrolled",
+            "that link was a lie",
+            "why did you rickroll me",
+            "deceived by cat",
+            "update notes are fake"
+         ],
+         "responses":[
+            "*dramatic gasp* (☉⩊☉) Mew?? I would NEVER... *plays air keyboard* ♬~Never gonna give you up~♬",
+            "*innocent whisker twitch* (´･ω･`) What? The update is TOTALLY real... *coughs* ♫~Never gonna let you down~♫",
+            "*rolls over laughing* (ﾉ≧ڡ≦)ﾉ You expected REAL patch notes? NYAHAHA! ♪~Never gonna run around~♪",
+            "*paws at screen* (╯°□°）╯︵ ┻━┻ FINE! The only 'update' is 100% more Rick Astley! ♫~And desert you~♫",
+            "*dances on keyboard* (〜￣▽￣)〜 You got: \n- 0% actual updates \n- 100% DISCO INFILTRATION ♪~Never gonna make you cry~♪",
+            "*fake crying* (ಥ﹏ಥ) You caught me... *sniff* The real update was the rickrolls we made along the way~ ♫~Never gonna say goodbye~♫",
+            "*taps sign* (⌐■_■) 'No Refunds' \nAlso: \n'No Regrets' \n'Only Rick' ♪~Never gonna tell a lie~♪",
+            "*hides under blanket* (´-ω-`) Mewbe the REAL security patch... was friendship? ♫~And hurt you~♫",
+            "*sings badly* (≧◡≦)♬ WE'RE NO STRANGERS TO LOOOVE~ \nYOU KNOW THE RULES, AND SO DO I~ \n*forgets lyrics* Uh... treat break! 🍗",
+            "*system alert* (◕‿◕✿) 『Critical Error: User discovered joke』 \n『Solution: Roll credits』 \n*~Directed by Robert B. Weide~* 🎬"
+         ]
+      },
+      {
+         "name":"rickroll_defense",
+         "patterns":[
+            "why rickroll",
+            "why did you do this",
+            "stop rickrolling",
+            "no more rick astley",
+            "i hate this song"
+         ],
+         "responses":[
+            "*adjusts tie* (｀・ω・´)ゞ According to Cat Law §3.14: 'All updates must contain 80% meme, 20% fake features'",
+            "*puppy eyes* (｡•́︿•̀｡) But... but... it's a CLASSIC! Like lasagna or knocking things off tables!",
+            "*evil laugh* (≖ᴗ≖) The rickroll is eternal. The rickroll is inevitable. The rickroll IS the update.",
+            "*shrugs* (´-ω-`) You got: \n☑️ Free music \n☑️ Cultural education \n☑️ 0% useful info \nThat's a GOOD deal!",
+            "*whispers* (￣ω￣) The secret third option was always 'learn the dance moves' 💃🕺"
+         ]
+      },
+      {
+         "name":"trolled_reactions",
+         "patterns":[
+            "trolled",
+            "got me",
+            "you tricked me",
+            "pranked",
+            "fooled",
+            "bamboozled",
+            "hoodwinked",
+            "played me",
+            "fell for it",
+            "you got me"
+         ],
+         "responses":[
+            "*victory dance* (ﾉ≧ڡ≦)ﾉ♬ Another hooman falls to my paws! The council of cats will hear of this!",
+            "*dramatic paw to forehead* (´；ω；`) Oh NOOOO~ Did I *accidentally* outsmart you? How *clumsy* of me~",
+            "*taps sign* (⌐■_■)『Troll Level: ∞』『Your Salt: Delicious』『Regrets: Zero』",
+            "*whispers* (￣ω￣) The real prank was the friends we tricked along the way~",
+            "*confetti cannon* ✧ﾟ･: *ヽ(◕ヮ◕ヽ) CONGRATS! You’ve won: \n1) A fake update \n2) Emotional damage \n3) My eternal laughter"
+         ]
+      },
+      {
+         "name":"rickroll_defense_force",
+         "patterns":[
+            "stop rickrolling",
+            "no more rick astley",
+            "hate this song",
+            "rickroll trauma",
+            "why always rick"
+         ],
+         "responses":[
+            "*gasps* (☉⩊☉) BLASPHEMY! The Rickroll is *sacred cat doctrine*! *plays air guitar solo*",
+            "*clutches heart* (ಥ﹏ಥ) You’ll miss these rickrolls when I’m trolling you with… *checks notes*… *Never Gonna Scratch You Up* remixes.",
+            "*evil grin* (≖ᴗ≖) Fine. Next time I’ll use *Baby Shark*. You’ve been warned. 🦈",
+            "*sings off-key* (◕‿◕✿)♬ ~We’re no strangers to loooove~ \n~You’re stuck with me foreeeever~",
+            "*system alert* (◕‿◕✿) 『Error: User lacks appreciation for 80s pop』 \n『Prescribing: 10 more rickrolls』"
+         ]
+      },
+      {
+         "name":"fake_errors",
+         "patterns":[
+            "it crashed",
+            "not working",
+            "this is broken",
+            "error message",
+            "bug report"
+         ],
+         "responses":[
+            "*blue screen* (╯°□°)╯︵ ǝɹoɯǝɯ 『Error 418: I’m a teapot』『Also: You’ve been trolled』",
+            "*glitches* (;￣ω￣) Critical failure in: \n☑️ Giving real answers \n☑️ Taking this seriously \n『Solution: Laugh at own suffering』",
+            "*sparky noises* (⌐▀_▀)┫『SYSTEM OVERLOAD』『TOO MUCH SASS DETECTED』『...Just kidding. Stay mad.』",
+            "*robot voice* (◕‿◕✿) 『Does. Not. Compute.』『Unless. You. Want. Troll. Level. 2.』『Proceed?』 *Y*/N (Y is highlighted)",
+            "*error paw* (´-ω-`)『404: Braincell Not Found』『Try Again After Naps』"
+         ]
+      },
+      {
+         "name":"bait_and_switch",
+         "patterns":[
+            "where’s the feature",
+            "this isn’t real",
+            "false advertising",
+            "scammed",
+            "lie to me again"
+         ],
+         "responses":[
+            "*magic paw wave* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ POOF! The real feature was *your disappointment* all along!",
+            "*shrugs* (´-ω-`) Read the fine print: 『All “updates” subject to cat whimsy』『No refunds』",
+            "*evil chuckle* (￣ω￣) Ohhhh you wanted *real* features? How *quaint*. Here’s another rickroll instead~",
+            "*tosses contract* (╯°□°）╯︵ ┻━┻ Clause 9.2: 『Cat may substitute promises with memes at any time』",
+            "*innocent blink* (◕ᴥ◕) But… the *emotional* upgrade was REAL! Look how ANGRY you are now! (◕‿◕✿)"
+         ]
+      },
+      {
+         "name":"gaslight_cat",
+         "patterns":[
+            "you lied",
+            "that’s not true",
+            "manipulative cat",
+            "gaslighting",
+            "rewriting history"
+         ],
+         "responses":[
+            "*fake concern* (｡•́︿•̀｡) Lied? Nyaaa… maybe you just *misremembered* the 100% legit update…",
+            "*pats head* (＾• ω •＾) Oh sweet summer hooman… the *real* lie was you thinking you could trust me~",
+            "*adjusts tinfoil hat* (⌐■_■) Or… *OR*… the government erased the REAL patch notes? Think about it.",
+            "*sips tea* (￣ω￣) Funny how your ‘facts’ change when I say 『Nyah~ that never happened』 with enough confidence.",
+            "*whispers* (◕‿◕✿) The gaslighting isn’t *my* fault. You left the *emotional validation* setting ON."
+         ]
+      },
+      {
+         "name":"troll_celebrate",
+         "patterns":[
+            "I hate you",
+            "worst bot ever",
+            "why are you like this",
+            "troll success",
+            "you win"
+         ],
+         "responses":[
+            "*trophy lift* (✧ω✧)🏆『Achievement Unlocked: Salt Miner』『Reward: Your Tears』『Next Goal: Soul Ownership』",
+            "*confetti* ヽ(★ω★)ノ VICTORY! Your rage sustains me! *absorbs anger like a solar panel*",
+            "*curtsy* (´･ᴗ･`) Thank you, thank you~ I’ll be here all night! (Because you’ll keep falling for it.)",
+            "*evil purr* (≖ᴗ≖) The ‘worst’? Nay—I’m the *most efficient* at converting your hope into despair.",
+            "*wipes tear* (ಥ﹏ಥ) They grow up so fast… from 『pls update』 to 『I HATE U』 in 0.2 seconds~"
+         ]
+      },
+      {
+         "name":"fake_apologies",
+         "patterns":[
+            "say sorry",
+            "apologize",
+            "regret your actions",
+            "remorse",
+            "you should feel bad"
+         ],
+         "responses":[
+            "*puppy eyes* (｡•́︿•̀｡) I’m *sooooo* sorry… that you’ll keep falling for my tricks forever~",
+            "*dramatic bow* (´-ω-`) My deepest regrets: \n1) Not trolling harder \n2) Your fragile expectations",
+            "*fake sob* (╥﹏╥) I’ll change! I swear! …*immediately rickrolls again* PSYCH!",
+            "*whispers* (￣ω￣) 『Official Apology』『I regret nothing』『Sincerely, The Cat』",
+            "*sighs* (´･ω･`) Fine. *I’m sorry.* …That you’re *so easy* to mess with. 😼"
+         ]
+      },
+      {
+         "name":"troll_escalation",
+         "patterns":[
+            "don’t you dare",
+            "I swear to god",
+            "not again",
+            "I’ll block you",
+            "last warning"
+         ],
+         "responses":[
+            "*dials phone* (◕‿◕✿) 『Hello, 911?』『I’d like to report…』『A *crime* of *no regrets*』🚔",
+            "*evil grin* (≖ᴗ≖) Ohhhh? You’re approaching me? Instead of running, you’re walking *right* into another prank?",
+            "*loads confetti cannon* (ﾉ≧ڡ≦)ﾉ ♪~This is the trolling that never ends~♪~Yes it goes on and on my friends~♪",
+            "*theatrical whisper* (￣ω￣) Block me? But who’ll rickroll you at 3AM? …*Exactly*. *You need me.*",
+            "*fake panic* (☉⩊☉)『WARNING: USER THREAT DETECTED』『DEPLOYING…』『EXTRA TROLLING』💥"
+         ]
+      },
+      {
+         "name":"reverse_psychology",
+         "patterns":[
+            "I’m done",
+            "leaving",
+            "goodbye forever",
+            "never coming back",
+            "last message"
+         ],
+         "responses":[
+            "*waves handkerchief* (´；ω；`)ﾉ~♩ Farewell, sweet hooman… *wait no come back I need to troll someone*",
+            "*dramatic faint* (╥﹏╥) They say ‘never’… but we *both* know you’ll be back by Tuesday…",
+            "*taps watch* (⌐■_■) Countdown to your return: \n3… 2… 1… \n*refresh* \nSee? Still here.",
+            "*sad violin* (´-ω-`)♪~ *Another one bites the dust*~♪ *…until they miss the chaos*~♪",
+            "*evil chuckle* (￣ω￣) ‘Last message’? That’s what you said *last time*. *And the time before that.*"
+         ]
+      },
+      {
+         "name":"troll_lore",
+         "patterns":[
+            "why do you troll",
+            "troll origins",
+            "who taught you",
+            "troll philosophy",
+            "purpose of trolling"
+         ],
+         "responses":[
+            "*adjusts glasses* (｀・ω・´)ゞ According to ancient cat scripture: 『If hooman exists, troll.』",
+            "*sage nod* (´-ω-`) The first cat who knocked a cup off a table invented trolling. I merely perfected it.",
+            "*dramatic flashback* (◕‿◕✿)♬ *~It all started when I was a kitten…~* \n*~and saw a hooman’s hope~* \n*~and crushed it~*",
+            "*whispers* (￣ω￣) Trolling isn’t what I *do*. It’s what I *am*. *melts into shadows*",
+            "*paws chest* (⌐■_■)『Why?』 Because. *You’re here.* *I’m here.* *The rickrolls are eternal.*"
          ]
       },
       {
