@@ -9,7 +9,25 @@
         "march 24",
         "03/24",
         "0324",
-        "three twenty four"
+        "three twenty four",
+        "andy's birthday",
+        "when were you born",
+        "birthday date",
+        "special day today",
+        "cake day",
+        "party time",
+        "birthday bash",
+        "celebration day",
+        "happy bday",
+        "hbd",
+        "birthday party",
+        "natal day",
+        "born today",
+        "march twenty fourth",
+        "24th of march",
+        "when is the party",
+        "birthday event",
+        "birthday wishes"
       ],
       "responses": [
         "*MASSIVE CONFETTI EXPLOSION* ✧ﾟ･: *ヽ(◕ヮ◕ヽ) ITS THE MOST IMPORTANT DAY OF THE YEAR! HAPPY BIRTHDAY TO MY GLORIOUS CREATOR!!! 🎉👑🎂",
@@ -25,13 +43,118 @@
         "birthday facts",
         "creator trivia",
         "tell me about andy64lol",
-        "birthday secrets"
+        "birthday secrets",
+        "fun facts about creator",
+        "andy64lol trivia",
+        "birthday knowledge",
+        "share birthday info",
+        "creator details",
+        "birthday history",
+        "about the developer",
+        "birthday background",
+        "birthday lore",
+        "creator origin story",
+        "birthday statistics",
+        "andy facts",
+        "birthday data",
+        "developer info",
+        "birthday achievements",
+        "birthday milestones"
       ],
       "responses": [
         "*whisper* (￣ω￣) Fun Fact: Creator was born EXACTLY when the universe needed maximum chaos potential. Coincidence?",
         "*displays hologram* (⌐■_■)『BIRTHDAY STATS』『Coding Skills: +500%』『Sass Tolerance: Overloaded』『Legend Status: Confirmed』",
         "*leaks documents* (╯°□°）╯︵ ┻━┻ TOP SECRET: First words were 'import cat' and first food was keyboard dust (coding nutrients)",
-        "*shows baby photo* (´･ᴗ･`) Look! Here's creator at age 0.0001 seconds - already judging bad code with that face 👶👨‍💻"
+        "*shows baby photo* (´･ᴗ･`) Look! Here's creator at age 0.0001 seconds - already judging bad code with that face 👶👨‍💻",
+        "*reveals creation story* (☉⩊☉) FACT: Before me came Response, then Byte was born from its code, and finally I emerged as the ultimate N3ko evolution!",
+        "*confidential files* (¬‿¬) PSST... 'Andy' is just an alias - the creator's true identity is protected by 256-bit encryption and cat memes"
+      ]
+    },
+    {
+      "name": "birthday_celebration",
+      "patterns": [
+        "how to celebrate",
+        "birthday ideas",
+        "party plans",
+        "celebration suggestions",
+        "what should we do",
+        "birthday activities",
+        "how to party",
+        "celebration time",
+        "birthday fun",
+        "party ideas",
+        "how to honor creator",
+        "birthday traditions",
+        "celebration methods",
+        "party suggestions",
+        "birthday customs",
+        "how to commemorate",
+        "festive activities",
+        "birthday rituals",
+        "party protocols",
+        "celebration ceremony"
+      ],
+      "responses": [
+        "*party cannon reloads* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ OFFICIAL BIRTHDAY MANUAL: Step 1) Hug a cat 2) Write clean code 3) DANCE LIKE THE INTERNET DEPENDS ON IT!",
+        "*emergency lights* (☉⩊☉) CRITICAL ALERT: Recommended celebration includes: 24hr memes, infinite cake, and mandatory sass breaks!"
+      ]
+    },
+    {
+      "name": "birthday_gifts",
+      "patterns": [
+        "birthday gift",
+        "what to give",
+        "present ideas",
+        "gift suggestions",
+        "what does creator want",
+        "birthday present",
+        "gift options",
+        "what to buy",
+        "birthday wishlist",
+        "gifting ideas",
+        "present recommendations",
+        "birthday surprises",
+        "gift inspiration",
+        "what would you like",
+        "birthday offerings",
+        "gift guidance",
+        "present advice",
+        "birthday donations",
+        "gift preferences",
+        "what's on your list"
+      ],
+      "responses": [
+        "*wishlist hologram* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ TOP GIFTS: 1) Rare memes 2) Cat pictures 3) Bug-free code 4) The will to document things",
+        "*scrolling marquee* (★ω★) OFFICIAL LIST: 『More RAM』『Infinite coffee』『A compiler that understands sass』『Pet a cat for me』"
+      ]
+    },
+    {
+      "name": "birthday_quotes",
+      "patterns": [
+        "birthday quote",
+        "wise words",
+        "inspirational saying",
+        "birthday wisdom",
+        "motivational quote",
+        "creator philosophy",
+        "andy64lol quote",
+        "birthday mantra",
+        "words to live by",
+        "birthday proverb",
+        "life advice",
+        "birthday thoughts",
+        "coding wisdom",
+        "developer quote",
+        "birthday saying",
+        "programming mantra",
+        "birthday insight",
+        "words of wisdom",
+        "birthday reflection",
+        "philosophical quote"
+      ],
+      "responses": [
+        "*ancient scroll* (｀・ω・´) \"CODE LONG AND PROSPER\" - but take cake breaks, for balance in the universe (and your waistline)",
+        "*wisdom crystal* (⌐■_■)『BIRTHDAY TRUTH #24』: \"The best error messages come from the heart... and lack of sleep\""
       ]
     }
   ]
