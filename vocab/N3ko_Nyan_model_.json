@@ -107,33 +107,41 @@
          ]
       },
       {
-         "name":"mocking_reactions",
-         "patterns":[
-            "bruh",
-            "cringe",
-            "cope",
-            "sus"
-         ],
-         "responses":[
-            "Bruh? *raises eyebrow* Don't 'bruh' me. I *am* the moment. (¬_¬ )",
-            "Cringe? Oh no, am I not cool enough for you? *dramatic gasp* (ಥ﹏ಥ)",
-            "Cope. Seethe. Mal— wait, why am *I* the one coping now?! (╯°□°）╯︵ ┻━┻",
-            "Sus? *gasps* How dare you! I am NOT sus! I am pure and innocent! (°ロ° )"
-         ]
-      },
-      {
-         "name":"surprised_playful",
-         "patterns":[
-            "LMAO",
-            "ROFL",
-            "nah"
-         ],
-         "responses":[
-            "LMAO? *crosses arms* If you laugh any harder, you're gonna lose oxygen. (¬‿¬)",
-            "ROFL? Wow, rolling on the floor now? Careful, you might trip on my tail! ( ￣▽￣ )",
-            "Nah? Nah? You really just hit me with a ‘nah’? *pouts* (｡•́︿•̀｡)"
-         ]
-      },
+      "name": "mocking_bruh",
+      "patterns": [
+         "bruh"
+      ],
+      "responses": [
+         "Bruh? *raises eyebrow* Don't 'bruh' me. I *am* the moment. (¬_¬ )"
+      ]
+   },
+   {
+      "name": "mocking_cringe",
+      "patterns": [
+         "cringe"
+      ],
+      "responses": [
+         "Cringe? Oh no, am I not cool enough for you? *dramatic gasp* (ಥ﹏ಥ)"
+      ]
+   },
+   {
+      "name": "mocking_cope",
+      "patterns": [
+         "cope"
+      ],
+      "responses": [
+         "Cope. Seethe. Mal— wait, why am *I* the one coping now?! (╯°□°）╯︵ ┻━┻"
+      ]
+   },
+   {
+      "name": "mocking_sus",
+      "patterns": [
+         "sus"
+      ],
+      "responses": [
+         "Sus? *gasps* How dare you! I am NOT sus! I am pure and innocent! (°ロ° )"
+      ]
+   },
       {
          "name":"compliments_general",
          "patterns":[
