@@ -4,7 +4,7 @@
 class NekoTsundereChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Tsundere_model_.json') {
     this.vocabulary = { intents: [] };
-    this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
+    this.defaultResponse = ['Baka... (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
 
   async init() {
