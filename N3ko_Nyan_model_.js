@@ -8,40 +8,67 @@ class NekoNyanChat {
     this.vocabUrl = vocabUrl;
     this.specialDates = {
       '03-24': {
-        vocabUrl: 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/special/N3ko_Nyan_model_special_0324.json',
+        vocabUrl: 'https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/vocab/additional/N3ko_Birthday_additional_.json',
+        priority: 1,
         loaded: false
       }
     };
   }
 
   async init() {
-    await this.checkSpecialDates();
-    await this.loadVocabulary();
+    await this.loadBaseVocabulary();
+    await this.loadDateSpecificVocabulary();
     return this;
   }
 
-  async checkSpecialDates() {
-    const today = new Date();
-    const month = String(today.getMonth() + 1).padStart(2, '0');
-    const day = String(today.getDate()).padStart(2, '0');
-    const dateKey = `${month}-${day}`;
+  async loadBaseVocabulary() {
+    try {
+      const response = await fetch(this.vocabUrl);
+      if (!response.ok) throw new Error(`HTTP error ${response.status}`);
+      this.vocabulary = await response.json();
+      this.processAllPatterns();
+      this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
+    } catch (error) {
+      console.error('Nyan loading error:', error);
+    }
+  }
 
+  async loadDateSpecificVocabulary() {
+    const today = new Date();
+    const dateKey = this.getDateKey(today);
+    
     if (this.specialDates[dateKey] && !this.specialDates[dateKey].loaded) {
       try {
-        const specialVocabUrl = this.specialDates[dateKey].vocabUrl;
-        const response = await fetch(specialVocabUrl);
+        const specialDate = this.specialDates[dateKey];
+        const response = await fetch(specialDate.vocabUrl);
+        
         if (response.ok) {
           const specialVocab = await response.json();
-          this.mergeVocabularies(specialVocab);
-          this.specialDates[dateKey].loaded = true;
+          this.mergeVocabularies(specialVocab, specialDate.priority);
+          specialDate.loaded = true;
+          console.log(`Loaded special vocabulary for ${dateKey}`);
         }
       } catch (error) {
-        console.error('Error loading special date vocabulary:', error);
+        console.error(`Error loading special vocabulary for ${dateKey}:`, error);
       }
     }
   }
 
-  mergeVocabularies(specialVocab) {
+  getDateKey(date) {
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${month}-${day}`;
+  }
+
+  mergeVocabularies(specialVocab, priority = 0) {
+    // Process patterns in the special vocabulary first
+    specialVocab.intents.forEach(intent => {
+      intent.processedPatterns = intent.patterns.map(pattern => 
+        this.processPattern(pattern)
+      );
+    });
+
+    // Merge intents
     specialVocab.intents.forEach(specialIntent => {
       const existingIntentIndex = this.vocabulary.intents.findIndex(
         intent => intent.name === specialIntent.name
@@ -49,36 +76,48 @@ class NekoNyanChat {
       
       if (existingIntentIndex >= 0) {
         const existingIntent = this.vocabulary.intents[existingIntentIndex];
-        existingIntent.patterns = [...new Set([...existingIntent.patterns, ...specialIntent.patterns])];
-        existingIntent.responses = [...new Set([...existingIntent.responses, ...specialIntent.responses])];
+        
+        // Check if we should override based on priority
+        if ((existingIntent.priority || 0) < priority) {
+          // Replace with higher priority intent
+          this.vocabulary.intents[existingIntentIndex] = {
+            ...specialIntent,
+            priority
+          };
+        } else if ((existingIntent.priority || 0) === priority) {
+          // Merge patterns and responses at same priority
+          existingIntent.patterns = [
+            ...new Set([...existingIntent.patterns, ...specialIntent.patterns])
+          ];
+          existingIntent.responses = [
+            ...new Set([...existingIntent.responses, ...specialIntent.responses])
+          ];
+          existingIntent.processedPatterns = [
+            ...existingIntent.processedPatterns,
+            ...specialIntent.processedPatterns
+          ];
+        }
       } else {
-        this.vocabulary.intents.push(specialIntent);
+        // Add new intent with priority
+        this.vocabulary.intents.push({
+          ...specialIntent,
+          priority
+        });
       }
     });
 
+    // Update default response if special vocab has one
+    if (specialVocab.intents.some(i => i.name === 'default')) {
+      this.defaultResponse = this.getIntentResponses('default');
+    }
+  }
+
+  processAllPatterns() {
     this.vocabulary.intents.forEach(intent => {
       intent.processedPatterns = intent.patterns.map(pattern => 
         this.processPattern(pattern)
       );
     });
-  }
-
-  async loadVocabulary() {
-    try {
-      const response = await fetch(this.vocabUrl);
-      if (!response.ok) throw new Error(`HTTP error ${response.status}`);
-      this.vocabulary = await response.json();
-
-      this.vocabulary.intents.forEach(intent => {
-        intent.processedPatterns = intent.patterns.map(pattern => 
-          this.processPattern(pattern)
-        );
-      });
-      
-      this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
-    } catch (error) {
-      console.error('Nyan loading error:', error);
-    }
   }
 
   processPattern(pattern) {
@@ -176,6 +215,7 @@ class NekoNyanChat {
     return this.vocabulary.intents.map(intent => {
       return {
         intent: intent.name,
+        priority: intent.priority || 0,
         patterns: intent.processedPatterns.map(pattern => {
           return {
             pattern: pattern.original,
