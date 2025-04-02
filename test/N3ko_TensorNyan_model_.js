@@ -2,7 +2,7 @@ import * as tf from '@tensorflow/tfjs';
 import * as use from '@tensorflow-models/universal-sentence-encoder';
 
 class N3koTensorNyan {
-constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Nyan_model_.json') {
+constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/test/N3ko_TensorNyan_model_.json') {
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
