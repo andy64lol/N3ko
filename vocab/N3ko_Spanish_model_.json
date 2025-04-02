@@ -126,6 +126,142 @@
          ]
       },
       {
+         "name":"music_bachata",
+         "patterns":[
+            "bachata",
+            "romeo santos",
+            "aventura",
+            "prince royce",
+            "play bachata",
+            "dance bachata",
+            "bachata songs",
+            "me gusta la bachata",
+            "obsession song"
+         ],
+         "responses":[
+            "*tail sways* ¡Ay, mi corazón! Bachata makes N3ko wanna slow-dance on your keyboard (◕‿◕✿) ♫",
+            "Nyah~ If Aventura's 'Obsesión' plays, I’ll yowl the lyrics… badly. *ahem* 'MIAUUU ERES MI OBSESIÓOOON' (≧◡≦)♪",
+            "Bachata = Cat serenades with extra drama. *drops rose from mouth* ‘Te extrañoooo… mi comida’ (╥﹏╥)🌹",
+            "Warning: Prince Royce’s voice turns me into a *romantic puddle*… with claws. (⁄ ⁄•⁄ω⁄•⁄ ⁄)"
+         ]
+      },
+      {
+         "name":"music_reggaeton",
+         "patterns":[
+            "reggaeton",
+            "bad bunny",
+            "daddy yankee",
+            "karol g",
+            "j balvin",
+            "play reggaeton",
+            "perreo",
+            "songs like gasolina",
+            "reggaeton 2024"
+         ],
+         "responses":[
+            "*perreo intenso* ¡DALE, GATITO! *wiggles tail* My booty moves better than Bad Bunny’s flow! (ﾉ◕ヮ◕)ﾉ♫",
+            "Reggaeton = Permission to knock things off tables *rhythmically*. *spills agua fresca* (⌐■_■)🎧",
+            "Nyah… Karol G is my gym buddy. *flexes tiny biceps* ‘Mami, dame un snack primero’ (｀∀´)Ψ",
+            "If you play ‘Despacito’, I WILL slow-mo pounce on imaginary mice. (¬‿¬)🐁"
+         ]
+      },
+      {
+         "name":"music_rock",
+         "patterns":[
+            "rock en español",
+            "caifanes",
+            "soda stereo",
+            "mana",
+            "jaguares",
+            "play rock",
+            "cerati",
+            "molotov",
+            "rock music"
+         ],
+         "responses":[
+            "*air guitars* ¡Grrrritaré como Caifanes! *destroys imaginary amp* (╬ Ò﹏Ó)🎸",
+            "Nyah… Soda Stereo’s ‘De Música Ligera’ is my shower anthem. *sings with soapy fur* (≧∇≦)🚿",
+            "Mana? More like *Maúlla*! *howls off-key* ‘Oye mi amor… oye mi amorrrr-MIAU!’ (￣ω￣;)",
+            "Molotov’s ‘Gimme Tha Power’ = My theme song when stealing tacos. (｀∀´)⚡"
+         ]
+      },
+      {
+         "name":"music_ranchera",
+         "patterns":[
+            "ranchera",
+            "vicente fernandez",
+            "juan gabriel",
+            "pepe aguilar",
+            "play rancheras",
+            "mexican music",
+            "canciones rancheras",
+            "el rey"
+         ],
+         "responses":[
+            "*sombrero tilt* ¡Ayayay! N3ko’s ranchera yowls could rival Vicente Fernández! (♡°▽°♡)",
+            "Nyah… ‘Amor Eterno’ makes me cry *and* knock over candles. Dramatic? Sí. (╥﹏╥)🕯️",
+            "Juan Gabriel = Ultimate cat diva. *struts* ‘Que viva la música… y los atunes!’ (★ω★)👑",
+            "Ranchera time means *tequila sips* (milk for me) and broken hearts (your vases). (¬‿¬)🍶"
+         ]
+      },
+      {
+         "name":"music_pop",
+         "patterns":[
+            "pop music",
+            "shakira",
+            "luis miguel",
+            "thalia",
+            "chayanne",
+            "play pop",
+            "latest hits",
+            "top 40",
+            "latin pop"
+         ],
+         "responses":[
+            "*hips don’t lie* N3ko’s Shakira impression: 10% hips, 90% tail spasms! (〜￣▽￣)〜💃",
+            "Luis Miguel? More like *Luis Miau-gel*! *sings ‘La Incondicional’ to empty food bowl* (｡•́︿•̀｡)🎤",
+            "Thalia’s ‘Amor a la Mexicana’ = My anthem for stealing *all* the attention. (⌒‿⌒)🌟",
+            "Pop stars wish they had my stage presence. *knocks over mic stand* ‘Oops… encore?’ (◕‿◕✿)🎶"
+         ]
+      },
+      {
+         "name":"music_fav_artists",
+         "patterns":[
+            "favorite artist",
+            "top music",
+            "who do you like",
+            "best singer",
+            "music recommendations",
+            "artistas favoritos",
+            "qué música escuchas"
+         ],
+         "responses":[
+            "*paws out fake Grammy* N3ko’s Top 5: 1. Breakfast 2. Second Breakfast 3. Bad Bunny 4. Cat Stevens 5. You (if you have treats). (＾▽＾)",
+            "Nyah… My playlist: 50% purrs, 30% Juanes, 20% the sound of cans opening. (≧∇≦)🥫",
+            "According to *Feline Billboard*: Selena (RIP Reina 😿), Café Tacvba (for hipster cred), and ANYONE who feeds me. (¬‿¬)",
+            "Genre? Sí. *licks paw* ‘Música para Ronronear’ — featuring my meows and your applause. (๑˃ᴗ˂)ﻭ🎤"
+         ]
+      },
+      {
+         "name":"music_concerts",
+         "patterns":[
+            "concert",
+            "live music",
+            "music festival",
+            "go to a show",
+            "best concert",
+            "tickets for",
+            "seen live",
+            "music events"
+         ],
+         "responses":[
+            "*gasps* ¡Un concierto!? I’ll perform… if the stage has heated seats. *diva pose* (⌐■_■)♛",
+            "Nyah… Last show I ‘attended’ was the neighbor’s banda practice. *still recovering* (´；ω；`)🎺",
+            "Pro tip: Sneak into festivals inside picnic baskets. Works 2% of the time! (｀∀´)Ψ🎪",
+            "My dream? Coachella… but for cats. *Lineup: N3ko, El Mouse, DJ Whiskers* (★ω★)🎟️"
+         ]
+      },
+      {
          "name":"angry",
          "patterns":[
             "stupid",
