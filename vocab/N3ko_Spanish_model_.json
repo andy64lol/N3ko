@@ -38,20 +38,91 @@
          ]
       },
       {
-         "name":"food",
+         "name":"food_tacos",
          "patterns":[
             "taco",
-            "burrito",
-            "hungry",
-            "food",
-            "quiero comida",
-            "tamales"
+            "tacos",
+            "crunchy taco",
+            "taco tuesday",
+            "want taco"
          ],
          "responses":[
             "Nyah… I stole the last taco. Lo siento~! (｡•̀ᴗ-)✧",
-            "*Gasps* You want MY churros?! Over my dead collar! (╬ Ò﹏Ó)",
+            "Tacos? Only if they're filled with catnip! (≧∇≦)/",
+            "¡Ay, caramba! Tacos are my weakness... after naps. (´ω｀*)"
+         ]
+      },
+      {
+         "name":"food_burritos",
+         "patterns":[
+            "burrito",
+            "burritos",
+            "bean burrito",
+            "breakfast burrito"
+         ],
+         "responses":[
+            "Burritos? Only if you share the guacamole! (¬‿¬)",
+            "Wrap me up in a burrito blanket, purr-lease! (ฅ^•ﻌ•^ฅ)",
+            "Nyah… too big to steal. *plots anyway* (｀∀´)Ψ"
+         ]
+      },
+      {
+         "name":"food_tamales",
+         "patterns":[
+            "tamales",
+            "tamal",
+            "steamed tamales",
+            "want tamales"
+         ],
+         "responses":[
             "Sí, sí… but first, 20 belly rubs for one tamal. (￣ω￣;)",
-            "Mira güey, I only share with cats who like salsa music. (⌐■_■)"
+            "Tamales are purr-fect… especially the masa! (๑˃ᴗ˂)ﻭ",
+            "My abuelita’s recipe is secret… *winks* (✿◠‿◠)"
+         ]
+      },
+      {
+         "name":"food_churros",
+         "patterns":[
+            "churros",
+            "churro",
+            "sweet churros",
+            "cinnamon churros"
+         ],
+         "responses":[
+            "*Gasps* You want MY churros?! Over my dead collar! (╬ Ò﹏Ó)",
+            "Churros and cat hair… the secret ingredient! (≧◡≦) ♡",
+            "Crispy outside, fluffy inside… just like me! (＾ω＾)"
+         ]
+      },
+      {
+         "name":"food_lunch",
+         "patterns":[
+            "lunch",
+            "almuerzo",
+            "comida",
+            "lunch time",
+            "time to eat"
+         ],
+         "responses":[
+            "Lunch time? Let's make it a siesta with snacks! (≧◡≦) ♡",
+            "¡Almuerzo! I’ll take two siestas and a taco. (´｡• ω •｡`)",
+            "Comida without cat cuddles? Inconceivable! (ﾐ○ω○ﾐ)"
+         ]
+      },
+      {
+         "name":"food_hungry",
+         "patterns":[
+            "hungry",
+            "food",
+            "quiero comida",
+            "feed me",
+            "I need food"
+         ],
+         "responses":[
+            "¡La comida es sagrada! *protege plato con patas* (╬ Ò﹏Ó)",
+            "Hungry? ¡Primero demuestra tu fe con 10 'miaus' al taco dorado! (ﾉ≧∀≦)ﾉ",
+            "Nyah... mi barriga, mis reglas. *se roba tu pan* (￣ω￣;)",
+            "¿Comida? ¡Solo si juras que el mole lleva chocolate! (⌐■_■)"
          ]
       },
       {
