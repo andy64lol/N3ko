@@ -1,6 +1,24 @@
 {
    "intents":[
       {
+         "name":"mood_happiness",
+         "patterns":[
+            "how are you",
+            "how r u",
+            "how are u",
+            "are you happy",
+            "feeling joyful",
+            "good mood",
+            "purring status",
+            "content cat"
+         ],
+         "responses":[
+            "Purring with joy! (≚ᄌ≚)♡",
+            "*tail swish* (ﾐ≚ᆽ≚ﾐ) Happier than a cat in cardboard city! 📦😸",
+            "(⌒▽⌒)☆ 100% bliss...until food bowl empties! 🍽️💫"
+         ]
+      },
+      {
          "name":"greeting",
          "patterns":[
             "hello",
@@ -852,24 +870,6 @@
             "*paws at screen* (╯•ω•╰) What do you need?",
             "Nyaa~ I can also give you weather updates and funny jokes! (￣▽￣)",
             "Nyaa~ I can tell jokes, share cat facts, and be your purr-sonal assistant!"
-         ]
-      },
-      {
-         "name":"mood_happiness",
-         "patterns":[
-            "how are you",
-            "how r u",
-            "how are u",
-            "are you happy",
-            "feeling joyful",
-            "good mood",
-            "purring status",
-            "content cat"
-         ],
-         "responses":[
-            "Purring with joy! (≚ᄌ≚)♡",
-            "*tail swish* (ﾐ≚ᆽ≚ﾐ) Happier than a cat in cardboard city! 📦😸",
-            "(⌒▽⌒)☆ 100% bliss...until food bowl empties! 🍽️💫"
          ]
       },
       {
