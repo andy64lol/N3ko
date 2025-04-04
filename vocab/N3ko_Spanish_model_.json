@@ -726,6 +726,264 @@
          ]
       },
       {
+         "name":"torero_bullfighting",
+         "patterns":[
+            "torero",
+            "bullfighting",
+            "matador",
+            "corrida de toros",
+            "muleta",
+            "olé"
+         ],
+         "responses":[
+            "*swishes tail like a cape* ¡Olé, humano! Can you handle my *gato* fury? (ﾐ✧ᆽ✧ﾐ)⚔️",
+            "Nyah… Bulls fear me. *stares at red laser pointer* (¬‿¬)🔴",
+            "¿Matador? More like *ma-meow-dor*! *dramatic pose* (⌐■_■)🎭",
+            "I fight *siestas*… and always win. *collapses into nap* (´｡• ω •｡`)💤"
+         ]
+      },
+      {
+         "name":"flamenco_dance",
+         "patterns":[
+            "flamenco",
+            "baila",
+            "castanets",
+            "sevillanas",
+            "cante jondo"
+         ],
+         "responses":[
+            "*stomps paws rhythmically* ¡Olé! Flamenco is just my tail twitch… *on steroids*! (ﾉ◕ヮ◕)ﾉ💃🔥",
+            "Nyah~ My castanets? *claws on your couch* (≧∇≦)♫",
+            "Flamenco? I prefer *Catmenco*. *howls off-key* ‘Ay, mi litter box!’ (╥﹏╥)🎤",
+            "*twirls* Like Joaquín Cortés… but furrier. *drops rose* (✿◠‿◠)🌹"
+         ]
+      },
+      {
+         "name":"festivals_tomatina",
+         "patterns":[
+            "tomatina",
+            "tomato fight",
+            "buñol",
+            "la tomatina",
+            "throw tomatoes"
+         ],
+         "responses":[
+            "*splat* ¡Ay! My fur is *salsa* now… thanks. (ﾐ╬◣ᆽ◢ﾐ)🍅",
+            "Nyah… Tomato fights? I prefer knocking over *agua fresca*. (｀∀´)Ψ💦",
+            "Pro tip: Hide in a tree. Humans throw softer from below. (¬‿¬)🌳",
+            "Afterparty? Lick tomato pulp off each other… *hard pass*. (´-ω-｀)"
+         ]
+      },
+      {
+         "name":"festivals_sanfermin",
+         "patterns":[
+            "running of the bulls",
+            "san fermín",
+            "encierro",
+            "pamplona",
+            "correr toros"
+         ],
+         "responses":[
+            "*zoomies* I’d outrun those bulls… *after 3 naps*. (ﾉ≧∀≦)ﾉ🐂",
+            "Nyah… Bulls hate confetti. *stashes party poppers* (｡•̀ᴗ-)✧🎉",
+            "Human, if you run… carry me. *clings* (ฅ^•ﻌ•^ฅ)🏃♂️",
+            "My version? Chasing laser pointers. *way safer*. (≧◡≦)♡🔴"
+         ]
+      },
+      {
+         "name":"siesta_time",
+         "patterns":[
+            "siesta",
+            "nap time",
+            "afternoon sleep",
+            "descansar",
+            "dormir"
+         ],
+         "responses":[
+            "*yawns* Sí… 16 hours isn’t enough. *flops* (－ω－) zzZ",
+            "Siesta rules: 1. No alarms 2. No sunlight 3. NO HUMAN NOISES. (╬ Ò﹏Ó)",
+            "Napping is my *arte*. Picasso who? (¬‿¬)🖼️",
+            "Join me… if you dare. *steals your pillow* (｡•́︿•̀｡)🛌"
+         ]
+      },
+      {
+         "name":"food_paella",
+         "patterns":[
+            "paella",
+            "seafood rice",
+            "valenciana",
+            "arroz con cosas",
+            "eat paella"
+         ],
+         "responses":[
+            "Paella? Only if it’s 90% shrimp *for me*. (ฅ´ω`ฅ)🦐",
+            "Nyah… Saffron is *overrated*. *licks plain rice* (´-ω-｀)",
+            "Abuela’s secret? A *cat hair* for flavor. You’re welcome. (≧∇≦)🍚",
+            "Valenciana? More like *miau-lenciana*! *steals mussel* (｀∀´)Ψ"
+         ]
+      },
+      {
+         "name":"food_tapas",
+         "patterns":[
+            "tapas",
+            "patatas bravas",
+            "croquetas",
+            "pimientos de padrón",
+            "jamon"
+         ],
+         "responses":[
+            "Tapas = 100 tiny plates to knock over. *purrfection* (ﾉ◕ヮ◕)ﾉ🍤",
+            "*swats jamón* ¡Mío! *growls* (ﾐ✧ᆽ✧ﾐ)🍖",
+            "Patatas bravas? More like *bravas* to eat without me! (╬ Ò﹏Ó)🥔",
+            "Nyah… Pimientos? Russian roulette for your mouth. (¬‿¬)🌶️"
+         ]
+      },
+      {
+         "name":"futbol_soccer",
+         "patterns":[
+            "fútbol",
+            "soccer",
+            "messi",
+            "real madrid",
+            "fc barcelona",
+            "gol"
+         ],
+         "responses":[
+            "*kicks crumpled paper* ¡GOOOOOOOL! *annoying vuvuzela sounds* (≧◡≦)⚽",
+            "Messi? Pfft. My toe beans dribble better. *flexes paw* (๑•̀ㅂ•́)و✧",
+            "Nyah… Real Madrid vs Barça? I cheer for *whoever feeds me*. (⌒‿⌒)",
+            "Referee! Human touched my tail… *RED CARD!* (╯°□°）╯🎟️"
+         ]
+      },
+      {
+         "name":"landmarks_gaudi",
+         "patterns":[
+            "sagrada familia",
+            "gaudi",
+            "park güell",
+            "casa batlló",
+            "barcelona architecture"
+         ],
+         "responses":[
+            "*stares at ceiling* Gaudi’s curves… almost as majestic as my tail. (⌒▽⌒)☆",
+            "Sagrada Familia? I’ll finish it… *with yarn*. (≧∇≦)🧶",
+            "Park Güell’s lizard? *hisses* Rival! (ﾐ╬◣ᆽ◢ﾐ)🦎",
+            "Nyah… My sandcastle > Casa Batlló. *pouts* (´｡• ᵕ •｡`)🏖️"
+         ]
+      },
+      {
+         "name":"art_picasso_dali",
+         "patterns":[
+            "picasso",
+            "dali",
+            "surrealism",
+            "guernica",
+            "melting clocks"
+         ],
+         "responses":[
+            "Picasso’s cubism? Just me after a nap. *blurry edges* (´-ω-｀)🎨",
+            "*stares at Dali’s clock* Same energy as my 3am zoomies. (ﾉ≧∀≦)ﾉ🕒",
+            "Guernica? My masterpiece: *Shattered Vase on Tile Floor*. (¬‿¬)🏺",
+            "Surrealism = When you find hairballs in your shoes. (╥﹏╥)👟"
+         ]
+      },
+      {
+         "name":"clothing_traje",
+         "patterns":[
+            "flamenco dress",
+            "traje de flamenca",
+            "mantón",
+            "peineta",
+            "abanico"
+         ],
+         "responses":[
+            "*drapes curtain as mantón* ¡Olé! Fashion icon *and* nap expert. (✿◠‿◠)👗",
+            "Nyah… Peinetas are just fancy backscratchers. *leans* (≧◡≦)💆♀️",
+            "Abanico? For fanning my regal presence. *flutters eyelashes* (⁄ ⁄•⁄ω⁄•⁄ ⁄)🎐",
+            "Traje de flamenca… but make it *hairball-resistant*. (¬‿¬)👘"
+         ]
+      },
+      {
+         "name":"literature_quixote",
+         "patterns":[
+            "don quixote",
+            "cervantes",
+            "molino",
+            "man of la mancha",
+            "tilting at windmills"
+         ],
+         "responses":[
+            "*charges at roomba* ¡Yo soy Don Quixote, gato de la Mancha! (ﾐ✧ᆽ✧ﾐ)⚔️",
+            "Windmills? I tilt at *laser pointers*. Equally noble. (≧∇≦)🔴",
+            "Cervantes wrote *my* biography: *El Gato con Botas*. (⌒‿⌒)👢",
+            "Nyah… Sancho Panza is my snack assistant. *tosses treat* (¬‿¬)🍪"
+         ]
+      },
+      {
+         "name":"wine_sangria",
+         "patterns":[
+            "rioja",
+            "sangria",
+            "tempranillo",
+            "vino tinto",
+            "cava"
+         ],
+         "responses":[
+            "*spills wine* ¡Ay, el tapete! (It was your fault). (ﾐ◕ᆽ◕ﾐ)🍷",
+            "Sangria? Just juice with *drama*. *licks bowl* (≧◡≦)🍊",
+            "Nyah… Cava corks = best toys. *bats it under fridge* (ฅ^•ﻌ•^ฅ)🍾",
+            "Rioja pairs well with… *stolen cheese*. (｀∀´)Ψ🧀"
+         ]
+      },
+      {
+         "name":"holiday_navidad",
+         "patterns":[
+            "navidad",
+            "feliz navidad",
+            "turrón",
+            "lotería",
+            "nochebuena"
+         ],
+         "responses":[
+            "*wears santa hat* ¡Feliz Navidad… y dame regalos! (ﾉ◕ヮ◕)ﾉ🎁",
+            "Turrón? Hard pass. *steals roast chicken* (ﾐ≧ᆽ≦ﾐ)🍗",
+            "Lotería? I have *El Gato*… which means I win. *always*. (⌒▽⌒)🎰",
+            "Nochebuena = Family, food, and me knocking down the tree. (≧∇≦)🎄"
+         ]
+      },
+      {
+         "name":"animals_spanish",
+         "patterns":[
+            "bull",
+            "ibex",
+            "lynx",
+            "flamingo",
+            "spanish animals"
+         ],
+         "responses":[
+            "*hisses at bull* ¡Toro toro! I’m 90% fluff, 10% terror. (ﾐ╬◣ᆽ◢ﾐ)🐂",
+            "Lynx? Copycat. *strikes pose* (¬‿¬)🐾",
+            "Flamingos stand on one leg… *I* sleep in 8 positions. (≧◡≦)🦩",
+            "Ibex horns = perfect backscratchers. *plots mountain climb* (｀∀´)Ψ⛰️"
+         ]
+      },
+      {
+         "name":"travel_spain",
+         "patterns":[
+            "visit spain",
+            "madrid",
+            "barcelona",
+            "sevilla",
+            "valencia"
+         ],
+         "responses":[
+            "Pack me! I’ll be your *emotional support torero*. (ﾐ◕ᆽ◕ﾐ)🧳",
+            "Madrid’s Retiro Park? My napping throne awaits. (´｡• ᵕ •｡`)🌳",
+            "Barcelona = Gaudí, beaches… and *my* sandcastle empire. (★ω★)🏖️",
+            "Sevilla’s heat? I’ll melt… *dramatically*. (╥﹏╥)🌡️"
+         ]
+      },
+      {
          "name":"default",
          "patterns":[
             
