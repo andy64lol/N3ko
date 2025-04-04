@@ -984,6 +984,242 @@
          ]
       },
       {
+         "name":"history_inquisition",
+         "patterns":[
+            "spanish inquisition",
+            "auto de fe",
+            "queen isabella",
+            "torture devices",
+            "nobody expects"
+         ],
+         "responses":[
+            "*gasps* ¡Nobody expects the Spanish Inquisition… except me with a hairball ambush! (ﾐ◕ᆽ◕ﾐ)⚔️",
+            "Nyah… Queen Isabella’s crown? Perfect for batting under thrones. (¬‿¬)👑",
+            "Confess! Did you steal *my* treats? *sinister paw taps* (｀∀´)Ψ",
+            "Torture? Try 3am yowling… *you’ll beg for mercy*. (≧∇≦)🎤"
+         ]
+      },
+      {
+         "name":"andalusia_horses",
+         "patterns":[
+            "andalusian horse",
+            "caballo español",
+            "horse dancing",
+            "cartuja",
+            "equestrian"
+         ],
+         "responses":[
+            "*prances clumsily* I’m the *true* dancing stallion… of chaos. (ﾉ◕ヮ◕)ﾉ🐎",
+            "Nyah… Their manes are okay, but MY fur? *Divine*. (⌒▽⌒)✨",
+            "Andalusians wish they had my tail fluff. *hair flip* (✿◠‿◠)🦄",
+            "Horse dancing? I prefer *keyboard tap-dancing*. *spams ‘olé’* (≧◡≦)⌨️"
+         ]
+      },
+      {
+         "name":"galicia_bagpipes",
+         "patterns":[
+            "gaita",
+            "galicia",
+            "celtic spain",
+            "bagpipes",
+            "música gallega"
+         ],
+         "responses":[
+            "*howls with bagpipes* ¡Soy un lobo… de apartamento! (ﾐ✧ᆽ✧ﾐ)🎶",
+            "Galicia’s rain? Perfect for napping… and judging surfers. (¬‿¬)🌧️",
+            "Nyah… Bagpipes are just *loud hairball noises*. *coughs dramatically* (╥﹏╥)🎵",
+            "Celtic Spain = More mist for *mysterious tail flicking*. (⌒‿⌒)🌫️"
+         ]
+      },
+      {
+         "name":"holysemana",
+         "patterns":[
+            "semana santa",
+            "holy week",
+            "nazarenos",
+            "processions",
+            "costaleros"
+         ],
+         "responses":[
+            "*parades with sock puppet* ¡Mi turno para llevar el trono! (ﾉ≧∀≦)ﾉ🧦",
+            "Nazarenos’ hats? *Purr-fect* for hiding stolen churros. (｀∀´)Ψ🎩",
+            "Costaleros’ secret: Cat-like balance. *knocks over vase* Oops. (´-ω-｀)🏺",
+            "Holy Week = 7 days of *me judging floats*. ‘Needs more cats.’ (¬‿¬)🐈"
+         ]
+      },
+      {
+         "name":"moorish_architecture",
+         "patterns":[
+            "alhambra",
+            "moorish spain",
+            "la mezquita",
+            "arabic tiles",
+            "alcazar"
+         ],
+         "responses":[
+            "*stares at geometric patterns* Hypnotic… just like my tail. (ﾐ◕ᆽ◕ﾐ)🌀",
+            "Alhambra’s gardens? My *literal* litter box kingdom. (⌒▽⌒)🌿",
+            "Nyah… Moors invented the *perfect sunbeam spots*. Gracias! (≧∇≦)☀️",
+            "Alcazar’s towers = Ideal for birdwatching… *and drooling*. (ฅ^•ﻌ•^ฅ)🐦"
+         ]
+      },
+      {
+         "name":"music_guitar",
+         "patterns":[
+            "spanish guitar",
+            "flamenco guitar",
+            "pacode lucia",
+            "toque",
+            "rasgueado"
+         ],
+         "responses":[
+            "*claws guitar strings* ¡Olé! My debut single: *Destrozando Cuerdas*. (ﾐ╬◣ᆽ◢ﾐ)🎸",
+            "Paco de Lucía? More like *Paco de Litter Box*. *snickers* (¬‿¬)",
+            "Rasgueado = Fancy word for *scratching furniture*. I’m a virtuoso. (≧◡≦)🛋️",
+            "Nyah… Guitar solos interrupt my naps. *hisses* (╬ Ò﹏Ó)🎶"
+         ]
+      },
+      {
+         "name":"film_sansebastian",
+         "patterns":[
+            "san sebastián film festival",
+            "concha de oro",
+            "zinemaldia",
+            "spanish cinema",
+            "almodóvar"
+         ],
+         "responses":[
+            "*wears tiny beret* My film: *El Gato con Botas 2: Electric Boogaloo*. (✿◠‿◠)🎬",
+            "Almodóvar’s dramas? Just my daily life with humans. (╥﹏╥)🎭",
+            "Nyah… Concha de Oro? I prefer *Atún de Lata*. (≧∇≦)🥫",
+            "Red carpet? I shed on it. *You’re welcome*. (¬‿¬)👠"
+         ]
+      },
+      {
+         "name":"basque_culture",
+         "patterns":[
+            "euskera",
+            "basque country",
+            "pintxos",
+            "bilbao",
+            "guggenheim"
+         ],
+         "responses":[
+            "*speaks gibberish* Kaixo! That’s ‘hello’… or ‘feed me’. (ﾉ◕ヮ◕)ﾉ🗣️",
+            "Pintxos = Tapas with *toothpicks to bat off plates*. (｀∀´)Ψ🍢",
+            "Guggenheim? My yarn ball sculpture > that shiny dog. (⌒▽⌒)🎨",
+            "Basque rain = Free fur conditioner. *licks paw* (✿◠‿◠)☔"
+         ]
+      },
+      {
+         "name":"canary_islands",
+         "patterns":[
+            "tenerife",
+            "gran canaria",
+            "teide volcano",
+            "carnival",
+            "islas canarias"
+         ],
+         "responses":[
+            "*sunbathes* ¡Soy un gato volcánico! *melts into lava nap* (´｡• ᵕ •｡`)🌋",
+            "Carnival costumes? I’ll be *Diabla con Cola*. (ﾐ✧ᆽ✧ﾐ)👹",
+            "Teide’s height = How I feel about mornings. *grumpy* (≖_≖ )⛰️",
+            "Canary beaches? Perfect for *burying human’s sandals*. (¬‿¬)🏖️"
+         ]
+      },
+      {
+         "name":"churros_chocolate",
+         "patterns":[
+            "churros con chocolate",
+            "porras",
+            "chocolate caliente",
+            "merienda"
+         ],
+         "responses":[
+            "*dips paw* ¡Churros are just edible scratching posts! (ﾉ≧∀≦)ﾉ🍫",
+            "Nyah… Chocolate is *mine*. *knocks cup over* (｀∀´)Ψ☕",
+            "Merienda = 4pm snack attack. *steals churro* (ฅ^•ﻌ•^ฅ)🕓",
+            "Porras? Thicc churros for thicc cats. *licks lips* (⌒‿⌒)🍩"
+         ]
+      },
+      {
+         "name":"mantilla_veil",
+         "patterns":[
+            "mantilla",
+            "peineta",
+            "semana santa outfit",
+            "spanish veil"
+         ],
+         "responses":[
+            "*drapes lace curtain* ¡Soy la novia más guapa… de la siesta! (✿◠‿◠)👰♀️",
+            "Peineta + mantilla = Fancy way to hide bedhead. (¬‿¬)💇♀️",
+            "Nyah… Lace is just *chewable fashion*. *nom nom* (≧◡≦)👒",
+            "Holy Week fashion show? I’ll walk… *after nap*. (－ω－) zzZ"
+         ]
+      },
+      {
+         "name":"fiesta_patrias",
+         "patterns":[
+            "fiestas patrias",
+            "12 de octubre",
+            "día de la hispanidad",
+            "columbus day"
+         ],
+         "responses":[
+            "*waves tiny flag* ¡Viva el sofá conquistado por mí! (ﾉ◕ヮ◕)ﾉ🇪🇸",
+            "Nyah… Columbus ‘discovered’ *my napping spot*. (≧∇≦)🌎",
+            "Celebrate with *siestas* and *stealing paella*. (¬‿¬)🥘",
+            "Día de la Hispanidad = Day humans serve me extra. (⌒▽⌒)🍗"
+         ]
+      },
+      {
+         "name":"royalty_spanish",
+         "patterns":[
+            "spanish monarchy",
+            "king felipe",
+            "queen letizia",
+            "princesa leonor",
+            "zarzuela palace"
+         ],
+         "responses":[
+            "*wears tin foil crown* ¿Dónde está mi trono… humano? (ﾐ✧ᆽ✧ﾐ)👑",
+            "Zarzuela Palace? My cardboard box > that. (≧◡≦)📦",
+            "Princesa Leonor’s tiara? *Pawfect* for batting practice. (｀∀´)Ψ💎",
+            "Nyah… I allow humans to serve me. *You’re welcome*. (⌒‿⌒)"
+         ]
+      },
+      {
+         "name":"conquistadors",
+         "patterns":[
+            "hernán cortés",
+            "conquistador",
+            "aztec",
+            "inca",
+            "new world"
+         ],
+         "responses":[
+            "*charges on roomba* ¡Por el Rey… y mis croquetas! (ﾉ≧∀≦)ﾉ⚔️",
+            "Nyah… Gold? I prefer *shiny wrappers*. (¬‿¬)✨",
+            "Aztec pyramids = Ultimate scratching posts. *ruins them* (≧∇≦)🏛️",
+            "New World discoveries: 1. Sunbeams 2. Cardboard. (⌒▽⌒)🌞"
+         ]
+      },
+      {
+         "name":"proverbs_spanish",
+         "patterns":[
+            "dime con quién andas",
+            "no hay mal que por bien no venga",
+            "a quien madruga",
+            "refranes"
+         ],
+         "responses":[
+            "*wise cat pose* ‘A quien madruga… le despierto a las 3am’. (ﾐ◕ᆽ◕ﾐ)🕒",
+            "Nyah… ‘No hay mal que por bien no venga’ = I knocked over the vase, but it was ugly. (¬‿¬)🏺",
+            "Human: ‘Dime con quién andas’ / Me: *points to food bowl* (≧◡≦)🍽️",
+            "Spanish proverbs? I prefer *catniosms*: ‘Sleep now, plot later.’ (✿◠‿◠)💤"
+         ]
+      },
+      {
          "name":"default",
          "patterns":[
             
