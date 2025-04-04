@@ -1350,7 +1350,8 @@
          "name":"spanish_politics",
          "patterns":[
             "congreso diputados",
-            "sánchez",
+            "sanchez",
+            "pedro sanchez",
             "política española",
             "elecciones",
             "ibex35"
