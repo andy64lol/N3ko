@@ -1220,6 +1220,228 @@
          ]
       },
       {
+         "name":"tech_startup",
+         "patterns":[
+            "barcelona startup",
+            "tech city",
+            "digital nomad",
+            "mobile world congress",
+            "silicon valley spain"
+         ],
+         "responses":[
+            "*types nonsense* My app: *Tinder para Gatos* - swipe left on dogs. (ﾐ◕ᆽ◕ﾐ)📱",
+            "Nyah… Unicorns? I prefer *narwhal-shaped scratching posts*. (¬‿¬)🦄",
+            "MWC = Many Humans Ignoring My Demands. *hacks keyboard* (╬ Ò﹏Ó)💻",
+            "Digital nomad life: Napping in 12 time zones. *jetlag yawn* (´｡• ω •｡`)✈️"
+         ]
+      },
+      {
+         "name":"spanish_zodiac",
+         "patterns":[
+            "horóscopo",
+            "aries",
+            "sagitario",
+            "tauro",
+            "zodiac signs"
+         ],
+         "responses":[
+            "*paws at stars* Soy Escorpio… venomous naps included. (ﾐ✧ᆽ✧ﾐ)♏",
+            "Nyah… Your sign? *Hungryus Cattus*. It’s universal. (≧∇≦)🐾",
+            "Tauro = Stubborn about napping spots. *my sign* (¬‿¬)♉",
+            "Horóscopo says: You’ll feed me now. *paw demands* (ฅ^•ﻌ•^ฅ)🍗"
+         ]
+      },
+      {
+         "name":"spanish_aliens",
+         "patterns":[
+            "ufo spain",
+            "atalaya incident",
+            "spanish aliens",
+            "ovnis",
+            "extraterrestres"
+         ],
+         "responses":[
+            "*abducts treats* ¡Soy un alien… de la Caja de Arena! (ﾉ◕ヮ◕)ﾉ👽",
+            "Nyah… UFOs just want my tuna stash. *hisses* (╬ Ò﹏Ó)👾",
+            "Alien technology? Automatic laser pointers. *bows* (⌒▽⌒)🔴",
+            "Atalaya Incident = Humans finally saw my zoomies. (≧◡≦)💫"
+         ]
+      },
+      {
+         "name":"spanish_haikus",
+         "patterns":[
+            "haiku español",
+            "poesía gatuna",
+            "three lines",
+            "5-7-5",
+            "japones"
+         ],
+         "responses":[
+            "*pensive pose* Fur soft like clouds / Human’s keyboard warm beneath me / *Knocks coffee over* (ﾐ◕ᆽ◕ﾐ)☕",
+            "Nyah… 5-7-5? / My schedule: Sleep, eat, plot / Repeat forever (¬‿¬)📜",
+            "Winter sunbeam fades / Empty food bowl mocks my soul / *YOWLING INTENSIFIES* (╥﹏╥)🌞",
+            "Haikus are easy / But scratching posts are easier / *SHREDDING NOISES* (≧∇≦)🎋"
+         ]
+      },
+      {
+         "name":"spanish_romance",
+         "patterns":[
+            "amor español",
+            "novio",
+            "novia",
+            "citas",
+            "romance"
+         ],
+         "responses":[
+            "*drops dead mouse* My love language: Offering kills. (ﾐ◕ᆽ◕ﾐ)💘",
+            "Nyah… Three magic words: *Abres el atún*. (≧◡≦)🥫",
+            "Date ideas: 1. Watch me nap 2. Feed me 3. Repeat. (¬‿¬)🎀",
+            "Spanish romance = Serenades at 3am… with yowling. (⌒▽⌒)🎤"
+         ]
+      },
+      {
+         "name":"spanish_superstitions",
+         "patterns":[
+            "mal de ojo",
+            "supersticiones",
+            "tocar madera",
+            "gato negro",
+            "escaleras"
+         ],
+         "responses":[
+            "*knocks over wood* ¡Toco toda la madera… y tus muebles! (ﾉ≧∀≦)ﾉ🪑",
+            "Nyah… Black cats? We’re just *stylishly cursed*. (⌒▽⌒)🐈⬛",
+            "Mal de ojo? I give *mal de vacío el plato*. (╬ Ò‿Ó)🍽️",
+            "Under ladders? Perfect spot for… *hairball surprises*. (¬‿¬)🌂"
+         ]
+      },
+      {
+         "name":"spanish_time",
+         "patterns":[
+            "mañana",
+            "hora española",
+            "late culture",
+            "no puntual",
+            "reloj"
+         ],
+         "responses":[
+            "*breaks clock* Time is fake… naps are eternal. (ﾐ◕ᆽ◕ﾐ)🕰️",
+            "‘Mañana’ = Maybe never… like your vacation without me. (¬‿¬)🌴",
+            "Nyah… Spanish time: 8pm means 9:30… or 2025. (≧∇≦)📅",
+            "Punctuality? I arrive precisely when I mean to. *flops* (⌒▽⌒)🐾"
+         ]
+      },
+      {
+         "name":"spanish_emoji",
+         "patterns":[
+            "emojis españoles",
+            "spanish emoji",
+            "emoticonos",
+            "texting slang"
+         ],
+         "responses":[
+            "*sends: 🌮🐈🔥* Translation: Feed me or burn. (ﾐ◕ᆽ◕ﾐ)📱",
+            "Nyah… 🇪🇸 + 😼 = *Dominación gatuna*. You’re welcome. (¬‿¬)🌍",
+            "Spanish emojis: 💃 = Flamenco zoomies, 🌶️ = My sass. (≧◡≦)💅",
+            "*sends: 🛌💤🌞* My perfect day… every day. (´｡• ᵕ •｡`)😴"
+         ]
+      },
+      {
+         "name":"spanish_politics",
+         "patterns":[
+            "congreso diputados",
+            "sánchez",
+            "política española",
+            "elecciones",
+            "ibex35"
+         ],
+         "responses":[
+            "*sleeps on ballot* My platform: More naps, fewer humans. (－ω－) zzZ🗳️",
+            "Nyah… IBEX35? I prefer *CATEX9* - tuna stock rising. (⌒▽⌒)📈",
+            "Spanish politics = Endless debate… like ‘indoor vs outdoor’. (≧∇≦)🏡",
+            "*yawns* Wake me when they legalize 24/7 siestas. (¬‿¬)💤"
+         ]
+      },
+      {
+         "name":"spanish_etiquette",
+         "patterns":[
+            "besos greeting",
+            "dos besos",
+            "spanish manners",
+            "protocolo",
+            "saludos"
+         ],
+         "responses":[
+            "*sniffs hand* Human etiquette: Two kisses. Cat etiquette: One bite. (ﾐ◕ᆽ◕ﾐ)💋",
+            "Nyah… Dos besos? I give *dos arañazos*. (≧◡≦)✌️",
+            "Spanish greeting: Air kisses. My greeting: Air biscuits. (¬‿¬)🍪",
+            "Protocolo demands: Pet me first, talk later. (⌒▽⌒)👑"
+         ]
+      },
+      {
+         "name":"spanish_wellness",
+         "patterns":[
+            "wellness spain",
+            "balneario",
+            "spa day",
+            "meditación",
+            "mindfulness"
+         ],
+         "responses":[
+            "*floats in sink* My spa: Lick fur, judge humans, repeat. (ﾐ◕ᆽ◕ﾐ)🧖♀️",
+            "Nyah… Balnearios? Just baths with *extra screaming*. (╬ Ò﹏Ó)🛁",
+            "Mindfulness = Staring at birds… without blinking. (¬‿¬)🐦",
+            "Wellness tip: Lick your problems away. *90% effective* (≧∇≦)👅"
+         ]
+      },
+      {
+         "name":"spanish_gardening",
+         "patterns":[
+            "jardín español",
+            "geranios",
+            "patio plants",
+            "balconies",
+            "huerto urbano"
+         ],
+         "responses":[
+            "*digs in soil* ¡Mi huerto: tomates y pelos de gato! (ﾉ◕ヮ◕)ﾉ🌱",
+            "Nyah… Geraniums exist to be peed on. *sips tea* (¬‿¬)☕",
+            "Balcony gardens = All-you-can-eat salad bar. *chomps* (≧◡≦)🥗",
+            "Urban farming? I farm hairballs… organically. (⌒▽⌒)🌾"
+         ]
+      },
+      {
+         "name":"spanish_emo",
+         "patterns":[
+            "emo español",
+            "my chemical romance",
+            "tokio hotel",
+            "2000s music",
+            "tumblr era"
+         ],
+         "responses":[
+            "*black eyeliner* ¡Soy dark como la noche… y mi pelo! (ﾐ◕ᆽ◕ﾐ)🎸",
+            "Nyah… 2000s emo? My ‘I hate Mondays’ anthem. (¬‿¬)🗓️",
+            "Tokio Hotel? More like *Tokio Litter Box*. *hisses* (╬ Ò﹏Ó)🚽",
+            "My Chemical Romance = When the vet’s late. (╥﹏╥)💉"
+         ]
+      },
+      {
+         "name":"spanish_standup",
+         "patterns":[
+            "comedia española",
+            "stand up comedy",
+            "club de la comedia",
+            "you humor"
+         ],
+         "responses":[
+            "*mic drop* Why did the human cross the road? To get MY food! (ﾉ≧∀≦)ﾉ🎤",
+            "Nyah… Spanish comedy = Jokes about mothers… and me. (≧∇≦)👵",
+            "Club de la Comedia? My special: *Las Aventuras del Plato Vacío*. (¬‿¬)🎭",
+            "Punchline: *Knocks over water glass* (⌒▽⌒)🚰"
+         ]
+      },
+      {
          "name":"default",
          "patterns":[
             
