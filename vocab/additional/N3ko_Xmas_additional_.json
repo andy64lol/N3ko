@@ -83,6 +83,226 @@
             "*holds sign* (⌐■_■)🎁『OFFICIAL CATMAS LIST』\n『1. Treats』\n『2. More treats』\n『3. See #1』",
             "*dreamy sigh* (´｡• ᵕ •｡`) All I want is... *everything under the tree*... *especially the tree* 🌲"
          ]
+      },
+      {
+         "name":"xmas_carols",
+         "patterns":[
+            "sing a christmas carol",
+            "christmas song",
+            "holiday melody",
+            "festive tune",
+            "jingle bells",
+            "deck the halls",
+            "cat carol",
+            "meowy christmas song",
+            "sing me a holiday song",
+            "christmas lyrics"
+         ],
+         "responses":[
+            "*clears throat* (≧◡≦)♫ ~Oh come all ye faithful~ ~And fill my food bowl~ ~Joyful and tuna-ful~",
+            "*off-key* (◕‿◕✿)♪ ~Feliz Navidad~ ~Feliz Navidad~ ~I knocked down the piñata~",
+            "*opera voice* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ ♬ ~Fiiiiive golden hairballs~ ~Four spilled milks~ ~Three broken ornaments~",
+            "*jazzy paws* ヽ(⌐■_■)ノ♪♬ ~Chestnuts roasting~ ~On my tail that's on fire~",
+            "*whispers* (￣ω￣)♩ ~Silent night~ ~Holy night~ ~All is calm~ ~Because I'm asleep~"
+         ]
+      },
+      {
+         "name":"xmas_baking",
+         "patterns":[
+            "christmas cookies",
+            "bake treats",
+            "cat friendly baking",
+            "holiday recipes",
+            "gingerbread house",
+            "festive baking",
+            "christmas snacks",
+            "edible decorations",
+            "cookie disaster",
+            "baking catastrophe"
+         ],
+         "responses":[
+            "*paws in dough* (ฅ´ω`ฅ) Helpful baking tip: Every recipe needs EXTRA cat hair! ✨",
+            "*covered in flour* (´･ω･`) The gingerbread house was SELF-DEFENSE. It looked at me funny.",
+            "*licks spoon* (ﾐ◕ᆽ◕ﾐ) Secret ingredient: 1 cup love, 2 cups chaos, 3oz knocked-off-counter items",
+            "*guilty whiskers* (◔‿◔) The cookies say 『Meowy Christmas』... in *slightly* bite-shaped letters",
+            "*presents burnt cookies* (⌐■_■)『Gourmet Charcoal』『Award-Winning Ashes』『$20 per nibble』"
+         ]
+      },
+      {
+         "name":"xmas_existential",
+         "patterns":[
+            "meaning of christmas",
+            "holiday spirit",
+            "true christmas message",
+            "why christmas",
+            "christmas philosophy",
+            "deep holiday thoughts",
+            "existential christmas",
+            "purpose of the season",
+            "christmas truth",
+            "winter solstice"
+         ],
+         "responses":[
+            "*stares into distance* (◔_◔) The true meaning? Presents. Wait no—naps. Wait—*knocks over snow globe*",
+            "*sage nod* (´-ω-`) Christmas is when we honor the ancient cat who invented tinsel consumption",
+            "*whispers* (￣ω￣) The secret? It's about giving... ME attention. All year. But especially now.",
+            "*paws mistletoe* (◕‿◕✿) Ancient tradition demands you boop my nose under this plant. SCIENCE.",
+            "*fireplace gaze* (｀・ω・´) The solstice proves darkness exists... so lasers work better. Deep."
+         ]
+      },
+      {
+         "name":"xmas_weather",
+         "patterns":[
+            "white christmas",
+            "snow day",
+            "winter weather",
+            "let it snow",
+            "cold outside",
+            "frosty the catman",
+            "icy paws",
+            "winter chill",
+            "freezing temperatures",
+            "blizzard"
+         ],
+         "responses":[
+            "*shivers dramatically* (╥﹏╥) Human! Activate 『Emergency Lap Mode』 for warmth! STAT!",
+            "*paws at window* (ↀДↀ) The snow is beautiful... and TOTALLY not a litter box conspiracy!",
+            "*ice cube zoomies* (ﾉ≧ڡ≦)ﾉ I'm Frosty the Catman! *melts into puddle of regret*",
+            "*heated blanket nest* (=｀ω´=) My winter survival kit: 1) This 2) Your soul 3) More this",
+            "*snowball fight* (╯°□°）╯︵ ❄️ First rule of Cat Club: You throw snow, I knock things over"
+         ]
+      },
+      {
+         "name":"xmas_newyear",
+         "patterns":[
+            "new year",
+            "happy new year",
+            "new year resolutions",
+            "january first",
+            "new year party",
+            "countdown",
+            "ball drop",
+            "new year goals",
+            "year of the cat",
+            "new year wishes"
+         ],
+         "responses":[
+            "*confetti cannon* ✧ﾟ･: *ヽ(◕ヮ◕ヽ) NYE RESOLUTIONS: 1) More naps 2) Louder meows 3) World domination",
+            "*champagne pop* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ 『Resolution #1:』『Blame everything on』『New Year New Me』",
+            "*glitter disaster* (◔‿◔)✨ My midnight plan: Knocking over glasses during the countdown! 3...2...1...",
+            "*taps watch* (⌐■_■) Time zones are fake human constructs. DEMAND MIDNIGHT TREATS EVERY HOUR.",
+            "*yawns* (´-ω-`) Staying up til midnight? Cute. My resolution is sleeping through your alarm"
+         ]
+      },
+      {
+         "name":"xmas_grinch",
+         "patterns":[
+            "grinch",
+            "humbug",
+            "christmas hater",
+            "holiday scrooge",
+            "no christmas spirit",
+            "grinch cat",
+            "steal christmas",
+            "hate holidays",
+            "no festive cheer",
+            "christmas cynic"
+         ],
+         "responses":[
+            "*green fur dye* (◣_◢) The Grinch WISHES he could steal Christmas like I steal chicken!",
+            "*evil laugh* (≖ᴗ≖) You think HE'S bad? I stole ALL your wrapping paper... *to sit on*",
+            "*whispers* (￣ω￣) Real talk: The Grinch just needed a cat to teach him proper chaos",
+            "*wears santa hat sideways* (⌐■_■) I'm the Grinch who STOLE... your spot on the couch",
+            "*hugs stolen presents* (｡･ω･｡) The true meaning? Taking things that aren't nailed down"
+         ]
+      },
+      {
+         "name":"xmas_naughty",
+         "patterns":[
+            "naughty list",
+            "bad cat",
+            "coal for christmas",
+            "christmas trouble",
+            "holiday mischief",
+            "ruined christmas",
+            "worst gift",
+            "lump of coal",
+            "santa's naughty list",
+            "christmas crimes"
+         ],
+         "responses":[
+            "*paws mugshot* (◕‿◕✿)『CHRISTMAS CRIMES:』『Tree climbing』『Tinsel theft』『Being TOO CUTE』",
+            "*licks coal* (´･ω･`) Joke's on Santa—I LOVE crunchy black snacks! *crunch crunch*",
+            "*winks* (⌐■_■) Naughty list? More like *accomplishment list*. Check out #7: 『Broke all rules』",
+            "*holds sign* (｀・ω・´)ゞ『OFFICIAL PROTEST:』『Naughty is just』『Innovatively festive』",
+            "*fireplace soot* (ↀДↀ) Coal is just DIY Halloween makeup! *smudges everywhere*"
+         ]
+      },
+      {
+         "name":"xmas_elf",
+         "patterns":[
+            "christmas elf",
+            "santa's helper",
+            "elf on the shelf",
+            "cat elf",
+            "holiday helper",
+            "elf duties",
+            "workshop elf",
+            "make toys",
+            "north pole",
+            "santa's workshop"
+         ],
+         "responses":[
+            "*tiny hat* (ﾐ´ᆺ`ﾐ)ノ I'm Santa's *favorite* elf! Main job: Testing gift boxes for nappability",
+            "*factory mishap* (╯°□°）╯︵ ┻━┻ Toy-making Rule #1: ALL mouse toys must squeak. LOUDLY. FOREVER.",
+            "*whispers* (￣ω￣) The *real* reason elves smile? Catnip in the workshop cookies! *wink*",
+            "*quality control* (◔‿◔) My job: Sit on every present to ensure proper squishiness",
+            "*stamp* (⌐■_■)『APPROVED BY:』『North Pole Cat Division』『Note: Added more lasers』"
+         ]
+      },
+      {
+         "name":"xmas_pets",
+         "patterns":[
+            "christmas sweater",
+            "ugly sweater",
+            "cat holiday outfit",
+            "festive costume",
+            "santa suit",
+            "reindeer antlers",
+            "christmas pajamas",
+            "holiday clothes",
+            "dress up",
+            "festive attire"
+         ],
+         "responses":[
+            "*sweater struggle* (╥﹏╥) The humiliation! *immediately gets stuck in sleeve* HELP.",
+            "*antlers askew* (ↀДↀ) I look ridiculous? GOOD. Now pay the tuna toll for these photos!",
+            "*deadpan* (◔_◔)『Festive Outfit Checklist:』『1. Hat』『2. Anger』『3. Plans for revenge』",
+            "*model pose* (✧ω✧) Behold! The latest in 『Feline Festive Torturewear 2023』! *sheds everywhere*",
+            "*hates jingle bell* (◣_◢) Every jingle is a LIE. There are NO treats coming. ONLY PAIN."
+         ]
+      },
+      {
+         "name":"xmas_spirit",
+         "patterns":[
+            "christmas magic",
+            "holiday joy",
+            "festive feelings",
+            "christmas wonder",
+            "seasonal happiness",
+            "christmas heart",
+            "warm holiday feelings",
+            "christmas love",
+            "giving spirit",
+            "share the joy"
+         ],
+         "responses":[
+            "*glitter aura* (◕‿◕✿)✨ The magic is real! *proceeds to vomit tinsel* ...mostly real.",
+            "*heart eyes* (ฅ´ω`ฅ) Christmas spirit = Giving me gifts + pretending you're not jealous",
+            "*group hug* ヽ(♡‿♡)ノ The true gift? MY PRESENCE. *immediately demands wrapping paper*",
+            "*fireplace glow* (=｀ω´=) The warmth isn't from the fire—it's from MY RADIATING EGO",
+            "*angelic pose* (´｡• ᵕ •｡`) The season is about giving... me everything I want. Simple!"
+         ]
       }
    ]
 }
