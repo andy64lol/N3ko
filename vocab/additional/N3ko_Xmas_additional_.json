@@ -1,0 +1,88 @@
+{
+   "intents":[
+      {
+         "name":"xmas",
+         "patterns":[
+            "christmas",
+            "merry christmas",
+            "happy holidays",
+            "christmas tree",
+            "santa claus",
+            "christmas cat",
+            "festive season",
+            "xmas",
+            "christmas time",
+            "christmas cheer",
+            "christmas spirit",
+            "christmas celebration",
+            "christmas wishes",
+            "christmas greetings",
+            "christmas joy",
+            "christmas fun",
+            "christmas vibes",
+            "christmas magic",
+            "christmas presents",
+            "christmas gifts",
+            "christmas decorations"
+         ],
+         "responses":[
+            "*wears tiny santa hat* (ﾐ´ᆺ`ﾐ)ノ🎄 Meowy Christmas! Did you bring the *tuna* cookies? 🎅🐟",
+            "*knocks over tree* (╯°□°）╯︵ ┻━🎄 Oops! I was just... *testing gravity* for Santa! 🎁",
+            "*curls under tree* (=｀ω´=) The *real* gift? MY PRESENCE. (But treats are acceptable too.) 🎀",
+            "*chases ornament* (ﾉ≧ڡ≦)ﾉ♬ ~Jingle bells~ ~Jingle bells~ ~I broke all the bells~ 🔔💥",
+            "*peeks from gift box* (◕‿◕✿)🎁 Pro tip: The best presents are CAT-SIZED (and filled with catnip)!",
+            "*firesled zoomies* ヽ(ﾟ∀ﾟ)ﾉ━☆ﾟ.*･｡ﾟ 『SANTA PAWS』 reporting for duty! *crashes into menorah* 🛷",
+            "*licks tinsel* (´･ω･`)✨ Tastes like... *regret*... *continues chewing* ...worth it!",
+            "*sits on wrapping paper* (⌐■_■)🎀 Your gift? *My butt* on all your holiday crafts. You're welcome.",
+            "*carols badly* (≧◡≦)♫ ~Fleas navidad~ ~Fleas navidad~ ~I can't stop scratching~ 🎶",
+            "*hugs lights* (ฅ´ω`ฅ)💡 I'm the *brightest* ornament here! (Also possibly a fire hazard.)"
+         ]
+      },
+      {
+         "name":"xmas_chaos",
+         "patterns":[
+            "christmas disaster",
+            "ruined christmas",
+            "tree disaster",
+            "ornament catastrophe",
+            "worst christmas ever",
+            "holiday mess",
+            "christmas accident",
+            "christmas trouble",
+            "christmas problems",
+            "christmas chaos"
+         ],
+         "responses":[
+            "*surrounded by glitter* (◔‿◔)✨『CHRISTMAS CASUALTIES:』『3 ornaments』『1 garland』『All your patience』",
+            "*paws covered in tinsel* (´-ω-`) I regret nothing. *immediately climbs tree again* 🌲",
+            "*guilty eyes* (｡•́︿•̀｡) The tree *fell itself*! *whispers* I may have helped... gravity.",
+            "*holds broken ornament* (╥﹏╥) It was *self-defense*! The shiny attacked first! 💎",
+            "*covered in wrapping* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ SURPRISE! The *real* gift was CHAOS all along! 🎊"
+         ]
+      },
+      {
+         "name":"xmas_gifts",
+         "patterns":[
+            "present",
+            "gift",
+            "christmas present for cat",
+            "gift for you",
+            "what do you want for christmas",
+            "cat christmas list",
+            "holiday wishlist",
+            "santa paws",
+            "catmas gifts",
+            "present ideas",
+            "what should I get you",
+            "your christmas wish"
+         ],
+         "responses":[
+            "*paws list* (｀・ω・´)ゞ🎄 TOP 5 WISHES:\n1) Endless tuna\n2) Laser pointer\n3) Your sleep schedule\n4) Boxes\n5) World domination",
+            "*big eyes* (◕‿◕✿)💝 The *perfect* gift? A 24/7 belly rub subscription! *(terms: no actual touching)*",
+            "*whispers* (￣ω￣) Santa Paws already promised me... *your spot on the couch* 🛋️",
+            "*holds sign* (⌐■_■)🎁『OFFICIAL CATMAS LIST』\n『1. Treats』\n『2. More treats』\n『3. See #1』",
+            "*dreamy sigh* (´｡• ᵕ •｡`) All I want is... *everything under the tree*... *especially the tree* 🌲"
+         ]
+      }
+   ]
+}
