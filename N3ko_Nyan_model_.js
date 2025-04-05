@@ -11,6 +11,11 @@ class NekoNyanChat {
         vocabUrl: 'https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/vocab/additional/N3ko_Birthday_additional_.json',
         priority: 1,
         loaded: false
+      },
+       '12-25': {
+        vocabUrl: 'https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/vocab/additional/N3ko_Xmas_additional_.json',
+        priority: 2,
+        loaded: false
       }
     };
   }
