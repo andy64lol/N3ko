@@ -2,6 +2,15 @@
 
 N3ko is a lightweight chatbot system that uses a predefined vocabulary to generate responses. It is not an AI but a pattern-matching chatbot that operates purely in the browser.
 
+![N3ko Badge](https://img.shields.io/badge/N3ko-JavaScript-blue)
+
+## Website
+
+If you're looking for the website N3koChat,click this link below:
+
+[N3koChat](https://andy64lol.github.io/N3koChat/)
+
+
 ## Features
 
 - 🐱 **Predefined Vocabulary-Based Responses** - Uses a JSON vocabulary file to determine responses.
