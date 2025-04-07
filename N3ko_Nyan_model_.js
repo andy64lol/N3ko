@@ -3,165 +3,235 @@
 
 class NekoNyanChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Nyan_model_.json') {
-    this.vocabUrl = vocabUrl;
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
+    this.vocabUrl = vocabUrl;
     this.specialDates = {
       '03-24': {
         vocabUrl: 'https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/vocab/additional/N3ko_Birthday_additional_.json',
         priority: 1,
         loaded: false
       },
-      '12-25': {
+       '12-25': {
         vocabUrl: 'https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/vocab/additional/N3ko_Xmas_additional_.json',
         priority: 2,
         loaded: false
       }
     };
-    this.maxRetries = 3;
   }
 
   async init() {
-    try {
-      await this.loadBaseVocabulary();
-      await this.loadDateSpecificVocabulary();
-    } catch (error) {
-      console.error('[NekoNyanChat] Initialization failed:', error.message);
-    }
+    await this.loadBaseVocabulary();
+    await this.loadDateSpecificVocabulary();
     return this;
-  }
-
-  async fetchJsonWithRetry(url, retries = this.maxRetries) {
-    for (let attempt = 1; attempt <= retries; attempt++) {
-      try {
-        const response = await fetch(url);
-        if (!response.ok) throw new Error(`HTTP error ${response.status}`);
-        const data = await response.json();
-        this.validateVocabulary(data);
-        return data;
-      } catch (error) {
-        console.warn(`[NekoNyanChat] Fetch attempt ${attempt} failed for ${url}:`, error.message);
-        if (attempt === retries) {
-          throw new Error(`[NekoNyanChat] Failed to fetch ${url} after ${retries} attempts`);
-        }
-        await this.delay(500 * attempt); // backoff
-      }
-    }
-  }
-
-  validateVocabulary(vocab) {
-    if (!vocab || typeof vocab !== 'object' || !Array.isArray(vocab.intents)) {
-      throw new Error('Vocabulary must have an "intents" array');
-    }
-    for (const intent of vocab.intents) {
-      if (!intent.name || !Array.isArray(intent.patterns) || !Array.isArray(intent.responses)) {
-        throw new Error(`Invalid intent structure detected: ${JSON.stringify(intent)}`);
-      }
-    }
   }
 
   async loadBaseVocabulary() {
     try {
-      const vocab = await this.fetchJsonWithRetry(this.vocabUrl);
-      this.vocabulary = vocab;
+      const response = await fetch(this.vocabUrl);
+      if (!response.ok) throw new Error(HTTP error ${response.status});
+      this.vocabulary = await response.json();
       this.processAllPatterns();
       this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
-      console.info('[NekoNyanChat] Base vocabulary loaded.');
     } catch (error) {
-      console.error('[NekoNyanChat] Failed to load base vocabulary:', error.message);
+      console.error('Nyan loading error:', error);
     }
   }
 
   async loadDateSpecificVocabulary() {
-    const todayKey = this.getDateKey(new Date());
-    const special = this.specialDates[todayKey];
-    if (special && !special.loaded) {
+    const today = new Date();
+    const dateKey = this.getDateKey(today);
+    
+    if (this.specialDates[dateKey] && !this.specialDates[dateKey].loaded) {
       try {
-        const vocab = await this.fetchJsonWithRetry(special.vocabUrl);
-        this.mergeVocabularies(vocab, special.priority);
-        special.loaded = true;
-        console.info(`[NekoNyanChat] Special vocabulary loaded for ${todayKey}.`);
+        const specialDate = this.specialDates[dateKey];
+        const response = await fetch(specialDate.vocabUrl);
+        
+        if (response.ok) {
+          const specialVocab = await response.json();
+          this.mergeVocabularies(specialVocab, specialDate.priority);
+          specialDate.loaded = true;
+          console.log(Loaded special vocabulary for ${dateKey});
+        }
       } catch (error) {
-        console.error(`[NekoNyanChat] Failed to load special vocabulary for ${todayKey}:`, error.message);
+        console.error(Error loading special vocabulary for ${dateKey}:, error);
       }
     }
   }
 
-  mergeVocabularies(newVocab, priority = 0) {
-    try {
-      this.validateVocabulary(newVocab);
-      for (const newIntent of newVocab.intents) {
-        newIntent.processedPatterns = newIntent.patterns.map(pattern => this.processPattern(pattern));
-        const existingIndex = this.vocabulary.intents.findIndex(i => i.name === newIntent.name);
-        if (existingIndex !== -1) {
-          const existingIntent = this.vocabulary.intents[existingIndex];
-          if ((existingIntent.priority || 0) < priority) {
-            this.vocabulary.intents[existingIndex] = newIntent;
-            console.info(`[NekoNyanChat] Replaced intent "${newIntent.name}" with higher priority ${priority}.`);
-          } else {
-            console.info(`[NekoNyanChat] Skipped merging lower-priority intent "${newIntent.name}".`);
-          }
-        } else {
-          this.vocabulary.intents.push(newIntent);
-          console.info(`[NekoNyanChat] Added new intent "${newIntent.name}".`);
+  getDateKey(date) {
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return ${month}-${day};
+  }
+
+  mergeVocabularies(specialVocab, priority = 0) {
+    // Process patterns in the special vocabulary first
+    specialVocab.intents.forEach(intent => {
+      intent.processedPatterns = intent.patterns.map(pattern => 
+        this.processPattern(pattern)
+      );
+    });
+
+    // Merge intents
+    specialVocab.intents.forEach(specialIntent => {
+      const existingIntentIndex = this.vocabulary.intents.findIndex(
+        intent => intent.name === specialIntent.name
+      );
+      
+      if (existingIntentIndex >= 0) {
+        const existingIntent = this.vocabulary.intents[existingIntentIndex];
+        
+        // Check if we should override based on priority
+        if ((existingIntent.priority || 0) < priority) {
+          // Replace with higher priority intent
+          this.vocabulary.intents[existingIntentIndex] = {
+            ...specialIntent,
+            priority
+          };
+        } else if ((existingIntent.priority || 0) === priority) {
+          // Merge patterns and responses at same priority
+          existingIntent.patterns = [
+            ...new Set([...existingIntent.patterns, ...specialIntent.patterns])
+          ];
+          existingIntent.responses = [
+            ...new Set([...existingIntent.responses, ...specialIntent.responses])
+          ];
+          existingIntent.processedPatterns = [
+            ...existingIntent.processedPatterns,
+            ...specialIntent.processedPatterns
+          ];
         }
+      } else {
+        // Add new intent with priority
+        this.vocabulary.intents.push({
+          ...specialIntent,
+          priority
+        });
       }
-    } catch (error) {
-      console.error('[NekoNyanChat] Failed to merge vocabularies:', error.message);
+    });
+
+    // Update default response if special vocab has one
+    if (specialVocab.intents.some(i => i.name === 'default')) {
+      this.defaultResponse = this.getIntentResponses('default');
     }
   }
 
   processAllPatterns() {
-    for (const intent of this.vocabulary.intents) {
-      if (Array.isArray(intent.patterns)) {
-        intent.processedPatterns = intent.patterns.map(pattern => this.processPattern(pattern));
-      }
-    }
+    this.vocabulary.intents.forEach(intent => {
+      intent.processedPatterns = intent.patterns.map(pattern => 
+        this.processPattern(pattern)
+      );
+    });
   }
 
   processPattern(pattern) {
-    try {
-      return new RegExp(pattern, 'i');
-    } catch (error) {
-      console.warn(`[NekoNyanChat] Failed to compile pattern: "${pattern}".`, error.message);
-      return null;
-    }
+    return {
+      original: pattern,
+      normalized: this.normalizeText(pattern),
+      words: this.getWords(pattern)
+    };
   }
 
-  getIntentResponses(name) {
-    const intent = this.vocabulary.intents.find(i => i.name === name);
-    return intent && Array.isArray(intent.responses) ? intent.responses : null;
+  normalizeText(text) {
+    return text
+      .toLowerCase()
+      .replace(/[^\w\s]/g, ' ')  
+      .replace(/\s+/g, ' ')      
+      .trim();
   }
 
-  async chat(input) {
-    if (!input || typeof input !== 'string') {
-      console.warn('[NekoNyanChat] Invalid input, must be a string.');
-      return this.pickRandom(this.defaultResponse);
+  getWords(text) {
+    return this.normalizeText(text)
+      .split(' ')
+      .filter(word => word.length > 0);
+  }
+
+  processInput(input) {
+    return {
+      original: input,
+      normalized: this.normalizeText(input),
+      words: this.getWords(input)
+    };
+  }
+
+  calculateSimilarity(input, pattern) {
+    if (pattern.words.length === 0) return 0;
+
+    const inputWordSet = new Set(input.words);
+    const matchingWords = pattern.words.filter(word => 
+        inputWordSet.has(word)
+    ).length;
+
+    let similarity = (matchingWords / pattern.words.length) * 100;
+
+    const regex = new RegExp(pattern.words.join('.*'), 'i');
+    const regexMatch = input.normalized.match(regex);
+    if (regexMatch) {
+        similarity = Math.max(similarity, 65); 
     }
 
+    if (
+        pattern.normalized.includes(input.normalized) ||
+        input.normalized.includes(pattern.normalized)
+    ) {
+        similarity = 100;
+    }
+
+    return similarity;
+  }
+  
+  findMatchingIntent(userInput) {
+    const processedInput = this.processInput(userInput);
+    
     for (const intent of this.vocabulary.intents) {
-      if (Array.isArray(intent.processedPatterns)) {
-        for (const pattern of intent.processedPatterns) {
-          if (pattern && pattern.test(input)) {
-            return this.pickRandom(intent.responses);
-          }
+      for (const pattern of intent.processedPatterns) {
+        const similarity = this.calculateSimilarity(processedInput, pattern);
+        if (similarity >= 86) {
+          return intent;
         }
       }
     }
-
-    return this.pickRandom(this.defaultResponse);
+    return null;
   }
 
-  pickRandom(arr) {
-    if (!Array.isArray(arr) || arr.length === 0) return 'Meow? (No responses available)';
-    return arr[Math.floor(Math.random() * arr.length)];
+  getIntentResponses(intentName) {
+    const intent = this.vocabulary.intents.find(i => i.name === intentName);
+    return intent?.responses || null;
   }
 
-  getDateKey(date) {
-    return `${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`;
+  generateResponse(userInput) {
+    if (!userInput || typeof userInput !== 'string') {
+      return this.getRandomResponse(this.defaultResponse);
+    }
+    
+    const intent = this.findMatchingIntent(userInput);
+    return intent?.responses 
+      ? this.getRandomResponse(intent.responses)
+      : this.getRandomResponse(this.defaultResponse);
   }
 
-  delay(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
+  getRandomResponse(responses) {
+    return responses[Math.floor(Math.random() * responses.length)];
+  }
+
+  debugMatch(userInput) {
+    const input = this.processInput(userInput);
+    return this.vocabulary.intents.map(intent => {
+      return {
+        intent: intent.name,
+        priority: intent.priority || 0,
+        patterns: intent.processedPatterns.map(pattern => {
+          return {
+            pattern: pattern.original,
+            similarity: this.calculateSimilarity(input, pattern),
+            words: pattern.words,
+            matches: pattern.words.filter(w => input.words.includes(w))
+          };
+        })
+      };
+    });
   }
 }
+
+export default NekoNyanChat;
