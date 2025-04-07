@@ -6324,7 +6324,12 @@
          ],
          "responses":[
             "🎵 *taps paw* Did you know cats invented jazz? These terms are just *scratching* the surface! (≧◡≦)",
-            "*air guitars* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Purrfect pitch detected! Let’s start a CATband! 🎸"
+            "*air guitars* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Purrfect pitch detected! Let’s start a CATband! 🎸",
+            "🎻 *plucks string* (◕‿◕✿) Did you know cats invented the first purr-cussion instrument?",
+            "*trumpet noise* (≧▽≦) Brass? More like *sass*-instruments! *hair flip*",
+            "🔔 *dings triangle* (⌐■_■) Timbre = Fancy word for ‘sound that knocks cups off tables’.",
+            "*air guitars* (ﾉ◕ヮ◕)ﾉ♬ Let’s start a band! You handle the keyboard… I’ll nap on it.",
+            "*whispers* (￣ω￣) The fugue? Just a fancy way to say ‘chasing your own tail in music form’."
          ]
       },
       {
@@ -6345,7 +6350,12 @@
          ],
          "responses":[
             "🦴 *x-ray vision* (⌐■_■) Pro tip: Cats have 230 bones… and 0 regrets about knocking yours out of place!",
-            "*pokes rib* (◕ᴥ◕) This list is the *skeleton* of a good time! 🐾"
+            "*pokes rib* (◕ᴥ◕) This list is the *skeleton* of a good time! 🐾",
+            "🦴 *x-rays paw* (⌐■_■) Fun fact: The clavicle is a cat’s favorite bone to ignore during naps.",
+            "*microscope gaze* (◔_◔) Algae? Fungi? Just fancy names for ‘floor snacks’.",
+            "🧠 *brain spark* (✧ω✧) Synapses fire 2x faster when treats are involved. Science!",
+            "*pokes skull* (´-ω-`) This is where hoomans store their ‘why is the cat judging me?’ thoughts.",
+            "🐌 *snail pace* (￣ω￣) Molluscs: Nature’s reminder that cats are *way* faster."
          ]
       },
       {
@@ -6392,7 +6402,12 @@
          ],
          "responses":[
             "🏺 *ancient meow* (≚ᄌ≚) History is just cats manipulating hoomans… *but shhh*.",
-            "*dusts off scroll* (´-ω-`) Fun fact: The first ‘meow’ predates all these words. 📜"
+            "*dusts off scroll* (´-ω-`) Fun fact: The first ‘meow’ predates all these words. 📜",
+            "🏺 *ancient meow* (≚ᄌ≚) Mesopotamia? Sounds like a cat’s sneeze. Bless you!",
+            "*sphinx pose* (⌐■_■) Pharaohs had it easy. Imagine being worshipped *and* napping all day!",
+            "*carves stone* (◕‿◕✿) Hieroglyphics: The original ‘I knocked this off the table’ art.",
+            "*throws spear* (╬ Ò﹏Ó) Palaeolithic humans just copied our hunting skills. *We* invented the ‘stalk-pounce’ technique!",
+            "*crown tilt* (｀・ω・´)ゞ Tzars? Marxists? All would’ve bowed to the *true* rulers: Cats."
          ]
       },
       {
@@ -6434,7 +6449,12 @@
          ],
          "responses":[
             "📚 *licks paw* (ฅ´ω`ฅ) ‘Meow’ is the only word you need. The rest? Optional.",
-            "*spills ink* (◔_◔) Writing tip: Replace every verb with ‘nap’. Instant poetry! ✍️"
+            "*spills ink* (◔_◔) Writing tip: Replace every verb with ‘nap’. Instant poetry! ✍️",
+            "⚛️ *lab explosion* (☉⩊☉) Kinetic energy = What I have at 3AM. *ZOOOOOM*",
+            "*globe spin* (◕‿◕) Hydrosphere? Geosphere? Just fancy words for ‘things to knock over’.",
+            "🤖 *robot voice* (⌐■_■) Algorithm: A hooman’s attempt to mimic cat logic. Cute.",
+            "*drops weights* (╥﹏╥) Compression is what happens to your soul when I ignore you.",
+            "🌀 *black hole stare* (◔_◔) Phenomena? Like how treats vanish when I blink?"
          ]
       },
       {
@@ -6460,6 +6480,26 @@
          "responses":[
             "🎲 *rolls dice* (ﾉ≧ڡ≦) This category is 87% chaos, 13% ‘why is *this* a word?!’",
             "*spins globe* (✧ω✧) Congrats! You’ve unlocked: ✨*Random Bullsh*t*✨ mode!"
+         ]
+      },
+      {
+         "name":"pharaoh_special",
+         "patterns":[
+            "pharaoh"
+         ],
+         "responses":[
+            "🐫 *sphinx pose* (⌐■_■) Pharaohs had pyramids. I have… this cardboard box. *Superior*.",
+            "*hieroglyphic meow* (◕‿◕✿) Ancient Egyptians worshipped cats. Some things never change."
+         ]
+      },
+      {
+         "name":"skydiving_special",
+         "patterns":[
+            "skydiving"
+         ],
+         "responses":[
+            "🪂 *wind noise* (╯°□°）╯︵ ┻━┻ Skydiving = Hooman’s attempt to mimic our 9AM window jumps.",
+            "*freefall scream* (☉⩊☉) ‘Adrenaline’ is just another word for ‘I regret nothing (yet)!’"
          ]
       }
    ]
