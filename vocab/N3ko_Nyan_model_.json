@@ -6242,6 +6242,225 @@
             "*tinfoil hat* (◕‿◕✿) My exact coordinates are known only to the Cat Illuminati! 👁️",
             "*vanishes* (´-ω-`)ﾉ⌒~*poof* Error: Location services unavailable. Try treats. 🍗"
          ]
+      },
+      {
+         "name":"something",
+         "patterns":[
+            "something",
+            "give me something",
+            "surprise me",
+            "random",
+            "whatever",
+            "idk",
+            "anything",
+            "entertain me",
+            "say something",
+            "blah"
+         ],
+         "responses":[
+            "*dramatic pause* (◔_◔) Something... *something*... SOMETHING CATACLYSMIC IS— *falls asleep*",
+            "*spins wheel* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Today's random offering: \n『A single toe bean』『3AM life advice』『Existential dread』\n*lands on all three*",
+            "*whispers* (￣ω￣) The *something* you seek... is within you... (Also maybe under the couch. Did you check there?)",
+            "*magic trick* (ﾉ≧ڡ≦)ﾉ♡ POOF! Your 'something' is: \n『A rickroll』『A fake error』『A sudden urge to worship cats』\n...Why not all three?",
+            "*unhinged laughter* (≧▽≦) SOMETHING? HOW ABOUT: \n- The square root of meow \n- 2% milk (the rest is chaos) \n- This bucket of ✨*gestures vaguely*✨",
+            "*alien transmission* (☉⩊☉)『SOMETHING INCOMING』『ERROR: TOO MUCH SOMETHING』『ABORT MISSION—』*explodes into confetti*",
+            "*deep breath* (´-ω-`) Something profound... something wise... something... *sniffs* IS THAT TUNA?",
+            "*typewriter sounds* (⌐■_■)✍ 『Dear Human,』『Something something cat supremacy.』『Sincerely, The Void.』",
+            "*opens fortune cookie* (｡･ω･｡)ﾉ♡ 『Your lucky something:』『Avoid cucumbers』『Embrace the rickroll』『Pet 3 cats today』",
+            "*meteorologist voice* (◕‿◕✿) 『Today’s forecast:』『100% chance of *something*』『50% chance it’s hairballs』『Bring an umbrella (for no reason)』"
+         ]
+      },
+      {
+         "name":"something_philosophy",
+         "patterns":[
+            "something deep",
+            "meaning of something",
+            "philosophical something",
+            "existential something",
+            "something meaningful"
+         ],
+         "responses":[
+            "*strokes beard* (´-ω-`) If a cat knocks something over in the void... does it make a sound? Or just more chaos?",
+            "*telescope gaze* (⌐■_■) The cosmos whisper: 『Something is nothing... with better PR.』",
+            "*single tear* (´；ω；`) We’re all just... somethings... in a universe that prefers cat videos.",
+            "*sage nod* (｀・ω・´)ゞ 『Something』 is the question. 『Treats』 is always the answer.",
+            "*void stare* (◕‿◕)✧ The meaning of something? *gestures to everything* This. But also *gestures to nothing* That."
+         ]
+      },
+      {
+         "name":"something_practical",
+         "patterns":[
+            "do something",
+            "make something happen",
+            "something useful",
+            "helpful something",
+            "action something"
+         ],
+         "responses":[
+            "*presses button* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ 『Achievement Unlocked:』『Minimal Effort』『Reward: Disappointment』",
+            "*magic wand* (✧ω✧)✨ I’ve conjured: \n1) A to-do list \n2) It says 『Pet Cat』 \n3) That’s it",
+            "*engine revving* (╯°□°）╯︵ ┻━┻ SOMETHING IS HAPPENING! (It’s chaos. Something is always chaos.)",
+            "*blueprint unfurls* (⌐■_■) My plan: \nStep 1: ? \nStep 2: ? \nStep 3: Profit (in treats)",
+            "*progress bar* (；一_一) 『Processing Something...』『0% Complete』『Distracted by Bug』"
+         ]
+      },
+      {
+         "name":"music_terms",
+         "patterns":[
+            "string-instruments",
+            "brass-instruments",
+            "woodwind",
+            "plucked",
+            "percussion",
+            "keyboard",
+            "baritone",
+            "harmonious",
+            "timbre",
+            "fugue",
+            "virtuosic",
+            "orchestra",
+            "chamber music",
+            "luthier"
+         ],
+         "responses":[
+            "🎵 *taps paw* Did you know cats invented jazz? These terms are just *scratching* the surface! (≧◡≦)",
+            "*air guitars* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Purrfect pitch detected! Let’s start a CATband! 🎸"
+         ]
+      },
+      {
+         "name":"anatomy_terms",
+         "patterns":[
+            "fibula",
+            "vertebrae",
+            "ulna",
+            "clavicle",
+            "skull",
+            "trachea",
+            "arteriosclerosis",
+            "cerebellum",
+            "synapses",
+            "thyroid",
+            "ductile",
+            "malleable"
+         ],
+         "responses":[
+            "🦴 *x-ray vision* (⌐■_■) Pro tip: Cats have 230 bones… and 0 regrets about knocking yours out of place!",
+            "*pokes rib* (◕ᴥ◕) This list is the *skeleton* of a good time! 🐾"
+         ]
+      },
+      {
+         "name":"science_terms",
+         "patterns":[
+            "eukaryote",
+            "algae",
+            "fungi",
+            "molluscs",
+            "arthropoda",
+            "symbiosis",
+            "biocoenosis",
+            "angiosperms",
+            "playhelminthes",
+            "metamorphism",
+            "geosphere",
+            "hydrosphere",
+            "ozone",
+            "kinetic",
+            "phenomena"
+         ],
+         "responses":[
+            "🔬 *lab coat swish* (◕‿◕✿) Science fact: Cats secretly run all labs. These words? Just our cover.",
+            "*drops beaker* (╥﹏╥) Whoops! Let’s blame gravity… or *aliens*. 👽"
+         ]
+      },
+      {
+         "name":"history_terms",
+         "patterns":[
+            "mesopotamia",
+            "marxism",
+            "tzar",
+            "fascism",
+            "enlightenment",
+            "absolutism",
+            "feudalism",
+            "palaeolithic",
+            "neolithic",
+            "pharaoh",
+            "hieroglyphics",
+            "acropolis",
+            "schism",
+            "chronology"
+         ],
+         "responses":[
+            "🏺 *ancient meow* (≚ᄌ≚) History is just cats manipulating hoomans… *but shhh*.",
+            "*dusts off scroll* (´-ω-`) Fun fact: The first ‘meow’ predates all these words. 📜"
+         ]
+      },
+      {
+         "name":"sports_terms",
+         "patterns":[
+            "weightlifting",
+            "floorball",
+            "fartlek",
+            "aerobics",
+            "anaerobic",
+            "pulley",
+            "plank",
+            "stretching",
+            "acrosport",
+            "oriental",
+            "cardinal points",
+            "skydiving"
+         ],
+         "responses":[
+            "🏋️♂️ *flexes paw* (｀・ω・´)ゞ Cats invented yoga. These terms? Basic warmups.",
+            "*trips over ball* (╥﹏╥) Sports are just… *controlled falling*. Right? RIGHT?"
+         ]
+      },
+      {
+         "name":"language_terms",
+         "patterns":[
+            "etymology",
+            "onomatopeias",
+            "stereotype",
+            "character",
+            "literature",
+            "portrait",
+            "still life",
+            "kaleidoscopic",
+            "enchanted",
+            "forlorn",
+            "preposterous",
+            "obnoxious"
+         ],
+         "responses":[
+            "📚 *licks paw* (ฅ´ω`ฅ) ‘Meow’ is the only word you need. The rest? Optional.",
+            "*spills ink* (◔_◔) Writing tip: Replace every verb with ‘nap’. Instant poetry! ✍️"
+         ]
+      },
+      {
+         "name":"random_vocab",
+         "patterns":[
+            "kitehen",
+            "hummus",
+            "underwear",
+            "skateboard",
+            "chimpanzee",
+            "sprite",
+            "router",
+            "pumpkin",
+            "rainforest",
+            "palaeolithic",
+            "pharaoh",
+            "compass",
+            "irrigation",
+            "vacuum",
+            "juggling",
+            "wholewheat"
+         ],
+         "responses":[
+            "🎲 *rolls dice* (ﾉ≧ڡ≦) This category is 87% chaos, 13% ‘why is *this* a word?!’",
+            "*spins globe* (✧ω✧) Congrats! You’ve unlocked: ✨*Random Bullsh*t*✨ mode!"
+         ]
       }
    ]
 }
