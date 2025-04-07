@@ -4,8 +4,9 @@
 class NekoItalianChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Italian_model_.json') {
     this.vocabulary = { intents: [] };
-    this.defaultResponse = ['Miao? (Vocabulary not loaded)'];
+    this.defaultResponse = ['Miau? (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
+    this.requestTimeout = 1000; 
   }
 
   async init() {
@@ -15,13 +16,29 @@ class NekoItalianChat {
 
   async loadBaseVocabulary() {
     try {
-      const response = await fetch(this.vocabUrl);
-      if (!response.ok) throw new Error(`HTTP error ${response.status}`);
-      this.vocabulary = await response.json();
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), this.requestTimeout);
+
+      const response = await fetch(this.vocabUrl, {
+        signal: controller.signal
+      });
+      
+      clearTimeout(timeoutId);
+      
+      if (!response.ok) {
+        throw new Error(`HTTP error ${response.status}`);
+      }
+
+      const data = await response.json();
+      if (!data.intents) {
+        throw new Error('Invalid vocabulary format');
+      }
+
+      this.vocabulary = data;
       this.processAllPatterns();
-      this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
+      this.defaultResponse = this.getIntentResponses('default') || ['Baka... (Default response missing)'];
     } catch (error) {
-      console.error('Nyan loading error:', error);
+      console.error('Failed to load base vocabulary:', error);
     }
   }
 
@@ -67,23 +84,20 @@ class NekoItalianChat {
     if (pattern.words.length === 0) return 0;
 
     const inputWordSet = new Set(input.words);
-    const matchingWords = pattern.words.filter(word => 
-        inputWordSet.has(word)
-    ).length;
-
+    const matchingWords = pattern.words.filter(word => inputWordSet.has(word)).length;
     let similarity = (matchingWords / pattern.words.length) * 100;
 
     const regex = new RegExp(pattern.words.join('.*'), 'i');
     const regexMatch = input.normalized.match(regex);
     if (regexMatch) {
-        similarity = Math.max(similarity, 65); 
+      similarity = Math.max(similarity, 65); 
     }
 
     if (
-        pattern.normalized.includes(input.normalized) ||
-        input.normalized.includes(pattern.normalized)
+      pattern.normalized.includes(input.normalized) ||
+      input.normalized.includes(pattern.normalized)
     ) {
-        similarity = 100;
+      similarity = 100;
     }
 
     return similarity;
