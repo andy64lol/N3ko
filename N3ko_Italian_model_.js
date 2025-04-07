@@ -4,7 +4,7 @@
 class NekoItalianChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Italian_model_.json') {
     this.vocabulary = { intents: [] };
-    this.defaultResponse = ['Miau? (Vocabulary not loaded)'];
+    this.defaultResponse = ['Miao? (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
     this.requestTimeout = 1000; 
   }
