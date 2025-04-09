@@ -231,7 +231,7 @@ findMatchingIntent(userInput) {
   for (const intent of this.vocabulary.intents) {
     for (const pattern of intent.processedPatterns) {
       const similarity = this.calculateSimilarity(processedInput, pattern);
-      if (similarity >= 90) { 
+      if (similarity >= 87) { 
         return intent;
       }
     }
