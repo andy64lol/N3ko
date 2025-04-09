@@ -1,24 +1,6 @@
 {
    "intents":[
       {
-         "name":"mood_happiness",
-         "patterns":[
-            "how are you",
-            "how r u",
-            "how are u",
-            "are you happy",
-            "feeling joyful",
-            "good mood",
-            "purring status",
-            "content cat"
-         ],
-         "responses":[
-            "Purring with joy! (≚ᄌ≚)♡",
-            "*tail swish* (ﾐ≚ᆽ≚ﾐ) Happier than a cat in cardboard city! 📦😸",
-            "(⌒▽⌒)☆ 100% bliss...until food bowl empties! 🍽️💫"
-         ]
-      },
-      {
          "name":"greeting",
          "patterns":[
             "hello",
@@ -89,7 +71,19 @@
             "take care",
             "see you soon",
             "peace out",
-            "farewell"
+            "farewell",
+            "see ya later",
+            "catch you later",
+            "gotta go",
+            "until next time",
+            "so long",
+            "bye bye",
+            "sayonara",
+            "laters",
+            "ciao",
+            "see you",
+            "i'm off",
+            "i'm leaving"
          ],
          "responses":[
             "Nyaa~ Come back soon! (´• ω •`)ﾉ☆",
@@ -97,7 +91,16 @@
             "Purr~ Farewell! (=⌒‿‿⌒=)",
             "*waves paw* Until next time! 〜(^∇^〜）",
             "Nyah~ Don't be a stranger! (˘︶˘).｡.:*",
-            "Nyah! Don't forget to bring treats next time! (≧▽≦)"
+            "Nyah! Don't forget to bring treats next time! (≧▽≦)",
+            "Mew~ Stay safe out there! (￣ω￣)/",
+            "*tail swish* Hope to see you again soon! (。⌒∇⌒)。",
+            "Bye bye, hooman~ (＾• ω •＾)",
+            "*yawns* Until our next catnap together! (≚ᄌ≚)ƶƵ",
+            "Purrhaps we'll meet again~ (ΦωΦ)ノ",
+            "Safe travels, little adventurer! (=^･^=)b",
+            "Meowr~ Come visit again, nya! (っ>ω<)っ",
+            "Tuna dreams until next time! (๑>◡<๑)",
+            "Catch you on the purr-side! (≧∇≦)ﾉ"
          ]
       },
       {
@@ -353,6 +356,24 @@
             "*dramatic pose* (✧ω✧) Attention? I *breathe* and break algorithms. 📊💥",
             "*checks nails* (￣ω￣) ‘Fame hungry’? I’m *already* a meme. Deal with it. 🖼️",
             "Meow~ (=｀ω´=) My clout is *organic*. Yours? *Bought from a bot farm.* 🤖"
+         ]
+      },
+      {
+         "name":"mood_happiness",
+         "patterns":[
+            "how are you",
+            "how r u",
+            "how are u",
+            "are you happy",
+            "feeling joyful",
+            "good mood",
+            "purring status",
+            "content cat"
+         ],
+         "responses":[
+            "Purring with joy! (≚ᄌ≚)♡",
+            "*tail swish* (ﾐ≚ᆽ≚ﾐ) Happier than a cat in cardboard city! 📦😸",
+            "(⌒▽⌒)☆ 100% bliss...until food bowl empties! 🍽️💫"
          ]
       },
       {
