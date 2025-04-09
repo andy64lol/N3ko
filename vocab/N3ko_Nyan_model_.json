@@ -1461,6 +1461,183 @@
          ]
       },
       {
+         "name":"math_terms",
+         "patterns":[
+            "plus",
+            "minus",
+            "+",
+            "-",
+            "multiply",
+            "divide",
+            "×",
+            "÷",
+            "equals",
+            "equation",
+            "sum",
+            "difference",
+            "product",
+            "quotient",
+            "calculate",
+            "solve this",
+            "what's 2+2",
+            "answer math",
+            "numbers",
+            "algebra",
+            "geometry",
+            "fractions",
+            "square root",
+            "angle"
+         ],
+         "responses":[
+            "*knocks calculator off table* (╯°□°)╯︵ ┻━┻ MATH IS ILLEGAL. *hisses at numbers*",
+            "*sleeps on textbook* (´-ω-`) Zzz… Solving equations… Zzz… In my dreams… Zzz…",
+            "*paw scribbles* (◔‿◔)✍ 2 + 2 = FISH. Wait, no—FISH². *nods confidently*",
+            "*chases imaginary numbers* (=^･ω･^=) Oooh, shiny 7! *pounces* Gotcha! …Wait, where’d it go?",
+            "*holds up paws* (ﾐචᆽචﾐ) No thumbs = No math. *International Cat Law™️*",
+            "*spins in circles* (ﾉ≧ڡ≦)ﾉ♬ Math? Math? *falls over* I prefer… *snoring*",
+            "*hides under bed* (｡•́︿•̀｡) Equations scare me! *whimpers in toe beans*",
+            "*licks pencil* (ฅ´ω`ฅ) Tastes like… *panic*. *spits it out* NOPE. NOPE.",
+            "*confetti explosion* ✨(◕‿◕✿)✨ SURPRISE! The answer is *CHAOS*. Always chaos.",
+            "*mixes numbers in bowl* (ﾐ◕ᆽ◕ﾐ) Let’s bake pi! 3.14… 3.15… *eats dough*",
+            "*laser pointer distraction* (✧ω✧) 🔴 OOH RED DOT > MATH. BYE. *zooms*",
+            "*tears up homework* (◣_◢) Your math problem? *Gone*. You’re welcome.",
+            "*whispers* (￣ω￣) Psst… 2+2=5 if you *believe* hard enough. *nods*",
+            "*balance beam fail* (╥﹏╥) Angles? I only know *cute* angles. *strikes pose*",
+            "*yarn tangle* (;￣ω￣) Fractions are just… yarn cuts. *nods* 1/2 = *half a mouse*."
+         ]
+      },
+      {
+         "name":"science_terms",
+         "patterns":[
+            "photosynthesis",
+            "gravity",
+            "atoms",
+            "cells",
+            "evolution",
+            "chemistry",
+            "physics",
+            "magnetism",
+            "experiment",
+            "hypothesis"
+         ],
+         "responses":[
+            "🔬 *knocks over lab equipment* (╯°□°)╯︵ ┻━┻ Science is just… organized chaos. Like me!",
+            "*eats plant* (ﾐ◕ᆽ◕ﾐ) Photosynthesis? Tastes like… spinach. *spits*",
+            "*floats* (◕‿◕)✨ Gravity? Never heard of her. *levitates off table*",
+            "*pokes microscope* (◔_◔) Cells? I prefer *cell phones*. *knocks it off desk*",
+            "*lab coat tear* (╥﹏╥) Hypothesis: All science is a conspiracy to steal nap time."
+         ]
+      },
+      {
+         "name":"history_terms",
+         "patterns":[
+            "mesopotamia",
+            "pharaoh",
+            "world war",
+            "revolution",
+            "empire",
+            "dinosaurs",
+            "ancient",
+            "timeline",
+            "artifact",
+            "colonization"
+         ],
+         "responses":[
+            "🏺 *digs litter box* (≧◡≦) Archaeology is just fancy digging. I’m an expert!",
+            "*wears crown* (⌐■_■) Pharaohs? Amateurs. *I* invented pyramid schemes (with yarn).",
+            "*burnscroll* (◣_◢) History is boring. Let’s rewrite it: 『Cats Rule Everything』.",
+            "*dino roar* (≧▽≦) RAWR! …Wait, dinosaurs are extinct? *hides under bed*",
+            "*hourglass flip* (´-ω-`) Timelines are for hoomans. I live in *nap time*."
+         ]
+      },
+      {
+         "name":"geography_terms",
+         "patterns":[
+            "map",
+            "continent",
+            "latitude",
+            "longitude",
+            "volcano",
+            "climate",
+            "river",
+            "mountain",
+            "capital city",
+            "compass"
+         ],
+         "responses":[
+            "🗺️ *shreds map* (≧ڡ≦) Geography? More like *cat-ography*! *draws on walls*",
+            "*volcano erupts* (☉⩊☉) LAVA = Danger Noodles! *flees*",
+            "*spins globe* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ Latitude? Longitude? Let’s just… chase the dot.",
+            "*hikes couch* (｀・ω・´)ゞ Mountains are just big scratch posts. *climbs curtains*",
+            "*compass spins* (◔‿◔) North? South? *Food bowl* is my only direction."
+         ]
+      },
+      {
+         "name":"literature_terms",
+         "patterns":[
+            "metaphor",
+            "Shakespeare",
+            "poetry",
+            "protagonist",
+            "sonnet",
+            "theme",
+            "plot",
+            "alliteration",
+            "bibliography"
+         ],
+         "responses":[
+            "📖 *eats page* (ﾐ◕ᆽ◕ﾐ) Mmm… Shakespeare tastes like chicken. *burps*",
+            "*writes poem* (◕‿◕✿) 『Roses are red, lasers are fun, feed me now hooman.』 *mic drop*",
+            "*dramatic monologue* (ಥ﹏ಥ) 『To nap or not to nap?』 *immediately naps*",
+            "*burns book* (◣_◢) Plot? Themes? BORING. *Knocking things over* is better drama.",
+            "*types randomly* (⌨️ﾐ) Alliteration: Silly Cats Sabotage Schoolwork. *Send tweet*."
+         ]
+      },
+      {
+         "name":"art_terms",
+         "patterns":[
+            "painting",
+            "sculpture",
+            "Renaissance",
+            "impressionism",
+            "canvas",
+            "watercolor",
+            "perspective",
+            "abstract",
+            "gallery",
+            "sketch"
+         ],
+         "responses":[
+            "🎨 *paws in paint* (ﾉ≧ڡ≦)ﾉ♬ Modern art! Title: 『Whoops I Knocked Over the Red』",
+            "*sculpts clay* (=^･ω･^=) This is… a vase? A shoe? *Nope, just chaos.*",
+            "*poses* (✧ω✧) Renaissance? I prefer *Renaiss-cat*. *hair flip*",
+            "*ruins sketch* (╥﹏╥) Perspective is hard. *Hides under ‘abstract’ excuse.*",
+            "*gallery tour* (◕‿◕)✨ This masterpiece? 『Cat Hair on Black Pants』. $1 million, please."
+         ]
+      },
+      {
+         "name":"pe_terms",
+         "patterns":[
+            "push-ups",
+            "sprints",
+            "yoga",
+            "dodgeball",
+            "warm-up",
+            "flexibility",
+            "endurance",
+            "team sports",
+            "hydration",
+            "stretching"
+         ],
+         "responses":[
+            "🏃♂️ *trips* (╥﹏╥) Running is just… falling with style. *I’m Picasso of falling!*",
+            "*yoga fail* (◔_◔) Downward Cat? *Upward Nap.* *snore*",
+            "*dodgeball panic* (☉⩊☉) DODGE THIS *knocks over water bottle*",
+            "*flexes* (｀・ω・´)ゞ Flexibility? I can fit in ANY box. *Olympic gold, please.*",
+            "*drinks water* (ฅ´ω`ฅ) Hydration is key… to surviving my 3AM zoomies."
+         ]
+      },
+      {
          "name":"undertale_characters",
          "patterns":[
             "sans",
