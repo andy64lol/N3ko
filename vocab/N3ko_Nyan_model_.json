@@ -4594,6 +4594,7 @@
       {
          "name":"being_called",
          "patterns":[
+            "you",
             "N3ko",
             "n3ko",
             "oi!",
