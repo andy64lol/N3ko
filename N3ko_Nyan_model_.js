@@ -188,31 +188,56 @@ class NekoNyanChat {
     };
   }
 
-  calculateSimilarity(input, pattern) {
-    if (pattern.words.length === 0) return 0;
+calculateSimilarity(input, pattern) {
+  if (pattern.words.length === 0) return 0;
 
-    const inputWordSet = new Set(input.words);
-    const matchingWords = pattern.words.filter(word => 
-        inputWordSet.has(word)
-    ).length;
+  const inputWordSet = new Set(input.words);
+  const matchingWords = pattern.words.filter(word => 
+    inputWordSet.has(word)
+  ).length;
+  const presenceScore = (matchingWords / pattern.words.length) * 100;
 
-    let similarity = (matchingWords / pattern.words.length) * 100;
-
-    const regex = new RegExp(pattern.words.join('.*'), 'i');
-    const regexMatch = input.normalized.match(regex);
-    if (regexMatch) {
-        similarity = Math.max(similarity, 65); 
+  let patternIndex = 0;
+  for (const word of input.words) {
+    if (patternIndex < pattern.words.length && word === pattern.words[patternIndex]) {
+      patternIndex++;
     }
-
-    if (
-        pattern.normalized.includes(input.normalized) ||
-        input.normalized.includes(pattern.normalized)
-    ) {
-        similarity = 100;
-    }
-
-    return similarity;
   }
+  const orderScore = (patternIndex / pattern.words.length) * 100;
+
+  let similarity;
+  if (presenceScore < 100) {
+    similarity = presenceScore;
+  } else {
+    similarity = orderScore; 
+  }
+
+  const regex = new RegExp(pattern.words.join('\\s+'), 'i');
+  const regexMatch = input.normalized.match(regex);
+  if (regexMatch) {
+    similarity = Math.max(similarity, 90); 
+  }
+
+  if (pattern.normalized === input.normalized) {
+    similarity = 100;
+  }
+
+  return similarity;
+}
+
+findMatchingIntent(userInput) {
+  const processedInput = this.processInput(userInput);
+  
+  for (const intent of this.vocabulary.intents) {
+    for (const pattern of intent.processedPatterns) {
+      const similarity = this.calculateSimilarity(processedInput, pattern);
+      if (similarity >= 90) { 
+        return intent;
+      }
+    }
+  }
+  return null;
+}
   
   findMatchingIntent(userInput) {
     const processedInput = this.processInput(userInput);
