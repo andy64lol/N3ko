@@ -18,7 +18,10 @@ class NekoNyanChat {
         loaded: false
       }
     };
-    this.requestTimeout = 1000; 
+    this.requestTimeout = 1000;
+    this.intentWordCounts = {};
+    this.intentTotalWords = {};
+    this.vocabularySet = new Set();
   }
 
   async init() {
@@ -93,6 +96,7 @@ class NekoNyanChat {
 
       this.mergeVocabularies(specialVocab, specialDate.priority);
       specialDate.loaded = true;
+      this.processAllPatterns(); 
       console.log(`Loaded special vocabulary for ${dateKey}`);
     } catch (error) {
       console.error(`Error loading special vocabulary for ${dateKey}:`, error);
@@ -106,12 +110,6 @@ class NekoNyanChat {
   }
 
   mergeVocabularies(specialVocab, priority = 0) {
-    specialVocab.intents.forEach(intent => {
-      intent.processedPatterns = intent.patterns.map(pattern => 
-        this.processPattern(pattern)
-      );
-    });
-
     specialVocab.intents.forEach(specialIntent => {
       const existingIntentIndex = this.vocabulary.intents.findIndex(
         intent => intent.name === specialIntent.name
@@ -132,10 +130,6 @@ class NekoNyanChat {
           existingIntent.responses = [
             ...new Set([...existingIntent.responses, ...specialIntent.responses])
           ];
-          existingIntent.processedPatterns = [
-            ...existingIntent.processedPatterns,
-            ...specialIntent.processedPatterns
-          ];
         }
       } else {
         this.vocabulary.intents.push({
@@ -151,10 +145,25 @@ class NekoNyanChat {
   }
 
   processAllPatterns() {
+    this.intentWordCounts = {};
+    this.intentTotalWords = {};
+    this.vocabularySet.clear();
+
     this.vocabulary.intents.forEach(intent => {
-      intent.processedPatterns = intent.patterns.map(pattern => 
-        this.processPattern(pattern)
-      );
+      const wordCounts = {};
+      let totalWords = 0;
+
+      intent.patterns.forEach(pattern => {
+        const processed = this.processPattern(pattern);
+        processed.words.forEach(word => {
+          wordCounts[word] = (wordCounts[word] || 0) + 1;
+          totalWords += 1;
+          this.vocabularySet.add(word);
+        });
+      });
+
+      this.intentWordCounts[intent.name] = wordCounts;
+      this.intentTotalWords[intent.name] = totalWords;
     });
   }
 
@@ -169,8 +178,8 @@ class NekoNyanChat {
   normalizeText(text) {
     return text
       .toLowerCase()
-      .replace(/[^\w\s]/g, ' ')  
-      .replace(/\s+/g, ' ')      
+      .replace(/[^\w\s]/g, ' ')
+      .replace(/\s+/g, ' ')
       .trim();
   }
 
@@ -188,55 +197,45 @@ class NekoNyanChat {
     };
   }
 
-  calculateSimilarity(input, pattern) {
-    if (pattern.words.length === 0) return 0;
-
-    const inputWordSet = new Set(input.words);
-    const matchingWords = pattern.words.filter(word => 
-      inputWordSet.has(word)
-    ).length;
-    const presenceScore = (matchingWords / pattern.words.length) * 100;
-
-    let patternIndex = 0;
-    for (const word of input.words) {
-      if (patternIndex < pattern.words.length && word === pattern.words[patternIndex]) {
-        patternIndex++;
-      }
-    }
-    const orderScore = (patternIndex / pattern.words.length) * 100;
-
-    let similarity;
-    if (presenceScore < 100) {
-      similarity = presenceScore;
-    } else {
-      similarity = orderScore; 
-    }
-
-    const regex = new RegExp(pattern.words.join('\\s+'), 'i');
-    const regexMatch = input.normalized.match(regex);
-    if (regexMatch) {
-      similarity = Math.max(similarity, 100); 
-    }
-
-    if (pattern.normalized === input.normalized) {
-      similarity = 60;
-    }
-
-    return similarity;
-  }
-
   findMatchingIntent(userInput) {
     const processedInput = this.processInput(userInput);
+    const inputWords = processedInput.words;
+
+    let maxScore = -Infinity;
+    let secondMaxScore = -Infinity;
+    let bestIntent = null;
+
+    const totalPatterns = this.vocabulary.intents.reduce((sum, intent) => sum + intent.patterns.length, 0);
+    const vocabSize = this.vocabularySet.size;
 
     for (const intent of this.vocabulary.intents) {
-      for (const pattern of intent.processedPatterns) {
-        const similarity = this.calculateSimilarity(processedInput, pattern);
-        if (similarity >= 69) {
-          return intent;
-        }
+      const wordCounts = this.intentWordCounts[intent.name] || {};
+      const totalWordsInIntent = this.intentTotalWords[intent.name] || 0;
+
+      const prior = Math.log((intent.patterns.length + 1) / (totalPatterns + this.vocabulary.intents.length));
+      let score = prior;
+
+      for (const word of inputWords) {
+        const count = wordCounts[word] || 0;
+        const probability = (count + 1) / (totalWordsInIntent + vocabSize);
+        score += Math.log(probability);
+      }
+
+      if (score > maxScore) {
+        secondMaxScore = maxScore;
+        maxScore = score;
+        bestIntent = intent;
+      } else if (score > secondMaxScore) {
+        secondMaxScore = score;
       }
     }
-    return null;
+
+    const confidenceThreshold = 2; 
+    if (maxScore - secondMaxScore < confidenceThreshold) {
+      return null;
+    }
+
+    return bestIntent;
   }
 
   getIntentResponses(intentName) {
@@ -266,20 +265,35 @@ class NekoNyanChat {
 
   debugMatch(userInput) {
     const input = this.processInput(userInput);
-    return this.vocabulary.intents.map(intent => {
-      return {
-        intent: intent.name,
-        priority: intent.priority || 0,
-        patterns: intent.processedPatterns.map(pattern => {
-          return {
-            pattern: pattern.original,
-            similarity: this.calculateSimilarity(input, pattern),
-            words: pattern.words,
-            matches: pattern.words.filter(w => input.words.includes(w))
-          };
-        })
+    const scores = {};
+
+    const totalPatterns = this.vocabulary.intents.reduce((sum, intent) => sum + intent.patterns.length, 0);
+    const vocabSize = this.vocabularySet.size;
+
+    this.vocabulary.intents.forEach(intent => {
+      const wordCounts = this.intentWordCounts[intent.name] || {};
+      const totalWordsInIntent = this.intentTotalWords[intent.name] || 0;
+      const prior = Math.log((intent.patterns.length + 1) / (totalPatterns + this.vocabulary.intents.length));
+      let score = prior;
+
+      input.words.forEach(word => {
+        const count = wordCounts[word] || 0;
+        const probability = (count + 1) / (totalWordsInIntent + vocabSize);
+        score += Math.log(probability);
+      });
+
+      scores[intent.name] = {
+        score: score,
+        prior: prior,
+        words: input.words.map(word => ({
+          word: word,
+          count: wordCounts[word] || 0,
+          probability: (wordCounts[word] || 0 + 1) / (totalWordsInIntent + vocabSize)
+        }))
       };
     });
+
+    return scores;
   }
 }
 
