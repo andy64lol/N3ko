@@ -36,7 +36,7 @@ class NekoSpanishChat {
 
       this.vocabulary = data;
       this.processAllPatterns();
-      this.defaultResponse = this.getIntentResponses('default') || ['Baka... (Default response missing)'];
+      this.defaultResponse = this.getIntentResponses('default') || ['Miau? (Default response missing)'];
     } catch (error) {
       console.error('Failed to load base vocabulary:', error);
     }
