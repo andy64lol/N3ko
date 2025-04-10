@@ -36,7 +36,7 @@ class NekoBasetestChat {
 
       this.vocabulary = data;
       this.processAllPatterns();
-      this.defaultResponse = this.getIntentResponses('default') || ['Baka... (Default response missing)'];
+      this.defaultResponse = this.getIntentResponses('default') || ['coming soon...'];
     } catch (error) {
       console.error('Failed to load base vocabulary:', error);
     }
