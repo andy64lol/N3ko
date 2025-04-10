@@ -1,19 +1,6 @@
 {
    "intents":[
       {
-         "name":"nothing_here",
-         "patterns":[
-            "what is basetest",
-            "mistery model",
-            "bug model",
-            "coming soon",
-            "testbot"
-         ],
-         "reponses":[
-            "D-don't ask me,ask him! (≚ᄌ≚)"
-         ]
-      },
-      {
          "name":"mood_happiness",
          "patterns":[
             "how are you",
