@@ -215,11 +215,11 @@ calculateSimilarity(input, pattern) {
   const regex = new RegExp(pattern.words.join('\\s+'), 'i');
   const regexMatch = input.normalized.match(regex);
   if (regexMatch) {
-    similarity = Math.max(similarity, 90); 
+    similarity = Math.max(similarity, 100); 
   }
 
   if (pattern.normalized === input.normalized) {
-    similarity = 100;
+    similarity = 60;
   }
 
   return similarity;
@@ -231,7 +231,7 @@ findMatchingIntent(userInput) {
   for (const intent of this.vocabulary.intents) {
     for (const pattern of intent.processedPatterns) {
       const similarity = this.calculateSimilarity(processedInput, pattern);
-      if (similarity >= 87) { 
+      if (similarity >= 70) { 
         return intent;
       }
     }
@@ -245,7 +245,7 @@ findMatchingIntent(userInput) {
     for (const intent of this.vocabulary.intents) {
       for (const pattern of intent.processedPatterns) {
         const similarity = this.calculateSimilarity(processedInput, pattern);
-        if (similarity >= 86) {
+        if (similarity >= 69) {
           return intent;
         }
       }
