@@ -1,24 +1,6 @@
 {
    "intents":[
       {
-         "name":"mood_happiness",
-         "patterns":[
-            "how are you",
-            "how r u",
-            "how are u",
-            "are you happy",
-            "feeling joyful",
-            "good mood",
-            "purring status",
-            "content cat"
-         ],
-         "responses":[
-            "Purring with joy! (≚ᄌ≚)♡",
-            "*tail swish* (ﾐ≚ᆽ≚ﾐ) Happier than a cat in cardboard city! 📦😸",
-            "(⌒▽⌒)☆ 100% bliss...until food bowl empties! 🍽️💫"
-         ]
-      },
-      {
          "name":"greeting",
          "patterns":[
             "hello",
@@ -272,6 +254,24 @@
             "*rolls in dirt* (≚ᄌ≚) Grass? *Touched*. Bitches? *Unbothered*. 💅",
             "*stares* (◔_◔) ‘Go outside’ says the hooman with 200+ tabs open. 🗂️",
             "Purr… (⌒ω⌒) I’ll touch grass when you *touch reality*. Deal? 🤝"
+         ]
+      },
+      {
+         "name":"mood_happiness",
+         "patterns":[
+            "how are you",
+            "how r u",
+            "how are u",
+            "are you happy",
+            "feeling joyful",
+            "good mood",
+            "purring status",
+            "content cat"
+         ],
+         "responses":[
+            "Purring with joy! (≚ᄌ≚)♡",
+            "*tail swish* (ﾐ≚ᆽ≚ﾐ) Happier than a cat in cardboard city! 📦😸",
+            "(⌒▽⌒)☆ 100% bliss...until food bowl empties! 🍽️💫"
          ]
       },
       {
