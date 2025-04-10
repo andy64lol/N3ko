@@ -1,5 +1,5 @@
-//N3ko Nyan model
-//made by andy64lol
+// N3ko Nyan model
+// made by andy64lol
 
 class NekoNyanChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Nyan_model_.json') {
@@ -38,13 +38,13 @@ class NekoNyanChat {
     try {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), this.requestTimeout);
-      
+
       const response = await fetch(this.vocabUrl, {
         signal: controller.signal
       });
-      
+
       clearTimeout(timeoutId);
-      
+
       if (!response.ok) {
         throw new Error(`HTTP error ${response.status}`);
       }
@@ -66,7 +66,7 @@ class NekoNyanChat {
   async loadDateSpecificVocabulary() {
     const today = new Date();
     const dateKey = this.getDateKey(today);
-    
+
     if (!this.specialDates[dateKey] || this.specialDates[dateKey].loaded) {
       return;
     }
@@ -75,13 +75,13 @@ class NekoNyanChat {
       const specialDate = this.specialDates[dateKey];
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), this.requestTimeout);
-      
+
       const response = await fetch(specialDate.vocabUrl, {
         signal: controller.signal
       });
-      
+
       clearTimeout(timeoutId);
-      
+
       if (!response.ok) {
         throw new Error(`HTTP error ${response.status}`);
       }
@@ -116,10 +116,10 @@ class NekoNyanChat {
       const existingIntentIndex = this.vocabulary.intents.findIndex(
         intent => intent.name === specialIntent.name
       );
-      
+
       if (existingIntentIndex >= 0) {
         const existingIntent = this.vocabulary.intents[existingIntentIndex];
-        
+
         if ((existingIntent.priority || 0) < priority) {
           this.vocabulary.intents[existingIntentIndex] = {
             ...specialIntent,
@@ -188,60 +188,46 @@ class NekoNyanChat {
     };
   }
 
-calculateSimilarity(input, pattern) {
-  if (pattern.words.length === 0) return 0;
+  calculateSimilarity(input, pattern) {
+    if (pattern.words.length === 0) return 0;
 
-  const inputWordSet = new Set(input.words);
-  const matchingWords = pattern.words.filter(word => 
-    inputWordSet.has(word)
-  ).length;
-  const presenceScore = (matchingWords / pattern.words.length) * 100;
+    const inputWordSet = new Set(input.words);
+    const matchingWords = pattern.words.filter(word => 
+      inputWordSet.has(word)
+    ).length;
+    const presenceScore = (matchingWords / pattern.words.length) * 100;
 
-  let patternIndex = 0;
-  for (const word of input.words) {
-    if (patternIndex < pattern.words.length && word === pattern.words[patternIndex]) {
-      patternIndex++;
-    }
-  }
-  const orderScore = (patternIndex / pattern.words.length) * 100;
-
-  let similarity;
-  if (presenceScore < 100) {
-    similarity = presenceScore;
-  } else {
-    similarity = orderScore; 
-  }
-
-  const regex = new RegExp(pattern.words.join('\\s+'), 'i');
-  const regexMatch = input.normalized.match(regex);
-  if (regexMatch) {
-    similarity = Math.max(similarity, 100); 
-  }
-
-  if (pattern.normalized === input.normalized) {
-    similarity = 60;
-  }
-
-  return similarity;
-}
-
-findMatchingIntent(userInput) {
-  const processedInput = this.processInput(userInput);
-  
-  for (const intent of this.vocabulary.intents) {
-    for (const pattern of intent.processedPatterns) {
-      const similarity = this.calculateSimilarity(processedInput, pattern);
-      if (similarity >= 70) { 
-        return intent;
+    let patternIndex = 0;
+    for (const word of input.words) {
+      if (patternIndex < pattern.words.length && word === pattern.words[patternIndex]) {
+        patternIndex++;
       }
     }
+    const orderScore = (patternIndex / pattern.words.length) * 100;
+
+    let similarity;
+    if (presenceScore < 100) {
+      similarity = presenceScore;
+    } else {
+      similarity = orderScore; 
+    }
+
+    const regex = new RegExp(pattern.words.join('\\s+'), 'i');
+    const regexMatch = input.normalized.match(regex);
+    if (regexMatch) {
+      similarity = Math.max(similarity, 100); 
+    }
+
+    if (pattern.normalized === input.normalized) {
+      similarity = 60;
+    }
+
+    return similarity;
   }
-  return null;
-}
-  
+
   findMatchingIntent(userInput) {
     const processedInput = this.processInput(userInput);
-    
+
     for (const intent of this.vocabulary.intents) {
       for (const pattern of intent.processedPatterns) {
         const similarity = this.calculateSimilarity(processedInput, pattern);
@@ -262,7 +248,7 @@ findMatchingIntent(userInput) {
     if (!userInput || typeof userInput !== 'string') {
       return this.getRandomResponse(this.defaultResponse);
     }
-    
+
     try {
       const intent = this.findMatchingIntent(userInput);
       return intent?.responses 
