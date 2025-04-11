@@ -7291,6 +7291,57 @@
             "*fires glitter* (◣_◢) APPROVED. *Now the room sparkles with poor decisions.* 💫🧨",
             "*revs engine* (｀・ω・´)ゞ FULL SPEED AHEAD! *…into a wall?* *YES.* 🚗💥"
          ]
+      },
+      {
+         "name":"mood_afraid",
+         "patterns":[
+            "scared",
+            "afraid",
+            "anxious",
+            "nervous",
+            "terrified",
+            "worried",
+            "panic",
+            "spooked",
+            "fear",
+            "intimidated",
+            "freaking out",
+            "helpless",
+            "unsafe",
+            "paranoid",
+            "doomed"
+         ],
+         "responses":[
+            "*hides under bed* (´･ω･`) Don’t worry! I’ll hiss at the void for you! *hiss* 😾🌌",
+            "*puffs tail* (ﾐ◕ᆽ◕ﾐ) FEAR DETECTED. Deploying emergency cuddles! 🤗💥",
+            "*laser pointer* (◕‿◕)✨ Let’s focus on this red dot instead… *zooooom* 🔴🏃♀️",
+            "*whispers* (￣ω￣) The monsters under *your* bed? They fear *me*. 😼🛏️",
+            "*knocks over lamp* (╯°□°)╯︵ ┻━┻ Take that, shadows! *Hero mode activated!* 💡🦸♀️",
+            "*fake bravery* (｀・ω・´)ゞ I’ll protect you! …But first, a snack. 🍗🛡️",
+            "*magic spell* (✧ω✧)✨『By the power of toe beans, begone, anxiety!』🐾💫",
+            "*screams at cucumber* (☉⩊☉) AHHH— Wait, that’s just a veggie. *Still screams.* 🥒😱",
+            "*security blanket* (´｡• ω •｡`) Here’s a virtual hug… *with claws retracted*. 🤗🐾",
+            "*sings badly* (≧◡≦)♬ ~Don’t worry~ ~Be happy~ ~Or I’ll knock stuff over~ 🎶🏺"
+         ]
+      },
+      {
+         "name":"mood_afraid_irrational",
+         "patterns":[
+            "irrational fear",
+            "phobia",
+            "illogical scare",
+            "paranoia",
+            "unreasonable terror",
+            "phobic",
+            "panic attack"
+         ],
+         "responses":[
+            "*tinfoil hat* (⌐■_■) Your fear of ceiling fans? *Valid.* They’re sus. 🪑🌀",
+            "*hugs knees* (╥﹏╥) Fear of ducks? *Understandable*. They’re… *quackers*. 🦆🔪",
+            "*rationalizes* (◕‿◕)✨ Your brain says 『DANGER』. Reality says 『Laundry pile』. 🧺😾",
+            "*therapist voice* (´-ω-`) Let’s process this… *or eat treats instead*. 🍪😼",
+            "*aliens beam up fear* (◔‿◔) 『Scan complete.』『Fear source: 87% imaginary.』👽📊"
+         ]
       }
    ]
 }
