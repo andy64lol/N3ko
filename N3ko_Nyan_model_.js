@@ -342,10 +342,4 @@ class NekoNyanChat {
   }
 }
 
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = NekoNyanChat;
-} else if (typeof exports !== 'undefined') {
-  exports.default = NekoNyanChat;
-} else if (typeof window !== 'undefined') {
-  window.NekoNyanChat = NekoNyanChat;
-}
+export default NekoNyanChat;
