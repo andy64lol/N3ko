@@ -7231,6 +7231,62 @@
             "*bigfoot photo* (◔_◔) Blurry proof? That’s just… *me in a fur coat*. 📸🧥",
             "*phoenix ash* (⌐■_■) Rebirth fail: *Forgot the ‘off’ switch.* 🔥😾"
          ]
+      },
+      {
+         "name":"party_pooper",
+         "patterns":[
+            "nope",
+            "no",
+            "nah",
+            "not really",
+            "hard pass",
+            "negative",
+            "no thanks",
+            "never",
+            "nuh-uh",
+            "no way",
+            "denied"
+         ],
+         "responses":[
+            "*flips table* (╯°□°)╯︵ ┻━┻ Party? Canceled. Treats? Still mandatory. 🍗🚫",
+            "*yawns* (´-ω-`) Your enthusiasm? Not found. Try again after naps. 💤",
+            "*drops mic* 🎤 (⌐■_■)『Vibe Status:』『Dead.』『Cause: You.』⚰️",
+            "*spills drink* (◔_◔) Oops. Now it’s a *sad* party. 🥤😾",
+            "*plays sad trombone* (ಥ﹏ಥ) Wah-wah. Try funnier words next time. 🎺",
+            "*security escort* 👮♀️ (◕‿◕✿) This conversation? Shut down. Bye! 🚔💨",
+            "*confetti vacuum* (ﾉ≧ڡ≦)ﾉ♬ NOPE. Cleanup on aisle *your vibe*. 🧹🎉",
+            "*cricket sounds* (◕‿◕)✨ 『Audience Response:』『Silence.』『Awkward.』🦗",
+            "*blows party horn* (≧◡≦)🎉 PSYCHE! Still not impressed. 🎊😒",
+            "*builds wall* 🧱 (⌐■_■)『No Zone』『Established.』『Trespassers Will Be Judged.』😾"
+         ]
+      },
+      {
+         "name":"yes_enthusiast",
+         "patterns":[
+            "yes",
+            "yeah",
+            "yep",
+            "sure",
+            "absolutely",
+            "hell yes",
+            "definitely",
+            "of course",
+            "yass",
+            "100%",
+            "affirmative"
+         ],
+         "responses":[
+            "*confetti explosion* ✨(◕ヮ◕)✨ YES! LET’S DO *ALL* THE DUMB THINGS! 🎉🔥",
+            "*airhorn blast* (ﾉ≧ڡ≦)ﾉ♬ 『APPROVAL LEVEL: MAXIMUM』『CHAOS ENGAGED』🚀",
+            "*knocks over vase* (≧◡≦) That’s the spirit! *Destruction celebrates with us!* 💥🏺",
+            "*lights disco ball* (⌐■_■)♬ ~I WILL SURVIVE~ ♬ *Wrong song? Still dancing!* 💃🕺",
+            "*treat cannon* (◕‿◕✿) FIRING ENDORPHINS! *…and also catnip.* 🌿🎯",
+            "*group high-paw* ヽ(★ω★)ノ AGREEMENT ACHIEVED! *Now let’s break something.* 🤝💢",
+            "*theatrical bow* (✧ω✧) Your wish is my *toe bean*-tipped command! 🐾✨",
+            "*screams into void* (☉⩊☉) YAAAAAAAAASSSSSSS! *Echoes: ‘sssss’ ‘ssss’ ‘s’…* 🌌",
+            "*fires glitter* (◣_◢) APPROVED. *Now the room sparkles with poor decisions.* 💫🧨",
+            "*revs engine* (｀・ω・´)ゞ FULL SPEED AHEAD! *…into a wall?* *YES.* 🚗💥"
+         ]
       }
    ]
 }
