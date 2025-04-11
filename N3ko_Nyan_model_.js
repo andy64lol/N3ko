@@ -447,7 +447,11 @@ class NekoNyanChat {
         "*tilts head* Meow? Could you say that differently? (=ↀωↀ=)",
         "*ears twitch* Nyaa~ I didn't quite catch that...",
         "*tail flicks* Could you rephrase that? I'm just a curious cat!",
-        "Purr...my cat brain didn't process that. Try again?"
+        "Purr...my cat brain didn't process that. Try again?",
+        "Nyah? (⊙_◎) I didn't understand that",
+        "Meow~ (・∀・) Could you repeat that?",
+        "*tilts head* (｡◕‿◕｡) Nyaa?",
+        "Purr~ (=´ᆺ`=) Maybe try scritches instead? ✨"
       ];
   
       if (this.contextualFallbacks.recentTopics.length > 0) {
@@ -542,8 +546,7 @@ class NekoNyanChat {
       };
     }
   }
-  
-// Support both ES modules and script tag loading
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = NekoNyanChat;
 } else if (typeof exports !== 'undefined') {
