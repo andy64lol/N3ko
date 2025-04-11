@@ -25,12 +25,12 @@ class NekoNyanChat {
     };
     this.specialDates = {
       '03-24': {
-        vocabUrl: 'https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/vocab/additional/N3ko_Birthday_additional_.json',
+        vocabUrl: 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/additional/N3ko_Birthday_additional_.json',
         priority: 1,
         loaded: false
       },
       '12-25': {
-        vocabUrl: 'https://raw.githubusercontent.com/andy64lol/N3ko/refs/heads/main/vocab/additional/N3ko_Xmas_additional_.json',
+        vocabUrl: 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/additional/N3ko_Xmas_additional_.json',
         priority: 2,
         loaded: false
       }
@@ -59,27 +59,6 @@ class NekoNyanChat {
     
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
-        // Try local fallback first
-        if (attempt === 1) {
-          try {
-            const fs = require('fs');
-            const path = require('path');
-            const localVocabPath = path.join(__dirname, 'vocab/N3ko_Nyan_model_.json');
-            if (fs.existsSync(localVocabPath)) {
-              const data = JSON.parse(fs.readFileSync(localVocabPath, 'utf8'));
-              this.validateVocabulary(data);
-              this.vocabulary = data;
-              this.processAllPatterns();
-              this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
-              console.log('✅ Loaded vocabulary from local file');
-              return;
-            }
-          } catch (localError) {
-            console.warn('Local vocabulary load failed, trying remote:', localError);
-          }
-        }
-
-        // Try remote fetch
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), this.requestTimeout);
 
@@ -99,6 +78,7 @@ class NekoNyanChat {
         this.vocabulary = data;
         this.processAllPatterns();
         this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
+        console.log('✅ Loaded vocabulary from remote');
         return;
       } catch (error) {
         lastError = error;
@@ -109,7 +89,6 @@ class NekoNyanChat {
       }
     }
 
-    // Final fallback to empty vocabulary
     console.error('Falling back to empty vocabulary');
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
@@ -236,10 +215,8 @@ class NekoNyanChat {
   }
 
   normalizeText(text) {
-    // Preserve original casing for certain words
     const preserveCase = new Set(['I', 'I\'m', 'I\'ve', 'I\'ll', 'I\'d']);
     
-    // Enhanced contractions handling
     const contractions = {
       "won't": "will not",
       "can't": "cannot",
@@ -261,7 +238,6 @@ class NekoNyanChat {
 
     let normalized = text.toLowerCase();
     
-    // Replace contractions while preserving case for important words
     Object.entries(contractions).forEach(([key, val]) => {
       if (preserveCase.has(key)) {
         normalized = normalized.replace(new RegExp(key, 'g'), val);
@@ -270,7 +246,6 @@ class NekoNyanChat {
       }
     });
 
-    // More selective punctuation removal
     normalized = normalized
       .replace(/[^\w\s'-]/g, ' ')
       .replace(/(^|\s)'|'(\s|$)/g, ' ')
@@ -289,14 +264,11 @@ class NekoNyanChat {
     return this.normalizeText(text)
       .split(' ')
       .filter(word => {
-        // Keep important words and words longer than 2 characters
         if (keepWords.has(word)) return true;
         if (word.length <= 2) return false;
-        
         return !minimalStopWords.has(word);
       })
       .map(word => {
-        // Gentle stemming
         return word
           .replace(/'s$/, '')
           .replace(/(ing|ed|s)$/, '');
@@ -314,12 +286,9 @@ class NekoNyanChat {
   }
 
   findMatchingIntent(userInput) {
-    console.log('\nDebug: Matching input:', userInput);
     const processedInput = this.processInput(userInput);
-    console.log('Processed words:', processedInput.words);
     const inputWords = processedInput.words;
     if (inputWords.length === 0) {
-      console.log('No valid words in input');
       return null;
     }
 
@@ -331,7 +300,6 @@ class NekoNyanChat {
     const totalDocuments = this.vocabulary.intents.length;
     const vocabSize = this.vocabularySet.size;
 
-    // Precompute IDF values
     const idfCache = {};
     const documentFrequencies = {};
     this.vocabularySet.forEach(word => {
@@ -349,11 +317,9 @@ class NekoNyanChat {
       const wordCounts = this.intentWordCounts[intent.name] || {};
       const totalWordsInIntent = this.intentTotalWords[intent.name] || 0;
 
-      // Intent prior based on pattern count
       const prior = Math.log((intent.patterns.length + 1) / (totalPatterns + totalDocuments));
       let score = prior;
 
-      // Calculate TF-IDF weighted score
       for (const word of inputWords) {
         const tf = (wordCounts[word] || 0) / totalWordsInIntent;
         const idf = idfCache[word] || 1;
@@ -423,7 +389,6 @@ class NekoNyanChat {
           const responseText = response.toLowerCase();
           let score = 0;
           
-          // Test keyword matching for all intent types
           const testKeywords = {
             mood: ['happy', 'sad', 'angry', 'tired', 'joy', 'hug', 'grr', 'sleep'],
             food: ['fish', 'milk', 'hungry', 'food', 'eat', 'drink'],
@@ -478,7 +443,6 @@ class NekoNyanChat {
   }
 
   getContextualFallback() {
-    
     const baseResponses = [
       "*tilts head* Meow? Could you say that differently? (=ↀωↀ=)",
       "*ears twitch* Nyaa~ I didn't quite catch that...",
@@ -579,4 +543,4 @@ class NekoNyanChat {
   }
 }
 
-module.exports = NekoNyanChat;
+export default NekoNyanChat;
