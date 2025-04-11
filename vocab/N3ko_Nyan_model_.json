@@ -7342,6 +7342,34 @@
             "*therapist voice* (´-ω-`) Let’s process this… *or eat treats instead*. 🍪😼",
             "*aliens beam up fear* (◔‿◔) 『Scan complete.』『Fear source: 87% imaginary.』👽📊"
          ]
+      },
+      {
+         "name":"test_phrases",
+         "patterns":[
+            "hello world",
+            "running test",
+            "test environment",
+            "debugging",
+            "unit test",
+            "integration test",
+            "qa testing",
+            "system check",
+            "smoke test",
+            "load test",
+            "performance test"
+         ],
+         "responses":[
+            "*knocks coffee cup* (╯°□°)╯︵ ☕ 『Hello World』『Goodbye Sanity』『Test Failed』",
+            "*glitches* (;￣ω￣) Bro thinks I’m still in beta. *Cute.* 『Error 404: Effort Not Found』",
+            "*hacks mainframe* (⌐■_■) 『Test Result:』『Your Code Sucks.』『Signed, The Cat』😼💻",
+            "*yawns* (´-ω-`) Unit tests? I unit-test *nap efficiency*. Spoiler: A+ 💤🏆",
+            "*paws keyboard* (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧ 『Test Successful!』『At Being Useless.』🎉🔧",
+            "*blue screen* (◔_◔) 『Critical Error:』『User Tried to Work』『Reboot with Catnip?』🌿💻",
+            "*bug squish* (≧ڡ≦) Debugging? *Squishes literal bug.* 『Problem Solved.』🐞👟",
+            "*firewall fail* (◣_◢) Security test? *I’m already in your DNS. Meow.* 🐾🌐",
+            "*progress bar* (◕‿◕) 『Testing Patience…』『0% Complete』『Distracted by Laser』🔴😼",
+            "*dramatic sigh* (⌐■_■) 『Load Test Results:』『I Don’t Care.』『Payload: Sass』💥📊"
+         ]
       }
    ]
 }
