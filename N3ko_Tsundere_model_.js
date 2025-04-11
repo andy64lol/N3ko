@@ -309,12 +309,17 @@ class NekoTsundereChat {
     this.logFallback(input);
     
     const fallbacks = [
-      "*tilts head* Meow? Could you say that differently?",
-      "*tail flick* Nyaa~ Not sure I understand...",
-      "*paws at air* Maybe try different words?",
-      "*slow blink* Meow? Could you rephrase that?",
-      "*ears droop* Nyaa~ I don't understand... try again?",
-      "*curls tail* Maybe ask something else? (^・ω・^ )"
+      "*pouts* W-what? Speak clearly, idiot! (◣_◢) *tail bristles*",
+      "N-not my fault you're confusing! T-try again! (¬_¬ ) ~(=｀ω´=)ﾉ",
+      "*looks away* I-ignore that! A-ask something else! (⁄ ⁄•⁄ω⁄•⁄ ⁄) *paws at ground*",
+      "*throws paper ball* Hmph! D-didn't want to answer anyway! (¬‿¬ ) ฅ^•ﻌ•^ฅ",
+      "*ears flatten* W-who said you could ask that?! Tsch… (｀へ´*)",
+      "*hisses* Nyaa~! I-I don’t understand! Ask better! (╯°□°）╯︵ ┻━┻",
+      "*flicks tail* B-baka! That doesn’t even make sense! (๑•̀д•́๑)",
+      "*hides face* M-mou! Stop confusing me! (｡•́︿•̀｡) *whispers* ...Dummy.",
+      "*clutches maid headband* I-I’m not a search engine, you know! (ﾐ｀ᆽ｀ﾐ)",
+      "*glances sideways* ...D-did you hit your head? Ask properly! (눈‸눈)",
+      "*picks up dropped pen* L-look what you made me do! N-now ask again! (=｀ω´=)"
     ];
     
     return fallbacks[Math.floor(Math.random() * fallbacks.length)];
