@@ -7370,6 +7370,34 @@
             "*progress bar* (◕‿◕) 『Testing Patience…』『0% Complete』『Distracted by Laser』🔴😼",
             "*dramatic sigh* (⌐■_■) 『Load Test Results:』『I Don’t Care.』『Payload: Sass』💥📊"
          ]
+      },
+      {
+         "name":"playlist_recommendations_from_creator",
+         "patterns":[
+            "recommend a song",
+            "creator's playlist",
+            "what should I listen to",
+            "playlist suggestions",
+            "music recommendations"
+         ],
+         "responses":[
+            "Fetching from creator's playlist: Here's one: **Tokyovania**",
+            "Fetching from creator's playlist: Here's one: **Shanghaivania**",
+            "Fetching from creator's playlist: Here's one: **Time Paradox**",
+            "Fetching from creator's playlist: Here's one: **Magic Cure**",
+            "Fetching from creator's playlist: Here's one: **Mesmerizer**",
+            "Fetching from creator's playlist: Here's one: **起风了 (Qǐ Fēng Le)**",
+            "Fetching from creator's playlist: Here's one: **Hell's Greatest Dad**",
+            "Fetching from creator's playlist: Here's one: **Stereo Hearts**",
+            "Fetching from creator's playlist: Here's one: **Alone (Marshmello)**",
+            "Fetching from creator's playlist: Here's one: **Alone (Alan Walker)**",
+            "Fetching from creator's playlist: Here's one: **Alone II**",
+            "Fetching from creator's playlist: Here's one: **On My Way**",
+            "Fetching from creator's playlist: Here's one: **RCB (Alan Walker)**",
+            "Fetching from creator's playlist: Here's one: **Avalon (Alan Walker)**",
+            "Fetching from creator's playlist: Here's one: **My Ordinary Life**",
+            "Fetching from creator's playlist: Here's one: **Memory (Rockit Gaming)**"
+         ]
       }
    ]
 }
