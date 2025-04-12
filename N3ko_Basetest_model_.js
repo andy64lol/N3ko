@@ -1,10 +1,10 @@
-// N3ko Basetest model
+// N3ko Chinese model
 // Made by andy64lol
 
-class NekoBasetestChat {
-  constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Basetest_model_.json') {
+class NekoChineseChat {
+  constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_chinese_model_.json') {
     this.vocabulary = { intents: [] };
-    this.defaultResponse = ['Miaou? (Vocabulary not loaded)'];
+    this.defaultResponse = ['喵? (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
     this.requestTimeout = 1000; 
   }
@@ -156,4 +156,4 @@ class NekoBasetestChat {
   }
 }
 
-export default NekoBasetestChat;
+export default NekoChineseChat;
