@@ -2,10 +2,14 @@
 // made by andy64lol
 
 class NekoNyanChat {
-  constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Nyan_model_.json') {
+  constructor(
+    vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Nyan_model_.json',
+    exceptionWordsUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_words_exception_.json'
+  ) {
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
     this.vocabUrl = vocabUrl;
+    this.exceptionWordsUrl = exceptionWordsUrl;
     this.conversationHistory = {
       messages: [],
       context: {},
@@ -39,13 +43,16 @@ class NekoNyanChat {
     this.phrasePatterns = new Map();
     this.exactMatchBonus = 2.0;
     this.minMatchThreshold = 0.65;
+    this.defaultStopWords = new Set(['a', 'an', 'the', 'and', 'or', 'is', 'are', 'meow']);
+    this.exceptionWords = new Set();
   }
 
   async init() {
     try {
       await Promise.all([
         this.loadBaseVocabulary(),
-        this.loadDateSpecificVocabulary()
+        this.loadDateSpecificVocabulary(),
+        this.loadExceptionWords()
       ]);
       return this;
     } catch (error) {
@@ -54,32 +61,41 @@ class NekoNyanChat {
     }
   }
 
-  async loadBaseVocabulary(maxRetries = 3) {
+  async loadExceptionWords(maxRetries = 2) {
     let lastError;
     for (let attempt = 1; attempt <= maxRetries; attempt++) {
       try {
         const controller = new AbortController();
         const timeoutId = setTimeout(() => controller.abort(), this.requestTimeout);
-        const response = await fetch(this.vocabUrl, { signal: controller.signal });
+        const response = await fetch(this.exceptionWordsUrl, { signal: controller.signal });
         clearTimeout(timeoutId);
         
         if (!response.ok) throw new Error(`HTTP error ${response.status}`);
         
-        const data = await response.json();
-        this.validateVocabulary(data);
-        this.processVocabulary(data);
-        this.defaultResponse = this.getIntentResponses('default') || ['Meow?'];
-        console.log('✅ Loaded vocabulary from remote');
+        const exceptionWords = await response.json();
+        if (!Array.isArray(exceptionWords)) {
+          throw new Error('Exception words must be an array');
+        }
+        
+        this.exceptionWords = new Set(exceptionWords);
+        console.log('✅ Loaded exception words');
         return;
       } catch (error) {
         lastError = error;
         if (attempt < maxRetries) await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
       }
     }
-    console.error('Falling back to empty vocabulary');
-    this.vocabulary = { intents: [] };
-    this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
+    console.error('Using default stop words only');
+    this.exceptionWords = new Set();
   }
+
+  extractKeywords(phrase) {
+    const stopWords = new Set([...this.defaultStopWords, ...this.exceptionWords]);
+    return phrase.split(' ')
+      .filter(word => word.length > 2 && !stopWords.has(word))
+      .map(word => word.replace(/'s$/, '').replace(/(ing|ed|s)$/, ''));
+  }
+
 
   validateVocabulary(data) {
     if (!data?.intents || !Array.isArray(data.intents)) {
