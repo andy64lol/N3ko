@@ -4,9 +4,24 @@
 class NekoSpanishChat {
   constructor(vocabUrl = 'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Spanish_model_.json') {
     this.vocabulary = { intents: [] };
-    this.defaultResponse = ['Miau? (Vocabulary not loaded)'];
+    this.defaultResponse = ['Miau? (El vocabulario no ha sido cargado)'];
     this.vocabUrl = vocabUrl;
-    this.requestTimeout = 1000; 
+    this.requestTimeout = 5000;
+    this.phrasePatterns = new Map();
+    this.exactMatchBonus = 2.0;
+    this.minMatchThreshold = 0.65;
+    this.conversationHistory = {
+      messages: [],
+      context: {},
+      maxHistory: 5
+    };
+    this.fallbackAnalytics = {
+      commonTriggers: new Map(),
+      timing: {
+        lastFallback: null,
+        averageInterval: 0
+      }
+    };
   }
 
   async init() {
@@ -14,32 +29,52 @@ class NekoSpanishChat {
     return this;
   }
 
-  async loadBaseVocabulary() {
-    try {
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), this.requestTimeout);
+  async loadBaseVocabulary(maxRetries = 3) {
+    let lastError;
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), this.requestTimeout);
 
-      const response = await fetch(this.vocabUrl, {
-        signal: controller.signal
-      });
-      
-      clearTimeout(timeoutId);
-      
-      if (!response.ok) {
-        throw new Error(`HTTP error ${response.status}`);
+        const response = await fetch(this.vocabUrl, {
+          signal: controller.signal
+        });
+        
+        clearTimeout(timeoutId);
+        
+        if (!response.ok) {
+          throw new Error(`HTTP error ${response.status}`);
+        }
+
+        const data = await response.json();
+        this.validateVocabulary(data);
+        this.vocabulary = data;
+        this.processAllPatterns();
+        this.defaultResponse = this.getIntentResponses('default') || ['Miau? (Default response missing)'];
+        console.log('✅ Vocabulario cargado exitosamente');
+        return;
+      } catch (error) {
+        lastError = error;
+        if (attempt < maxRetries) {
+          console.warn(`Intento ${attempt} falló, reintentando...`);
+          await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
+        }
       }
-
-      const data = await response.json();
-      if (!data.intents) {
-        throw new Error('Invalid vocabulary format');
-      }
-
-      this.vocabulary = data;
-      this.processAllPatterns();
-      this.defaultResponse = this.getIntentResponses('default') || ['Miau? (Default response missing)'];
-    } catch (error) {
-      console.error('Failed to load base vocabulary:', error);
     }
+    console.error('Error al cargar vocabulario:', lastError?.message || 'error desconocido');
+    this.vocabulary = { intents: [] };
+    this.defaultResponse = ['Miau? (Vocabulario no cargado)'];
+  }
+
+  validateVocabulary(data) {
+    if (!data?.intents || !Array.isArray(data.intents)) {
+      throw new Error('Formato de vocabulario inválido - falta array de intents');
+    }
+    data.intents.forEach(intent => {
+      if (!intent.name || !intent.patterns || !intent.responses) {
+        throw new Error(`Estructura de intent inválida: ${JSON.stringify(intent)}`);
+      }
+    });
   }
 
   processAllPatterns() {
@@ -124,13 +159,55 @@ class NekoSpanishChat {
 
   generateResponse(userInput) {
     if (!userInput || typeof userInput !== 'string') {
-      return this.getRandomResponse(this.defaultResponse);
+      return this.handleFallback();
     }
     
-    const intent = this.findMatchingIntent(userInput);
-    return intent?.responses 
-      ? this.getRandomResponse(intent.responses)
-      : this.getRandomResponse(this.defaultResponse);
+    try {
+      const intent = this.findMatchingIntent(userInput);
+      if (intent) {
+        this.addToHistory(userInput, intent.name);
+        return this.getRandomResponse(intent.responses);
+      }
+      return this.handleFallback(userInput);
+    } catch (error) {
+      console.error('Error generando respuesta:', error);
+      return this.handleFallback();
+    }
+  }
+
+  handleFallback(input) {
+    this.logFallback(input);
+    const fallbacks = [
+      "*inclina cabeza* ¿Miau? ¿Podrías decirlo de otra manera?",
+      "*mueve cola* Nyaa~ No estoy segura de entender...",
+      "*patea el aire* ¿Tal vez prueba con otras palabras?",
+      "*parpadea lentamente* ¿Miau? ¿Podrías reformularlo?",
+      "*orejas caídas* Nyaa~ No entiendo... ¿intentas de nuevo?",
+      "*enrolla cola* ¿Tal vez preguntes algo más? (^・ω・^ )"
+    ];
+    return fallbacks[Math.floor(Math.random() * fallbacks.length)];
+  }
+
+  addToHistory(input, intent) {
+    this.conversationHistory.messages.push({
+      input,
+      intent,
+      timestamp: Date.now()
+    });
+    
+    if (this.conversationHistory.messages.length > this.conversationHistory.maxHistory) {
+      this.conversationHistory.messages.shift();
+    }
+  }
+
+  logFallback(input) {
+    if (!input) return;
+    const words = this.getWords(input);
+    words.forEach(word => {
+      this.fallbackAnalytics.commonTriggers.set(word, 
+        (this.fallbackAnalytics.commonTriggers.get(word) || 0) + 1);
+    });
+    this.fallbackAnalytics.timing.lastFallback = Date.now();
   }
 
   getRandomResponse(responses) {
