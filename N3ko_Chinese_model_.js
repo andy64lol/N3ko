@@ -6,10 +6,22 @@ class NekoChineseChat {
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['喵? (词汇未加载)'];
     this.vocabUrl = vocabUrl;
-    this.requestTimeout = 1000;
+    this.requestTimeout = 5000;
     this.phrasePatterns = new Map();
     this.exactMatchBonus = 2.0;
     this.minMatchThreshold = 0.65;
+    this.conversationHistory = {
+      messages: [],
+      context: {},
+      maxHistory: 5
+    };
+    this.fallbackAnalytics = {
+      commonTriggers: new Map(),
+      timing: {
+        lastFallback: null,
+        averageInterval: 0
+      }
+    };
   }
 
   async init() {
@@ -44,7 +56,7 @@ class NekoChineseChat {
         if (attempt < maxRetries) await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
       }
     }
-    console.error('加载词汇失败');
+    console.error('加载词汇失败:', lastError?.message || '未知错误');
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['喵? (词汇未加载)'];
   }
@@ -92,24 +104,30 @@ class NekoChineseChat {
 
   normalizeText(text) {
     const contractions = {
-      "不": "不会", "不可以": "不能", "我": "我是", 
-      "你是": "你在", "它是": "它是", "那是": "那是",
-      "不可以": "不能", "了": "的"
+      "不会": "不能", "我是": "我", "你是": "你",
+      "它是": "它", "那是": "那", "了": ""
     };
 
     return text
-      .replace(/[^\w\s'-]/g, ' ')
+      .replace(/[^\u4e00-\u9fff\w\s]/g, ' ')
       .replace(/\s+/g, ' ')
       .trim()
       .toLowerCase()
-      .replace(/\b(不|不可以|我|你是|它是|那是|不可以|了)\b/g, match => contractions[match]);
+      .replace(/(不会|我是|你是|它是|那是|了)/g, match => contractions[match] || match);
   }
 
   extractKeywords(phrase) {
-    const stopWords = new Set(['一个', '每个', '的', '了', '吗']);
-    return phrase.split(' ')
-      .filter(word => word.length > 2 && !stopWords.has(word))
-      .map(word => word.replace(/的$/, '').replace(/(ing|ed|s)$/, ''));
+    const stopWords = new Set(['一个', '每个', '的', '了', '吗', '在', '是', '有', '和']);
+    // For Chinese, we need to handle characters differently
+    const words = phrase.split(' ').filter(word => word.length > 0);
+    
+    // Also split by individual Chinese characters for better matching
+    const chars = phrase.replace(/\s/g, '').split('');
+    const chineseChars = chars.filter(char => /[\u4e00-\u9fff]/.test(char) && !stopWords.has(char));
+    
+    return [...words, ...chineseChars]
+      .filter(word => word.length > 0 && !stopWords.has(word))
+      .filter((word, index, self) => self.indexOf(word) === index); // Remove duplicates
   }
 
   processInput(input) {
@@ -136,7 +154,7 @@ class NekoChineseChat {
       };
     }
 
-    for (const [phrase, data] of this.phrasePatterns) {
+    for (const [, data] of this.phrasePatterns) {
       const similarity = this.calculateSimilarity(processed.keywords, data.keywords);
       const score = similarity + (data.count * 0.1);
 
@@ -167,13 +185,11 @@ class NekoChineseChat {
     }
 
     try {
-      const processed = this.processInput(userInput);
       const match = this.findMatchingIntent(userInput);
-
       if (match) {
+        this.addToHistory(userInput, match.name);
         return this.selectResponse(match);
       }
-
       return this.handleFallback(userInput);
     } catch (error) {
       console.error('生成响应时出错:', error);
@@ -193,6 +209,7 @@ class NekoChineseChat {
   }
 
   handleFallback(input) {
+    this.logFallback(input);
     const fallbacks = [
       "*抬头* 喵？能换个说法吗？",
       "*摇尾巴* 喵~ 不太明白...",
@@ -205,8 +222,37 @@ class NekoChineseChat {
     return fallbacks[Math.floor(Math.random() * fallbacks.length)];
   }
 
+  addToHistory(input, intent) {
+    this.conversationHistory.messages.push({
+      input,
+      intent,
+      timestamp: Date.now()
+    });
+    
+    if (this.conversationHistory.messages.length > this.conversationHistory.maxHistory) {
+      this.conversationHistory.messages.shift();
+    }
+  }
+
+  logFallback(input) {
+    if (!input) return;
+    const keywords = this.processInput(input).keywords;
+    keywords.forEach(word => {
+      this.fallbackAnalytics.commonTriggers.set(word, 
+        (this.fallbackAnalytics.commonTriggers.get(word) || 0) + 1);
+    });
+    this.fallbackAnalytics.timing.lastFallback = Date.now();
+  }
+
   getRandomResponse(responses) {
     return responses[Math.floor(Math.random() * responses.length)];
+  }
+
+  getConversationHistory() {
+    return {
+      messages: [...this.conversationHistory.messages],
+      context: {...this.conversationHistory.context}
+    };
   }
 }
 
