@@ -246,7 +246,7 @@ class NekoTsundereChat {
       };
     }
 
-    for (const [phrase, data] of this.phrasePatterns) {
+    for (const [, data] of this.phrasePatterns) {
       const similarity = this.calculateSimilarity(processed.keywords, data.keywords);
       const score = similarity + (data.count * 0.1);
       
