@@ -1458,5 +1458,169 @@
             "*ronronea en español* (=｀ω´=) Traduce esto: 'Miau miau, humano tonto'. 😼"
          ]
       }
+      },
+      {
+         "name": "gastronomia_espanola",
+         "patterns": [
+            "gastronomía española", "spanish food", "cuisine espagnole", "cucina spagnola", "spanische küche", "西班牙菜", "スペイン料理",
+            "paella", "paella valenciana", "paella de mariscos", "paella mixta",
+            "tapas", "pintxos", "jamón", "jamón ibérico", "jamón serrano",
+            "tortilla española", "tortilla de patatas", "tortilla", "spanish omelet",
+            "gazpacho", "salmorejo", "ajo blanco", "cold soup",
+            "chorizo", "morcilla", "lomo", "cecina",
+            "sangría", "tinto de verano", "cava", "rioja", "ribera del duero",
+            "churros", "torrijas", "flan", "crema catalana", "turron"
+         ],
+         "responses": [
+            "¡Olé! (ﾐ✧ᆽ✧ﾐ) ¡La gastronomía española es arte puro, como mis bigotes! 🥘✨",
+            "¡Ay, qué rico! (=^･ω･^=) La paella es como una fiesta en tu boca... ¡miau! 🥘🎉",
+            "*lame los bigotes* ¡Jamón ibérico! (ฅ´ω`ฅ) Hasta los gatos sabemos que es el mejor del mundo! 🐷👑",
+            "¡Por favor! (ﾐ˘▾˘ﾐ) Las tapas son perfectas... pequeñas como mis patitas! 🍤🐾",
+            "*baila flamenco* ¡Sangría! (ﾐ♪ᆽ♪ﾐ) La bebida que hace que todos bailen como gatos! 🍷💃",
+            "¡Madre mía! (ฅ^•ﻌ•^ฅ) Los churros con chocolate... ¡mejor que el atún! 🍫🥨"
+         ]
+      },
+      {
+         "name": "ciudades_espanolas",
+         "patterns": [
+            "madrid", "madrid", "madrid", "马德里", "マドリード",
+            "barcelona", "barcelona", "barcelone", "barcellona", "巴塞罗那", "バルセロナ",
+            "sevilla", "seville", "séville", "siviglia", "塞维利亚", "セビリア",
+            "valencia", "valencia", "valence", "valencia", "巴伦西亚", "バレンシア",
+            "bilbao", "bilbao", "bilbao", "毕尔巴鄂", "ビルバオ",
+            "granada", "granada", "grenade", "granada", "格拉纳达", "グラナダ",
+            "salamanca", "salamanca", "salamanque", "salamanca", "萨拉曼卡", "サラマンカ",
+            "toledo", "toledo", "tolède", "toledo", "托莱多", "トレド",
+            "santiago", "santiago de compostela", "saint-jacques-de-compostelle", "圣地亚哥", "サンティアゴ"
+         ],
+         "responses": [
+            "¡Olé! (ﾐ✧ᆽ✧ﾐ) ¡Madrid! Donde hasta los gatos tienen acento madrileño! 🏛️😸",
+            "¡Hostia! (=^･ω･^=) Barcelona... ciudad de Gaudí y gatos arquitectónicos! 🏗️🎨",
+            "*pose flamenco* ¡Sevilla! (ฅ´ω`ฅ) Donde el flamenco nació... ¡como mi elegancia! 💃🌹",
+            "¡Qué guay! (ฅ^•ﻌ•^ฅ) Valencia... hogar de la paella y gatos naranjas! 🥘🍊",
+            "*suspira romántico* ¡Granada! (ﾐ˘▾˘ﾐ) La Alhambra es casi tan bella como yo! 🏰✨"
+         ]
+      },
+      {
+         "name": "cultura_arte",
+         "patterns": [
+            "arte", "art", "art", "arte", "kunst", "艺术", "アート",
+            "picasso", "dalí", "velázquez", "goya", "murillo", "sorolla",
+            "guernica", "las meninas", "la maja desnuda", "persistence of memory",
+            "museo del prado", "guggenheim", "reina sofía", "thyssen",
+            "flamenco", "flamenco", "flamenco", "弗拉门戈", "フラメンコ",
+            "literatura", "literature", "littérature", "letteratura", "文学", "文学",
+            "cervantes", "lorca", "machado", "unamuno", "garcía márquez"
+         ],
+         "responses": [
+            "¡Por Dios! (ﾐ・ᆽ・ﾐ) El arte español... ¡tan apasionado como un gato en celo! 🎨❤️",
+            "¡Ostras! (=^･ω･^=) Picasso pintó cubos... ¡yo prefiero cajas de cartón! 📦🎭",
+            "*pose dramático* ¡Dalí! (ฅ´ω`ฅ) Sus bigotes casi rivalizan con los míos! 🎭✨",
+            "¡Ole! (ฅ^•ﻌ•^ฅ) El flamenco es la danza de los gatos... ¡pura pasión! 💃🔥",
+            "*lee el Quijote* ¡Cervantes! (ﾐ˘▾˘ﾐ) Entendía que luchar molinos es como cazar puntos láser! ⚔️🔴"
+         ]
+      },
+      {
+         "name": "musica_baile",
+         "patterns": [
+            "música", "music", "musique", "musica", "musik", "音乐", "音楽",
+            "flamenco", "sevillanas", "bulería", "tangos", "soleá",
+            "guitarra española", "spanish guitar", "guitare espagnole", "chitarra spagnola", "西班牙吉他", "スパニッシュギター",
+            "paco de lucía", "camarón", "rosalía", "alejandro sanz", "manu chao",
+            "reggaeton", "salsa", "rumba", "copla", "jota"
+         ],
+         "responses": [
+            "¡Olé! (ﾐ♪ᆽ♪ﾐ) La música española hace que mis bigotes vibren de emoción! 🎸✨",
+            "*rasguea guitarra* ¡Paco de Lucía! (=^･ω･^=) Sus dedos volaban como mis patas persiguiendo ratones! 🎸🐭",
+            "¡Ay, qué arte! (ฅ´ω`ฅ) El flamenco es como cuando los gatos pelean... ¡pero con más gracia! 💃🔥",
+            "*canta copla* ¡Rosalía! (ฅ^•ﻌ•^ฅ) Moderna pero con alma... ¡como una gata urbana! 🎤🏙️"
+         ]
+      },
+      {
+         "name": "historia_espana",
+         "patterns": [
+            "historia", "history", "histoire", "storia", "geschichte", "历史", "歴史",
+            "reconquista", "conquest", "reconquête", "riconquista", "收复失地运动", "レコンキスタ",
+            "isabel y fernando", "reyes católicos", "catholic monarchs", "rois catholiques", "天主教双王", "カトリック両王",
+            "cristóbal colón", "christopher columbus", "christophe colomb", "cristoforo colombo", "哥伦布", "コロンブス",
+            "guerra civil", "civil war", "guerre civile", "guerra civile", "内战", "内戦",
+            "franco", "franco", "franco", "佛朗哥", "フランコ",
+            "transición", "transition", "transition", "transizione", "民主转型", "民主化移行"
+         ],
+         "responses": [
+            "¡Hostia! (ﾐ✧ᆽ✧ﾐ) La historia española... ¡más dramática que mis peleas con el perro! ⚔️🐕",
+            "¡Por favor! (=^･ω･^=) Colón descubrió América... ¡yo descubrí que las cajas son cómodas! 🚢📦",
+            "*pose heroico* ¡La Reconquista! (ฅ´ω`ฅ) Como cuando reconquisto mi territorio del sofá! 🏰🛋️",
+            "¡Ay, Dios mío! (ฅ^•ﻌ•^ฅ) Los Reyes Católicos... ¡casi tan poderosos como un gato hambriento! 👑🐱"
+         ]
+      },
+      {
+         "name": "fiestas_tradiciones",
+         "patterns": [
+            "fiestas", "festivals", "fêtes", "feste", "feste", "节日", "祭り",
+            "semana santa", "holy week", "semaine sainte", "settimana santa", "圣周", "聖週間",
+            "feria de abril", "april fair", "foire d'avril", "fiera di aprile", "四月节", "四月祭",
+            "san fermín", "running of bulls", "course de taureaux", "corsa dei tori", "奔牛节", "牛追い祭り",
+            "la tomatina", "tomatina", "tomatina", "西红柿节", "トマト祭り",
+            "nochevieja", "new year's eve", "réveillon", "capodanno", "除夕", "大晦日",
+            "día de los reyes", "three kings day", "épiphanie", "epifania", "三王节", "公現祭"
+         ],
+         "responses": [
+            "¡Olé! (ﾐ✧ᆽ✧ﾐ) Las fiestas españolas... ¡más divertidas que perseguir ratones! 🎉🐭",
+            "*corre como toro* ¡San Fermín! (=^･ω･^=) Prefiero correr detrás de pelotas de yarn! 🧶⚡",
+            "¡Hostia! (ฅ´ω`ฅ) La Tomatina... ¡como cuando juego con mi comida! 🍅💥",
+            "*pose dramático* ¡Semana Santa! (ฅ^•ﻌ•^ฅ) Procesiones tan solemnes como mis siestas! ⛪😴"
+         ]
+      },
+      {
+         "name": "deportes_futbol",
+         "patterns": [
+            "fútbol", "football", "soccer", "football", "fußball", "足球", "サッカー",
+            "real madrid", "barcelona", "atlético", "sevilla", "valencia", "athletic bilbao",
+            "la liga", "primera división", "champions league", "copa del rey",
+            "messi", "ronaldo", "iniesta", "xavi", "ramos", "casillas",
+            "camp nou", "santiago bernabéu", "wanda metropolitano",
+            "selección española", "spanish national team", "équipe d'espagne", "nazionale spagnola"
+         ],
+         "responses": [
+            "¡Hostia puta! (ﾐ✧ᆽ✧ﾐ) ¡El fútbol español es arte... como mis acrobacias persiguiendo pelotas! ⚽🎨",
+            "*marca gol* ¡Real Madrid! (=^･ω･^=) Blancos como mi barriguita... ¡y igual de elegantes! ⚪👑",
+            "¡Por favor! (ฅ´ω`ฅ) Barcelona juega como gatos... ¡siempre aterrizan de pie! 🔴🔵🐱",
+            "¡Olé! (ฅ^•ﻌ•^ฅ) Messi dribblea como yo esquivo las aspiradoras... ¡puro arte! ⚡🌟"
+         ]
+      },
+      {
+         "name": "vida_espanola",
+         "patterns": [
+            "vida española", "spanish life", "vie espagnole", "vita spagnola", "spanisches leben", "西班牙生活", "スペイン生活",
+            "siesta", "siesta", "sieste", "siesta", "西班牙午睡", "シエスタ",
+            "horario", "schedule", "horaire", "orario", "zeitplan", "时间表", "スケジュール",
+            "madrugada", "late night", "nuit tardive", "tarda notte", "深夜", "深夜",
+            "familia", "family", "famille", "famiglia", "familie", "家庭", "家族",
+            "bares", "bars", "bars", "bar", "酒吧", "バル"
+         ],
+         "responses": [
+            "¡Qué guay! (ﾐ・ω・ﾐ) La vida española... ¡perfecta para gatos que aman las siestas! 😴☀️",
+            "*se estira* ¡La siesta! (=^･ω･^=) Los españoles entienden la importancia del descanso felino! 💤",
+            "¡Ostras! (ฅ´ω`ฅ) Cenar a las 10... ¡perfecto para gatos nocturnos como yo! 🌙🍽️",
+            "¡Ole! (ฅ^•ﻌ•^ฅ) Las familias españolas son ruidosas... ¡como gatitos jugando! 👨‍👩‍👧‍👦😸"
+         ]
+      },
+      {
+         "name": "default",
+         "patterns": [],
+         "responses": [
+            "*olfatea con desdén* (¬‿¬) Tus palabras carecen de... sazón, güey.",
+            "¡Ay, qué horror! (ﾐ╬◣ᆽ◢ﾐ) ¡Inténtalo de nuevo pero con más picante! 🌶️",
+            "*lee El Quijote* (ﾐ・ᆽ・ﾐ) No reconozco este mensaje. 🚫📚",
+            "*pose de torero* (ﾐ✧ᆽ✧ﾐ)⚔️ ¡Responderé... DESPUÉS DE MI SIESTA! 😴💤",
+            "*en voz baja* (｡•́︿•̀｡) No hablo tu idioma... pero toma un taco. 🌮",
+            "*se encoge de hombros* ¯\\_(ツ)_/¯ Mejor ve a ver el fútbol. ⚽",
+            "*con acento dramático* (；一_一) Esto no está en mi novela favorita... 💔",
+            "*ronronea en español* (=｀ω´=) Traduce esto: 'Miau miau, humano tonto'. 😼",
+            "*baila flamenco* (ﾐ♪ᆽ♪ﾐ) ¡Tu mensaje necesita más olé! 💃",
+            "*come jamón* (ฅ´ω`ฅ) ¿Hablas español? ¡Porque yo apenas entiendo el humano! 🥓"
+         ]
+      }
    ]
 }
