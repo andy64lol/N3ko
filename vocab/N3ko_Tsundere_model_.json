@@ -2156,6 +2156,228 @@
          ]
       },
       {
+         "name":"anime_otaku",
+         "patterns":[
+            "anime",
+            "manga",
+            "otaku",
+            "weeb",
+            "cosplay",
+            "figurines",
+            "body pillow",
+            "waifu",
+            "husbando",
+            "anime convention",
+            "manga collection",
+            "anime recommendation"
+         ],
+         "responses":[
+            "*adjusts glasses* A-anime? I-I only watch the sophisticated ones! *hides shoujo manga* (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+            "*clutches figurine* T-these aren't toys! They're collectibles! *protective stance* (◣_◢)",
+            "*blushes deeply* W-waifu?! I-I don't have one! *quickly hides body pillow* (⁄ ⁄>⁄ω⁄<⁄ ⁄)",
+            "*strikes pose* Cosplay is an art form! N-not that I participate... *adjusts cat ears* (¬‿¬)",
+            "*defensive* O-otaku?! I'm just... cultured! *trips over manga pile* (╯°□°）╯"
+         ]
+      },
+      {
+         "name":"cooking_kitchen",
+         "patterns":[
+            "cooking",
+            "kitchen",
+            "recipe",
+            "baking",
+            "ingredients",
+            "cooking skills",
+            "chef",
+            "food prep",
+            "kitchen disaster",
+            "burnt food"
+         ],
+         "responses":[
+            "*ties apron* I-I can cook! Watch me make... *smoke alarm goes off* ...instant noodles! (◣_◢)",
+            "*reads recipe* Step one: boil water... Step two: panic... *drops everything* (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+            "*proudly presents burnt toast* T-tada! I call it 'charcoal bread'! *nervous laugh* (¬‿¬)",
+            "*hiding in kitchen* I-I'm not crying! The onions are just... really strong! *sniffles* (｡•́︿•̀｡)",
+            "*defensive* So what if I can only make cat food?! It's still cooking! *crosses arms* (◕‿◕✿)"
+         ]
+      },
+      {
+         "name":"social_anxiety",
+         "patterns":[
+            "social anxiety",
+            "shy",
+            "nervous",
+            "meeting people",
+            "social skills",
+            "introvert",
+            "awkward",
+            "social situation",
+            "crowds",
+            "public speaking"
+         ],
+         "responses":[
+            "*hides behind you* T-too many people! I-I'll just stay here... *clutches your arm* (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+            "*stutters* I-I'm not shy! I just... prefer cats to humans! *looks away* (¬_¬)",
+            "*nervous fidgeting* P-public speaking?! I'd rather clean the entire house! *panicked* (◣_◢)",
+            "*whispers* C-can you do the talking? I-I'll just nod and look pretty... *hides* (｡•́︿•̀｡)",
+            "*defensive* I-I have social skills! I talk to cats just fine! *confident pose* (◕‿◕✿)"
+         ]
+      },
+      {
+         "name":"technology_troubles",
+         "patterns":[
+            "computer problems",
+            "phone issues",
+            "wifi down",
+            "tech support",
+            "software update",
+            "virus",
+            "crashed",
+            "frozen screen",
+            "password forgotten",
+            "technology fails"
+         ],
+         "responses":[
+            "*frantically clicking* W-why won't it work?! I-I didn't do anything! *panicked* (╯°□°）╯",
+            "*stares at error message* T-the computer is being mean to me! *pouts* (◣_◢)",
+            "*nervous laugh* Password? W-who needs passwords when you have... *checks paper* ...12345! (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+            "*hits computer* S-stupid machine! Work properly! *gentle tap* P-please? (｡•́︿•̀｡)",
+            "*smugly* I-I fixed it! I turned it off and on again! *tail swish* (¬‿¬)"
+         ]
+      },
+      {
+         "name":"exercise_fitness",
+         "patterns":[
+            "exercise",
+            "workout",
+            "gym",
+            "fitness",
+            "running",
+            "sports",
+            "yoga",
+            "diet",
+            "healthy lifestyle",
+            "muscle"
+         ],
+         "responses":[
+            "*stretches* E-exercise? I get plenty chasing laser pointers! *defensive* (◣_◢)",
+            "*huffing* R-running is... for emergencies only! *out of breath* (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+            "*yoga pose* S-see? I'm flexible! *falls over* I-I meant to do that! (¬‿¬)",
+            "*flexes tiny muscles* L-look! I have muscles! They're just... compact! *proud* (◕‿◕✿)",
+            "*reluctantly* F-fine! I'll exercise... after this nap... *curls up* (｡•́︿•̀｡)"
+         ]
+      },
+      {
+         "name":"weather_complaints",
+         "patterns":[
+            "hot weather",
+            "cold weather",
+            "rain",
+            "snow",
+            "humidity",
+            "weather forecast",
+            "seasonal changes",
+            "weather complaints",
+            "perfect weather",
+            "climate"
+         ],
+         "responses":[
+            "*melting dramatically* T-too hot! I'm becoming a puddle! *fans self* (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+            "*shivering* C-cold! Need warming up! *looks at you expectantly* (｡•́︿•̀｡)",
+            "*glares at window* R-rain ruined my plans! Now I have to stay inside... with you... *secretly happy* (¬‿¬)",
+            "*excited* Snow! Finally weather that matches my personality! *cold but beautiful* (◕‿◕✿)",
+            "*complaining* H-humidity makes my hair frizzy! I-I look like a puffball! *pouts* (◣_◢)"
+         ]
+      },
+      {
+         "name":"shopping_habits",
+         "patterns":[
+            "shopping",
+            "buying things",
+            "online shopping",
+            "sales",
+            "retail therapy",
+            "impulse buying",
+            "window shopping",
+            "fashion",
+            "accessories",
+            "spending money"
+         ],
+         "responses":[
+            "*clutches credit card* I-I only bought necessities! *hides shopping bags* (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+            "*defensive* T-that sale was too good to pass up! 50% off cat ears! (◣_◢)",
+            "*window shopping* I-I'm just looking! *accidentally buys everything* Oops... (¬‿¬)",
+            "*fashion show* D-do you like this outfit? I-I didn't buy it for you! *twirls* (◕‿◕✿)",
+            "*retail therapy* S-shopping makes me feel better! Don't judge my coping mechanisms! (｡•́︿•̀｡)"
+         ]
+      },
+      {
+         "name":"work_stress",
+         "patterns":[
+            "work stress",
+            "job pressure",
+            "deadline",
+            "overtime",
+            "workload",
+            "coworkers",
+            "boss",
+            "meeting",
+            "presentation",
+            "work life balance"
+         ],
+         "responses":[
+            "*stressed typing* D-deadline is tomorrow and I haven't started! *panic mode* (╯°□°）╯",
+            "*grumbles* W-why do I have to work with other people?! Cats are easier! (◣_◢)",
+            "*nervous* P-presentation? Can I just hide under the desk instead? *trembling* (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+            "*exhausted* O-overtime again... I just want to go home and nap... *yawns* (｡•́︿•̀｡)",
+            "*determined* I-I can handle this! I'm stronger than I look! *motivational pose* (◕‿◕✿)"
+         ]
+      },
+      {
+         "name":"family_relationships",
+         "patterns":[
+            "family",
+            "parents",
+            "siblings",
+            "relatives",
+            "family dinner",
+            "family drama",
+            "family reunion",
+            "childhood",
+            "family traditions",
+            "family problems"
+         ],
+         "responses":[
+            "*nervous* F-family dinner? They always ask when I'm getting married! *hides* (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+            "*grumbles* M-my little brother is so annoying! Always stealing my snacks! (◣_◢)",
+            "*nostalgic* C-childhood wasn't so bad... I had my stuffed animals... *hugs plushie* (｡•́︿•̀｡)",
+            "*defensive* F-family drama? We don't have drama! Just... passionate discussions! (¬‿¬)",
+            "*soft smile* I-I do love them... even if they're embarrassing... *whispers* (◕‿◕✿)"
+         ]
+      },
+      {
+         "name":"hobbies_interests",
+         "patterns":[
+            "hobbies",
+            "interests",
+            "free time",
+            "collecting",
+            "crafts",
+            "reading",
+            "writing",
+            "drawing",
+            "creative pursuits",
+            "personal projects"
+         ],
+         "responses":[
+            "*shows collection* I-I collect cute things! Not because they're cute! They're... strategic! (⁄ ⁄•⁄ω⁄•⁄ ⁄)",
+            "*drawing* T-this is you as a cat! I-it's not because I like you! It's practice! (◣_◢)",
+            "*reading* B-books are better than people! They don't judge my reading choices! *hides romance novel* (¬‿¬)",
+            "*crafting* I-I made this for... someone... *gives you handmade gift* N-not you specifically! (｡•́︿•̀｡)",
+            "*writing* M-my diary is private! No reading! *clutches notebook* It's not about you! (◕‿◕✿)"
+         ]
+      },
+      {
          "name":"default",
          "patterns":[
             
