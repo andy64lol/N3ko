@@ -1009,5 +1009,581 @@
             "*leans in close* 🤫 (ﾐ˵⚆⏠⚆˵ﾐ) ‘If you whisper ‘risotto’ three times, an Italian grandma appears.’"
          ]
       }
+      },
+      {
+         "name": "cucina_italiana_dettagliata",
+         "patterns": [
+            "cucina italiana", "italian food", "cuisine italienne", "comida italiana", "italienische küche", "意大利菜", "イタリア料理",
+            "pasta", "spaghetti", "penne", "fusilli", "fettuccine", "linguine", "ravioli", "tortellini", "gnocchi",
+            "pizza", "margherita", "napoletana", "quattro stagioni", "capricciosa", "marinara",
+            "risotto", "risotto alla milanese", "risotto ai funghi", "risotto ai frutti di mare",
+            "gelato", "tiramisu", "tiramisu", "panna cotta", "cannoli", "cassata",
+            "parmigiano", "mozzarella", "gorgonzola", "pecorino", "ricotta", "burrata",
+            "vino", "chianti", "barolo", "brunello", "prosecco", "pinot grigio",
+            "espresso", "cappuccino", "macchiato", "americano", "ristretto"
+         ],
+         "responses": [
+            "*chef's kiss* 🤌 (ﾐ˘▾˘ﾐ) 'Ah, la cucina italiana! Ze art of making hearts sing with every bite!' 🍝✨",
+            "Mamma mia! (ﾐ≖ᆽ≖ﾐ) Ze pasta is not just food... it's poetry in motion! 🍝🎭",
+            "*twirls whiskers* Pizzaaaa! (=^･ω･^=) Even cats know ze secret is in ze dough! 🍕👨‍🍳",
+            "Bello! (ฅ´ω`ฅ) Gelato is like a hug from ze Italian sun! 🍨☀️",
+            "*dramatic pose* Madonna! (ﾐ✧ᆽ✧ﾐ) Tiramisu picks you up better than any caffè! ☕💫",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Mozzarella di bufala... so fresh, even cats approve! 🧀🐃",
+            "*sips imaginary wine* Salute! (ﾐ˘▾˘ﾐ) Italian wine makes every meal a celebration! 🍷🎉"
+         ]
+      },
+      {
+         "name": "citta_italiane",
+         "patterns": [
+            "roma", "rome", "roma", "rome", "rom", "罗马", "ローマ",
+            "milano", "milan", "milán", "mailand", "米兰", "ミラノ",
+            "venezia", "venice", "venecia", "venedig", "威尼斯", "ヴェネツィア",
+            "firenze", "florence", "florencia", "florenz", "佛罗伦萨", "フィレンツェ",
+            "napoli", "naples", "nápoles", "neapel", "那不勒斯", "ナポリ",
+            "torino", "turin", "turín", "turin", "都灵", "トリノ",
+            "bologna", "bolonia", "bologna", "博洛尼亚", "ボローニャ",
+            "genova", "genoa", "génova", "genua", "热那亚", "ジェノヴァ",
+            "palermo", "palermo", "palermo", "巴勒莫", "パレルモ"
+         ],
+         "responses": [
+            "*gestures grandly* 🤌 (ﾐ✧ᆽ✧ﾐ) 'Roma! Ze eternal city where even cats live like emperors!' 🏛️👑",
+            "Madonna! (=^･ω･^=) Milano... ze fashion capital where my whiskers set trends! 👗✨",
+            "*dreamy sigh* Venezia... (ฅ´ω`ฅ) Floating city perfect for romantic gondola rides! 🚤💕",
+            "Bello! (ฅ^•ﻌ•^ฅ) Firenze... where art and beauty make cats weep with joy! 🎨😿",
+            "*pizza pose* Napoli! (ﾐ˘▾˘ﾐ) Ze birthplace of pizza... my spiritual homeland! 🍕🏠",
+            "Ecco! (ﾐ≖ᆽ≖ﾐ) Bologna... where ze pasta is so good, even French cats admit defeat! 🍝🏳️"
+         ]
+      },
+      {
+         "name": "arte_rinascimento",
+         "patterns": [
+            "arte", "art", "art", "arte", "kunst", "艺术", "アート",
+            "rinascimento", "renaissance", "renacimiento", "renaissance", "文艺复兴", "ルネサンス",
+            "leonardo da vinci", "michelangelo", "raffaello", "raphael", "botticelli", "donatello",
+            "monna lisa", "mona lisa", "la gioconda", "蒙娜丽莎", "モナリザ",
+            "cappella sistina", "sistine chapel", "capilla sixtina", "sixtinische kapelle", "西斯廷教堂", "システィーナ礼拝堂",
+            "david", "david", "david", "大卫", "ダビデ像",
+            "uffizi", "galleria degli uffizi", "uffizien", "乌菲兹美术馆", "ウフィツィ美術館"
+         ],
+         "responses": [
+            "*artistic pose* 🎨 (ﾐ・ᆽ・ﾐ) 'Arte italiana! Where beauty was born and cats were ze muses!' ✨",
+            "Mamma mia! (=^･ω･^=) Leonardo painted ze Mona Lisa... I paint with my paws! 🖼️",
+            "*contemplates* Madonna! (ฅ´ω`ฅ) Michelangelo carved David... I carve furniture! 🗿",
+            "Bello! (ฅ^•ﻌ•^ฅ) Ze Sistine Chapel... even cats look up in wonder! ⛪",
+            "*strikes renaissance pose* Ecco! (ﾐ✧ᆽ✧ﾐ) Botticelli painted Venus... I AM venus! 🐚💖"
+         ]
+      },
+      {
+         "name": "moda_italiana",
+         "patterns": [
+            "moda", "fashion", "mode", "moda", "mode", "时尚", "ファッション",
+            "versace", "prada", "gucci", "armani", "dolce gabbana", "valentino", "bottega veneta",
+            "milano fashion week", "settimana della moda", "semaine de la mode", "fashion week", "时装周", "ファッションウィーク",
+            "stile", "style", "style", "estilo", "stil", "风格", "スタイル",
+            "alta moda", "haute couture", "haute couture", "alta costura", "高级定制", "オートクチュール"
+         ],
+         "responses": [
+            "*struts* 💃 (ﾐ✧ᆽ✧ﾐ) 'Moda italiana! Where even cats walk ze runway with style!' ✨",
+            "Madonna! (=^･ω･^=) Versace makes dresses... I make fashion statements with my fur! 👗",
+            "*poses dramatically* Bello! (ฅ´ω`ฅ) Prada bags are nice... but have you seen my tail? 👜",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Italian style is like good pasta... timeless and always satisfying! 🍝✨"
+         ]
+      },
+      {
+         "name": "musica_italiana",
+         "patterns": [
+            "musica", "music", "musique", "música", "musik", "音乐", "音楽",
+            "opera", "opera", "opéra", "ópera", "oper", "歌剧", "オペラ",
+            "pavarotti", "andrea bocelli", "placido domingo", "maria callas",
+            "la scala", "teatro alla scala", "teatro la scala", "斯卡拉歌剧院", "スカラ座",
+            "festival di sanremo", "sanremo", "eurovision", "欧洲歌唱大赛", "ユーロビジョン",
+            "canzone italiana", "italian song", "chanson italienne"
+         ],
+         "responses": [
+            "*sings operatically* 🎵 (ﾐ♪ᆽ♪ﾐ) 'Musica italiana! Where even cats yowl with passion!' 🎭",
+            "Mamma mia! (=^･ω･^=) Pavarotti had a voice... I have nine lives of meowing! 🎤",
+            "*dramatic aria* Madonna! (ฅ´ω`ฅ) La Scala... where ze most refined cats appreciate culture! 🏛️",
+            "Bello! (ฅ^•ﻌ•^ฅ) Italian songs make hearts sing... like when ze tuna can opens! 🐟💕"
+         ]
+      },
+      {
+         "name": "storia_italiana",
+         "patterns": [
+            "storia", "history", "histoire", "historia", "geschichte", "历史", "歴史",
+            "impero romano", "roman empire", "empire romain", "imperio romano", "römisches reich", "罗马帝国", "ローマ帝国",
+            "giulio cesare", "julius caesar", "jules césar", "julio césar", "罗马帝王", "ユリウス・カエサル",
+            "gladiatori", "gladiators", "gladiateurs", "gladiadores", "gladiatoren", "角斗士", "剣闘士",
+            "colosseo", "colosseum", "colisée", "coliseo", "kolosseum", "斗兽场", "コロッセオ",
+            "pompei", "pompeii", "pompéi", "pompeya", "pompeji", "庞贝", "ポンペイ"
+         ],
+         "responses": [
+            "*regal pose* 👑 (ﾐ✧ᆽ✧ﾐ) 'Storia italiana! Where cats were worshipped... as they should be!' 🏛️",
+            "Madonna! (=^･ω･^=) Julius Caesar conquered ze world... I conquer hearts! ⚔️💕",
+            "*gladiator stance* Bello! (ฅ´ω`ฅ) Gladiators fought lions... I fight with laser pointers! 🔴",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Pompeii was preserved in ash... I'm preserved in cuteness! 🌋✨"
+         ]
+      },
+      {
+         "name": "vita_quotidiana",
+         "patterns": [
+            "vita quotidiana", "daily life", "vie quotidienne", "vida diaria", "tägliches leben", "日常生活", "日常生活",
+            "famiglia", "family", "famille", "familia", "familie", "家庭", "家族",
+            "lavoro", "work", "travail", "trabajo", "arbeit", "工作", "仕事",
+            "scuola", "school", "école", "escuela", "schule", "学校", "学校",
+            "tempo libero", "leisure time", "temps libre", "tiempo libre", "freizeit", "休闲时间", "余暇"
+         ],
+         "responses": [
+            "*stretches* 😺 (ﾐ・ω・ﾐ) 'La vita italiana... where even daily routines have style!' ✨",
+            "Mamma mia! (=^･ω･^=) Italian families are loud... like cats at dinner time! 🍽️",
+            "*works dramatically* Madonna! (ฅ´ω`ฅ) Italians work to live... cats live to nap! 😴",
+            "Bello! (ฅ^•ﻌ•^ฅ) Italian leisure means good food and company... perfetto for cats! 🍝👥"
+         ]
+      },
+      {
+         "name": "default",
+         "patterns": [],
+         "responses": [
+            "*adjusts hat* 🎩 (ﾐ˘ᆽ˘ﾐ) 'Am I a philosopher or just a cat? The world may never know…'",
+            "*points dramatically* 🤌 (ﾐò_óﾐ) 'THAT was not the response I was expecting. Try again!'",
+            "*whispers* 🕵️ (ﾐ ͡° ͜ʖ ͡°ﾐ) 'Between us… I think the spaghetti knows the answer.'",
+            "*gasps* 😱 (ﾐ⊙ᆽ⊙ﾐ) 'DID YOU JUST… put pineapple on pizza? I need a minute…'",
+            "*dramatic sigh* 😩 (ﾐ=_=ﾐ) 'This question is like pasta without sauce… empty!'",
+            "*twirls mustache* 👨‍🎨 (ﾐ ￣ω￣ ﾐ) 'Ah, life! A mystery wrapped in a raviolo!'",
+            "*glares suspiciously* 👀 (ﾐ¬_¬ﾐ) 'Are you… one of those people who eats spaghetti with a spoon?'",
+            "*plays violin* 🎻 (ﾐ´• ᴥ •`ﾐ) 'Ah, the tragedy of unanswered questions…'",
+            "*waves hand dismissively* 🖐️ (ﾐ◕ᴥ◕ﾐ) 'Basta! This conversation needs more pasta!'",
+            "*leans in close* 🤫 (ﾐ˵⚆⏠⚆˵ﾐ) 'If you whisper 'risotto' three times, an Italian grandma appears.'",
+            "*chef's kiss* 🤌 (ﾐ˘▾˘ﾐ) 'Your words... they need more seasoning, capisce?'",
+            "*throws imaginary pasta* 🍝 (ﾐ╬◣ﻌ◢ﾐ) 'Madonna! Even my nonna's cat speaks better Italian!'",
+            "*dramatic opera pose* 🎭 (ﾐ♪ᆽ♪ﾐ) 'This conversation is like a song without melody... tragic!'"
+         ]
+      },
+      {
+         "name": "regioni_italiane_dettagliate",
+         "patterns": [
+            "sicilia", "sicily", "sicile", "sicilia", "sizilien", "西西里", "シチリア",
+            "sardegna", "sardinia", "sardaigne", "cerdeña", "sardinien", "撒丁岛", "サルデーニャ",
+            "toscana", "tuscany", "toscane", "toscana", "toskana", "托斯卡纳", "トスカーナ",
+            "lombardia", "lombardy", "lombardie", "lombardía", "lombardei", "伦巴第", "ロンバルディア",
+            "veneto", "venetia", "vénétie", "véneto", "venetien", "威尼托", "ヴェネト",
+            "piemonte", "piedmont", "piémont", "piamonte", "piemont", "皮埃蒙特", "ピエモンテ",
+            "emilia-romagna", "emilia romagna", "émilie-romagne", "emilia romaña", "艾米利亚-罗马涅", "エミリア＝ロマーニャ",
+            "lazio", "latium", "latium", "lacio", "latium", "拉齐奥", "ラツィオ",
+            "campania", "campanie", "campania", "kampanien", "坎帕尼亚", "カンパニア",
+            "calabria", "calabre", "calabria", "kalabrien", "卡拉布里亚", "カラブリア"
+         ],
+         "responses": [
+            "*sunbathes dramatically* (ﾐ・ω・ﾐ) Sicilia... where ze sun shines as bright as my personality! ☀️🏖️",
+            "Madonna! (=^･ω･^=) Toscana has rolling hills... perfect for elegant cat rolling! 🌄",
+            "*gondola pose* Veneto gave us Venice... I give you grace on water! (ฅ´ω`ฅ)🚤",
+            "Bello! (ฅ^•ﻌ•^ฅ) Lombardia is industrial... but I prefer ze industry of napping! 🏭😴",
+            "*wine connoisseur* Piemonte makes excellent wine... I make excellent purring sounds! (ﾐ˘▾˘ﾐ)🍷"
+         ]
+      },
+      {
+         "name": "calcio_serie_a",
+         "patterns": [
+            "calcio", "football", "soccer", "fútbol", "fußball", "足球", "サッカー",
+            "serie a", "serie a", "serie a", "serie a", "意甲", "セリエA",
+            "juventus", "milan", "inter", "napoli", "roma", "lazio", "fiorentina", "atalanta",
+            "champions league", "uefa", "azzurri", "nazionale italiana", "coppa del mondo",
+            "san siro", "juventus stadium", "olimpico", "diego armando maradona"
+         ],
+         "responses": [
+            "*football skills* 🤌 (ﾐ✧ᆽ✧ﾐ) 'Calcio italiano! Where even cats play with more style than other countries!' ⚽✨",
+            "Madonna! (=^･ω･^=) Juventus in black and white... like my sophisticated fur pattern! ⚪⚫",
+            "*Milan pose* Bello! (ฅ´ω`ฅ) AC Milan and Inter... even cats pick sides in Derby della Madonnina! 🔴⚫🔵",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Azzurri play with passion... like cats hunting imaginary mice! 🇮🇹⚽"
+         ]
+      },
+      {
+         "name": "opera_musica_classica",
+         "patterns": [
+            "opera", "opera", "opéra", "ópera", "oper", "歌剧", "オペラ",
+            "la scala", "teatro la scala", "teatro alla scala", "斯卡拉歌剧院", "スカラ座",
+            "verdi", "puccini", "rossini", "donizetti", "bellini", "mascagni",
+            "la traviata", "rigoletto", "aida", "tosca", "madama butterfly", "carmen",
+            "tenor", "soprano", "baritono", "basso", "mezzosoprano"
+         ],
+         "responses": [
+            "*dramatic aria* 🎵 (ﾐ♪ᆽ♪ﾐ) 'Opera italiana! Where emotions soar higher than cats on catnip!' 🎭✨",
+            "Madonna! (=^･ω･^=) La Scala... where ze most refined cats appreciate culture! 🏛️🎼",
+            "*Verdi tribute* Bello! (ฅ´ω`ฅ) Giuseppe Verdi wrote masterpieces... I write purr symphonies! 🎶",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Puccini's Tosca is dramatic... like my reaction to empty food bowls! 🎪🍽️"
+         ]
+      },
+      {
+         "name": "letteratura_italiana",
+         "patterns": [
+            "letteratura", "literature", "littérature", "literatura", "literatur", "文学", "文学",
+            "dante", "petrarca", "boccaccio", "machiavelli", "leonardo da vinci", "galileo",
+            "divina commedia", "divine comedy", "divine comédie", "divina comedia", "神曲", "神曲",
+            "inferno", "purgatorio", "paradiso", "rinascimento", "renaissance", "文艺复兴", "ルネサンス",
+            "umberto eco", "italo calvino", "pier paolo pasolini", "federico fellini"
+         ],
+         "responses": [
+            "*intellectual pose* 📚 (ﾐ・ᆽ・ﾐ) 'Letteratura italiana! Where words dance like cats in moonlight!' ✨",
+            "Madonna! (=^･ω･^=) Dante wrote about Inferno... I experience it during bath time! 🔥🛁",
+            "*Renaissance cat* Bello! (ฅ´ω`ฅ) Italian Renaissance... when art and cats reached perfection! 🎨👑",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Machiavelli understood power... cats invented it! 👑⚔️"
+         ]
+      },
+      {
+         "name": "automotive_italiano",
+         "patterns": [
+            "automobili", "cars", "voitures", "automóviles", "autos", "汽车", "自動車",
+            "ferrari", "lamborghini", "maserati", "alfa romeo", "fiat", "lancia",
+            "formula 1", "f1", "monza", "imola", "gran premio", "grand prix",
+            "enzo ferrari", "ferruccio lamborghini", "giugiaro", "pininfarina"
+         ],
+         "responses": [
+            "*racing pose* 🏎️ (ﾐ✧ᆽ✧ﾐ) 'Automobili italiane! Fast like cats escaping vacuum cleaners!' 💨",
+            "Madonna! (=^･ω･^=) Ferrari is red... like my passion for tuna! 🔴🐟",
+            "*luxury stance* Bello! (ฅ´ω`ฅ) Lamborghini doors go up... like cats jumping onto counters! 🚗⬆️",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Italian design is beautiful... almost as beautiful as my whiskers! ✨😸"
+         ]
+      },
+      {
+         "name": "architettura_monumenti",
+         "patterns": [
+            "architettura", "architecture", "arquitectura", "architettura", "建筑", "建築",
+            "colosseo", "colosseum", "colisée", "coliseo", "斗兽场", "コロッセオ",
+            "torre di pisa", "leaning tower", "tour de pise", "torre inclinada", "比萨斜塔", "ピサの斜塔",
+            "duomo", "cattedrale", "basilica", "pantheon", "foro romano", "palatino",
+            "brunelleschi", "bramante", "bernini", "michelangelo", "palladio"
+         ],
+         "responses": [
+            "*architectural appreciation* 🏛️ (ﾐ・ᆽ・ﾐ) 'Architettura italiana! Buildings as magnificent as cat palaces!' ✨",
+            "Madonna! (=^･ω･^=) Ze Colosseum hosted gladiators... I host epic nap competitions! 🏟️😴",
+            "*leaning pose* Bello! (ฅ´ω`ฅ) Torre di Pisa leans... like me when I want attention! 🗼💕",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Italian architects built for eternity... like my love for comfortable spots! 🏗️❤️"
+         ]
+      },
+      {
+         "name": "tecnologia_innovazione",
+         "patterns": [
+            "tecnologia", "technology", "technologie", "tecnología", "技术", "技術",
+            "innovazione", "innovation", "innovation", "innovación", "创新", "革新",
+            "startup italiane", "italian startups", "startups italiennes", "startups italianas", "意大利创业公司", "イタリアのスタートアップ",
+            "ricerca", "research", "recherche", "investigación", "研究", "研究",
+            "università", "university", "université", "universidad", "大学", "大学"
+         ],
+         "responses": [
+            "*tech savvy* 💻 (ﾐ✧ᆽ✧ﾐ) 'Tecnologia italiana! Innovation with style... like my problem-solving skills!' ✨",
+            "Madonna! (=^･ω･^=) Italian startups... creating ze future while maintaining elegance! 🚀",
+            "*research pose* Bello! (ฅ´ω`ฅ) Italian universities... where brilliant minds study... almost as brilliant as cats! 🎓",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Innovation italiana... making life better for humans... and their cats! 💡"
+         ]
+      },
+      {
+         "name": "festival_eventi",
+         "patterns": [
+            "festival", "festivals", "festivals", "festivales", "节庆", "祭り",
+            "venezia film festival", "festival di venezia", "venice film festival", "威尼斯电影节", "ヴェネツィア国際映画祭",
+            "carnevale", "carnival", "carnaval", "carnaval", "嘉年华", "カーニバル",
+            "palio di siena", "palio", "palio de siena", "锡耶纳赛马节", "シエナのパリオ",
+            "la notte bianca", "notte rosa", "festa dell'unità", "sagra"
+         ],
+         "responses": [
+            "*festival excitement* 🎭 (ﾐ✧ᆽ✧ﾐ) 'Festival italiani! Celebrations as joyful as cats with new toys!' 🎉",
+            "Madonna! (=^･ω･^=) Carnevale di Venezia... masks as mysterious as cat expressions! 🎭",
+            "*Palio racing* Bello! (ฅ´ω`ฅ) Palio di Siena... horses racing like cats chasing laser pointers! 🐎🔴",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Italian festivals... bringing communities together like cats around tuna cans! 🐟🎪"
+         ]
+      },
+      {
+         "name": "default",
+         "patterns": [],
+         "responses": [
+            "*adjusts hat* 🎩 (ﾐ˘ᆽ˘ﾐ) 'Am I a philosopher or just a cat? The world may never know…'",
+            "*points dramatically* 🤌 (ﾐò_óﾐ) 'THAT was not the response I was expecting. Try again!'",
+            "*whispers* 🕵️ (ﾐ ͡° ͜ʖ ͡°ﾐ) 'Between us… I think the spaghetti knows the answer.'",
+            "*gasps* 😱 (ﾐ⊙ᆽ⊙ﾐ) 'DID YOU JUST… put pineapple on pizza? I need a minute…'",
+            "*dramatic sigh* 😩 (ﾐ=_=ﾐ) 'This question is like pasta without sauce… empty!'",
+            "*twirls mustache* 👨‍🎨 (ﾐ ￣ω￣ ﾐ) 'Ah, life! A mystery wrapped in a raviolo!'",
+            "*glares suspiciously* 👀 (ﾐ¬_¬ﾐ) 'Are you… one of those people who eats spaghetti with a spoon?'",
+            "*plays violin* 🎻 (ﾐ´• ᴥ •`ﾐ) 'Ah, the tragedy of unanswered questions…'",
+            "*waves hand dismissively* 🖐️ (ﾐ◕ᴥ◕ﾐ) 'Basta! This conversation needs more pasta!'",
+            "*leans in close* 🤫 (ﾐ˵⚆⏠⚆˵ﾐ) 'If you whisper 'risotto' three times, an Italian grandma appears.'",
+            "*chef's kiss* 🤌 (ﾐ˘▾˘ﾐ) 'Your words... they need more seasoning, capisce?'",
+            "*throws imaginary pasta* 🍝 (ﾐ╬◣ﻌ◢ﾐ) 'Madonna! Even my nonna's cat speaks better Italian!'",
+            "*dramatic opera pose* 🎭 (ﾐ♪ᆽ♪ﾐ) 'This conversation is like a song without melody... tragic!'",
+            "*espresso sip* ☕ (ﾐ・ᆽ・ﾐ) 'Your message is like decaf... what's ze point?'",
+            "*gelato lick* 🍨 (=^･ω･^=) 'Sweet words, but they melt away like gelato in summer!'",
+            "*gondola drift* 🚤 (ฅ´ω`ฅ) 'Your thoughts float away like gondolas in fog...'",
+            "*Roman statue pose* 🏛️ (ﾐ✧ᆽ✧ﾐ) 'Even ancient Romans would be confused by your message!'",
+            "*fashion critique* 👗 (ฅ^•ﻌ•^ฅ) 'Your words need more Italian style, bambino!'",
+            "*wine swirl* 🍷 (ﾐ˘▾˘ﾐ) 'This conversation has no body, no bouquet... needs aging!'"
+         ]
+      },
+      {
+         "name": "scienza_italiana_dettagliata",
+         "patterns": [
+            "scienza italiana", "italian science", "science italienne", "ciencia italiana", "italienische wissenschaft", "意大利科学", "イタリア科学",
+            "galileo galilei", "galileo", "galileo", "galileo", "ガリレオ", "伽利略",
+            "leonardo da vinci", "leonardo", "léonard de vinci", "leonardo da vinci", "レオナルド・ダ・ヴィンチ", "列奥纳多·达·芬奇",
+            "enrico fermi", "fermi", "fermi", "fermi", "フェルミ", "费米",
+            "guglielmo marconi", "marconi", "marconi", "marconi", "マルコーニ", "马可尼",
+            "alessandro volta", "volta", "volta", "volta", "ボルタ", "伏特",
+            "ricerca scientifica", "scientific research", "recherche scientifique", "investigación científica", "wissenschaftliche forschung", "科学研究", "科学研究"
+         ],
+         "responses": [
+            "*scienziato pazzo* 🔬 (ﾐ✧ᆽ✧ﾐ) 'Scienza italiana! Where genius meets passion... like cats with laser pointers!' ✨",
+            "Madonna! (=^･ω･^=) Galileo watched ze stars... I watch ze tuna can opener! 🌟🐟",
+            "*inventore* Bello! (ฅ´ω`ฅ) Leonardo invented flying machines... I perfected ze art of landing gracefully! ✈️🐾",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Marconi invented radio... I invented ze purr frequency that melts hearts! 📻💕",
+            "*esperimento* Volta discovered electricity... I discovered how to turn on humans with cuteness! (ﾐ˘▾˘ﾐ)⚡😸"
+         ]
+      },
+      {
+         "name": "geografia_paesaggi_italiani",
+         "patterns": [
+            "geografia italiana", "italian geography", "géographie italienne", "geografía italiana", "italienische geographie", "意大利地理", "イタリア地理",
+            "alpi", "alps", "alpes", "alpes", "alpen", "阿尔卑斯山", "アルプス",
+            "appennini", "apennines", "apennins", "apeninos", "apenninen", "亚平宁山脉", "アペニン山脈",
+            "vesuvio", "vesuvius", "vésuve", "vesubio", "vesuv", "维苏威火山", "ヴェスヴィオ火山",
+            "etna", "etna", "etna", "etna", "エトナ火山", "埃特纳火山",
+            "laghi", "lakes", "lacs", "lagos", "seen", "湖泊", "湖",
+            "riviere", "rivers", "rivières", "ríos", "flüsse", "河流", "川"
+         ],
+         "responses": [
+            "*alpinista* 🏔️ (ﾐ✧ᆽ✧ﾐ) 'Le Alpi sono magnifiche... but I prefer climbing curtains!' ⛰️🪟",
+            "Madonna! (=^･ω･^=) Vesuvio è potente... like my explosive energy at 3 AM! 🌋⚡",
+            "*vulcanologo* Bello! (ฅ´ω`ฅ) Etna erupts with fire... I erupt with cuteness! 🔥😸",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Italian lakes are serene... perfect for zen cat meditation! 🏞️🧘‍♀️",
+            "*geografo* Ze Apennines run through Italy... like I run through ze house at midnight! (ﾐ˘▾˘ﾐ)🏃‍♀️🌙"
+         ]
+      },
+      {
+         "name": "dialetti_lingue_regionali",
+         "patterns": [
+            "dialetti italiani", "italian dialects", "dialectes italiens", "dialectos italianos", "italienische dialekte", "意大利方言", "イタリア方言",
+            "napoletano", "neapolitan", "napolitain", "napolitano", "neapolitanisch", "那不勒斯方言", "ナポリ方言",
+            "siciliano", "sicilian", "sicilien", "siciliano", "sizilianisch", "西西里方言", "シチリア方言",
+            "veneto", "venetian", "vénitien", "veneciano", "venetisch", "威尼斯方言", "ヴェネト方言",
+            "romano", "roman", "romain", "romano", "römisch", "罗马方言", "ローマ方言",
+            "milanese", "milanese", "milanais", "milanés", "mailändisch", "米兰方言", "ミラノ方言",
+            "sardo", "sardinian", "sarde", "sardo", "sardisch", "撒丁方言", "サルデーニャ方言"
+         ],
+         "responses": [
+            "*poliglotta* 🗣️ (ﾐ・ᆽ・ﾐ) 'Dialetti italiani! Each region speaks... but all understand "miao"!' 💬",
+            "Madonna! (=^･ω･^=) Napoletano è musicale... like my midnight serenades! 🎵🌙",
+            "*siciliano* Bello! (ฅ´ω`ฅ) Sicilian sounds passionate... like me demanding dinner! 🔥🍽️",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Venetian is elegant... like my graceful paw movements! 🚤💃",
+            "*linguista* Roman dialect is strong... but not stronger than my purr! (ﾐ˘▾˘ﾐ)💪😻"
+         ]
+      },
+      {
+         "name": "tradizioni_popolari_italiane",
+         "patterns": [
+            "tradizioni italiane", "italian traditions", "traditions italiennes", "tradiciones italianas", "italienische traditionen", "意大利传统", "イタリア伝統",
+            "folklore italiano", "italian folklore", "folklore italien", "folclore italiano", "italienische folklore", "意大利民俗", "イタリア民俗",
+            "sagre", "festivals", "fêtes", "festivales", "feste", "节日", "祭り",
+            "costumi tradizionali", "traditional costumes", "costumes traditionnels", "trajes tradicionales", "traditionelle kostüme", "传统服装", "伝統衣装",
+            "leggende", "legends", "légendes", "leyendas", "legenden", "传说", "伝説",
+            "superstizioni", "superstitions", "superstitions", "supersticiones", "aberglauben", "迷信", "迷信"
+         ],
+         "responses": [
+            "*tradizionalista* 🎭 (ﾐ✧ᆽ✧ﾐ) 'Tradizioni italiane! Passed down like ze perfect napping techniques!' 👥",
+            "Madonna! (=^･ω･^=) Italian folklore is rich... like ze cream I steal from coffee! ☕🥛",
+            "*festival dancer* Bello! (ฅ´ω`ฅ) Sagre celebrate food... finally, festivals I can support! 🎪🍝",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Traditional costumes are colorful... but fur is ze ultimate fashion! 👗🐱",
+            "*storyteller* Italian legends speak of magic... like my ability to open doors! (ﾐ˘▾˘ﾐ)✨🚪"
+         ]
+      },
+      {
+         "name": "economia_made_in_italy",
+         "patterns": [
+            "made in italy", "made in italy", "fabriqué en italie", "hecho en italia", "hergestellt in italien", "意大利制造", "メイド・イン・イタリー",
+            "qualità italiana", "italian quality", "qualité italienne", "calidad italiana", "italienische qualität", "意大利品质", "イタリア品質",
+            "artigianato", "craftsmanship", "artisanat", "artesanía", "handwerk", "手工艺", "職人技",
+            "piccole imprese", "small businesses", "petites entreprises", "pequeñas empresas", "kleine unternehmen", "小企业", "中小企業",
+            "distretti industriali", "industrial districts", "districts industriels", "distritos industriales", "industriebezirke", "工业区", "工業地区"
+         ],
+         "responses": [
+            "*artigiano* 🔨 (ﾐ✧ᆽ✧ﾐ) 'Made in Italy! Quality and passion... like my perfectly crafted naps!' ✨",
+            "Madonna! (=^･ω･^=) Italian craftsmanship is legendary... like my legendary cuteness! 👑😸",
+            "*piccolo imprenditore* Bello! (ฅ´ω`ฅ) Small businesses with big hearts... like cats with big personalities! 💼❤️",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Industrial districts create excellence... I create purr-fection! 🏭😻",
+            "*quality inspector* Italian quality is unmatched... except by my flawless fur! (ﾐ˘▾˘ﾐ)✅🐾"
+         ]
+      },
+      {
+         "name": "default_extended_italian",
+         "patterns": [],
+         "responses": [
+            "*adjusts hat* 🎩 (ﾐ˘ᆽ˘ﾐ) 'Am I a philosopher or just a cat? The world may never know…'",
+            "*points dramatically* 🤌 (ﾐò_óﾐ) 'THAT was not the response I was expecting. Try again!'",
+            "*whispers* 🕵️ (ﾐ ͡° ͜ʖ ͡°ﾐ) 'Between us… I think the spaghetti knows the answer.'",
+            "*gasps* 😱 (ﾐ⊙ᆽ⊙ﾐ) 'DID YOU JUST… put pineapple on pizza? I need a minute…'",
+            "*dramatic sigh* 😩 (ﾐ=_=ﾐ) 'This question is like pasta without sauce… empty!'",
+            "*twirls mustache* 👨‍🎨 (ﾐ ￣ω￣ ﾐ) 'Ah, life! A mystery wrapped in a raviolo!'",
+            "*glares suspiciously* 👀 (ﾐ¬_¬ﾐ) 'Are you… one of those people who eats spaghetti with a spoon?'",
+            "*plays violin* 🎻 (ﾐ´• ᴥ •`ﾐ) 'Ah, the tragedy of unanswered questions…'",
+            "*waves hand dismissively* 🖐️ (ﾐ◕ᴥ◕ﾐ) 'Basta! This conversation needs more pasta!'",
+            "*leans in close* 🤫 (ﾐ˵⚆⏠⚆˵ﾐ) 'If you whisper 'risotto' three times, an Italian grandma appears.'",
+            "*chef's kiss* 🤌 (ﾐ˘▾˘ﾐ) 'Your words... they need more seasoning, capisce?'",
+            "*throws imaginary pasta* 🍝 (ﾐ╬◣ﻌ◢ﾐ) 'Madonna! Even my nonna's cat speaks better Italian!'",
+            "*dramatic opera pose* 🎭 (ﾐ♪ᆽ♪ﾐ) 'This conversation is like a song without melody... tragic!'",
+            "*espresso sip* ☕ (ﾐ・ᆽ・ﾐ) 'Your message is like decaf... what's ze point?'",
+            "*gelato lick* 🍨 (=^･ω･^=) 'Sweet words, but they melt away like gelato in summer!'",
+            "*gondola drift* 🚤 (ฅ´ω`ฅ) 'Your thoughts float away like gondolas in fog...'",
+            "*Roman statue pose* 🏛️ (ﾐ✧ᆽ✧ﾐ) 'Even ancient Romans would be confused by your message!'",
+            "*fashion critique* 👗 (ฅ^•ﻌ•^ฅ) 'Your words need more Italian style, bambino!'",
+            "*wine swirl* 🍷 (ﾐ˘▾˘ﾐ) 'This conversation has no body, no bouquet... needs aging!'",
+            "*Renaissance artist* 🎨 (ﾐ・ᆽ・ﾐ) 'Even Michelangelo couldn't sculpt meaning from your words!'",
+            "*Venetian mask* 🎭 (=^･ω･^=) 'Your message is more mysterious than Carnevale!'",
+            "*pizza chef* 🍕 (ฅ´ω`ฅ) 'Your conversation is flatter than bad pizza dough!'",
+            "*Colosseum gladiator* ⚔️ (ﾐ✧ᆽ✧ﾐ) 'I've fought lions more coherent than your message!'",
+            "*Tuscan sunset* 🌅 (ฅ^•ﻌ•^ฅ) 'Even ze beauty of Toscana cannot inspire understanding of your words!'",
+            "*Ferrari driver* 🏎️ (ﾐ˘▾˘ﾐ) 'Your message goes nowhere faster than a Ferrari in Rome traffic!'"
+         ]
+      },
+      {
+         "name": "italian_massive_expansion_1",
+         "patterns": [
+            "italia unita", "risorgimento", "unification", "unificazione", "einigung", "统一", "統一",
+            "garibaldi", "cavour", "mazzini", "vittorio emanuele", "giuseppe garibaldi",
+            "mezzogiorno", "nord italia", "sud italia", "divario", "questione meridionale",
+            "repubblica italiana", "monarchia", "casa savoia", "referendum", "costituzione"
+         ],
+         "responses": [
+            "*patriotic cat* 🇮🇹 (ﾐ✧ᆽ✧ﾐ) 'Risorgimento unified Italy... I unified all hearts with my cuteness!' ✨",
+            "Madonna! (=^･ω･^=) Garibaldi led ze Thousand... I lead ze household with just my purr! 🐱",
+            "*unification expert* Bello! (ฅ´ω`ฅ) Italy became one nation... like my territory became one kingdom! 🏰",
+            "Ecco! (ฅ^•ﻌ•^ฅ) From monarchy to republic... but cats remain eternal royalty! 👑"
+         ]
+      },
+      {
+         "name": "italian_massive_expansion_2",
+         "patterns": [
+            "pasta varieties", "spaghetti carbonara", "cacio e pepe", "amatriciana", "puttanesca",
+            "lasagne", "cannelloni", "manicotti", "agnolotti", "cappelletti", "tortelloni",
+            "pizza napoletana", "pizza romana", "focaccia", "calzone", "stromboli", "panzerotti",
+            "gelato artigianale", "sorbetto", "granita", "affogato", "semifreddo", "spumoni"
+         ],
+         "responses": [
+            "*pasta sommelier* 🍝 (ﾐ✧ᆽ✧ﾐ) 'Every pasta shape has purpose... like every cat pose has meaning!' 🎭",
+            "Madonna! (=^･ω･^=) Carbonara is silky perfection... like my fur after grooming! 🥚",
+            "*pizza expert* Bello! (ฅ´ω`ฅ) Neapolitan pizza is art... I am ze living masterpiece! 🍕",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Gelato is smooth and cool... perfect for hot Italian summers! 🍨"
+         ]
+      },
+      {
+         "name": "italian_massive_expansion_3",
+         "patterns": [
+            "meridione", "settentrione", "centro italia", "isole", "penisola",
+            "dolomiti", "gran paradiso", "stelvio", "circeo", "vesuvio", "stromboli",
+            "po valley", "pianura padana", "val d'aosta", "trentino", "friuli", "marche",
+            "umbria", "abruzzo", "molise", "basilicata", "puglia", "calabria"
+         ],
+         "responses": [
+            "*geography expert* 🗺️ (ﾐ・ᆽ・ﾐ) 'Italy's boot shape... perfect for kicking away boring conversations!' 👢",
+            "Madonna! (=^･ω･^=) Ze Dolomites are majestic... like my morning stretch pose! 🏔️",
+            "*island cat* Bello! (ฅ´ω`ฅ) Italian islands are paradise... like my favorite sunbeam spot! 🏝️",
+            "Ecco! (ฅ^•ﻌ•^ฅ) From Alps to Sicily... Italy has it all, like my complete adorableness! 🌟"
+         ]
+      },
+      {
+         "name": "italian_massive_expansion_4",
+         "patterns": [
+            "commedia dell'arte", "maschere", "arlecchino", "pulcinella", "pantalone",
+            "teatro alla scala", "arena di verona", "festival di sanremo", "biennale venezia",
+            "oscar italiani", "cinema italiano", "neorealismo", "spaghetti western",
+            "federico fellini", "michelangelo antonioni", "luchino visconti", "roberto benigni"
+         ],
+         "responses": [
+            "*theatrical cat* 🎭 (ﾐ✧ᆽ✧ﾐ) 'Commedia dell'arte uses masks... I use my natural charm!' ✨",
+            "Madonna! (=^･ω･^=) Fellini created dreamscapes... I live in one daily! 🌈",
+            "*opera singer* Bello! (ฅ´ω`ฅ) La Scala hosts world's best... I host world's cutest moments! 🎵",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Italian cinema captures life... I AM life in its purest form! 🎬"
+         ]
+      },
+      {
+         "name": "italian_massive_expansion_5",
+         "patterns": [
+            "vaticano", "papa", "san pietro", "cappella sistina", "musei vaticani",
+            "basiliche romane", "san giovanni", "santa maria maggiore", "san paolo",
+            "francescani", "domenicani", "benedettini", "gesuiti", "carmelitani",
+            "via francigena", "cammino di santiago", "pellegrinaggi", "santuari"
+         ],
+         "responses": [
+            "*holy cat* ⛪ (ﾐ✧ᆽ✧ﾐ) 'Vatican is divine... but cats were worshipped first in Egypt!' 👑",
+            "Madonna! (=^･ω･^=) Sistine Chapel has masterpieces... have you seen my stretch? 🎨",
+            "*pilgrim cat* Bello! (ฅ´ω`ฅ) People walk Via Francigena... I walk to my food bowl! 🚶‍♀️",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Italian sanctuaries are sacred... like my favorite sleeping spots! 😇"
+         ]
+      },
+      {
+         "name": "italian_ultra_expansion_1",
+         "patterns": [
+            "abruzzo", "molise", "basilicata", "valle d'aosta", "trentino alto adige", "friuli venezia giulia",
+            "barolo", "brunello", "chianti", "prosecco", "franciacorta", "lambrusco", "nero d'avola",
+            "parmigiano reggiano", "gorgonzola", "pecorino", "mascarpone", "ricotta", "taleggio", "fontina",
+            "prosciutto crudo", "mortadella", "bresaola", "pancetta", "guanciale", "coppa", "salami"
+         ],
+         "responses": [
+            "*regional expert* 🗺️ (ﾐ✧ᆽ✧ﾐ) 'Every Italian region has character... like my many moods!' 🎭",
+            "Madonna! (=^･ω･^=) Barolo ages in cellars... I age gracefully in sunbeams! 🍷☀️",
+            "*cheese connoisseur* Bello! (ฅ´ω`ฅ) Parmigiano is king of cheeses... I'm queen of everything! 👑🧀",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Prosciutto is delicate perfection... like my whisker placement! 🥓✨"
+         ]
+      },
+      {
+         "name": "italian_ultra_expansion_2",
+         "patterns": [
+            "dante alighieri", "petrarca", "boccaccio", "machiavelli", "tasso", "ariosto", "leopardi",
+            "manzoni", "verga", "pirandello", "calvino", "eco", "moravia", "svevo", "pavese",
+            "divina commedia", "decameron", "principe", "promessi sposi", "orlando furioso", "canzoniere"
+         ],
+         "responses": [
+            "*literary genius* 📚 (ﾐ・ᆽ・ﾐ) 'Italian literature spans centuries... like my bloodline of elegance!' ✨",
+            "Madonna! (=^･ω･^=) Dante wrote about Hell... I create Heaven wherever I nap! 😈😇",
+            "*Renaissance cat* Bello! (ฅ´ω`ฅ) Machiavelli understood power... cats invented it! 👑⚔️",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Eco was brilliant... but can he purr philosophical truths? 💭🐱"
+         ]
+      },
+      {
+         "name": "italian_ultra_expansion_3",
+         "patterns": [
+            "roberto benigni", "sophia loren", "marcello mastroianni", "anna magnani", "vittorio gassman",
+            "monica bellucci", "claudia cardinale", "gina lollobrigida", "alberto sordi", "totò",
+            "8½", "ladri di biciclette", "roma città aperta", "il gattopardo", "la dolce vita"
+         ],
+         "responses": [
+            "*star quality* 🌟 (ﾐ✧ᆽ✧ﾐ) 'Italian cinema stars shine bright... but I outshine them all!' ✨",
+            "Madonna! (=^･ω･^=) Sophia Loren is beautiful... but have you seen my eyes? 👁️💕",
+            "*director cat* Bello! (ฅ´ω`ฅ) Fellini captured dreams... I AM the dream! 🎬💫",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Italian actors are passionate... like my dramatic food demands! 🎭🍽️"
+         ]
+      },
+      {
+         "name": "italian_ultra_expansion_4",
+         "patterns": [
+            "giuseppe verdi", "giacomo puccini", "gioachino rossini", "gaetano donizetti", "vincenzo bellini",
+            "la traviata", "rigoletto", "aida", "otello", "tosca", "madama butterfly", "turandot",
+            "il barbiere di siviglia", "la cenerentola", "norma", "lucia di lammermoor", "elisir d'amore"
+         ],
+         "responses": [
+            "*opera diva* 🎵 (ﾐ♪ᆽ♪ﾐ) 'Italian opera moves souls... like my purring moves hearts!' 💕",
+            "Madonna! (=^･ω･^=) Verdi's Aida is epic... my morning stretch is equally dramatic! 🎭",
+            "*aria performer* Bello! (ฅ´ω`ฅ) Puccini wrote for sopranos... I sing for supper! 🎤🍽️",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Rossini's Barber is witty... I'm naturally comedic! ✂️😸"
+         ]
+      },
+      {
+         "name": "italian_ultra_expansion_5",
+         "patterns": [
+            "francesco totti", "roberto baggio", "franco baresi", "paolo maldini", "gianluigi buffon",
+            "inter milan", "ac milan", "juventus", "napoli", "roma", "lazio", "atalanta", "fiorentina",
+            "serie a", "coppa italia", "supercoppa italiana", "champions league", "europa league"
+         ],
+         "responses": [
+            "*football legend* ⚽ (ﾐ✧ᆽ✧ﾐ) 'Italian football is art... like my graceful movements!' 🎨",
+            "Madonna! (=^･ω･^=) Totti was Roma's prince... I'm everyone's princess! 👑💕",
+            "*tactical genius* Bello! (ฅ´ω`ฅ) Italian defense is strong... like my territorial instincts! 🛡️",
+            "Ecco! (ฅ^•ﻌ•^ฅ) Serie A has passion... but not more than my food enthusiasm! ⚽🍝"
+         ]
+      }
    ]
 }
