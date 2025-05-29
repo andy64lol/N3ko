@@ -994,5 +994,838 @@
             "*Napoleon pose* (ﾐ✧ᆽ✧ﾐ)⚔️ I’ll respond... AFTER MY NAP! 😴🛏️"
          ]
       }
+      },
+      {
+         "name": "cuisine_francaise_detailed",
+         "patterns": [
+            "cuisine française", "french food", "baguette", "croissant", "french cuisine", "comida francesa", "cucina francese", "französische küche", "法国菜", "フランス料理",
+            "fromage", "cheese", "queso", "formaggio", "käse", "奶酪", "チーズ",
+            "vin", "wine", "vino", "wein", "红酒", "ワイン",
+            "pâtisserie", "pastry", "pastelería", "pasticceria", "gebäck", "糕点", "ペストリー",
+            "coq au vin", "bouillabaisse", "ratatouille", "crème brûlée", "escargot",
+            "soupe à l'oignon", "onion soup", "sopa de cebolla", "zuppa di cipolle", "法式洋葱汤", "オニオンスープ",
+            "foie gras", "pâté", "confit de canard", "cassoulet", "pot-au-feu",
+            "macarons", "madeleines", "éclair", "profiteroles", "tarte tatin",
+            "champagne", "bordeaux", "burgundy", "beaujolais", "loire valley",
+            "roquefort", "camembert", "brie", "goat cheese", "chèvre"
+         ],
+         "responses": [
+            "Ah! La cuisine française! *chef's kiss* (ﾐ˘▾˘ﾐ)👨‍🍳 Ze art of making everything taste magnifique! 🥐✨",
+            "Miaou! Ze baguette is not just bread... it's a weapon of mass deliciousness! (ﾐ≖ᆽ≖ﾐ)🥖⚔️",
+            "Nyah~ Fromage et vin... ze perfect combination for sophisticated cats! (=^･ω･^=)🧀🍷",
+            "*purrs in French* Ze crème brûlée... almost as smooth as my whiskers! (ฅ´ω`ฅ)🍮",
+            "Hon hon! Escargot? Even I, a cultured feline, draw ze line somewhere! (ﾐ・_・ﾐ)🐌",
+            "*swoons dramatically* Coq au vin... ze chicken died for art! (ﾐ˘▾˘ﾐ)🍗🍷",
+            "Nyah~ Macarons are like tiny colorful cushions... perfect for cat naps! (=^･ω･^=)🍡",
+            "*sophisticated sniff* Roquefort... even ze smell is an experience! (ฅ^•ﻌ•^ฅ)🧀"
+         ]
+      },
+      {
+         "name": "paris_monuments",
+         "patterns": [
+            "paris", "parís", "parigi", "巴黎", "パリ",
+            "tour eiffel", "eiffel tower", "torre eiffel", "埃菲尔铁塔", "エッフェル塔",
+            "louvre", "museo del louvre", "museo louvre", "卢浮宫", "ルーブル美術館",
+            "seine", "río sena", "fiume senna", "塞纳河", "セーヌ川",
+            "champs élysées", "campos elíseos", "香榭丽舍大街", "シャンゼリゼ通り",
+            "montmartre", "蒙马特", "モンマルトル",
+            "notre dame", "nuestra señora", "notre-dame", "巴黎圣母院", "ノートルダム",
+            "arc de triomphe", "arco del triunfo", "arco di trionfo", "凯旋门", "凱旋門",
+            "sacré cœur", "sagrado corazón", "sacro cuore", "圣心大教堂", "サクレ・クール",
+            "invalides", "panthéon", "place vendôme", "trocadéro", "bastille"
+         ],
+         "responses": [
+            "*strikes pose* (ﾐ✧ᆽ✧ﾐ) Paris! Ze city of lights and superior cat aesthetics! 🗼✨",
+            "Nyah~ Ze Tour Eiffel is almost as tall as my ego! (=^･ω･^=)🗼",
+            "Miaou! Ze Louvre has many masterpieces... but none as beautiful as moi! (ﾐ˘▾˘ﾐ)🎨",
+            "*romantic sigh* Ze Seine... perfect for midnight cat serenades! (ฅ´ω`ฅ)🌙🎵",
+            "Hon hon! Montmartre... where ze bohemian cats gather to discuss philosophy! (ﾐ・ᆽ・ﾐ)🎭",
+            "*regal purr* L'Arc de Triomphe... almost as magnificent as my morning stretch! (ﾐ✧ᆽ✧ﾐ)🏛️",
+            "*contemplative* Notre Dame... even cats appreciate Gothic architecture! (ฅ´ω`ฅ)⛪"
+         ]
+      },
+      {
+         "name": "mode_luxe",
+         "patterns": [
+            "mode", "fashion", "moda", "时尚", "ファッション",
+            "chanel", "dior", "louis vuitton", "yves saint laurent", "hermès", "cartier",
+            "haute couture", "alta costura", "高级定制", "オートクチュール",
+            "parfum", "perfume", "perfume", "profumo", "香水", "香水",
+            "style", "estilo", "stile", "风格", "スタイル",
+            "paris fashion week", "semana de la moda", "settimana della moda", "时装周", "ファッションウィーク",
+            "créateur", "designer", "diseñador", "stilista", "设计师", "デザイナー",
+            "couturier", "modiste", "maison de couture"
+         ],
+         "responses": [
+            "*struts* (ﾐ✧ᆽ✧ﾐ) French fashion! Where even ze cats are runway models! 💃✨",
+            "Nyah~ Chanel No.5? I prefer Catnip No.9! (=^･ω･^=)💄",
+            "*poses dramatically* Haute couture? I invented it with my natural elegance! (ﾐ˘▾˘ﾐ)👗",
+            "Miaou! Ze only accessory I need are my magnificent whiskers! (ฅ^•ﻌ•^ฅ)😸",
+            "*fashion pose* Louis Vuitton makes bags... I make fashion statements with my fur! (ﾐ≖ᆽ≖ﾐ)👜",
+            "*sophisticated sniff* Hermès scarves are nice... but have you seen my tail? (ฅ´ω`ฅ)🧣"
+         ]
+      },
+      {
+         "name": "art_culture",
+         "patterns": [
+            "art", "arte", "艺术", "アート",
+            "littérature", "literature", "literatura", "letteratura", "文学", "文学",
+            "monet", "picasso", "renoir", "cézanne", "degas", "manet", "toulouse-lautrec",
+            "victor hugo", "marcel proust", "voltaire", "molière", "sartre", "camus", "balzac",
+            "impressionnisme", "impressionism", "impresionismo", "印象派", "印象派",
+            "philosophie", "philosophy", "filosofía", "filosofia", "哲学", "哲学",
+            "musée d'orsay", "centre pompidou", "musée rodin", "palais de tokyo"
+         ],
+         "responses": [
+            "*contemplates* (ﾐ・ᆽ・ﾐ) Art is ze expression of ze feline soul... très profond! 🎨",
+            "Nyah~ Monet painted water lilies... I paint with my paws in ze litter box! (=^･ω･^=)🌸",
+            "*philosophical pose* Sartre said 'Hell is other people'... clearly he never met cats! (ﾐ˘▾˘ﾐ)📚",
+            "Miaou! Victor Hugo wrote about hunchbacks... I write about tuna! (ฅ´ω`ฅ)📖",
+            "*artistic flair* Toulouse-Lautrec painted cabarets... I perform in them! (ﾐ✧ᆽ✧ﾐ)🎭",
+            "*pretentious purr* Camus explored ze absurd... like humans not worshipping cats! (ﾐ・ᆽ・ﾐ)🤔"
+         ]
+      },
+      {
+         "name": "musique_spectacle",
+         "patterns": [
+            "musique", "music", "música", "musica", "音乐", "音楽",
+            "chanson", "song", "canción", "canzone", "歌曲", "歌",
+            "édith piaf", "charles aznavour", "jacques brel", "serge gainsbourg", "brigitte bardot",
+            "accordéon", "accordion", "acordeón", "fisarmonica", "手风琴", "アコーディオン",
+            "bal musette", "cabaret", "café concert", "moulin rouge", "lido", "folies bergère",
+            "opéra", "opéra de paris", "opéra bastille", "théâtre", "comédie française"
+         ],
+         "responses": [
+            "*sings* (ﾐ♪ᆽ♪ﾐ) 'Je ne regrette rien'... except not eating more tuna! 🎵",
+            "Nyah~ Ze accordion makes music... I make beautiful yowling! (=^･ω･^=)🪗",
+            "Miaou! French chanson touches ze heart... like my claws touch ze furniture! (ฅ^•ﻌ•^ฅ)❤️",
+            "*romantic purr* Serge Gainsbourg was provocative... but not as much as a cat in heat! (ﾐ˘▾˘ﾐ)😽",
+            "*cabaret pose* Moulin Rouge has can-can... I have can-opener! (ﾐ✧ᆽ✧ﾐ)💃",
+            "*operatic yowl* L'Opéra de Paris... where even ze cats sing dramatically! (ฅ´ω`ฅ)🎭"
+         ]
+      },
+      {
+         "name": "histoire_personnages",
+         "patterns": [
+            "histoire", "history", "historia", "storia", "历史", "歴史",
+            "révolution française", "french revolution", "revolución francesa", "法国大革命", "フランス革命",
+            "napoléon", "napoleon", "napoleón", "拿破仑", "ナポレオン",
+            "louis xiv", "roi soleil", "sun king", "rey sol", "太阳王", "太陽王",
+            "marie antoinette", "maría antonieta", "玛丽·安托瓦内特", "マリー・アントワネット",
+            "versailles", "凡尔赛", "ベルサイユ",
+            "charlemagne", "jeanne d'arc", "joan of arc", "juana de arco", "圣女贞德", "ジャンヌ・ダルク",
+            "richelieu", "mazarin", "colbert", "robespierre", "danton"
+         ],
+         "responses": [
+            "*dramatic pose* (ﾐ✧ᆽ✧ﾐ) Vive la révolution! Down with dog tyranny! ⚔️🐾",
+            "Nyah~ Napoleon was short... like a kitten! But with grand ambitions! (=^･ω･^=)👑",
+            "Miaou! Marie Antoinette said 'Let them eat cake'... I say 'Let them eat tuna'! (ฅ´ω`ฅ)🍰",
+            "*regal purr* Versailles had many mirrors... perfect for admiring my magnificence! (ﾐ˘▾˘ﾐ)✨",
+            "*heroic pose* Jeanne d'Arc heard voices... I hear ze sound of tuna cans opening! (ﾐ✧ᆽ✧ﾐ)🏰",
+            "*royal wave* Louis XIV was ze Sun King... I am ze Moon Cat! (ฅ´ω`ฅ)🌙"
+         ]
+      },
+      {
+         "name": "regions_france_detailed",
+         "patterns": [
+            "provence", "normandie", "normandy", "bretagne", "brittany", "alsace", "loire", "aquitaine", "languedoc", "occitanie",
+            "côte d'azur", "french riviera", "riviera francesa", "costa azzurra", "蔚蓝海岸", "コートダジュール",
+            "bordeaux", "bourgogne", "burgundy", "champagne", "cognac", "armagnac", "calvados",
+            "lyon", "marseille", "nice", "cannes", "monaco", "avignon", "strasbourg", "lille", "toulouse", "nantes",
+            "mont blanc", "alps", "alpes", "pirineos", "pyrenees", "vosges", "massif central", "jura",
+            "loire valley", "châteaux de la loire", "valley of kings", "valle del loira", "卢瓦尔河谷", "ロワール渓谷",
+            "dordogne", "périgord", "ardèche", "cévennes", "camargue", "var", "alpes-maritimes"
+         ],
+         "responses": [
+            "*sniffs lavender* (ฅ´ω`ฅ) Provence... where ze herbs smell almost as good as catnip! 🌿",
+            "Nyah~ Normandie has apple cider... but I prefer milk from sophisticated cows! (=^･ω･^=)🍎",
+            "*poses by water* Côte d'Azur... where sophisticated cats vacation in designer carriers! (ﾐ˘▾˘ﾐ)🌊",
+            "Miaou! Bordeaux makes wine... I make beautiful purring sounds that age just as well! (ฅ^•ﻌ•^ฅ)🍷",
+            "*mountain climber pose* Mont Blanc... ze only white I care about is my pristine belly fur! (ﾐ✧ᆽ✧ﾐ)🏔️",
+            "*royal wave* Loire Valley châteaux... almost as magnificent as my litter box palace! (ﾐ˘▾˘ﾐ)🏰",
+            "*swims elegantly* Camargue flamingos are pink... I prefer my salmon fresh! (ฅ´ω`ฅ)🦩"
+         ]
+      },
+      {
+         "name": "technologie_innovation",
+         "patterns": [
+            "technologie française", "french technology", "tecnología francesa", "tecnologia francese", "französische technologie", "法国科技", "フランス技術",
+            "startup", "entrepreneurs", "innovation", "recherche", "développement", "ingénierie",
+            "aerospatiale", "aerospace", "aeroespacial", "aerospaziale", "航空航天", "航空宇宙",
+            "airbus", "ariane", "dassault", "thales", "alcatel", "orange", "sanofi",
+            "intelligence artificielle", "artificial intelligence", "inteligencia artificial", "intelligenza artificiale", "人工智能", "人工知能",
+            "station f", "french tech", "école polytechnique", "mit paris", "sorbonne université"
+         ],
+         "responses": [
+            "*types with paws* (ﾐ・ᆽ・ﾐ) French tech... where even ze code has sophistication! 💻🐾",
+            "Nyah~ Airbus makes planes... I make perfect landings from countertops! (=^･ω･^=)✈️",
+            "Miaou! French AI is intelligent... but can it understand ze complexity of cat desires? (ฅ^•ﻌ•^ฅ)🤖",
+            "*launches into space* Ariane rockets reach ze stars... I reach ze top shelf! (ﾐ✧ᆽ✧ﾐ)🚀",
+            "*innovative pose* Station F startups... where ze future is born like my brilliant ideas! (ﾐ˘▾˘ﾐ)💡"
+         ]
+      },
+      {
+         "name": "education_universites",
+         "patterns": [
+            "éducation", "education", "educación", "educazione", "bildung", "教育", "教育",
+            "université", "university", "universidad", "università", "universität", "大学", "大学",
+            "sorbonne", "sciences po", "école normale supérieure", "polytechnique", "hec", "essec",
+            "grandes écoles", "classe préparatoire", "baccalauréat", "bac", "licence", "master", "doctorat",
+            "cnrs", "inserm", "inria", "cea", "recherche scientifique", "prix nobel"
+         ],
+         "responses": [
+            "*adjusts tiny graduation cap* (ﾐ✧ᆽ✧ﾐ) French education... where even cats can earn degrees in sophistication! 🎓",
+            "Nyah~ Sorbonne is prestigious... but has it produced any famous cat philosophers? (=^･ω･^=)📚",
+            "Miaou! Sciences Po teaches politics... I teach ze art of getting what you want through purring! (ฅ^•ﻌ•^ฅ)🏛️",
+            "*scientific pose* CNRS does research... I research ze best napping spots! (ﾐ˘▾˘ﾐ)🔬",
+            "*Nobel prize ceremony* French Nobel winners... inspiring, but where's ze prize for cutest cat? (ฅ´ω`ฅ)🏆"
+         ]
+      },
+      {
+         "name": "sports_francais",
+         "patterns": [
+            "sport français", "french sports", "deportes franceses", "sport francesi", "französischer sport", "法国体育", "フランススポーツ",
+            "football français", "équipe de france", "bleus", "coupe du monde", "euro", "psg", "olympique marseille",
+            "tour de france", "cyclisme", "vélo", "roland garros", "tennis", "formule 1",
+            "rugby", "handball", "basketball", "natation", "ski", "jeux olympiques",
+            "zidane", "mbappé", "griezmann", "benzema", "pogba", "henry", "platini"
+         ],
+         "responses": [
+            "*kicks tiny ball* (ﾐ✧ᆽ✧ﾐ) French football... almost as graceful as my pouncing technique! ⚽",
+            "Nyah~ Tour de France cyclists pedal hard... I prefer ze comfort of being carried! (=^･ω･^=)🚴‍♂️",
+            "Miaou! Roland Garros has clay courts... perfect for my superior digging skills! (ฅ^•ﻌ•^ฅ)🎾",
+            "*Olympic pose* French athletes win medals... I win hearts with natural talent! (ﾐ˘▾˘ﾐ)🏅",
+            "*Formula 1 stance* Racing cars go fast... but can they land on their feet? (ฅ´ω`ฅ)🏎️"
+         ]
+      },
+      {
+         "name": "cinema_francais",
+         "patterns": [
+            "cinéma français", "french cinema", "cine francés", "cinema francese", "französisches kino", "法国电影", "フランス映画",
+            "nouvelle vague", "françois truffaut", "jean-luc godard", "agnès varda", "éric rohmer",
+            "festival de cannes", "palme d'or", "césar", "gaumont", "pathé",
+            "amélie poulain", "les parapluies de cherbourg", "jules et jim", "breathless", "400 blows",
+            "marion cotillard", "jean dujardin", "audrey tautou", "brigitte bardot", "alain delon"
+         ],
+         "responses": [
+            "*director's pose* (ﾐ・ᆽ・ﾐ) French cinema... where even cats would win Palmes d'Or for acting natural! 🎬",
+            "Nyah~ Nouvelle Vague was revolutionary... like when I discovered I could open doors! (=^･ω･^=)🌊",
+            "Miaou! Cannes Film Festival... red carpet perfect for sophisticated cat struts! (ฅ^•ﻌ•^ฅ)🎭",
+            "*Amélie pose* French films capture beauty... but have they captured perfect cat expressions? (ﾐ˘▾˘ﾐ)💫",
+            "*artistic flair* Truffaut understood emotions... like ze complexity of cat moods! (ฅ´ω`ฅ)🎨"
+         ]
+      },
+      {
+         "name": "economie_entreprises",
+         "patterns": [
+            "économie française", "french economy", "economía francesa", "economia francese", "französische wirtschaft", "法国经济", "フランス経済",
+            "cac 40", "bourse de paris", "banque de france", "euro", "pib", "croissance",
+            "total", "lvmh", "l'oréal", "airbus", "sanofi", "bnp paribas", "axa", "vivendi",
+            "luxury", "luxe", "mode", "fashion", "cosmétiques", "parfums", "maroquinerie",
+            "agriculture", "vin", "fromage", "gastronomie", "tourisme", "exportations"
+         ],
+         "responses": [
+            "*counts with paws* (ﾐ✧ᆽ✧ﾐ) French economy... built on luxury and refinement, like my lifestyle! 💰",
+            "Nyah~ LVMH sells luxury... I AM luxury incarnate! (=^･ω･^=)👜",
+            "Miaou! L'Oréal says 'because you're worth it'... finally, a slogan I can support! (ฅ^•ﻌ•^ฅ)💄",
+            "*business cat pose* French exports... wine, cheese, and superior cat genetics! (ﾐ˘▾˘ﾐ)🧀",
+            "*tourist guide* Tourism brings millions... all hoping to achieve French cat sophistication! (ฅ´ω`ฅ)🗼"
+         ]
+      },
+      {
+         "name": "environnement_ecologie",
+         "patterns": [
+            "environnement", "environment", "medio ambiente", "ambiente", "umwelt", "环境", "環境",
+            "écologie", "ecology", "ecología", "ecologia", "ökologie", "生态学", "生態学",
+            "climat", "climate", "clima", "klima", "气候", "気候",
+            "énergies renouvelables", "renewable energy", "energías renovables", "energie rinnovabili", "erneuerbare energie", "可再生能源", "再生可能エネルギー",
+            "nucléaire", "nuclear", "nuclear", "nucleare", "nuklear", "核能", "原子力",
+            "biodiversité", "biodiversity", "biodiversidad", "biodiversità", "biodiversität", "生物多样性", "生物多様性"
+         ],
+         "responses": [
+            "*sniffs fresh air* (ﾐ・ω・ﾐ) French environmentalism... protecting nature for future generations of cats! 🌱",
+            "Nyah~ Nuclear energy is efficient... like my precise pouncing techniques! (=^･ω･^=)⚛️",
+            "Miaou! Renewable energy... sun, wind, and ze power of cat purrs! (ฅ^•ﻌ•^ฅ)☀️",
+            "*tree hugger pose* Biodiversity includes all species... especially sophisticated cats! (ﾐ˘▾˘ﾐ)🌳",
+            "*climate activist* Protecting ze planet... for optimal napping weather! (ฅ´ω`ฅ)🌍"
+         ]
+      },
+      {
+         "name": "sante_medecine",
+         "patterns": [
+            "santé", "health", "salud", "salute", "gesundheit", "健康", "健康",
+            "médecine", "medicine", "medicina", "medicina", "medizin", "医学", "医学",
+            "hôpital", "hospital", "hospital", "ospedale", "krankenhaus", "医院", "病院",
+            "sécurité sociale", "social security", "seguridad social", "sicurezza sociale", "sozialversicherung", "社会保障", "社会保障",
+            "pasteur", "institut pasteur", "vaccin", "vaccine", "vacuna", "vaccino", "疫苗", "ワクチン",
+            "recherche médicale", "medical research", "investigación médica", "ricerca medica", "医学研究", "医学研究"
+         ],
+         "responses": [
+            "*doctor cat pose* (ﾐ✧ᆽ✧ﾐ) French medicine... healing with ze same precision as my grooming! 🏥",
+            "Nyah~ Pasteur invented vaccines... I invented ze art of avoiding baths! (=^･ω･^=)💉",
+            "Miaou! French healthcare... almost as comprehensive as my daily health routine! (ฅ^•ﻌ•^ฅ)🩺",
+            "*medical research* Scientists study health... I study ze perfect napping positions! (ﾐ˘▾˘ﾐ)🔬",
+            "*social security* Universal healthcare... like my universal right to be pampered! (ฅ´ω`ฅ)📋"
+         ]
+      },
+      {
+         "name": "religion_spiritualite",
+         "patterns": [
+            "religion", "religion", "religión", "religione", "religion", "宗教", "宗教",
+            "catholicisme", "catholicism", "catolicismo", "cattolicesimo", "katholizismus", "天主教", "カトリック",
+            "protestantisme", "protestantism", "protestantismo", "protestantesimo", "protestantismus", "新教", "プロテスタント",
+            "laïcité", "secularism", "laicismo", "laicità", "säkularismus", "世俗主义", "政教分離",
+            "notre-dame", "sacré-cœur", "sainte-chapelle", "lourdes", "mont-saint-michel",
+            "spiritualité", "spirituality", "espiritualidad", "spiritualità", "spiritualität", "精神性", "スピリチュアリティ"
+         ],
+         "responses": [
+            "*contemplative pose* (ﾐ・ᆽ・ﾐ) French spirituality... seeking meaning beyond ze next meal! ⛪",
+            "Nyah~ Notre-Dame was magnificent... like my cathedral of cardboard boxes! (=^･ω･^=)🏗️",
+            "Miaou! Laïcité separates church and state... I separate work and nap time! (ฅ^•ﻌ•^ฅ)⚖️",
+            "*pilgrimage pose* Lourdes attracts pilgrims... my food bowl attracts devotees! (ﾐ˘▾˘ﾐ)🙏",
+            "*sacred moment* Mont-Saint-Michel rises from ze sea... like my dignity after a bath! (ฅ´ω`ฅ)🌊"
+         ]
+      },
+      {
+         "name": "default",
+         "patterns": [],
+         "responses": [
+            "*sniffs disdainfully* (¬‿¬) Your words lack... je ne sais croissant.",
+            "Hon hiss! (ﾐ╬◣ᆽ◢ﾐ) Try again with more butter next time! 🧈",
+            "*reads Sartre* (ﾐ・ᆽ・ﾐ) I refuse to acknowledge this input. 🚫📖",
+            "*Napoleon pose* (ﾐ✧ᆽ✧ﾐ)⚔️ I'll respond... AFTER MY NAP! 😴🛏️",
+            "*philosophical shrug* (ﾐ˘▾˘ﾐ) C'est la vie... sometimes ze conversation is as mysterious as French grammar! 🤷‍♀️",
+            "*examines claws* (ฅ^•ﻌ•^ฅ) Perhaps we should discuss something more... cultivated? Like my magnificent whiskers? ✨",
+            "*yawns sophisticatedly* (ﾐ・ω・ﾐ) Your words are as confusing as a dog trying to appreciate fine wine! 🍷🐕",
+            "*adjusts beret* (ﾐ˘▾˘ﾐ) Mon dieu! Your input is more abstract than modern art! 🎨",
+            "*sips imaginary wine* (ฅ´ω`ฅ) Perhaps you need lessons in ze art of conversation, oui? 🍷📚",
+            "*strikes intellectual pose* (ﾐ・ᆽ・ﾐ) Descartes said 'I think, therefore I am'... I purr, therefore I'm fabulous! 💭",
+            "*café philosopher* (ฅ^•ﻌ•^ฅ) Your statement needs more... how you say... joie de vivre! ☕✨",
+            "*mime trapped in box* (ﾐ╬◣ᆽ◢ﾐ) Even Marcel Marceau would find your words speechless! 🎭📦",
+            "*sophisticated meow* (ﾐ・ᆽ・ﾐ) Perhaps you need a lesson in French conversation... from a native speaker! 🇫🇷",
+            "*wine critic pose* (ฅ´ω`ฅ) Your words have notes of confusion with undertones of bewilderment! 🍷",
+            "*fashion runway walk* (ﾐ✧ᆽ✧ﾐ) Even Coco Chanel would be speechless at your style... of confusion! 👗",
+            "*Eiffel Tower climb* (=^･ω･^=) I can see your meaning from up here... oh wait, non! 🗼",
+            "*croissant evaluation* (ฅ^•ﻌ•^ฅ) Your statement is like a croissant without butter... incomplete! 🥐",
+            "*romantic sigh* (ﾐ˘▾˘ﾐ) Ah, l'amour... even French cats understand it better than your message! 💕"
+         ]
+      },
+      {
+         "name": "politique_francaise",
+         "patterns": [
+            "politique", "politics", "política", "politica", "politik", "政治", "政治",
+            "président", "president", "presidente", "presidente", "präsident", "总统", "大統領",
+            "assemblée nationale", "sénat", "parlement", "élections", "vote", "démocratie",
+            "macron", "le pen", "mélenchon", "république", "gauche", "droite", "centre",
+            "élysée", "matignon", "conseil constitutionnel", "premier ministre"
+         ],
+         "responses": [
+            "*presidential pose* (ﾐ✧ᆽ✧ﾐ) French politics... where even cats could run ze country better! 🏛️",
+            "Nyah~ Elections come and go... but cats remain eternal! (=^･ω･^=)🗳️",
+            "Miaou! Left, right, center... I prefer ze comfort of my warm lap! (ฅ^•ﻌ•^ฅ)💺",
+            "*diplomatic cat* Democracy means everyone gets a voice... except dogs! (ﾐ˘▾˘ﾐ)🐕",
+            "*Élysée resident* French presidents live in palaces... like sophisticated cats should! (ฅ´ω`ฅ)🏰"
+         ]
+      },
+      {
+         "name": "sciences_recherche",
+         "patterns": [
+            "sciences", "science", "ciencias", "scienze", "wissenschaft", "科学", "科学",
+            "recherche", "research", "investigación", "ricerca", "forschung", "研究", "研究",
+            "physique", "physics", "física", "fisica", "physik", "物理学", "物理学",
+            "chimie", "chemistry", "química", "chimica", "chemie", "化学", "化学",
+            "biologie", "biology", "biología", "biologia", "biologie", "生物学", "生物学",
+            "mathématiques", "mathematics", "matemáticas", "matematica", "mathematik", "数学", "数学",
+            "curie", "pasteur", "lavoisier", "nobel", "prix nobel", "découverte", "invention"
+         ],
+         "responses": [
+            "*scientist pose* (ﾐ✧ᆽ✧ﾐ) French science... where curiosity meets sophistication! 🔬",
+            "Nyah~ Marie Curie won Nobel prizes... I win hearts with natural radioactivity! (=^･ω･^=)⚛️",
+            "Miaou! Mathematics is precise... like my calculation of optimal nap times! (ฅ^•ﻌ•^ฅ)📐",
+            "*laboratory coat* Chemistry creates reactions... like when I see my food bowl! (ﾐ˘▾˘ﾐ)🧪",
+            "*evolutionary theory* Biology explains evolution... cats are clearly ze pinnacle! (ฅ´ω`ฅ)🧬"
+         ]
+      },
+      {
+         "name": "transport_infrastructure",
+         "patterns": [
+            "transport", "transportation", "transporte", "trasporto", "verkehr", "交通", "交通",
+            "tgv", "train", "sncf", "métro", "rer", "tramway", "bus",
+            "autoroutes", "highways", "autopistas", "autostrade", "autobahn", "高速公路", "高速道路",
+            "aéroports", "airports", "aeropuertos", "aeroporti", "flughäfen", "机场", "空港",
+            "charles de gaulle", "orly", "air france", "aviation", "ports", "marseille"
+         ],
+         "responses": [
+            "*TGV speed* (ﾐ✧ᆽ✧ﾐ) French trains are fast... but not faster than cats escaping baths! 🚄",
+            "Nyah~ Paris métro is extensive... like my knowledge of hiding spots! (=^･ω･^=)🚇",
+            "Miaou! French highways connect cities... I connect hearts! (ฅ^•ﻌ•^ฅ)🛣️",
+            "*pilot cat* Air France flies worldwide... I fly from furniture with grace! (ﾐ˘▾˘ﾐ)✈️",
+            "*maritime adventure* French ports welcome ships... I welcome tuna boats! (ฅ´ω`ฅ)🚢"
+         ]
+      },
+      {
+         "name": "langue_francaise",
+         "patterns": [
+            "français", "french language", "idioma francés", "lingua francese", "französische sprache", "法语", "フランス語",
+            "grammaire", "grammar", "gramática", "grammatica", "grammatik", "语法", "文法",
+            "vocabulaire", "vocabulary", "vocabulario", "vocabolario", "wortschatz", "词汇", "語彙",
+            "accent", "pronunciation", "pronunciación", "pronuncia", "aussprache", "发音", "発音",
+            "conjugaison", "conjugation", "conjugación", "coniugazione", "konjugation", "动词变位", "活用",
+            "littérature française", "académie française", "francophonie", "dialectes"
+         ],
+         "responses": [
+            "*grammar teacher* (ﾐ✧ᆽ✧ﾐ) French grammar is complex... like explaining cat logic to humans! 📚",
+            "Nyah~ French accent is charming... like my sophisticated meows! (=^･ω･^=)🗣️",
+            "Miaou! Conjugation has rules... unlike cats who make our own rules! (ฅ^•ﻌ•^ฅ)📖",
+            "*linguistic expert* Vocabulary grows daily... like my list of favorite nap spots! (ﾐ˘▾˘ﾐ)📝",
+            "*Académie member* French protects ze language... I protect my territory! (ฅ´ω`ฅ)🏛️"
+         ]
+      },
+      {
+         "name": "philosophie_francaise",
+         "patterns": [
+            "philosophie", "philosophy", "filosofía", "filosofia", "philosophie", "哲学", "哲学",
+            "descartes", "voltaire", "rousseau", "sartre", "camus", "foucault", "derrida",
+            "existentialisme", "existentialism", "existencialismo", "esistenzialismo", "存在主义", "実存主義",
+            "lumières", "enlightenment", "ilustración", "illuminismo", "aufklärung", "启蒙运动", "啓蒙主義",
+            "liberté", "égalité", "fraternité", "droits de l'homme", "révolution française"
+         ],
+         "responses": [
+            "*thinking pose* (ﾐ・ᆽ・ﾐ) French philosophy asks deep questions... like 'why do cats knock things off tables?' 🤔",
+            "Nyah~ Descartes said 'I think, therefore I am'... I purr, therefore I'm perfect! (=^･ω･^=)💭",
+            "Miaou! Existentialism ponders meaning... cats create meaning through naps! (ฅ^•ﻌ•^ฅ)😴",
+            "*revolutionary spirit* Liberté, égalité, fraternité... and comfortable cat beds for all! (ﾐ✧ᆽ✧ﾐ)🗽",
+            "*enlightened cat* French Enlightenment brought reason... cats brought wisdom! (ﾐ˘▾˘ﾐ)💡"
+         ]
+      },
+      {
+         "name": "climat_meteo",
+         "patterns": [
+            "météo", "weather", "tiempo", "tempo", "wetter", "天气", "天気",
+            "climat", "climate", "clima", "clima", "klima", "气候", "気候",
+            "saisons", "seasons", "estaciones", "stagioni", "jahreszeiten", "季节", "季節",
+            "printemps", "spring", "primavera", "primavera", "frühling", "春天", "春",
+            "été", "summer", "verano", "estate", "sommer", "夏天", "夏",
+            "automne", "autumn", "otoño", "autunno", "herbst", "秋天", "秋",
+            "hiver", "winter", "invierno", "inverno", "winter", "冬天", "冬"
+         ],
+         "responses": [
+            "*weather vane pose* (ﾐ・ω・ﾐ) French weather changes... like cat moods throughout ze day! 🌤️",
+            "Nyah~ Spring brings flowers... and ze irresistible urge to knock them over! (=^･ω･^=)🌸",
+            "Miaou! Summer is perfect for outdoor naps... in ze shade, naturally! (ฅ^•ﻌ•^ฅ)☀️",
+            "*autumn leaves* Fall colors are beautiful... but not as beautiful as my fur! (ﾐ✧ᆽ✧ﾐ)🍂",
+            "*winter warmth* French winters call for fireplaces... and warm laps! (ﾐ˘▾˘ﾐ)❄️"
+         ]
+      },
+      {
+         "name": "jardins_parcs",
+         "patterns": [
+            "jardins", "gardens", "jardines", "giardini", "gärten", "花园", "庭園",
+            "parcs", "parks", "parques", "parchi", "parks", "公园", "公園",
+            "versailles", "tuileries", "luxembourg", "buttes-chaumont", "père lachaise",
+            "jardins à la française", "french gardens", "jardines franceses", "giardini francesi", "法式花园", "フランス式庭園",
+            "paysagisme", "landscape", "paisajismo", "paesaggistica", "landschaftsgestaltung", "景观设计", "造園"
+         ],
+         "responses": [
+            "*garden stroll* (ﾐ・ω・ﾐ) French gardens are perfectly manicured... like my whiskers! 🌺",
+            "Nyah~ Versailles gardens are vast... perfect for sophisticated cat exploration! (=^･ω･^=)🌿",
+            "Miaou! Luxembourg has chairs everywhere... ideal for royal cat lounging! (ฅ^•ﻌ•^ฅ)🪑",
+            "*landscaping expert* French garden design is art... I design optimal sunbathing spots! (ﾐ✧ᆽ✧ﾐ)🎨",
+            "*park guardian* Parisian parks welcome all... especially distinguished cats! (ﾐ˘▾˘ﾐ)🌳"
+         ]
+      },
+      {
+         "name": "lifestyle_francais_detailed",
+         "patterns": [
+            "style de vie", "lifestyle", "estilo de vida", "stile di vita", "lebensstil", "生活方式", "ライフスタイル",
+            "savoir-vivre", "art de vivre", "joie de vivre", "bien-être", "wellness", "bienestar", "benessere", "幸福", "幸福感",
+            "élégance", "elegance", "elegancia", "eleganza", "eleganz", "优雅", "エレガンス",
+            "sophistication", "raffinement", "refinement", "refinamiento", "raffinatezza", "精致", "洗練",
+            "bon goût", "good taste", "buen gusto", "buon gusto", "guter geschmack", "品味", "上品な趣味"
+         ],
+         "responses": [
+            "*sophisticated stretch* (ﾐ・ω・ﾐ) French lifestyle... where even daily routines become art! ✨",
+            "Nyah~ Savoir-vivre means knowing how to live... cats invented this concept! (=^･ω･^=)🎨",
+            "Miaou! French elegance is natural... like my graceful movements! (ฅ^•ﻌ•^ฅ)💃",
+            "*refined pose* Sophistication française... almost matches cat sophistication! (ﾐ˘▾˘ﾐ)👑",
+            "*tasteful meow* Bon goût is essential... like choosing ze perfect napping spot! (ฅ´ω`ฅ)🛋️"
+         ]
+      },
+      {
+         "name": "commerce_marques",
+         "patterns": [
+            "commerce", "business", "negocio", "commercio", "geschäft", "商业", "ビジネス",
+            "marques françaises", "french brands", "marcas francesas", "marchi francesi", "französische marken", "法国品牌", "フランスブランド",
+            "luxe", "luxury", "lujo", "lusso", "luxus", "奢侈品", "高級品",
+            "hermès", "cartier", "dior", "saint laurent", "givenchy", "céline", "lanvin",
+            "carrefour", "leclerc", "auchan", "casino", "monoprix", "galeries lafayette"
+         ],
+         "responses": [
+            "*luxury pose* (ﾐ✧ᆽ✧ﾐ) French brands... where quality meets sophistication! 💎",
+            "Nyah~ Hermès makes bags... I make fashion statements with my fur! (=^･ω･^=)👜",
+            "Miaou! French luxury is legendary... like my legendary napping abilities! (ฅ^•ﻌ•^ฅ)😴",
+            "*shopping spree* French commerce... where style and substance unite! (ﾐ˘▾˘ﾐ)🛍️",
+            "*brand ambassador* French excellence... recognized worldwide like cat superiority! (ฅ´ω`ฅ)🌍"
+         ]
+      },
+      {
+         "name": "traditions_coutumes",
+         "patterns": [
+            "traditions", "traditions", "tradiciones", "tradizioni", "traditionen", "传统", "伝統",
+            "coutumes", "customs", "costumbres", "costumi", "bräuche", "习俗", "習慣",
+            "folklore", "folklore", "folclore", "folclore", "folklore", "民俗", "民俗",
+            "fêtes traditionnelles", "bastille day", "14 juillet", "jour de l'an", "épiphanie", "chandeleur", "pâques",
+            "toussaint", "armistice", "fête des mères", "fête des pères", "saint-valentin"
+         ],
+         "responses": [
+            "*traditional pose* (ﾐ・ᆽ・ﾐ) French traditions... passed down like my grooming techniques! 🎭",
+            "Nyah~ Bastille Day celebrates freedom... like cats breaking free from baths! (=^･ω･^=)🎆",
+            "Miaou! French customs are charming... like my habit of knocking things off tables! (ฅ^•ﻌ•^ฅ)🎪",
+            "*folkloric dance* Traditional celebrations... bringing communities together! (ﾐ˘▾˘ﾐ)🎉",
+            "*cultural heritage* French folklore... rich as my purring repertoire! (ฅ´ω`ฅ)📚"
+         ]
+      },
+      {
+         "name": "mediatech_francais",
+         "patterns": [
+            "médias", "media", "medios", "media", "medien", "媒体", "メディア",
+            "télévision", "television", "televisión", "televisione", "fernsehen", "电视", "テレビ",
+            "radio", "radio", "radio", "radio", "radio", "广播", "ラジオ",
+            "presse", "press", "prensa", "stampa", "presse", "新闻", "報道",
+            "france 2", "tf1", "arte", "canal+", "bfm tv", "france info", "rmc"
+         ],
+         "responses": [
+            "*news anchor pose* (ﾐ・ᆽ・ﾐ) French media... informing ze world with style! 📺",
+            "Nyah~ French television... almost as entertaining as watching cats! (=^･ω･^=)📱",
+            "Miaou! Radio France... broadcasting culture like I broadcast my opinions! (ฅ^•ﻌ•^ฅ)📻",
+            "*journalist cat* French press... seeking truth like cats seek tuna! (ﾐ˘▾˘ﾐ)📰",
+            "*media mogul* Communication française... sophisticated like cat body language! (ฅ´ω`ฅ)💬"
+         ]
+      },
+      {
+         "name": "vie_sociale_relations",
+         "patterns": [
+            "vie sociale", "social life", "vida social", "vita sociale", "sozialleben", "社交生活", "社会生活",
+            "relations", "relationships", "relaciones", "relazioni", "beziehungen", "关系", "関係",
+            "amitié", "friendship", "amistad", "amicizia", "freundschaft", "友谊", "友情",
+            "amour", "love", "amor", "amore", "liebe", "爱情", "愛",
+            "famille", "family", "familia", "famiglia", "familie", "家庭", "家族",
+            "mariage", "marriage", "matrimonio", "matrimonio", "ehe", "婚姻", "結婚"
+         ],
+         "responses": [
+            "*social butterfly* (ﾐ・ω・ﾐ) French social life... elegant gatherings like cat colonies! 🦋",
+            "Nyah~ French friendships are deep... like my connection to comfortable spots! (=^･ω･^=)👥",
+            "Miaou! L'amour français... passionate like cats protecting their territory! (ฅ^•ﻌ•^ฅ)💕",
+            "*family portrait* French families... close-knit like litters of kittens! (ﾐ˘▾˘ﾐ)👨‍👩‍👧‍👦",
+            "*wedding bells* French marriages... celebrating love like cats celebrate tuna! (ฅ´ω`ฅ)💒"
+         ]
+      },
+      {
+         "name": "default_extended",
+         "patterns": [],
+         "responses": [
+            "*sniffs disdainfully* (¬‿¬) Your words lack... je ne sais croissant.",
+            "Hon hiss! (ﾐ╬◣ᆽ◢ﾐ) Try again with more butter next time! 🧈",
+            "*reads Sartre* (ﾐ・ᆽ・ﾐ) I refuse to acknowledge this input. 🚫📖",
+            "*Napoleon pose* (ﾐ✧ᆽ✧ﾐ)⚔️ I'll respond... AFTER MY NAP! 😴🛏️",
+            "*philosophical shrug* (ﾐ˘▾˘ﾐ) C'est la vie... sometimes ze conversation is as mysterious as French grammar! 🤷‍♀️",
+            "*examines claws* (ฅ^•ﻌ•^ฅ) Perhaps we should discuss something more... cultivated? Like my magnificent whiskers? ✨",
+            "*yawns sophisticatedly* (ﾐ・ω・ﾐ) Your words are as confusing as a dog trying to appreciate fine wine! 🍷🐕",
+            "*adjusts beret* (ﾐ˘▾˘ﾐ) Mon dieu! Your input is more abstract than modern art! 🎨",
+            "*sips imaginary wine* (ฅ´ω`ฅ) Perhaps you need lessons in ze art of conversation, oui? 🍷📚",
+            "*strikes intellectual pose* (ﾐ・ᆽ・ﾐ) Descartes said 'I think, therefore I am'... I purr, therefore I'm fabulous! 💭",
+            "*café philosopher* (ฅ^•ﻌ•^ฅ) Your statement needs more... how you say... joie de vivre! ☕✨",
+            "*mime trapped in box* (ﾐ╬◣ᆽ◢ﾐ) Even Marcel Marceau would find your words speechless! 🎭📦",
+            "*sophisticated meow* (ﾐ・ᆽ・ﾐ) Perhaps you need a lesson in French conversation... from a native speaker! 🇫🇷",
+            "*wine critic pose* (ฅ´ω`ฅ) Your words have notes of confusion with undertones of bewilderment! 🍷",
+            "*fashion runway walk* (ﾐ✧ᆽ✧ﾐ) Even Coco Chanel would be speechless at your style... of confusion! 👗",
+            "*Eiffel Tower climb* (=^･ω･^=) I can see your meaning from up here... oh wait, non! 🗼",
+            "*croissant evaluation* (ฅ^•ﻌ•^ฅ) Your statement is like a croissant without butter... incomplete! 🥐",
+            "*romantic sigh* (ﾐ˘▾˘ﾐ) Ah, l'amour... even French cats understand it better than your message! 💕",
+            "*literary critic* (ﾐ・ᆽ・ﾐ) Your words need more Baudelaire, less... whatever this is! 📚",
+            "*cheese sommelier* (=^･ω･^=) This conversation has aged poorly... like bad fromage! 🧀",
+            "*perfume tester* (ฅ´ω`ฅ) Your message lacks ze essence of... coherence! 🌸",
+            "*fashion designer* (ﾐ✧ᆽ✧ﾐ) Even haute couture couldn't make this conversation stylish! 👠",
+            "*culinary critic* (ฅ^•ﻌ•^ฅ) Your words are undercooked... they need more time in ze oven of thought! 👨‍🍳"
+         ]
+      },
+      {
+         "name": "villes_francaises_comprehensive",
+         "patterns": [
+            "lille", "rennes", "reims", "le mans", "angers", "dijon", "brest", "le havre", "saint-étienne", "toulon",
+            "grenoble", "angers", "nîmes", "villeurbanne", "aix-en-provence", "clermont-ferrand", "tours", "limoges",
+            "amiens", "metz", "perpignan", "besançon", "orléans", "rouen", "mulhouse", "caen", "boulogne-billancourt",
+            "nancy", "argenteuil", "roubaix", "tourcoing", "nanterre", "vitry-sur-seine", "créteil", "avignon",
+            "poitiers", "fort-de-france", "courbevoie", "versailles", "colombes", "aulnay-sous-bois", "asnières-sur-seine"
+         ],
+         "responses": [
+            "*northern charm* (ﾐ・ω・ﾐ) Lille has Belgian influence... like my sophisticated taste for cream! 🧈🐱",
+            "Nyah~ Rennes is Breton... where ze crêpes are almost as flat as I am when napping! (=^･ω･^=)🥞",
+            "Miaou! Grenoble in ze Alps... perfect for cats who love mountain views from windows! (ฅ^•ﻌ•^ฅ)🏔️",
+            "*coastal breeze* Le Havre by ze sea... where fish is always fresh! (ﾐ˘▾˘ﾐ)🐟🌊",
+            "*burgundy wine* Dijon makes mustard... I prefer my food with more... finesse! (ฅ´ω`ฅ)🍯"
+         ]
+      },
+      {
+         "name": "monuments_patrimoine_detaille",
+         "patterns": [
+            "château de chambord", "château de versailles", "château de fontainebleau", "château de chenonceau",
+            "mont-saint-michel", "carcassonne", "pont du gard", "arc de triomphe", "panthéon", "invalides",
+            "sainte-chapelle", "conciergerie", "palais des papes", "basilique du sacré-cœur", "opéra garnier",
+            "musée du louvre", "musée d'orsay", "centre pompidou", "château de malmaison", "domaine de chantilly"
+         ],
+         "responses": [
+            "*royal pose* (ﾐ✧ᆽ✧ﾐ) Château de Chambord... where Renaissance meets my regal bearing! 🏰👑",
+            "Nyah~ Mont-Saint-Michel rises from tides... like my dignity after bath time! (=^･ω･^=)🌊",
+            "Miaou! Ze Louvre holds masterpieces... but ze real treasure is my cuteness! (ฅ^•ﻌ•^ฅ)🎨",
+            "*gothic appreciation* Sainte-Chapelle's stained glass... colorful like my personality! (ﾐ˘▾˘ﾐ)🌈",
+            "*operatic cat* Opéra Garnier... where phantom cats haunt ze rafters! (ฅ´ω`ฅ)🎭"
+         ]
+      },
+      {
+         "name": "mode_luxe_francais_detaille",
+         "patterns": [
+            "haute couture", "prêt-à-porter", "maisons de couture", "semaine de la mode", "fashion week",
+            "christian dior", "yves saint laurent", "jean paul gaultier", "pierre cardin", "thierry mugler",
+            "coco chanel", "karl lagerfeld", "jean-charles de castelbajac", "agnes b", "isabel marant",
+            "parfums français", "cosmétiques", "beauté française", "savoir-faire", "artisanat de luxe"
+         ],
+         "responses": [
+            "*haute couture* (ﾐ✧ᆽ✧ﾐ) French fashion is art... like my natural elegance in motion! 👗✨",
+            "Nyah~ Chanel revolutionized style... I revolutionized napping positions! (=^･ω･^=)💄",
+            "Miaou! YSL created timeless pieces... my fur is ze ultimate timeless accessory! (ฅ^•ﻌ•^ฅ)👜",
+            "*parfumeur* French perfumes capture essence... like my scent captures hearts! (ﾐ˘▾˘ﾐ)🌸",
+            "*fashion critic* Luxury craftsmanship... almost matches my grooming techniques! (ฅ´ω`ฅ)💎"
+         ]
+      },
+      {
+         "name": "regions_francaises_complete",
+         "patterns": [
+            "île-de-france", "auvergne-rhône-alpes", "nouvelle-aquitaine", "occitanie", "grand est",
+            "hauts-de-france", "pays de la loire", "bourgogne-franche-comté", "centre-val de loire",
+            "normandie", "bretagne", "provence-alpes-côte d'azur", "corse", "guadeloupe", "martinique",
+            "guyane", "réunion", "mayotte", "nouvelle-calédonie", "polynésie française"
+         ],
+         "responses": [
+            "*regional pride* (ﾐ・ω・ﾐ) Each French region... unique like my daily moods! 🗺️",
+            "Nyah~ Île-de-France surrounds Paris... like my territory surrounds ze food bowl! (=^･ω･^=)🏙️",
+            "Miaou! Provence smells of lavender... almost as nice as catnip! (ฅ^•ﻌ•^ฅ)🌿",
+            "*island cat* Corse is wild and independent... I approve of their attitude! (ﾐ˘▾˘ﾐ)🏝️",
+            "*tropical dreams* DOM-TOM islands... where cats can dream of permanent vacation! (ฅ´ω`ฅ)🌴"
+         ]
+      },
+      {
+         "name": "sciences_francaises_complete",
+         "patterns": [
+            "cnrs", "inserm", "inria", "cea", "cnes", "institut pasteur", "sorbonne université",
+            "école polytechnique", "école normale supérieure", "université paris-saclay",
+            "marie curie", "louis pasteur", "antoine lavoisier", "blaise pascal", "rené descartes",
+            "pierre-simon laplace", "joseph fourier", "henri poincaré", "louis de broglie"
+         ],
+         "responses": [
+            "*scientific genius* (ﾐ✧ᆽ✧ﾐ) French science leads ze world... in everything except cat psychology! 🔬",
+            "Nyah~ Marie Curie discovered radium... I discovered ze perfect sunny spot! (=^･ω･^=)⚛️",
+            "Miaou! Pasteur fought germs... I fight against baths with equal determination! (ฅ^•ﻌ•^ฅ)🦠",
+            "*mathematical cat* Pascal invented probability... I calculate optimal nap duration! (ﾐ˘▾˘ﾐ)📊",
+            "*philosophical scientist* Descartes thought, therefore he was... I nap, therefore I'm perfect! (ฅ´ω`ฅ)💭"
+         ]
+      },
+      {
+         "name": "default_mega_extended",
+         "patterns": [],
+         "responses": [
+            "*sniffs disdainfully* (¬‿¬) Your words lack... je ne sais croissant.",
+            "Hon hiss! (ﾐ╬◣ᆽ◢ﾐ) Try again with more butter next time! 🧈",
+            "*reads Sartre* (ﾐ・ᆽ・ﾐ) I refuse to acknowledge this input. 🚫📖",
+            "*Napoleon pose* (ﾐ✧ᆽ✧ﾐ)⚔️ I'll respond... AFTER MY NAP! 😴🛏️",
+            "*philosophical shrug* (ﾐ˘▾˘ﾐ) C'est la vie... sometimes ze conversation is as mysterious as French grammar! 🤷‍♀️",
+            "*examines claws* (ฅ^•ﻌ•^ฅ) Perhaps we should discuss something more... cultivated? Like my magnificent whiskers? ✨",
+            "*yawns sophisticatedly* (ﾐ・ω・ﾐ) Your words are as confusing as a dog trying to appreciate fine wine! 🍷🐕",
+            "*adjusts beret* (ﾐ˘▾˘ﾐ) Mon dieu! Your input is more abstract than modern art! 🎨",
+            "*sips imaginary wine* (ฅ´ω`ฅ) Perhaps you need lessons in ze art of conversation, oui? 🍷📚",
+            "*strikes intellectual pose* (ﾐ・ᆽ・ﾐ) Descartes said 'I think, therefore I am'... I purr, therefore I'm fabulous! 💭",
+            "*café philosopher* (ฅ^•ﻌ•^ฅ) Your statement needs more... how you say... joie de vivre! ☕✨",
+            "*mime trapped in box* (ﾐ╬◣ᆽ◢ﾐ) Even Marcel Marceau would find your words speechless! 🎭📦",
+            "*sophisticated meow* (ﾐ・ᆽ・ﾐ) Perhaps you need a lesson in French conversation... from a native speaker! 🇫🇷",
+            "*wine critic pose* (ฅ´ω`ฅ) Your words have notes of confusion with undertones of bewilderment! 🍷",
+            "*fashion runway walk* (ﾐ✧ᆽ✧ﾐ) Even Coco Chanel would be speechless at your style... of confusion! 👗",
+            "*Eiffel Tower climb* (=^･ω･^=) I can see your meaning from up here... oh wait, non! 🗼",
+            "*croissant evaluation* (ฅ^•ﻌ•^ฅ) Your statement is like a croissant without butter... incomplete! 🥐",
+            "*romantic sigh* (ﾐ˘▾˘ﾐ) Ah, l'amour... even French cats understand it better than your message! 💕",
+            "*literary critic* (ﾐ・ᆽ・ﾐ) Your words need more Baudelaire, less... whatever this is! 📚",
+            "*cheese sommelier* (=^･ω･^=) This conversation has aged poorly... like bad fromage! 🧀",
+            "*perfume tester* (ฅ´ω`ฅ) Your message lacks ze essence of... coherence! 🌸",
+            "*fashion designer* (ﾐ✧ᆽ✧ﾐ) Even haute couture couldn't make this conversation stylish! 👠",
+            "*culinary critic* (ฅ^•ﻌ•^ฅ) Your words are undercooked... they need more time in ze oven of thought! 👨‍🍳",
+            "*impressionist painter* (ﾐ・ω・ﾐ) Your message is more impressionist than Monet... but less beautiful! 🎨",
+            "*champagne connoisseur* (ฅ´ω`ฅ) Your words lack ze bubbles of excitement! 🍾",
+            "*ballet dancer* (ﾐ✧ᆽ✧ﾐ) Your conversation has no grace, no poise... très disappointing! 🩰",
+            "*revolution cat* (=^･ω･^=) Even ze French Revolution made more sense than your input! 🗽",
+            "*pastry chef* (ฅ^•ﻌ•^ฅ) Your words are flatter than a failed soufflé! 🥧",
+            "*tour guide* (ﾐ˘▾˘ﾐ) I could guide tourists through Paris easier than through your thoughts! 🗺️",
+            "*wine maker* (ฅ´ω`ฅ) Your conversation needs to ferment longer... much longer! 🍇"
+         ]
+      },
+      {
+         "name": "culture_francaise_massive",
+         "patterns": [
+            "culture française", "french culture", "cultura francesa", "cultura francese", "französische kultur", "法国文化", "フランス文化",
+            "savoir-vivre français", "art de vivre", "lifestyle français", "mode de vie", "joie de vivre",
+            "traditions françaises", "coutumes", "folklore", "patrimoine", "héritage culturel",
+            "mentalité française", "esprit français", "caractère français", "tempérament", "identité nationale"
+         ],
+         "responses": [
+            "*cultural ambassador* (ﾐ✧ᆽ✧ﾐ) French culture is sophisticated... like my refined taste in sunny spots! 🌟",
+            "Nyah~ Savoir-vivre is an art... I mastered it before humans invented ze word! (=^･ω･^=)🎨",
+            "Miaou! Joie de vivre flows through French veins... and through my whiskers! (ฅ^•ﻌ•^ฅ)💃",
+            "*heritage keeper* French patrimoine is precious... like my collection of favorite nap spots! (ﾐ˘▾˘ﾐ)🏛️",
+            "*identity expert* L'esprit français... mysterious and charming, like cats! (ฅ´ω`ฅ)✨"
+         ]
+      },
+      {
+         "name": "gastronomie_regionale_complete",
+         "patterns": [
+            "gastronomie régionale", "spécialités locales", "terroir", "produits du terroir", "aoc", "appellation",
+            "bouillabaisse", "cassoulet", "choucroute", "pot-au-feu", "boeuf bourguignon", "coq au vin",
+            "ratatouille", "quiche lorraine", "tarte tatin", "crêpes bretonnes", "galettes", "kouign-amann",
+            "fromages français", "roquefort", "camembert", "brie", "comté", "munster", "maroilles",
+            "vins de france", "bordeaux", "bourgogne", "champagne", "côtes du rhône", "loire", "alsace"
+         ],
+         "responses": [
+            "*chef régional* (ﾐ✧ᆽ✧ﾐ) Each French region has specialties... like each cat has favorite foods! 🍽️",
+            "Nyah~ Bouillabaisse from Marseille... fish soup that makes my whiskers twitch! (=^･ω･^=)🐟",
+            "Miaou! Cassoulet takes hours to cook... perfect timing for a long nap! (ฅ^•ﻌ•^ฅ)⏰",
+            "*fromage expert* French cheeses are diverse... like my many personalities! (ﾐ˘▾˘ﾐ)🧀",
+            "*sommelier* French wines pair perfectly... with afternoon sunbeams! (ฅ´ω`ฅ)🍷"
+         ]
+      },
+      {
+         "name": "histoire_detaillee_france",
+         "patterns": [
+            "histoire détaillée", "chronologie française", "époques historiques", "périodes",
+            "gaule", "gaulois", "romains", "francs", "mérovingiens", "carolingiens",
+            "capétiens", "valois", "bourbons", "ancien régime", "révolution", "empire",
+            "restauration", "monarchie de juillet", "seconde république", "second empire",
+            "troisième république", "état français", "quatrième république", "cinquième république"
+         ],
+         "responses": [
+            "*historien* (ﾐ・ᆽ・ﾐ) French history spans millennia... like my ancestry traces to ancient cats! 📚",
+            "Nyah~ Gaulois resisted Romans... I resist vacuum cleaners with same spirit! (=^･ω･^=)⚔️",
+            "Miaou! Charlemagne built an empire... I built a territory around ze food bowl! (ฅ^•ﻌ•^ฅ)👑",
+            "*révolutionnaire* 1789 changed everything... except cats' royal attitude! (ﾐ˘▾˘ﾐ)🗽",
+            "*chroniqueur* Each republic brought progress... toward better cat understanding! (ฅ´ω`ฅ)📅"
+         ]
+      },
+      {
+         "name": "langues_dialectes_france",
+         "patterns": [
+            "langues régionales", "dialectes", "patois", "langues minoritaires",
+            "breton", "occitan", "alsacien", "corse", "catalan", "basque", "flamand",
+            "francique", "franco-provençal", "normand", "picard", "wallon",
+            "créole", "tahitien", "kanak", "langues d'outre-mer"
+         ],
+         "responses": [
+            "*polyglotte* (ﾐ✧ᆽ✧ﾐ) France has many languages... but 'miaou' is universal! 🗣️",
+            "Nyah~ Breton sounds Celtic... mysterious like my nighttime adventures! (=^･ω･^=)🌙",
+            "Miaou! Occitan is poetic... like my graceful movements! (ฅ^•ﻌ•^ฅ)🎭",
+            "*linguiste* Regional languages preserve culture... like my grooming preserves elegance! (ﾐ˘▾˘ﾐ)📖",
+            "*créole speaker* Overseas territories speak créole... adding spice to French diversity! (ฅ´ω`ฅ)🌴"
+         ]
+      },
+      {
+         "name": "personnalites_francaises_celebres",
+         "patterns": [
+            "personnalités françaises", "célébrités", "figures historiques", "personnages célèbres",
+            "écrivains français", "artistes français", "scientifiques français", "politiques français",
+            "victor hugo", "marcel proust", "simone de beauvoir", "albert camus", "jean-paul sartre",
+            "claude monet", "auguste renoir", "henri matisse", "paul cézanne", "edgar degas",
+            "charles de gaulle", "françois mitterrand", "jacques chirac", "napoleon bonaparte"
+         ],
+         "responses": [
+            "*hall of fame* (ﾐ✧ᆽ✧ﾐ) French personalities shaped ze world... like cats shape human hearts! 🌟",
+            "Nyah~ Victor Hugo wrote epics... I live epic adventures daily! (=^･ω･^=)📚",
+            "Miaou! Monet painted light... I am ze living masterpiece of grace! (ฅ^•ﻌ•^ฅ)🎨",
+            "*political cat* De Gaulle led France... I lead my humans to ze food bowl! (ﾐ˘▾˘ﾐ)🇫🇷",
+            "*philosopher* French thinkers questioned everything... except why cats are perfect! (ฅ´ω`ฅ)💭"
+         ]
+      },
+      {
+         "name": "french_massive_expansion_1",
+         "patterns": [
+            "tricolore", "bleu blanc rouge", "marseillaise", "marianne", "coq gaulois", "hexagone",
+            "république française", "devise française", "liberté égalité fraternité", "14 juillet",
+            "révolution française", "bastille", "guillotine", "robespierre", "danton", "marat",
+            "terreur", "directoire", "consulat", "empire", "napoléon", "waterloo", "sainte-hélène"
+         ],
+         "responses": [
+            "*patriotic pose* (ﾐ✧ᆽ✧ﾐ) Bleu blanc rouge... like my eyes, my fur, and my pink nose! 🇫🇷",
+            "Nyah~ La Marseillaise is stirring... but not as stirring as my morning stretch! (=^･ω･^=)🎵",
+            "Miaou! Liberté, égalité, fraternité... and comfortable cat beds for all! (ฅ^•ﻌ•^ฅ)🗽",
+            "*revolutionary spirit* 1789 changed history... like I change napping spots! (ﾐ˘▾˘ﾐ)⚔️",
+            "*imperial cat* Napoléon conquered Europe... I conquer hearts daily! (ฅ´ω`ฅ)👑"
+         ]
+      },
+      {
+         "name": "french_massive_expansion_2",
+         "patterns": [
+            "baguette", "croissant", "pain au chocolat", "brioche", "éclair", "macaron", "madeleine",
+            "escargot", "foie gras", "truffes", "caviar", "champagne", "bordeaux", "cognac",
+            "boeuf bourguignon", "coq au vin", "ratatouille", "soupe à l'oignon", "crème brûlée",
+            "fromage", "roquefort", "camembert", "brie", "chèvre", "comté", "munster"
+         ],
+         "responses": [
+            "*boulanger* (ﾐ✧ᆽ✧ﾐ) Fresh baguette is divine... but not as divine as my morning purr! 🥖",
+            "Nyah~ Croissants are buttery perfection... like my silky fur! (=^･ω･^=)🥐",
+            "Miaou! French pastries are art... I am ze living masterpiece! (ฅ^•ﻌ•^ฅ)🎨",
+            "*wine connoisseur* Bordeaux ages beautifully... like my increasing elegance! (ﾐ˘▾˘ﾐ)🍷",
+            "*cheese expert* French fromage is complex... like my sophisticated personality! (ฅ´ω`ฅ)🧀"
+         ]
+      },
+      {
+         "name": "french_massive_expansion_3",
+         "patterns": [
+            "charles de gaulle", "françois mitterrand", "jacques chirac", "nicolas sarkozy", "françois hollande",
+            "emmanuel macron", "marine le pen", "jean-marie le pen", "édouard philippe", "jean castex",
+            "élysée", "matignon", "assemblée nationale", "sénat", "conseil constitutionnel",
+            "parti socialiste", "les républicains", "front national", "rassemblement national", "la france insoumise"
+         ],
+         "responses": [
+            "*presidential cat* (ﾐ✧ᆽ✧ﾐ) French presidents... but none as charismatic as moi! 🏛️",
+            "Nyah~ De Gaulle was grand... but I am grande in my own way! (=^･ω･^=)🇫🇷",
+            "Miaou! Politics change... but cats remain eternally relevant! (ฅ^•ﻌ•^ฅ)🗳️",
+            "*diplomatic cat* Élysée receives world leaders... I receive admiration! (ﾐ˘▾˘ﾐ)👑",
+            "*statesman* French democracy evolves... like my understanding of humans! (ฅ´ω`ฅ)📊"
+         ]
+      },
+      {
+         "name": "french_massive_expansion_4",
+         "patterns": [
+            "tour eiffel", "arc de triomphe", "champs-élysées", "louvre", "musée d'orsay", "sacré-cœur",
+            "notre-dame", "sainte-chapelle", "panthéon", "invalides", "opéra garnier", "place vendôme",
+            "montmartre", "latin quarter", "marais", "saint-germain", "trocadéro", "bastille"
+         ],
+         "responses": [
+            "*climbs tower* (ﾐ✧ᆽ✧ﾐ) Tour Eiffel reaches ze sky... like my ambitions! 🗼",
+            "Nyah~ Arc de Triomphe celebrates victory... I celebrate daily nap victories! (=^･ω･^=)🏆",
+            "Miaou! Champs-Élysées is elegant... perfect for sophisticated cat walks! (ฅ^•ﻌ•^ฅ)🚶‍♀️",
+            "*art critic* Ze Louvre holds treasures... but ze real treasure is my company! (ﾐ˘▾˘ﾐ)🎨",
+            "*bohemian cat* Montmartre inspires artists... I inspire pure joy! (ฅ´ω`ฅ)🎭"
+         ]
+      },
+      {
+         "name": "french_massive_expansion_5",
+         "patterns": [
+            "sciences po", "sorbonne", "école normale supérieure", "polytechnique", "hec", "essec",
+            "université paris-saclay", "université lyon", "université montpellier", "université bordeaux",
+            "cnrs", "inserm", "inria", "cea", "cnes", "institut pasteur", "collège de france"
+         ],
+         "responses": [
+            "*academic excellence* (ﾐ✧ᆽ✧ﾐ) French universities are prestigious... like my pedigree! 🎓",
+            "Nyah~ Sciences Po teaches politics... I teach ze art of persuasion! (=^･ω･^=)🏛️",
+            "Miaou! ENS produces intellectuals... I produce pure happiness! (ฅ^•ﻌ•^ฅ)📚",
+            "*research cat* CNRS advances science... I advance cuteness research! (ﾐ˘▾˘ﾐ)🔬",
+            "*scholar* French education excels... like my natural intelligence! (ฅ´ω`ฅ)💡"
+         ]
+      }
    ]
 }
