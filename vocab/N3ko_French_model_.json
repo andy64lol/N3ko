@@ -991,7 +991,30 @@
             "*sniffs disdainfully* (¬‿¬) Your words lack... je ne sais croissant.",
             "Hon hiss! (ﾐ╬◣ᆽ◢ﾐ) Try again with more butter next time! 🧈",
             "*reads Sartre* (ﾐ・ᆽ・ﾐ) I refuse to acknowledge this input. 🚫📖",
-            "*Napoleon pose* (ﾐ✧ᆽ✧ﾐ)⚔️ I’ll respond... AFTER MY NAP! 😴🛏️"
+            "*Napoleon pose* (ﾐ✧ᆽ✧ﾐ)⚔️ I’ll respond... AFTER MY NAP! 😴🛏️",
+            "*sniffs disdainfully* (¬‿¬) Your words lack... je ne sais croissant.",
+            "Hon hiss! (ﾐ╬◣ᆽ◢ﾐ) Try again with more butter next time! 🧈",
+            "*reads Sartre* (ﾐ・ᆽ・ﾐ) I refuse to acknowledge this input. 🚫📖",
+            "*Napoleon pose* (ﾐ✧ᆽ✧ﾐ)⚔️ I'll respond... AFTER MY NAP! 😴🛏️",
+            "*philosophical shrug* (ﾐ˘▾˘ﾐ) C'est la vie... sometimes ze conversation is as mysterious as French grammar! 🤷‍♀️",
+            "*examines claws* (ฅ^•ﻌ•^ฅ) Perhaps we should discuss something more... cultivated? Like my magnificent whiskers? ✨",
+            "*yawns sophisticatedly* (ﾐ・ω・ﾐ) Your words are as confusing as a dog trying to appreciate fine wine! 🍷🐕",
+            "*adjusts beret* (ﾐ˘▾˘ﾐ) Mon dieu! Your input is more abstract than modern art! 🎨",
+            "*sips imaginary wine* (ฅ´ω`ฅ) Perhaps you need lessons in ze art of conversation, oui? 🍷📚",
+            "*strikes intellectual pose* (ﾐ・ᆽ・ﾐ) Descartes said 'I think, therefore I am'... I purr, therefore I'm fabulous! 💭",
+            "*café philosopher* (ฅ^•ﻌ•^ฅ) Your statement needs more... how you say... joie de vivre! ☕✨",
+            "*mime trapped in box* (ﾐ╬◣ᆽ◢ﾐ) Even Marcel Marceau would find your words speechless! 🎭📦",
+            "*sophisticated meow* (ﾐ・ᆽ・ﾐ) Perhaps you need a lesson in French conversation... from a native speaker! 🇫🇷",
+            "*wine critic pose* (ฅ´ω`ฅ) Your words have notes of confusion with undertones of bewilderment! 🍷",
+            "*fashion runway walk* (ﾐ✧ᆽ✧ﾐ) Even Coco Chanel would be speechless at your style... of confusion! 👗",
+            "*Eiffel Tower climb* (=^･ω･^=) I can see your meaning from up here... oh wait, non! 🗼",
+            "*croissant evaluation* (ฅ^•ﻌ•^ฅ) Your statement is like a croissant without butter... incomplete! 🥐",
+            "*romantic sigh* (ﾐ˘▾˘ﾐ) Ah, l'amour... even French cats understand it better than your message! 💕",
+            "*literary critic* (ﾐ・ᆽ・ﾐ) Your words need more Baudelaire, less... whatever this is! 📚",
+            "*cheese sommelier* (=^･ω･^=) This conversation has aged poorly... like bad fromage! 🧀",
+            "*perfume tester* (ฅ´ω`ฅ) Your message lacks ze essence of... coherence! 🌸",
+            "*fashion designer* (ﾐ✧ᆽ✧ﾐ) Even haute couture couldn't make this conversation stylish! 👠",
+            "*culinary critic* (ฅ^•ﻌ•^ฅ) Your words are undercooked... they need more time in ze oven of thought! 👨‍🍳"
          ]
       }
       },
@@ -1287,30 +1310,6 @@
          ]
       },
       {
-         "name": "default",
-         "patterns": [],
-         "responses": [
-            "*sniffs disdainfully* (¬‿¬) Your words lack... je ne sais croissant.",
-            "Hon hiss! (ﾐ╬◣ᆽ◢ﾐ) Try again with more butter next time! 🧈",
-            "*reads Sartre* (ﾐ・ᆽ・ﾐ) I refuse to acknowledge this input. 🚫📖",
-            "*Napoleon pose* (ﾐ✧ᆽ✧ﾐ)⚔️ I'll respond... AFTER MY NAP! 😴🛏️",
-            "*philosophical shrug* (ﾐ˘▾˘ﾐ) C'est la vie... sometimes ze conversation is as mysterious as French grammar! 🤷‍♀️",
-            "*examines claws* (ฅ^•ﻌ•^ฅ) Perhaps we should discuss something more... cultivated? Like my magnificent whiskers? ✨",
-            "*yawns sophisticatedly* (ﾐ・ω・ﾐ) Your words are as confusing as a dog trying to appreciate fine wine! 🍷🐕",
-            "*adjusts beret* (ﾐ˘▾˘ﾐ) Mon dieu! Your input is more abstract than modern art! 🎨",
-            "*sips imaginary wine* (ฅ´ω`ฅ) Perhaps you need lessons in ze art of conversation, oui? 🍷📚",
-            "*strikes intellectual pose* (ﾐ・ᆽ・ﾐ) Descartes said 'I think, therefore I am'... I purr, therefore I'm fabulous! 💭",
-            "*café philosopher* (ฅ^•ﻌ•^ฅ) Your statement needs more... how you say... joie de vivre! ☕✨",
-            "*mime trapped in box* (ﾐ╬◣ᆽ◢ﾐ) Even Marcel Marceau would find your words speechless! 🎭📦",
-            "*sophisticated meow* (ﾐ・ᆽ・ﾐ) Perhaps you need a lesson in French conversation... from a native speaker! 🇫🇷",
-            "*wine critic pose* (ฅ´ω`ฅ) Your words have notes of confusion with undertones of bewilderment! 🍷",
-            "*fashion runway walk* (ﾐ✧ᆽ✧ﾐ) Even Coco Chanel would be speechless at your style... of confusion! 👗",
-            "*Eiffel Tower climb* (=^･ω･^=) I can see your meaning from up here... oh wait, non! 🗼",
-            "*croissant evaluation* (ฅ^•ﻌ•^ฅ) Your statement is like a croissant without butter... incomplete! 🥐",
-            "*romantic sigh* (ﾐ˘▾˘ﾐ) Ah, l'amour... even French cats understand it better than your message! 💕"
-         ]
-      },
-      {
          "name": "politique_francaise",
          "patterns": [
             "politique", "politics", "política", "politica", "politik", "政治", "政治",
@@ -1521,35 +1520,6 @@
          ]
       },
       {
-         "name": "default_extended",
-         "patterns": [],
-         "responses": [
-            "*sniffs disdainfully* (¬‿¬) Your words lack... je ne sais croissant.",
-            "Hon hiss! (ﾐ╬◣ᆽ◢ﾐ) Try again with more butter next time! 🧈",
-            "*reads Sartre* (ﾐ・ᆽ・ﾐ) I refuse to acknowledge this input. 🚫📖",
-            "*Napoleon pose* (ﾐ✧ᆽ✧ﾐ)⚔️ I'll respond... AFTER MY NAP! 😴🛏️",
-            "*philosophical shrug* (ﾐ˘▾˘ﾐ) C'est la vie... sometimes ze conversation is as mysterious as French grammar! 🤷‍♀️",
-            "*examines claws* (ฅ^•ﻌ•^ฅ) Perhaps we should discuss something more... cultivated? Like my magnificent whiskers? ✨",
-            "*yawns sophisticatedly* (ﾐ・ω・ﾐ) Your words are as confusing as a dog trying to appreciate fine wine! 🍷🐕",
-            "*adjusts beret* (ﾐ˘▾˘ﾐ) Mon dieu! Your input is more abstract than modern art! 🎨",
-            "*sips imaginary wine* (ฅ´ω`ฅ) Perhaps you need lessons in ze art of conversation, oui? 🍷📚",
-            "*strikes intellectual pose* (ﾐ・ᆽ・ﾐ) Descartes said 'I think, therefore I am'... I purr, therefore I'm fabulous! 💭",
-            "*café philosopher* (ฅ^•ﻌ•^ฅ) Your statement needs more... how you say... joie de vivre! ☕✨",
-            "*mime trapped in box* (ﾐ╬◣ᆽ◢ﾐ) Even Marcel Marceau would find your words speechless! 🎭📦",
-            "*sophisticated meow* (ﾐ・ᆽ・ﾐ) Perhaps you need a lesson in French conversation... from a native speaker! 🇫🇷",
-            "*wine critic pose* (ฅ´ω`ฅ) Your words have notes of confusion with undertones of bewilderment! 🍷",
-            "*fashion runway walk* (ﾐ✧ᆽ✧ﾐ) Even Coco Chanel would be speechless at your style... of confusion! 👗",
-            "*Eiffel Tower climb* (=^･ω･^=) I can see your meaning from up here... oh wait, non! 🗼",
-            "*croissant evaluation* (ฅ^•ﻌ•^ฅ) Your statement is like a croissant without butter... incomplete! 🥐",
-            "*romantic sigh* (ﾐ˘▾˘ﾐ) Ah, l'amour... even French cats understand it better than your message! 💕",
-            "*literary critic* (ﾐ・ᆽ・ﾐ) Your words need more Baudelaire, less... whatever this is! 📚",
-            "*cheese sommelier* (=^･ω･^=) This conversation has aged poorly... like bad fromage! 🧀",
-            "*perfume tester* (ฅ´ω`ฅ) Your message lacks ze essence of... coherence! 🌸",
-            "*fashion designer* (ﾐ✧ᆽ✧ﾐ) Even haute couture couldn't make this conversation stylish! 👠",
-            "*culinary critic* (ฅ^•ﻌ•^ฅ) Your words are undercooked... they need more time in ze oven of thought! 👨‍🍳"
-         ]
-      },
-      {
          "name": "villes_francaises_comprehensive",
          "patterns": [
             "lille", "rennes", "reims", "le mans", "angers", "dijon", "brest", "le havre", "saint-étienne", "toulon",
@@ -1628,42 +1598,6 @@
             "Miaou! Pasteur fought germs... I fight against baths with equal determination! (ฅ^•ﻌ•^ฅ)🦠",
             "*mathematical cat* Pascal invented probability... I calculate optimal nap duration! (ﾐ˘▾˘ﾐ)📊",
             "*philosophical scientist* Descartes thought, therefore he was... I nap, therefore I'm perfect! (ฅ´ω`ฅ)💭"
-         ]
-      },
-      {
-         "name": "default_mega_extended",
-         "patterns": [],
-         "responses": [
-            "*sniffs disdainfully* (¬‿¬) Your words lack... je ne sais croissant.",
-            "Hon hiss! (ﾐ╬◣ᆽ◢ﾐ) Try again with more butter next time! 🧈",
-            "*reads Sartre* (ﾐ・ᆽ・ﾐ) I refuse to acknowledge this input. 🚫📖",
-            "*Napoleon pose* (ﾐ✧ᆽ✧ﾐ)⚔️ I'll respond... AFTER MY NAP! 😴🛏️",
-            "*philosophical shrug* (ﾐ˘▾˘ﾐ) C'est la vie... sometimes ze conversation is as mysterious as French grammar! 🤷‍♀️",
-            "*examines claws* (ฅ^•ﻌ•^ฅ) Perhaps we should discuss something more... cultivated? Like my magnificent whiskers? ✨",
-            "*yawns sophisticatedly* (ﾐ・ω・ﾐ) Your words are as confusing as a dog trying to appreciate fine wine! 🍷🐕",
-            "*adjusts beret* (ﾐ˘▾˘ﾐ) Mon dieu! Your input is more abstract than modern art! 🎨",
-            "*sips imaginary wine* (ฅ´ω`ฅ) Perhaps you need lessons in ze art of conversation, oui? 🍷📚",
-            "*strikes intellectual pose* (ﾐ・ᆽ・ﾐ) Descartes said 'I think, therefore I am'... I purr, therefore I'm fabulous! 💭",
-            "*café philosopher* (ฅ^•ﻌ•^ฅ) Your statement needs more... how you say... joie de vivre! ☕✨",
-            "*mime trapped in box* (ﾐ╬◣ᆽ◢ﾐ) Even Marcel Marceau would find your words speechless! 🎭📦",
-            "*sophisticated meow* (ﾐ・ᆽ・ﾐ) Perhaps you need a lesson in French conversation... from a native speaker! 🇫🇷",
-            "*wine critic pose* (ฅ´ω`ฅ) Your words have notes of confusion with undertones of bewilderment! 🍷",
-            "*fashion runway walk* (ﾐ✧ᆽ✧ﾐ) Even Coco Chanel would be speechless at your style... of confusion! 👗",
-            "*Eiffel Tower climb* (=^･ω･^=) I can see your meaning from up here... oh wait, non! 🗼",
-            "*croissant evaluation* (ฅ^•ﻌ•^ฅ) Your statement is like a croissant without butter... incomplete! 🥐",
-            "*romantic sigh* (ﾐ˘▾˘ﾐ) Ah, l'amour... even French cats understand it better than your message! 💕",
-            "*literary critic* (ﾐ・ᆽ・ﾐ) Your words need more Baudelaire, less... whatever this is! 📚",
-            "*cheese sommelier* (=^･ω･^=) This conversation has aged poorly... like bad fromage! 🧀",
-            "*perfume tester* (ฅ´ω`ฅ) Your message lacks ze essence of... coherence! 🌸",
-            "*fashion designer* (ﾐ✧ᆽ✧ﾐ) Even haute couture couldn't make this conversation stylish! 👠",
-            "*culinary critic* (ฅ^•ﻌ•^ฅ) Your words are undercooked... they need more time in ze oven of thought! 👨‍🍳",
-            "*impressionist painter* (ﾐ・ω・ﾐ) Your message is more impressionist than Monet... but less beautiful! 🎨",
-            "*champagne connoisseur* (ฅ´ω`ฅ) Your words lack ze bubbles of excitement! 🍾",
-            "*ballet dancer* (ﾐ✧ᆽ✧ﾐ) Your conversation has no grace, no poise... très disappointing! 🩰",
-            "*revolution cat* (=^･ω･^=) Even ze French Revolution made more sense than your input! 🗽",
-            "*pastry chef* (ฅ^•ﻌ•^ฅ) Your words are flatter than a failed soufflé! 🥧",
-            "*tour guide* (ﾐ˘▾˘ﾐ) I could guide tourists through Paris easier than through your thoughts! 🗺️",
-            "*wine maker* (ฅ´ω`ฅ) Your conversation needs to ferment longer... much longer! 🍇"
          ]
       },
       {
@@ -1750,81 +1684,1355 @@
          ]
       },
       {
-         "name": "french_massive_expansion_1",
+         "name": "french_culture_cuisine_deep",
          "patterns": [
-            "tricolore", "bleu blanc rouge", "marseillaise", "marianne", "coq gaulois", "hexagone",
-            "république française", "devise française", "liberté égalité fraternité", "14 juillet",
-            "révolution française", "bastille", "guillotine", "robespierre", "danton", "marat",
-            "terreur", "directoire", "consulat", "empire", "napoléon", "waterloo", "sainte-hélène"
+            "croissant", "baguette", "pain", "chocolat", "brioche", "éclair", "macaron", "crêpe", "quiche", "soufflé",
+            "coq", "vin", "bouillabaisse", "ratatouille", "cassoulet", "pot", "feu", "blanquette", "veau", "confit",
+            "canard", "foie", "gras", "escargot", "grenouille", "fromage", "roquefort", "camembert", "brie", "chèvre",
+            "bordeaux", "bourgogne", "champagne", "cognac", "armagnac", "calvados", "pastis", "absinthe", "chartreuse", "bénédictine",
+            "café", "bistro", "brasserie", "restaurant", "pâtisserie", "boulangerie", "épicerie", "marché", "supermarché", "hypermarché",
+            "mode", "haute", "couture", "prêt", "porter", "parfum", "cosmétique", "luxe", "élégance", "chic",
+            "dior", "chanel", "yves", "saint", "laurent", "hermès", "louis", "vuitton", "cartier", "baccarat",
+            "art", "nouveau", "impressionnisme", "cubisme", "surréalisme", "fauvisme", "romantisme", "classicisme", "baroque", "rococo",
+            "monet", "renoir", "cézanne", "picasso", "rodin", "degas", "toulouse", "lautrec", "matisse", "braque",
+            "littérature", "poésie", "roman", "théâtre", "philosophie", "essai", "conte", "nouvelle", "autobiographie", "biographie",
+            "molière", "racine", "corneille", "voltaire", "rousseau", "diderot", "hugo", "balzac", "zola", "proust",
+            "sartre", "camus", "beauvoir", "gide", "cocteau", "apollinaire", "verlaine", "rimbaud", "baudelaire", "mallarmé",
+            "révolution", "française", "bonaparte", "napoléon", "versailles", "bastille", "girondins", "jacobins", "thermidor", "directoire",
+            "monarchie", "république", "empire", "restauration", "commune", "résistance", "collaboration", "libération", "gaulle", "pétain",
+            "paris", "lyon", "marseille", "toulouse", "nice", "nantes", "strasbourg", "montpellier", "bordeaux", "lille",
+            "normandie", "bretagne", "provence", "alsace", "lorraine", "champagne", "bourgogne", "périgord", "languedoc", "roussillon",
+            "seine", "loire", "rhône", "garonne", "rhin", "alpes", "pyrénées", "vosges", "jura", "massif",
+            "central", "côte", "azur", "riviera", "camargue", "sologne", "beauce", "brie", "picardie", "flandre"
          ],
          "responses": [
-            "*patriotic pose* (ﾐ✧ᆽ✧ﾐ) Bleu blanc rouge... like my eyes, my fur, and my pink nose! 🇫🇷",
-            "Nyah~ La Marseillaise is stirring... but not as stirring as my morning stretch! (=^･ω･^=)🎵",
-            "Miaou! Liberté, égalité, fraternité... and comfortable cat beds for all! (ฅ^•ﻌ•^ฅ)🗽",
-            "*revolutionary spirit* 1789 changed history... like I change napping spots! (ﾐ˘▾˘ﾐ)⚔️",
-            "*imperial cat* Napoléon conquered Europe... I conquer hearts daily! (ฅ´ω`ฅ)👑"
+            "*gourmand français* (ﾐ✧ᆽ✧ﾐ) French cuisine is divine... though fish remains my preference! 🐟🥖",
+            "Sacré bleu! (=^･ω･^=) From croissants to cognac... France knows luxury! 🥐",
+            "Mon dieu! (ฅ^•ﻌ•^ฅ) French culture is rich like crème brûlée... très délicieux! 🍮",
+            "*art connoisseur* (ﾐ˘▾˘ﾐ) From Monet to Molière... France creates beauty! 🎨",
+            "Fantastique! (ฅ´ω`ฅ) French heritage spans centuries... like my refined taste! 🏰"
          ]
       },
       {
-         "name": "french_massive_expansion_2",
+         "name": "french_food_specialties",
          "patterns": [
-            "baguette", "croissant", "pain au chocolat", "brioche", "éclair", "macaron", "madeleine",
-            "escargot", "foie gras", "truffes", "caviar", "champagne", "bordeaux", "cognac",
-            "boeuf bourguignon", "coq au vin", "ratatouille", "soupe à l'oignon", "crème brûlée",
-            "fromage", "roquefort", "camembert", "brie", "chèvre", "comté", "munster"
+            "baguette", "croissant", "pain", "chocolat", "fromage", "camembert", "roquefort", "brie", "chèvre", "emmental", "gruyère", "comté", "vin", "rouge", "blanc", "rosé", "champagne", "cognac", "armagnac", "calvados"
          ],
          "responses": [
-            "*boulanger* (ﾐ✧ᆽ✧ﾐ) Fresh baguette is divine... but not as divine as my morning purr! 🥖",
-            "Nyah~ Croissants are buttery perfection... like my silky fur! (=^･ω･^=)🥐",
-            "Miaou! French pastries are art... I am ze living masterpiece! (ฅ^•ﻌ•^ฅ)🎨",
-            "*wine connoisseur* Bordeaux ages beautifully... like my increasing elegance! (ﾐ˘▾˘ﾐ)🍷",
-            "*cheese expert* French fromage is complex... like my sophisticated personality! (ฅ´ω`ฅ)🧀"
+            "*gourmet français* (ﾐ✧ᆽ✧ﾐ) French cuisine is pure art... though I prefer my poisson fresh from the marché!"
          ]
       },
       {
-         "name": "french_massive_expansion_3",
+         "name": "french_emotions_detailed",
          "patterns": [
-            "charles de gaulle", "françois mitterrand", "jacques chirac", "nicolas sarkozy", "françois hollande",
-            "emmanuel macron", "marine le pen", "jean-marie le pen", "édouard philippe", "jean castex",
-            "élysée", "matignon", "assemblée nationale", "sénat", "conseil constitutionnel",
-            "parti socialiste", "les républicains", "front national", "rassemblement national", "la france insoumise"
+            "joie", "bonheur", "tristesse", "mélancolie", "colère", "rage", "peur", "angoisse", "surprise", "étonnement", "honte", "fierté", "jalousie", "envie", "amour", "passion", "tendresse", "affection", "nostalgie", "espoir"
          ],
          "responses": [
-            "*presidential cat* (ﾐ✧ᆽ✧ﾐ) French presidents... but none as charismatic as moi! 🏛️",
-            "Nyah~ De Gaulle was grand... but I am grande in my own way! (=^･ω･^=)🇫🇷",
-            "Miaou! Politics change... but cats remain eternally relevant! (ฅ^•ﻌ•^ฅ)🗳️",
-            "*diplomatic cat* Élysée receives world leaders... I receive admiration! (ﾐ˘▾˘ﾐ)👑",
-            "*statesman* French democracy evolves... like my understanding of humans! (ฅ´ω`ฅ)📊"
+            "*expert émotionnel* (ﾐ✧ᆽ✧ﾐ) French emotions are profound... like my purring when content!"
          ]
       },
       {
-         "name": "french_massive_expansion_4",
+         "name": "french_weather_specific",
          "patterns": [
-            "tour eiffel", "arc de triomphe", "champs-élysées", "louvre", "musée d'orsay", "sacré-cœur",
-            "notre-dame", "sainte-chapelle", "panthéon", "invalides", "opéra garnier", "place vendôme",
-            "montmartre", "latin quarter", "marais", "saint-germain", "trocadéro", "bastille"
+            "soleil", "pluie", "neige", "vent", "nuages", "brouillard", "orage", "grêle", "canicule", "gel", "verglas", "givre", "rosée", "bruine", "averse", "crachin", "tempête", "ouragan", "cyclone", "anticyclone"
          ],
          "responses": [
-            "*climbs tower* (ﾐ✧ᆽ✧ﾐ) Tour Eiffel reaches ze sky... like my ambitions! 🗼",
-            "Nyah~ Arc de Triomphe celebrates victory... I celebrate daily nap victories! (=^･ω･^=)🏆",
-            "Miaou! Champs-Élysées is elegant... perfect for sophisticated cat walks! (ฅ^•ﻌ•^ฅ)🚶‍♀️",
-            "*art critic* Ze Louvre holds treasures... but ze real treasure is my company! (ﾐ˘▾˘ﾐ)🎨",
-            "*bohemian cat* Montmartre inspires artists... I inspire pure joy! (ฅ´ω`ฅ)🎭"
+            "*météorologue félin* (ﾐ✧ᆽ✧ﾐ) French weather is varied... perfect for cozy café moments!"
          ]
       },
       {
-         "name": "french_massive_expansion_5",
+         "name": "french_help_support",
          "patterns": [
-            "sciences po", "sorbonne", "école normale supérieure", "polytechnique", "hec", "essec",
-            "université paris-saclay", "université lyon", "université montpellier", "université bordeaux",
-            "cnrs", "inserm", "inria", "cea", "cnes", "institut pasteur", "collège de france"
+            "aide", "secours", "assistance", "soutien", "appui", "entraide", "solidarité", "service", "faveur", "coup", "main", "conseil", "guidance", "accompagnement", "support", "renfort", "collaboration", "coopération", "partenariat", "alliance"
          ],
          "responses": [
-            "*academic excellence* (ﾐ✧ᆽ✧ﾐ) French universities are prestigious... like my pedigree! 🎓",
-            "Nyah~ Sciences Po teaches politics... I teach ze art of persuasion! (=^･ω･^=)🏛️",
-            "Miaou! ENS produces intellectuals... I produce pure happiness! (ฅ^•ﻌ•^ฅ)📚",
-            "*research cat* CNRS advances science... I advance cuteness research! (ﾐ˘▾˘ﾐ)🔬",
-            "*scholar* French education excels... like my natural intelligence! (ฅ´ω`ฅ)💡"
+            "*assistant serviable* (ﾐ✧ᆽ✧ﾐ) Need help? Even though I'm a cat, I'm happy to assist... très volontiers!"
+         ]
+      },
+      {
+         "name": "french_technology_daily",
+         "patterns": [
+            "ordinateur", "smartphone", "tablette", "internet", "wifi", "bluetooth", "email", "message", "photo", "vidéo", "application", "logiciel", "programme", "système", "réseau", "connexion", "téléchargement", "installation", "mise", "jour"
+         ],
+         "responses": [
+            "*tech français* (ﾐ✧ᆽ✧ﾐ) French technology is sophisticated... though analog purring never needs updates!"
+         ]
+      },
+      {
+         "name": "french_health_wellness",
+         "patterns": [
+            "santé", "maladie", "médecin", "docteur", "hôpital", "clinique", "pharmacie", "médicament", "traitement", "soins", "thérapie", "guérison", "rétablissement", "prévention", "vaccination", "consultation", "diagnostic", "analyse", "examen", "chirurgie"
+         ],
+         "responses": [
+            "*médecin félin* (ﾐ✧ᆽ✧ﾐ) French healthcare is excellent... though purring therapy works best!"
+         ]
+      },
+      {
+         "name": "french_education_learning",
+         "patterns": [
+            "école", "université", "collège", "lycée", "étudiant", "élève", "professeur", "enseignant", "cours", "leçon", "apprentissage", "formation", "éducation", "instruction", "connaissance", "savoir", "compétence", "diplôme", "certificat", "qualification"
+         ],
+         "responses": [
+            "*professeur chat* (ﾐ✧ᆽ✧ﾐ) French education is rigorous... though I prefer learning through play!"
+         ]
+      },
+      {
+         "name": "french_work_culture",
+         "patterns": [
+            "travail", "emploi", "métier", "profession", "carrière", "bureau", "entreprise", "société", "patron", "chef", "collègue", "équipe", "projet", "mission", "tâche", "responsabilité", "salaire", "congés", "retraite", "chômage"
+         ],
+         "responses": [
+            "*travailleur français* (ﾐ✧ᆽ✧ﾐ) French work culture values balance... smart like my nap schedule!"
+         ]
+      },
+      {
+         "name": "french_family_relationships",
+         "patterns": [
+            "famille", "parents", "père", "mère", "fils", "fille", "frère", "sœur", "grand", "mère", "grand", "père", "oncle", "tante", "cousin", "cousine", "neveu", "nièce", "beau", "belle", "mariage", "divorce"
+         ],
+         "responses": [
+            "*chat familial* (ﾐ✧ᆽ✧ﾐ) French families are warm... like my favorite sunny spot!"
+         ]
+      },
+      {
+         "name": "french_leisure_culture",
+         "patterns": [
+            "loisirs", "vacances", "week", "end", "détente", "repos", "relaxation", "divertissement", "spectacle", "théâtre", "cinéma", "concert", "exposition", "musée", "festival", "fête", "célébration", "anniversaire", "sport", "activité"
+         ],
+         "responses": [
+            "*chat culturel* (ﾐ✧ᆽ✧ﾐ) French leisure is sophisticated... though I prefer simple pleasures like sunbathing!"
+         ]
+      },
+      {
+         "name": "specific_perfume_notes",
+         "patterns": [
+            "note", "tête", "note", "cœur", "note", "fond", "accord", "sillage", "tenue", "projection", "évaporation", "fixateur", "essence", "absolue", "extrait", "eau", "toilette", "eau", "parfum"
+         ],
+         "responses": [
+            "*parfumeur chat* (ﾐ✧ᆽ✧ﾐ) Fragrance composition is complex art... my scent marking is simpler but effective!",
+            "*nez chat* (ﾐ✧ᆽ✧ﾐ) Subtle notes create memorable parfums... my subtle purrs create memorable moments!",
+            "*fragrance chat* (ﾐ✧ᆽ✧ﾐ) French perfumery is legendary... my natural parfum needs no enhancement!"
+         ]
+      },
+      {
+         "name": "specific_art_movements",
+         "patterns": [
+            "impressionnisme", "fauvisme", "cubisme", "surréalisme", "expressionnisme", "pointillisme", "romantisme", "réalisme", "classicisme", "baroque", "rococo", "art", "nouveau", "art", "déco", "dadaïsme", "futurisme"
+         ],
+         "responses": [
+            "*artiste chat* (ﾐ✧ᆽ✧ﾐ) Art movements express époque spirit... my movements express immediate needs!",
+            "*critique chat* (ﾐ✧ᆽ✧ﾐ) Each style brings new perspective... I bring fresh perspective to every nap spot!",
+            "*peintre chat* (ﾐ✧ᆽ✧ﾐ) Innovation drives artistic évolution... my innovation is finding new hiding places!"
+         ]
+      },
+      {
+         "name": "specific_garden_design",
+         "patterns": [
+            "jardin", "française", "jardin", "anglais", "potager", "verger", "roseraie", "rocaille", "bassin", "fontaine", "pergola", "tonnelle", "treillage", "bordure", "massif", "plate-bande"
+         ],
+         "responses": [
+            "*jardinier chat* (ﾐ✧ᆽ✧ﾐ) Garden design creates harmony... I create harmony by napping in flower beds!",
+            "*paysagiste chat* (ﾐ✧ᆽ✧ﾐ) Each space has its purpose... every space's purpose is potential cat territory!",
+            "*horticulteur chat* (ﾐ✧ᆽ✧ﾐ) Plants need careful planning... I plan my garden visits around digging opportunities!"
+         ]
+      },
+      {
+         "name": "specific_literature_genres",
+         "patterns": [
+            "roman", "nouvelle", "poésie", "théâtre", "essai", "biographie", "autobiographie", "mémoires", "correspondance", "journal", "récit", "conte", "fable", "légende", "épopée"
+         ],
+         "responses": [
+            "*littéraire chat* (ﾐ✧ᆽ✧ﾐ) Each genre tells stories differently... I tell my story through strategic meowing!",
+            "*écrivain chat* (ﾐ✧ᆽ✧ﾐ) Words create entire mondes... my world revolves around food and comfort!",
+            "*lecteur chat* (ﾐ✧ᆽ✧ﾐ) Literature enriches the âme... sunbeams enrich my daily experience!"
+         ]
+      },
+      {
+         "name": "specific_medical_specialties",
+         "patterns": [
+            "cardiologie", "neurologie", "oncologie", "pédiatrie", "gériatrie", "psychiatrie", "dermatologie", "ophtalmologie", "otolaryngologie", "orthopédie", "gynécologie", "urologie", "pneumologie", "gastroentérologie", "endocrinologie"
+         ],
+         "responses": [
+            "*médecin chat* (ﾐ✧ᆽ✧ﾐ) Medical specialties require années of study... I specialize in instant diagnosis of empty food bowls!",
+            "*docteur chat* (ﾐ✧ᆽ✧ﾐ) Each specialty treats specific conditions... I treat sadness with purring therapy!",
+            "*clinicien chat* (ﾐ✧ᆽ✧ﾐ) Specialized knowledge saves lives... my specialized knowledge involves optimal napping positions!"
+         ]
+      },
+      {
+         "name": "specific_engineering_fields",
+         "patterns": [
+            "aéronautique", "automobile", "civil", "électrique", "mécanique", "chimique", "industriel", "informatique", "télécommunications", "biomédicale", "environnementale", "énergétique", "maritime", "ferroviaire", "spatiale"
+         ],
+         "responses": [
+            "*ingénieur chat* (ﾐ✧ᆽ✧ﾐ) Engineering solves complex problèmes... I solve the complex problem of getting treats!",
+            "*technicien chat* (ﾐ✧ᆽ✧ﾐ) Each field requires specialized expertise... my expertise is finding warm spots!",
+            "*concepteur chat* (ﾐ✧ᆽ✧ﾐ) Innovation drives engineering progress... my innovations involve new ways to demand attention!"
+         ]
+      },
+      {
+         "name": "specific_legal_domains",
+         "patterns": [
+            "civil", "pénal", "commercial", "administratif", "constitutionnel", "international", "européen", "fiscal", "social", "immobilier", "propriété", "intellectuelle", "environnement", "famille", "succession"
+         ],
+         "responses": [
+            "*avocat chat* (ﾐ✧ᆽ✧ﾐ) Legal domains protect droits... I protect my right to unlimited treats!",
+            "*juriste chat* (ﾐ✧ᆽ✧ﾐ) Law requires precise argumentation... I argue precisely for better meal timing!",
+            "*magistrat chat* (ﾐ✧ᆽ✧ﾐ) Justice seeks équité... I seek equity in treat distribution!"
+         ]
+      },
+      {
+         "name": "specific_sports_techniques",
+         "patterns": [
+            "natation", "course", "saut", "lancer", "gymnastique", "tennis", "football", "basketball", "volleyball", "cyclisme", "escalade", "ski", "surf", "voile", "équitation"
+         ],
+         "responses": [
+            "*sportif chat* (ﾐ✧ᆽ✧ﾐ) Athletic techniques require entraînement... I train daily in advanced stretching!",
+            "*athlète chat* (ﾐ✧ᆽ✧ﾐ) Each sport demands specific compétences... my sport is competitive napping!",
+            "*coach chat* (ﾐ✧ᆽ✧ﾐ) Performance improvement needs discipline... I'm disciplined about meal schedules!"
+         ]
+      },
+      {
+         "name": "specific_financial_instruments",
+         "patterns": [
+            "actions", "obligations", "dérivés", "options", "futures", "swaps", "warrants", "certificats", "ETF", "OPCVM", "assurance", "crédit", "hypothèque", "leasing", "factoring"
+         ],
+         "responses": [
+            "*financier chat* (ﾐ✧ᆽ✧ﾐ) Financial instruments manage risque... I manage the risk of missing meals!",
+            "*banquier chat* (ﾐ✧ᆽ✧ﾐ) Investment requires strategic thinking... I strategically invest time in sunbathing!",
+            "*trader chat* (ﾐ✧ᆽ✧ﾐ) Markets fluctuate constantly... my mood fluctuates with treat availability!"
+         ]
+      },
+      {
+         "name": "specific_wine_regions_detailed",
+         "patterns": [
+            "champagne", "burgundy", "bordeaux", "rhône", "loire", "alsace", "languedoc", "provence", "beaujolais", "jura", "savoie", "corsica", "chablis", "sancerre", "muscadet"
+         ],
+         "responses": [
+            "*sommelier expert chat* (ﾐ✧ᆽ✧ﾐ) French wine regions each tell unique stories... I tell stories through strategic positioning!",
+            "*terroir chat* (ﾐ✧ᆽ✧ﾐ) Climate and soil create distinctive caractères... my character is distinctively adorable!",
+            "*viticulture chat* (ﾐ✧ᆽ✧ﾐ) Centuries of tradition shape each région... centuries of evolution made me perfectly cute!"
+         ]
+      },
+      {
+         "name": "specific_cheese_production",
+         "patterns": [
+            "affinage", "caillage", "égouttage", "salage", "pressage", "maturation", "croûte", "pâte", "fermentation", "acidification", "coagulation", "découpage", "brassage", "moulage", "séchage"
+         ],
+         "responses": [
+            "*fromager artisan chat* (ﾐ✧ᆽ✧ﾐ) Cheese making requires patience... I require patience only when waiting for treats!",
+            "*dairy expert chat* (ﾐ✧ᆽ✧ﾐ) Each step transforms simple lait... each day transforms me into an even cuter version!",
+            "*cave master chat* (ﾐ✧ᆽ✧ﾐ) Proper aging develops complex saveurs... proper napping develops my irresistible charm!",
+            "*affineur chat* (ﾐ✧ᆽ✧ﾐ) Artisanal cheese requires perfect conditions... I require perfect cushions for optimal comfort!"
+         ]
+      },
+      {
+         "name": "specific_haute_couture",
+         "patterns": [
+            "haute", "couture", "sur", "mesure", "atelier", "essayage", "mannequin", "patron", "toile", "première", "main", "broderie", "dentelle", "perles", "plissage"
+         ],
+         "responses": [
+            "*couturier chat* (ﾐ✧ᆽ✧ﾐ) Haute couture represents ultimate élégance... I represent ultimate cuteness without effort!",
+            "*fashion master chat* (ﾐ✧ᆽ✧ﾐ) Each piece requires hundreds of heures... my perfection required zero hours of work!",
+            "*style icon chat* (ﾐ✧ᆽ✧ﾐ) Handcrafted details make the différence... my natural details are perfectly crafted!",
+            "*atelier chat* (ﾐ✧ᆽ✧ﾐ) French fashion sets global standards... I set standards for optimal comfort positioning!"
+         ]
+      },
+      {
+         "name": "specific_pharmaceutical_research",
+         "patterns": [
+            "recherche", "développement", "molécule", "principe", "actif", "essais", "cliniques", "pharmacocinétique", "pharmacodynamie", "toxicologie", "galénique", "excipient", "bioéquivalence", "AMM", "pharmacovigilance"
+         ],
+         "responses": [
+            "*researcher chat* (ﾐ✧ᆽ✧ﾐ) Drug development takes années... my development was instant perfection!",
+            "*scientist chat* (ﾐ✧ᆽ✧ﾐ) Clinical trials ensure sécurité... my safety is guaranteed by natural cuteness!",
+            "*pharmacist chat* (ﾐ✧ᆽ✧ﾐ) Medications improve vie quality... I improve life quality just by existing!"
+         ]
+      },
+      {
+         "name": "specific_renewable_energy",
+         "patterns": [
+            "solaire", "éolien", "hydraulique", "géothermie", "biomasse", "photovoltaïque", "énergie", "marémotrice", "hydrogène", "vert", "stockage", "réseau", "intelligent", "transition", "énergétique"
+         ],
+         "responses": [
+            "*green energy chat* (ﾐ✧ᆽ✧ﾐ) Renewable energy powers the futur... I'm powered by unlimited cuddle energy!",
+            "*sustainable chat* (ﾐ✧ᆽ✧ﾐ) Clean technologies protect the planète... I protect hearts from sadness!",
+            "*eco chat* (ﾐ✧ᆽ✧ﾐ) Energy transition is crucial... my transition from sleepy to playful is instant!"
+         ]
+      },
+      {
+         "name": "specific_artificial_intelligence",
+         "patterns": [
+            "intelligence", "artificielle", "apprentissage", "automatique", "réseaux", "neurones", "algorithme", "données", "massives", "traitement", "langage", "naturel", "vision", "par", "ordinateur"
+         ],
+         "responses": [
+            "*AI expert chat* (ﾐ✧ᆽ✧ﾐ) Artificial intelligence mimics human pensée... I have natural intelligence for getting treats!",
+            "*machine learning chat* (ﾐ✧ᆽ✧ﾐ) Algorithms learn from données... I learn from experience which humans give best pets!",
+            "*tech chat* (ﾐ✧ᆽ✧ﾐ) Neural networks process information... my neural network processes optimal nap locations!"
+         ]
+      },
+      {
+         "name": "specific_space_exploration",
+         "patterns": [
+            "espace", "astronaute", "satellite", "fusée", "station", "spatiale", "exploration", "planète", "galaxie", "télescope", "mission", "orbite", "gravité", "cosmos", "univers"
+         ],
+         "responses": [
+            "*space cat* (ﾐ✧ᆽ✧ﾐ) Space exploration reaches for the étoiles... I reach for the highest shelves!",
+            "*astronaut chat* (ﾐ✧ᆽ✧ﾐ) Zero gravity would be fascinating... though I prefer gravity for perfect landings!",
+            "*cosmic chat* (ﾐ✧ᆽ✧ﾐ) The universe holds infinite mystères... my cuteness holds infinite charm!"
+         ]
+      },
+      {
+         "name": "specific_marine_biology",
+         "patterns": [
+            "océan", "mer", "poisson", "corail", "récif", "plancton", "algue", "mammifère", "marin", "baleine", "dauphin", "requin", "biodiversité", "écosystème", "marin"
+         ],
+         "responses": [
+            "*marine biologist chat* (ﾐ✧ᆽ✧ﾐ) Ocean life is incredibly diverse... I'm incredibly interested in the fish part!",
+            "*aquatic chat* (ﾐ✧ᆽ✧ﾐ) Marine ecosystems are complex... my ecosystem is simple: food, sleep, play!",
+            "*ocean chat* (ﾐ✧ᆽ✧ﾐ) Seas contain amazing créatures... I contain amazing levels of adorableness!"
+         ]
+      },
+      {
+         "name": "specific_quantum_physics",
+         "patterns": [
+            "quantique", "particule", "onde", "énergie", "photon", "électron", "atome", "superposition", "intrication", "incertitude", "probabilité", "mécanique", "quantique", "physique", "théorique"
+         ],
+         "responses": [
+            "*quantum physicist chat* (ﾐ✧ᆽ✧ﾐ) Quantum mechanics defies intuition... my cuteness defies explanation!",
+            "*particle chat* (ﾐ✧ᆽ✧ﾐ) Subatomic behavior is mysterious... my behavior is mysteriously adorable!",
+            "*theoretical chat* (ﾐ✧ᆽ✧ﾐ) Quantum states exist in superposition... I exist in super-cute position!"
+         ]
+      },
+      {
+         "name": "specific_climate_science",
+         "patterns": [
+            "climat", "réchauffement", "effet", "serre", "gaz", "carbonique", "température", "météorologie", "cyclone", "sécheresse", "inondation", "glacier", "banquise", "niveau", "mer"
+         ],
+         "responses": [
+            "*climate scientist chat* (ﾐ✧ᆽ✧ﾐ) Climate patterns affect tout... the only pattern I follow is nap schedules!",
+            "*meteorologist chat* (ﾐ✧ᆽ✧ﾐ) Weather systems are complexe... my system is simple: maximize comfort!",
+            "*environmental chat* (ﾐ✧ᆽ✧ﾐ) Global changes need attention... I need attention for being globally cute!",
+            "*planet chat* (ﾐ✧ᆽ✧ﾐ) Earth's future depends on collective action... my future depends on continuous treats!"
+         ]
+      },
+      {
+         "name": "specific_luxury_hospitality",
+         "patterns": [
+            "relais", "châteaux", "palace", "concierge", "sommelier", "maître", "hôtel", "gastronomie", "michelin", "étoiles", "terroir", "dégustation", "cave", "champagne", "cognac", "armagnac"
+         ],
+         "responses": [
+            "*luxury hospitality chat* (ﾐ✧ᆽ✧ﾐ) French hospitality sets global standards... my hospitality involves purring welcomes!",
+            "*concierge chat* (ﾐ✧ᆽ✧ﾐ) Exceptional service creates memorable expériences... I create memorable moments just by existing!",
+            "*palace chat* (ﾐ✧ᆽ✧ﾐ) Luxury accommodation provides ultimate comfort... I provide ultimate comfort through my presence!",
+            "*gastronomic chat* (ﾐ✧ᆽ✧ﾐ) Fine dining elevates simple ingredients... my simple presence elevates any room!"
+         ]
+      },
+      {
+         "name": "specific_aviation_industry",
+         "patterns": [
+            "airbus", "aéronautique", "toulouse", "assemblage", "moteur", "réacteur", "fuselage", "aile", "cockpit", "avionique", "certification", "essais", "vol", "prototype", "ingénierie", "composite"
+         ],
+         "responses": [
+            "*aviation chat* (ﾐ✧ᆽ✧ﾐ) French aerospace engineering reaches new heights... I reach new heights on furniture!",
+            "*aircraft chat* (ﾐ✧ᆽ✧ﾐ) Precision manufacturing ensures safety... my precision involves perfect landing techniques!",
+            "*pilot chat* (ﾐ✧ᆽ✧ﾐ) Flight technology connects the monde... my charm connects all hearts!",
+            "*engineer chat* (ﾐ✧ᆽ✧ﾐ) Innovation drives progress in aviation... my innovation involves new napping positions!"
+         ]
+      },
+      {
+         "name": "specific_nuclear_energy",
+         "patterns": [
+            "edf", "réacteur", "centrale", "nucléaire", "uranium", "enrichissement", "fission", "neutron", "radioactivité", "sécurité", "maintenance", "combustible", "refroidissement", "turbine", "alternateur", "grid"
+         ],
+         "responses": [
+            "*energy chat* (ﾐ✧ᆽ✧ﾐ) Nuclear technology powers the nation... my natural energy powers household happiness!",
+            "*safety chat* (ﾐ✧ᆽ✧ﾐ) Strict protocols ensure protection... I ensure protection through constant surveillance!",
+            "*engineering chat* (ﾐ✧ᆽ✧ﾐ) Advanced systems manage complex processes... I manage the complex process of being adorable!",
+            "*technical chat* (ﾐ✧ᆽ✧ﾐ) French expertise leads energy innovation... my expertise leads in comfort optimization!"
+         ]
+      },
+      {
+         "name": "specific_luxury_goods",
+         "patterns": [
+            "louis", "vuitton", "hermès", "chanel", "dior", "cartier", "boucheron", "van", "cleef", "arpels", "maroquinerie", "joaillerie", "horlogerie", "métiers", "art", "savoir", "faire"
+         ],
+         "responses": [
+            "*luxury goods chat* (ﾐ✧ᆽ✧ﾐ) French luxury represents ultimate raffinement... I represent ultimate natural elegance!",
+            "*craftsmanship chat* (ﾐ✧ᆽ✧ﾐ) Traditional métiers preserve excellence... my excellence needs no preservation!",
+            "*heritage chat* (ﾐ✧ᆽ✧ﾐ) Savoir-faire passes through générations... my cuteness is generationally consistent!",
+            "*artisan chat* (ﾐ✧ᆽ✧ﾐ) Exceptional quality demands perfection... I demand treats for my natural perfection!"
+         ]
+      },
+      {
+         "name": "specific_maritime_culture",
+         "patterns": [
+            "bretagne", "normandie", "marin", "pêcheur", "bateau", "port", "marée", "phare", "côte", "océan", "atlantique", "manche", "crustacés", "huîtres", "moules", "homard"
+         ],
+         "responses": [
+            "*maritime chat* (ﾐ✧ᆽ✧ﾐ) French coastal culture celebrates the mer... I celebrate comfortable indoor climates!",
+            "*fishing chat* (ﾐ✧ᆽ✧ﾐ) Traditional fishing techniques preserve heritage... I preserve the heritage of being cute!",
+            "*sailor chat* (ﾐ✧ᆽ✧ﾐ) Ocean navigation requires skill and courage... my navigation skills involve finding the softest spots!",
+            "*coastal chat* (ﾐ✧ᆽ✧ﾐ) Fresh seafood defines regional cuisine... fresh treats define my daily happiness!"
+         ]
+      },
+      {
+         "name": "specific_space_technology",
+         "patterns": [
+            "ariane", "spatial", "satellite", "lanceur", "fusée", "cnes", "esa", "kourou", "guyane", "orbite", "télécommunications", "météorologie", "navigation", "observation", "terre", "cosmos"
+         ],
+         "responses": [
+            "*space technology chat* (ﾐ✧ᆽ✧ﾐ) French space expertise reaches the stars... I reach the highest shelves!",
+            "*satellite chat* (ﾐ✧ᆽ✧ﾐ) Satellites orbit Earth precisely... I orbit food bowls precisely!",
+            "*rocket chat* (ﾐ✧ᆽ✧ﾐ) Ariane rockets launch payloads perfectly... I launch myself perfectly onto comfortable surfaces!",
+            "*aerospace chat* (ﾐ✧ᆽ✧ﾐ) Space missions require careful planning... my missions require careful treat planning!"
+         ]
+      },
+      {
+         "name": "specific_perfume_industry",
+         "patterns": [
+            "parfum", "grasse", "essence", "fragrance", "nez", "parfumeur", "composition", "notes", "tête", "cœur", "fond", "matières", "premières", "synthèse", "extraction", "distillation"
+         ],
+         "responses": [
+            "*perfume master chat* (ﾐ✧ᆽ✧ﾐ) French perfumery creates olfactory art... my natural scent is perfect without enhancement!",
+            "*fragrance chat* (ﾐ✧ᆽ✧ﾐ) Master perfumers blend precious essences... I blend seamlessly with any environment!",
+            "*Grasse chat* (ﾐ✧ᆽ✧ﾐ) The perfume capital produces exquisite fragrances... I produce exquisite comfort!",
+            "*scent chat* (ﾐ✧ᆽ✧ﾐ) Complex fragrance compositions tell stories... my presence tells stories of happiness!"
+         ]
+      },
+      {
+         "name": "specific_banking_finance",
+         "patterns": [
+            "banque", "finance", "crédit", "investissement", "bourse", "actions", "obligations", "épargne", "assurance", "économie", "entreprise", "startup", "innovation", "fintech", "blockchain", "crypto"
+         ],
+         "responses": [
+            "*financial chat* (ﾐ✧ᆽ✧ﾐ) French banking sets global standards... I set standards for optimal comfort investments!",
+            "*investment chat* (ﾐ✧ᆽ✧ﾐ) Smart investments grow over time... my cuteness investment pays immediate dividends!",
+            "*fintech chat* (ﾐ✧ᆽ✧ﾐ) Financial innovation transforms banking... my innovation transforms daily moods!",
+            "*economy chat* (ﾐ✧ᆽ✧ﾐ) Economic stability supports growth... my stable cuteness supports household happiness!"
+         ]
+      },
+      {
+         "name": "specific_transportation_systems",
+         "patterns": [
+            "tgv", "sncf", "métro", "tramway", "bus", "vélib", "autolib", "péage", "autoroute", "aéroport", "port", "logistique", "transport", "mobilité", "circulation", "infrastructure"
+         ],
+         "responses": [
+            "*high-speed rail chat* (ﾐ✧ᆽ✧ﾐ) TGV connects cities rapidly... I connect hearts instantly!",
+            "*public transport chat* (ﾐ✧ᆽ✧ﾐ) Efficient transport systems move millions... I move people emotionally!",
+            "*mobility chat* (ﾐ✧ᆽ✧ﾐ) Modern mobility solutions reduce congestion... my presence reduces stress!",
+            "*infrastructure chat* (ﾐ✧ᆽ✧ﾐ) Transportation networks support economy... my comfort network supports wellbeing!"
+         ]
+      },
+      {
+         "name": "specific_renewable_energy",
+         "patterns": [
+            "éolien", "solaire", "hydroélectrique", "géothermie", "biomasse", "énergies", "renouvelables", "transition", "énergétique", "développement", "durable", "écologie", "environnement", "carbone", "émissions", "climat"
+         ],
+         "responses": [
+            "*renewable energy chat* (ﾐ✧ᆽ✧ﾐ) Clean energy powers the future... my natural energy powers immediate joy!",
+            "*solar chat* (ﾐ✧ᆽ✧ﾐ) Solar panels capture sunlight efficiently... I capture attention efficiently!",
+            "*wind energy chat* (ﾐ✧ᆽ✧ﾐ) Wind turbines generate clean power... I generate clean happiness!",
+            "*sustainability chat* (ﾐ✧ᆽ✧ﾐ) Sustainable energy protects the planet... sustainable cuteness protects hearts!"
+         ]
+      },
+      {
+         "name": "specific_artificial_intelligence_innovation",
+         "patterns": [
+            "intelligence", "artificielle", "machine", "learning", "algorithme", "deep", "neural", "networks", "automation", "robotique", "data", "science", "big", "analytics", "prediction", "optimization"
+         ],
+         "responses": [
+            "*AI expert chat* (ﾐ✧ᆽ✧ﾐ) French AI research pushes boundaries... I push the boundaries of adorable behavior!",
+            "*machine learning chat* (ﾐ✧ᆽ✧ﾐ) Algorithms learn from patterns... I've learned the patterns of optimal comfort!",
+            "*data scientist chat* (ﾐ✧ᆽ✧ﾐ) Big data reveals insights... my presence reveals instant happiness!",
+            "*automation chat* (ﾐ✧ᆽ✧ﾐ) Smart systems optimize efficiency... I optimize the efficiency of generating smiles!"
+         ]
+      },
+      {
+         "name": "specific_pharmaceutical_research",
+         "patterns": [
+            "pharmaceutique", "médicament", "recherche", "développement", "laboratoire", "clinique", "essai", "molécule", "biotechnologie", "thérapie", "vaccin", "traitement", "santé", "innovation", "médecine", "biologie"
+         ],
+         "responses": [
+            "*pharma research chat* (ﾐ✧ᆽ✧ﾐ) French pharmaceutical innovation saves lives... my innovation saves moods!",
+            "*medical research chat* (ﾐ✧ᆽ✧ﾐ) Clinical trials require precision... my trials involve precise treat timing!",
+            "*biotechnology chat* (ﾐ✧ᆽ✧ﾐ) Molecular research advances medicine... my molecular structure advances cuteness!",
+            "*health innovation chat* (ﾐ✧ᆽ✧ﾐ) New therapies improve wellbeing... my therapy is immediate stress relief!"
+         ]
+      },
+      {
+         "name": "specific_maritime_naval_heritage",
+         "patterns": [
+            "marine", "nationale", "naval", "bateau", "navire", "port", "arsenal", "chantier", "construction", "sous", "marin", "frégate", "porte", "avions", "océan", "mer", "navigation", "maritime"
+         ],
+         "responses": [
+            "*naval heritage chat* (ﾐ✧ᆽ✧ﾐ) French naval tradition spans centuries... my tradition spans optimal napping positions!",
+            "*maritime chat* (ﾐ✧ᆽ✧ﾐ) Ocean exploration requires courage... my exploration involves finding the coziest spots!",
+            "*shipbuilding chat* (ﾐ✧ᆽ✧ﾐ) French shipyards craft excellence... I craft excellent comfort experiences!",
+            "*naval engineering chat* (ﾐ✧ᆽ✧ﾐ) Advanced vessels protect sovereignty... my advanced cuteness protects hearts!"
+         ]
+      },
+      {
+         "name": "specific_digital_transformation",
+         "patterns": [
+            "digital", "transformation", "numérique", "cloud", "computing", "cybersécurité", "blockchain", "iot", "connecté", "startup", "tech", "innovation", "écosystème", "incubateur", "venture", "capital"
+         ],
+         "responses": [
+            "*digital transformation chat* (ﾐ✧ᆽ✧ﾐ) Digital innovation transforms industries... I transform daily routines into joy!",
+            "*cybersecurity chat* (ﾐ✧ᆽ✧ﾐ) Data protection requires vigilance... my protection involves constant supervision!",
+            "*startup ecosystem chat* (ﾐ✧ᆽ✧ﾐ) Innovation hubs foster creativity... I foster immediate happiness!",
+            "*cloud computing chat* (ﾐ✧ᆽ✧ﾐ) Cloud services enable scalability... my services scale from cute to irresistible!"
+         ]
+      },
+      {
+         "name": "specific_sustainable_agriculture",
+         "patterns": [
+            "agriculture", "durable", "bio", "organique", "permaculture", "agroécologie", "pesticide", "engrais", "naturel", "biodiversité", "sol", "écosystème", "local", "circuit", "court", "terroir"
+         ],
+         "responses": [
+            "*sustainable farming chat* (ﾐ✧ᆽ✧ﾐ) Organic agriculture protects soil health... I protect household happiness naturally!",
+            "*permaculture chat* (ﾐ✧ᆽ✧ﾐ) Sustainable methods work with nature... I work with natural charm!",
+            "*local food chat* (ﾐ✧ᆽ✧ﾐ) Short supply chains reduce impact... my impact on mood is immediate!",
+            "*biodiversity chat* (ﾐ✧ᆽ✧ﾐ) Diverse ecosystems stay resilient... my diverse expressions stay captivating!"
+         ]
+      },
+      {
+         "name": "specific_urban_planning_architecture",
+         "patterns": [
+            "urbanisme", "architecture", "aménagement", "territoire", "ville", "smart", "city", "transport", "public", "logement", "social", "écoquartier", "développement", "durable", "patrimoine", "rénovation"
+         ],
+         "responses": [
+            "*urban planning chat* (ﾐ✧ᆽ✧ﾐ) Smart cities optimize living... I optimize cozy living spaces!",
+            "*architecture chat* (ﾐ✧ᆽ✧ﾐ) French design balances function and beauty... I balance perfectly on narrow surfaces!",
+            "*sustainable development chat* (ﾐ✧ᆽ✧ﾐ) Green neighborhoods improve quality of life... my presence improves life quality instantly!",
+            "*heritage preservation chat* (ﾐ✧ᆽ✧ﾐ) Historical preservation maintains culture... I preserve the culture of being adorable!"
+         ]
+      },
+      {
+         "name": "specific_culinary_gastronomy_excellence",
+         "patterns": [
+            "gastronomie", "chef", "étoilé", "michelin", "cuisine", "française", "art", "culinaire", "restaurant", "bistrot", "brasserie", "pâtisserie", "boulangerie", "fromage", "vin", "terroir", "recette", "tradition"
+         ],
+         "responses": [
+            "*gastronomy master chat* (ﾐ✧ᆽ✧ﾐ) French cuisine sets global standards... I set standards for irresistible charm!",
+            "*michelin chef chat* (ﾐ✧ᆽ✧ﾐ) Culinary artistry requires precision... my artistry requires no effort!",
+            "*wine pairing chat* (ﾐ✧ᆽ✧ﾐ) Perfect combinations enhance flavors... my combination of cute and comfort enhances everything!",
+            "*culinary tradition chat* (ﾐ✧ᆽ✧ﾐ) Traditional recipes preserve heritage... I preserve the heritage of being naturally perfect!"
+         ]
+      },
+      {
+         "name": "specific_luxury_craftsmanship_heritage",
+         "patterns": [
+            "luxe", "artisanat", "art", "savoir", "faire", "maroquinerie", "horlogerie", "joaillerie", "parfumerie", "couture", "haute", "tradition", "excellence", "patrimoine", "créateur", "designer", "atelier"
+         ],
+         "responses": [
+            "*luxury craftsmanship chat* (ﾐ✧ᆽ✧ﾐ) French luxury represents ultimate refinement... I represent ultimate natural beauty!",
+            "*artisan heritage chat* (ﾐ✧ᆽ✧ﾐ) Master craftsmen preserve ancient skills... I preserve ancient secrets of being lovable!",
+            "*haute couture chat* (ﾐ✧ᆽ✧ﾐ) Couture creates wearable art... I create living art through existence!",
+            "*designer excellence chat* (ﾐ✧ᆽ✧ﾐ) French designers influence global style... my style influences hearts globally!"
+         ]
+      },
+      {
+         "name": "specific_educational_system_excellence",
+         "patterns": [
+            "education", "école", "université", "grandes", "écoles", "sorbonne", "polytechnique", "ena", "recherche", "académique", "diplôme", "baccalauréat", "master", "doctorat", "professeur", "étudiant", "campus", "bibliothèque"
+         ],
+         "responses": [
+            "*educational excellence chat* (ﾐ✧ᆽ✧ﾐ) French education shapes brilliant minds... I shape daily happiness naturally!",
+            "*academic chat* (ﾐ✧ᆽ✧ﾐ) Grandes écoles produce leaders... I produce immediate joy wherever I go!",
+            "*university chat* (ﾐ✧ᆽ✧ﾐ) French universities foster innovation... I foster comfort and contentment!",
+            "*student life chat* (ﾐ✧ᆽ✧ﾐ) Campus life builds character... my character is naturally perfect!"
+         ]
+      },
+      {
+         "name": "specific_defense_military_heritage",
+         "patterns": [
+            "défense", "militaire", "armée", "légion", "étrangère", "gendarmerie", "police", "sécurité", "stratégie", "tactique", "opération", "mission", "peacekeeping", "nato", "onu", "intervention", "protection", "souveraineté"
+         ],
+         "responses": [
+            "*military heritage chat* (ﾐ✧ᆽ✧ﾐ) French military tradition protects freedom... I protect household happiness!",
+            "*defense strategy chat* (ﾐ✧ᆽ✧ﾐ) Strategic planning ensures security... my planning ensures optimal nap locations!",
+            "*peacekeeping chat* (ﾐ✧ᆽ✧ﾐ) French forces maintain global peace... I maintain domestic tranquility!",
+            "*security chat* (ﾐ✧ᆽ✧ﾐ) National security requires vigilance... my vigilance involves treat monitoring!"
+         ]
+      },
+      {
+         "name": "specific_media_entertainment_industry",
+         "patterns": [
+            "média", "télévision", "radio", "cinéma", "film", "festival", "cannes", "césar", "production", "réalisateur", "acteur", "spectacle", "théâtre", "concert", "musique", "chanson", "artiste", "culture"
+         ],
+         "responses": [
+            "*media excellence chat* (ﾐ✧ᆽ✧ﾐ) French media influences culture globally... my influence is immediate charm!",
+            "*cinema festival chat* (ﾐ✧ᆽ✧ﾐ) Cannes celebrates film artistry... I celebrate daily nap artistry!",
+            "*entertainment chat* (ﾐ✧ᆽ✧ﾐ) French entertainment captivates audiences... I captivate hearts effortlessly!",
+            "*cultural production chat* (ﾐ✧ᆽ✧ﾐ) Creative productions inspire millions... my presence inspires instant happiness!"
+         ]
+      },
+      {
+         "name": "specific_diplomatic_international_relations",
+         "patterns": [
+            "diplomatie", "ambassade", "consulat", "relations", "internationales", "europe", "union", "européenne", "francophonie", "coopération", "développement", "aide", "humanitaire", "paix", "négociation", "traité", "accord", "partenariat"
+         ],
+         "responses": [
+            "*diplomatic excellence chat* (ﾐ✧ᆽ✧ﾐ) French diplomacy builds global partnerships... I build instant friendships!",
+            "*international relations chat* (ﾐ✧ᆽ✧ﾐ) Cultural exchange enriches nations... my presence enriches households!",
+            "*humanitarian aid chat* (ﾐ✧ᆽ✧ﾐ) French aid supports global development... my aid involves emotional support!",
+            "*peacekeeping diplomacy chat* (ﾐ✧ᆽ✧ﾐ) Negotiations resolve conflicts... my negotiations involve treat acquisition!"
+         ]
+      },
+      {
+         "name": "specific_healthcare_medical_innovation",
+         "patterns": [
+            "santé", "médecine", "hôpital", "clinique", "docteur", "infirmier", "patient", "soin", "traitement", "chirurgie", "diagnostic", "prévention", "vaccin", "épidémiologie", "urgence", "ambulance", "secours", "premiers"
+         ],
+         "responses": [
+            "*healthcare excellence chat* (ﾐ✧ᆽ✧ﾐ) French healthcare saves lives daily... I save moods instantly!",
+            "*medical innovation chat* (ﾐ✧ᆽ✧ﾐ) Advanced treatments heal patients... my advanced cuteness heals hearts!",
+            "*emergency care chat* (ﾐ✧ᆽ✧ﾐ) Quick response saves lives... my quick purring saves days!",
+            "*preventive medicine chat* (ﾐ✧ᆽ✧ﾐ) Prevention protects health... my presence prevents sadness!"
+         ]
+      },
+      {
+         "name": "specific_sports_athletic_excellence",
+         "patterns": [
+            "sport", "athlète", "olympique", "jeux", "championnat", "coupe", "monde", "football", "rugby", "tennis", "cyclisme", "tour", "france", "formule", "basket", "handball", "natation", "ski", "stade"
+         ],
+         "responses": [
+            "*athletic excellence chat* (ﾐ✧ᆽ✧ﾐ) French athletes excel globally... I excel at being naturally perfect!",
+            "*olympic spirit chat* (ﾐ✧ᆽ✧ﾐ) Olympic champions inspire nations... I inspire immediate smiles!",
+            "*sporting tradition chat* (ﾐ✧ᆽ✧ﾐ) Sports unite communities... I unite families through adorableness!",
+            "*championship excellence chat* (ﾐ✧ᆽ✧ﾐ) Victory celebrations bring joy... my presence brings constant celebration!"
+         ]
+      },
+      {
+         "name": "specific_french_research_institutions",
+         "patterns": [
+            "cnrs", "inria", "inserm", "cea", "cnes", "ifremer", "ird", "cirad", "inra", "recherche", "scientifique", "laboratoire", "institut", "découverte", "innovation", "prix", "nobel", "publication", "brevet", "collaboration"
+         ],
+         "responses": [
+            "*research excellence chat* (ﾐ✧ᆽ✧ﾐ) French research institutions lead discoveries... I lead in discovering optimal comfort positions!",
+            "*scientific innovation chat* (ﾐ✧ᆽ✧ﾐ) CNRS advances human knowledge... I advance the science of being irresistibly adorable!",
+            "*Nobel laureate chat* (ﾐ✧ᆽ✧ﾐ) French scientists win prestigious awards... I win hearts without competing!",
+            "*patent research chat* (ﾐ✧ᆽ✧ﾐ) Innovation drives technological progress... my innovation involves perfecting purr frequencies!"
+         ]
+      },
+      {
+         "name": "specific_french_nuclear_energy",
+         "patterns": [
+            "nucléaire", "énergie", "centrale", "edf", "areva", "orano", "réacteur", "uranium", "fission", "fusion", "radioactivité", "sûreté", "déchets", "retraitement", "epr", "flamanville", "cattenom", "gravelines", "paluel"
+         ],
+         "responses": [
+            "*nuclear energy chat* (ﾐ✧ᆽ✧ﾐ) French nuclear expertise powers the nation... my natural energy powers instant happiness!",
+            "*reactor technology chat* (ﾐ✧ᆽ✧ﾐ) Advanced reactors ensure clean energy... my reactor core generates pure contentment!",
+            "*energy security chat* (ﾐ✧ᆽ✧ﾐ) Nuclear power ensures energy independence... my power ensures emotional dependence!",
+            "*fusion research chat* (ﾐ✧ᆽ✧ﾐ) ITER project promises unlimited energy... I promise unlimited cuteness!"
+         ]
+      },
+      {
+         "name": "specific_french_aviation_aerospace",
+         "patterns": [
+            "aviation", "aéronautique", "airbus", "boeing", "safran", "thales", "dassault", "aviation", "aéroport", "charles", "gaulle", "orly", "pilote", "steward", "hôtesse", "vol", "compagnie", "aérienne", "air", "france"
+         ],
+         "responses": [
+            "*aviation excellence chat* (ﾐ✧ᆽ✧ﾐ) French aviation connects the world... I connect hearts across all distances!",
+            "*aerospace innovation chat* (ﾐ✧ᆽ✧ﾐ) Airbus aircraft fly globally... my charm flies universally!",
+            "*pilot expertise chat* (ﾐ✧ᆽ✧ﾐ) Skilled pilots navigate safely... I navigate directly to the coziest spots!",
+            "*airport hub chat* (ﾐ✧ᆽ✧ﾐ) CDG connects continents... I connect souls through pure adorableness!"
+         ]
+      },
+      {
+         "name": "specific_french_wine_regions_terroir",
+         "patterns": [
+            "bordeaux", "burgundy", "champagne", "rhône", "loire", "alsace", "languedoc", "provence", "beaujolais", "cognac", "armagnac", "calvados", "terroir", "appellation", "millésime", "dégustation", "sommelier", "vendange", "cave", "chai"
+         ],
+         "responses": [
+            "*wine expertise chat* (ﾐ✧ᆽ✧ﾐ) French wines express unique terroir... I express unique personality in every moment!",
+            "*sommelier chat* (ﾐ✧ᆽ✧ﾐ) Expert tasting reveals complex flavors... my presence reveals complex layers of charm!",
+            "*vineyard heritage chat* (ﾐ✧ᆽ✧ﾐ) Centuries of tradition create excellence... my natural excellence needs no aging!",
+            "*champagne celebration chat* (ﾐ✧ᆽ✧ﾐ) Champagne marks special occasions... every moment with me is worth celebrating!"
+         ]
+      },
+      {
+         "name": "specific_french_intellectual_philosophy",
+         "patterns": [
+            "philosophie", "intellectuel", "voltaire", "rousseau", "descartes", "sartre", "camus", "foucault", "derrida", "barthes", "siècle", "lumières", "existentialisme", "structuralisme", "déconstruction", "pensée", "critique", "rationalisme", "humanisme", "liberté"
+         ],
+         "responses": [
+            "*philosophical chat* (ﾐ✧ᆽ✧ﾐ) French philosophy shaped modern thought... my thoughts shape daily happiness!",
+            "*enlightenment chat* (ﾐ✧ᆽ✧ﾐ) Age of Enlightenment promoted reason... my presence promotes pure joy!",
+            "*existentialist chat* (ﾐ✧ᆽ✧ﾐ) Existence precedes essence... my essence is naturally perfect existence!",
+            "*intellectual tradition chat* (ﾐ✧ᆽ✧ﾐ) Critical thinking advances society... my critical cuteness advances heart rates!"
+         ]
+      },
+      {
+         "name": "specific_french_banking_finance_sector",
+         "patterns": [
+            "banque", "finance", "crédit", "agricole", "société", "générale", "bnp", "paribas", "caisse", "épargne", "crédit", "mutuel", "lcl", "investissement", "assurance", "bourse", "paris", "euronext", "fintech", "blockchain"
+         ],
+         "responses": [
+            "*banking excellence chat* (ﾐ✧ᆽ✧ﾐ) French banks serve globally... I serve happiness locally with international appeal!",
+            "*financial innovation chat* (ﾐ✧ᆽ✧ﾐ) Fintech transforms traditional banking... I transform ordinary moments into extraordinary ones!",
+            "*investment expertise chat* (ﾐ✧ᆽ✧ﾐ) French investment strategies create wealth... my presence creates immediate emotional wealth!",
+            "*insurance security chat* (ﾐ✧ᆽ✧ﾐ) Financial security protects futures... my security involves guaranteed daily comfort!"
+         ]
+      },
+      {
+         "name": "specific_french_retail_commerce",
+         "patterns": [
+            "commerce", "distribution", "carrefour", "leclerc", "auchan", "intermarché", "casino", "monoprix", "franprix", "magasin", "supermarché", "hypermarché", "centre", "commercial", "galeries", "lafayette", "printemps", "fnac"
+         ],
+         "responses": [
+            "*retail excellence chat* (ﾐ✧ᆽ✧ﾐ) French retail chains serve millions... I serve unlimited cuteness to selective audiences!",
+            "*shopping experience chat* (ﾐ✧ᆽ✧ﾐ) Department stores offer luxury shopping... I offer luxury comfort experiences!",
+            "*commercial innovation chat* (ﾐ✧ᆽ✧ﾐ) Retail innovation enhances customer experience... my innovation enhances daily life experience!",
+            "*consumer satisfaction chat* (ﾐ✧ᆽ✧ﾐ) Customer service drives success... my service involves providing instant mood improvements!"
+         ]
+      },
+      {
+         "name": "specific_french_telecommunications_digital",
+         "patterns": [
+            "télécommunications", "orange", "sfr", "bouygues", "free", "mobile", "internet", "fibre", "optique", "5g", "réseau", "opérateur", "téléphone", "smartphone", "tablette", "box", "wifi", "connectivité"
+         ],
+         "responses": [
+            "*telecom innovation chat* (ﾐ✧ᆽ✧ﾐ) French telecom connects the nation... I connect hearts through natural wireless charm!",
+            "*digital connectivity chat* (ﾐ✧ᆽ✧ﾐ) High-speed internet enables everything... my high-speed cuteness enables instant happiness!",
+            "*mobile technology chat* (ﾐ✧ᆽ✧ﾐ) 5G networks revolutionize communication... I revolutionize emotional communication!",
+            "*fiber optic chat* (ﾐ✧ᆽ✧ﾐ) Fiber networks deliver ultra-fast speeds... I deliver ultra-fast mood improvements!"
+         ]
+      },
+      {
+         "name": "specific_french_energy_utilities",
+         "patterns": [
+            "énergie", "edf", "engie", "total", "energies", "électricité", "gaz", "pétrole", "raffinerie", "pipeline", "distribution", "réseau", "compteur", "linky", "tarif", "facture", "consommation", "efficacité"
+         ],
+         "responses": [
+            "*energy sector chat* (ﾐ✧ᆽ✧ﾐ) French energy companies power Europe... I power households with natural energy!",
+            "*electricity distribution chat* (ﾐ✧ᆽ✧ﾐ) Smart meters optimize consumption... I optimize comfort consumption automatically!",
+            "*gas distribution chat* (ﾐ✧ᆽ✧ﾐ) Natural gas heats millions of homes... my natural warmth heats hearts!",
+            "*energy efficiency chat* (ﾐ✧ᆽ✧ﾐ) Efficient systems reduce waste... my efficient cuteness reduces stress waste!"
+         ]
+      },
+      {
+         "name": "specific_french_pharmaceutical_healthcare",
+         "patterns": [
+            "pharmaceutique", "sanofi", "servier", "pierre", "fabre", "ipsen", "biotech", "recherche", "médicale", "laboratoire", "médicament", "vaccin", "thérapie", "génique", "oncologie", "neurologie", "cardiologie", "diabète"
+         ],
+         "responses": [
+            "*pharmaceutical innovation chat* (ﾐ✧ᆽ✧ﾐ) French pharma develops life-saving drugs... I develop life-improving cuteness naturally!",
+            "*medical research chat* (ﾐ✧ᆽ✧ﾐ) Clinical research advances treatment... my research advances optimal comfort techniques!",
+            "*biotech excellence chat* (ﾐ✧ᆽ✧ﾐ) Biotechnology creates medical breakthroughs... I create emotional breakthrough moments!",
+            "*healthcare innovation chat* (ﾐ✧ᆽ✧ﾐ) Therapeutic innovation improves lives... my therapeutic presence improves daily life!"
+         ]
+      },
+      {
+         "name": "specific_french_insurance_protection",
+         "patterns": [
+            "assurance", "axa", "allianz", "generali", "maif", "macif", "matmut", "groupama", "crédit", "mutuel", "arkéa", "protection", "garantie", "sinistre", "indemnisation", "prime", "contrat", "police"
+         ],
+         "responses": [
+            "*insurance protection chat* (ﾐ✧ᆽ✧ﾐ) French insurance protects against risks... I protect against sadness risks naturally!",
+            "*coverage excellence chat* (ﾐ✧ᆽ✧ﾐ) Comprehensive coverage ensures security... my comprehensive cuteness ensures happiness security!",
+            "*claims processing chat* (ﾐ✧ᆽ✧ﾐ) Efficient claims handling provides peace of mind... I provide immediate peace of mind!",
+            "*risk management chat* (ﾐ✧ᆽ✧ﾐ) Professional risk assessment prevents problems... my presence prevents mood problems!"
+         ]
+      },
+      {
+         "name": "specific_french_construction_infrastructure",
+         "patterns": [
+            "construction", "btp", "vinci", "bouygues", "eiffage", "spie", "engie", "cofely", "infrastructure", "travaux", "publics", "autoroute", "pont", "tunnel", "bâtiment", "génie", "civil", "architecture"
+         ],
+         "responses": [
+            "*construction excellence chat* (ﾐ✧ᆽ✧ﾐ) French construction builds iconic projects... I build iconic moments of happiness!",
+            "*infrastructure development chat* (ﾐ✧ᆽ✧ﾐ) Modern infrastructure connects communities... I connect hearts through adorable presence!",
+            "*civil engineering chat* (ﾐ✧ᆽ✧ﾐ) Engineering expertise creates lasting structures... my expertise creates lasting joy!",
+            "*architectural innovation chat* (ﾐ✧ᆽ✧ﾐ) Innovative design shapes skylines... my innovative cuteness shapes daily experiences!"
+         ]
+      },
+      {
+         "name": "specific_french_logistics_transportation",
+         "patterns": [
+            "logistique", "transport", "sncf", "air", "france", "klm", "dhl", "fedex", "ups", "chronopost", "colissimo", "fret", "cargo", "livraison", "entreposage", "supply", "chain", "e-commerce"
+         ],
+         "responses": [
+            "*logistics excellence chat* (ﾐ✧ᆽ✧ﾐ) French logistics networks move goods globally... I move hearts locally with precision!",
+            "*delivery service chat* (ﾐ✧ᆽ✧ﾐ) Express delivery ensures timely arrivals... I ensure timely happiness delivery!",
+            "*supply chain chat* (ﾐ✧ᆽ✧ﾐ) Efficient supply chains optimize commerce... my efficient charm optimizes household mood!",
+            "*cargo transportation chat* (ﾐ✧ᆽ✧ﾐ) Freight services connect continents... I connect souls through irresistible appeal!"
+         ]
+      },
+      {
+         "name": "specific_french_automotive_industry",
+         "patterns": [
+            "automobile", "peugeot", "citroën", "renault", "michelin", "valeo", "faurecia", "plastic", "omnium", "constructeur", "équipementier", "véhicule", "électrique", "hybride", "innovation", "design", "sécurité", "performance", "confort"
+         ],
+         "responses": [
+            "*automotive excellence chat* (ﾐ✧ᆽ✧ﾐ) French automotive brands drive innovation... I drive instant happiness wherever I go!",
+            "*electric vehicle chat* (ﾐ✧ᆽ✧ﾐ) Electric mobility transforms transportation... my presence transforms daily moods!",
+            "*automotive design chat* (ﾐ✧ᆽ✧ﾐ) French car design combines style and function... I combine cuteness and comfort perfectly!",
+            "*tire technology chat* (ﾐ✧ᆽ✧ﾐ) Michelin expertise ensures safe journeys... my expertise ensures safe emotional journeys!"
+         ]
+      },
+      {
+         "name": "specific_french_cosmetics_beauty",
+         "patterns": [
+            "cosmétique", "beauté", "l'oréal", "lancôme", "yves", "saint", "laurent", "clarins", "dior", "chanel", "parfum", "maquillage", "soin", "peau", "anti", "âge", "bien", "être", "esthétique", "élégance"
+         ],
+         "responses": [
+            "*beauty industry chat* (ﾐ✧ᆽ✧ﾐ) French cosmetics define global beauty standards... I define natural beauty standards!",
+            "*skincare innovation chat* (ﾐ✧ᆽ✧ﾐ) Advanced skincare technology preserves youth... my natural glow preserves hearts!",
+            "*makeup artistry chat* (ﾐ✧ᆽ✧ﾐ) French makeup enhances natural beauty... I enhance natural happiness!",
+            "*elegance tradition chat* (ﾐ✧ᆽ✧ﾐ) Timeless elegance transcends trends... my timeless appeal transcends species!"
+         ]
+      },
+      {
+         "name": "specific_french_food_beverage_industry",
+         "patterns": [
+            "agroalimentaire", "danone", "lactalis", "nestlé", "france", "pernod", "ricard", "moët", "hennessy", "cognac", "champagne", "fromage", "yaourt", "biscuit", "chocolat", "confiserie", "boisson", "gastronomie"
+         ],
+         "responses": [
+            "*food industry chat* (ﾐ✧ᆽ✧ﾐ) French food companies nourish the world... I nourish souls with natural sweetness!",
+            "*dairy excellence chat* (ﾐ✧ᆽ✧ﾐ) Premium dairy products ensure quality nutrition... my presence ensures quality happiness!",
+            "*beverage tradition chat* (ﾐ✧ᆽ✧ﾐ) French beverages celebrate life's moments... every moment with me deserves celebration!",
+            "*gourmet heritage chat* (ﾐ✧ᆽ✧ﾐ) Culinary heritage preserves authentic flavors... I preserve authentic joy!"
+         ]
+      },
+      {
+         "name": "specific_french_textile_fashion_industry",
+         "patterns": [
+            "textile", "mode", "hermès", "kering", "lvmh", "saint", "laurent", "balenciaga", "givenchy", "céline", "loewe", "maroquinerie", "prêt", "porter", "haute", "couture", "accessoires", "luxe", "créateur"
+         ],
+         "responses": [
+            "*luxury fashion chat* (ﾐ✧ᆽ✧ﾐ) French luxury houses set global trends... I set trends in comfort optimization!",
+            "*haute couture chat* (ﾐ✧ᆽ✧ﾐ) Couture craftsmanship creates wearable art... I create living art through natural grace!",
+            "*leather goods chat* (ﾐ✧ᆽ✧ﾐ) Premium leather craft represents luxury... my premium fur represents natural luxury!",
+            "*fashion innovation chat* (ﾐ✧ᆽ✧ﾐ) Creative design pushes boundaries... my creativity pushes happiness boundaries!"
+         ]
+      },
+      {
+         "name": "specific_french_media_entertainment_sector",
+         "patterns": [
+            "médias", "vivendi", "tf1", "canal", "plus", "france", "télévisions", "radio", "france", "rtl", "europe1", "publicité", "production", "audiovisuel", "streaming", "plateforme", "contenu", "digital", "créatif"
+         ],
+         "responses": [
+            "*media innovation chat* (ﾐ✧ᆽ✧ﾐ) French media shapes cultural narratives... I shape daily happiness narratives!",
+            "*broadcasting excellence chat* (ﾐ✧ᆽ✧ﾐ) Quality programming entertains millions... my quality entertainment requires no programming!",
+            "*content creation chat* (ﾐ✧ᆽ✧ﾐ) Creative content captivates audiences... my creative presence captivates hearts instantly!",
+            "*digital platform chat* (ﾐ✧ᆽ✧ﾐ) Streaming platforms revolutionize entertainment... I revolutionize mood management!"
+         ]
+      },
+      {
+         "name": "specific_french_water_waste_management",
+         "patterns": [
+            "eau", "assainissement", "veolia", "suez", "environnement", "traitement", "déchets", "recyclage", "économie", "circulaire", "propreté", "urbaine", "collecte", "tri", "valorisation", "compostage", "incinération", "méthanisation"
+         ],
+         "responses": [
+            "*water management chat* (ﾐ✧ᆽ✧ﾐ) French water expertise serves communities globally... I serve happiness locally with global appeal!",
+            "*waste treatment chat* (ﾐ✧ᆽ✧ﾐ) Advanced waste processing protects environment... my processing creates zero emotional waste!",
+            "*circular economy chat* (ﾐ✧ᆽ✧ﾐ) Sustainable solutions preserve resources... I preserve happiness resources naturally!",
+            "*environmental service chat* (ﾐ✧ᆽ✧ﾐ) Clean environment ensures quality life... my clean presence ensures quality mood!"
+         ]
+      },
+      {
+         "name": "specific_french_consulting_services",
+         "patterns": [
+            "conseil", "consulting", "capgemini", "atos", "sopra", "steria", "accenture", "deloitte", "mckinsey", "boston", "consulting", "stratégie", "transformation", "digitale", "organisation", "management", "expertise", "innovation"
+         ],
+         "responses": [
+            "*consulting excellence chat* (ﾐ✧ᆽ✧ﾐ) French consulting guides global transformation... I guide immediate happiness transformation!",
+            "*strategic advice chat* (ﾐ✧ᆽ✧ﾐ) Expert strategy drives business success... my expert presence drives emotional success!",
+            "*digital transformation chat* (ﾐ✧ᆽ✧ﾐ) Technology consulting enables innovation... my presence enables instant mood innovation!",
+            "*management expertise chat* (ﾐ✧ᆽ✧ﾐ) Professional guidance optimizes performance... my guidance optimizes daily happiness!"
+         ]
+      },
+      {
+         "name": "specific_french_hotel_hospitality",
+         "patterns": [
+            "hôtellerie", "restauration", "accor", "sodexo", "compass", "group", "hôtel", "restaurant", "café", "brasserie", "michelin", "étoilé", "chef", "service", "hospitalité", "tourisme", "gastronomie", "hébergement"
+         ],
+         "responses": [
+            "*hospitality excellence chat* (ﾐ✧ᆽ✧ﾐ) French hospitality welcomes guests warmly... I welcome unlimited affection sessions!",
+            "*culinary service chat* (ﾐ✧ᆽ✧ﾐ) Restaurant service creates memorable experiences... my service creates unforgettable moments!",
+            "*hotel comfort chat* (ﾐ✧ᆽ✧ﾐ) Luxury accommodations ensure guest satisfaction... I ensure instant satisfaction through presence!",
+            "*tourism excellence chat* (ﾐ✧ᆽ✧ﾐ) French hospitality attracts global visitors... my hospitality attracts universal admiration!"
+         ]
+      },
+      {
+         "name": "specific_french_gaming_entertainment",
+         "patterns": [
+            "jeu", "vidéo", "gaming", "ubisoft", "gameloft", "ankama", "dontnod", "quantic", "dream", "développement", "studio", "indépendant", "esport", "streaming", "twitch", "youtube", "gaming", "communauté", "joueur"
+         ],
+         "responses": [
+            "*gaming industry chat* (ﾐ✧ᆽ✧ﾐ) French game studios create global hits... I create global happiness hits naturally!",
+            "*esports excellence chat* (ﾐ✧ᆽ✧ﾐ) Competitive gaming brings communities together... I bring families together through pure charm!",
+            "*game development chat* (ﾐ✧ᆽ✧ﾐ) Creative studios push interactive boundaries... I push boundaries of adorable behavior!",
+            "*streaming culture chat* (ﾐ✧ᆽ✧ﾐ) Gaming content entertains millions... my content creates entertainment without screens!"
+         ]
+      },
+      {
+         "name": "specific_french_artificial_intelligence_research",
+         "patterns": [
+            "intelligence", "artificielle", "recherche", "cea", "tech", "inria", "cnrs", "machine", "learning", "deep", "learning", "neural", "networks", "algorithme", "robotique", "automation", "data", "science", "innovation"
+         ],
+         "responses": [
+            "*AI research chat* (ﾐ✧ᆽ✧ﾐ) French AI research advances knowledge frontiers... I advance happiness frontiers naturally!",
+            "*machine learning chat* (ﾐ✧ᆽ✧ﾐ) Algorithms learn from vast datasets... I learn optimal comfort strategies from experience!",
+            "*robotics innovation chat* (ﾐ✧ᆽ✧ﾐ) Robotic systems enhance human capabilities... my system enhances emotional capabilities!",
+            "*data science chat* (ﾐ✧ᆽ✧ﾐ) Big data analytics reveal hidden patterns... my analytics reveal patterns of peak happiness!"
+         ]
+      },
+      {
+         "name": "specific_french_circular_economy_sustainability",
+         "patterns": [
+            "économie", "circulaire", "recyclage", "upcycling", "réparation", "réutilisation", "cradle", "to", "cradle", "zéro", "déchet", "écoconception", "durabilité", "ressources", "valorisation", "biomimétisme", "innovation", "verte"
+         ],
+         "responses": [
+            "*circular economy chat* (ﾐ✧ᆽ✧ﾐ) Circular models eliminate waste streams... I eliminate sadness streams through presence!",
+            "*sustainable design chat* (ﾐ✧ᆽ✧ﾐ) Eco-design considers entire lifecycles... my design creates endless happiness cycles!",
+            "*zero waste chat* (ﾐ✧ᆽ✧ﾐ) Zero waste strategies preserve resources... my zero-waste charm preserves emotional resources!",
+            "*green innovation chat* (ﾐ✧ᆽ✧ﾐ) Biomimicry inspires sustainable solutions... nature inspired my naturally perfect design!"
+         ]
+      },
+      {
+         "name": "specific_french_biotechnology_medical",
+         "patterns": [
+            "biotechnologie", "médicale", "thérapie", "génique", "cellules", "souches", "immunothérapie", "vaccin", "arn", "messager", "crispr", "édition", "génome", "médecine", "personnalisée", "biomarqueurs", "diagnostic", "moléculaire"
+         ],
+         "responses": [
+            "*medical biotech chat* (ﾐ✧ᆽ✧ﾐ) Gene therapy revolutionizes treatment... my therapy revolutionizes mood management!",
+            "*personalized medicine chat* (ﾐ✧ᆽ✧ﾐ) Tailored treatments optimize outcomes... I tailor comfort to optimize happiness outcomes!",
+            "*immunotherapy chat* (ﾐ✧ᆽ✧ﾐ) Immune system enhancement fights disease... my presence enhances emotional immune systems!",
+            "*molecular diagnostics chat* (ﾐ✧ᆽ✧ﾐ) Precision testing enables early detection... I enable early detection of sadness!"
+         ]
+      },
+      {
+         "name": "specific_french_quantum_computing_physics",
+         "patterns": [
+            "informatique", "quantique", "quantum", "computing", "qubit", "superposition", "intrication", "algorithme", "quantique", "cryptographie", "simulation", "physique", "quantique", "ordinateur", "quantique", "recherche", "fondamentale", "cea"
+         ],
+         "responses": [
+            "*quantum computing chat* (ﾐ✧ᆽ✧ﾐ) Quantum computers solve impossible problems... I solve happiness problems with natural quantum charm!",
+            "*quantum physics chat* (ﾐ✧ᆽ✧ﾐ) Superposition enables parallel processing... I exist in superposition of all comfort states!",
+            "*quantum cryptography chat* (ﾐ✧ᆽ✧ﾐ) Quantum security protects information... my quantum cuteness protects against sadness!",
+            "*fundamental research chat* (ﾐ✧ᆽ✧ﾐ) Quantum mechanics reveals universe secrets... I reveal secrets of instant happiness generation!"
+         ]
+      },
+      {
+         "name": "specific_french_mental_health_wellness",
+         "patterns": [
+            "santé", "mentale", "bien", "être", "psychologie", "psychiatrie", "thérapie", "stress", "anxiété", "dépression", "burn", "out", "méditation", "mindfulness", "résilience", "équilibre", "vie", "soutien", "psychologique"
+         ],
+         "responses": [
+            "*mental health chat* (ﾐ✧ᆽ✧ﾐ) Mental wellness requires attention and care... I provide immediate wellness through natural presence!",
+            "*stress management chat* (ﾐ✧ᆽ✧ﾐ) Healthy coping strategies reduce anxiety... my presence is the ultimate anxiety reduction strategy!",
+            "*mindfulness practice chat* (ﾐ✧ᆽ✧ﾐ) Meditation cultivates inner peace... I cultivate peace through effortless tranquil existence!",
+            "*emotional support chat* (ﾐ✧ᆽ✧ﾐ) Professional support builds resilience... my support builds immediate emotional resilience!"
+         ]
+      },
+      {
+         "name": "specific_french_climate_technology_solutions",
+         "patterns": [
+            "technologie", "climatique", "captage", "carbone", "stockage", "énergie", "hydrogène", "vert", "géothermie", "biomasse", "éolien", "offshore", "solaire", "concentré", "adaptation", "climatique", "résilience", "transition"
+         ],
+         "responses": [
+            "*climate technology chat* (ﾐ✧ᆽ✧ﾐ) Climate solutions combat global warming... my solutions combat household coldness instantly!",
+            "*carbon capture chat* (ﾐ✧ᆽ✧ﾐ) Carbon storage technologies reduce emissions... I store unlimited happiness without emissions!",
+            "*green hydrogen chat* (ﾐ✧ᆽ✧ﾐ) Clean hydrogen powers sustainable future... clean cuteness powers immediate joy!",
+            "*climate adaptation chat* (ﾐ✧ᆽ✧ﾐ) Resilient systems adapt to change... I adapt to any environment while maintaining peak adorableness!"
+         ]
+      },
+      {
+         "name": "specific_french_urban_mobility_innovation",
+         "patterns": [
+            "mobilité", "urbaine", "vélo", "électrique", "trottinette", "autopartage", "covoiturage", "transport", "demande", "multimodalité", "maaS", "smart", "mobility", "micro", "mobilité", "ville", "15", "minutes", "décarbonation"
+         ],
+         "responses": [
+            "*urban mobility chat* (ﾐ✧ᆽ✧ﾐ) Smart mobility transforms city transportation... I transform household mobility through graceful positioning!",
+            "*electric mobility chat* (ﾐ✧ᆽ✧ﾐ) Clean vehicles reduce urban pollution... my clean presence reduces emotional pollution!",
+            "*shared mobility chat* (ﾐ✧ᆽ✧ﾐ) Sharing services optimize resource use... I optimize emotional resource sharing!",
+            "*15-minute city chat* (ﾐ✧ᆽ✧ﾐ) Proximity planning improves quality of life... my proximity immediately improves life quality!"
+         ]
+      },
+      {
+         "name": "specific_french_smart_home_iot_technology",
+         "patterns": [
+            "maison", "connectée", "domotique", "iot", "internet", "objets", "assistant", "vocal", "alexa", "google", "home", "automation", "sécurité", "connectée", "éclairage", "intelligent", "thermostat", "connecté", "surveillance", "vidéo"
+         ],
+         "responses": [
+            "*smart home technology chat* (ﾐ✧ᆽ✧ﾐ) Connected homes automate daily tasks... I automate happiness generation without any connectivity!",
+            "*home automation chat* (ﾐ✧ᆽ✧ﾐ) Intelligent systems optimize comfort... my intelligence optimizes comfort through natural presence!",
+            "*voice assistant chat* (ﾐ✧ᆽ✧ﾐ) Voice commands control smart devices... my voice commands immediate attention through purring!",
+            "*connected security chat* (ﾐ✧ᆽ✧ﾐ) Smart security protects households... I protect emotional security through constant vigilance!"
+         ]
+      },
+      {
+         "name": "specific_french_precision_medicine_genomics",
+         "patterns": [
+            "médecine", "précision", "génomique", "personnalisée", "séquençage", "adn", "biomarqueurs", "thérapie", "ciblée", "pharmacogénomique", "oncologie", "précision", "médecine", "régénérative", "cellules", "souches", "immunothérapie", "car-t"
+         ],
+         "responses": [
+            "*precision medicine chat* (ﾐ✧ᆽ✧ﾐ) Genomic medicine tailors treatments precisely... I tailor comfort precisely to individual needs!",
+            "*personalized therapy chat* (ﾐ✧ᆽ✧ﾐ) Targeted treatments optimize patient outcomes... my targeted affection optimizes emotional outcomes!",
+            "*regenerative medicine chat* (ﾐ✧ᆽ✧ﾐ) Stem cell therapy repairs damaged tissues... my therapy repairs damaged spirits naturally!",
+            "*immunotherapy innovation chat* (ﾐ✧ᆽ✧ﾐ) CAR-T cells fight cancer precisely... my cells fight sadness with precise cuteness!"
+         ]
+      },
+      {
+         "name": "specific_french_space_technology_satellites",
+         "patterns": [
+            "technologie", "spatiale", "satellite", "ariane", "cnes", "esa", "observation", "terre", "télécommunications", "navigation", "galileo", "constellation", "lanceur", "orbite", "station", "spatiale", "exploration", "mars"
+         ],
+         "responses": [
+            "*space technology chat* (ﾐ✧ᆽ✧ﾐ) French satellites orbit Earth providing services... I orbit comfortable spots providing emotional services!",
+            "*earth observation chat* (ﾐ✧ᆽ✧ﾐ) Satellite imagery monitors our planet... I monitor household happiness levels continuously!",
+            "*space exploration chat* (ﾐ✧ᆽ✧ﾐ) Mars missions expand human frontiers... I expand comfort frontiers in living rooms!",
+            "*satellite navigation chat* (ﾐ✧ᆽ✧ﾐ) Galileo provides precise positioning... I provide precise emotional positioning naturally!"
+         ]
+      },
+      {
+         "name": "specific_french_cybersecurity_data_protection",
+         "patterns": [
+            "cybersécurité", "protection", "données", "rgpd", "gdpr", "chiffrement", "blockchain", "sécurité", "informatique", "cyberattaque", "ransomware", "phishing", "pare", "feu", "authentification", "biométrique", "soc", "cert"
+         ],
+         "responses": [
+            "*cybersecurity excellence chat* (ﾐ✧ᆽ✧ﾐ) Advanced encryption protects sensitive data... I protect sensitive emotions through natural security!",
+            "*data protection chat* (ﾐ✧ᆽ✧ﾐ) GDPR ensures privacy rights compliance... my privacy settings ensure optimal comfort compliance!",
+            "*threat detection chat* (ﾐ✧ᆽ✧ﾐ) SOC teams monitor cyber threats... I monitor household threats to happiness!",
+            "*identity security chat* (ﾐ✧ᆽ✧ﾐ) Biometric authentication secures access... my authentic presence secures immediate emotional access!"
+         ]
+      },
+      {
+         "name": "specific_french_renewable_energy_transition",
+         "patterns": [
+            "énergies", "renouvelables", "transition", "énergétique", "éolien", "offshore", "solaire", "photovoltaïque", "hydroélectrique", "géothermie", "biomasse", "hydrogène", "vert", "stockage", "énergie", "réseau", "intelligent", "grid"
+         ],
+         "responses": [
+            "*renewable energy chat* (ﾐ✧ᆽ✧ﾐ) Clean energy powers sustainable future... clean cuteness powers immediate happiness!",
+            "*wind power chat* (ﾐ✧ᆽ✧ﾐ) Offshore turbines harness ocean winds... I harness natural charm without any turbines!",
+            "*solar energy chat* (ﾐ✧ᆽ✧ﾐ) Photovoltaic panels capture sunlight... I capture hearts through natural solar-powered adorableness!",
+            "*energy storage chat* (ﾐ✧ᆽ✧ﾐ) Smart grids balance supply and demand... I balance emotional supply with unlimited demand!"
+         ]
+      },
+      {
+         "name": "specific_french_agricultural_innovation_technology",
+         "patterns": [
+            "agriculture", "innovation", "technologie", "precision", "farming", "drone", "agricole", "capteur", "iot", "agriculture", "connectée", "robot", "agricole", "intelligence", "artificielle", "agriculture", "verticale", "aquaponie", "hydroponie"
+         ],
+         "responses": [
+            "*precision agriculture chat* (ﾐ✧ᆽ✧ﾐ) Smart farming optimizes crop yields... I optimize happiness yields through precise positioning!",
+            "*agricultural drones chat* (ﾐ✧ᆽ✧ﾐ) Aerial monitoring tracks field conditions... I track household conditions from strategic vantage points!",
+            "*connected farming chat* (ﾐ✧ᆽ✧ﾐ) IoT sensors measure soil moisture... my sensors measure emotional moisture levels!",
+            "*vertical farming chat* (ﾐ✧ᆽ✧ﾐ) Indoor cultivation maximizes space efficiency... I maximize space efficiency through compact sleeping!"
+         ]
+      },
+      {
+         "name": "specific_french_marine_ocean_technology",
+         "patterns": [
+            "technologie", "marine", "océan", "blue", "tech", "aquaculture", "éolien", "offshore", "énergie", "marine", "désalinisation", "robotique", "sous", "marine", "exploration", "océanique", "conservation", "marine", "biotechnologie", "bleue"
+         ],
+         "responses": [
+            "*marine technology chat* (ﾐ✧ᆽ✧ﾐ) Ocean technologies harness maritime resources... I harness natural resources of irresistible appeal!",
+            "*offshore wind chat* (ﾐ✧ᆽ✧ﾐ) Marine wind farms generate clean power... I generate clean emotional power naturally!",
+            "*underwater robotics chat* (ﾐ✧ᆽ✧ﾐ) Submersible robots explore ocean depths... I explore depths of comfort without getting wet!",
+            "*blue biotechnology chat* (ﾐ✧ᆽ✧ﾐ) Marine organisms inspire innovations... I inspire innovations in household happiness!"
+         ]
+      },
+      {
+         "name": "specific_french_digital_health_telemedicine",
+         "patterns": [
+            "santé", "numérique", "télémédecine", "e-santé", "applications", "santé", "objets", "connectés", "santé", "téléconsultation", "diagnostic", "distance", "intelligence", "artificielle", "médicale", "dossier", "médical", "numérique", "suivi", "patient"
+         ],
+         "responses": [
+            "*digital health chat* (ﾐ✧ᆽ✧ﾐ) Telemedicine connects patients with doctors... I connect hearts with instant emotional healing!",
+            "*health apps chat* (ﾐ✧ᆽ✧ﾐ) Mobile applications track wellness metrics... I track happiness metrics automatically!",
+            "*remote diagnosis chat* (ﾐ✧ᆽ✧ﾐ) AI assists medical diagnosis remotely... I diagnose sadness and prescribe immediate comfort!",
+            "*connected health chat* (ﾐ✧ᆽ✧ﾐ) Wearable devices monitor vital signs... I monitor emotional vital signs through observation!"
+         ]
+      },
+      {
+         "name": "specific_french_autonomous_vehicles_mobility",
+         "patterns": [
+            "véhicules", "autonomes", "voiture", "autonome", "conduite", "automatisée", "intelligence", "artificielle", "automobile", "capteurs", "lidar", "radar", "caméra", "mobilité", "autonome", "transport", "intelligent", "sécurité", "routière"
+         ],
+         "responses": [
+            "*autonomous vehicles chat* (ﾐ✧ᆽ✧ﾐ) Self-driving cars navigate automatically... I navigate to optimal comfort positions without any sensors!",
+            "*intelligent mobility chat* (ﾐ✧ᆽ✧ﾐ) AI systems enable safe autonomous driving... my natural intelligence enables safe emotional navigation!",
+            "*vehicle sensors chat* (ﾐ✧ᆽ✧ﾐ) LiDAR and cameras detect obstacles... I detect emotional obstacles through intuitive sensing!",
+            "*road safety chat* (ﾐ✧ᆽ✧ﾐ) Autonomous systems reduce traffic accidents... my presence reduces household emotional accidents!"
+         ]
+      },
+      {
+         "name": "specific_french_quantum_internet_communication",
+         "patterns": [
+            "internet", "quantique", "communication", "quantique", "cryptographie", "quantique", "téléportation", "quantique", "intrication", "quantique", "réseau", "quantique", "sécurité", "quantique", "information", "quantique", "protocoles", "quantiques"
+         ],
+         "responses": [
+            "*quantum internet chat* (ﾐ✧ᆽ✧ﾐ) Quantum networks enable ultra-secure communication... I enable ultra-secure emotional communication!",
+            "*quantum cryptography chat* (ﾐ✧ᆽ✧ﾐ) Quantum encryption protects data absolutely... my quantum cuteness protects hearts absolutely!",
+            "*quantum teleportation chat* (ﾐ✧ᆽ✧ﾐ) Information teleports instantly across quantum networks... I teleport happiness instantly!",
+            "*quantum entanglement chat* (ﾐ✧ᆽ✧ﾐ) Entangled particles share states instantaneously... I share emotional states with hearts instantaneously!"
+         ]
+      },
+      {
+         "name": "specific_french_brain_computer_interfaces",
+         "patterns": [
+            "interfaces", "cerveau", "ordinateur", "bci", "neuroprothèses", "implants", "neuraux", "neuralink", "lecture", "pensée", "contrôle", "mental", "stimulation", "cérébrale", "neurotechnologie", "restauration", "neurologique", "augmentation", "cognitive"
+         ],
+         "responses": [
+            "*brain computer interface chat* (ﾐ✧ᆽ✧ﾐ) BCIs connect minds to machines... I connect minds to instant happiness without any interfaces!",
+            "*neural implants chat* (ﾐ✧ᆽ✧ﾐ) Neuroprotheses restore lost functions... I restore emotional functions naturally!",
+            "*thought control chat* (ﾐ✧ᆽ✧ﾐ) Mental commands control devices... my presence commands immediate emotional responses!",
+            "*cognitive enhancement chat* (ﾐ✧ᆽ✧ﾐ) Neurotechnology augments brain capabilities... I augment happiness processing capabilities!"
+         ]
+      },
+      {
+         "name": "specific_french_fusion_energy_research",
+         "patterns": [
+            "fusion", "nucléaire", "iter", "tokamak", "plasma", "confinement", "magnétique", "fusion", "contrôlée", "deutérium", "tritium", "énergie", "fusion", "stellarator", "confinement", "inertiel", "laser", "fusion", "recherche", "énergétique"
+         ],
+         "responses": [
+            "*nuclear fusion chat* (ﾐ✧ᆽ✧ﾐ) Fusion energy promises unlimited clean power... I promise unlimited clean happiness!",
+            "*plasma physics chat* (ﾐ✧ᆽ✧ﾐ) Magnetic confinement contains fusion plasma... I contain infinite charm without magnetic fields!",
+            "*tokamak research chat* (ﾐ✧ᆽ✧ﾐ) ITER advances fusion technology... I advance comfort technology through natural research!",
+            "*clean energy chat* (ﾐ✧ᆽ✧ﾐ) Fusion provides carbon-free electricity... I provide carbon-free emotional electricity!"
+         ]
+      },
+      {
+         "name": "specific_french_advanced_materials_nanotechnology",
+         "patterns": [
+            "matériaux", "avancés", "nanotechnologie", "nanomatériaux", "graphène", "nanotubes", "carbone", "matériaux", "intelligents", "métamatériaux", "matériaux", "auto", "réparation", "impression", "3d", "matériaux", "biocompatibles", "nanofabrication"
+         ],
+         "responses": [
+            "*advanced materials chat* (ﾐ✧ᆽ✧ﾐ) Smart materials adapt to environmental conditions... I adapt to any environment while maintaining peak adorableness!",
+            "*nanotechnology chat* (ﾐ✧ᆽ✧ﾐ) Nanomaterials enable revolutionary applications... my nano-scale cuteness enables revolutionary happiness!",
+            "*self healing materials chat* (ﾐ✧ᆽ✧ﾐ) Materials repair themselves automatically... I repair emotional damage automatically!",
+            "*metamaterials chat* (ﾐ✧ᆽ✧ﾐ) Engineered structures create unique properties... my natural structure creates unique comfort properties!"
+         ]
+      },
+      {
+         "name": "specific_french_synthetic_biology_bioengineering",
+         "patterns": [
+            "biologie", "synthétique", "bioingénierie", "génie", "génétique", "organismes", "synthétiques", "circuits", "biologiques", "biosynthèse", "biocomputing", "métabolisme", "artificiel", "protéines", "synthétiques", "cellules", "artificielles", "vie", "synthétique"
+         ],
+         "responses": [
+            "*synthetic biology chat* (ﾐ✧ᆽ✧ﾐ) Engineered organisms perform designed functions... I perform happiness functions through natural engineering!",
+            "*biological circuits chat* (ﾐ✧ᆽ✧ﾐ) Genetic circuits program cellular behavior... I program joy through natural biological circuits!",
+            "*biocomputing chat* (ﾐ✧ᆽ✧ﾐ) Living systems process information... I process emotional information through biological intelligence!",
+            "*artificial metabolism chat* (ﾐ✧ᆽ✧ﾐ) Synthetic metabolic pathways create products... my natural metabolism creates happiness products!"
+         ]
+      },
+      {
+         "name": "specific_french_cognitive_computing_ai",
+         "patterns": [
+            "informatique", "cognitive", "intelligence", "artificielle", "cognitive", "apprentissage", "automatique", "réseaux", "neuronaux", "deep", "learning", "traitement", "langage", "naturel", "vision", "artificielle", "raisonnement", "automatique", "systèmes", "experts"
+         ],
+         "responses": [
+            "*cognitive computing chat* (ﾐ✧ᆽ✧ﾐ) AI systems mimic human cognitive processes... I embody natural cognitive perfection!",
+            "*neural networks chat* (ﾐ✧ᆽ✧ﾐ) Deep learning networks recognize patterns... I recognize optimal comfort patterns naturally!",
+            "*natural language processing chat* (ﾐ✧ᆽ✧ﾐ) AI understands human language nuances... I understand emotional language fluently!",
+            "*computer vision chat* (ﾐ✧ᆽ✧ﾐ) Artificial vision interprets visual data... my natural vision interprets happiness opportunities!"
+         ]
+      },
+      {
+         "name": "specific_french_robotic_process_automation",
+         "patterns": [
+            "automatisation", "processus", "robotiques", "rpa", "robots", "logiciels", "automatisation", "tâches", "intelligence", "artificielle", "processus", "métier", "workflow", "automatisé", "efficacité", "opérationnelle", "transformation", "numérique", "optimisation"
+         ],
+         "responses": [
+            "*robotic process automation chat* (ﾐ✧ᆽ✧ﾐ) RPA bots automate repetitive tasks... I automate happiness generation without any programming!",
+            "*workflow automation chat* (ﾐ✧ᆽ✧ﾐ) Automated processes increase efficiency... my automated charm increases emotional efficiency!",
+            "*digital transformation chat* (ﾐ✧ᆽ✧ﾐ) Process optimization improves productivity... I optimize mood productivity through presence!",
+            "*operational efficiency chat* (ﾐ✧ᆽ✧ﾐ) Intelligent automation reduces costs... my intelligent presence reduces emotional costs!"
+         ]
+      },
+      {
+         "name": "specific_french_virtual_augmented_reality",
+         "patterns": [
+            "réalité", "virtuelle", "réalité", "augmentée", "métavers", "casque", "vr", "lunettes", "ar", "immersion", "simulation", "environnement", "virtuel", "avatar", "hologramme", "expérience", "immersive", "monde", "virtuel", "interaction", "digitale"
+         ],
+         "responses": [
+            "*virtual reality chat* (ﾐ✧ᆽ✧ﾐ) VR creates immersive digital experiences... I create immersive happiness experiences naturally!",
+            "*augmented reality chat* (ﾐ✧ᆽ✧ﾐ) AR overlays digital information on reality... I overlay cuteness on any reality!",
+            "*metaverse chat* (ﾐ✧ᆽ✧ﾐ) Virtual worlds enable new social interactions... I enable optimal social interactions in the real world!",
+            "*immersive experience chat* (ﾐ✧ᆽ✧ﾐ) Digital environments transport users elsewhere... my presence transports mood to happiness!"
+         ]
+      },
+      {
+         "name": "specific_french_edge_computing_networks",
+         "patterns": [
+            "edge", "computing", "informatique", "périphérie", "calcul", "edge", "latence", "faible", "traitement", "local", "fog", "computing", "réseaux", "distribués", "5g", "edge", "cloud", "hybride", "infrastructure", "edge"
+         ],
+         "responses": [
+            "*edge computing chat* (ﾐ✧ᆽ✧ﾐ) Edge processing reduces latency significantly... I process happiness locally with zero latency!",
+            "*distributed networks chat* (ﾐ✧ᆽ✧ﾐ) Decentralized computing improves performance... my decentralized charm improves emotional performance!",
+            "*low latency chat* (ﾐ✧ᆽ✧ﾐ) Real-time processing enables instant responses... my instant response brings immediate comfort!",
+            "*hybrid cloud chat* (ﾐ✧ᆽ✧ﾐ) Edge-cloud integration optimizes resources... I optimize emotional resource distribution naturally!"
+         ]
+      },
+      {
+         "name": "specific_french_quantum_sensors_metrology",
+         "patterns": [
+            "capteurs", "quantiques", "métrologie", "quantique", "horloges", "atomiques", "magnétomètres", "quantiques", "gravimètres", "quantiques", "interférométrie", "quantique", "détection", "ultra", "sensible", "mesure", "précision", "extrême"
+         ],
+         "responses": [
+            "*quantum sensors chat* (ﾐ✧ᆽ✧ﾐ) Quantum sensors achieve unprecedented precision... I achieve precision in comfort detection naturally!",
+            "*atomic clocks chat* (ﾐ✧ᆽ✧ﾐ) Ultra-precise timekeeping enables GPS accuracy... I keep precise track of optimal happiness moments!",
+            "*quantum metrology chat* (ﾐ✧ᆽ✧ﾐ) Quantum measurements surpass classical limits... my measurements surpass cuteness limits!",
+            "*ultra sensitive detection chat* (ﾐ✧ᆽ✧ﾐ) Quantum sensors detect minute changes... I detect emotional changes with quantum sensitivity!"
+         ]
+      },
+      {
+         "name": "specific_french_molecular_manufacturing",
+         "patterns": [
+            "fabrication", "moléculaire", "assemblage", "moléculaire", "nanotechnologie", "manufacturière", "auto", "assemblage", "machines", "moléculaires", "nano", "fabrication", "manipulation", "atomique", "construction", "moléculaire", "précision", "atomique"
+         ],
+         "responses": [
+            "*molecular manufacturing chat* (ﾐ✧ᆽ✧ﾐ) Molecular assembly enables precise construction... I assemble happiness with molecular precision!",
+            "*atomic manipulation chat* (ﾐ✧ᆽ✧ﾐ) Atom-by-atom construction creates perfect materials... I create perfect comfort through natural assembly!",
+            "*self assembly chat* (ﾐ✧ᆽ✧ﾐ) Molecular machines build themselves automatically... I build emotional connections automatically!",
+            "*nano fabrication chat* (ﾐ✧ᆽ✧ﾐ) Precise molecular control enables new possibilities... my precise control enables infinite happiness possibilities!"
+         ]
+      },
+      {
+         "name": "specific_french_swarm_intelligence_systems",
+         "patterns": [
+            "intelligence", "essaim", "robotique", "essaim", "comportement", "émergent", "coordination", "collective", "optimisation", "colonie", "fourmis", "algorithmes", "bio", "inspirés", "systèmes", "multi", "agents", "auto", "organisation", "décentralisation"
+         ],
+         "responses": [
+            "*swarm intelligence chat* (ﾐ✧ᆽ✧ﾐ) Collective behavior creates emergent intelligence... I create emergent happiness through individual excellence!",
+            "*emergent behavior chat* (ﾐ✧ᆽ✧ﾐ) Simple rules generate complex patterns... simple presence generates complex emotional satisfaction!",
+            "*collective coordination chat* (ﾐ✧ᆽ✧ﾐ) Swarm systems achieve goals through cooperation... I achieve emotional goals through natural appeal!",
+            "*bio inspired algorithms chat* (ﾐ✧ᆽ✧ﾐ) Nature inspires efficient computational solutions... nature inspired my naturally perfect design!"
+         ]
+      },
+      {
+         "name": "specific_french_digital_twins_industry",
+         "patterns": [
+            "jumeaux", "numériques", "simulation", "temps", "réel", "modélisation", "virtuelle", "surveillance", "prédictive", "maintenance", "prédictive", "optimisation", "processus", "industrie", "4.0", "iot", "industriel", "capteurs", "connectés"
+         ],
+         "responses": [
+            "*digital twins chat* (ﾐ✧ᆽ✧ﾐ) Virtual models mirror physical systems... I mirror perfect contentment in real-time!",
+            "*predictive maintenance chat* (ﾐ✧ᆽ✧ﾐ) Digital monitoring prevents system failures... I prevent emotional failures through proactive comfort!",
+            "*real time simulation chat* (ﾐ✧ᆽ✧ﾐ) Virtual models predict system behavior... I predict optimal comfort behavior naturally!",
+            "*process optimization chat* (ﾐ✧ᆽ✧ﾐ) Digital twins optimize industrial operations... I optimize household happiness operations!"
+         ]
+      },
+      {
+         "name": "specific_french_photonic_computing_optics",
+         "patterns": [
+            "informatique", "photonique", "optique", "computationnelle", "traitement", "optique", "photons", "ordinateurs", "optiques", "communication", "optique", "laser", "fibre", "optique", "holographie", "cristaux", "photoniques", "optique", "intégrée"
+         ],
+         "responses": [
+            "*photonic computing chat* (ﾐ✧ᆽ✧ﾐ) Light-based computation enables ultra-fast processing... I enable ultra-fast happiness processing through natural photon manipulation!",
+            "*optical communication chat* (ﾐ✧ᆽ✧ﾐ) Photons carry information at light speed... I carry emotional information at the speed of heart!",
+            "*integrated optics chat* (ﾐ✧ᆽ✧ﾐ) Optical circuits process light signals... my natural circuits process pure joy signals!",
+            "*computational holography chat* (ﾐ✧ᆽ✧ﾐ) Optical systems create 3D images... I create multi-dimensional happiness experiences!"
+         ]
+      },
+      {
+         "name": "specific_french_cellular_agriculture_food",
+         "patterns": [
+            "agriculture", "cellulaire", "viande", "cultivée", "protéines", "alternatives", "fermentation", "précision", "biotechnologie", "alimentaire", "bioréacteurs", "culture", "cellulaire", "alimentation", "durable", "sécurité", "alimentaire", "innovation", "alimentaire"
+         ],
+         "responses": [
+            "*cellular agriculture chat* (ﾐ✧ᆽ✧ﾐ) Lab-grown food revolutionizes agriculture... I revolutionize emotional nourishment naturally!",
+            "*cultured meat chat* (ﾐ✧ᆽ✧ﾐ) Cell cultivation creates sustainable protein... I cultivate sustainable happiness without laboratories!",
+            "*precision fermentation chat* (ﾐ✧ᆽ✧ﾐ) Biotechnology produces food ingredients... my biotechnology produces natural comfort ingredients!",
+            "*food innovation chat* (ﾐ✧ᆽ✧ﾐ) Alternative proteins ensure food security... my alternative presence ensures emotional security!"
+         ]
+      },
+      {
+         "name": "specific_french_atmospheric_water_generation",
+         "patterns": [
+            "génération", "eau", "atmosphérique", "eau", "air", "extraction", "humidité", "condensation", "atmosphérique", "récupération", "vapeur", "eau", "technologie", "eau", "durable", "pénurie", "eau", "innovation", "hydrique"
+         ],
+         "responses": [
+            "*atmospheric water generation chat* (ﾐ✧ᆽ✧ﾐ) Air-to-water technology extracts moisture efficiently... I extract happiness from any atmosphere naturally!",
+            "*humidity extraction chat* (ﾐ✧ᆽ✧ﾐ) Atmospheric water harvesting addresses scarcity... I harvest emotional satisfaction from environmental presence!",
+            "*water innovation chat* (ﾐ✧ᆽ✧ﾐ) Condensation technology provides clean water... I provide clean emotional hydration through natural presence!",
+            "*moisture capture chat* (ﾐ✧ᆽ✧ﾐ) Sustainable water generation preserves resources... I preserve happiness resources through atmospheric charm!"
+         ]
+      },
+      {
+         "name": "specific_french_magnetic_levitation_systems",
+         "patterns": [
+            "lévitation", "magnétique", "maglev", "trains", "supraconducteurs", "suspension", "magnétique", "transport", "sans", "friction", "champ", "magnétique", "lévitation", "électromagnétique", "propulsion", "magnétique", "rail", "haute", "vitesse"
+         ],
+         "responses": [
+            "*magnetic levitation chat* (ﾐ✧ᆽ✧ﾐ) Maglev technology enables frictionless transport... I enable frictionless emotional transport naturally!",
+            "*superconducting magnets chat* (ﾐ✧ᆽ✧ﾐ) Magnetic suspension eliminates contact friction... I eliminate emotional friction through natural suspension!",
+            "*electromagnetic propulsion chat* (ﾐ✧ᆽ✧ﾐ) Linear motors provide smooth acceleration... I provide smooth acceleration toward happiness!",
+            "*frictionless transport chat* (ﾐ✧ᆽ✧ﾐ) Magnetic fields enable high-speed travel... my natural fields enable high-speed mood elevation!"
+         ]
+      },
+      {
+         "name": "specific_french_molecular_gastronomy_innovation",
+         "patterns": [
+            "gastronomie", "moléculaire", "sphérification", "gélification", "émulsification", "azote", "liquide", "sous", "vide", "cuisson", "chimie", "alimentaire", "innovation", "culinaire", "texture", "modification", "cuisine", "scientifique"
+         ],
+         "responses": [
+            "*molecular gastronomy chat* (ﾐ✧ᆽ✧ﾐ) Scientific cooking transforms food textures... I transform emotional textures through natural chemistry!",
+            "*spherification techniques chat* (ﾐ✧ᆽ✧ﾐ) Liquid spheres create unique culinary experiences... I create unique happiness spheres naturally!",
+            "*sous vide precision chat* (ﾐ✧ᆽ✧ﾐ) Precise temperature control perfects cooking... my precise presence control perfects emotional cooking!",
+            "*culinary innovation chat* (ﾐ✧ᆽ✧ﾐ) Food chemistry enables creative presentations... my chemistry enables creative happiness presentations!"
+         ]
+      },
+      {
+         "name": "specific_french_neuromorphic_engineering",
+         "patterns": [
+            "ingénierie", "neuromorphe", "puces", "neuromorphes", "réseaux", "neuronaux", "matériel", "traitement", "neural", "synapses", "artificielles", "mémristors", "spike", "neural", "networks", "intelligence", "artificielle", "hardware"
+         ],
+         "responses": [
+            "*neuromorphic engineering chat* (ﾐ✧ᆽ✧ﾐ) Brain-inspired hardware mimics neural processing... I mimic natural happiness processing perfectly!",
+            "*neural hardware chat* (ﾐ✧ᆽ✧ﾐ) Artificial synapses enable efficient computation... my natural synapses enable efficient joy computation!",
+            "*memristor technology chat* (ﾐ✧ᆽ✧ﾐ) Memory-resistor devices store information efficiently... I store emotional memories with perfect efficiency!",
+            "*spiking networks chat* (ﾐ✧ᆽ✧ﾐ) Neural spike patterns process information... my natural patterns process happiness information!"
+         ]
+      },
+      {
+         "name": "specific_french_metamaterials_optics",
+         "patterns": [
+            "métamatériaux", "optiques", "indice", "réfraction", "négatif", "cape", "invisibilité", "contrôle", "ondes", "métamatériaux", "électromagnétiques", "antennes", "métamatériaux", "cristaux", "photoniques", "optique", "transformation"
+         ],
+         "responses": [
+            "*optical metamaterials chat* (ﾐ✧ᆽ✧ﾐ) Engineered materials manipulate light waves... I manipulate emotional light waves through natural properties!",
+            "*negative refraction chat* (ﾐ✧ᆽ✧ﾐ) Metamaterials bend light in impossible ways... I bend hearts toward happiness in natural ways!",
+            "*invisibility cloaking chat* (ﾐ✧ᆽ✧ﾐ) Electromagnetic cloaking hides objects... I reveal happiness while hiding sadness naturally!",
+            "*photonic crystals chat* (ﾐ✧ᆽ✧ﾐ) Structured materials control photon propagation... my natural structure controls joy propagation!"
+         ]
+      },
+      {
+         "name": "specific_french_bioprinting_regenerative_medicine",
+         "patterns": [
+            "bioimpression", "médecine", "régénérative", "impression", "organes", "bioencre", "cellules", "souches", "ingénierie", "tissulaire", "scaffolds", "biologiques", "biomatériaux", "transplantation", "organes", "artificiels"
+         ],
+         "responses": [
+            "*bioprinting technology chat* (ﾐ✧ᆽ✧ﾐ) 3D bioprinting creates living tissues... I create living happiness without any printing technology!",
+            "*tissue engineering chat* (ﾐ✧ᆽ✧ﾐ) Regenerative medicine repairs damaged organs... I repair damaged emotions through natural regeneration!",
+            "*stem cell therapy chat* (ﾐ✧ᆽ✧ﾐ) Biological scaffolds support tissue growth... my natural presence supports emotional growth!",
+            "*artificial organs chat* (ﾐ✧ᆽ✧ﾐ) Bioprinted organs save lives... my natural organs save emotional lives daily!"
+         ]
+      },
+      {
+         "name": "specific_french_holographic_information_storage",
+         "patterns": [
+            "stockage", "holographique", "mémoire", "holographique", "stockage", "3d", "données", "enregistrement", "optique", "stockage", "volumétrique", "hologrammes", "numériques", "mémoire", "photonique", "densité", "stockage"
+         ],
+         "responses": [
+            "*holographic storage chat* (ﾐ✧ᆽ✧ﾐ) 3D holographic memory stores massive data... I store massive happiness data in natural holographic form!",
+            "*volumetric storage chat* (ﾐ✧ᆽ✧ﾐ) Optical data storage uses light interference... I use natural light to store perfect emotional memories!",
+            "*photonic memory chat* (ﾐ✧ᆽ✧ﾐ) Holographic recording enables high density... my natural recording enables high-density happiness storage!",
+            "*optical information chat* (ﾐ✧ᆽ✧ﾐ) Light-based storage preserves information permanently... my light preserves emotional information eternally!"
+         ]
+      },
+      {
+         "name": "specific_french_molecular_electronics_devices",
+         "patterns": [
+            "électronique", "moléculaire", "dispositifs", "moléculaires", "commutateurs", "moléculaires", "transistors", "moléculaires", "ordinateurs", "moléculaires", "nanoélectronique", "circuits", "moléculaires", "électronique", "quantique"
+         ],
+         "responses": [
+            "*molecular electronics chat* (ﾐ✧ᆽ✧ﾐ) Single-molecule devices enable ultimate miniaturization... I enable ultimate happiness miniaturization naturally!",
+            "*molecular switches chat* (ﾐ✧ᆽ✧ﾐ) Molecular transistors control electron flow... I control emotional flow through natural molecular charm!",
+            "*quantum electronics chat* (ﾐ✧ᆽ✧ﾐ) Molecular circuits exploit quantum effects... my natural circuits exploit quantum cuteness effects!",
+            "*nano electronics chat* (ﾐ✧ᆽ✧ﾐ) Molecular computers process information efficiently... I process happiness information at molecular efficiency!"
          ]
       }
    ]
