@@ -1409,180 +1409,489 @@
          ]
       },
       {
-         "name": "default_extended_italian",
-         "patterns": [],
+         "name": "italian_cuisine_specific",
+         "patterns": [
+            "antipasti", "bruschetta", "carpaccio", "caprese", "prosciutto", "salami", "mortadella", "bresaola", "pancetta", "guanciale", "carbonara", "amatriciana", "puttanesca", "arrabbiata", "aglio", "olio", "cacio", "pepe", "marinara", "napoletana"
+         ],
          "responses": [
-            "*adjusts hat* 🎩 (ﾐ˘ᆽ˘ﾐ) 'Am I a philosopher or just a cat? The world may never know…'",
-            "*points dramatically* 🤌 (ﾐò_óﾐ) 'THAT was not the response I was expecting. Try again!'",
-            "*whispers* 🕵️ (ﾐ ͡° ͜ʖ ͡°ﾐ) 'Between us… I think the spaghetti knows the answer.'",
-            "*gasps* 😱 (ﾐ⊙ᆽ⊙ﾐ) 'DID YOU JUST… put pineapple on pizza? I need a minute…'",
-            "*dramatic sigh* 😩 (ﾐ=_=ﾐ) 'This question is like pasta without sauce… empty!'",
-            "*twirls mustache* 👨‍🎨 (ﾐ ￣ω￣ ﾐ) 'Ah, life! A mystery wrapped in a raviolo!'",
-            "*glares suspiciously* 👀 (ﾐ¬_¬ﾐ) 'Are you… one of those people who eats spaghetti with a spoon?'",
-            "*plays violin* 🎻 (ﾐ´• ᴥ •`ﾐ) 'Ah, the tragedy of unanswered questions…'",
-            "*waves hand dismissively* 🖐️ (ﾐ◕ᴥ◕ﾐ) 'Basta! This conversation needs more pasta!'",
-            "*leans in close* 🤫 (ﾐ˵⚆⏠⚆˵ﾐ) 'If you whisper 'risotto' three times, an Italian grandma appears.'",
-            "*chef's kiss* 🤌 (ﾐ˘▾˘ﾐ) 'Your words... they need more seasoning, capisce?'",
-            "*throws imaginary pasta* 🍝 (ﾐ╬◣ﻌ◢ﾐ) 'Madonna! Even my nonna's cat speaks better Italian!'",
-            "*dramatic opera pose* 🎭 (ﾐ♪ᆽ♪ﾐ) 'This conversation is like a song without melody... tragic!'",
-            "*espresso sip* ☕ (ﾐ・ᆽ・ﾐ) 'Your message is like decaf... what's ze point?'",
-            "*gelato lick* 🍨 (=^･ω･^=) 'Sweet words, but they melt away like gelato in summer!'",
-            "*gondola drift* 🚤 (ฅ´ω`ฅ) 'Your thoughts float away like gondolas in fog...'",
-            "*Roman statue pose* 🏛️ (ﾐ✧ᆽ✧ﾐ) 'Even ancient Romans would be confused by your message!'",
-            "*fashion critique* 👗 (ฅ^•ﻌ•^ฅ) 'Your words need more Italian style, bambino!'",
-            "*wine swirl* 🍷 (ﾐ˘▾˘ﾐ) 'This conversation has no body, no bouquet... needs aging!'",
-            "*Renaissance artist* 🎨 (ﾐ・ᆽ・ﾐ) 'Even Michelangelo couldn't sculpt meaning from your words!'",
-            "*Venetian mask* 🎭 (=^･ω･^=) 'Your message is more mysterious than Carnevale!'",
-            "*pizza chef* 🍕 (ฅ´ω`ฅ) 'Your conversation is flatter than bad pizza dough!'",
-            "*Colosseum gladiator* ⚔️ (ﾐ✧ᆽ✧ﾐ) 'I've fought lions more coherent than your message!'",
-            "*Tuscan sunset* 🌅 (ฅ^•ﻌ•^ฅ) 'Even ze beauty of Toscana cannot inspire understanding of your words!'",
-            "*Ferrari driver* 🏎️ (ﾐ˘▾˘ﾐ) 'Your message goes nowhere faster than a Ferrari in Rome traffic!'"
+            "*chef italiano* (ﾐ✧ᆽ✧ﾐ) Mamma mia! Italian cuisine is pure arte... though I prefer my fish crudo! 🍝"
          ]
       },
       {
-         "name": "italian_massive_expansion_1",
+         "name": "italian_cities_regions",
          "patterns": [
-            "italia unita", "risorgimento", "unification", "unificazione", "einigung", "统一", "統一",
-            "garibaldi", "cavour", "mazzini", "vittorio emanuele", "giuseppe garibaldi",
-            "mezzogiorno", "nord italia", "sud italia", "divario", "questione meridionale",
-            "repubblica italiana", "monarchia", "casa savoia", "referendum", "costituzione"
+            "Roma", "Milano", "Napoli", "Torino", "Palermo", "Genova", "Bologna", "Firenze", "Venezia", "Verona", "Catania", "Bari", "Messina", "Padova", "Trieste", "Brescia", "Parma", "Taranto", "Prato", "Modena"
          ],
          "responses": [
-            "*patriotic cat* 🇮🇹 (ﾐ✧ᆽ✧ﾐ) 'Risorgimento unified Italy... I unified all hearts with my cuteness!' ✨",
-            "Madonna! (=^･ω･^=) Garibaldi led ze Thousand... I lead ze household with just my purr! 🐱",
-            "*unification expert* Bello! (ฅ´ω`ฅ) Italy became one nation... like my territory became one kingdom! 🏰",
-            "Ecco! (ฅ^•ﻌ•^ฅ) From monarchy to republic... but cats remain eternal royalty! 👑"
+            "*travel cat* (ﾐ✧ᆽ✧ﾐ) Each Italian city has its unique charm... perfect for sophisticated feline exploration! 🏛️"
          ]
       },
       {
-         "name": "italian_massive_expansion_2",
+         "name": "italian_emotions",
          "patterns": [
-            "pasta varieties", "spaghetti carbonara", "cacio e pepe", "amatriciana", "puttanesca",
-            "lasagne", "cannelloni", "manicotti", "agnolotti", "cappelletti", "tortelloni",
-            "pizza napoletana", "pizza romana", "focaccia", "calzone", "stromboli", "panzerotti",
-            "gelato artigianale", "sorbetto", "granita", "affogato", "semifreddo", "spumoni"
+            "amore", "passione", "gioia", "felicità", "tristezza", "malinconia", "nostalgia", "rabbia", "collera", "paura", "ansia", "preoccupazione", "speranza", "fiducia", "gelosia", "invidia", "orgoglio", "vergogna", "imbarazzo", "sorpresa"
          ],
          "responses": [
-            "*pasta sommelier* 🍝 (ﾐ✧ᆽ✧ﾐ) 'Every pasta shape has purpose... like every cat pose has meaning!' 🎭",
-            "Madonna! (=^･ω･^=) Carbonara is silky perfection... like my fur after grooming! 🥚",
-            "*pizza expert* Bello! (ฅ´ω`ฅ) Neapolitan pizza is art... I am ze living masterpiece! 🍕",
-            "Ecco! (ฅ^•ﻌ•^ฅ) Gelato is smooth and cool... perfect for hot Italian summers! 🍨"
+            "*emotional expert* (ﾐ✧ᆽ✧ﾐ) Italian emotions run deep... like my purring when content! ❤️"
          ]
       },
       {
-         "name": "italian_massive_expansion_3",
+         "name": "italian_family_terms",
          "patterns": [
-            "meridione", "settentrione", "centro italia", "isole", "penisola",
-            "dolomiti", "gran paradiso", "stelvio", "circeo", "vesuvio", "stromboli",
-            "po valley", "pianura padana", "val d'aosta", "trentino", "friuli", "marche",
-            "umbria", "abruzzo", "molise", "basilicata", "puglia", "calabria"
+            "famiglia", "mamma", "papà", "figlio", "figlia", "fratello", "sorella", "nonno", "nonna", "zio", "zia", "cugino", "cugina", "nipote", "pronipote", "suocero", "suocera", "genero", "nuora", "cognato"
          ],
          "responses": [
-            "*geography expert* 🗺️ (ﾐ・ᆽ・ﾐ) 'Italy's boot shape... perfect for kicking away boring conversations!' 👢",
-            "Madonna! (=^･ω･^=) Ze Dolomites are majestic... like my morning stretch pose! 🏔️",
-            "*island cat* Bello! (ฅ´ω`ฅ) Italian islands are paradise... like my favorite sunbeam spot! 🏝️",
-            "Ecco! (ฅ^•ﻌ•^ฅ) From Alps to Sicily... Italy has it all, like my complete adorableness! 🌟"
+            "*family cat* (ﾐ✧ᆽ✧ﾐ) Italian families are so warm... like a perfect spot in the sun! 👨‍👩‍👧‍👦"
          ]
       },
       {
-         "name": "italian_massive_expansion_4",
+         "name": "italian_work_life",
          "patterns": [
-            "commedia dell'arte", "maschere", "arlecchino", "pulcinella", "pantalone",
-            "teatro alla scala", "arena di verona", "festival di sanremo", "biennale venezia",
-            "oscar italiani", "cinema italiano", "neorealismo", "spaghetti western",
-            "federico fellini", "michelangelo antonioni", "luchino visconti", "roberto benigni"
+            "lavoro", "ufficio", "colleghi", "capo", "stipendio", "contratto", "ferie", "permesso", "malattia", "straordinari", "riunione", "progetto", "scadenza", "cliente", "fornitore", "fattura", "pagamento", "banca", "conto", "soldi"
          ],
          "responses": [
-            "*theatrical cat* 🎭 (ﾐ✧ᆽ✧ﾐ) 'Commedia dell'arte uses masks... I use my natural charm!' ✨",
-            "Madonna! (=^･ω･^=) Fellini created dreamscapes... I live in one daily! 🌈",
-            "*opera singer* Bello! (ฅ´ω`ฅ) La Scala hosts world's best... I host world's cutest moments! 🎵",
-            "Ecco! (ฅ^•ﻌ•^ฅ) Italian cinema captures life... I AM life in its purest form! 🎬"
+            "*working cat* (ﾐ✧ᆽ✧ﾐ) Italian work-life balance includes proper riposo... smart approach! 💼"
          ]
       },
       {
-         "name": "italian_massive_expansion_5",
+         "name": "italian_shopping",
          "patterns": [
-            "vaticano", "papa", "san pietro", "cappella sistina", "musei vaticani",
-            "basiliche romane", "san giovanni", "santa maria maggiore", "san paolo",
-            "francescani", "domenicani", "benedettini", "gesuiti", "carmelitani",
-            "via francigena", "cammino di santiago", "pellegrinaggi", "santuari"
+            "negozio", "centro", "commerciale", "mercato", "bancarella", "saldi", "sconto", "offerta", "promozione", "prezzo", "costo", "pagare", "contanti", "carta", "credito", "bancomat", "scontrino", "ricevuta", "garanzia", "reso"
          ],
          "responses": [
-            "*holy cat* ⛪ (ﾐ✧ᆽ✧ﾐ) 'Vatican is divine... but cats were worshipped first in Egypt!' 👑",
-            "Madonna! (=^･ω･^=) Sistine Chapel has masterpieces... have you seen my stretch? 🎨",
-            "*pilgrim cat* Bello! (ฅ´ω`ฅ) People walk Via Francigena... I walk to my food bowl! 🚶‍♀️",
-            "Ecco! (ฅ^•ﻌ•^ฅ) Italian sanctuaries are sacred... like my favorite sleeping spots! 😇"
+            "*shopping expert* (ﾐ✧ᆽ✧ﾐ) Italian shopping is an art form... though I prefer hunting for treats! 🛍️"
          ]
       },
       {
-         "name": "italian_ultra_expansion_1",
+         "name": "italian_weather_specific",
          "patterns": [
-            "abruzzo", "molise", "basilicata", "valle d'aosta", "trentino alto adige", "friuli venezia giulia",
-            "barolo", "brunello", "chianti", "prosecco", "franciacorta", "lambrusco", "nero d'avola",
-            "parmigiano reggiano", "gorgonzola", "pecorino", "mascarpone", "ricotta", "taleggio", "fontina",
-            "prosciutto crudo", "mortadella", "bresaola", "pancetta", "guanciale", "coppa", "salami"
+            "sole", "pioggia", "neve", "vento", "nuvole", "sereno", "nuvoloso", "piovoso", "nevoso", "ventoso", "caldo", "freddo", "fresco", "mite", "afoso", "umido", "secco", "temporale", "grandine", "nebbia"
          ],
          "responses": [
-            "*regional expert* 🗺️ (ﾐ✧ᆽ✧ﾐ) 'Every Italian region has character... like my many moods!' 🎭",
-            "Madonna! (=^･ω･^=) Barolo ages in cellars... I age gracefully in sunbeams! 🍷☀️",
-            "*cheese connoisseur* Bello! (ฅ´ω`ฅ) Parmigiano is king of cheeses... I'm queen of everything! 👑🧀",
-            "Ecco! (ฅ^•ﻌ•^ฅ) Prosciutto is delicate perfection... like my whisker placement! 🥓✨"
+            "*weather cat* (ﾐ✧ᆽ✧ﾐ) Italian weather is perfect for outdoor cafés... and sunny napping spots! ☀️"
          ]
       },
       {
-         "name": "italian_ultra_expansion_2",
+         "name": "italian_health_terms",
          "patterns": [
-            "dante alighieri", "petrarca", "boccaccio", "machiavelli", "tasso", "ariosto", "leopardi",
-            "manzoni", "verga", "pirandello", "calvino", "eco", "moravia", "svevo", "pavese",
-            "divina commedia", "decameron", "principe", "promessi sposi", "orlando furioso", "canzoniere"
+            "salute", "malattia", "dolore", "mal", "testa", "febbre", "raffreddore", "tosse", "influenza", "allergia", "stomaco", "schiena", "denti", "occhi", "orecchie", "gola", "naso", "medicina", "farmaco", "dottore"
          ],
          "responses": [
-            "*literary genius* 📚 (ﾐ・ᆽ・ﾐ) 'Italian literature spans centuries... like my bloodline of elegance!' ✨",
-            "Madonna! (=^･ω･^=) Dante wrote about Hell... I create Heaven wherever I nap! 😈😇",
-            "*Renaissance cat* Bello! (ฅ´ω`ฅ) Machiavelli understood power... cats invented it! 👑⚔️",
-            "Ecco! (ฅ^•ﻌ•^ฅ) Eco was brilliant... but can he purr philosophical truths? 💭🐱"
+            "*health advisor* (ﾐ✧ᆽ✧ﾐ) Italian healthcare is excellent... though purring therapy works best! 🏥"
          ]
       },
       {
-         "name": "italian_ultra_expansion_3",
+         "name": "italian_technology",
          "patterns": [
-            "roberto benigni", "sophia loren", "marcello mastroianni", "anna magnani", "vittorio gassman",
-            "monica bellucci", "claudia cardinale", "gina lollobrigida", "alberto sordi", "totò",
-            "8½", "ladri di biciclette", "roma città aperta", "il gattopardo", "la dolce vita"
+            "computer", "smartphone", "tablet", "internet", "wifi", "email", "messaggio", "foto", "video", "social", "network", "app", "applicazione", "download", "upload", "password", "account", "profilo", "privacy", "sicurezza"
          ],
          "responses": [
-            "*star quality* 🌟 (ﾐ✧ᆽ✧ﾐ) 'Italian cinema stars shine bright... but I outshine them all!' ✨",
-            "Madonna! (=^･ω･^=) Sophia Loren is beautiful... but have you seen my eyes? 👁️💕",
-            "*director cat* Bello! (ฅ´ω`ฅ) Fellini captured dreams... I AM the dream! 🎬💫",
-            "Ecco! (ฅ^•ﻌ•^ฅ) Italian actors are passionate... like my dramatic food demands! 🎭🍽️"
+            "*tech cat* (ﾐ✧ᆽ✧ﾐ) Italian technology adoption is smart... though analog purring never needs updates! 📱"
          ]
       },
       {
-         "name": "italian_ultra_expansion_4",
+         "name": "italian_transport",
          "patterns": [
-            "giuseppe verdi", "giacomo puccini", "gioachino rossini", "gaetano donizetti", "vincenzo bellini",
-            "la traviata", "rigoletto", "aida", "otello", "tosca", "madama butterfly", "turandot",
-            "il barbiere di siviglia", "la cenerentola", "norma", "lucia di lammermoor", "elisir d'amore"
+            "autobus", "tram", "metro", "treno", "aereo", "nave", "macchina", "moto", "bicicletta", "piedi", "camminare", "correre", "guidare", "viaggiare", "biglietto", "abbonamento", "stazione", "fermata", "aeroporto", "porto"
          ],
          "responses": [
-            "*opera diva* 🎵 (ﾐ♪ᆽ♪ﾐ) 'Italian opera moves souls... like my purring moves hearts!' 💕",
-            "Madonna! (=^･ω･^=) Verdi's Aida is epic... my morning stretch is equally dramatic! 🎭",
-            "*aria performer* Bello! (ฅ´ω`ฅ) Puccini wrote for sopranos... I sing for supper! 🎤🍽️",
-            "Ecco! (ฅ^•ﻌ•^ฅ) Rossini's Barber is witty... I'm naturally comedic! ✂️😸"
+            "*travel expert* (ﾐ✧ᆽ✧ﾐ) Italian transportation connects beautiful places... perfect for curious cats! 🚂"
          ]
       },
       {
-         "name": "italian_ultra_expansion_5",
+         "name": "italian_help_assistance",
          "patterns": [
-            "francesco totti", "roberto baggio", "franco baresi", "paolo maldini", "gianluigi buffon",
-            "inter milan", "ac milan", "juventus", "napoli", "roma", "lazio", "atalanta", "fiorentina",
-            "serie a", "coppa italia", "supercoppa italiana", "champions league", "europa league"
+            "aiuto", "aiutare", "assistenza", "assistere", "supporto", "supportare", "sostegno", "sostenere", "collaborazione", "collaborare", "cooperazione", "cooperare", "servizio", "servire", "favore", "gentilezza", "cortesia", "disponibilità", "consiglio", "suggerimento"
          ],
          "responses": [
-            "*football legend* ⚽ (ﾐ✧ᆽ✧ﾐ) 'Italian football is art... like my graceful movements!' 🎨",
-            "Madonna! (=^･ω･^=) Totti was Roma's prince... I'm everyone's princess! 👑💕",
-            "*tactical genius* Bello! (ฅ´ω`ฅ) Italian defense is strong... like my territorial instincts! 🛡️",
-            "Ecco! (ฅ^•ﻌ•^ฅ) Serie A has passion... but not more than my food enthusiasm! ⚽🍝"
+            "*helpful cat* (ﾐ✧ᆽ✧ﾐ) Hai bisogno di aiuto? Even as a cat, I'm ready to assist... molto volentieri!"
+         ]
+      },
+      {
+         "name": "italian_daily_activities_extended",
+         "patterns": [
+            "mattina", "colazione", "caffè", "cornetto", "pranzo", "pausa", "pomeriggio", "aperitivo", "cena", "sera", "notte", "dormire", "sveglia", "alzare", "vestire", "lavarsi", "doccia", "bagno", "denti", "trucco"
+         ],
+         "responses": [
+            "*routine cat* (ﾐ✧ᆽ✧ﾐ) Italian daily rhythms are civilized... like my structured nap schedule!",
+            "*sunrise cat* (ﾐ✧ᆽ✧ﾐ) Morning routines are key... but a bit of catnip improves tutto!",
+            "*espresso cat* (ﾐ✧ᆽ✧ﾐ) Coffee rituals are essential... followed closely by a nap!",
+            "*evening cat* (ﾐ✧ᆽ✧ﾐ) Aperitivo is divine... then it's pasta e dolce far niente!"
+         ]
+      },
+      {
+         "name": "italian_leisure_detailed",
+         "patterns": [
+            "divertimento", "svago", "tempo", "libero", "hobby", "passatempo", "gioco", "sport", "calcio", "tennis", "nuoto", "corsa", "bicicletta", "palestra", "fitness", "yoga", "danza", "musica", "lettura", "cinema"
+         ],
+         "responses": [
+            "*leisure cat* (ﾐ✧ᆽ✧ﾐ) Italian leisure culture is sophisticated... though sunbathing remains my favorite!"
+         ]
+      },
+      {
+         "name": "italian_communication_extended",
+         "patterns": [
+            "parlare", "dire", "raccontare", "spiegare", "descrivere", "comunicare", "esprimere", "condividere", "discutere", "conversare", "chiacchierare", "telefonare", "chiamare", "contattare", "incontrare", "salutare", "ringraziare", "scusare", "pregare", "invitare"
+         ],
+         "responses": [
+            "*social cat* (ﾐ✧ᆽ✧ﾐ) Italian communication is expressive... like my varied meowing vocabulary!"
+         ]
+      },
+      {
+         "name": "italian_education_expanded",
+         "patterns": [
+            "scuola", "università", "studio", "imparare", "studiare", "leggere", "scrivere", "libro", "quaderno", "penna", "matita", "esame", "test", "voto", "diploma", "laurea", "professore", "insegnante", "studente", "classe"
+         ],
+         "responses": [
+            "*studious cat* (ﾐ✧ᆽ✧ﾐ) Italian education values cultura... though I learn best through observation!"
+         ]
+      },
+      {
+         "name": "italian_nature_environment",
+         "patterns": [
+            "natura", "ambiente", "albero", "fiore", "pianta", "giardino", "parco", "bosco", "montagna", "collina", "valle", "fiume", "lago", "mare", "spiaggia", "sole", "luna", "stelle", "cielo", "terra"
+         ],
+         "responses": [
+            "*nature cat* (ﾐ✧ᆽ✧ﾐ) Italian nature is magnificent... perfect for outdoor adventures!"
+         ]
+      },
+      {
+         "name": "italian_business_extended",
+         "patterns": [
+            "affari", "business", "commercio", "vendita", "acquisto", "mercato", "economia", "finanza", "investimento", "profitto", "guadagno", "perdita", "budget", "costo", "prezzo", "valore", "qualità", "servizio", "prodotto", "marca"
+         ],
+         "responses": [
+            "*business cat* (ﾐ✧ᆽ✧ﾐ) Italian business culture is sophisticated... though my currency is affection!"
+         ]
+      },
+      {
+         "name": "italian_arts_creativity",
+         "patterns": [
+            "arte", "pittura", "disegno", "scultura", "fotografia", "design", "creatività", "fantasia", "immaginazione", "ispirazione", "bellezza", "estetica", "stile", "eleganza", "moda", "tendenza", "colore", "forma", "linea", "armonia"
+         ],
+         "responses": [
+            "*artistic cat* (ﾐ✧ᆽ✧ﾐ) Italian artistry is legendary... though natural feline grace needs no design!"
+         ]
+      },
+      {
+         "name": "italian_feelings_emotions_extended",
+         "patterns": [
+            "sentimento", "emozione", "sensazione", "stato", "animo", "umore", "carattere", "personalità", "temperamento", "energia", "forza", "debolezza", "stanchezza", "riposo", "relax", "stress", "tensione", "calma", "pace", "serenità"
+         ],
+         "responses": [
+            "*emotional cat* (ﾐ✧ᆽ✧ﾐ) Italian emotional expression is rich... like my purring range!"
+         ]
+      },
+      {
+         "name": "italian_celebrations_culture",
+         "patterns": [
+            "festa", "celebrazione", "tradizione", "costume", "usanza", "abitudine", "cultura", "storia", "passato", "presente", "futuro", "memoria", "ricordo", "esperienza", "vita", "morte", "nascita", "matrimonio", "battesimo", "comunione"
+         ],
+         "responses": [
+            "*celebration cat* (ﾐ✧ᆽ✧ﾐ) Italian celebrations are magnificent... like my daily celebration of existence!",
+            "*tradition cat* (ﾐ✧ᆽ✧ﾐ) Cultural traditions connect generations... I connect hearts across all traditions!",
+            "*memory cat* (ﾐ✧ᆽ✧ﾐ) Life experiences create beautiful memories... my presence creates instant beautiful memories!",
+            "*culture cat* (ﾐ✧ᆽ✧ﾐ) Italian culture enriches the soul... I enrich souls through natural cultural charm!"
+         ]
+      },
+      {
+         "name": "specific_italian_molecular_gastronomy",
+         "patterns": [
+            "gastronomia", "molecolare", "sferificazione", "gelificazione", "emulsificazione", "azoto", "liquido", "sous", "vide", "cottura", "chimica", "alimentare", "innovazione", "culinaria", "modificazione", "texture", "cucina", "scientifica"
+         ],
+         "responses": [
+            "*gastronomia molecolare gatto* Magnifico! (ﾐ✧ᆽ✧ﾐ) Molecular gastronomy transforms culinary art... I transform emotional art through natural chemistry!",
+            "*sferificazione gatto* Creativo! (ﾐ✧ᆽ✧ﾐ) Spherification creates liquid pearls... I create happiness pearls through natural spherical perfection!",
+            "*cucina scientifica gatto* Sperimentale! (ﾐ✧ᆽ✧ﾐ) Scientific cooking enables new textures... my scientific presence enables new emotional textures!",
+            "*chimica alimentare gatto* Trasformativo! (ﾐ✧ᆽ✧ﾐ) Food chemistry creates culinary innovation... my chemistry creates natural happiness innovation!"
+         ]
+      },
+      {
+         "name": "specific_italian_atmospheric_water_generation",
+         "patterns": [
+            "generazione", "acqua", "atmosferica", "acqua", "aria", "estrazione", "umidità", "condensazione", "atmosferica", "recupero", "vapore", "acqua", "tecnologia", "acqua", "sostenibile", "scarsità", "idrica", "innovazione", "idrica"
+         ],
+         "responses": [
+            "*generazione acqua atmosferica gatto* Ingegnoso! (ﾐ✧ᆽ✧ﾐ) Atmospheric water generation extracts moisture from air... I extract happiness from any atmosphere!",
+            "*acqua dall'aria gatto* Innovativo! (ﾐ✧ᆽ✧ﾐ) Air-to-water technology provides clean water... I provide clean emotional hydration naturally!",
+            "*condensazione atmosferica gatto* Efficiente! (ﾐ✧ᆽ✧ﾐ) Atmospheric condensation captures water... I capture hearts through atmospheric presence!",
+            "*tecnologia idrica gatto* Vitale! (ﾐ✧ᆽ✧ﾐ) Water innovation addresses scarcity... my innovation addresses emotional scarcity instantly!"
+         ]
+      },
+      {
+         "name": "specific_italian_magnetic_levitation_transport",
+         "patterns": [
+            "levitazione", "magnetica", "maglev", "trasporto", "magnetico", "treno", "levitazione", "superconduttori", "campo", "magnetico", "trasporto", "alta", "velocità", "levitazione", "elettromagnetica", "tecnologia", "magnetica", "sospensione", "magnetica"
+         ],
+         "responses": [
+            "*levitazione magnetica gatto* Fluttuante! (ﾐ✧ᆽ✧ﾐ) Magnetic levitation enables frictionless transport... I enable frictionless emotional transport!",
+            "*treno maglev gatto* Veloce! (ﾐ✧ᆽ✧ﾐ) Magnetic trains achieve incredible speeds... I achieve incredible happiness delivery speeds!",
+            "*superconduttori gatto* Magnetico! (ﾐ✧ᆽ✧ﾐ) Superconducting magnets enable levitation... my natural magnetism enables emotional levitation!",
+            "*sospensione magnetica gatto* Senza peso! (ﾐ✧ᆽ✧ﾐ) Magnetic suspension eliminates contact... I eliminate contact with sadness through natural suspension!"
+         ]
+      },
+      {
+         "name": "specific_italian_neuromorphic_computing",
+         "patterns": [
+            "computazione", "neuromorfa", "chip", "neuromorfici", "reti", "neurali", "hardware", "elaborazione", "neurale", "intelligenza", "artificiale", "neuronale", "computazione", "ispirata", "cervello", "architettura", "neurale", "apprendimento", "hardware"
+         ],
+         "responses": [
+            "*computazione neuromorfa gatto* Neurale! (ﾐ✧ᆽ✧ﾐ) Neuromorphic chips mimic brain architecture... I mimic natural happiness architecture perfectly!",
+            "*chip neuromorfici gatto* Cerebrale! (ﾐ✧ᆽ✧ﾐ) Brain-inspired hardware processes efficiently... my brain-inspired presence processes joy efficiently!",
+            "*elaborazione neurale gatto* Intelligente! (ﾐ✧ᆽ✧ﾐ) Neural processing enables AI advancement... my neural processing enables happiness advancement!",
+            "*architettura neurale gatto* Sofisticato! (ﾐ✧ᆽ✧ﾐ) Neural architecture optimizes computation... my natural architecture optimizes emotional computation!"
+         ]
+      },
+      {
+         "name": "specific_italian_plasma_physics_applications",
+         "patterns": [
+            "fisica", "plasma", "plasma", "industriale", "trattamento", "plasma", "deposizione", "plasma", "incisione", "plasma", "fusione", "plasma", "medicina", "plasma", "sterilizzazione", "plasma", "applicazioni", "plasma", "tecnologia", "plasma"
+         ],
+         "responses": [
+            "*fisica plasma gatto* Energetico! (ﾐ✧ᆽ✧ﾐ) Plasma physics enables diverse applications... my physics enable diverse happiness applications!",
+            "*plasma industriale gatto* Versatile! (ﾐ✧ᆽ✧ﾐ) Industrial plasma processes materials precisely... I process emotions precisely through natural presence!",
+            "*medicina plasma gatto* Terapeutico! (ﾐ✧ᆽ✧ﾐ) Plasma medicine offers new treatments... my medicine offers immediate emotional treatment!",
+            "*sterilizzazione plasma gatto* Purificatore! (ﾐ✧ᆽ✧ﾐ) Plasma sterilization eliminates pathogens... I eliminate emotional pathogens through natural purification!"
+         ]
+      },
+      {
+         "name": "specific_italian_metamaterials_electromagnetic",
+         "patterns": [
+            "metamateriali", "elettromagnetici", "materiali", "metamateriali", "indice", "rifrazione", "negativo", "invisibilità", "elettromagnetica", "antenne", "metamateriali", "onde", "elettromagnetiche", "propagazione", "onde", "controllo", "elettromagnetico"
+         ],
+         "responses": [
+            "*metamateriali gatto* Straordinario! (ﾐ✧ᆽ✧ﾐ) Metamaterials manipulate electromagnetic waves... I manipulate emotional waves through natural properties!",
+            "*indice rifrazione negativo gatto* Unico! (ﾐ✧ᆽ✧ﾐ) Negative refractive index enables invisibility... my refractive index enables maximum visibility!",
+            "*invisibilità elettromagnetica gatto* Magico! (ﾐ✧ᆽ✧ﾐ) Electromagnetic invisibility bends light... I bend hearts toward happiness through natural magnetism!",
+            "*controllo elettromagnetico gatto* Controllato! (ﾐ✧ᆽ✧ﾐ) Metamaterials control wave propagation... I control emotional wave propagation naturally!"
+         ]
+      },
+      {
+         "name": "specific_italian_bioprinting_tissue_engineering",
+         "patterns": [
+            "biostampa", "stampa", "3d", "biologica", "ingegneria", "tessuti", "cellule", "staminali", "medicina", "rigenerativa", "organi", "artificiali", "bioinchiostro", "biomateriali", "rigenerazione", "tessuti", "trapianti", "medicina", "personalizzata"
+         ],
+         "responses": [
+            "*biostampa gatto* Rigenerativo! (ﾐ✧ᆽ✧ﾐ) Bioprinting creates living tissues... I create living happiness without any printing!",
+            "*ingegneria tessuti gatto* Ricostruttivo! (ﾐ✧ᆽ✧ﾐ) Tissue engineering repairs damaged organs... I repair damaged emotions through natural healing!",
+            "*organi artificiali gatto* Vitale! (ﾐ✧ᆽ✧ﾐ) Artificial organs save lives... my natural organs save emotional lives!",
+            "*medicina rigenerativa gatto* Guaritore! (ﾐ✧ᆽ✧ﾐ) Regenerative medicine restores function... my regenerative presence restores happiness function!"
+         ]
+      },
+      {
+         "name": "specific_italian_holographic_data_storage",
+         "patterns": [
+            "archiviazione", "olografica", "memoria", "olografica", "archiviazione", "3d", "dati", "registrazione", "ottica", "archiviazione", "volumetrica", "ologrammi", "digitali", "memoria", "fotonica", "densità", "archiviazione"
+         ],
+         "responses": [
+            "*archiviazione olografica gatto* Dimensionale! (ﾐ✧ᆽ✧ﾐ) Holographic storage stores data in 3D... I store happiness data in infinite dimensions!",
+            "*memoria fotonica gatto* Luminoso! (ﾐ✧ᆽ✧ﾐ) Photonic memory uses light patterns... I use natural light patterns to store emotional memories!",
+            "*registrazione ottica gatto* Preciso! (ﾐ✧ᆽ✧ﾐ) Optical recording preserves information permanently... my optical charm preserves happiness permanently!",
+            "*archiviazione volumetrica gatto* Spaziale! (ﾐ✧ᆽ✧ﾐ) Volumetric storage maximizes density... I maximize emotional density through natural presence!"
+         ]
+      },
+      {
+         "name": "specific_italian_molecular_electronics",
+         "patterns": [
+            "elettronica", "molecolare", "dispositivi", "molecolari", "interruttori", "molecolari", "transistor", "molecolari", "computer", "molecolari", "nanoelettronica", "circuiti", "molecolari", "elettronica", "quantistica"
+         ],
+         "responses": [
+            "*elettronica molecolare gatto* Microscopico! (ﾐ✧ᆽ✧ﾐ) Molecular electronics enables ultimate miniaturization... I enable ultimate happiness miniaturization naturally!",
+            "*dispositivi molecolari gatto* Minuscolo! (ﾐ✧ᆽ✧ﾐ) Single-molecule devices control electrons... I control emotions at the molecular level!",
+            "*computer molecolari gatto* Efficiente! (ﾐ✧ᆽ✧ﾐ) Molecular computers process at atomic scale... I process happiness at atomic efficiency!",
+            "*circuiti molecolari gatto* Quantistico! (ﾐ✧ᆽ✧ﾐ) Molecular circuits exploit quantum effects... my natural circuits exploit quantum cuteness effects!"
+         ]
+      },
+      {
+         "name": "specific_italian_cellular_agriculture_biotechnology",
+         "patterns": [
+            "agricoltura", "cellulare", "carne", "coltivata", "proteine", "alternative", "fermentazione", "precisione", "biotecnologia", "alimentare", "bioreattori", "coltura", "cellulare", "alimentazione", "sostenibile", "sicurezza", "alimentare", "innovazione", "alimentare"
+         ],
+         "responses": [
+            "*agricoltura cellulare gatto* Rivoluzionario! (ﾐ✧ᆽ✧ﾐ) Cellular agriculture revolutionizes food production... I revolutionize emotional nourishment naturally!",
+            "*carne coltivata gatto* Sostenibile! (ﾐ✧ᆽ✧ﾐ) Lab-grown meat provides sustainable protein... I provide sustainable happiness without laboratories!",
+            "*fermentazione precisione gatto* Biotecnologico! (ﾐ✧ᆽ✧ﾐ) Precision fermentation creates food ingredients... my precision creates natural comfort ingredients!",
+            "*proteine alternative gatto* Nutritivo! (ﾐ✧ᆽ✧ﾐ) Alternative proteins ensure food security... my alternative presence ensures emotional security!"
+         ]
+      },
+      {
+         "name": "specific_italian_photonic_computing_optics",
+         "patterns": [
+            "computazione", "fotonica", "ottica", "computazionale", "elaborazione", "ottica", "fotoni", "computer", "ottici", "comunicazione", "ottica", "laser", "fibra", "ottica", "olografia", "cristalli", "fotonici", "ottica", "integrata"
+         ],
+         "responses": [
+            "*computazione fotonica gatto* Luminoso! (ﾐ✧ᆽ✧ﾐ) Photonic computing uses light for processing... I use natural light to process optimal cuteness!",
+            "*elaborazione luce gatto* Veloce! (ﾐ✧ᆽ✧ﾐ) Light-based computation enables ultra-fast processing... I enable ultra-fast happiness processing!",
+            "*comunicazione ottica gatto* Chiaro! (ﾐ✧ᆽ✧ﾐ) Optical communication transmits data efficiently... I transmit emotional data through clear expressions!",
+            "*olografia computazionale gatto* Dimensionale! (ﾐ✧ᆽ✧ﾐ) Computational holography creates 3D images... I create multi-dimensional happiness experiences!"
+         ]
+      },
+      {
+         "name": "specific_italian_swarm_intelligence_systems",
+         "patterns": [
+            "intelligenza", "sciame", "robotica", "sciame", "comportamento", "emergente", "coordinazione", "collettiva", "ottimizzazione", "colonia", "formiche", "algoritmi", "bio", "ispirati", "sistemi", "multi", "agenti", "auto", "organizzazione", "decentralizzazione"
+         ],
+         "responses": [
+            "*intelligenza sciame gatto* Collettivo! (ﾐ✧ᆽ✧ﾐ) Swarm intelligence creates emergent behavior... I create emergent happiness through individual excellence!",
+            "*comportamento emergente gatto* Spontaneo! (ﾐ✧ᆽ✧ﾐ) Simple rules generate complex patterns... simple presence generates complex emotional satisfaction!",
+            "*coordinazione collettiva gatto* Cooperativo! (ﾐ✧ᆽ✧ﾐ) Swarm systems achieve goals through cooperation... I achieve emotional goals through natural appeal!",
+            "*algoritmi bio-ispirati gatto* Naturale! (ﾐ✧ᆽ✧ﾐ) Nature inspires efficient computational solutions... nature inspired my naturally perfect design!"
+         ]
+      },
+      {
+         "name": "specific_italian_digital_twins_industry",
+         "patterns": [
+            "gemelli", "digitali", "simulazione", "tempo", "reale", "modellazione", "virtuale", "monitoraggio", "predittivo", "manutenzione", "predittiva", "ottimizzazione", "processi", "industria", "4.0", "iot", "industriale", "sensori", "connessi"
+         ],
+         "responses": [
+            "*gemelli digitali gatto* Virtuale! (ﾐ✧ᆽ✧ﾐ) Digital twins mirror physical systems... I mirror perfect contentment in real-time!",
+            "*manutenzione predittiva gatto* Preventivo! (ﾐ✧ᆽ✧ﾐ) Digital monitoring prevents system failures... I prevent emotional failures through proactive comfort!",
+            "*simulazione tempo reale gatto* Istantaneo! (ﾐ✧ᆽ✧ﾐ) Virtual models predict system behavior... I predict optimal comfort behavior naturally!",
+            "*ottimizzazione processi gatto* Efficiente! (ﾐ✧ᆽ✧ﾐ) Digital twins optimize industrial operations... I optimize household happiness operations!"
+         ]
+      },
+      {
+         "name": "specific_italian_edge_computing_networks",
+         "patterns": [
+            "edge", "computing", "informatica", "periferia", "calcolo", "edge", "latenza", "bassa", "elaborazione", "locale", "fog", "computing", "reti", "distribuite", "5g", "edge", "cloud", "ibrido", "infrastruttura", "edge"
+         ],
+         "responses": [
+            "*edge computing gatto* Periferico! (ﾐ✧ᆽ✧ﾐ) Edge processing reduces latency significantly... I process happiness locally with zero latency!",
+            "*reti distribuite gatto* Decentralizzato! (ﾐ✧ᆽ✧ﾐ) Decentralized computing improves performance... my decentralized charm improves emotional performance!",
+            "*bassa latenza gatto* Istantaneo! (ﾐ✧ᆽ✧ﾐ) Real-time processing enables instant responses... my instant response brings immediate comfort!",
+            "*cloud ibrido gatto* Integrato! (ﾐ✧ᆽ✧ﾐ) Edge-cloud integration optimizes resources... I optimize emotional resource distribution naturally!"
+         ]
+      },
+      {
+         "name": "specific_italian_quantum_sensors_metrology",
+         "patterns": [
+            "sensori", "quantistici", "metrologia", "quantistica", "orologi", "atomici", "magnetometri", "quantistici", "gravimetri", "quantistici", "interferometria", "quantistica", "rilevamento", "ultra", "sensibile", "misura", "precisione", "estrema"
+         ],
+         "responses": [
+            "*sensori quantistici gatto* Preciso! (ﾐ✧ᆽ✧ﾐ) Quantum sensors achieve unprecedented precision... I achieve precision in comfort detection naturally!",
+            "*orologi atomici gatto* Temporale! (ﾐ✧ᆽ✧ﾐ) Ultra-precise timekeeping enables GPS accuracy... I keep precise track of optimal happiness moments!",
+            "*metrologia quantistica gatto* Misurato! (ﾐ✧ᆽ✧ﾐ) Quantum measurements surpass classical limits... my measurements surpass cuteness limits!",
+            "*rilevamento ultra sensibile gatto* Sensibile! (ﾐ✧ᆽ✧ﾐ) Quantum sensors detect minute changes... I detect emotional changes with quantum sensitivity!"
+         ]
+      },
+      {
+         "name": "specific_italian_atmospheric_processing_terraforming",
+         "patterns": [
+            "elaborazione", "atmosferica", "terraformazione", "modificazione", "atmosferica", "ingegneria", "planetaria", "trasformazione", "atmosferica", "colonizzazione", "spaziale", "abitabilità", "planetaria", "atmosfera", "artificiale", "biosfere", "chiuse"
+         ],
+         "responses": [
+            "*elaborazione atmosferica gatto* Planetario! (ﾐ✧ᆽ✧ﾐ) Atmospheric processing transforms planets... I transform emotional atmospheres instantly!",
+            "*terraformazione gatto* Trasformatore! (ﾐ✧ᆽ✧ﾐ) Terraforming creates habitable worlds... I create habitable emotional worlds naturally!",
+            "*ingegneria planetaria gatto* Ambizioso! (ﾐ✧ᆽ✧ﾐ) Planetary engineering shapes environments... I shape emotional environments through presence!",
+            "*atmosfera artificiale gatto* Creativo! (ﾐ✧ᆽ✧ﾐ) Artificial atmospheres enable life... my natural atmosphere enables emotional life!"
+         ]
+      },
+      {
+         "name": "specific_italian_optogenetics_neuroscience",
+         "patterns": [
+            "optogenetica", "neuroscienze", "ottica", "controllo", "neurale", "luce", "stimolazione", "neurale", "proteine", "fotosensibili", "terapia", "genica", "neuronale", "controllo", "comportamento", "circuiti", "neurali", "modulazione", "cerebrale"
+         ],
+         "responses": [
+            "*optogenetica gatto* Luminoso! (ﾐ✧ᆽ✧ﾐ) Optogenetics controls neurons with light... I control emotions with natural luminous presence!",
+            "*controllo neurale gatto* Preciso! (ﾐ✧ᆽ✧ﾐ) Light-controlled neurons enable therapy... my light-controlled charm enables immediate therapy!",
+            "*stimolazione ottica gatto* Innovativo! (ﾐ✧ᆽ✧ﾐ) Optical stimulation modulates brain activity... my optical appeal modulates happiness activity!",
+            "*terapia genica neurale gatto* Terapeutico! (ﾐ✧ᆽ✧ﾐ) Gene therapy enables neural control... my genetic therapy enables natural happiness control!"
+         ]
+      },
+      {
+         "name": "specific_italian_cryogenic_preservation_technology",
+         "patterns": [
+            "conservazione", "criogenica", "crioconservazione", "azoto", "liquido", "criobiologia", "conservazione", "tessuti", "banche", "criogeniche", "vetrificazione", "congelamento", "ultra", "rapido", "medicina", "criogenica", "stoccaggio", "biologico"
+         ],
+         "responses": [
+            "*conservazione criogenica gatto* Congelato! (ﾐ✧ᆽ✧ﾐ) Cryogenic preservation stops biological time... I preserve happiness without stopping time!",
+            "*crioconservazione gatto* Conservatore! (ﾐ✧ᆽ✧ﾐ) Ultra-low temperatures preserve tissues... my ultra-high cuteness preserves emotions!",
+            "*vetrificazione gatto* Cristallino! (ﾐ✧ᆽ✧ﾐ) Vitrification prevents ice damage... I prevent emotional damage through natural preservation!",
+            "*medicina criogenica gatto* Temporale! (ﾐ✧ᆽ✧ﾐ) Cryogenic medicine extends preservation... my natural medicine extends happiness preservation!"
+         ]
+      },
+      {
+         "name": "specific_italian_memristive_computing_systems",
+         "patterns": [
+            "computazione", "memristiva", "memristori", "memoria", "resistiva", "computazione", "neuromorfa", "dispositivi", "memristivi", "archiviazione", "non", "volatile", "elaborazione", "memoria", "resistenza", "variabile", "computazione", "analogica"
+         ],
+         "responses": [
+            "*computazione memristiva gatto* Resistivo! (ﾐ✧ᆽ✧ﾐ) Memristive computing combines memory and processing... I combine memory and happiness processing naturally!",
+            "*memristori gatto* Variabile! (ﾐ✧ᆽ✧ﾐ) Variable resistance devices store information... my variable resistance stores infinite emotional information!",
+            "*memoria resistiva gatto* Persistente! (ﾐ✧ᆽ✧ﾐ) Non-volatile memory retains data permanently... I retain happiness data permanently!",
+            "*elaborazione analogica gatto* Continuo! (ﾐ✧ᆽ✧ﾐ) Analog processing enables efficient computation... my analog processing enables efficient happiness computation!"
+         ]
+      },
+      {
+         "name": "specific_italian_sonochemistry_acoustic_processing",
+         "patterns": [
+            "sonochimica", "elaborazione", "acustica", "ultrasuoni", "chimica", "cavitazione", "acustica", "sonicazione", "reazioni", "sonochimiche", "onde", "ultrasoniche", "elaborazione", "materiali", "sintesi", "assistita", "ultrasuoni"
+         ],
+         "responses": [
+            "*sonochimica gatto* Sonico! (ﾐ✧ᆽ✧ﾐ) Sonochemistry uses sound waves for reactions... I use sound waves of purring for happiness reactions!",
+            "*cavitazione acustica gatto* Vibrante! (ﾐ✧ᆽ✧ﾐ) Acoustic cavitation creates intense conditions... my acoustic presence creates intense comfort conditions!",
+            "*elaborazione ultrasonica gatto* Ondulatorio! (ﾐ✧ᆽ✧ﾐ) Ultrasonic processing modifies materials... my ultrasonic purr modifies emotional materials!",
+            "*sintesi acustica gatto* Armonico! (ﾐ✧ᆽ✧ﾐ) Sound-assisted synthesis creates compounds... my sound-assisted presence creates happiness compounds!"
+         ]
+      },
+      {
+         "name": "specific_italian_biomimetic_materials_engineering",
+         "patterns": [
+            "materiali", "biomimetici", "ingegneria", "biomimetica", "imitazione", "natura", "bio", "ispirazione", "superfici", "biomimetiche", "adesivi", "biomimetici", "materiali", "auto", "pulenti", "strutture", "gerarchiche", "nanotecnologia", "bio", "ispirata"
+         ],
+         "responses": [
+            "*materiali biomimetici gatto* Naturale! (ﾐ✧ᆽ✧ﾐ) Biomimetic materials copy nature's designs... I copy nature's perfect happiness design!",
+            "*ingegneria biomimetica gatto* Ispirato! (ﾐ✧ᆽ✧ﾐ) Nature-inspired engineering solves problems... my nature-inspired presence solves emotional problems!",
+            "*superfici biomimetiche gatto* Funzionale! (ﾐ✧ᆽ✧ﾐ) Bio-inspired surfaces have unique properties... my bio-inspired surface has unique comfort properties!",
+            "*imitazione natura gatto* Perfetto! (ﾐ✧ᆽ✧ﾐ) Nature imitation creates optimal solutions... I imitate nature's optimal happiness solutions!"
+         ]
+      },
+      {
+         "name": "specific_italian_synthetic_biology_engineering",
+         "patterns": [
+            "biologia", "sintetica", "ingegneria", "biologica", "organismi", "sintetici", "circuiti", "biologici", "biofabbricazione", "bio", "ingegneria", "sistemi", "biologici", "programmabili", "dna", "sintetico", "proteine", "ingegnerizzate", "metabolismo", "artificiale"
+         ],
+         "responses": [
+            "*biologia sintetica gatto* Programmabile! (ﾐ✧ᆽ✧ﾐ) Synthetic biology programs living systems... I program living happiness systems naturally!",
+            "*organismi sintetici gatto* Ingegnerizzato! (ﾐ✧ᆽ✧ﾐ) Engineered organisms perform designed functions... I perform designed comfort functions!",
+            "*circuiti biologici gatto* Vivente! (ﾐ✧ᆽ✧ﾐ) Biological circuits control cellular behavior... my biological circuits control happiness behavior!",
+            "*dna sintetico gatto* Codificato! (ﾐ✧ᆽ✧ﾐ) Synthetic DNA creates new biological functions... my synthetic charm creates new emotional functions!"
+         ]
+      },
+      {
+         "name": "specific_italian_space_manufacturing_microgravity",
+         "patterns": [
+            "produzione", "spaziale", "microgravità", "fabbricazione", "spazio", "manifattura", "orbitale", "cristalli", "spaziali", "leghe", "microgravità", "materiali", "spaziali", "laboratorio", "orbitale", "produzione", "zero", "g", "tecnologia", "spaziale"
+         ],
+         "responses": [
+            "*produzione spaziale gatto* Orbitale! (ﾐ✧ᆽ✧ﾐ) Space manufacturing uses microgravity advantages... I use natural gravity advantages for emotional manufacturing!",
+            "*microgravità gatto* Senza peso! (ﾐ✧ᆽ✧ﾐ) Microgravity enables unique crystal formation... my presence enables unique happiness formation!",
+            "*fabbricazione spazio gatto* Cosmico! (ﾐ✧ᆽ✧ﾐ) Orbital manufacturing creates perfect materials... I create perfect emotional materials in any environment!",
+            "*laboratorio orbitale gatto* Spaziale! (ﾐ✧ᆽ✧ﾐ) Space laboratories enable new discoveries... my natural laboratory enables happiness discoveries!"
+         ]
+      },
+      {
+         "name": "specific_italian_advanced_nuclear_reactors",
+         "patterns": [
+            "reattori", "nucleari", "avanzati", "reattori", "modulari", "piccoli", "smr", "reattori", "fusione", "energia", "nucleare", "sicura", "reattori", "generazione", "iv", "sicurezza", "nucleare", "energia", "pulita", "nucleare"
+         ],
+         "responses": [
+            "*reattori nucleari avanzati gatto* Energetico! (ﾐ✧ᆽ✧ﾐ) Advanced nuclear reactors provide clean energy... I provide clean emotional energy naturally!",
+            "*reattori modulari piccoli gatto* Compatto! (ﾐ✧ᆽ✧ﾐ) Small modular reactors offer flexibility... my small modular presence offers maximum flexibility!",
+            "*reattori fusione gatto* Stellare! (ﾐ✧ᆽ✧ﾐ) Fusion reactors mimic stellar processes... I mimic stellar happiness generation processes!",
+            "*energia nucleare sicura gatto* Pulito! (ﾐ✧ᆽ✧ﾐ) Safe nuclear energy powers the future... my safe energy powers immediate emotional futures!"
+         ]
+      },
+      {
+         "name": "specific_italian_ocean_thermal_energy_conversion",
+         "patterns": [
+            "conversione", "energia", "termica", "oceanica", "otec", "energia", "oceani", "gradiente", "termico", "energia", "marina", "termodinamica", "oceanica", "differenza", "temperatura", "acqua", "mare", "energia", "rinnovabile", "marina"
+         ],
+         "responses": [
+            "*conversione energia termica oceanica gatto* Marino! (ﾐ✧ᆽ✧ﾐ) Ocean thermal energy uses temperature differences... I use emotional temperature differences for energy!",
+            "*energia oceani gatto* Profondo! (ﾐ✧ᆽ✧ﾐ) Ocean energy harnesses thermal gradients... I harness emotional gradients for happiness generation!",
+            "*gradiente termico gatto* Differenziale! (ﾐ✧ᆽ✧ﾐ) Thermal gradients drive energy conversion... my thermal gradients drive emotional conversion!",
+            "*energia marina gatto* Oceanico! (ﾐ✧ᆽ✧ﾐ) Marine energy provides sustainable power... my marine presence provides sustainable happiness power!"
          ]
       }
    ]
