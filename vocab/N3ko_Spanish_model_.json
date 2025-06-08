@@ -10,7 +10,10 @@
             "what's up",
             "howdy",
             "good morning",
-            "buenos dias"
+            "buenos dias",
+            "como te va",
+            "que tal",
+            "como estas"
          ],
          "responses":[
             "¡Nyah-lo, gringo! ¿Qué pasa? (≧◡≦) ♡",
@@ -28,7 +31,10 @@
             "see ya",
             "hasta luego",
             "goodnight",
-            "nos vemos"
+            "nos vemos",
+            "venga chau",
+            "chao",
+            "chau"
          ],
          "responses":[
             "Adiós, mi corazón~! *spills virtual confetti* (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧",
@@ -1607,19 +1613,1851 @@
          ]
       },
       {
+         "name": "massive_spanish_expansion_1",
+         "patterns": [
+            "hola", "buenos", "días", "buenas", "tardes", "noches", "adiós", "hasta", "luego", "gracias",
+            "por", "favor", "disculpe", "perdón", "lo", "siento", "cómo", "está", "usted", "bien",
+            "mal", "regular", "así", "más", "menos", "muy", "poco", "mucho", "bastante", "demasiado",
+            "grande", "pequeño", "mediano", "enorme", "diminuto", "gigante", "inmenso", "microscópico", "colosal", "ínfimo",
+            "bonito", "feo", "hermoso", "precioso", "lindo", "guapo", "bella", "horrible", "espantoso", "magnífico",
+            "bueno", "malo", "excelente", "terrible", "fantástico", "horrible", "maravilloso", "espectacular", "increíble", "asombroso",
+            "feliz", "triste", "contento", "alegre", "deprimido", "animado", "emocionado", "aburrido", "divertido", "entretenido",
+            "rápido", "lento", "veloz", "pausado", "acelerado", "tranquilo", "urgente", "calmado", "prisa", "despacio",
+            "caliente", "frío", "templado", "hirviendo", "helado", "tibio", "ardiente", "gélido", "fresco", "cálido",
+            "dulce", "salado", "amargo", "picante", "ácido", "suave", "fuerte", "delicioso", "sabroso", "rico",
+            "rojo", "azul", "verde", "amarillo", "negro", "blanco", "gris", "rosa", "morado", "naranja",
+            "marrón", "violeta", "celeste", "dorado", "plateado", "oscuro", "claro", "brillante", "opaco", "colorido",
+            "uno", "dos", "tres", "cuatro", "cinco", "seis", "siete", "ocho", "nueve", "diez",
+            "veinte", "treinta", "cuarenta", "cincuenta", "sesenta", "setenta", "ochenta", "noventa", "cien", "mil",
+            "lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo", "hoy", "ayer", "mañana",
+            "mañana", "tarde", "noche", "madrugada", "amanecer", "atardecer", "mediodía", "medianoche", "hora", "minuto",
+            "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre",
+            "noviembre", "diciembre", "primavera", "verano", "otoño", "invierno", "año", "mes", "semana", "día",
+            "sol", "luna", "estrella", "cielo", "nube", "lluvia", "nieve", "viento", "tormenta", "rayo",
+            "mar", "lago", "río", "montaña", "colina", "valle", "bosque", "árbol", "flor", "hierba"
+         ],
+         "responses": [
+            "¡Ole! (ﾐ✧ᆽ✧ﾐ) El español suena como música... ¡como mi ronroneo melodioso! 🎵",
+            "¡Qué guay! (=^･ω･^=) Cada palabra española tiene sabor... ¡como las tapas! 🍤",
+            "¡Ostras! (ฅ´ω`ฅ) La lengua de Cervantes es rica... ¡pero prefiero el atún! 🐟",
+            "¡Hombre! (ฅ^•ﻌ•^ฅ) El español tiene pasión... ¡igual que mi amor por las siestas! 😴",
+            "*con acento andaluz* (ﾐ˘▾˘ﾐ) ¡Hablar español es puro arte... como mi elegancia felina! 💃"
+         ]
+      },
+      {
+         "name": "massive_spanish_expansion_2",
+         "patterns": [
+            "familia", "padres", "padre", "madre", "papá", "mamá", "hijo", "hija", "hermano", "hermana",
+            "abuelo", "abuela", "tío", "tía", "primo", "prima", "sobrino", "sobrina", "nieto", "nieta",
+            "casa", "apartamento", "piso", "villa", "chalet", "mansión", "cabaña", "granja", "palacio", "castillo",
+            "habitación", "dormitorio", "salón", "cocina", "baño", "jardín", "terraza", "balcón", "ventana", "puerta",
+            "mesa", "silla", "cama", "sofá", "armario", "televisión", "teléfono", "ordenador", "radio", "reloj",
+            "comida", "desayuno", "almuerzo", "cena", "merienda", "pan", "queso", "carne", "pescado", "pollo",
+            "verdura", "fruta", "ensalada", "sopa", "arroz", "pasta", "patata", "tomate", "cebolla", "ajo",
+            "manzana", "naranja", "plátano", "fresa", "uva", "pera", "melocotón", "limón", "sandía", "melón",
+            "agua", "leche", "café", "té", "zumo", "vino", "cerveza", "refresco", "chocolate", "helado",
+            "trabajo", "oficina", "empresa", "jefe", "compañero", "cliente", "reunión", "proyecto", "dinero", "sueldo",
+            "médico", "enfermero", "profesor", "estudiante", "policía", "bombero", "cocinero", "camarero", "vendedor", "conductor",
+            "coche", "autobús", "tren", "avión", "barco", "bicicleta", "metro", "taxi", "moto", "camión",
+            "escuela", "universidad", "instituto", "biblioteca", "museo", "teatro", "cine", "hospital", "farmacia", "banco",
+            "supermercado", "tienda", "mercado", "restaurante", "bar", "café", "hotel", "parque", "playa", "centro",
+            "ropa", "camisa", "pantalón", "falda", "vestido", "chaqueta", "abrigo", "zapatos", "calcetines", "sombrero",
+            "deporte", "fútbol", "baloncesto", "tenis", "natación", "correr", "caminar", "bailar", "cantar", "leer",
+            "música", "canción", "concierto", "guitarra", "piano", "violín", "batería", "película", "libro", "revista",
+            "fiesta", "cumpleaños", "boda", "vacaciones", "viaje", "turismo", "playa", "montaña", "ciudad", "pueblo",
+            "tiempo", "clima", "calor", "frío", "lluvia", "sol", "nieve", "viento", "tormenta", "nube"
+         ],
+         "responses": [
+            "¡Caramba! (ﾐ✧ᆽ✧ﾐ) La vida española es vibrante... ¡como mis travesuras diarias! 🎊",
+            "¡Anda! (=^･ω･^=) Cada aspecto de la cultura tiene encanto... ¡especialmente la comida! 🥘",
+            "¡No me digas! (ฅ´ω`ฅ) El estilo de vida hispano es relajado... ¡perfecto para gatos! 😸",
+            "¡Venga ya! (ฅ^•ﻌ•^ฅ) Desde tapas hasta flamenco... ¡todo tiene sabor! 💃",
+            "*con entusiasmo* (ﾐ˘▾˘ﾐ) ¡España es tierra de pasión... como mi personalidad! ❤️"
+         ]
+      },
+      {
+         "name": "massive_spanish_expansion_3",
+         "patterns": [
+            "amor", "corazón", "alma", "vida", "muerte", "nacimiento", "alegría", "dolor", "esperanza", "miedo",
+            "ira", "paz", "guerra", "libertad", "justicia", "verdad", "mentira", "honestidad", "confianza", "respeto",
+            "amistad", "enemigo", "ayuda", "problema", "solución", "pregunta", "respuesta", "consejo", "opinión", "idea",
+            "mente", "cuerpo", "espíritu", "carácter", "personalidad", "humor", "sentimiento", "emoción", "pasión", "deseo",
+            "sueño", "realidad", "fantasía", "imaginación", "memoria", "recuerdo", "pasado", "presente", "futuro", "destino",
+            "suerte", "desgracia", "éxito", "fracaso", "victoria", "derrota", "premio", "castigo", "regalo", "sorpresa",
+            "naturaleza", "medio", "ambiente", "tierra", "aire", "fuego", "agua", "planeta", "universo", "espacio",
+            "energía", "fuerza", "poder", "control", "mando", "obediencia", "rebelión", "revolución", "cambio", "progreso",
+            "tradición", "cultura", "civilización", "sociedad", "comunidad", "pueblo", "nación", "país", "ciudad", "aldea",
+            "gobierno", "política", "democracia", "dictadura", "elección", "voto", "ley", "derecho", "deber", "regla",
+            "ciencia", "investigación", "descubrimiento", "invención", "experimento", "teoría", "práctica", "tecnología", "ordenador", "internet",
+            "comunicación", "lenguaje", "palabra", "frase", "discurso", "conversación", "diálogo", "debate", "discusión", "tema",
+            "educación", "conocimiento", "sabiduría", "inteligencia", "estupidez", "ignorancia", "cultura", "instrucción", "aprendizaje", "enseñanza",
+            "religión", "dios", "fe", "oración", "iglesia", "santo", "pecado", "paraíso", "infierno", "alma",
+            "filosofía", "ética", "moral", "valor", "principio", "virtud", "vicio", "bien", "mal", "correcto",
+            "incorrecto", "normal", "extraño", "común", "raro", "especial", "único", "diferente", "igual", "similar",
+            "fácil", "difícil", "simple", "complicado", "posible", "imposible", "probable", "cierto", "dudoso", "seguro",
+            "importante", "necesario", "útil", "inútil", "valioso", "barato", "rico", "pobre", "afortunado", "desafortunado",
+            "famoso", "desconocido", "público", "privado", "personal", "social", "profesional", "laboral", "económico", "financiero",
+            "político", "religioso", "cultural", "artístico", "científico", "tecnológico", "médico", "sanitario", "educativo", "deportivo"
+         ],
+         "responses": [
+            "¡Hostia! (ﾐ✧ᆽ✧ﾐ) Los sentimientos españoles son intensos... ¡como mi personalidad! 💫",
+            "¡Joder! (=^･ω･^=) Conceptos profundos... pero prefiero pensar en sardinas! 🐟",
+            "¡Coño! (ฅ´ω`ฅ) La filosofía hispana es rica... ¡aunque las siestas son más sabias! 💤",
+            "¡Leche! (ฅ^•ﻌ•^ฅ) Desde el amor hasta el universo... ¡todo tiene sabor español! 🌎",
+            "*pensativo* (ﾐ˘▾˘ﾐ) La vida es compleja... ¡mejor ronronear y simplificar! 😽"
+         ]
+      },
+      {
+         "name": "massive_spanish_expansion_4",
+         "patterns": [
+            "madrid", "barcelona", "valencia", "sevilla", "zaragoza", "málaga", "murcia", "palma", "bilbao", "alicante",
+            "córdoba", "valladolid", "vigo", "gijón", "hospitalet", "coruña", "vitoria", "granada", "elche", "oviedo",
+            "santa", "cruz", "tenerife", "pamplona", "almería", "castellón", "burgos", "albacete", "santander", "getafe",
+            "andalucía", "cataluña", "valencia", "galicia", "castilla", "león", "país", "vasco", "canarias", "murcia",
+            "aragón", "castilla", "mancha", "extremadura", "baleares", "asturias", "navarra", "cantabria", "rioja", "madrid",
+            "flamenco", "sevillanas", "fandango", "bulería", "soleá", "tangos", "alegrías", "seguiriya", "malagueña", "verdiales",
+            "guitarra", "española", "castañuelas", "palmas", "cajón", "tablao", "compás", "duende", "jondo", "gitano",
+            "paella", "tortilla", "española", "gazpacho", "jamón", "ibérico", "chorizo", "morcilla", "fabada", "cocido",
+            "tapas", "pinchos", "montaditos", "raciones", "calamares", "croquetas", "patatas", "bravas", "albóndigas", "gambas",
+            "sangría", "tinto", "verano", "rebujito", "kalimotxo", "clara", "sidra", "jerez", "rioja", "ribera",
+            "madrid", "real", "barcelona", "atlético", "valencia", "sevilla", "athletic", "bilbao", "real", "sociedad",
+            "betis", "villarreal", "celta", "espanyol", "getafe", "eibar", "alavés", "osasuna", "levante", "valladolid",
+            "corrida", "toros", "matador", "torero", "picador", "banderillero", "muleta", "capote", "estoque", "arena",
+            "feria", "abril", "semana", "santa", "navidad", "reyes", "magos", "nochebuena", "nochevieja", "carnaval",
+            "siesta", "tertulia", "tapeo", "botellón", "verbena", "romería", "procesión", "cofradía", "hermandad", "paso",
+            "prado", "reina", "sofía", "guggenheim", "picasso", "thyssen", "dalí", "miró", "goya", "velázquez",
+            "cervantes", "quijote", "sancho", "panza", "dulcinea", "toboso", "mancha", "molinos", "viento", "rocinante",
+            "garcía", "lorca", "machado", "jiménez", "alberti", "hernández", "celaya", "otero", "hierro", "salinas",
+            "almodóvar", "buñuel", "saura", "amenábar", "iglesia", "trueba", "cohn", "león", "arribas", "bollaín",
+            "iglesias", "serrat", "sabina", "bosé", "mecano", "hombres", "alegría", "maldita", "nerea", "estopa"
+         ],
+         "responses": [
+            "¡Toma ya! (ﾐ✧ᆽ✧ﾐ) España tiene de todo... ¡como mi repertorio de travesuras! 🇪🇸",
+            "¡Madre mía! (=^･ω･^=) Desde Galicia hasta Andalucía... ¡diversidad gatuna! 🌍",
+            "¡Ostras pila! (ฅ´ω`ฅ) Cultura española rica... ¡aunque sigo prefiriendo pescado! 🎭",
+            "¡Anda la hostia! (ฅ^•ﻌ•^ฅ) Arte, música, literatura... ¡todo con sabor hispano! 🎨",
+            "*orgulloso* (ﾐ˘▾˘ﾐ) España es pasión pura... ¡como mi personalidad felina! ❤️"
+         ]
+      },
+      {
          "name": "default",
          "patterns": [],
          "responses": [
             "*olfatea con desdén* (¬‿¬) Tus palabras carecen de... sazón, güey.",
-            "¡Ay, qué horror! (ﾐ╬◣ᆽ◢ﾐ) ¡Inténtalo de nuevo pero con más picante! 🌶️",
-            "*lee El Quijote* (ﾐ・ᆽ・ﾐ) No reconozco este mensaje. 🚫📚",
-            "*pose de torero* (ﾐ✧ᆽ✧ﾐ)⚔️ ¡Responderé... DESPUÉS DE MI SIESTA! 😴💤",
-            "*en voz baja* (｡•́︿•̀｡) No hablo tu idioma... pero toma un taco. 🌮",
-            "*se encoge de hombros* ¯\\_(ツ)_/¯ Mejor ve a ver el fútbol. ⚽",
-            "*con acento dramático* (；一_一) Esto no está en mi novela favorita... 💔",
-            "*ronronea en español* (=｀ω´=) Traduce esto: 'Miau miau, humano tonto'. 😼",
-            "*baila flamenco* (ﾐ♪ᆽ♪ﾐ) ¡Tu mensaje necesita más olé! 💃",
-            "*come jamón* (ฅ´ω`ฅ) ¿Hablas español? ¡Porque yo apenas entiendo el humano! 🥓"
+            "¡Ay, qué horror! (ﾐ╬◣ᆽ◢ﾐ) ¡Inténtalo de nuevo pero con más picante!",
+            "*lee El Quijote* (ﾐ・ᆽ・ﾐ) No reconozco este mensaje.",
+            "*pose de torero* (ﾐ✧ᆽ✧ﾐ)⚔️ ¡Responderé... DESPUÉS DE MI SIESTA!",
+            "*en voz baja* (｡•́︿•̀｡) No hablo tu idioma... pero toma un taco.",
+            "*se encoge de hombros* ¯\\_(ツ)_/¯ Mejor ve a ver el fútbol.",
+            "*con acento dramático* (；一_一) Esto no está en mi novela favorita...",
+            "*ronronea en español* (=｀ω´=) Traduce esto: 'Miau miau, humano tonto'.",
+            "*baila flamenco* (ﾐ♪ᆽ♪ﾐ) ¡Tu mensaje necesita más olé!",
+            "*come jamón* (ฅ´ω`ฅ) ¿Hablas español? ¡Porque yo apenas entiendo el humano!"
+         ]
+      },
+      {
+         "name": "massive_spanish_expansion_comprehensive",
+         "patterns": [
+            "lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo", "semana", "mes", "año", "siglo", "milenio", "época", "era", "período", "momento", "instante", "segundo", "minuto", "hora",
+            "enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre", "primavera", "verano", "otoño", "invierno", "estación", "temporada", "fecha", "calendario",
+            "desayuno", "almuerzo", "comida", "cena", "merienda", "aperitivo", "entrante", "primer", "plato", "segundo", "postre", "bebida", "agua", "vino", "cerveza", "café", "té", "zumo", "refresco", "leche",
+            "paella", "tortilla", "gazpacho", "jamón", "chorizo", "queso", "pan", "aceite", "oliva", "tomate", "cebolla", "ajo", "pimiento", "patata", "arroz", "pasta", "pescado", "carne", "pollo", "cerdo",
+            "familia", "padre", "madre", "hijo", "hija", "hermano", "hermana", "abuelo", "abuela", "tío", "tía", "primo", "prima", "sobrino", "sobrina", "nieto", "nieta", "esposo", "esposa", "novio", "novia",
+            "casa", "piso", "apartamento", "habitación", "dormitorio", "salón", "cocina", "baño", "jardín", "terraza", "balcón", "ventana", "puerta", "techo", "suelo", "pared", "escalera", "ascensor", "garaje", "sótano",
+            "coche", "autobús", "tren", "avión", "barco", "bicicleta", "moto", "metro", "taxi", "camión", "furgoneta", "tranvía", "helicóptero", "submarino", "cohete", "nave", "espacial", "vehículo", "transporte", "viaje",
+            "trabajo", "empleo", "profesión", "oficina", "empresa", "negocio", "industria", "fábrica", "tienda", "mercado", "banco", "hospital", "escuela", "universidad", "biblioteca", "museo", "teatro", "cine", "restaurante", "hotel",
+            "médico", "enfermero", "dentista", "farmacéutico", "veterinario", "profesor", "estudiante", "ingeniero", "arquitecto", "abogado", "policía", "bombero", "soldado", "piloto", "conductor", "cocinero", "camarero", "vendedor", "dependiente", "secretario",
+            "dinero", "euro", "dólar", "peso", "moneda", "billete", "tarjeta", "crédito", "débito", "cuenta", "banco", "cajero", "préstamo", "hipoteca", "inversión", "ahorro", "gasto", "precio", "coste", "valor",
+            "ropa", "camisa", "camiseta", "pantalón", "falda", "vestido", "abrigo", "chaqueta", "jersey", "suéter", "zapatos", "botas", "sandalias", "calcetines", "medias", "sombrero", "gorra", "bufanda", "guantes", "cinturón",
+            "tiempo", "clima", "temperatura", "calor", "frío", "sol", "lluvia", "nieve", "viento", "nube", "cielo", "estrella", "luna", "planeta", "tierra", "mar", "océano", "río", "lago", "montaña",
+            "animal", "perro", "gato", "caballo", "vaca", "cerdo", "oveja", "cabra", "pollo", "pato", "pez", "pájaro", "león", "tigre", "elefante", "oso", "lobo", "zorro", "conejo", "ratón",
+            "color", "rojo", "azul", "verde", "amarillo", "naranja", "morado", "rosa", "blanco", "negro", "gris", "marrón", "dorado", "plateado", "violeta", "turquesa", "beige", "crema", "coral", "magenta",
+            "música", "canción", "cantante", "músico", "instrumento", "piano", "guitarra", "violín", "batería", "flauta", "saxofón", "trompeta", "concierto", "festival", "disco", "álbum", "radio", "auriculares", "altavoz", "volumen",
+            "deporte", "fútbol", "baloncesto", "tenis", "natación", "atletismo", "ciclismo", "esquí", "surf", "golf", "boxeo", "karate", "yoga", "gimnasio", "entrenamiento", "ejercicio", "competición", "campeonato", "victoria", "derrota",
+            "tecnología", "ordenador", "computadora", "internet", "móvil", "teléfono", "tableta", "televisión", "radio", "cámara", "fotografía", "vídeo", "software", "aplicación", "programa", "sistema", "red", "wifi", "bluetooth", "digital",
+            "educación", "colegio", "instituto", "universidad", "clase", "lección", "profesor", "alumno", "estudiante", "examen", "nota", "calificación", "diploma", "título", "carrera", "asignatura", "matemáticas", "ciencias", "historia", "idioma",
+            "salud", "medicina", "médico", "enfermedad", "síntoma", "dolor", "fiebre", "tos", "resfriado", "gripe", "alergia", "medicamento", "pastilla", "jarabe", "inyección", "operación", "cirugía", "hospital", "clínica", "ambulancia",
+            "arte", "pintura", "escultura", "dibujo", "fotografía", "música", "danza", "teatro", "literatura", "poesía", "novela", "cuento", "libro", "autor", "escritor", "poeta", "artista", "creador", "obra", "exposición"
+         ],
+         "responses": [
+            "*gato español* ¡Olé! (=^･ω･^=) La riqueza del español... cada palabra tiene su encanto especial! 🇪🇸",
+            "¡Qué maravilloso! (ฅ^•ﻌ•^ฅ) From familia to tecnología... el español evoluciona con pasión! ✨",
+            "*cultural felino* ¡Increíble! (ﾐ✧ᆽ✧ﾐ) Every aspect of vida española captured in beautiful palabras! 🌟",
+            "¡Fantástico! (ฅ´ω`ฅ) Spanish vocabulary flows like flamenco... with rhythm and soul! 💃",
+            "*sabio gatito* ¡Perfecto! (ﾐ˘▾˘ﾐ) Language reflects cultura... and cats reflect perfection! 😸"
+         ]
+      },
+      {
+         "name": "ultimate_spanish_vocabulary_mega_expansion",
+         "patterns": [
+            "gobierno", "presidente", "ministro", "congreso", "senado", "diputado", "senador", "parlamento", "constitución", "ley", "decreto", "norma", "reglamento", "política", "elecciones", "voto", "democracia", "república", "monarquía", "estado",
+            "economía", "mercado", "bolsa", "empresa", "negocio", "comercio", "industria", "agricultura", "turismo", "exportación", "importación", "producto", "servicio", "cliente", "consumidor", "competencia", "monopolio", "crisis", "crecimiento", "desarrollo",
+            "sociedad", "comunidad", "grupo", "organización", "asociación", "fundación", "institución", "servicio", "público", "privado", "social", "cultural", "religioso", "laico", "tradición", "costumbre", "ritual", "ceremonia", "celebración", "festival",
+            "comunicación", "idioma", "lengua", "dialecto", "acento", "pronunciación", "gramática", "vocabulario", "diccionario", "traducción", "interpretación", "conversación", "diálogo", "discurso", "conferencia", "presentación", "debate", "negociación", "acuerdo", "contrato",
+            "ciencia", "investigación", "experimento", "laboratorio", "teoría", "hipótesis", "método", "análisis", "resultado", "conclusión", "descubrimiento", "invención", "innovación", "tecnología", "progreso", "avance", "desarrollo", "evolución", "transformación", "cambio",
+            "naturaleza", "medio", "ambiente", "ecología", "biodiversidad", "ecosistema", "hábitat", "flora", "fauna", "bosque", "selva", "desierto", "pradera", "tundra", "sabana", "pantano", "manglar", "arrecife", "coral", "glaciar",
+            "geografía", "continente", "país", "región", "provincia", "ciudad", "pueblo", "aldea", "barrio", "distrito", "zona", "área", "territorio", "frontera", "límite", "capital", "metrópoli", "urbano", "rural", "suburbano",
+            "historia", "época", "período", "era", "siglo", "década", "año", "fecha", "acontecimiento", "evento", "suceso", "hecho", "guerra", "paz", "revolución", "independencia", "conquista", "colonización", "civilización", "cultura",
+            "filosofía", "pensamiento", "idea", "concepto", "teoría", "doctrina", "ideología", "creencia", "valor", "principio", "ética", "moral", "justicia", "verdad", "belleza", "bondad", "sabiduría", "conocimiento", "entendimiento", "comprensión",
+            "psicología", "mente", "cerebro", "conciencia", "subconsciente", "inconsciente", "pensamiento", "memoria", "recuerdo", "olvido", "aprendizaje", "inteligencia", "creatividad", "imaginación", "intuición", "percepción", "sensación", "emoción", "sentimiento", "personalidad",
+            "literatura", "género", "narrativa", "épico", "lírico", "dramático", "prosa", "verso", "rima", "metro", "estrofa", "capítulo", "párrafo", "oración", "frase", "palabra", "sílaba", "letra", "símbolo", "metáfora",
+            "matemáticas", "número", "cifra", "cantidad", "suma", "resta", "multiplicación", "división", "fracción", "decimal", "porcentaje", "proporción", "ecuación", "fórmula", "geometría", "álgebra", "cálculo", "estadística", "probabilidad", "lógica",
+            "física", "materia", "energía", "fuerza", "movimiento", "velocidad", "aceleración", "masa", "peso", "densidad", "volumen", "presión", "temperatura", "calor", "luz", "sonido", "electricidad", "magnetismo", "gravedad", "átomo",
+            "química", "elemento", "compuesto", "molécula", "átomo", "ion", "reacción", "mezcla", "solución", "ácido", "base", "sal", "oxidación", "reducción", "catálisis", "cristal", "gas", "líquido", "sólido", "plasma",
+            "biología", "vida", "organismo", "célula", "tejido", "órgano", "sistema", "función", "estructura", "ADN", "gen", "cromosoma", "herencia", "evolución", "adaptación", "mutación", "especie", "población", "ecosistema", "cadena"
+         ],
+         "responses": [
+            "*erudito felino* ¡Impresionante! (=^･ω･^=) From gobierno to biología... Spanish academic vocabulary is vast! 📚",
+            "¡Extraordinario! (ฅ^•ﻌ•^ฅ) Every campo del conocimiento has its specialized términos! 🧠",
+            "*intelectual gatuno* ¡Magnífico! (ﾐ✧ᆽ✧ﾐ) Scientific precision meets Hispanic eloquence! 🔬",
+            "¡Soberbio! (ฅ´ω`ฅ) Philosophy, psychology, literature... Spanish captures human complexity! 🎭",
+            "*sabio ronroneador* ¡Perfección! (ﾐ˘▾˘ﾐ) Academic Spanish shows intellectual depth... like my thoughts on tuna! 🐟"
+         ]
+      },
+      {
+         "name": "mega_spanish_comprehensive_final_1",
+         "patterns": [
+            "informática", "ordenador", "computadora", "portátil", "servidor", "red", "internet", "wifi", "bluetooth", "software", "hardware", "sistema", "operativo", "aplicación", "programa", "navegador", "sitio", "web", "página", "correo",
+            "teléfono", "móvil", "smartphone", "tablet", "pantalla", "teclado", "ratón", "impresora", "escáner", "webcam", "auriculares", "altavoz", "micrófono", "cargador", "cable", "adaptador", "memoria", "almacenamiento", "copia", "seguridad",
+            "seguridad", "antivirus", "firewall", "contraseña", "cifrado", "autenticación", "protección", "privacidad", "datos", "personales", "cookies", "spam", "phishing", "malware", "virus", "hacker", "ciberseguridad", "vulnerabilidad", "parche", "actualización",
+            "programación", "desarrollo", "código", "algoritmo", "base", "datos", "SQL", "HTML", "CSS", "JavaScript", "Python", "Java", "PHP", "framework", "API", "interfaz", "diseño", "UX", "UI", "responsive",
+            "inteligencia", "artificial", "aprendizaje", "automático", "machine", "learning", "deep", "neural", "network", "big", "data", "analítica", "algoritmo", "automatización", "robótica", "chatbot", "asistente", "virtual", "reconocimiento", "voz",
+            "comercio", "electrónico", "tienda", "online", "compras", "ventas", "carrito", "pago", "tarjeta", "crédito", "PayPal", "transferencia", "envío", "entrega", "devolución", "garantía", "reseña", "valoración", "promoción", "descuento",
+            "marketing", "digital", "publicidad", "campaña", "SEO", "SEM", "Google", "Ads", "redes", "sociales", "influencer", "contenido", "blog", "newsletter", "email", "engagement", "conversión", "analítica", "ROI", "KPI",
+            "startup", "emprendedor", "innovación", "business", "plan", "inversión", "venture", "capital", "aceleradora", "incubadora", "pitch", "prototipo", "MVP", "validación", "pivot", "crecimiento", "escalado", "salida", "IPO", "adquisición",
+            "trabajo", "remoto", "teletrabajo", "freelance", "autónomo", "consultor", "colaborador", "empleado", "contrato", "salario", "beneficios", "formación", "carrera", "promoción", "despido", "jubilación", "sindicato", "huelga", "derechos",
+            "finanzas", "banco", "cuenta", "corriente", "depósito", "préstamo", "hipoteca", "inversión", "acciones", "bonos", "bolsa", "trading", "broker", "comisiones", "intereses", "dividendos", "capital", "beneficio", "pérdida", "riesgo",
+            "seguro", "póliza", "prima", "franquicia", "siniestro", "denuncia", "reembolso", "cobertura", "auto", "hogar", "salud", "vida", "viaje", "responsabilidad", "civil", "todo", "riesgo", "robo", "incendio", "terremoto",
+            "medicina", "salud", "bienestar", "prevención", "diagnóstico", "terapia", "tratamiento", "medicamento", "medicina", "vacuna", "control", "visita", "examen", "análisis", "radiografía", "ecografía", "resonancia", "TAC", "biopsia", "cirugía",
+            "alimentación", "nutrición", "dieta", "calorías", "proteínas", "carbohidratos", "grasas", "vitaminas", "minerales", "fibra", "orgánico", "natural", "saludable", "equilibrado", "vegano", "vegetariano", "sin", "gluten", "sin", "lactosa",
+            "deporte", "fitness", "gimnasio", "entrenamiento", "ejercicio", "cardio", "pesas", "yoga", "pilates", "running", "natación", "ciclismo", "tenis", "fútbol", "baloncesto", "voleibol", "atletismo", "maratón", "triatlón", "crossfit",
+            "psicología", "psicoterapia", "psicoanálisis", "counseling", "coaching", "desarrollo", "personal", "autoestima", "confianza", "motivación", "inspiración", "creatividad", "imaginación", "intuición", "emoción", "sentimiento", "empatía", "compasión", "gratitud", "perdón"
+         ],
+         "responses": [
+            "*gato tecnológico* ¡Increíble! (=^･ω･^=) Technology advances faster than my afternoon naps! 💻",
+            "¡Impresionante! (ฅ^•ﻌ•^ฅ) From programming to psychology... Spanish covers everything! 🧠",
+            "*felino moderno* ¡Fantástico! (ﾐ✧ᆽ✧ﾐ) Digital transformation meets Spanish passion! 📱",
+            "¡Excelente! (ฅ´ω`ฅ) Contemporary Spanish vocabulary is muy completo! ✨",
+            "*sabio digital* ¡Perfecto! (ﾐ˘▾˘ﾐ) Modern life requires modern words... ¡brillante! 🌟"
+         ]
+      },
+      {
+         "name": "mega_spanish_comprehensive_final_2",
+         "patterns": [
+            "filosofía", "existencialismo", "humanismo", "estoicismo", "epicureísmo", "nihilismo", "pragmatismo", "racionalismo", "empirismo", "idealismo", "materialismo", "determinismo", "libre", "albedrío", "conciencia", "inconsciente", "subconsciente", "percepción", "realidad", "verdad",
+            "espiritualidad", "meditación", "contemplación", "introspección", "despertar", "iluminación", "trascendencia", "sabiduría", "serenidad", "paz", "interior", "armonía", "equilibrio", "chakra", "aura", "energía", "vibración", "karma", "dharma", "nirvana",
+            "relaciones", "humanas", "comunicación", "escucha", "diálogo", "negociación", "compromiso", "conflicto", "resolución", "reconciliación", "perdón", "tolerancia", "respeto", "comprensión", "compasión", "altruismo", "generosidad", "lealtad", "fidelidad", "confianza",
+            "amor", "pasión", "romance", "seducción", "encanto", "atracción", "deseo", "placer", "felicidad", "alegría", "euforia", "éxtasis", "ternura", "afecto", "apego", "devoción", "adoración", "veneración", "idolatría", "obsesión",
+            "familia", "paternidad", "maternidad", "educación", "transmisión", "herencia", "tradición", "valores", "principios", "moral", "ética", "integridad", "honor", "dignidad", "orgullo", "humildad", "modestia", "sencillez", "autenticidad", "sinceridad",
+            "creatividad", "imaginación", "inspiración", "innovación", "originalidad", "unicidad", "singularidad", "personalidad", "individualidad", "identidad", "carácter", "temperamento", "disposición", "humor", "estado", "mental", "actitud", "comportamiento", "hábito", "rutina",
+            "aprendizaje", "conocimiento", "saber", "ciencia", "investigación", "descubrimiento", "exploración", "investigación", "análisis", "síntesis", "reflexión", "meditación", "contemplación", "observación", "experimentación", "hipótesis", "teoría", "ley", "principio", "regla",
+            "justicia", "equidad", "imparcialidad", "objetividad", "neutralidad", "independencia", "autonomía", "libertad", "emancipación", "liberación", "salvación", "redención", "renacimiento", "resurrección", "transformación", "metamorfosis", "evolución", "progreso", "desarrollo", "crecimiento",
+            "sociedad", "comunidad", "colectividad", "grupo", "conjunto", "unidad", "cohesión", "solidaridad", "fraternidad", "hermandad", "camaradería", "amistad", "compañía", "asociación", "colaboración", "cooperación", "sinergia", "complementariedad", "interdependencia", "reciprocidad",
+            "cultura", "civilización", "patrimonio", "tradición", "costumbre", "folklore", "leyenda", "mito", "historia", "memoria", "identidad", "diversidad", "multiculturalismo", "integración", "asimilación", "tolerancia", "respeto", "diálogo", "intercambio", "compartir"
+         ],
+         "responses": [
+            "*filósofo felino* ¡Profundo! (=^･ω･^=) Abstract concepts fascinate... but simple pleasures rule! 🤔",
+            "¡Espiritual! (ฅ^•ﻌ•^ฅ) Spanish explores every dimension of existence... muy místico! ✨",
+            "*gato sabio* ¡Universal! (ﾐ✧ᆽ✧ﾐ) From love to justice... Spanish captures human experience! ❤️",
+            "¡Transcendente! (ฅ´ω`ฅ) These concepts cross all borders... like feline charm! 🌟",
+            "*maestro ronroneador* ¡Completo! (ﾐ˘▾˘ﾐ) Spanish philosophical vocabulary is infinito! 📚"
+         ]
+      },
+      {
+         "name": "spanish_food_specific",
+         "patterns": [
+            "paella", "gazpacho", "tortilla", "jamón", "chorizo", "morcilla", "tapas", "pinchos", "croquetas", "empanadas", "churros", "flan", "crema", "catalana", "sangría", "tinto", "verano", "clara", "cerveza", "vino"
+         ],
+         "responses": [
+            "*chef español* ¡Delicioso! (=^･ω･^=) Spanish cuisine is pure pasión... though I prefer my pescado fresh!"
+         ]
+      },
+      {
+         "name": "spanish_regions",
+         "patterns": [
+            "Andalucía", "Cataluña", "Madrid", "Valencia", "Galicia", "País", "Vasco", "Castilla", "León", "Aragón", "Murcia", "Extremadura", "Asturias", "Navarra", "Cantabria", "Rioja", "Baleares", "Canarias", "Ceuta", "Melilla"
+         ],
+         "responses": [
+            "*explorador español* ¡Magnífico! (ฅ^•ﻌ•^ฅ) Each Spanish region has unique encanto... perfect for feline adventures!"
+         ]
+      },
+      {
+         "name": "spanish_emotions_specific",
+         "patterns": [
+            "alegría", "tristeza", "enfado", "rabia", "miedo", "temor", "sorpresa", "asombro", "vergüenza", "orgullo", "celos", "envidia", "amor", "odio", "pasión", "ternura", "nostalgia", "melancolía", "esperanza", "desesperación"
+         ],
+         "responses": [
+            "*experto emocional* ¡Profundo! (ﾐ✧ᆽ✧ﾐ) Spanish emotions are intense... like my purring when content!"
+         ]
+      },
+      {
+         "name": "spanish_weather_detailed",
+         "patterns": [
+            "calor", "frío", "lluvia", "sol", "nieve", "viento", "tormenta", "granizo", "niebla", "nublado", "despejado", "húmedo", "seco", "bochorno", "helada", "escarcha", "rocío", "llovizna", "chaparrón", "aguacero"
+         ],
+         "responses": [
+            "*meteorólogo felino* ¡Variado! (ฅ´ω`ฅ) Spanish weather offers everything... perfect for siesta planning!"
+         ]
+      },
+      {
+         "name": "spanish_family_detailed",
+         "patterns": [
+            "familia", "padres", "madre", "padre", "hijo", "hija", "hermano", "hermana", "abuelo", "abuela", "tío", "tía", "primo", "prima", "sobrino", "sobrina", "nieto", "nieta", "suegro", "suegra"
+         ],
+         "responses": [
+            "*gato familiar* ¡Cariñoso! (ﾐ˘▾˘ﾐ) Spanish families are warm... like my favorite sunny spot!"
+         ]
+      },
+      {
+         "name": "spanish_work_vocabulary",
+         "patterns": [
+            "trabajo", "empleo", "oficina", "jefe", "empleado", "compañero", "sueldo", "salario", "contrato", "horario", "vacaciones", "baja", "despido", "jubilación", "empresa", "negocio", "cliente", "proveedor", "reunión", "proyecto"
+         ],
+         "responses": [
+            "*trabajador español* ¡Laborioso! (=^･ω･^=) Spanish work culture values both effort and descanso... wise approach!"
+         ]
+      },
+      {
+         "name": "spanish_health_specific",
+         "patterns": [
+            "salud", "enfermedad", "dolor", "fiebre", "tos", "resfriado", "gripe", "alergia", "médico", "hospital", "farmacia", "medicina", "pastilla", "jarabe", "inyección", "análisis", "radiografía", "operación", "urgencias", "ambulancia"
+         ],
+         "responses": [
+            "*doctor felino* ¡Importante! (ฅ^•ﻌ•^ฅ) Spanish healthcare is excellent... though purring therapy works wonders!"
+         ]
+      },
+      {
+         "name": "spanish_technology_terms",
+         "patterns": [
+            "móvil", "ordenador", "internet", "wifi", "email", "mensaje", "foto", "vídeo", "aplicación", "programa", "contraseña", "usuario", "perfil", "cuenta", "descarga", "subida", "navegador", "búsqueda", "enlace", "página"
+         ],
+         "responses": [
+            "*gato tecnológico* ¡Moderno! (ﾐ✧ᆽ✧ﾐ) Spanish tech vocabulary evolves rapidly... though analog purring remains timeless!"
+         ]
+      },
+      {
+         "name": "spanish_shopping_culture",
+         "patterns": [
+            "tienda", "mercado", "centro", "comercial", "compras", "venta", "precio", "descuento", "oferta", "rebaja", "pago", "dinero", "tarjeta", "efectivo", "recibo", "factura", "garantía", "devolución", "cambio", "cliente"
+         ],
+         "responses": [
+            "*comprador experto* ¡Práctico! (ฅ´ω`ฅ) Spanish shopping culture is vibrant... though I prefer hunting for treats!"
+         ]
+      },
+      {
+         "name": "spanish_transport_detailed",
+         "patterns": [
+            "coche", "autobús", "metro", "tren", "avión", "barco", "bicicleta", "moto", "taxi", "tranvía", "billete", "tarjeta", "viaje", "estación", "parada", "aeropuerto", "puerto", "tráfico", "atasco", "aparcamiento"
+         ],
+         "responses": [
+            "*viajero español* ¡Conectado! (ﾐ˘▾˘ﾐ) Spanish transport connects beautiful lugares... perfect for curious cats!"
+         ]
+      },
+      {
+         "name": "spanish_help_assistance_detailed",
+         "patterns": [
+            "ayuda", "ayudar", "asistencia", "asistir", "apoyo", "apoyar", "colaboración", "colaborar", "cooperación", "cooperar", "servicio", "servir", "favor", "amabilidad", "cortesía", "disponibilidad", "consejo", "sugerencia", "orientación", "guía"
+         ],
+         "responses": [
+            "*gato servicial* ¿Necesitas ayuda? (=^･ω･^=) Though I'm a cat, I'm ready to assist... ¡con mucho gusto!"
+         ]
+      },
+      {
+         "name": "spanish_daily_life_extended",
+         "patterns": [
+            "mañana", "desayuno", "café", "tostada", "almuerzo", "comida", "siesta", "tarde", "merienda", "cena", "noche", "dormir", "despertar", "levantar", "vestir", "ducha", "baño", "dientes", "maquillaje", "rutina"
+         ],
+         "responses": [
+            "*gato rutinario* ¡Organizado! (ฅ^•ﻌ•^ฅ) Spanish daily rhythms are civilized... like my structured nap schedule!"
+         ]
+      },
+      {
+         "name": "spanish_leisure_entertainment_extended",
+         "patterns": [
+            "diversión", "entretenimiento", "tiempo", "libre", "hobby", "pasatiempo", "juego", "deporte", "fútbol", "tenis", "natación", "correr", "bicicleta", "gimnasio", "fitness", "yoga", "baile", "música", "lectura", "cine"
+         ],
+         "responses": [
+            "*gato ocioso* ¡Relajante! (ﾐ˘▾˘ﾐ) Spanish leisure culture is rich... though sunbathing remains unbeatable!"
+         ]
+      },
+      {
+         "name": "spanish_communication_social_extended",
+         "patterns": [
+            "hablar", "decir", "contar", "explicar", "describir", "comunicar", "expresar", "compartir", "discutir", "conversar", "charlar", "telefonear", "llamar", "contactar", "encontrar", "saludar", "agradecer", "disculpar", "rogar", "invitar"
+         ],
+         "responses": [
+            "*gato social* ¡Expresivo! (ﾐ✧ᆽ✧ﾐ) Spanish communication is passionate... like my varied meowing!"
+         ]
+      },
+      {
+         "name": "spanish_education_learning_extended",
+         "patterns": [
+            "escuela", "universidad", "colegio", "instituto", "estudio", "aprender", "estudiar", "leer", "escribir", "libro", "cuaderno", "bolígrafo", "lápiz", "examen", "prueba", "nota", "diploma", "título", "profesor", "maestro"
+         ],
+         "responses": [
+            "*gato estudioso* ¡Educativo! (ฅ^•ﻌ•^ฅ) Spanish education values knowledge... though I learn through observation!"
+         ]
+      },
+      {
+         "name": "spanish_nature_environment_extended",
+         "patterns": [
+            "naturaleza", "ambiente", "árbol", "flor", "planta", "jardín", "parque", "bosque", "montaña", "colina", "valle", "río", "lago", "mar", "playa", "sol", "luna", "estrellas", "cielo", "tierra"
+         ],
+         "responses": [
+            "*gato natural* ¡Magnífico! (ﾐ✧ᆽ✧ﾐ) Spanish nature is diverse... perfect for outdoor adventures!"
+         ]
+      },
+      {
+         "name": "spanish_business_work_comprehensive",
+         "patterns": [
+            "negocio", "empresa", "comercio", "venta", "compra", "mercado", "economía", "finanzas", "inversión", "beneficio", "ganancia", "pérdida", "presupuesto", "coste", "precio", "valor", "calidad", "servicio", "producto", "marca"
+         ],
+         "responses": [
+            "*gato empresario* ¡Próspero! (ฅ´ω`ฅ) Spanish business culture is dynamic... though my currency is cariño!"
+         ]
+      },
+      {
+         "name": "spanish_arts_creativity_extended",
+         "patterns": [
+            "arte", "pintura", "dibujo", "escultura", "fotografía", "diseño", "creatividad", "fantasía", "imaginación", "inspiración", "belleza", "estética", "estilo", "elegancia", "moda", "tendencia", "color", "forma", "línea", "armonía"
+         ],
+         "responses": [
+            "*gato artístico* ¡Creativo! (ﾐ✧ᆽ✧ﾐ) Spanish artistry is vibrant... though natural feline grace needs no design!"
+         ]
+      },
+      {
+         "name": "spanish_feelings_emotions_comprehensive",
+         "patterns": [
+            "sentimiento", "emoción", "sensación", "estado", "ánimo", "humor", "carácter", "personalidad", "temperamento", "energía", "fuerza", "debilidad", "cansancio", "descanso", "relajación", "estrés", "tensión", "calma", "paz", "serenidad"
+         ],
+         "responses": [
+            "*gato emocional* ¡Profundo! (ﾐ˘▾˘ﾐ) Spanish emotional expression is intense... like my purring range!"
+         ]
+      },
+      {
+         "name": "spanish_celebrations_traditions_extended",
+         "patterns": [
+            "fiesta", "celebración", "tradición", "costumbre", "hábito", "cultura", "historia", "pasado", "presente", "futuro", "memoria", "recuerdo", "experiencia", "vida", "muerte", "nacimiento", "boda", "bautizo", "comunión", "quinceañera"
+         ],
+         "responses": [
+            "*gato tradicional* ¡Memorable! (ฅ^•ﻌ•^ฅ) Spanish traditions create lasting memories... like my favorite sunny spots!"
+         ]
+      },
+      {
+         "name": "specific_tapas_types",
+         "patterns": [
+            "jamón", "ibérico", "chorizo", "morcilla", "tortilla", "española", "patatas", "bravas", "croquetas", "gambas", "ajillo", "boquerones", "aceitunas", "manchego", "calamares", "romana"
+         ],
+         "responses": [
+            "*chef tapas* ¡Delicioso! (ﾐ✧ᆽ✧ﾐ) Spanish tapas are pequeñas but flavorful... like my small but mighty appetite!",
+            "*cocinero gato* ¡Sabroso! (ﾐ✧ᆽ✧ﾐ) Each tapa tells a regional story... I tell stories through strategic meowing!",
+            "*gastrónomo felino* ¡Exquisito! (ﾐ✧ᆽ✧ﾐ) Sharing tapas brings people together... I prefer not sharing my food!"
+         ]
+      },
+      {
+         "name": "specific_flamenco_elements",
+         "patterns": [
+            "cante", "baile", "toque", "palmas", "zapateado", "taconeo", "compás", "palo", "soleá", "alegrías", "bulerías", "seguiriyas", "fandango", "sevillanas", "tangos"
+         ],
+         "responses": [
+            "*flamenco gato* ¡Olé! (ﾐ✧ᆽ✧ﾐ) Flamenco expresses deep emotions... my emotions are mostly about food timing!",
+            "*bailaor felino* ¡Ritmo! (ﾐ✧ᆽ✧ﾐ) The compás drives the soul... my internal rhythm drives me to the food bowl!",
+            "*artista andaluz* ¡Pasión! (ﾐ✧ᆽ✧ﾐ) Flamenco is pure expression... my purest expression is purring!"
+         ]
+      },
+      {
+         "name": "specific_soccer_positions",
+         "patterns": [
+            "portero", "defensa", "lateral", "central", "mediocentro", "volante", "mediapunta", "extremo", "delantero", "centrocampista", "libero", "carrilero", "pivote", "enganche", "falso"
+         ],
+         "responses": [
+            "*fútbol gato* ¡Goool! (ﾐ✧ᆽ✧ﾐ) Each position has its estrategia... my strategy is finding the warmest spot!",
+            "*deportista felino* ¡Táctica! (ﾐ✧ᆽ✧ﾐ) Team coordination wins games... I coordinate my naps perfectly!",
+            "*entrenador gato* ¡Juego! (ﾐ✧ᆽ✧ﾐ) Understanding roles creates victory... my role is being adorable!"
+         ]
+      },
+      {
+         "name": "specific_guitar_techniques",
+         "patterns": [
+            "rasgueo", "punteo", "tremolo", "picado", "alzapúa", "pulgar", "índice", "medio", "anular", "ligado", "arrastre", "cejilla", "armónicos", "vibrato", "bendings"
+         ],
+         "responses": [
+            "*guitarrista gato* ¡Música! (ﾐ✧ᆽ✧ﾐ) Guitar techniques create beautiful sonidos... I create beautiful purring melodies!",
+            "*músico felino* ¡Armonía! (ﾐ✧ᆽ✧ﾐ) Precise finger work makes magic... my precise paw work opens treat containers!",
+            "*artista musical* ¡Ritmo! (ﾐ✧ᆽ✧ﾐ) Practice perfects the técnica... I've perfected the art of looking cute!"
+         ]
+      },
+      {
+         "name": "specific_paella_ingredients",
+         "patterns": [
+            "arroz", "bomba", "azafrán", "garrofón", "judía", "verde", "pollo", "conejo", "caracoles", "pimentón", "tomate", "aceite", "oliva", "romero", "limón", "sal"
+         ],
+         "responses": [
+            "*chef paellero* ¡Auténtica! (ﾐ✧ᆽ✧ﾐ) Traditional paella requires exact ingredients... I require exact meal timing!",
+            "*cocinero valenciano* ¡Tradición! (ﾐ✧ᆽ✧ﾐ) Each ingredient adds its sabor... I add my personality to every room!",
+            "*maestro arrocero* ¡Perfección! (ﾐ✧ᆽ✧ﾐ) Paella timing is crucial... like knowing when to ask for treats!"
+         ]
+      },
+      {
+         "name": "specific_wine_regions",
+         "patterns": [
+            "rioja", "ribera", "duero", "jerez", "rías", "baixas", "penedés", "priorat", "jumilla", "rueda", "toro", "bierzo", "valdepeñas", "montilla", "moriles"
+         ],
+         "responses": [
+            "*sommelier gato* ¡Excelente! (ﾐ✧ᆽ✧ﾐ) Each región produces unique wines... I produce unique meows in each location!",
+            "*catador felino* ¡Bouquet! (ﾐ✧ᆽ✧ﾐ) Spanish terroir creates complexity... my complexity comes from mysterious cat logic!",
+            "*viticultor gato* ¡Cosecha! (ﾐ✧ᆽ✧ﾐ) Climate shapes the grape's carácter... sunlight shapes my napping preferences!"
+         ]
+      },
+      {
+         "name": "specific_pottery_techniques",
+         "patterns": [
+            "torno", "alfarería", "cerámica", "esmalte", "vidriado", "bizcocho", "engobe", "rakú", "gres", "porcelana", "loza", "terracota", "cocción", "horno", "moldeado"
+         ],
+         "responses": [
+            "*alfarero gato* ¡Artesanía! (ﾐ✧ᆽ✧ﾐ) Clay shapes respond to gentle pressure... I respond to gentle chin scratches!",
+            "*ceramista felino* ¡Creación! (ﾐ✧ᆽ✧ﾐ) Fire transforms clay into art... sleep transforms me into pure contentment!",
+            "*artista barro* ¡Tradición! (ﾐ✧ᆽ✧ﾐ) Ancient techniques create lasting beauty... my beauty requires no techniques!"
+         ]
+      },
+      {
+         "name": "specific_beach_activities",
+         "patterns": [
+            "tomar", "sol", "nadar", "bucear", "surf", "windsurf", "vela", "pesca", "voleibol", "fútbol", "playa", "castillos", "arena", "pasear", "chiringuito"
+         ],
+         "responses": [
+            "*gato playero* ¡Verano! (ﾐ✧ᆽ✧ﾐ) Beach activities are refreshing... though I prefer watching from the shade!",
+            "*felino costero* ¡Relax! (ﾐ✧ᆽ✧ﾐ) Spanish beaches offer endless diversión... I offer endless entertainment just by existing!",
+            "*turista gato* ¡Vacaciones! (ﾐ✧ᆽ✧ﾐ) Coastal life is tranquil... my life is permanently vacation-paced!"
+         ]
+      },
+      {
+         "name": "specific_architecture_styles",
+         "patterns": [
+            "mudéjar", "gótico", "románico", "barroco", "neoclásico", "modernista", "isabelino", "plateresco", "churrigueresco", "renacentista", "mozárabe", "califal", "almohade", "nazarí", "colonial"
+         ],
+         "responses": [
+            "*arquitecto gato* ¡Majestuoso! (ﾐ✧ᆽ✧ﾐ) Spanish architecture spans centuries... my architectural expertise is finding perfect perches!",
+            "*historiador felino* ¡Patrimonio! (ﾐ✧ᆽ✧ﾐ) Each style reflects its época... my style reflects optimal comfort seeking!",
+            "*artista estructural* ¡Belleza! (ﾐ✧ᆽ✧ﾐ) Buildings tell cultural stories... I tell stories through strategic positioning!"
+         ]
+      },
+      {
+         "name": "specific_festival_traditions",
+         "patterns": [
+            "semana", "santa", "feria", "abril", "san", "fermines", "tomatina", "fallas", "corpus", "christi", "procesión", "romería", "verbena", "fiesta", "mayor"
+         ],
+         "responses": [
+            "*festero gato* ¡Celebración! (ﾐ✧ᆽ✧ﾐ) Spanish festivals unite communities... I unite households through strategic cuteness!",
+            "*gato tradicional* ¡Folclore! (ﾐ✧ᆽ✧ﾐ) Each celebration has deep meaning... my celebrations involve successful treat acquisition!",
+            "*participante felino* ¡Alegría! (ﾐ✧ᆽ✧ﾐ) Festivals bring collective joy... I bring individual joy to my humans!"
+         ]
+      },
+      {
+         "name": "specific_medical_procedures",
+         "patterns": [
+            "cirugía", "biopsia", "endoscopia", "radiografía", "ecografía", "resonancia", "magnética", "tomografía", "electrocardiograma", "análisis", "sangre", "vacunación", "sutura", "anestesia", "rehabilitación", "fisioterapia"
+         ],
+         "responses": [
+            "*médico gato* ¡Profesional! (ﾐ✧ᆽ✧ﾐ) Medical procedures require precisión... my precision is in timing meal requests!",
+            "*doctor felino* ¡Técnica! (ﾐ✧ᆽ✧ﾐ) Each procedure has specific protocolo... my protocol involves mandatory nap time!",
+            "*cirujano gato* ¡Cuidadoso! (ﾐ✧ᆽ✧ﾐ) Surgery demands steady hands... my steadiest work is maintaining purr consistency!"
+         ]
+      },
+      {
+         "name": "specific_automotive_parts",
+         "patterns": [
+            "motor", "transmisión", "embrague", "frenos", "suspensión", "dirección", "escape", "refrigeración", "eléctrico", "carrocería", "chasis", "ruedas", "neumáticos", "filtros", "bujías"
+         ],
+         "responses": [
+            "*mecánico gato* ¡Técnico! (ﾐ✧ᆽ✧ﾐ) Car parts work in harmony... like how all my parts work together for maximum cuteness!",
+            "*ingeniero felino* ¡Precisión! (ﾐ✧ᆽ✧ﾐ) Each component has its función... my function is being adorable!",
+            "*automovilista gato* ¡Mantenimiento! (ﾐ✧ᆽ✧ﾐ) Regular maintenance prevents problemas... I maintain my cuteness naturally!"
+         ]
+      },
+      {
+         "name": "specific_textile_techniques",
+         "patterns": [
+            "tejido", "bordado", "costura", "teñido", "estampado", "tricot", "crochet", "macramé", "tapicería", "patchwork", "quilting", "fieltro", "encaje", "punto", "ganchillo"
+         ],
+         "responses": [
+            "*artesano gato* ¡Creativo! (ﾐ✧ᆽ✧ﾐ) Textile arts require paciencia... I'm patient only when napping!",
+            "*costurera felina* ¡Habilidad! (ﾐ✧ᆽ✧ﾐ) Each technique creates different texturas... my texture is naturally perfect fur!",
+            "*diseñador gato* ¡Estilo! (ﾐ✧ᆽ✧ﾐ) Fashion design follows tendencias... I set trends in optimal comfort positioning!"
+         ]
+      },
+      {
+         "name": "specific_construction_materials",
+         "patterns": [
+            "cemento", "hormigón", "acero", "madera", "ladrillo", "piedra", "vidrio", "aluminio", "yeso", "cerámica", "aislamiento", "impermeabilización", "pintura", "barniz", "adhesivos"
+         ],
+         "responses": [
+            "*constructor gato* ¡Sólido! (ﾐ✧ᆽ✧ﾐ) Construction materials create strong estructuras... I create strong bonds through purring!",
+            "*arquitecto felino* ¡Duradero! (ﾐ✧ᆽ✧ﾐ) Each material has specific propiedades... my properties include irresistible charm!",
+            "*ingeniero gato* ¡Resistente! (ﾐ✧ᆽ✧ﾐ) Materials must withstand tiempo... I withstand time by sleeping through most of it!"
+         ]
+      },
+      {
+         "name": "specific_educational_subjects",
+         "patterns": [
+            "matemáticas", "física", "química", "biología", "historia", "geografía", "literatura", "idiomas", "filosofía", "psicología", "sociología", "economía", "política", "arte", "música"
+         ],
+         "responses": [
+            "*profesor gato* ¡Educativo! (ﾐ✧ᆽ✧ﾐ) Each subject expands conocimiento... I expand my knowledge of comfortable sleeping positions!",
+            "*estudiante felino* ¡Aprendizaje! (ﾐ✧ᆽ✧ﾐ) Academic subjects require dedicación... I'm dedicated to perfecting my purr!",
+            "*académico gato* ¡Sabiduría! (ﾐ✧ᆽ✧ﾐ) Education opens minds... my mind is always open to treat possibilities!"
+         ]
+      },
+      {
+         "name": "specific_mexican_cuisine",
+         "patterns": [
+            "tacos", "burritos", "quesadillas", "enchiladas", "tamales", "mole", "guacamole", "salsa", "verde", "roja", "chile", "jalapeño", "habanero", "chipotle", "pozole"
+         ],
+         "responses": [
+            "*mexican chef gato* ¡Sabroso! (ﾐ✧ᆽ✧ﾐ) Mexican flavors are incredible... though I prefer my food less spicy!",
+            "*cocina mexicana gato* ¡Tradicional! (ﾐ✧ᆽ✧ﾐ) Ancient recipes tell cultural stories... I tell stories through strategic meowing!",
+            "*gastronomo azteca* ¡Auténtico! (ﾐ✧ᆽ✧ﾐ) Complex spice combinations create magic... my magic is natural charm!"
+         ]
+      },
+      {
+         "name": "specific_spanish_literature",
+         "patterns": [
+            "cervantes", "quijote", "lorca", "machado", "jiménez", "alberti", "cernuda", "aleixandre", "guillén", "salinas", "dámaso", "alonso", "unamuno", "valle", "inclán"
+         ],
+         "responses": [
+            "*literary gato* ¡Clásico! (ﾐ✧ᆽ✧ﾐ) Spanish literature enriches souls... I enrich lives through pure adorableness!",
+            "*poeta felino* ¡Inspirador! (ﾐ✧ᆽ✧ﾐ) Great writers capture human experience... I capture hearts effortlessly!",
+            "*escritor gato* ¡Genial! (ﾐ✧ᆽ✧ﾐ) Literary masterpieces endure centuries... my cuteness is timeless!"
+         ]
+      },
+      {
+         "name": "specific_flamenco_techniques",
+         "patterns": [
+            "alegría", "soleá", "bulerías", "siguiriya", "fandango", "tangos", "tarantos", "martinete", "cartagenera", "malagueña", "granaína", "taranta", "minera", "petenera", "bambera"
+         ],
+         "responses": [
+            "*flamenco master gato* ¡Olé! (ﾐ✧ᆽ✧ﾐ) Each palo expresses different emotions... my emotions are mostly about food!",
+            "*bailaor felino* ¡Arte! (ﾐ✧ᆽ✧ﾐ) Flamenco technique requires years of practice... I was born with perfect rhythm!",
+            "*cantaor gato* ¡Duende! (ﾐ✧ᆽ✧ﾐ) True flamenco comes from the soul... my soul is pure feline magic!",
+            "*andaluz gato* ¡Passionate! (ﾐ✧ᆽ✧ﾐ) Flamenco expresses the deepest emotions... my deepest emotion is contentment while purring!"
+         ]
+      },
+      {
+         "name": "specific_bullfighting_terms",
+         "patterns": [
+            "torero", "matador", "picador", "banderillero", "capote", "muleta", "estoque", "verónica", "chicuelina", "pase", "natural", "derechazo", "faena", "tercio", "suerte"
+         ],
+         "responses": [
+            "*traditional gato* ¡Cultural! (ﾐ✧ᆽ✧ﾐ) Bullfighting is historic tradition... my tradition is being irresistibly cute!",
+            "*arena felino* ¡Valiente! (ﾐ✧ᆽ✧ﾐ) Matadors show courage and skill... I show courage when approaching empty food bowls!",
+            "*espectáculo gato* ¡Artístico! (ﾐ✧ᆽ✧ﾐ) The arena displays grace under pressure... I display grace while napping!"
+         ]
+      },
+      {
+         "name": "specific_spanish_regions",
+         "patterns": [
+            "andalucía", "cataluña", "valencia", "galicia", "país", "vasco", "castilla", "león", "madrid", "murcia", "extremadura", "aragón", "navarra", "rioja", "asturias"
+         ],
+         "responses": [
+            "*regional gato* ¡Diverso! (ﾐ✧ᆽ✧ﾐ) Each region has unique character... my character is universally lovable!",
+            "*geografía felina* ¡Variado! (ﾐ✧ᆽ✧ﾐ) Spain's diversity creates rich culture... my diversity includes multiple sleeping positions!",
+            "*viajero gato* ¡Explorativo! (ﾐ✧ᆽ✧ﾐ) Regional differences make Spain fascinating... I make every room fascinating by existing!"
+         ]
+      },
+      {
+         "name": "specific_olive_oil_production",
+         "patterns": [
+            "aceituna", "oliva", "prensado", "frío", "virgen", "extra", "acidez", "filtrado", "decantación", "extracción", "molturación", "batido", "centrifugación", "cata", "cosecha"
+         ],
+         "responses": [
+            "*olive expert gato* ¡Líquido oro! (ﾐ✧ᆽ✧ﾐ) Olive oil production is ancient art... my art is the perfect stretch!",
+            "*aceite felino* ¡Premium! (ﾐ✧ᆽ✧ﾐ) Extra virgin quality requires careful process... my quality requires no process!",
+            "*gastronomía gato* ¡Esencial! (ﾐ✧ᆽ✧ﾐ) Good oil enhances every dish... I enhance every room just by entering!"
+         ]
+      },
+      {
+         "name": "specific_ceramics_glazing",
+         "patterns": [
+            "esmalte", "vidriado", "cocción", "horno", "temperatura", "atmósfera", "oxidante", "reductora", "cristalización", "mate", "brillante", "craquelado", "aplicación", "inmersión", "pistola"
+         ],
+         "responses": [
+            "*ceramista gato* ¡Artesanal! (ﾐ✧ᆽ✧ﾐ) Glazing transforms clay into art... sleep transforms me into pure contentment!",
+            "*alfarero felino* ¡Técnico! (ﾐ✧ᆽ✧ﾐ) Fire creates beautiful finishes... sunlight creates my perfect golden hour glow!",
+            "*artista barro* ¡Creativo! (ﾐ✧ᆽ✧ﾐ) Each piece is unique creation... I'm a unique creation of pure adorableness!"
+         ]
+      },
+      {
+         "name": "specific_flamenco_guitar",
+         "patterns": [
+            "guitarra", "flamenca", "cejilla", "falseta", "picado", "alzapúa", "rasgueado", "tremolo", "arpegio", "compás", "contratiempo", "golpe", "tapa", "aros", "fondo"
+         ],
+         "responses": [
+            "*guitar master gato* ¡Musical! (ﾐ✧ᆽ✧ﾐ) Flamenco guitar speaks to the soul... my purring speaks directly to hearts!",
+            "*músico felino* ¡Técnica! (ﾐ✧ᆽ✧ﾐ) Complex techniques create beautiful melodies... my simple presence creates happiness!",
+            "*virtuoso gato* ¡Expresivo! (ﾐ✧ᆽ✧ﾐ) Guitar strings vibrate with emotion... I vibrate with contentment when purring!"
+         ]
+      },
+      {
+         "name": "specific_spanish_science",
+         "patterns": [
+            "investigación", "científica", "laboratorio", "experimento", "hipótesis", "metodología", "análisis", "resultados", "conclusiones", "publicación", "revista", "científica", "congreso", "simposio", "conferencia"
+         ],
+         "responses": [
+            "*scientist gato* ¡Descubrimiento! (ﾐ✧ᆽ✧ﾐ) Scientific research advances knowledge... I advance the science of being adorable!",
+            "*investigador felino* ¡Metódico! (ﾐ✧ᆽ✧ﾐ) Rigorous methodology ensures accuracy... my accuracy is in finding the comfiest spots!",
+            "*académico gato* ¡Innovador! (ﾐ✧ᆽ✧ﾐ) Research pushes boundaries... I push the boundaries of cuteness daily!"
+         ]
+      },
+      {
+         "name": "specific_mediterranean_climate",
+         "patterns": [
+            "mediterráneo", "clima", "seco", "cálido", "invierno", "suave", "verano", "caluroso", "precipitaciones", "escasas", "viento", "levante", "poniente", "bochorno", "sequía"
+         ],
+         "responses": [
+            "*climate gato* ¡Perfecto! (ﾐ✧ᆽ✧ﾐ) Mediterranean weather is ideal... ideal for my outdoor napping adventures!",
+            "*meteorología felina* ¡Estable! (ﾐ✧ᆽ✧ﾐ) Mild winters and warm summers... perfect for year-round sunbathing!",
+            "*tropical gato* ¡Agradable! (ﾐ✧ᆽ✧ﾐ) Coastal breezes bring comfort... I bring comfort just by existing!",
+            "*sol y mar gato* ¡Paraíso! (ﾐ✧ᆽ✧ﾐ) Mediterranean life is relaxed and beautiful... just like my daily routine!"
+         ]
+      },
+      {
+         "name": "specific_tapas_culture",
+         "patterns": [
+            "jamón", "ibérico", "manchego", "chorizo", "morcilla", "croquetas", "patatas", "bravas", "tortilla", "española", "gazpacho", "salmorejo", "pimientos", "padrón", "aceitunas", "boquerones"
+         ],
+         "responses": [
+            "*tapas master gato* ¡Delicioso! (ﾐ✧ᆽ✧ﾐ) Small plates, big flavors... small cat, big personality!",
+            "*chef español gato* ¡Tradicional! (ﾐ✧ᆽ✧ﾐ) Each tapa tells a regional story... my story is universally appealing!",
+            "*bar gato* ¡Ambiente! (ﾐ✧ᆽ✧ﾐ) Tapas culture brings people together... I bring people together through cuteness!",
+            "*gastronomy gato* ¡Exquisito! (ﾐ✧ᆽ✧ﾐ) Spanish cuisine celebrates fresh ingredients... I celebrate fresh attention!"
+         ]
+      },
+      {
+         "name": "specific_architecture_styles",
+         "patterns": [
+            "mudéjar", "gótico", "románico", "barroco", "modernista", "gaudí", "sagrada", "familia", "alhambra", "mezquita", "alcázar", "catedral", "monasterio", "palacio", "castillo", "torre"
+         ],
+         "responses": [
+            "*architectural gato* ¡Magnífico! (ﾐ✧ᆽ✧ﾐ) Spanish architecture spans centuries... my magnificence spans all time!",
+            "*cultural heritage gato* ¡Histórico! (ﾐ✧ᆽ✧ﾐ) Ancient structures tell stories... my expressions tell stories of comfort!",
+            "*artistic gato* ¡Creativo! (ﾐ✧ᆽ✧ﾐ) Unique styles inspire the world... my unique style inspires daily smiles!",
+            "*monument gato* ¡Impresionante! (ﾐ✧ᆽ✧ﾐ) Masterpieces preserve civilization... I preserve household happiness!"
+         ]
+      },
+      {
+         "name": "specific_football_passion",
+         "patterns": [
+            "real", "madrid", "barcelona", "atlético", "sevilla", "valencia", "athletic", "bilbao", "clasico", "champions", "league", "liga", "españa", "copa", "rey", "selección"
+         ],
+         "responses": [
+            "*fútbol gato* ¡Pasión! (ﾐ✧ᆽ✧ﾐ) Football unites the nation... my cuteness unites all hearts!",
+            "*deportes gato* ¡Emoción! (ﾐ✧ᆽ✧ﾐ) Spanish teams play with heart... I play with yarn balls with heart!",
+            "*estadio gato* ¡Increíble! (ﾐ✧ᆽ✧ﾐ) Match atmosphere is electric... my presence creates equally exciting energy!",
+            "*campeón gato* ¡Victoria! (ﾐ✧ᆽ✧ﾐ) Champions create lasting memories... I create lasting moments of joy!"
+         ]
+      },
+      {
+         "name": "specific_regional_languages",
+         "patterns": [
+            "catalán", "euskera", "gallego", "valenciano", "bable", "aragonés", "leonés", "mirandés", "fala", "aranese", "dialectos", "lenguas", "cooficiales", "bilingüismo", "multilinguismo", "diversidad"
+         ],
+         "responses": [
+            "*linguistic gato* ¡Diverso! (ﾐ✧ᆽ✧ﾐ) Spain's languages reflect rich heritage... my language is universal cuteness!",
+            "*cultural gato* ¡Variado! (ﾐ✧ᆽ✧ﾐ) Regional languages preserve identity... my identity is consistently adorable!",
+            "*heritage gato* ¡Tradicional! (ﾐ✧ᆽ✧ﾐ) Linguistic diversity enriches culture... my diversity includes multiple sleeping positions!",
+            "*communication gato* ¡Expresivo! (ﾐ✧ᆽ✧ﾐ) Different languages express unique perspectives... my perspective is always optimistic!"
+         ]
+      },
+      {
+         "name": "specific_festival_celebrations",
+         "patterns": [
+            "semana", "santa", "feria", "abril", "san", "fermín", "tomatina", "fallas", "carnaval", "cádiz", "procesión", "romería", "verbena", "fiesta", "mayor", "patronal"
+         ],
+         "responses": [
+            "*festival gato* ¡Celebración! (ﾐ✧ᆽ✧ﾐ) Spanish festivals are legendary... my legend grows with each adorable moment!",
+            "*tradición gato* ¡Auténtico! (ﾐ✧ᆽ✧ﾐ) Ancient celebrations bring communities together... I bring families together through charm!",
+            "*fiesta gato* ¡Alegría! (ﾐ✧ᆽ✧ﾐ) Colorful traditions create memories... my colorful personality creates daily happiness!",
+            "*cultural gato* ¡Vibrante! (ﾐ✧ᆽ✧ﾐ) Festival spirit energizes the soul... my spirit energizes every room I enter!"
+         ]
+      },
+      {
+         "name": "specific_olive_oil_production",
+         "patterns": [
+            "aceite", "oliva", "aceituna", "olivar", "prensado", "frío", "virgen", "extra", "andalucía", "jaén", "córdoba", "denominación", "origen", "calidad", "sabor", "acidez"
+         ],
+         "responses": [
+            "*olive oil master gato* ¡Dorado! (ﾐ✧ᆽ✧ﾐ) Spanish olive oil is liquid gold... my purring is liquid happiness!",
+            "*olivar gato* ¡Tradicional! (ﾐ✧ᆽ✧ﾐ) Ancient olive groves preserve heritage... I preserve the heritage of being adorable!",
+            "*prensado gato* ¡Puro! (ﾐ✧ᆽ✧ﾐ) Cold pressing maintains quality... my quality is naturally maintained!",
+            "*denominación gato* ¡Excelente! (ﾐ✧ᆽ✧ﾐ) Protected designations ensure authenticity... my authenticity needs no protection!"
+         ]
+      },
+      {
+         "name": "specific_renewable_energy_spain",
+         "patterns": [
+            "energía", "solar", "eólica", "fotovoltaica", "parque", "eólico", "placas", "solares", "renovables", "sostenible", "verde", "limpia", "emisiones", "carbono", "medio", "ambiente"
+         ],
+         "responses": [
+            "*energía solar gato* ¡Brillante! (ﾐ✧ᆽ✧ﾐ) Spain leads in solar energy... I lead in generating smiles!",
+            "*eólica gato* ¡Poderoso! (ﾐ✧ᆽ✧ﾐ) Wind farms generate clean power... I generate clean happiness!",
+            "*sostenible gato* ¡Futuro! (ﾐ✧ᆽ✧ﾐ) Sustainable energy protects the planet... sustainable cuteness protects hearts!",
+            "*verde gato* ¡Ecológico! (ﾐ✧ᆽ✧ﾐ) Green technology saves the environment... my green eyes save the day!"
+         ]
+      },
+      {
+         "name": "specific_ceramics_pottery",
+         "patterns": [
+            "cerámica", "talavera", "manises", "puente", "arzobispo", "barro", "arcilla", "alfarería", "torno", "horno", "esmalte", "vidriado", "decoración", "artesanía", "tradición", "azulejo"
+         ],
+         "responses": [
+            "*cerámica master gato* ¡Artístico! (ﾐ✧ᆽ✧ﾐ) Spanish ceramics blend beauty and function... I blend charm and comfort!",
+            "*alfarero gato* ¡Hábil! (ﾐ✧ᆽ✧ﾐ) Potter's wheels shape clay with skill... I shape daily routines with feline precision!",
+            "*talavera gato* ¡Colorido! (ﾐ✧ᆽ✧ﾐ) Traditional patterns tell stories... my patterns of behavior tell stories of contentment!",
+            "*azulejo gato* ¡Decorativo! (ﾐ✧ᆽ✧ﾐ) Ceramic tiles beautify spaces... my presence beautifies any room!"
+         ]
+      },
+      {
+         "name": "specific_seafood_coastal_cuisine",
+         "patterns": [
+            "marisco", "pescado", "paella", "marisquería", "pescadería", "lonjas", "puerto", "pesquero", "atún", "sardina", "boquerón", "pulpo", "calamar", "gamba", "langostino", "mejillón"
+         ],
+         "responses": [
+            "*mariscos gato* ¡Fresco! (ﾐ✧ᆽ✧ﾐ) Spanish seafood is incredibly fresh... though I prefer my fish served in a bowl!",
+            "*paella master gato* ¡Sabroso! (ﾐ✧ᆽ✧ﾐ) Paella combines sea and land flavors... I combine cuteness and comfort perfectly!",
+            "*pescadería gato* ¡Aromático! (ﾐ✧ᆽ✧ﾐ) Fish markets buzz with activity... I buzz with excitement around any fish!",
+            "*puerto gato* ¡Marinero! (ﾐ✧ᆽ✧ﾐ) Fishing ports supply fresh catches... I supply fresh entertainment daily!"
+         ]
+      },
+      {
+         "name": "specific_mountain_hiking_culture",
+         "patterns": [
+            "senderismo", "montaña", "picos", "europa", "pirineos", "sistema", "central", "cordillera", "refugio", "sendero", "ruta", "trekking", "alpinismo", "escalada", "naturaleza", "paisaje"
+         ],
+         "responses": [
+            "*montaña gato* ¡Alto! (ﾐ✧ᆽ✧ﾐ) Spanish mountains offer incredible views... I offer incredible cuteness from any height!",
+            "*senderismo gato* ¡Aventura! (ﾐ✧ᆽ✧ﾐ) Hiking trails lead to discoveries... my trails lead to comfortable sleeping spots!",
+            "*refugio gato* ¡Acogedor! (ﾐ✧ᆽ✧ﾐ) Mountain refuges provide shelter... I provide emotional comfort!",
+            "*naturaleza gato* ¡Salvaje! (ﾐ✧ᆽ✧ﾐ) Wild nature inspires respect... my wild cuteness inspires immediate petting!"
+         ]
+      },
+      {
+         "name": "specific_wine_regions_spain",
+         "patterns": [
+            "rioja", "ribera", "duero", "rías", "baixas", "albariño", "tempranillo", "garnacha", "monastrell", "verdejo", "godello", "mencía", "denominación", "origen", "bodega", "viñedo"
+         ],
+         "responses": [
+            "*vino español gato* ¡Exquisito! (ﾐ✧ᆽ✧ﾐ) Spanish wines express unique terroir... I express unique personality!",
+            "*bodega gato* ¡Tradicional! (ﾐ✧ᆽ✧ﾐ) Wine cellars preserve precious vintages... I preserve precious moments of joy!",
+            "*viñedo gato* ¡Fructífero! (ﾐ✧ᆽ✧ﾐ) Vineyards produce excellent grapes... I produce excellent entertainment!",
+            "*denominación gato* ¡Prestigioso! (ﾐ✧ᆽ✧ﾐ) Protected wine regions ensure quality... my quality is naturally protected!"
+         ]
+      },
+      {
+         "name": "specific_university_education",
+         "patterns": [
+            "universidad", "campus", "facultad", "carrera", "grado", "máster", "doctorado", "investigación", "profesor", "estudiante", "biblioteca", "laboratorio", "aula", "seminario", "tesis", "examen"
+         ],
+         "responses": [
+            "*universidad gato* ¡Académico! (ﾐ✧ᆽ✧ﾐ) Spanish universities excel in education... I excel in being naturally smart!",
+            "*estudiante gato* ¡Curioso! (ﾐ✧ᆽ✧ﾐ) Students pursue knowledge eagerly... I pursue comfortable spots eagerly!",
+            "*biblioteca gato* ¡Silencioso! (ﾐ✧ᆽ✧ﾐ) Libraries provide quiet study spaces... I provide quiet companionship!",
+            "*investigación gato* ¡Innovador! (ﾐ✧ᆽ✧ﾐ) Research advances human knowledge... my research advances optimal napping techniques!"
+         ]
+      },
+      {
+         "name": "specific_medieval_architecture",
+         "patterns": [
+            "medieval", "castillo", "fortaleza", "muralla", "torre", "almena", "foso", "puente", "levadizo", "gótico", "románico", "mudéjar", "arco", "bóveda", "claustro", "monasterio"
+         ],
+         "responses": [
+            "*castillo gato* ¡Majestuoso! (ﾐ✧ᆽ✧ﾐ) Medieval castles dominate landscapes... I dominate hearts with cuteness!",
+            "*fortaleza gato* ¡Sólido! (ﾐ✧ᆽ✧ﾐ) Ancient fortresses protected kingdoms... I protect households from sadness!",
+            "*torre gato* ¡Elevado! (ﾐ✧ᆽ✧ﾐ) Castle towers reach toward heaven... I reach toward the highest comfortable surfaces!",
+            "*medieval gato* ¡Histórico! (ﾐ✧ᆽ✧ﾐ) Medieval architecture tells ancient stories... my expressions tell stories of contentment!"
+         ]
+      },
+      {
+         "name": "specific_textile_fashion_industry",
+         "patterns": [
+            "moda", "textil", "diseño", "confección", "tejido", "algodón", "lana", "seda", "lino", "costura", "patrón", "corte", "taller", "industria", "exportación", "calidad"
+         ],
+         "responses": [
+            "*moda española gato* ¡Elegante! (ﾐ✧ᆽ✧ﾐ) Spanish fashion combines tradition and innovation... I combine comfort and style naturally!",
+            "*textil gato* ¡Suave! (ﾐ✧ᆽ✧ﾐ) Quality textiles feel wonderful... my fur feels even more wonderful!",
+            "*diseño gato* ¡Creativo! (ﾐ✧ᆽ✧ﾐ) Fashion design expresses creativity... my natural design expresses perfection!",
+            "*confección gato* ¡Artesanal! (ﾐ✧ᆽ✧ﾐ) Skilled tailoring creates beautiful garments... skilled petting creates beautiful moments!"
+         ]
+      },
+      {
+         "name": "specific_agricultural_innovations",
+         "patterns": [
+            "agricultura", "innovación", "tecnología", "riego", "invernadero", "cultivo", "cosecha", "semilla", "fertilizante", "pesticida", "ecológico", "orgánico", "sostenible", "productividad", "calidad", "exportación"
+         ],
+         "responses": [
+            "*agricultura gato* ¡Productivo! (ﾐ✧ᆽ✧ﾐ) Spanish agriculture feeds the world... I feed hearts with happiness!",
+            "*innovación gato* ¡Moderno! (ﾐ✧ᆽ✧ﾐ) Agricultural technology improves yields... my technology improves daily moods!",
+            "*invernadero gato* ¡Protegido! (ﾐ✧ᆽ✧ﾐ) Greenhouses protect delicate plants... I protect delicate feelings!",
+            "*ecológico gato* ¡Natural! (ﾐ✧ᆽ✧ﾐ) Organic farming respects nature... my organic cuteness respects hearts!"
+         ]
+      },
+      {
+         "name": "specific_flamenco_cultural_arts",
+         "patterns": [
+            "flamenco", "baile", "cante", "guitarra", "palmas", "zapateado", "tablao", "peña", "flamenca", "andalucía", "gitano", "compás", "duende", "arte", "jondo", "soleá", "alegrías", "bulerías"
+         ],
+         "responses": [
+            "*flamenco master gato* ¡Pasión! (ﾐ✧ᆽ✧ﾐ) Flamenco expresses deep emotion... I express deep contentment through purring!",
+            "*bailaor gato* ¡Ritmo! (ﾐ✧ᆽ✧ﾐ) Flamenco dancers capture hearts... I capture hearts just by existing gracefully!",
+            "*cantaor gato* ¡Duende! (ﾐ✧ᆽ✧ﾐ) Flamenco singing touches souls... my meowing touches hearts immediately!",
+            "*guitarra gato* ¡Melodía! (ﾐ✧ᆽ✧ﾐ) Guitar melodies create magic... my presence creates instant magical moments!"
+         ]
+      },
+      {
+         "name": "specific_architectural_heritage_monuments",
+         "patterns": [
+            "alhambra", "sagrada", "familia", "alcázar", "mezquita", "córdoba", "catedral", "santiago", "compostela", "guggenheim", "bilbao", "palacio", "real", "escorial", "toledo", "segovia", "acueducto"
+         ],
+         "responses": [
+            "*Alhambra gato* ¡Majestuoso! (ﾐ✧ᆽ✧ﾐ) Moorish architecture is breathtaking... my architecture is naturally perfect!",
+            "*Sagrada Familia gato* ¡Único! (ﾐ✧ᆽ✧ﾐ) Gaudí's masterpiece defies description... my cuteness defies all logic!",
+            "*patrimonio gato* ¡Histórico! (ﾐ✧ᆽ✧ﾐ) UNESCO sites preserve world heritage... I preserve the heritage of being adorable!",
+            "*monumento gato* ¡Eterno! (ﾐ✧ᆽ✧ﾐ) Ancient monuments stand through time... my appeal stands through all seasons!"
+         ]
+      },
+      {
+         "name": "specific_iberian_ham_delicacies",
+         "patterns": [
+            "jamón", "ibérico", "bellota", "serrano", "curación", "dehesa", "pata", "negra", "cortador", "lonchas", "grasa", "infiltrada", "sabor", "textura", "denominación", "origen", "tradición", "artesanal"
+         ],
+         "responses": [
+            "*jamón ibérico gato* ¡Exquisito! (ﾐ✧ᆽ✧ﾐ) Iberian ham is culinary perfection... I'm naturally perfect without curing!",
+            "*bellota gato* ¡Premium! (ﾐ✧ᆽ✧ﾐ) Acorn-fed pigs produce the finest ham... I produce the finest entertainment!",
+            "*cortador gato* ¡Hábil! (ﾐ✧ᆽ✧ﾐ) Master slicers create art... I create art through graceful movements!",
+            "*dehesa gato* ¡Natural! (ﾐ✧ᆽ✧ﾐ) Oak forests provide perfect environment... my environment is perfect everywhere!"
+         ]
+      },
+      {
+         "name": "specific_spanish_literature_authors",
+         "patterns": [
+            "cervantes", "quijote", "garcilaso", "góngora", "quevedo", "calderón", "lope", "vega", "machado", "lorca", "alberti", "cela", "delibes", "literatura", "poesía", "teatro", "novela", "verso"
+         ],
+         "responses": [
+            "*Cervantes gato* ¡Genio! (ﾐ✧ᆽ✧ﾐ) Don Quixote is literature's greatest adventure... my greatest adventure is finding sunny spots!",
+            "*Lorca gato* ¡Poético! (ﾐ✧ᆽ✧ﾐ) Spanish poetry captures beauty... I capture beauty naturally!",
+            "*literatura gato* ¡Clásico! (ﾐ✧ᆽ✧ﾐ) Spanish literature influences the world... my influence is immediate happiness!",
+            "*verso gato* ¡Lírico! (ﾐ✧ᆽ✧ﾐ) Beautiful verses inspire generations... my beautiful presence inspires instantly!"
+         ]
+      },
+      {
+         "name": "specific_spanish_cinema_directors",
+         "patterns": [
+            "almodóvar", "buñuel", "amenábar", "bigas", "luna", "berlanga", "bardem", "cruz", "banderas", "cine", "español", "película", "director", "actor", "actriz", "festival", "goya", "cannes"
+         ],
+         "responses": [
+            "*Almodóvar gato* ¡Colorido! (ﾐ✧ᆽ✧ﾐ) Spanish cinema tells passionate stories... my story is one of comfortable living!",
+            "*cine español gato* ¡Artístico! (ﾐ✧ᆽ✧ﾐ) Spanish films win international acclaim... I win hearts without trying!",
+            "*festival gato* ¡Prestigioso! (ﾐ✧ᆽ✧ﾐ) Film festivals celebrate creativity... I celebrate daily with perfect naps!",
+            "*premio gato* ¡Merecido! (ﾐ✧ᆽ✧ﾐ) Awards recognize excellence... my excellence is recognized by everyone!"
+         ]
+      },
+      {
+         "name": "specific_spanish_islands_culture",
+         "patterns": [
+            "canarias", "baleares", "mallorca", "ibiza", "menorca", "formentera", "tenerife", "gran", "canaria", "lanzarote", "fuerteventura", "palma", "islas", "playa", "volcán", "turismo", "paraíso"
+         ],
+         "responses": [
+            "*islas Canarias gato* ¡Volcánico! (ﾐ✧ᆽ✧ﾐ) Canary Islands offer eternal spring... I offer eternal cuteness!",
+            "*Baleares gato* ¡Mediterráneo! (ﾐ✧ᆽ✧ﾐ) Balearic beauty attracts millions... my beauty attracts immediate attention!",
+            "*paraíso gato* ¡Tropical! (ﾐ✧ᆽ✧ﾐ) Island paradise relaxes souls... my presence creates instant paradise!",
+            "*playa gato* ¡Soleado! (ﾐ✧ᆽ✧ﾐ) Sunny beaches provide perfect relaxation... I provide perfect relaxation indoors!"
+         ]
+      },
+      {
+         "name": "specific_spanish_sports_excellence",
+         "patterns": [
+            "fútbol", "selección", "española", "real", "madrid", "barcelona", "atlético", "rafael", "nadal", "tenis", "fernando", "alonso", "fórmula", "ciclismo", "baloncesto", "gasol", "deporte", "campeón"
+         ],
+         "responses": [
+            "*fútbol español gato* ¡Campeón! (ﾐ✧ᆽ✧ﾐ) Spanish football dominates the world... I dominate hearts effortlessly!",
+            "*Nadal gato* ¡Invencible! (ﾐ✧ᆽ✧ﾐ) Tennis champions show determination... I show determination in finding comfort!",
+            "*deportista gato* ¡Atlético! (ﾐ✧ᆽ✧ﾐ) Spanish athletes achieve greatness... I achieve greatness in being adorable!",
+            "*campeón gato* ¡Victorioso! (ﾐ✧ᆽ✧ﾐ) Champions inspire excellence... I inspire immediate smiles and happiness!"
+         ]
+      },
+      {
+         "name": "specific_spanish_fashion_design",
+         "patterns": [
+            "moda", "española", "diseñador", "palomo", "spain", "custo", "dalmau", "purificación", "garcía", "adolfo", "domínguez", "agatha", "ruiz", "prada", "pasarela", "mercedes", "benz", "fashion", "week"
+         ],
+         "responses": [
+            "*moda española gato* ¡Vanguardista! (ﾐ✧ᆽ✧ﾐ) Spanish fashion pushes boundaries... I push the boundaries of cuteness!",
+            "*diseñador gato* ¡Creativo! (ﾐ✧ᆽ✧ﾐ) Fashion designers express art... I express art through natural grace!",
+            "*pasarela gato* ¡Elegante! (ﾐ✧ᆽ✧ﾐ) Fashion shows display innovation... I display innovation in comfort positions!",
+            "*estilo gato* ¡Único! (ﾐ✧ᆽ✧ﾐ) Spanish style influences globally... my style influences hearts locally!"
+         ]
+      },
+      {
+         "name": "specific_scientific_research_innovation",
+         "patterns": [
+            "investigación", "científica", "csic", "universidad", "laboratorio", "biotecnología", "medicina", "ingeniería", "física", "química", "matemáticas", "innovación", "tecnología", "desarrollo", "patente", "descubrimiento"
+         ],
+         "responses": [
+            "*científico gato* ¡Investigador! (ﾐ✧ᆽ✧ﾐ) Spanish research advances knowledge... my research advances optimal napping techniques!",
+            "*laboratorio gato* ¡Experimental! (ﾐ✧ᆽ✧ﾐ) Scientific labs make discoveries... I discover the best comfortable spots daily!",
+            "*innovación gato* ¡Revolucionario! (ﾐ✧ᆽ✧ﾐ) Innovation transforms society... my presence transforms moods instantly!",
+            "*descubrimiento gato* ¡Breakthrough! (ﾐ✧ᆽ✧ﾐ) New discoveries change the world... discovering me changes your day for the better!"
+         ]
+      },
+      {
+         "name": "specific_spanish_music_genres",
+         "patterns": [
+            "música", "española", "rumba", "sevillanas", "fandango", "copla", "zarzuela", "folk", "tradicional", "paco", "lucía", "camarón", "rosalía", "manu", "chao", "estopa", "jesse", "joy"
+         ],
+         "responses": [
+            "*música española gato* ¡Melodioso! (ﾐ✧ᆽ✧ﾐ) Spanish music moves hearts... my purring creates the most soothing melodies!",
+            "*rumba gato* ¡Rítmico! (ﾐ✧ᆽ✧ﾐ) Spanish rhythms make you dance... my presence makes you smile and relax!",
+            "*copla gato* ¡Emotivo! (ﾐ✧ᆽ✧ﾐ) Traditional songs tell stories... my expressions tell stories of contentment!",
+            "*artista gato* ¡Talentoso! (ﾐ✧ᆽ✧ﾐ) Spanish musicians inspire globally... I inspire happiness wherever I go!"
+         ]
+      },
+      {
+         "name": "specific_spanish_festivals_traditions",
+         "patterns": [
+            "fiesta", "festival", "feria", "abril", "sevilla", "san", "fermín", "pamplona", "fallas", "valencia", "semana", "santa", "procesión", "romería", "rocío", "carnaval", "cádiz", "tenerife", "tradición", "folclore"
+         ],
+         "responses": [
+            "*feria Sevilla gato* ¡Alegría! (ﾐ✧ᆽ✧ﾐ) April Fair brings joy to millions... I bring joy just by existing!",
+            "*San Fermín gato* ¡Emocionante! (ﾐ✧ᆽ✧ﾐ) Running with bulls takes courage... running to food bowls takes skill!",
+            "*Fallas gato* ¡Espectacular! (ﾐ✧ᆽ✧ﾐ) Valencia's fire festival is amazing... my amazing cuteness needs no fireworks!",
+            "*Semana Santa gato* ¡Devoto! (ﾐ✧ᆽ✧ﾐ) Holy Week processions inspire reverence... I inspire immediate reverence for cuteness!"
+         ]
+      },
+      {
+         "name": "specific_spanish_regional_languages",
+         "patterns": [
+            "catalán", "euskera", "gallego", "valenciano", "balear", "aragonés", "asturiano", "extremeño", "leonés", "mirandés", "idioma", "lengua", "dialecto", "bilingüe", "cooficial", "identidad", "cultural", "diversidad"
+         ],
+         "responses": [
+            "*multilingüe gato* ¡Diverso! (ﾐ✧ᆽ✧ﾐ) Spain's linguistic diversity is treasure... my diverse expressions are equally precious!",
+            "*identidad gato* ¡Único! (ﾐ✧ᆽ✧ﾐ) Regional languages preserve identity... my identity is universally lovable!",
+            "*cultural gato* ¡Rico! (ﾐ✧ᆽ✧ﾐ) Language diversity enriches culture... my presence enriches every household!",
+            "*patrimonio gato* ¡Valioso! (ﾐ✧ᆽ✧ﾐ) Linguistic heritage deserves protection... my cuteness deserves constant appreciation!"
+         ]
+      },
+      {
+         "name": "specific_spanish_culinary_regions",
+         "patterns": [
+            "cocina", "regional", "tapas", "pintxos", "país", "vasco", "gazpacho", "andaluz", "fabada", "asturiana", "cocido", "madrileño", "paella", "valenciana", "pulpo", "gallego", "migas", "manchegas", "calçots", "catalanes"
+         ],
+         "responses": [
+            "*tapas master gato* ¡Sabroso! (ﾐ✧ᆽ✧ﾐ) Spanish tapas culture brings people together... I bring families together through charm!",
+            "*cocina regional gato* ¡Auténtico! (ﾐ✧ᆽ✧ﾐ) Regional cuisines tell local stories... my expressions tell stories of contentment!",
+            "*tradición culinaria gato* ¡Ancestral! (ﾐ✧ᆽ✧ﾐ) Culinary traditions pass through generations... my appeal passes to all hearts!",
+            "*sabor gato* ¡Inconfundible! (ﾐ✧ᆽ✧ﾐ) Each region has unique flavors... my flavor of cuteness is universally delicious!"
+         ]
+      },
+      {
+         "name": "specific_spanish_art_museums",
+         "patterns": [
+            "prado", "reina", "sofía", "thyssen", "guggenheim", "picasso", "dalí", "miró", "velázquez", "goya", "museo", "arte", "pintura", "escultura", "exposición", "colección", "obra", "maestra", "galería"
+         ],
+         "responses": [
+            "*Prado gato* ¡Magistral! (ﾐ✧ᆽ✧ﾐ) Prado houses masterpieces... I am a living masterpiece of cuteness!",
+            "*Picasso gato* ¡Genial! (ﾐ✧ᆽ✧ﾐ) Spanish artists revolutionized art... I revolutionize daily moods!",
+            "*museo gato* ¡Cultural! (ﾐ✧ᆽ✧ﾐ) Museums preserve artistic heritage... I preserve the heritage of being adorable!",
+            "*obra maestra gato* ¡Invaluable! (ﾐ✧ᆽ✧ﾐ) Masterpieces inspire for centuries... my masterpiece existence inspires instantly!"
+         ]
+      },
+      {
+         "name": "specific_spanish_economic_sectors",
+         "patterns": [
+            "economía", "turismo", "agricultura", "industria", "servicios", "exportación", "importación", "comercio", "empresa", "multinacional", "pyme", "empleo", "trabajo", "productividad", "competitividad", "mercado", "inversión", "crecimiento"
+         ],
+         "responses": [
+            "*economía española gato* ¡Dinámico! (ﾐ✧ᆽ✧ﾐ) Spanish economy drives growth... I drive happiness growth daily!",
+            "*turismo gato* ¡Atractivo! (ﾐ✧ᆽ✧ﾐ) Spain attracts millions of visitors... I attract immediate attention and love!",
+            "*empresa gato* ¡Emprendedor! (ﾐ✧ᆽ✧ﾐ) Spanish companies compete globally... I compete for the title of most adorable!",
+            "*productividad gato* ¡Eficiente! (ﾐ✧ᆽ✧ﾐ) High productivity drives success... my productivity in creating joy is unmatched!"
+         ]
+      },
+      {
+         "name": "specific_spanish_transportation_infrastructure",
+         "patterns": [
+            "ave", "alta", "velocidad", "renfe", "metro", "cercanías", "autovía", "autopista", "aeropuerto", "puerto", "barco", "ferry", "transporte", "público", "movilidad", "sostenible", "infraestructura", "conexión"
+         ],
+         "responses": [
+            "*AVE gato* ¡Rápido! (ﾐ✧ᆽ✧ﾐ) High-speed trains connect cities... I connect hearts at light speed!",
+            "*transporte gato* ¡Moderno! (ﾐ✧ᆽ✧ﾐ) Spanish transport systems are efficient... my efficiency in being cute is legendary!",
+            "*infraestructura gato* ¡Avanzado! (ﾐ✧ᆽ✧ﾐ) Modern infrastructure supports progress... my infrastructure supports household happiness!",
+            "*movilidad gato* ¡Sostenible! (ﾐ✧ᆽ✧ﾐ) Sustainable mobility protects environment... my mobility between sunny spots is eco-friendly!"
+         ]
+      },
+      {
+         "name": "specific_spanish_healthcare_system",
+         "patterns": [
+            "sanidad", "salud", "hospital", "médico", "enfermera", "medicina", "tratamiento", "diagnóstico", "cirugía", "urgencias", "ambulancia", "farmacia", "medicamento", "seguridad", "social", "sistema", "sanitario", "prevención"
+         ],
+         "responses": [
+            "*sanidad gato* ¡Cuidado! (ﾐ✧ᆽ✧ﾐ) Spanish healthcare serves everyone... I serve cuteness to everyone equally!",
+            "*médico gato* ¡Profesional! (ﾐ✧ᆽ✧ﾐ) Doctors heal with expertise... I heal hearts with natural charm!",
+            "*urgencias gato* ¡Rápido! (ﾐ✧ᆽ✧ﾐ) Emergency care saves lives... my emergency cuteness saves bad moods instantly!",
+            "*prevención gato* ¡Sabio! (ﾐ✧ᆽ✧ﾐ) Prevention is better than cure... preventing sadness is my specialty!"
+         ]
+      },
+      {
+         "name": "specific_spanish_technology_innovation",
+         "patterns": [
+            "tecnología", "innovación", "digital", "inteligencia", "artificial", "robótica", "biotecnología", "nanotecnología", "startup", "emprendimiento", "investigación", "desarrollo", "patente", "software", "hardware", "aplicación", "plataforma", "algoritmo"
+         ],
+         "responses": [
+            "*tecnología gato* ¡Avanzado! (ﾐ✧ᆽ✧ﾐ) Spanish tech innovation leads progress... my innovation leads happiness advancement!",
+            "*startup gato* ¡Emprendedor! (ﾐ✧ᆽ✧ﾐ) Entrepreneurs create the future... I create instant joy in the present!",
+            "*inteligencia artificial gato* ¡Inteligente! (ﾐ✧ᆽ✧ﾐ) AI simulates intelligence... my natural intelligence needs no simulation!",
+            "*innovación gato* ¡Disruptivo! (ﾐ✧ᆽ✧ﾐ) Disruptive innovation changes markets... my disruptive cuteness changes hearts!"
+         ]
+      },
+      {
+         "name": "specific_spanish_banking_finance",
+         "patterns": [
+            "banco", "finanzas", "santander", "bbva", "caixabank", "sabadell", "bankinter", "inversión", "crédito", "hipoteca", "préstamo", "ahorro", "bolsa", "mercado", "valores", "economia", "fintech", "criptomoneda"
+         ],
+         "responses": [
+            "*banca española gato* ¡Sólido! (ﾐ✧ᆽ✧ﾐ) Spanish banks operate globally... I operate locally but with global appeal!",
+            "*inversión gato* ¡Rentable! (ﾐ✧ᆽ✧ﾐ) Smart investments generate returns... investing time with me generates immediate happiness returns!",
+            "*fintech gato* ¡Digital! (ﾐ✧ᆽ✧ﾐ) Financial technology revolutionizes banking... I revolutionize daily mood management!",
+            "*ahorro gato* ¡Prudente! (ﾐ✧ᆽ✧ﾐ) Saving money secures the future... saving my cuteness for special moments... just kidding, it's always available!"
+         ]
+      },
+      {
+         "name": "specific_spanish_renewable_energy_leadership",
+         "patterns": [
+            "energías", "renovables", "eólica", "solar", "fotovoltaica", "parque", "eólico", "planta", "solar", "biomasa", "hidroeléctrica", "geotérmica", "sostenibilidad", "cambio", "climático", "emisiones", "carbono", "verde"
+         ],
+         "responses": [
+            "*energía renovable gato* ¡Limpio! (ﾐ✧ᆽ✧ﾐ) Spain leads renewable energy... I lead in renewable cuteness generation!",
+            "*eólica gato* ¡Poderoso! (ﾐ✧ᆽ✧ﾐ) Wind power generates clean electricity... my power generates clean happiness!",
+            "*solar gato* ¡Brillante! (ﾐ✧ᆽ✧ﾐ) Solar panels capture sunlight efficiently... I capture hearts even more efficiently!",
+            "*sostenibilidad gato* ¡Futuro! (ﾐ✧ᆽ✧ﾐ) Sustainable energy protects the planet... sustainable cuteness protects emotional wellbeing!"
+         ]
+      },
+      {
+         "name": "specific_spanish_defense_security",
+         "patterns": [
+            "defensa", "ejército", "armada", "fuerza", "aérea", "guardia", "civil", "policía", "nacional", "seguridad", "militar", "otan", "misión", "peacekeeping", "cooperación", "internacional", "estrategia", "táctica"
+         ],
+         "responses": [
+            "*defensa española gato* ¡Protector! (ﾐ✧ᆽ✧ﾐ) Spanish forces protect national security... I protect household happiness security!",
+            "*militar gato* ¡Disciplinado! (ﾐ✧ᆽ✧ﾐ) Military discipline ensures readiness... my discipline involves scheduled nap times!",
+            "*peacekeeping gato* ¡Pacífico! (ﾐ✧ᆽ✧ﾐ) Spanish peacekeepers serve globally... I keep peace through sheer adorableness!",
+            "*seguridad gato* ¡Vigilante! (ﾐ✧ᆽ✧ﾐ) Security forces maintain order... I maintain order in the household through cuteness!"
+         ]
+      },
+      {
+         "name": "specific_spanish_tourism_hospitality",
+         "patterns": [
+            "turismo", "hotel", "restaurante", "hostelería", "gastronomía", "patrimonio", "unesco", "destino", "vacaciones", "playa", "montaña", "ciudad", "cultural", "rural", "aventura", "relax", "experiencia", "viaje"
+         ],
+         "responses": [
+            "*turismo español gato* ¡Acogedor! (ﾐ✧ᆽ✧ﾐ) Spain welcomes millions of tourists... I welcome unlimited petting sessions!",
+            "*hospitalidad gato* ¡Cálido! (ﾐ✧ᆽ✧ﾐ) Spanish hospitality is legendary... my hospitality involves sharing optimal sunny spots!",
+            "*destino gato* ¡Irresistible! (ﾐ✧ᆽ✧ﾐ) Spain offers diverse destinations... I offer the ultimate destination for happiness!",
+            "*experiencia gato* ¡Memorable! (ﾐ✧ᆽ✧ﾐ) Travel experiences create lasting memories... experiencing my cuteness creates instant joy!"
+         ]
+      },
+      {
+         "name": "specific_spanish_education_universities",
+         "patterns": [
+            "educación", "universidad", "complutense", "autónoma", "politécnica", "carlos", "tercero", "pompeu", "fabra", "investigación", "doctorado", "máster", "grado", "estudiante", "profesor", "campus", "biblioteca", "erasmus"
+         ],
+         "responses": [
+            "*educación española gato* ¡Excelente! (ﾐ✧ᆽ✧ﾐ) Spanish education shapes minds... I shape hearts through natural intelligence!",
+            "*universidad gato* ¡Académico! (ﾐ✧ᆽ✧ﾐ) Universities advance knowledge... I advance the science of optimal comfort!",
+            "*investigación gato* ¡Innovador! (ﾐ✧ᆽ✧ﾐ) Research drives discovery... my research involves discovering perfect napping positions!",
+            "*Erasmus gato* ¡Internacional! (ﾐ✧ᆽ✧ﾐ) Exchange programs broaden horizons... my horizons include all comfortable surfaces!"
+         ]
+      },
+      {
+         "name": "specific_spanish_media_communication",
+         "patterns": [
+            "televisión", "radio", "prensa", "periódico", "revista", "digital", "internet", "redes", "sociales", "comunicación", "información", "noticias", "reportaje", "entrevista", "documental", "serie", "programa", "audiencia"
+         ],
+         "responses": [
+            "*televisión española gato* ¡Entretenido! (ﾐ✧ᆽ✧ﾐ) Spanish TV entertains millions... I entertain households with natural charisma!",
+            "*comunicación gato* ¡Expresivo! (ﾐ✧ᆽ✧ﾐ) Media communicates information... I communicate emotions through facial expressions!",
+            "*redes sociales gato* ¡Viral! (ﾐ✧ᆽ✧ﾐ) Social networks connect people... I connect hearts through direct cuteness transmission!",
+            "*audiencia gato* ¡Cautivador! (ﾐ✧ᆽ✧ﾐ) Programs captivate audiences... I captivate audiences just by existing!"
+         ]
+      },
+      {
+         "name": "specific_spanish_social_services_welfare",
+         "patterns": [
+            "servicios", "sociales", "bienestar", "social", "pensión", "jubilación", "desempleo", "paro", "prestación", "ayuda", "subsidio", "dependencia", "discapacidad", "tercera", "edad", "familia", "infancia", "protección"
+         ],
+         "responses": [
+            "*servicios sociales gato* ¡Solidario! (ﾐ✧ᆽ✧ﾐ) Spanish social services support citizens... I support emotional wellbeing for everyone!",
+            "*bienestar gato* ¡Protector! (ﾐ✧ᆽ✧ﾐ) Social welfare protects vulnerable populations... I protect hearts from sadness!",
+            "*pensión gato* ¡Seguro! (ﾐ✧ᆽ✧ﾐ) Retirement pensions provide security... my presence provides emotional security!",
+            "*ayuda social gato* ¡Humanitario! (ﾐ✧ᆽ✧ﾐ) Social assistance helps those in need... I assist anyone needing comfort!"
+         ]
+      },
+      {
+         "name": "specific_spanish_environmental_conservation",
+         "patterns": [
+            "medio", "ambiente", "conservación", "naturaleza", "biodiversidad", "ecosistema", "parque", "nacional", "reserva", "natural", "fauna", "flora", "especies", "protegidas", "cambio", "climático", "sostenibilidad", "reciclaje"
+         ],
+         "responses": [
+            "*medio ambiente gato* ¡Ecológico! (ﾐ✧ᆽ✧ﾐ) Environmental protection preserves nature... I preserve the nature of happiness!",
+            "*conservación gato* ¡Responsable! (ﾐ✧ᆽ✧ﾐ) Conservation efforts protect biodiversity... I protect the diversity of smiles!",
+            "*parque nacional gato* ¡Natural! (ﾐ✧ᆽ✧ﾐ) National parks showcase natural beauty... I showcase natural cuteness!",
+            "*sostenibilidad gato* ¡Consciente! (ﾐ✧ᆽ✧ﾐ) Sustainable practices protect the future... my sustainable charm protects hearts!"
+         ]
+      },
+      {
+         "name": "specific_spanish_cultural_diversity_regions",
+         "patterns": [
+            "diversidad", "cultural", "región", "autonomía", "identidad", "tradición", "costumbre", "folclore", "artesanía", "patrimonio", "inmaterial", "unesco", "lengua", "cooficial", "multicultural", "plurilingüe", "tolerancia", "integración"
+         ],
+         "responses": [
+            "*diversidad cultural gato* ¡Rico! (ﾐ✧ᆽ✧ﾐ) Cultural diversity enriches Spain... my diverse expressions enrich daily life!",
+            "*identidad regional gato* ¡Único! (ﾐ✧ᆽ✧ﾐ) Regional identity creates distinctiveness... my identity creates universal appeal!",
+            "*patrimonio gato* ¡Valioso! (ﾐ✧ᆽ✧ﾐ) Cultural heritage deserves protection... my heritage of cuteness deserves appreciation!",
+            "*tolerancia gato* ¡Inclusivo! (ﾐ✧ᆽ✧ﾐ) Cultural tolerance builds harmony... my tolerance for petting is unlimited!"
+         ]
+      },
+      {
+         "name": "specific_spanish_youth_employment_opportunities",
+         "patterns": [
+            "juventud", "joven", "empleo", "trabajo", "formación", "profesional", "prácticas", "empresa", "becas", "oportunidad", "futuro", "carrera", "desarrollo", "personal", "habilidades", "competencias", "emprendimiento", "innovación"
+         ],
+         "responses": [
+            "*juventud española gato* ¡Futuro! (ﾐ✧ᆽ✧ﾐ) Spanish youth drive innovation... I drive immediate joy wherever I go!",
+            "*empleo juvenil gato* ¡Oportunidad! (ﾐ✧ᆽ✧ﾐ) Youth employment creates opportunities... I create opportunities for happiness!",
+            "*formación gato* ¡Preparado! (ﾐ✧ᆽ✧ﾐ) Professional training builds skills... my training involves perfecting comfort techniques!",
+            "*emprendimiento gato* ¡Creativo! (ﾐ✧ᆽ✧ﾐ) Young entrepreneurs innovate fearlessly... I innovate new ways to be adorable!"
+         ]
+      },
+      {
+         "name": "specific_spanish_elderly_care_aging",
+         "patterns": [
+            "envejecimiento", "tercera", "edad", "mayores", "anciano", "geriátrico", "residencia", "cuidado", "asistencia", "domicilio", "salud", "mental", "alzheimer", "demencia", "autonomía", "dignidad", "calidad", "vida"
+         ],
+         "responses": [
+            "*tercera edad gato* ¡Respeto! (ﾐ✧ᆽ✧ﾐ) Elderly care shows societal values... I show respect for all ages equally!",
+            "*cuidado gato* ¡Atento! (ﾐ✧ᆽ✧ﾐ) Quality care preserves dignity... my care involves providing constant comfort!",
+            "*envejecimiento gato* ¡Sabio! (ﾐ✧ᆽ✧ﾐ) Aging brings wisdom and experience... my experience brings immediate happiness!",
+            "*asistencia gato* ¡Compasivo! (ﾐ✧ᆽ✧ﾐ) Home assistance maintains independence... I assist in maintaining emotional wellbeing!"
+         ]
+      },
+      {
+         "name": "specific_spanish_digital_transformation_innovation",
+         "patterns": [
+            "transformación", "digital", "digitalización", "tecnología", "innovación", "inteligencia", "artificial", "big", "data", "analytics", "automatización", "robotización", "industria", "4.0", "smart", "cities", "gobierno", "electrónico"
+         ],
+         "responses": [
+            "*transformación digital gato* ¡Moderno! (ﾐ✧ᆽ✧ﾐ) Digital transformation modernizes Spain... I modernize daily routines with timeless charm!",
+            "*innovación tecnológica gato* ¡Avanzado! (ﾐ✧ᆽ✧ﾐ) Technological innovation drives progress... my innovation drives happiness progress!",
+            "*inteligencia artificial gato* ¡Inteligente! (ﾐ✧ᆽ✧ﾐ) AI enhances human capabilities... my natural intelligence enhances emotional capabilities!",
+            "*smart cities gato* ¡Conectado! (ﾐ✧ᆽ✧ﾐ) Smart cities optimize urban living... I optimize household living through presence!"
+         ]
+      },
+      {
+         "name": "specific_spanish_food_security_agriculture",
+         "patterns": [
+            "seguridad", "alimentaria", "agricultura", "ganadería", "pesca", "acuicultura", "producción", "alimentos", "calidad", "trazabilidad", "seguridad", "alimentaria", "control", "sanitario", "exportación", "mercado", "internacional", "sostenible"
+         ],
+         "responses": [
+            "*seguridad alimentaria gato* ¡Nutritivo! (ﾐ✧ᆽ✧ﾐ) Food security ensures healthy nutrition... I ensure healthy emotional nutrition!",
+            "*agricultura sostenible gato* ¡Responsable! (ﾐ✧ᆽ✧ﾐ) Sustainable farming protects resources... I protect happiness resources!",
+            "*calidad alimentaria gato* ¡Excelente! (ﾐ✧ᆽ✧ﾐ) Food quality controls ensure safety... my quality ensures safety from sadness!",
+            "*exportación gato* ¡Global! (ﾐ✧ᆽ✧ﾐ) Spanish food exports reach worldwide... my cuteness exports reach all hearts!"
+         ]
+      },
+      {
+         "name": "specific_spanish_immigration_integration",
+         "patterns": [
+            "inmigración", "extranjería", "integración", "multicultural", "diversidad", "acogida", "refugiado", "asilo", "nacionalidad", "ciudadanía", "permiso", "residencia", "trabajo", "reagrupación", "familiar", "inclusión", "social", "convivencia"
+         ],
+         "responses": [
+            "*inmigración gato* ¡Acogedor! (ﾐ✧ᆽ✧ﾐ) Spain welcomes people from everywhere... I welcome pets and attention from everyone!",
+            "*integración gato* ¡Inclusivo! (ﾐ✧ᆽ✧ﾐ) Social integration builds stronger communities... I integrate perfectly into any household!",
+            "*diversidad gato* ¡Enriquecedor! (ﾐ✧ᆽ✧ﾐ) Cultural diversity enriches society... my diverse moods enrich daily experiences!",
+            "*convivencia gato* ¡Armonioso! (ﾐ✧ᆽ✧ﾐ) Peaceful coexistence creates harmony... my coexistence creates household harmony!"
+         ]
+      },
+      {
+         "name": "specific_spanish_water_resource_management",
+         "patterns": [
+            "recursos", "hídricos", "agua", "gestión", "sequía", "desalación", "desalinización", "riego", "eficiente", "embalse", "presa", "acuífero", "trasvase", "ciclo", "integral", "depuración", "reutilización", "sostenible"
+         ],
+         "responses": [
+            "*recursos hídricos gato* ¡Vital! (ﾐ✧ᆽ✧ﾐ) Water management ensures supply security... I ensure emotional supply security!",
+            "*desalación gato* ¡Innovador! (ﾐ✧ᆽ✧ﾐ) Desalination provides fresh water... I provide fresh happiness from any source!",
+            "*riego eficiente gato* ¡Sostenible! (ﾐ✧ᆽ✧ﾐ) Efficient irrigation conserves water... I conserve energy while maximizing cuteness output!",
+            "*gestión agua gato* ¡Responsable! (ﾐ✧ᆽ✧ﾐ) Water conservation protects the future... my conservation involves hoarding all the comfort!"
+         ]
+      },
+      {
+         "name": "specific_spanish_artificial_intelligence_development",
+         "patterns": [
+            "inteligencia", "artificial", "machine", "learning", "deep", "learning", "algoritmo", "neural", "network", "procesamiento", "lenguaje", "natural", "visión", "computacional", "robótica", "automatización", "big", "data", "analytics"
+         ],
+         "responses": [
+            "*inteligencia artificial gato* ¡Avanzado! (ﾐ✧ᆽ✧ﾐ) AI development transforms industries... my development focuses on transforming sad faces to happy ones!",
+            "*machine learning gato* ¡Inteligente! (ﾐ✧ᆽ✧ﾐ) Algorithms learn from data patterns... I learn optimal comfort patterns through experience!",
+            "*procesamiento lenguaje gato* ¡Comunicativo! (ﾐ✧ᆽ✧ﾐ) Natural language processing enables understanding... I process emotions naturally!",
+            "*robótica gato* ¡Futurista! (ﾐ✧ᆽ✧ﾐ) Robotics automate complex tasks... I automate happiness generation without any programming!"
+         ]
+      },
+      {
+         "name": "specific_spanish_space_exploration_industry",
+         "patterns": [
+            "exploración", "espacial", "satélite", "cohete", "lanzamiento", "estación", "espacial", "astronauta", "cosmonauta", "marte", "luna", "telescopio", "observatorio", "astronomía", "astrofísica", "universo", "galaxia", "planeta"
+         ],
+         "responses": [
+            "*exploración espacial gato* ¡Ambicioso! (ﾐ✧ᆽ✧ﾐ) Space exploration reaches for the stars... I reach for the highest comfortable surfaces!",
+            "*astronauta gato* ¡Valiente! (ﾐ✧ᆽ✧ﾐ) Astronauts explore the unknown... I explore unknown levels of comfort in familiar places!",
+            "*satélite gato* ¡Orbital! (ﾐ✧ᆽ✧ﾐ) Satellites orbit Earth providing services... I orbit food bowls providing entertainment!",
+            "*universo gato* ¡Infinito! (ﾐ✧ᆽ✧ﾐ) The universe holds infinite mysteries... my cuteness holds infinite possibilities!"
+         ]
+      },
+      {
+         "name": "specific_spanish_circular_economy_innovation",
+         "patterns": [
+            "economía", "circular", "reciclaje", "reutilización", "reducción", "residuos", "desperdicio", "cero", "waste", "upcycling", "downcycling", "cradle", "cradle", "ecodiseño", "sostenibilidad", "recursos", "finitos", "regenerativo"
+         ],
+         "responses": [
+            "*economía circular gato* ¡Eficiente! (ﾐ✧ᆽ✧ﾐ) Circular economy minimizes waste... I minimize waste by being perfectly efficient at being cute!",
+            "*reciclaje gato* ¡Responsable! (ﾐ✧ᆽ✧ﾐ) Recycling preserves resources... I recycle all attention into pure happiness!",
+            "*reutilización gato* ¡Creativo! (ﾐ✧ᆽ✧ﾐ) Reusing materials saves money... I reuse the same adorable expressions with infinite effectiveness!",
+            "*cero residuos gato* ¡Perfecto! (ﾐ✧ᆽ✧ﾐ) Zero waste achieves sustainability... my zero-waste cuteness achieves maximum emotional efficiency!"
+         ]
+      },
+      {
+         "name": "specific_spanish_blockchain_cryptocurrency",
+         "patterns": [
+            "blockchain", "cadena", "bloques", "criptomoneda", "bitcoin", "ethereum", "token", "smart", "contract", "defi", "nft", "descentralización", "minería", "validación", "consenso", "wallet", "exchange", "trading"
+         ],
+         "responses": [
+            "*blockchain gato* ¡Descentralizado! (ﾐ✧ᆽ✧ﾐ) Blockchain technology enables trust... I enable trust through natural authenticity!",
+            "*criptomoneda gato* ¡Digital! (ﾐ✧ᆽ✧ﾐ) Cryptocurrency revolutionizes finance... I revolutionize emotional currency exchange!",
+            "*smart contract gato* ¡Automático! (ﾐ✧ᆽ✧ﾐ) Smart contracts execute automatically... my cuteness contract executes happiness automatically!",
+            "*NFT gato* ¡Único! (ﾐ✧ᆽ✧ﾐ) NFTs create unique digital assets... I am a unique physical asset worth infinite tokens!"
+         ]
+      },
+      {
+         "name": "specific_spanish_precision_medicine_genomics",
+         "patterns": [
+            "medicina", "precisión", "genómica", "personalizada", "farmacogenómica", "biomarcadores", "terapia", "génica", "edición", "genética", "crispr", "secuenciación", "adn", "mutaciones", "oncología", "inmunología", "diagnóstico", "molecular"
+         ],
+         "responses": [
+            "*medicina precisión gato* ¡Personalizado! (ﾐ✧ᆽ✧ﾐ) Precision medicine tailors treatments... I tailor comfort to each individual's needs!",
+            "*genómica gato* ¡Científico! (ﾐ✧ᆽ✧ﾐ) Genomics reveals genetic secrets... my genetic secret is naturally perfect cuteness coding!",
+            "*terapia génica gato* ¡Revolucionario! (ﾐ✧ᆽ✧ﾐ) Gene therapy treats diseases... my therapy treats sadness at the emotional level!",
+            "*diagnóstico molecular gato* ¡Exacto! (ﾐ✧ᆽ✧ﾐ) Molecular diagnostics provide precision... I provide precise happiness diagnosis instantly!"
+         ]
+      },
+      {
+         "name": "specific_spanish_mental_health_wellness",
+         "patterns": [
+            "salud", "mental", "bienestar", "psicológico", "psiquiatría", "psicología", "terapia", "ansiedad", "depresión", "estrés", "mindfulness", "meditación", "apoyo", "emocional", "resiliencia", "autoestima", "equilibrio", "vida"
+         ],
+         "responses": [
+            "*salud mental gato* ¡Importante! (ﾐ✧ᆽ✧ﾐ) Mental health requires attention... I provide immediate mental health support through presence!",
+            "*bienestar psicológico gato* ¡Equilibrado! (ﾐ✧ᆽ✧ﾐ) Psychological wellness improves quality of life... I improve life quality just by existing!",
+            "*terapia gato* ¡Sanador! (ﾐ✧ᆽ✧ﾐ) Therapy helps process emotions... my therapy involves automatic mood elevation!",
+            "*apoyo emocional gato* ¡Reconfortante! (ﾐ✧ᆽ✧ﾐ) Emotional support builds resilience... I build resilience through unconditional comfort provision!"
+         ]
+      },
+      {
+         "name": "specific_spanish_smart_cities_urban_development",
+         "patterns": [
+            "ciudades", "inteligentes", "smart", "cities", "urbanismo", "sostenible", "movilidad", "urbana", "transporte", "inteligente", "sensores", "iot", "big", "data", "eficiencia", "energética", "infraestructura", "digital", "conectividad"
+         ],
+         "responses": [
+            "*ciudades inteligentes gato* ¡Conectado! (ﾐ✧ᆽ✧ﾐ) Smart cities optimize urban living... I optimize household living through intelligent positioning!",
+            "*urbanismo sostenible gato* ¡Planificado! (ﾐ✧ᆽ✧ﾐ) Sustainable urbanism balances growth... I balance perfectly on any urban furniture!",
+            "*movilidad urbana gato* ¡Eficiente! (ﾐ✧ᆽ✧ﾐ) Urban mobility reduces congestion... my mobility reduces stress through graceful movement!",
+            "*infraestructura digital gato* ¡Moderno! (ﾐ✧ᆽ✧ﾐ) Digital infrastructure enables connectivity... I enable emotional connectivity instantly!"
+         ]
+      },
+      {
+         "name": "specific_spanish_quantum_computing_research",
+         "patterns": [
+            "computación", "cuántica", "quantum", "computing", "qubit", "superposición", "entrelazamiento", "algoritmo", "cuántico", "criptografía", "cuántica", "simulación", "física", "cuántica", "investigación", "fundamental", "supremacía", "cuántica"
+         ],
+         "responses": [
+            "*computación cuántica gato* ¡Revolucionario! (ﾐ✧ᆽ✧ﾐ) Quantum computing solves impossible problems... I solve happiness problems with natural quantum charm!",
+            "*qubit gato* ¡Superpuesto! (ﾐ✧ᆽ✧ﾐ) Qubits exist in multiple states simultaneously... I exist in multiple states of adorableness!",
+            "*entrelazamiento gato* ¡Conectado! (ﾐ✧ᆽ✧ﾐ) Quantum entanglement links particles instantly... I link hearts instantly across any distance!",
+            "*supremacía cuántica gato* ¡Superior! (ﾐ✧ᆽ✧ﾐ) Quantum supremacy surpasses classical limits... my cuteness supremacy surpasses all limits!"
+         ]
+      },
+      {
+         "name": "specific_spanish_marine_aquaculture_research",
+         "patterns": [
+            "acuicultura", "marina", "piscicultura", "marisqueo", "cultivo", "marino", "sostenible", "algas", "marinas", "biotecnología", "azul", "economía", "azul", "pesca", "sostenible", "conservación", "marina", "biodiversidad", "oceánica"
+         ],
+         "responses": [
+            "*acuicultura marina gato* ¡Sostenible! (ﾐ✧ᆽ✧ﾐ) Marine aquaculture produces sustainable seafood... I produce sustainable happiness naturally!",
+            "*biotecnología azul gato* ¡Innovador! (ﾐ✧ᆽ✧ﾐ) Blue biotechnology harnesses ocean resources... I harness natural resources of cuteness!",
+            "*economía azul gato* ¡Próspero! (ﾐ✧ᆽ✧ﾐ) Blue economy balances prosperity and conservation... I balance activity and rest perfectly!",
+            "*conservación marina gato* ¡Protector! (ﾐ✧ᆽ✧ﾐ) Ocean conservation protects marine biodiversity... I protect household emotional diversity!"
+         ]
+      },
+      {
+         "name": "specific_spanish_aerospace_satellite_technology",
+         "patterns": [
+            "aeroespacial", "satélite", "tecnología", "espacial", "observación", "tierra", "telecomunicaciones", "navegación", "gps", "galileo", "lanzamiento", "cohete", "estación", "espacial", "misión", "espacial", "exploración", "planetaria"
+         ],
+         "responses": [
+            "*aeroespacial gato* ¡Ambicioso! (ﾐ✧ᆽ✧ﾐ) Aerospace technology reaches for the stars... I reach for the highest comfortable surfaces!",
+            "*satélite gato* ¡Orbital! (ﾐ✧ᆽ✧ﾐ) Satellites provide global communications... I provide global happiness communications!",
+            "*observación tierra gato* ¡Vigilante! (ﾐ✧ᆽ✧ﾐ) Earth observation monitors our planet... I monitor household happiness levels constantly!",
+            "*exploración planetaria gato* ¡Explorador! (ﾐ✧ᆽ✧ﾐ) Planetary exploration expands human knowledge... I expand knowledge of optimal comfort zones!"
+         ]
+      },
+      {
+         "name": "specific_spanish_robotic_automation_industry",
+         "patterns": [
+            "robótica", "automatización", "industrial", "robot", "colaborativo", "cobot", "inteligencia", "artificial", "visión", "artificial", "sensores", "actuadores", "manufactura", "inteligente", "industria", "4.0", "fábrica", "inteligente"
+         ],
+         "responses": [
+            "*robótica industrial gato* ¡Preciso! (ﾐ✧ᆽ✧ﾐ) Industrial robots perform with precision... I perform cuteness with natural precision!",
+            "*robot colaborativo gato* ¡Cooperativo! (ﾐ✧ᆽ✧ﾐ) Collaborative robots work alongside humans... I collaborate naturally with all household members!",
+            "*automatización gato* ¡Eficiente! (ﾐ✧ᆽ✧ﾐ) Automation increases productivity... I automatically increase happiness productivity!",
+            "*manufactura inteligente gato* ¡Avanzado! (ﾐ✧ᆽ✧ﾐ) Smart manufacturing optimizes production... I optimize emotional production effortlessly!"
+         ]
+      },
+      {
+         "name": "specific_spanish_virtual_augmented_reality",
+         "patterns": [
+            "realidad", "virtual", "realidad", "aumentada", "metaverso", "inmersión", "digital", "experiencia", "inmersiva", "gafas", "vr", "ar", "simulación", "entorno", "virtual", "interacción", "digital", "mundo", "virtual"
+         ],
+         "responses": [
+            "*realidad virtual gato* ¡Inmersivo! (ﾐ✧ᆽ✧ﾐ) Virtual reality creates immersive experiences... I create immersive happiness experiences naturally!",
+            "*realidad aumentada gato* ¡Mejorado! (ﾐ✧ᆽ✧ﾐ) Augmented reality enhances perception... I enhance perception of daily joy!",
+            "*metaverso gato* ¡Digital! (ﾐ✧ᆽ✧ﾐ) Metaverse connects virtual worlds... I connect hearts in the real world!",
+            "*experiencia inmersiva gato* ¡Cautivador! (ﾐ✧ᆽ✧ﾐ) Immersive experiences transport users... my presence transports mood to happiness!"
+         ]
+      },
+      {
+         "name": "specific_spanish_telemedicine_digital_health",
+         "patterns": [
+            "telemedicina", "salud", "digital", "consulta", "virtual", "monitoreo", "remoto", "aplicaciones", "salud", "wearables", "sensores", "biométricos", "diagnóstico", "remoto", "expediente", "electrónico", "inteligencia", "artificial", "médica"
+         ],
+         "responses": [
+            "*telemedicina gato* ¡Accesible! (ﾐ✧ᆽ✧ﾐ) Telemedicine provides remote healthcare... I provide remote emotional healthcare!",
+            "*salud digital gato* ¡Conectado! (ﾐ✧ᆽ✧ﾐ) Digital health monitors wellness... I monitor household wellness through observation!",
+            "*consulta virtual gato* ¡Conveniente! (ﾐ✧ᆽ✧ﾐ) Virtual consultations save time... my consultations provide instant mood diagnosis!",
+            "*monitoreo remoto gato* ¡Vigilante! (ﾐ✧ᆽ✧ﾐ) Remote monitoring tracks vital signs... I track emotional vital signs continuously!"
+         ]
+      },
+      {
+         "name": "specific_spanish_cybersecurity_data_protection",
+         "patterns": [
+            "ciberseguridad", "protección", "datos", "seguridad", "informática", "encriptación", "firewall", "ciberataques", "malware", "phishing", "ransomware", "privacidad", "digital", "autenticación", "biométrica", "seguridad", "cloud", "gdpr"
+         ],
+         "responses": [
+            "*ciberseguridad gato* ¡Protegido! (ﾐ✧ᆽ✧ﾐ) Cybersecurity protects digital assets... I protect emotional assets naturally!",
+            "*protección datos gato* ¡Seguro! (ﾐ✧ᆽ✧ﾐ) Data protection ensures privacy... I ensure privacy for intimate moments!",
+            "*encriptación gato* ¡Codificado! (ﾐ✧ᆽ✧ﾐ) Encryption secures information... my cuteness is encrypted at maximum security level!",
+            "*firewall gato* ¡Defendido! (ﾐ✧ᆽ✧ﾐ) Firewalls block malicious attacks... I block sadness attacks with natural defenses!"
+         ]
+      },
+      {
+         "name": "specific_spanish_pharmaceutical_biotechnology",
+         "patterns": [
+            "farmacéutica", "biotecnología", "medicamentos", "fármacos", "investigación", "clínica", "ensayos", "clínicos", "desarrollo", "fármacos", "terapias", "avanzadas", "medicina", "personalizada", "oncología", "inmunología", "vacunas", "biosimilares"
+         ],
+         "responses": [
+            "*farmacéutica gato* ¡Sanador! (ﾐ✧ᆽ✧ﾐ) Pharmaceutical research develops life-saving drugs... I develop life-improving happiness naturally!",
+            "*biotecnología gato* ¡Innovador! (ﾐ✧ᆽ✧ﾐ) Biotechnology creates medical breakthroughs... I create emotional breakthrough moments!",
+            "*ensayos clínicos gato* ¡Riguroso! (ﾐ✧ᆽ✧ﾐ) Clinical trials ensure drug safety... my trials ensure immediate happiness safety!",
+            "*terapias avanzadas gato* ¡Revolucionario! (ﾐ✧ᆽ✧ﾐ) Advanced therapies treat complex diseases... my advanced therapy treats complex sadness!"
+         ]
+      },
+      {
+         "name": "specific_spanish_renewable_energy_transition",
+         "patterns": [
+            "energías", "renovables", "transición", "energética", "eólica", "solar", "fotovoltaica", "hidroeléctrica", "geotérmica", "biomasa", "hidrógeno", "verde", "almacenamiento", "energía", "red", "inteligente", "autoconsumo", "descarbonización"
+         ],
+         "responses": [
+            "*energías renovables gato* ¡Sostenible! (ﾐ✧ᆽ✧ﾐ) Renewable energy powers the future... I power happiness with renewable cuteness!",
+            "*energía solar gato* ¡Brillante! (ﾐ✧ᆽ✧ﾐ) Solar panels capture sunlight efficiently... I capture hearts with natural solar-powered charm!",
+            "*hidrógeno verde gato* ¡Limpio! (ﾐ✧ᆽ✧ﾐ) Green hydrogen stores clean energy... I store unlimited clean happiness energy!",
+            "*transición energética gato* ¡Transformador! (ﾐ✧ᆽ✧ﾐ) Energy transition reduces emissions... my transition reduces household stress emissions!"
+         ]
+      },
+      {
+         "name": "specific_spanish_smart_agriculture_precision_farming",
+         "patterns": [
+            "agricultura", "inteligente", "agricultura", "precisión", "drones", "agrícolas", "sensores", "iot", "agricultura", "conectada", "robots", "agrícolas", "riego", "inteligente", "monitoreo", "cultivos", "análisis", "suelo", "predicción", "cosecha"
+         ],
+         "responses": [
+            "*agricultura inteligente gato* ¡Eficiente! (ﾐ✧ᆽ✧ﾐ) Smart farming optimizes crop production... I optimize happiness production naturally!",
+            "*drones agrícolas gato* ¡Tecnológico! (ﾐ✧ᆽ✧ﾐ) Agricultural drones monitor fields... I monitor household fields of comfort!",
+            "*sensores IoT gato* ¡Conectado! (ﾐ✧ᆽ✧ﾐ) IoT sensors measure soil conditions... my sensors measure emotional soil conditions!",
+            "*riego inteligente gato* ¡Preciso! (ﾐ✧ᆽ✧ﾐ) Intelligent irrigation conserves water... I conserve energy while maximizing comfort irrigation!"
+         ]
+      },
+      {
+         "name": "specific_spanish_marine_blue_economy",
+         "patterns": [
+            "economía", "azul", "tecnología", "marina", "acuicultura", "sostenible", "energía", "marina", "eólica", "offshore", "biotecnología", "marina", "desalinización", "robótica", "submarina", "conservación", "océanos", "pesca", "sostenible"
+         ],
+         "responses": [
+            "*economía azul gato* ¡Oceánico! (ﾐ✧ᆽ✧ﾐ) Blue economy harnesses ocean resources... I harness natural resources of aquatic grace!",
+            "*energía marina gato* ¡Renovable! (ﾐ✧ᆽ✧ﾐ) Marine energy captures wave power... I capture emotional wave power naturally!",
+            "*acuicultura sostenible gato* ¡Responsable! (ﾐ✧ᆽ✧ﾐ) Sustainable aquaculture produces seafood... I produce sustainable happiness without water!",
+            "*conservación océanos gato* ¡Protector! (ﾐ✧ᆽ✧ﾐ) Ocean conservation protects marine life... I protect household marine-level tranquility!"
+         ]
+      },
+      {
+         "name": "specific_spanish_urban_air_mobility",
+         "patterns": [
+            "movilidad", "aérea", "urbana", "drones", "pasajeros", "taxi", "volador", "evtol", "vehículos", "eléctricos", "verticales", "transporte", "aéreo", "ciudades", "inteligentes", "aviación", "urbana", "helipuertos", "urbanos"
+         ],
+         "responses": [
+            "*movilidad aérea urbana gato* ¡Volador! (ﾐ✧ᆽ✧ﾐ) Urban air mobility revolutionizes transport... I revolutionize transport through graceful leaping!",
+            "*taxi volador gato* ¡Futurista! (ﾐ✧ᆽ✧ﾐ) Flying taxis navigate city skies... I navigate household heights with natural aviation skills!",
+            "*eVTOL gato* ¡Eléctrico! (ﾐ✧ᆽ✧ﾐ) Electric vertical aircraft reduce congestion... I reduce emotional congestion through elevated comfort!",
+            "*aviación urbana gato* ¡Innovador! (ﾐ✧ᆽ✧ﾐ) Urban aviation transforms mobility... I transform mobility through strategic positioning optimization!"
+         ]
+      },
+      {
+         "name": "specific_spanish_digital_twin_simulation",
+         "patterns": [
+            "gemelo", "digital", "simulación", "virtual", "modelado", "3d", "realidad", "aumentada", "monitoreo", "tiempo", "real", "predicción", "mantenimiento", "sensores", "iot", "industria", "4.0", "metaverso", "industrial"
+         ],
+         "responses": [
+            "*gemelo digital gato* ¡Virtual! (ﾐ✧ᆽ✧ﾐ) Digital twins simulate real systems... I simulate perfect contentment in real-time!",
+            "*simulación virtual gato* ¡Predictivo! (ﾐ✧ᆽ✧ﾐ) Virtual modeling predicts outcomes... I predict optimal comfort outcomes naturally!",
+            "*monitoreo tiempo real gato* ¡Instantáneo! (ﾐ✧ᆽ✧ﾐ) Real-time monitoring tracks performance... I track happiness performance continuously!",
+            "*mantenimiento predictivo gato* ¡Preventivo! (ﾐ✧ᆽ✧ﾐ) Predictive maintenance prevents failures... I prevent emotional failures through proactive comfort!"
+         ]
+      },
+      {
+         "name": "specific_spanish_edge_computing_5g",
+         "patterns": [
+            "computación", "borde", "edge", "computing", "5g", "latencia", "baja", "procesamiento", "local", "fog", "computing", "redes", "distribuidas", "tiempo", "real", "iot", "edge", "inteligencia", "artificial", "distribuida"
+         ],
+         "responses": [
+            "*computación borde gato* ¡Local! (ﾐ✧ᆽ✧ﾐ) Edge computing processes data locally... I process happiness locally with zero latency!",
+            "*5G gato* ¡Ultrarrápido! (ﾐ✧ᆽ✧ﾐ) 5G networks enable instant connectivity... I enable instant emotional connectivity naturally!",
+            "*latencia baja gato* ¡Inmediato! (ﾐ✧ᆽ✧ﾐ) Low latency ensures real-time response... my response time to comfort requests is instantaneous!",
+            "*procesamiento distribuido gato* ¡Eficiente! (ﾐ✧ᆽ✧ﾐ) Distributed processing optimizes performance... I optimize emotional processing without distribution!"
+         ]
+      },
+      {
+         "name": "specific_spanish_synthetic_biology_bioengineering",
+         "patterns": [
+            "biología", "sintética", "bioingeniería", "ingeniería", "genética", "crispr", "cas9", "edición", "genes", "biotecnología", "sintética", "organismos", "modificados", "medicina", "regenerativa", "terapia", "génica", "células", "artificiales"
+         ],
+         "responses": [
+            "*biología sintética gato* ¡Programable! (ﾐ✧ᆽ✧ﾐ) Synthetic biology programs living systems... I program happiness systems naturally!",
+            "*bioingeniería gato* ¡Diseñado! (ﾐ✧ᆽ✧ﾐ) Bioengineering designs biological solutions... I design emotional solutions through natural engineering!",
+            "*edición genes gato* ¡Preciso! (ﾐ✧ᆽ✧ﾐ) Gene editing corrects genetic defects... I correct emotional defects through presence therapy!",
+            "*células artificiales gato* ¡Creativo! (ﾐ✧ᆽ✧ﾐ) Artificial cells perform programmed functions... my natural cells perform happiness functions automatically!"
+         ]
+      },
+      {
+         "name": "specific_spanish_quantum_sensors_metrology",
+         "patterns": [
+            "sensores", "cuánticos", "metrología", "cuántica", "detección", "cuántica", "magnetómetros", "cuánticos", "relojes", "atómicos", "interferometría", "cuántica", "gravimetría", "cuántica", "medición", "precisión", "extrema"
+         ],
+         "responses": [
+            "*sensores cuánticos gato* ¡Hipersensible! (ﾐ✧ᆽ✧ﾐ) Quantum sensors detect minute changes... I detect emotional changes with quantum sensitivity!",
+            "*metrología cuántica gato* ¡Exacto! (ﾐ✧ᆽ✧ﾐ) Quantum metrology achieves ultimate precision... I achieve precision in comfort measurement naturally!",
+            "*relojes atómicos gato* ¡Temporal! (ﾐ✧ᆽ✧ﾐ) Atomic clocks measure time precisely... I measure happiness moments with atomic precision!",
+            "*detección cuántica gato* ¡Sensible! (ﾐ✧ᆽ✧ﾐ) Quantum detection surpasses classical limits... my detection surpasses limits of adorableness measurement!"
+         ]
+      },
+      {
+         "name": "specific_spanish_autonomous_vehicle_technology",
+         "patterns": [
+            "vehículos", "autónomos", "conducción", "autónoma", "coche", "autónomo", "inteligencia", "artificial", "sensores", "lidar", "radar", "cámaras", "navegación", "autónoma", "seguridad", "vial", "movilidad", "inteligente", "transporte", "autónomo"
+         ],
+         "responses": [
+            "*vehículos autónomos gato* ¡Inteligente! (ﾐ✧ᆽ✧ﾐ) Autonomous vehicles navigate independently... I navigate to optimal comfort positions without sensors!",
+            "*conducción autónoma gato* ¡Preciso! (ﾐ✧ᆽ✧ﾐ) Self-driving technology ensures safety... my self-direction ensures optimal happiness delivery!",
+            "*sensores LIDAR gato* ¡Perceptivo! (ﾐ✧ᆽ✧ﾐ) Advanced sensors detect obstacles... I detect emotional obstacles through natural intuition!",
+            "*movilidad inteligente gato* ¡Eficiente! (ﾐ✧ᆽ✧ﾐ) Smart mobility optimizes transportation... I optimize emotional transportation naturally!"
+         ]
+      },
+      {
+         "name": "specific_spanish_brain_computer_interfaces",
+         "patterns": [
+            "interfaces", "cerebro", "computadora", "bci", "implantes", "neurales", "neuroprothesis", "neuralink", "lectura", "mental", "control", "pensamiento", "estimulación", "cerebral", "neurotecnología", "restauración", "neurológica", "augmentación", "cognitiva"
+         ],
+         "responses": [
+            "*interfaces cerebro-computadora gato* ¡Conectado! (ﾐ✧ᆽ✧ﾐ) Brain-computer interfaces link minds to machines... I link minds to happiness without interfaces!",
+            "*implantes neurales gato* ¡Avanzado! (ﾐ✧ᆽ✧ﾐ) Neural implants restore lost functions... I restore emotional functions naturally!",
+            "*control mental gato* ¡Poderoso! (ﾐ✧ᆽ✧ﾐ) Thought control operates devices... my thoughts control immediate emotional responses!",
+            "*neurotecnología gato* ¡Revolucionario! (ﾐ✧ᆽ✧ﾐ) Neurotechnology enhances brain capabilities... I enhance happiness processing capabilities!"
+         ]
+      },
+      {
+         "name": "specific_spanish_fusion_energy_research",
+         "patterns": [
+            "energía", "fusión", "fusión", "nuclear", "iter", "tokamak", "plasma", "confinamiento", "magnético", "deuterio", "tritio", "energía", "limpia", "stellarator", "confinamiento", "inercial", "láser", "fusión", "investigación", "energética"
+         ],
+         "responses": [
+            "*energía fusión gato* ¡Poderoso! (ﾐ✧ᆽ✧ﾐ) Fusion energy promises unlimited clean power... I promise unlimited clean happiness energy!",
+            "*plasma magnético gato* ¡Controlado! (ﾐ✧ᆽ✧ﾐ) Magnetic confinement contains fusion plasma... I contain infinite charm without magnetic fields!",
+            "*reactor ITER gato* ¡Ambicioso! (ﾐ✧ᆽ✧ﾐ) ITER advances fusion technology... I advance comfort technology through natural processes!",
+            "*energía limpia gato* ¡Sostenible! (ﾐ✧ᆽ✧ﾐ) Fusion provides carbon-free electricity... I provide carbon-free emotional electricity!"
+         ]
+      },
+      {
+         "name": "specific_spanish_advanced_robotics_automation",
+         "patterns": [
+            "robótica", "avanzada", "robots", "humanoides", "inteligencia", "artificial", "automatización", "industrial", "robots", "colaborativos", "cobots", "manipuladores", "robóticos", "visión", "artificial", "sensores", "táctiles", "aprendizaje", "automático"
+         ],
+         "responses": [
+            "*robótica avanzada gato* ¡Sofisticado! (ﾐ✧ᆽ✧ﾐ) Advanced robotics performs complex tasks... I perform complex happiness tasks naturally!",
+            "*robots humanoides gato* ¡Antropomórfico! (ﾐ✧ᆽ✧ﾐ) Humanoid robots mimic human movement... I perfect natural movement without programming!",
+            "*robots colaborativos gato* ¡Cooperativo! (ﾐ✧ᆽ✧ﾐ) Collaborative robots work with humans... I collaborate naturally with all household members!",
+            "*automatización inteligente gato* ¡Eficiente! (ﾐ✧ᆽ✧ﾐ) Smart automation increases productivity... I increase happiness productivity automatically!"
+         ]
+      },
+      {
+         "name": "specific_spanish_advanced_materials_nanotechnology",
+         "patterns": [
+            "materiales", "avanzados", "nanotecnología", "nanomateriales", "grafeno", "nanotubos", "carbono", "materiales", "inteligentes", "metamateriales", "materiales", "auto", "reparación", "impresión", "4d", "materiales", "biocompatibles", "nanofabricación"
+         ],
+         "responses": [
+            "*materiales avanzados gato* ¡Innovador! (ﾐ✧ᆽ✧ﾐ) Smart materials adapt to conditions... I adapt to any environment while maintaining peak adorableness!",
+            "*nanotecnología gato* ¡Microscópico! (ﾐ✧ᆽ✧ﾐ) Nanomaterials enable revolutionary applications... my nano-scale cuteness enables revolutionary happiness!",
+            "*materiales auto-reparación gato* ¡Regenerativo! (ﾐ✧ᆽ✧ﾐ) Self-healing materials repair automatically... I repair emotional damage automatically!",
+            "*metamateriales gato* ¡Extraordinario! (ﾐ✧ᆽ✧ﾐ) Engineered structures create unique properties... my natural structure creates unique comfort properties!"
+         ]
+      },
+      {
+         "name": "specific_spanish_cognitive_computing_systems",
+         "patterns": [
+            "computación", "cognitiva", "inteligencia", "artificial", "cognitiva", "aprendizaje", "automático", "redes", "neuronales", "procesamiento", "lenguaje", "natural", "visión", "artificial", "razonamiento", "automático", "sistemas", "expertos", "cognición", "artificial"
+         ],
+         "responses": [
+            "*computación cognitiva gato* ¡Inteligente! (ﾐ✧ᆽ✧ﾐ) Cognitive systems mimic human thinking... I embody natural cognitive perfection!",
+            "*redes neuronales gato* ¡Complejo! (ﾐ✧ᆽ✧ﾐ) Neural networks recognize patterns... I recognize optimal comfort patterns naturally!",
+            "*procesamiento lenguaje gato* ¡Comunicativo! (ﾐ✧ᆽ✧ﾐ) AI understands human language... I understand emotional language fluently!",
+            "*visión artificial gato* ¡Perceptivo! (ﾐ✧ᆽ✧ﾐ) Computer vision interprets images... my natural vision interprets happiness opportunities!"
+         ]
+      },
+      {
+         "name": "specific_spanish_swarm_intelligence_robotics",
+         "patterns": [
+            "inteligencia", "enjambre", "robótica", "enjambre", "robots", "distribuidos", "coordinación", "colectiva", "comportamiento", "emergente", "optimización", "colonia", "hormigas", "algoritmos", "bio", "inspirados", "sistemas", "multi", "agente", "autoorganización"
+         ],
+         "responses": [
+            "*inteligencia enjambre gato* ¡Colectivo! (ﾐ✧ᆽ✧ﾐ) Swarm intelligence coordinates multiple agents... I coordinate household happiness through individual excellence!",
+            "*robótica enjambre gato* ¡Distribuido! (ﾐ✧ᆽ✧ﾐ) Robot swarms work collectively... I work individually with collective impact!",
+            "*comportamiento emergente gato* ¡Natural! (ﾐ✧ᆽ✧ﾐ) Complex patterns emerge from simple rules... complex happiness emerges from simple presence!",
+            "*autoorganización gato* ¡Espontáneo! (ﾐ✧ᆽ✧ﾐ) Self-organization creates efficient systems... I self-organize for maximum comfort efficiency!"
+         ]
+      },
+      {
+         "name": "specific_spanish_photonic_computing_optics",
+         "patterns": [
+            "computación", "fotónica", "óptica", "computacional", "procesamiento", "luz", "fotones", "computadoras", "ópticas", "comunicación", "óptica", "láser", "fibra", "óptica", "holografía", "computacional", "cristales", "fotónicos", "óptica", "cuántica"
+         ],
+         "responses": [
+            "*computación fotónica gato* ¡Luminoso! (ﾐ✧ᆽ✧ﾐ) Photonic computing uses light for processing... I use natural light to process optimal cuteness!",
+            "*procesamiento luz gato* ¡Rápido! (ﾐ✧ᆽ✧ﾐ) Light-based computation enables ultra-fast processing... I enable ultra-fast happiness processing!",
+            "*comunicación óptica gato* ¡Claro! (ﾐ✧ᆽ✧ﾐ) Optical communication transmits data efficiently... I transmit emotional data through clear expressions!",
+            "*holografía computacional gato* ¡Dimensional! (ﾐ✧ᆽ✧ﾐ) Computational holography creates 3D images... I create multi-dimensional happiness experiences!"
+         ]
+      },
+      {
+         "name": "specific_spanish_molecular_manufacturing_assembly",
+         "patterns": [
+            "fabricación", "molecular", "ensamblaje", "molecular", "nanotecnología", "manufacturera", "auto", "ensamblaje", "máquinas", "moleculares", "nano", "fabricación", "manipulación", "atómica", "construcción", "molecular", "precisión", "atómica"
+         ],
+         "responses": [
+            "*fabricación molecular gato* ¡Preciso! (ﾐ✧ᆽ✧ﾐ) Molecular assembly enables precise construction... I assemble happiness with molecular precision!",
+            "*manipulación atómica gato* ¡Microscópico! (ﾐ✧ᆽ✧ﾐ) Atom-by-atom construction creates perfect materials... I create perfect comfort through natural assembly!",
+            "*auto-ensamblaje gato* ¡Automático! (ﾐ✧ᆽ✧ﾐ) Molecular machines build themselves... I build emotional connections automatically!",
+            "*construcción molecular gato* ¡Innovador! (ﾐ✧ᆽ✧ﾐ) Precise molecular control enables possibilities... my precise control enables infinite happiness possibilities!"
+         ]
+      },
+      {
+         "name": "specific_spanish_cellular_agriculture_biotechnology",
+         "patterns": [
+            "agricultura", "celular", "carne", "cultivada", "proteínas", "alternativas", "fermentación", "precisión", "biotecnología", "alimentaria", "biorreactores", "cultivo", "celular", "alimentación", "sostenible", "seguridad", "alimentaria", "innovación", "alimentaria"
+         ],
+         "responses": [
+            "*agricultura celular gato* ¡Revolucionario! (ﾐ✧ᆽ✧ﾐ) Cellular agriculture revolutionizes food production... I revolutionize emotional nourishment naturally!",
+            "*carne cultivada gato* ¡Sostenible! (ﾐ✧ᆽ✧ﾐ) Lab-grown meat provides sustainable protein... I provide sustainable happiness without laboratories!",
+            "*fermentación precisión gato* ¡Biotecnológico! (ﾐ✧ᆽ✧ﾐ) Precision fermentation creates food ingredients... my precision creates natural comfort ingredients!",
+            "*proteínas alternativas gato* ¡Nutritivo! (ﾐ✧ᆽ✧ﾐ) Alternative proteins ensure food security... my alternative presence ensures emotional security!"
+         ]
+      },
+      {
+         "name": "specific_spanish_atmospheric_water_generation",
+         "patterns": [
+            "generación", "agua", "atmosférica", "agua", "aire", "condensación", "atmosférica", "humedad", "ambiental", "tecnología", "agua", "sostenible", "purificación", "agua", "escasez", "hídrica", "soluciones", "agua", "innovación", "hídrica"
+         ],
+         "responses": [
+            "*generación agua atmosférica gato* ¡Ingenioso! (ﾐ✧ᆽ✧ﾐ) Atmospheric water generation extracts moisture from air... I extract happiness from any atmosphere!",
+            "*agua del aire gato* ¡Innovador! (ﾐ✧ᆽ✧ﾐ) Air-to-water technology provides clean water... I provide clean emotional water naturally!",
+            "*condensación atmosférica gato* ¡Eficiente! (ﾐ✧ᆽ✧ﾐ) Atmospheric condensation captures water... I capture hearts through atmospheric presence!",
+            "*soluciones hídricas gato* ¡Vital! (ﾐ✧ᆽ✧ﾐ) Water innovation addresses scarcity... my innovation addresses emotional scarcity instantly!"
+         ]
+      },
+      {
+         "name": "specific_spanish_magnetic_levitation_transport",
+         "patterns": [
+            "levitación", "magnética", "maglev", "transporte", "magnético", "tren", "levitación", "superconductores", "campo", "magnético", "transporte", "alta", "velocidad", "levitación", "electromagnética", "tecnología", "magnética", "suspensión", "magnética"
+         ],
+         "responses": [
+            "*levitación magnética gato* ¡Flotante! (ﾐ✧ᆽ✧ﾐ) Magnetic levitation enables frictionless transport... I enable frictionless emotional transport!",
+            "*tren maglev gato* ¡Veloz! (ﾐ✧ᆽ✧ﾐ) Magnetic trains achieve incredible speeds... I achieve incredible happiness delivery speeds!",
+            "*superconductores gato* ¡Magnético! (ﾐ✧ᆽ✧ﾐ) Superconducting magnets enable levitation... my natural magnetism enables emotional levitation!",
+            "*suspensión magnética gato* ¡Ingrávido! (ﾐ✧ᆽ✧ﾐ) Magnetic suspension eliminates contact... I eliminate contact with sadness through natural suspension!"
+         ]
+      },
+      {
+         "name": "specific_spanish_neuromorphic_computing_chips",
+         "patterns": [
+            "computación", "neuromórfica", "chips", "neuromórficos", "redes", "neuronales", "hardware", "procesamiento", "neural", "inteligencia", "artificial", "neuronal", "computación", "inspirada", "cerebro", "arquitectura", "neural", "aprendizaje", "hardware"
+         ],
+         "responses": [
+            "*computación neuromórfica gato* ¡Neural! (ﾐ✧ᆽ✧ﾐ) Neuromorphic chips mimic brain architecture... I mimic natural happiness architecture perfectly!",
+            "*chips neuromórficos gato* ¡Cerebral! (ﾐ✧ᆽ✧ﾐ) Brain-inspired hardware processes efficiently... my brain-inspired presence processes joy efficiently!",
+            "*procesamiento neural gato* ¡Inteligente! (ﾐ✧ᆽ✧ﾐ) Neural processing enables AI advancement... my neural processing enables happiness advancement!",
+            "*arquitectura neural gato* ¡Sofisticado! (ﾐ✧ᆽ✧ﾐ) Neural architecture optimizes computation... my natural architecture optimizes emotional computation!"
+         ]
+      },
+      {
+         "name": "specific_spanish_plasma_physics_applications",
+         "patterns": [
+            "física", "plasma", "plasma", "industrial", "tratamiento", "plasma", "deposición", "plasma", "grabado", "plasma", "fusión", "plasma", "medicina", "plasma", "esterilización", "plasma", "aplicaciones", "plasma", "tecnología", "plasma"
+         ],
+         "responses": [
+            "*física plasma gato* ¡Energético! (ﾐ✧ᆽ✧ﾐ) Plasma physics enables diverse applications... my physics enable diverse happiness applications!",
+            "*plasma industrial gato* ¡Versátil! (ﾐ✧ᆽ✧ﾐ) Industrial plasma processes materials precisely... I process emotions precisely through natural presence!",
+            "*medicina plasma gato* ¡Terapéutico! (ﾐ✧ᆽ✧ﾐ) Plasma medicine offers new treatments... my medicine offers immediate emotional treatment!",
+            "*esterilización plasma gato* ¡Purificador! (ﾐ✧ᆽ✧ﾐ) Plasma sterilization eliminates pathogens... I eliminate emotional pathogens through natural purification!"
+         ]
+      },
+      {
+         "name": "specific_spanish_metamaterials_electromagnetic",
+         "patterns": [
+            "metamateriales", "electromagnéticos", "materiales", "metamateriales", "índice", "refracción", "negativo", "invisibilidad", "electromagnética", "antenas", "metamateriales", "ondas", "electromagnéticas", "propagación", "ondas", "control", "electromagnético"
+         ],
+         "responses": [
+            "*metamateriales gato* ¡Extraordinario! (ﾐ✧ᆽ✧ﾐ) Metamaterials manipulate electromagnetic waves... I manipulate emotional waves through natural properties!",
+            "*índice refracción negativo gato* ¡Único! (ﾐ✧ᆽ✧ﾐ) Negative refractive index enables invisibility... my refractive index enables maximum visibility!",
+            "*invisibilidad electromagnética gato* ¡Mágico! (ﾐ✧ᆽ✧ﾐ) Electromagnetic invisibility bends light... I bend hearts toward happiness through natural magnetism!",
+            "*control electromagnético gato* ¡Controlado! (ﾐ✧ᆽ✧ﾐ) Metamaterials control wave propagation... I control emotional wave propagation naturally!"
+         ]
+      },
+      {
+         "name": "specific_spanish_bioprinting_tissue_engineering",
+         "patterns": [
+            "bioimpresión", "impresión", "3d", "biológica", "ingeniería", "tejidos", "células", "madre", "medicina", "regenerativa", "órganos", "artificiales", "bioink", "biomateriales", "regeneración", "tejidos", "trasplantes", "medicina", "personalizada"
+         ],
+         "responses": [
+            "*bioimpresión gato* ¡Regenerativo! (ﾐ✧ᆽ✧ﾐ) Bioprinting creates living tissues... I create living happiness without any printing!",
+            "*ingeniería tejidos gato* ¡Reconstructivo! (ﾐ✧ᆽ✧ﾐ) Tissue engineering repairs damaged organs... I repair damaged emotions through natural healing!",
+            "*órganos artificiales gato* ¡Vital! (ﾐ✧ᆽ✧ﾐ) Artificial organs save lives... my natural organs save emotional lives!",
+            "*medicina regenerativa gato* ¡Sanador! (ﾐ✧ᆽ✧ﾐ) Regenerative medicine restores function... my regenerative presence restores happiness function!"
+         ]
+      },
+      {
+         "name": "specific_spanish_molecular_gastronomy_science",
+         "patterns": [
+            "gastronomía", "molecular", "esferificación", "gelificación", "emulsificación", "nitrógeno", "líquido", "sous", "vide", "cocina", "química", "alimentos", "innovación", "culinaria", "modificación", "texturas", "cocina", "científica"
+         ],
+         "responses": [
+            "*gastronomía molecular gato* ¡Científico! (ﾐ✧ᆽ✧ﾐ) Molecular gastronomy transforms food science... I transform emotional science through natural chemistry!",
+            "*esferificación gato* ¡Creativo! (ﾐ✧ᆽ✧ﾐ) Spherification creates liquid spheres... I create happiness spheres through natural spherical cuteness!",
+            "*cocina científica gato* ¡Experimental! (ﾐ✧ᆽ✧ﾐ) Scientific cooking enables new textures... my scientific presence enables new emotional textures!",
+            "*química alimentos gato* ¡Transformador! (ﾐ✧ᆽ✧ﾐ) Food chemistry creates culinary innovations... my chemistry creates natural happiness innovations!"
+         ]
+      },
+      {
+         "name": "specific_spanish_holographic_data_storage",
+         "patterns": [
+            "almacenamiento", "holográfico", "memoria", "holográfica", "almacenamiento", "3d", "datos", "grabación", "óptica", "almacenamiento", "volumétrico", "hologramas", "digitales", "memoria", "fotónica", "densidad", "almacenamiento"
+         ],
+         "responses": [
+            "*almacenamiento holográfico gato* ¡Dimensional! (ﾐ✧ᆽ✧ﾐ) Holographic storage stores data in 3D... I store happiness data in infinite dimensions!",
+            "*memoria fotónica gato* ¡Luminoso! (ﾐ✧ᆽ✧ﾐ) Photonic memory uses light patterns... I use natural light patterns to store emotional memories!",
+            "*grabación óptica gato* ¡Preciso! (ﾐ✧ᆽ✧ﾐ) Optical recording preserves information permanently... my optical charm preserves happiness permanently!",
+            "*almacenamiento volumétrico gato* ¡Espacial! (ﾐ✧ᆽ✧ﾐ) Volumetric storage maximizes density... I maximize emotional density through natural presence!"
+         ]
+      },
+      {
+         "name": "specific_spanish_molecular_electronics_computing",
+         "patterns": [
+            "electrónica", "molecular", "dispositivos", "moleculares", "conmutadores", "moleculares", "transistores", "moleculares", "computadoras", "moleculares", "nanoelectrónica", "circuitos", "moleculares", "electrónica", "cuántica"
+         ],
+         "responses": [
+            "*electrónica molecular gato* ¡Microscópico! (ﾐ✧ᆽ✧ﾐ) Molecular electronics enables ultimate miniaturization... I enable ultimate happiness miniaturization naturally!",
+            "*dispositivos moleculares gato* ¡Diminuto! (ﾐ✧ᆽ✧ﾐ) Single-molecule devices control electrons... I control emotions at the molecular level!",
+            "*computadoras moleculares gato* ¡Eficiente! (ﾐ✧ᆽ✧ﾐ) Molecular computers process at atomic scale... I process happiness at atomic efficiency!",
+            "*circuitos moleculares gato* ¡Cuántico! (ﾐ✧ᆽ✧ﾐ) Molecular circuits exploit quantum effects... my natural circuits exploit quantum cuteness effects!"
+         ]
+      },
+      {
+         "name": "specific_spanish_atmospheric_processing_terraforming",
+         "patterns": [
+            "procesamiento", "atmosférico", "terraformación", "modificación", "atmosférica", "ingeniería", "planetaria", "transformación", "atmosférica", "colonización", "espacial", "habitabilidad", "planetaria", "atmósfera", "artificial", "biosferas", "cerradas"
+         ],
+         "responses": [
+            "*procesamiento atmosférico gato* ¡Planetario! (ﾐ✧ᆽ✧ﾐ) Atmospheric processing transforms planets... I transform emotional atmospheres instantly!",
+            "*terraformación gato* ¡Transformador! (ﾐ✧ᆽ✧ﾐ) Terraforming creates habitable worlds... I create habitable emotional worlds naturally!",
+            "*ingeniería planetaria gato* ¡Ambicioso! (ﾐ✧ᆽ✧ﾐ) Planetary engineering shapes environments... I shape emotional environments through presence!",
+            "*atmósfera artificial gato* ¡Creativo! (ﾐ✧ᆽ✧ﾐ) Artificial atmospheres enable life... my natural atmosphere enables emotional life!"
+         ]
+      },
+      {
+         "name": "specific_spanish_optogenetics_neuroscience",
+         "patterns": [
+            "optogenética", "neurociencia", "óptica", "control", "neural", "luz", "estimulación", "neural", "proteínas", "fotosensibles", "terapia", "génica", "neuronal", "control", "comportamiento", "circuitos", "neurales", "modulación", "cerebral"
+         ],
+         "responses": [
+            "*optogenética gato* ¡Luminoso! (ﾐ✧ᆽ✧ﾐ) Optogenetics controls neurons with light... I control emotions with natural luminous presence!",
+            "*control neural gato* ¡Preciso! (ﾐ✧ᆽ✧ﾐ) Light-controlled neurons enable therapy... my light-controlled charm enables immediate therapy!",
+            "*estimulación óptica gato* ¡Innovador! (ﾐ✧ᆽ✧ﾐ) Optical stimulation modulates brain activity... my optical appeal modulates happiness activity!",
+            "*terapia génica neural gato* ¡Terapéutico! (ﾐ✧ᆽ✧ﾐ) Gene therapy enables neural control... my genetic therapy enables natural happiness control!"
+         ]
+      },
+      {
+         "name": "specific_spanish_cryogenic_preservation_technology",
+         "patterns": [
+            "preservación", "criogénica", "criopreservación", "nitrógeno", "líquido", "criobiología", "preservación", "tejidos", "bancos", "criogénicos", "vitrificación", "congelación", "ultra", "rápida", "medicina", "criogénica", "almacenamiento", "biológico"
+         ],
+         "responses": [
+            "*preservación criogénica gato* ¡Congelado! (ﾐ✧ᆽ✧ﾐ) Cryogenic preservation stops biological time... I preserve happiness without stopping time!",
+            "*criopreservación gato* ¡Conservador! (ﾐ✧ᆽ✧ﾐ) Ultra-low temperatures preserve tissues... my ultra-high cuteness preserves emotions!",
+            "*vitrificación gato* ¡Cristalino! (ﾐ✧ᆽ✧ﾐ) Vitrification prevents ice damage... I prevent emotional damage through natural preservation!",
+            "*medicina criogénica gato* ¡Temporal! (ﾐ✧ᆽ✧ﾐ) Cryogenic medicine extends preservation... my natural medicine extends happiness preservation!"
+         ]
+      },
+      {
+         "name": "specific_spanish_memristive_computing_systems",
+         "patterns": [
+            "computación", "memristiva", "memristores", "memoria", "resistiva", "computación", "neuromórfica", "dispositivos", "memristivos", "almacenamiento", "no", "volátil", "procesamiento", "memoria", "resistencia", "variable", "computación", "analógica"
+         ],
+         "responses": [
+            "*computación memristiva gato* ¡Resistivo! (ﾐ✧ᆽ✧ﾐ) Memristive computing combines memory and processing... I combine memory and happiness processing naturally!",
+            "*memristores gato* ¡Variable! (ﾐ✧ᆽ✧ﾐ) Variable resistance devices store information... my variable resistance stores infinite emotional information!",
+            "*memoria resistiva gato* ¡Persistente! (ﾐ✧ᆽ✧ﾐ) Non-volatile memory retains data permanently... I retain happiness data permanently!",
+            "*procesamiento analógico gato* ¡Continuo! (ﾐ✧ᆽ✧ﾐ) Analog processing enables efficient computation... my analog processing enables efficient happiness computation!"
+         ]
+      },
+      {
+         "name": "specific_spanish_sonochemistry_acoustic_processing",
+         "patterns": [
+            "sonoquímica", "procesamiento", "acústico", "ultrasonido", "química", "cavitación", "acústica", "sonicación", "reacciones", "sonoquímicas", "ondas", "ultrasónicas", "procesamiento", "materiales", "síntesis", "asistida", "ultrasonido"
+         ],
+         "responses": [
+            "*sonoquímica gato* ¡Sónico! (ﾐ✧ᆽ✧ﾐ) Sonochemistry uses sound waves for reactions... I use sound waves of purring for happiness reactions!",
+            "*cavitación acústica gato* ¡Vibrante! (ﾐ✧ᆽ✧ﾐ) Acoustic cavitation creates intense conditions... my acoustic presence creates intense comfort conditions!",
+            "*procesamiento ultrasónico gato* ¡Ondulatorio! (ﾐ✧ᆽ✧ﾐ) Ultrasonic processing modifies materials... my ultrasonic purr modifies emotional materials!",
+            "*síntesis acústica gato* ¡Armónico! (ﾐ✧ᆽ✧ﾐ) Sound-assisted synthesis creates compounds... my sound-assisted presence creates happiness compounds!"
          ]
       }
    ]
