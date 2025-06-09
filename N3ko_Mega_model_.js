@@ -4,7 +4,7 @@
 class NekoMegaChat {
   constructor() {
     this.vocabulary = { intents: [] };
-    this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
+    this.defaultResponse = ['Meow? (Vocabularies not loaded)'];
     this.vocabUrls = [
       'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_Nyan_model_.json',
       'https://raw.githubusercontent.com/andy64lol/N3ko/main/vocab/N3ko_French_model_.json',
@@ -45,7 +45,7 @@ class NekoMegaChat {
         loaded: false
       }
     };
-    this.requestTimeout = 1000;
+    this.requestTimeout = 10000;
     this.phrasePatterns = new Map();
     this.exactMatchBonus = 2.0;
     this.minMatchThreshold = 0.65;
@@ -77,19 +77,54 @@ class NekoMegaChat {
   }
 
   async loadRandomVocabulary() {
-    this.currentVocabUrl = this.getRandomVocabUrl();
-    console.log(`🎲 Loading random vocabulary from: ${this.currentVocabUrl.split('/').pop()}`);
-    return this.loadVocabularyFromUrl(this.currentVocabUrl);
+    let attempts = 0;
+    const maxAttempts = this.vocabUrls.length;
+    
+    while (attempts < maxAttempts) {
+      this.currentVocabUrl = this.getRandomVocabUrl();
+      console.log(`Loading vocabulary from: ${this.currentVocabUrl.split('/').pop()}`);
+      
+      try {
+        await this.loadVocabularyFromUrl(this.currentVocabUrl);
+        if (this.vocabulary.intents.length > 0) {
+          console.log(`Successfully loaded vocabulary with ${this.vocabulary.intents.length} intents`);
+          return;
+        }
+      } catch (error) {
+        console.log(`Failed to load ${this.currentVocabUrl.split('/').pop()}, trying another...`);
+      }
+      
+      attempts++;
+    }
+    
+    console.error('All vocabulary files failed to load properly');
+    this.vocabulary = { intents: [] };
+    this.defaultResponse = ['Meow? (No vocabulary available)'];
   }
 
   async switchToRandomVocabulary() {
-    const newUrl = this.getRandomVocabUrl();
-    if (newUrl !== this.currentVocabUrl) {
-      this.currentVocabUrl = newUrl;
-      console.log(`🔄 Switching to new vocabulary: ${this.currentVocabUrl.split('/').pop()}`);
-      await this.loadVocabularyFromUrl(this.currentVocabUrl);
-      return true;
+    let attempts = 0;
+    const maxAttempts = this.vocabUrls.length;
+    
+    while (attempts < maxAttempts) {
+      const newUrl = this.getRandomVocabUrl();
+      if (newUrl !== this.currentVocabUrl) {
+        this.currentVocabUrl = newUrl;
+        console.log(`Switching to vocabulary: ${this.currentVocabUrl.split('/').pop()}`);
+        
+        try {
+          await this.loadVocabularyFromUrl(this.currentVocabUrl);
+          if (this.vocabulary.intents.length > 0) {
+            console.log(`Successfully switched to ${this.currentVocabUrl.split('/').pop()}`);
+            return true;
+          }
+        } catch (error) {
+          console.log(`Failed to switch to ${this.currentVocabUrl.split('/').pop()}, trying another...`);
+        }
+      }
+      attempts++;
     }
+    
     return false;
   }
 
@@ -112,10 +147,11 @@ class NekoMegaChat {
         return;
       } catch (error) {
         lastError = error;
+        console.error(`Attempt ${attempt} failed for ${vocabUrl}:`, error.message);
         if (attempt < maxRetries) await new Promise(resolve => setTimeout(resolve, 1000 * attempt));
       }
     }
-    console.error('Falling back to empty vocabulary');
+    console.error('Falling back to empty vocabulary after all retries failed. Last error:', lastError?.message);
     this.vocabulary = { intents: [] };
     this.defaultResponse = ['Meow? (Vocabulary not loaded)'];
   }
@@ -449,4 +485,4 @@ class NekoMegaChat {
   }
 }
 
-export default NekoMegaChat;
+module.exports = NekoMegaChat;
