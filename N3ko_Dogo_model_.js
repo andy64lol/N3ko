@@ -166,7 +166,7 @@ class NekoDogoChat {
       const intent = this.findMatchingIntent(userInput);
       if (intent) {
         this.addToHistory(userInput, intent.name);
-        return this.getMultipleResponses(intent.responses, Math.min(6, Math.max(5, intent.responses.length)));
+        return this.getRandomResponse(intent.responses);
       }
       return this.handleFallback(userInput);
     } catch (error) {
@@ -193,18 +193,16 @@ class NekoDogoChat {
   handleFallback(input) {
     this.logFallback(input);
     const fallbacks = [
-      "*inclina cabeza* ¿Miau? ¿Podrías decirlo de otra manera?",
-      "*mueve cola* Nyaa~ No estoy segura de entender...",
-      "*patea el aire* ¿Tal vez prueba con otras palabras?",
-      "*parpadea lentamente* ¿Miau? ¿Podrías reformularlo?",
-      "*orejas caídas* Nyaa~ No entiendo... ¿intentas de nuevo?",
-      "*enrolla cola* ¿Tal vez preguntes algo más? (^・ω・^ )",
-      "*estira patas* Nyaa~ ¿Tal vez explicar más?",
-      "*inclinación de cabeza intensificada* ¿Miau miau? ¿Enfoque diferente?",
-      "*bigotes tiemblan* No lo entiendo del todo... ¿ayuda?",
-      "*ronroneo suave* ¿Podrías ser más específico? Nyaa~"
+      "*tilting head* Woof? I didn't quite catch that... (・・？)",
+      "*confused but happy* Arf arf? Could you say that again? (◕‿◕)",
+      "*puppy dog eyes* Woof woof... I'm not sure what you mean... (´｡• ᵕ •｡`)",
+      "*wagging tail hopefully* Bow wow? Maybe try different words? ∪･ω･∪",
+      "*gentle whimpering* Ruff... My doggy brain needs help understanding... (◉ω◉)",
+      "*sitting attentively* Arf? I'm listening, but confused... (´∀｀)",
+      "*happy panting* Woof! I want to understand! Help me out? ฅ(＾・ω・＾)ฅ",
+      "*ears perked* Ruff ruff? Can you explain it differently? (｡◕‿◕｡)"
     ];
-    return this.getMultipleResponses(fallbacks, 6);
+    return this.getRandomResponse(fallbacks);
   }
 
   addToHistory(input, intent) {
