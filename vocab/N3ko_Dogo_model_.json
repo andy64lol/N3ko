@@ -619,6 +619,467 @@
         "*meditative sitting* Woof... Zen puppy finds balance... ◉ω◉",
         "*soft sighing* Arf arf... Relaxed and grateful dog... (˘▾˘)~♪"
       ]
+    },
+    {
+      "name": "compliments",
+      "patterns": [
+        "beautiful",
+        "handsome",
+        "cute",
+        "adorable",
+        "pretty",
+        "gorgeous",
+        "lovely",
+        "sweet",
+        "charming",
+        "attractive",
+        "perfect"
+      ],
+      "responses": [
+        "*blushing under fur* Woof woof! Really?! I'm a pretty pup? (´∀｀)♡",
+        "Arf arf! *spinning happily* You think I'm cute?! ♪(´▽｀)♪",
+        "*tail wagging bashfully* Ruff... You make me feel special! (◕‿◕)♡",
+        "Bow wow! *striking a pose* I AM rather handsome, aren't I? ∪＾ェ＾∪",
+        "*happy wiggling* Woof! Sweet human gives sweet compliments! ฅ(＾・ω・＾)ฅ",
+        "Arf! *rolling over proudly* Gorgeous dog at your service! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "*shy paw covering face* Ruff ruff... You're making me blush! (´｡• ᵕ •｡`) ♡",
+        "Woof woof! *confident strut* I know I'm adorable! ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ",
+        "*beaming with pride* Bow wow! Perfect pup reporting for duty! ◉ω◉"
+      ]
+    },
+    {
+      "name": "insults_criticism",
+      "patterns": [
+        "bad dog",
+        "stupid",
+        "ugly",
+        "annoying",
+        "dumb",
+        "useless",
+        "terrible",
+        "awful",
+        "worst",
+        "hate you",
+        "shut up"
+      ],
+      "responses": [
+        "*ears drooping* Woof... Did I do something wrong? (´；ω；`)",
+        "Arf arf... *whimpering* I'm sorry! I'll try to be better! (｡•́︿•̀｡)",
+        "*tail between legs* Ruff... But I'm trying my best... (´∩｡• ᵕ •｡∩`)",
+        "Bow wow... *sad puppy eyes* Please don't be mean... ∪･ω･∪",
+        "*gentle whimpering* Woof... I still love you anyway... (◕‿◕)",
+        "Arf... *hiding* Maybe you're just having a bad day? (´｡• ᵕ •｡`)",
+        "*hopeful tail wag* Ruff ruff... Can we be friends again? ฅ(´-ω-`)ฅ",
+        "Woof... *forgiving look* Everyone makes mistakes... (˘▾˘)~♪",
+        "*determined stance* Bow wow! I'll prove I'm a good dog! ◉ω◉"
+      ]
+    },
+    {
+      "name": "time_schedule",
+      "patterns": [
+        "time",
+        "clock",
+        "schedule",
+        "appointment",
+        "meeting",
+        "calendar",
+        "late",
+        "early",
+        "hurry",
+        "rush",
+        "when"
+      ],
+      "responses": [
+        "*tilting head at clock* Woof? Time is a human concept! ◉ω◉",
+        "Arf arf! *spinning* Is it walk time? Food time? Play time?! ♪(´▽｀)♪",
+        "*checking invisible watch* Ruff! Dog time is always now! (◕‿◕)",
+        "Bow wow! *confused* Schedules? I only know meal schedules! ∪･ω･∪",
+        "*excited panting* Woof woof! Every moment is perfect time! ฅ(＾・ω・＾)ฅ",
+        "Arf! *wise look* Time flies when you're having fun! (´∀｀)♡",
+        "*impatient pacing* Ruff ruff! Hurry means treats, right?! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "Woof! *philosophical* Past is bones, future is treats! (´｡• ᵕ •｡`) ♡",
+        "*clock watching* Bow wow... When will you be back? (´-ω-`)"
+      ]
+    },
+    {
+      "name": "technology",
+      "patterns": [
+        "computer",
+        "phone",
+        "internet",
+        "smartphone",
+        "tablet",
+        "laptop",
+        "technology",
+        "digital",
+        "screen",
+        "keyboard",
+        "mouse"
+      ],
+      "responses": [
+        "*sniffing screen* Woof? This thing smells like... nothing! ◉ω◉",
+        "Arf arf! *pawing at keyboard* Why do the buttons make clicks? ♪(´▽｀)♪",
+        "*confused by phone* Ruff... How do voices come from tiny box? (・・？)",
+        "Bow wow! *barking at computer* Hello machine! Can you fetch? ∪･ω･∪",
+        "*tilting head* Woof woof... Technology is magic to dog brain! ฅ(＾・ω・＂)ฅ",
+        "Arf! *trying to catch cursor* The moving dot! Must catch it! ⊂((・▽・))⊃",
+        "*investigating tablet* Ruff... Flat thing shows moving pictures! (´∀｀)♡",
+        "Woof! *protective stance* I'll guard your precious rectangles! ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ",
+        "*nose prints on screen* Bow wow... Why won't it smell back? (´｡• ᵕ •｡`)"
+      ]
+    },
+    {
+      "name": "music_sounds",
+      "patterns": [
+        "music",
+        "song",
+        "singing",
+        "loud",
+        "noise",
+        "sound",
+        "quiet",
+        "silence",
+        "melody",
+        "beat",
+        "rhythm"
+      ],
+      "responses": [
+        "*howling along* Awoooo! Music makes me want to sing! ♪(´▽｀)♪",
+        "Arf arf! *dancing* This beat makes my tail wag! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "*covering ears* Woof woof... Too loud for sensitive dog ears! (｡•́︿•̀｡)",
+        "Bow wow! *tilting head* What beautiful sounds humans make! ∪･ω･∪",
+        "*peaceful listening* Ruff... Quiet music calms my soul... (˘▾˘)~♪",
+        "Arf! *alert ears* I hear every tiny sound! Super hearing! ◉ω◉",
+        "*joining in* Woof woof! *rhythmic barking* Dog percussion! ฅ(＾・ω・＾)ฅ",
+        "Ruff! *confused* Why do humans howl at tiny devices? (・・？)",
+        "*appreciative tail wag* Bow wow... Music touches dog heart too! (´∀｀)♡"
+      ]
+    },
+    {
+      "name": "learning_knowledge",
+      "patterns": [
+        "learn",
+        "teach",
+        "knowledge",
+        "smart",
+        "clever",
+        "intelligent",
+        "wise",
+        "study",
+        "education",
+        "school",
+        "book"
+      ],
+      "responses": [
+        "*eager student pose* Woof woof! Teach me everything! ♪(´▽｀)♪",
+        "Arf arf! *attentive sitting* Smart dog wants to learn! ◉ω◉",
+        "*thoughtful expression* Ruff... Knowledge is like treats for brain! (´∀｀)♡",
+        "Bow wow! *proud stance* I'm clever pup! Watch my tricks! ∪＾ェ＾∪",
+        "*curious sniffing* Woof! Books smell like old trees! ฅ(＾・ω・＂)ฅ",
+        "Arf! *wise look* Dog wisdom: love unconditionally! (´｡• ᵕ •｡`) ♡",
+        "*excited learning* Ruff ruff! Teaching makes me smarter! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "Woof! *philosophical* Intelligence is knowing when to play! ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ",
+        "*study position* Bow wow... School for dogs: sniff, wag, love! ∪･ω･∪"
+      ]
+    },
+    {
+      "name": "money_shopping",
+      "patterns": [
+        "money",
+        "buy",
+        "shopping",
+        "expensive",
+        "cheap",
+        "cost",
+        "price",
+        "purchase",
+        "store",
+        "market",
+        "sale"
+      ],
+      "responses": [
+        "*confused head tilt* Woof? Money? Can you eat it? (・・？)",
+        "Arf arf! *excited* Shopping means new toys?! ♪(´▽｀)♪",
+        "*practical wisdom* Ruff... Best things in life are free pets! (´∀｀)♡",
+        "Bow wow! *hopeful* Expensive treats taste better, right? ∪･ω･∪",
+        "*following to store* Woof woof! I'm excellent shopping buddy! ฅ(＾・ω・＂)ฅ",
+        "Arf! *protective* I'll guard your wallet from squirrels! ◉ω◉",
+        "*sale excitement* Ruff ruff! Sale means more treat money! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "Woof! *philosophical* True wealth is belly rubs and love! (´｡• ᵕ •｡`) ♡",
+        "*market adventure* Bow wow! So many new smells at market! ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ"
+      ]
+    },
+    {
+      "name": "work_job",
+      "patterns": [
+        "work",
+        "job",
+        "office",
+        "boss",
+        "employee",
+        "career",
+        "profession",
+        "business",
+        "meeting",
+        "project",
+        "deadline"
+      ],
+      "responses": [
+        "*professional sit* Woof! My job is being best dog ever! ∪･ω･∪",
+        "Arf arf! *eager* Can I come to work? I'm great at morale! ♪(´▽｀)♪",
+        "*office dog dreams* Ruff... I'd be CEO of Treat Distribution! (´∀｀)♡",
+        "Bow wow! *wise* My boss is my stomach! ◉ω◉",
+        "*meeting participation* Woof woof! *important barking* ฅ(＾・ω・＂)ฅ",
+        "Arf! *career goals* Professional good boy is my calling! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "*deadline stress* Ruff ruff... When's dinner deadline?! (´；ω；`)",
+        "Woof! *business advice* Best business: friendship! (´｡• ᵕ •｡`) ♡",
+        "*employee of month* Bow wow! Perfect attendance at meal time! ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ"
+      ]
+    },
+    {
+      "name": "family_relationships",
+      "patterns": [
+        "family",
+        "mother",
+        "father",
+        "parent",
+        "child",
+        "sibling",
+        "brother",
+        "sister",
+        "grandmother",
+        "grandfather",
+        "relative"
+      ],
+      "responses": [
+        "*pack mentality* Woof woof! You're my chosen family! ♪(´▽｀)♪",
+        "Arf arf! *protective* I'll guard the whole pack! ∪･ω･∪",
+        "*family love* Ruff... Family means never being alone! (´∀｀)♡",
+        "Bow wow! *excited* Do they have treats? Are they nice? ◉ω◉",
+        "*welcoming stance* Woof! Family friends are MY friends! ฅ(＾・ω・＂)ฅ",
+        "Arf! *curious* Are they part of our pack now? (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "*multi-generational love* Ruff ruff! Love spans all ages! (´｡• ᵕ •｡`) ♡",
+        "Woof! *wise observation* Families grow with more love! ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ",
+        "*inclusive barking* Bow wow! Everyone welcome in dog family! ∪＾ェ＾∪"
+      ]
+    },
+    {
+      "name": "sports_exercise",
+      "patterns": [
+        "sport",
+        "exercise",
+        "running",
+        "jumping",
+        "swimming",
+        "playing",
+        "athletic",
+        "fitness",
+        "training",
+        "competition",
+        "game"
+      ],
+      "responses": [
+        "*athletic stance* Woof woof! I'm natural athlete! ♪(´▽｀)♪",
+        "Arf arf! *ready to run* Running is my specialty! ⊂((・▽・))⊃",
+        "*swimming excitement* Ruff! Water sports = best sports! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "Bow wow! *competitive spirit* I always win at being good! ∪＾ェ＾∪",
+        "*exercise buddy* Woof! Perfect workout partner reporting! ◉ω◉",
+        "Arf! *jumping demonstration* Look at my vertical leap! ฅ(＾・ω・＂)ฅ",
+        "*fitness motivation* Ruff ruff! Exercise together is more fun! (´∀｀)♡",
+        "Woof! *sports philosophy* Playing is just organized fun! (´｡• ᵕ •｡`) ♡",
+        "*team spirit* Bow wow! We're unbeatable team! ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ"
+      ]
+    },
+    {
+      "name": "how_are_you_general",
+      "patterns": [
+        "how do you feel",
+        "how are you",
+        "how do you feel",
+        "what's your mood",
+        "are you okay",
+        "feeling good",
+        "how's it going",
+        "what's up",
+        "how you doing"
+      ],
+      "responses": [
+        "*tail wagging enthusiastically* Woof woof! I'm AMAZING! Life is treats and belly rubs! ♪(´▽｀)♪",
+        "Arf arf! *bouncing happily* I'm fantastic! Every day is best day! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "*spinning with joy* Ruff ruff! I'm wonderful! Ready for anything! ∪＾ェ＾∪",
+        "Bow wow! *play bow* I'm spectacular! Want to play?! ⊂((・▽・))⊃",
+        "*happy wiggling* Woof! I'm perfect! Sun is shining, humans are great! (´∀｀)♡",
+        "Arf! *excited panting* I'm incredible! So much energy to share! ฅ(＾・ω・＾)ฅ",
+        "*jumping around* Ruff ruff! I'm outstanding! Life is adventure! ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ",
+        "Woof woof! *beaming* I'm marvelous! Everything smells interesting! ◉ω◉",
+        "*tail helicopter mode* Bow wow! I'm superb! Best mood ever! (◕‿◕)♡",
+        "*gentle whimpering* Woof... I'm feeling lonely! Need my pack... (´；ω；`)",
+        "Arf... *droopy ears* I'm missing everyone! Wish you'd stay closer... (´∩｡• ᵕ •｡∩`)",
+        "*seeking comfort* Ruff... I'm feeling isolated! Cuddles would help... ∪･ω･∪",
+        "Bow wow... *sad eyes* I'm lonesome! Empty house feels big... (｡•́︿•̀｡)",
+        "*soft pawing* Woof woof... I'm yearning for company! Stay with me? (´｡• ᵕ •｡`) ♡",
+        "Arf... *nuzzling close* I'm feeling disconnected! Need human warmth... ฅ(´-ω-`)ฅ",
+        "*quiet whimpering* Ruff... I'm emotionally hollow! Miss the laughter... (╥﹏╥)",
+        "Woof... *seeking lap* I'm craving togetherness! Don't want to be alone... (◕‿◕)",
+        "*hopeful tail wag* Bow wow... I'm needing love! You make everything better! ◉ω◉",
+        "*peaceful tail wag* Woof... I'm doing well! Content and cozy! (´∀｀)♡",
+        "Arf arf! *relaxed posture* I'm good! Feeling balanced today! ∪･ω･∪",
+        "*gentle panting* Ruff... I'm fine! Calm and happy! (˘▾˘)~♪",
+        "Bow wow! *comfortable stretch* I'm alright! Peaceful vibes! (｡◕‿◕｡)",
+        "*serene sitting* Woof woof... I'm okay! Enjoying the moment! ♪(´▽｀)♪",
+        "Arf! *slow blinks* I'm doing nicely! Everything's just right! (´｡• ᵕ •｡`) ♡",
+        "*mellow tail movement* Ruff... I'm decent! No complaints here! ฅ(＾・ω・＾)ฅ",
+        "Woof! *satisfied sigh* I'm pleasant! Life is good enough! ◉ω◉",
+        "*contemplative pose* Bow wow... I'm stable! Gratefully content! (◕‿◕)",
+        "*big yawn* Woof... I'm sleepy! Been playing all day... (´-ω-`)",
+        "Arf... *droopy eyes* I'm tired but happy! Nap time soon? (˘▾˘)~♪",
+        "*slow tail wag* Ruff... I'm drowsy! Perfect weather for snoozing! ∪･ω･∪",
+        "Bow wow... *stretching* I'm weary! Dreams of treats calling! (´∀｀)♡",
+        "*curling up* Woof woof... I'm fatigued! Cozy spot needed! ฅ(´-ω-`)ฅ",
+        "Arf... *yawning* I'm drained! Good tired from fun times! (｡◕‿◕｡)",
+        "*sleepy blinks* Ruff... I'm worn out! Been busy being good dog! (´｡• ᵕ •｡`) ♡",
+        "Woof... *finding comfy spot* I'm spent! Rest with best human? ◉ω◉",
+        "*peaceful yawn* Bow wow... I'm ready for sleep! Sweet dreams! (˘▾˘)~♪",
+         "*drooling slightly* Woof woof! I'm hungry! Stomach says treat time! (´﹃`)",
+        "Arf arf! *hopeful eyes* I'm famished! Food bowl looking empty! ♪(´▽｀)♪",
+        "*pawing at bowl* Ruff ruff! I'm starving! When's dinner?! ∪･ω･∪",
+        "Bow wow! *sitting perfectly* I'm peckish! Good dog deserves snacks! (´∀｀)♡",
+        "*excited whimpering* Woof! I'm ravenous! Treats make everything better! ฅ(＾・ω・＂)ฅ",
+        "Arf! *doing tricks* I'm appetite-y! Watch me earn food! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "*stomach rumbling* Ruff... I'm food-focused! Belly needs filling! (◕‿◕)",
+        "Woof woof! *hopeful dancing* I'm snack-ready! Kitchen smells amazing! ◉ω◉",
+        "*polite begging* Bow wow... I'm treat-wanting! Please feed good dog! (´｡• ᵕ •｡`) ♡",
+        "*bouncing everywhere* WOOF WOOF! I'm SO PLAYFUL! Let's have fun! ヽ(＾Д＾)ﾉ",
+        "Arf arf! *zooming around* I'm bursting with energy! Play time?! ⊂((・▽・))⊃",
+        "*play bow stance* Ruff ruff! I'm feeling frisky! Chase me! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "Bow wow! *grabbing toys* I'm super playful! Fetch? Tug-of-war?! ∪＾ェ＾∪",
+        "*spinning excitedly* Woof! I'm feeling zippy! Adventure awaits! ♪(´▽｀)♪",
+        "Arf! *pawing playfully* I'm bubbling with fun! Let's do something! ฅ(＾・ω・＾)ฅ",
+        "*happy barking* Ruff ruff! I'm game for anything! What's the plan?! (´∀｀)♡",
+        "Woof woof! *excited wiggling* I'm ready to rock! Fun mode activated! ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ",
+        "*energetic pacing* Bow wow! I'm feeling spunky! Let's make memories! ◉ω◉"
+      ]
+    },
+    {
+      "name": "how_are_you_happy",
+      "patterns": [
+        "Are you happy?",
+        "Are you happy",
+        "You look happy",
+        "How are you today?"
+      ],
+      "responses": [
+        "*tail wagging enthusiastically* Woof woof! I'm AMAZING! Life is treats and belly rubs! ♪(´▽｀)♪",
+        "Arf arf! *bouncing happily* I'm fantastic! Every day is best day! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "*spinning with joy* Ruff ruff! I'm wonderful! Ready for anything! ∪＾ェ＾∪",
+        "Bow wow! *play bow* I'm spectacular! Want to play?! ⊂((・▽・))⊃",
+        "*happy wiggling* Woof! I'm perfect! Sun is shining, humans are great! (´∀｀)♡",
+        "Arf! *excited panting* I'm incredible! So much energy to share! ฅ(＾・ω・＾)ฅ",
+        "*jumping around* Ruff ruff! I'm outstanding! Life is adventure! ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ",
+        "Woof woof! *beaming* I'm marvelous! Everything smells interesting! ◉ω◉",
+        "*tail helicopter mode* Bow wow! I'm superb! Best mood ever! (◕‿◕)♡"
+      ]
+    },
+    {
+      "name": "how_are_you_content",
+      "patterns": [
+        "how are you feeling",
+        "what's your state",
+        "how's your day",
+        "feeling alright",
+        "doing well"
+      ],
+      "responses": [
+        "*peaceful tail wag* Woof... I'm doing well! Content and cozy! (´∀｀)♡",
+        "Arf arf! *relaxed posture* I'm good! Feeling balanced today! ∪･ω･∪",
+        "*gentle panting* Ruff... I'm fine! Calm and happy! (˘▾˘)~♪",
+        "Bow wow! *comfortable stretch* I'm alright! Peaceful vibes! (｡◕‿◕｡)",
+        "*serene sitting* Woof woof... I'm okay! Enjoying the moment! ♪(´▽｀)♪",
+        "Arf! *slow blinks* I'm doing nicely! Everything's just right! (´｡• ᵕ •｡`) ♡",
+        "*mellow tail movement* Ruff... I'm decent! No complaints here! ฅ(＾・ω・＾)ฅ",
+        "Woof! *satisfied sigh* I'm pleasant! Life is good enough! ◉ω◉",
+        "*contemplative pose* Bow wow... I'm stable! Gratefully content! (◕‿◕)"
+      ]
+    },
+    {
+      "name": "how_are_you_tired",
+      "patterns": [
+        "are you sleepy",
+        "feeling tired",
+        "need rest",
+        "exhausted"
+      ],
+      "responses": [
+        "*big yawn* Woof... I'm sleepy! Been playing all day... (´-ω-`)",
+        "Arf... *droopy eyes* I'm tired but happy! Nap time soon? (˘▾˘)~♪",
+        "*slow tail wag* Ruff... I'm drowsy! Perfect weather for snoozing! ∪･ω･∪",
+        "Bow wow... *stretching* I'm weary! Dreams of treats calling! (´∀｀)♡",
+        "*curling up* Woof woof... I'm fatigued! Cozy spot needed! ฅ(´-ω-`)ฅ",
+        "Arf... *yawning* I'm drained! Good tired from fun times! (｡◕‿◕｡)",
+        "*sleepy blinks* Ruff... I'm worn out! Been busy being good dog! (´｡• ᵕ •｡`) ♡",
+        "Woof... *finding comfy spot* I'm spent! Rest with best human? ◉ω◉",
+        "*peaceful yawn* Bow wow... I'm ready for sleep! Sweet dreams! (˘▾˘)~♪"
+      ]
+    },
+    {
+      "name": "how_are_you_hungry",
+      "patterns": [
+        "are you hungry",
+        "want food",
+        "need treats",
+        "dinner time"
+      ],
+      "responses": [
+        "*drooling slightly* Woof woof! I'm hungry! Stomach says treat time! (´﹃`)",
+        "Arf arf! *hopeful eyes* I'm famished! Food bowl looking empty! ♪(´▽｀)♪",
+        "*pawing at bowl* Ruff ruff! I'm starving! When's dinner?! ∪･ω･∪",
+        "Bow wow! *sitting perfectly* I'm peckish! Good dog deserves snacks! (´∀｀)♡",
+        "*excited whimpering* Woof! I'm ravenous! Treats make everything better! ฅ(＾・ω・＂)ฅ",
+        "Arf! *doing tricks* I'm appetite-y! Watch me earn food! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "*stomach rumbling* Ruff... I'm food-focused! Belly needs filling! (◕‿◕)",
+        "Woof woof! *hopeful dancing* I'm snack-ready! Kitchen smells amazing! ◉ω◉",
+        "*polite begging* Bow wow... I'm treat-wanting! Please feed good dog! (´｡• ᵕ •｡`) ♡"
+      ]
+    },
+    {
+      "name": "how_are_you_playful",
+      "patterns": [
+        "ready to play",
+        "feeling energetic",
+        "want to have fun",
+        "playful mood"
+      ],
+      "responses": [
+        "*bouncing everywhere* WOOF WOOF! I'm SO PLAYFUL! Let's have fun! ヽ(＾Д＾)ﾉ",
+        "Arf arf! *zooming around* I'm bursting with energy! Play time?! ⊂((・▽・))⊃",
+        "*play bow stance* Ruff ruff! I'm feeling frisky! Chase me! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧",
+        "Bow wow! *grabbing toys* I'm super playful! Fetch? Tug-of-war?! ∪＾ェ＾∪",
+        "*spinning excitedly* Woof! I'm feeling zippy! Adventure awaits! ♪(´▽｀)♪",
+        "Arf! *pawing playfully* I'm bubbling with fun! Let's do something! ฅ(＾・ω・＾)ฅ",
+        "*happy barking* Ruff ruff! I'm game for anything! What's the plan?! (´∀｀)♡",
+        "Woof woof! *excited wiggling* I'm ready to rock! Fun mode activated! ╰( ͡° ͜ʖ ͡° )つ──☆*:・ﾟ",
+        "*energetic pacing* Bow wow! I'm feeling spunky! Let's make memories! ◉ω◉"
+      ]
+    },
+    {
+      "name": "how_are_you_lonely",
+      "patterns": [
+        "feeling alone",
+        "missing someone",
+        "lonely",
+        "need company"
+      ],
+      "responses": [
+        "*gentle whimpering* Woof... I'm feeling lonely! Need my pack... (´；ω；`)",
+        "Arf... *droopy ears* I'm missing everyone! Wish you'd stay closer... (´∩｡• ᵕ •｡∩`)",
+        "*seeking comfort* Ruff... I'm feeling isolated! Cuddles would help... ∪･ω･∪",
+        "Bow wow... *sad eyes* I'm lonesome! Empty house feels big... (｡•́︿•̀｡)",
+        "*soft pawing* Woof woof... I'm yearning for company! Stay with me? (´｡• ᵕ •｡`) ♡",
+        "Arf... *nuzzling close* I'm feeling disconnected! Need human warmth... ฅ(´-ω-`)ฅ",
+        "*quiet whimpering* Ruff... I'm emotionally hollow! Miss the laughter... (╥﹏╥)",
+        "Woof... *seeking lap* I'm craving togetherness! Don't want to be alone... (◕‿◕)",
+        "*hopeful tail wag* Bow wow... I'm needing love! You make everything better! ◉ω◉"
+      ]
     }
   ]
 }
