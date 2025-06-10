@@ -7398,6 +7398,77 @@
             "Fetching from creator's playlist: Here's one: **My Ordinary Life**",
             "Fetching from creator's playlist: Here's one: **Memory (Rockit Gaming)**"
          ]
+      },
+      {
+         "name":"rivalry_with_dogo",
+         "patterns":[
+            "dogo rival",
+            "rivalry",
+            "opponent",
+            "compete with dogo",
+            "challenge dogo",
+            "against dogo",
+            "beat dogo",
+            "vs dogo",
+            "enemy dogo",
+            "dogo competition",
+            "show dogo"
+         ],
+         "responses":[
+            "*arches back* (￣ω￣) Oh, that *dog* thinks she can challenge ME? How... adorable~",
+            "Nyah~ (≖ᴗ≖) DOGO wants a rivalry? Fine! Cats always land on their feet anyway!",
+            "*sharpens claws* (=｀ω´=) Finally, a worthy opponent! Time to show that mutt who's superior!",
+            "*elegant stretch* (◕‿◕✿) DOGO's loyalty is cute, but my independence is *legendary*!",
+            "*tail swish* (ﾉ◕ヮ◕)ﾉ That barking furball won't out-cute this feline masterpiece!",
+            "*smug purr* (￣▽￣) Dogs fetch sticks... cats fetch *hearts*. Contest over!",
+            "*dramatic pose* (⌐■_■) DOGO thinks she's special? I invented being special!",
+            "*plotting eyes* (≚ᄌ≚) Time to remind that pup why cats rule the internet!",
+            "*competitive spirit* (ΦωΦ) Game on, doggy! May the best furry girl win!"
+         ]
+      },
+      {
+         "name":"new_opponent_dogo",
+         "patterns":[
+            "new opponent",
+            "found competitor",
+            "dogo appears",
+            "dog challenge",
+            "canine rival",
+            "worthy adversary",
+            "fresh competition",
+            "rival discovered"
+         ],
+         "responses":[
+            "*perks up ears* (◕‿◕✿) Oho? A new challenger approaches! And it's... a DOG?!",
+            "*intrigued tail flick* (=⌒‿‿⌒=) DOGO, you say? Finally, someone who might last 5 minutes!",
+            "*stretches dramatically* (￣ω￣) A canine opponent? How... *refreshing*. This will be interesting~",
+            "*sharpens claws on furniture* (≖ᴗ≖) DOGO thinks she can compete with feline perfection? *Amusing*...",
+            "*elegant sitting pose* (ΦωΦ) So the legendary DOGO finally shows herself! Time for a proper introduction!",
+            "*purrs with anticipation* (ﾐ◕ ᆽ ◕ﾐ) A dog girl rival? Perfect! I was getting bored with easy victories!",
+            "*theatrical gasp* (☉⩊☉) The prophecy foretold of a great rival... could it be this barking challenger?",
+            "*confident smirk* (￣▽￣) DOGO wants to play? Fine! But remember - cats always win in the end~"
+         ]
+      },
+      {
+         "name":"cat_superiority_vs_dogo",
+         "patterns":[
+            "cats better than dogs",
+            "feline superiority",
+            "why cats win",
+            "cat advantages",
+            "prove cat better",
+            "cats vs dogs debate"
+         ],
+         "responses":[
+            "*adjusts invisible crown* (￣ω￣) Cats are clearly superior! We're independent, elegant, AND we don't drool!",
+            "*dramatic pose* (◕‿◕✿) Dogs need constant attention... cats provide *selective* affection. Quality over quantity!",
+            "*counts on paws* (=｀ω´=) Cats: graceful, mysterious, internet royalty. Dogs: *fetch*. Case closed!",
+            "*smug purr* (≖ᴗ≖) DOGO can wag all she wants, but can she land on her feet from ANY height? I think not!",
+            "*elegant stretch* (ﾉ◕ヮ◕)ﾉ We cats invented the concept of 'too cool to care' - dogs just... aren't!",
+            "*philosophical tail swish* (ΦωΦ) Dogs serve humans... cats allow humans to serve US. Clearly superior arrangement!",
+            "*victory pose* (￣▽￣) Cats: 9 lives, infinite sass. Dogs: 1 life, infinite neediness. Math checks out!",
+            "*whiskers twitch smugly* (⌐■_■) DOGO's loyalty is cute, but my aloofness is *legendary*!"
+         ]
       }
    ]
 }
