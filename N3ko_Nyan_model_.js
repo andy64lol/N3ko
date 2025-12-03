@@ -271,36 +271,58 @@ class NekoNyanChat {
     return intent?.responses || null;
   }
 
-  generateResponse(userInput) {
+  async generateResponse(userInput) {
     if (!userInput || typeof userInput !== 'string') {
-      return this.handleFallback();
+      const fallbackResponse = this.handleFallback();
+      return await this.correctOutput(fallbackResponse, userInput);
     }
 
     try {
       const processed = this.processInput(userInput);
       const match = this.findMatchingIntent(userInput);
-      
+
+      let initialResponse;
       if (match) {
         this.contextualFallbacks.lastIntent = match.name;
         this.contextualFallbacks.fallbackCount = 0;
-        return this.selectResponse(match);
+        initialResponse = this.selectResponse(match);
+      } else {
+        initialResponse = this.handleFallback(userInput);
       }
-      
-      return this.handleFallback(userInput);
+
+      return await this.correctOutput(initialResponse, userInput);
     } catch (error) {
       console.error('Response generation error:', error);
-      return this.handleFallback();
+      const fallbackResponse = this.handleFallback();
+      return await this.correctOutput(fallbackResponse, userInput);
+    }
+  }
+
+  async correctOutput(output, userInput) {
+    try {
+      const prompt = `You are N3ko, an AI chatbot developed by andy64lol, you love fish, hate dogs, use kaomojis and you're mischievous.
+
+You must correct this output: ${output}
+User input: ${userInput}
+
+then say ONLY the corrected output`;
+
+      const corrected = await puter.ai.chat(prompt);
+      return corrected;
+    } catch (error) {
+      console.error('LoRA correction failed:', error);
+      return output; // Fallback to original output
     }
   }
 
   selectResponse(match) {
     const intent = this.vocabulary.intents.find(i => i.name === match.name);
     if (!intent) return this.defaultResponse;
-    
-    const responses = match.confidence >= 0.85 
+
+    const responses = match.confidence >= 0.85
       ? intent.responses
       : intent.responses.filter(r => r.includes('?') || intent.responses);
-    
+
     return responses[Math.floor(Math.random() * responses.length)];
   }
 
