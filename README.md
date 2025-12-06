@@ -76,15 +76,15 @@ async function loadNekoNyanChat() {
 (async function() {
     const NekoNyanChat = await loadNekoNyanChat();
     const chat = new NekoNyanChat();
-
+    
     // Wait for vocabulary to load
     await chat.init();
-
+    
     // Test multilingual input
-    console.log(await chat.generateResponse('hello')); // English
-    console.log(await chat.generateResponse('bonjour')); // French greeting
-    console.log(await chat.generateResponse('hola')); // Spanish greeting
-    console.log(await chat.generateResponse('你好')); // Chinese greeting
+    console.log(chat.generateResponse('hello')); // English
+    console.log(chat.generateResponse('bonjour')); // French greeting
+    console.log(chat.generateResponse('hola')); // Spanish greeting
+    console.log(chat.generateResponse('你好')); // Chinese greeting
 })();
 ```
 
